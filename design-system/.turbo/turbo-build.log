@@ -1,0 +1,30 @@
+
+> design-system@0.1.0 build
+> next build
+
+   Creating an optimized production build...
+ ✓ Compiled successfully
+   Linting and checking validity of types...
+   Collecting page data...
+   Generating static pages (0/5)...
+   Generating static pages (1/5)
+
+   Generating static pages (2/5)
+
+   Generating static pages (3/5)
+
+ ✓ Generating static pages (5/5)
+   Finalizing page optimization...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    5.17 kB        84.3 kB
+└ ○ /_not-found                          878 B          80.1 kB
++ First Load JS shared by all            79.2 kB
+  ├ chunks/864-4a979332dff86894.js       26.5 kB
+  ├ chunks/fd9d1056-e4abb10dc68a7173.js  50.8 kB
+  ├ chunks/main-app-7c4f213c3c1625b3.js  221 B
+  └ chunks/webpack-5d4924d131ab7e87.js   1.64 kB
+
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
