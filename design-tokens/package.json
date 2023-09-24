@@ -1,0 +1,15 @@
+{
+  "name": "tokens",
+  "version": "1.0.1",
+  "description": "Design tokens converter",
+  "main": "build.js",
+  "scripts": {
+    "test": "style-dictionary build",
+    "build": "node build.js"
+  },
+  "author": "Federico Kratter Thaler",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
+}
