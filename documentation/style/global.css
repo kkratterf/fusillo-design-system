@@ -1,0 +1,31 @@
+@import '../../design-tokens/build/primitive/primitive.css';
+@import '../../design-tokens/build/semantic/light.css';
+
+:root {
+  --nextra-primary-hue: 120deg !important;
+  --nextra-primary-saturation: 45% !important;
+}
+
+body {
+  font-family: var(--font-family-font-serif);
+}
+
+.nx-px-2 {
+  padding: 0.355rem 1rem;
+}
+
+.nx-rounded {
+  border-radius: var(--light-border-radius);
+  -webkit-border-radius: var(--light-border-radius);
+  -moz-border-radius: var(--light-border-radius);
+  -ms-border-radius: var(--light-border-radius);
+  -o-border-radius: var(--light-border-radius);
+}
+
+.nx-rounded-lg {
+ border-radius: var(--light-border-radius);
+ -webkit-border-radius: var(--light-border-radius);
+ -moz-border-radius: var(--light-border-radius);
+ -ms-border-radius: var(--light-border-radius);
+ -o-border-radius: var(--light-border-radius);
+}
