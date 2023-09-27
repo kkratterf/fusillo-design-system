@@ -20,6 +20,7 @@ jobs:
 
     - name: Install Dependencies
       run: npm install
+      working-directory: fusillo-design-system/design-tokens
 
     - name: Build Design Tokens
-      run: npm run build --prefix design-tokens # Esegui il comando nella cartella design-token
+      run: npm run build
