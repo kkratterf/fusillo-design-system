@@ -22,10 +22,17 @@ jobs:
     - run: npm run build
       working-directory: ./design-tokens
 
-    - run: git commit -m "Token Update"
+    - name: Configure Git Identity
+      run: |
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+
+    - name: Making the commit
+      run: git commit -m "Token Update"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - run: git push origin main
+    - name: Pushing to main
+      run: git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
