@@ -23,7 +23,7 @@ jobs:
       working-directory: ./design-tokens
 
     - name: Commit and Push Changes
-    - run: |
+      run: |
         git config user.name "kkratterf"
         git config user.email "kkratterf@gmail.com"
         git add .
