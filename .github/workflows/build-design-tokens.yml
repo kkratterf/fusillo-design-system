@@ -31,5 +31,3 @@ jobs:
         commit_user_email: kkrattef@gmail.com
         repository: .
         push_options: '--force'
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
