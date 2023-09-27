@@ -26,4 +26,10 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Update Tokens"
-        token: ${{ secrets.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 }}
+        branch: main
+        commit_user_name: Fusillo Bot
+        commit_user_email: kkrattef@gmail.com
+        repository: .
+        push_options: '--force'
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
