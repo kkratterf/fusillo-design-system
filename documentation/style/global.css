@@ -1,9 +1,10 @@
-@import '../../design-tokens/build/primitive/primitive.css';
-@import '../../design-tokens/build/semantic/light.css';
+@import '../../design-tokens/export/primitive.css';
+@import '../../design-tokens/export/semantic-light.css';
+@import '../../design-tokens/export/brand.css';
 
 :root {
-  --nextra-primary-hue: 120deg !important;
-  --nextra-primary-saturation: 45% !important;
+  --nextra-primary-hue: var(--brand-hue);
+  --nextra-primary-saturation: var(--brand-hue);
 }
 
 body {

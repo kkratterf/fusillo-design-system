@@ -1,7 +1,7 @@
-import '../design-tokens/build/config/config.css';
+import * as logo from '../design-tokens/export/config.js';
 
 export default {
-  logo: <span>Fusillo Design System</span>,
+  logo: <span>{logo.ConfigName}</span>,
   project: {
     link: 'https://github.com/shuding/nextra',
   },

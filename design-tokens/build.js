@@ -11,15 +11,15 @@ const stylePrimitive = StyleDictionary.extend({
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'build/primitive/',
+      buildPath: 'export/',
       files: [
         {
           destination: 'primitive.css',
           filter: 'primitiveFilter',
           format: 'primitiveFormat',
-          options: {
-            outputReferences: true,
-          },
+//         options: {
+//            outputReferences: true,
+//          },
         },
       ],
     },
@@ -64,10 +64,10 @@ const styleSemanticLight = StyleDictionary.extend({
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'build/semantic/',
+      buildPath: 'export/',
       files: [
         {
-          destination: 'light.css',
+          destination: 'semantic-light.css',
           filter: 'semanticLightFilter',
           format: 'semanticLightFormat',
         },
@@ -116,10 +116,10 @@ const styleSemanticDark = StyleDictionary.extend({
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'build/semantic/',
+      buildPath: 'export/',
       files: [
         {
-          destination: 'dark.css',
+          destination: 'semantic-dark.css',
           filter: 'semanticDarkFilter',
           format: 'semanticDarkFormat',
         },
@@ -168,7 +168,7 @@ const styleComponent = StyleDictionary.extend({
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'build/component/',
+      buildPath: 'export/',
       files: [
         {
           destination: 'component.css',
@@ -219,13 +219,13 @@ const styleConfig = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
     css: {
-      transformGroup: 'css',
-      buildPath: 'build/config/',
+      transformGroup: 'js',
+      buildPath: 'export/',
       files: [
         {
-          destination: 'config.css',
+          destination: 'config.js',
           filter: 'configFilter',
-          format: 'configFormat',
+          format: 'javascript/module-flat',
         },
       ],
     },
@@ -237,25 +237,91 @@ styleConfig.registerFilter({
     return token.path.includes('Config');
   },
 });
-styleConfig.registerFormat({
-  name: 'configFormat',
-  formatter: function ({ dictionary, file, options }) {
-    const { outputReferences } = options;
+styleConfig.buildAllPlatforms();
 
-    const formattedTokens = `${fileHeader({
-      file,
-    })}:root {\n${formattedVariables({
-      format: 'css',
-      dictionary,
-      outputReferences,
-    })}\n}`;
 
-    const modifiedTokens = formattedTokens.replace(
-      /config-/g,
-      ''
-    );
 
-    return modifiedTokens;
+
+// BRAND TOKEN
+
+const styleBrand = StyleDictionary.extend({
+  source: ['tokens/**/*.json'],
+  platforms: {
+    css: {
+      transformGroup: 'css',
+      buildPath: 'export/',
+      files: [
+        {
+          destination: 'brand.css',
+          filter: 'brandFilter',
+          format: 'brandFormat',
+        },
+      ],
+    },
   },
 });
-styleConfig.buildAllPlatforms();
+styleBrand.registerFilter({
+  name: 'brandFilter',
+  matcher: function (token) {
+    return token.path.includes('brand-500');
+  },
+});
+styleBrand.registerFormat({
+  name: 'brandFormat',
+  formatter: function ({ dictionary }) {
+    const brandTokens = dictionary.allProperties;
+    let cssVariables = '';
+
+    brandTokens.forEach((token) => {
+      const hslValue = hexToHSL(token.value);
+      const brandName = token.name.replace(
+        /01-primitive-token-color-brand-brand-500/g,
+        'brand'
+      );
+      cssVariables += `--${brandName}-hue: ${hslValue.h}deg;\n`;
+      cssVariables += `--${brandName}-saturation: ${hslValue.s}%;\n`;
+    });
+
+    return `:root {\n${cssVariables}}`;
+  },
+});
+styleBrand.buildAllPlatforms();
+
+
+// Funzione per convertire un valore esadecimale (hex) in HSL
+function hexToHSL(hex) {
+  hex = hex.replace(/^#/, ''); // Rimuovi il carattere "#"
+  const r = parseInt(hex.slice(0, 2), 16) / 255;
+  const g = parseInt(hex.slice(2, 4), 16) / 255;
+  const b = parseInt(hex.slice(4, 6), 16) / 255;
+
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  const lightness = (max + min) / 2;
+
+  let hue = 0;
+  let saturation = 0;
+
+  if (max !== min) {
+    const delta = max - min;
+    saturation = lightness > 0.5 ? delta / (2 - max - min) : delta / (max + min);
+
+    switch (max) {
+      case r:
+        hue = ((g - b) / delta + (g < b ? 6 : 0)) * 60;
+        break;
+      case g:
+        hue = ((b - r) / delta + 2) * 60;
+        break;
+      case b:
+        hue = ((r - g) / delta + 4) * 60;
+        break;
+    }
+  }
+
+  return {
+    h: Math.round(hue),
+    s: Math.round(saturation * 100),
+    l: Math.round(lightness * 100),
+  };
+}
