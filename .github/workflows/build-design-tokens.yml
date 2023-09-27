@@ -24,8 +24,8 @@ jobs:
 
     - name: Configure Git Identity
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "kkratterf@gmail.com"
+        git config --global user.name "kkratterf"
 
     - name: Making the commit
       run: git commit -m "Token Update"
