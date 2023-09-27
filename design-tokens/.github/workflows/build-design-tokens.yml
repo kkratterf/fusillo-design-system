@@ -3,7 +3,7 @@ name: Build Design Tokens
 on:
   push:
     paths:
-      - 'fusillo-design-system/design-tokens/**'
+      - 'design-tokens/**'
 
 jobs:
   build:
