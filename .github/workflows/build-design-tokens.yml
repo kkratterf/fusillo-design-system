@@ -22,14 +22,10 @@ jobs:
     - run: npm run build
       working-directory: ./design-tokens
 
-    - name: Commit and Push Changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: "Update Tokens"
-        branch: main
-        commit_user_name: kkratterf
-        commit_user_email: kkrattef@gmail.com
-        repository: .
-        push_options: '--force'
+    - run: git commit -m "Token Update"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - run: git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
