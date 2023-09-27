@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 15:08:44 GMT
+ * Generated on Wed, 27 Sep 2023 20:07:37 GMT
  */
 
 :root {
@@ -17,7 +17,7 @@
   --light-background-neutral-bg-interactive-disabled: #ffffff;
   --light-background-neutral-bg-container-disabled: #f1f5f9;
   --light-background-brand-bg-brand: #2563eb;
-  --light-background-brand-bg-brand-hover: #4dff7f;
+  --light-background-brand-bg-brand-hover: #ffb84d;
   --light-background-brand-bg-brand-active: #1d4ed8;
   --light-background-brand-bg-brand-light: #eff6ff;
   --light-background-brand-bg-brand-light-hover: #dbeafe;
@@ -49,7 +49,7 @@
   --light-border-neutral-border-primary: #e2e8f0;
   --light-border-neutral-border-secondary: #f1f5f9;
   --light-border-brand-border-brand: #2563eb;
-  --light-border-brand-border-brand-hover: #4dff7f;
+  --light-border-brand-border-brand-hover: #ffb84d;
   --light-border-brand-border-brand-light: #93c5fd;
   --light-border-brand-border-brand-light-hover: #60a5fa;
   --light-border-brand-border-brand-active: #1d4ed8;
@@ -85,7 +85,7 @@
   --light-text-neutral-text-placeholder: #64748b;
   --light-text-neutral-text-inverse: #ffffff;
   --light-text-brand-text-brand: #2563eb;
-  --light-text-brand-text-brand-hover: #4dff7f;
+  --light-text-brand-text-brand-hover: #ffb84d;
   --light-text-brand-text-brand-active: #1d4ed8;
   --light-text-brand-text-brand-inverse: #f8fafc;
   --light-text-danger-text-danger: #dc2626;
@@ -113,7 +113,7 @@
   --light-icon-neutral-icon-active: #ffffff;
   --light-icon-neutral-icon-disabled: #ffffff;
   --light-icon-brand-icon-brand: #2563eb;
-  --light-icon-brand-icon-brand-hover: #4dff7f;
+  --light-icon-brand-icon-brand-hover: #ffb84d;
   --light-icon-brand-icon-brand-active: #1d4ed8;
   --light-icon-brand-icon-brand-disabled: #eff6ff;
   --light-icon-danger-icon-danger: #dc2626;

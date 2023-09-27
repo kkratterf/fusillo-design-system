@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 15:08:45 GMT
+ * Generated on Wed, 27 Sep 2023 20:07:37 GMT
  */
 
 :root {
@@ -17,7 +17,7 @@
   --dark-background-neutral-bg-interactive-disabled: #ffffff;
   --dark-background-neutral-bg-container-disabled: #475569;
   --dark-background-brand-bg-brand: #60a5fa;
-  --dark-background-brand-bg-brand-hover: #4dff7f;
+  --dark-background-brand-bg-brand-hover: #ffb84d;
   --dark-background-brand-bg-brand-active: #93c5fd;
   --dark-background-brand-bg-brand-light: #172554;
   --dark-background-brand-bg-brand-light-hover: #1e3a8a;
@@ -49,7 +49,7 @@
   --dark-border-neutral-border-primary: #334155;
   --dark-border-neutral-border-secondary: #1e293b;
   --dark-border-brand-border-brand: #60a5fa;
-  --dark-border-brand-border-brand-hover: #4dff7f;
+  --dark-border-brand-border-brand-hover: #ffb84d;
   --dark-border-brand-border-brand-light: #1d4ed8;
   --dark-border-brand-border-brand-light-hover: #2563eb;
   --dark-border-brand-border-brand-active: #93c5fd;
@@ -85,7 +85,7 @@
   --dark-text-neutral-text-placeholder: #64748b;
   --dark-text-neutral-text-inverse: #020617;
   --dark-text-brand-text-brand: #60a5fa;
-  --dark-text-brand-text-brand-hover: #4dff7f;
+  --dark-text-brand-text-brand-hover: #ffb84d;
   --dark-text-brand-text-brand-active: #93c5fd;
   --dark-text-brand-text-brand-inverse: #f8fafc;
   --dark-text-danger-text-danger: #f87171;
@@ -113,7 +113,7 @@
   --dark-icon-neutral-icon-active: #ffffff;
   --dark-icon-neutral-icon-disabled: #ffffff;
   --dark-icon-brand-icon-brand: #60a5fa;
-  --dark-icon-brand-icon-brand-hover: #4dff7f;
+  --dark-icon-brand-icon-brand-hover: #ffb84d;
   --dark-icon-brand-icon-brand-active: #93c5fd;
   --dark-icon-brand-icon-brand-disabled: #172554;
   --dark-icon-danger-icon-danger: #f87171;
