@@ -28,7 +28,7 @@ jobs:
         git config --global user.name "kkratterf"
 
     - name: Making the commit
-      run: git commit -a
+      run: git commit -am "Token Update"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
