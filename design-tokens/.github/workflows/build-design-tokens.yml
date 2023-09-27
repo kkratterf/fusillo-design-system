@@ -3,7 +3,7 @@ name: Build Design Tokens
 on:
   push:
     paths:
-      - 'design-token/**' # Esegui l'azione solo quando ci sono commit nella cartella design-token
+      - 'fusillo-design-system/design-tokens/**'
 
 jobs:
   build:
@@ -16,10 +16,10 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14' # Usa la versione di Node.js richiesta dal tuo progetto
+        node-version: '18'
 
     - name: Install Dependencies
       run: npm install
 
     - name: Build Design Tokens
-      run: npm run build --prefix design-token # Esegui il comando nella cartella design-token
+      run: npm run build --prefix design-tokens # Esegui il comando nella cartella design-token
