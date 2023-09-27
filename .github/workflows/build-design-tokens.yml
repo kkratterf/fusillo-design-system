@@ -27,7 +27,7 @@ jobs:
       with:
         commit_message: "Update Tokens"
         branch: main
-        commit_user_name: Fusillo Bot
+        commit_user_name: kkratterf
         commit_user_email: kkrattef@gmail.com
         repository: .
         push_options: '--force'
