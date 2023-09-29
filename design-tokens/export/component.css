@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Sep 2023 20:10:04 GMT
+ * Generated on Fri, 29 Sep 2023 08:20:18 GMT
  */
 
 :root {
-  --button-primary-button-bg-primary: #ffffff;
+  --button-primary-button-bg-primary: #2563eb;
   --button-primary-button-size-height-sm: 0px;
-  --button-primary-button-bg-secondary: #ffffff;
-  --button-primary-button-border-secondary: #ffffff;
+  --button-primary-button-bg-secondary: #dc2626;
+  --button-primary-button-border-secondary: #16a34a;
 }
