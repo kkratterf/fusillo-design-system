@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://fusillo-design-system.vercel.app/',
   footer: {
     text: 'Nextra Docs Template',
   },
