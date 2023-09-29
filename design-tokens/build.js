@@ -97,7 +97,7 @@ styleSemanticLight.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens.replace(
-      /02-semantic-token-|color-/g,
+      /02-semantic-token-|color-|light-/g,
       ''
     );
 
@@ -149,7 +149,7 @@ styleSemanticDark.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens.replace(
-      /02-semantic-token-|color-/g,
+      /02-semantic-token-|color-|dark-/g,
       ''
     );
 

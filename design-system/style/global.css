@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-@import '../../design-tokens/build/primitive/primitive.css';
+
+@import '../../design-tokens/export/primitive.css';
 
 @layer base {
   :root {
