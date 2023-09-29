@@ -7,8 +7,15 @@
   --nextra-primary-saturation: var(--brand-hue);
 }
 
+/*
 body {
   font-family: var(--font-family-font-serif);
+}
+*/
+
+.logo {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .nx-px-2 {
