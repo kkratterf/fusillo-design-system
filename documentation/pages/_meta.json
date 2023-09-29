@@ -2,9 +2,7 @@
   "index": "Get started",
   "brand": "Brand",
   "foundations": "Foundations",
-  "---": {
-    "type": "separator"
-  },
+  
   "tokens": "Tokens",
   "components": "Components",
   "advanced": "Advanced (A Folder)",

@@ -1,34 +1,41 @@
 
-> nextra-docs-template@0.0.1 build
+> nextra-docs-template@1.0.1 build
 > next build
 
    Linting and checking validity of types...
    Creating an optimized production build...
  ✓ Compiled successfully
    Collecting page data...
-   Generating static pages (0/7)...
-   Generating static pages (1/7)
+   Generating static pages (0/12)...
+   Generating static pages (3/12)
 
-   Generating static pages (3/7)
+   Generating static pages (6/12)
 
-   Generating static pages (5/7)
+   Generating static pages (9/12)
 
- ✓ Generating static pages (7/7)
+ ✓ Generating static pages (12/12)
    Finalizing page optimization...
 
 Route (pages)                              Size     First Load JS
-┌ ○ / (877 ms)                             1.13 kB         189 kB
-├ ○ /404                                   181 B          82.8 kB
-├ ○ /about (863 ms)                        882 B           189 kB
-├ ○ /advanced (865 ms)                     880 B           189 kB
-├ ○ /advanced/satori (871 ms)              927 B           189 kB
-└ ○ /another (887 ms)                      1.36 kB         189 kB
-    └ css/a0786626dbb3c2b6.css             103 B
-+ First Load JS shared by all              82.6 kB
+┌ ○ /                                      820 B           190 kB
+├   /_app                                  0 B             185 kB
+├ ○ /404                                   181 B           185 kB
+├ ○ /about                                 816 B           190 kB
+├ ○ /advanced (657 ms)                     814 B           190 kB
+├ ○ /advanced/satori                       860 B           190 kB
+├ ○ /another                               1.29 kB         190 kB
+├   └ css/a0786626dbb3c2b6.css             103 B
+├ ○ /brand (656 ms)                        533 B           189 kB
+├ ○ /components                            533 B           189 kB
+├ ○ /components/button                     572 B           189 kB
+├ ○ /foundations (662 ms)                  538 B           189 kB
+└ ○ /tokens                                471 B           189 kB
++ First Load JS shared by all              201 kB
   ├ chunks/framework-66d32731bdd20e83.js   45.2 kB
   ├ chunks/main-25ea56493abba4b5.js        36.2 kB
-  ├ chunks/pages/_app-17d19c65739e24e7.js  195 B
-  └ chunks/webpack-6efcf3b4cfe438c7.js     1.03 kB
+  ├ chunks/pages/_app-f013d7a4f48ef145.js  103 kB
+  ├ chunks/webpack-6efcf3b4cfe438c7.js     1.03 kB
+  └ css/1d17410100e2985b.css               16 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
