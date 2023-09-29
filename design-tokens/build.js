@@ -4,9 +4,9 @@ const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 
 
 
-// PRIMITIVE TOKEN
+// FOUNDATIONS
 
-const stylePrimitive = StyleDictionary.extend({
+const styleFoundations = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
     css: {
@@ -14,9 +14,9 @@ const stylePrimitive = StyleDictionary.extend({
       buildPath: 'export/',
       files: [
         {
-          destination: 'primitive.css',
-          filter: 'primitiveFilter',
-          format: 'primitiveFormat',
+          destination: 'foundations.css',
+          filter: 'foundationsFilter',
+          format: 'foundationsFormat',
 //         options: {
 //            outputReferences: true,
 //          },
@@ -25,14 +25,14 @@ const stylePrimitive = StyleDictionary.extend({
     },
   },
 });
-stylePrimitive.registerFilter({
-  name: 'primitiveFilter',
+styleFoundations.registerFilter({
+  name: 'foundationsFilter',
   matcher: function (token) {
-    return token.path.includes('01 - Primitive Token');
+    return token.path.includes('Foundations');
   },
 });
-stylePrimitive.registerFormat({
-  name: 'primitiveFormat',
+styleFoundations.registerFormat({
+  name: 'foundationsFormat',
   formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
 
@@ -45,21 +45,21 @@ stylePrimitive.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens.replace(
-      /01-primitive-token-|color-|typography-/g,
+      /foundations-|color-|typography-/g,
       ''
     );
 
     return modifiedTokens;
   },
 });
-stylePrimitive.buildAllPlatforms();
+styleFoundations.buildAllPlatforms();
 
 
 
 
-// SEMANTIC LIGHT TOKEN
+// TOKENS LIGHT
 
-const styleSemanticLight = StyleDictionary.extend({
+const styleTokensLight = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
     css: {
@@ -67,24 +67,24 @@ const styleSemanticLight = StyleDictionary.extend({
       buildPath: 'export/',
       files: [
         {
-          destination: 'semantic-light.css',
-          filter: 'semanticLightFilter',
-          format: 'semanticLightFormat',
+          destination: 'tokens-light.css',
+          filter: 'tokensLightFilter',
+          format: 'tokensLightFormat',
         },
       ],
     },
   },
 });
-styleSemanticLight.registerFilter({
-  name: 'semanticLightFilter',
+styleTokensLight.registerFilter({
+  name: 'tokensLightFilter',
   matcher: function (token) {
     return (
-      token.path.includes('02 - Semantic Token') && token.path.includes('Light')
+      token.path.includes('Tokens') && token.path.includes('Light')
     );
   },
 });
-styleSemanticLight.registerFormat({
-  name: 'semanticLightFormat',
+styleTokensLight.registerFormat({
+  name: 'tokensLightFormat',
   formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
 
@@ -97,21 +97,21 @@ styleSemanticLight.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens.replace(
-      /02-semantic-token-|color-|light-/g,
+      /tokens-|color-|light-/g,
       ''
     );
 
     return modifiedTokens;
   },
 });
-styleSemanticLight.buildAllPlatforms();
+styleTokensLight.buildAllPlatforms();
 
 
 
 
-// SEMANTIC DARK TOKEN
+// TOKENS DARK
 
-const styleSemanticDark = StyleDictionary.extend({
+const styleTokensDark = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
     css: {
@@ -119,24 +119,24 @@ const styleSemanticDark = StyleDictionary.extend({
       buildPath: 'export/',
       files: [
         {
-          destination: 'semantic-dark.css',
-          filter: 'semanticDarkFilter',
-          format: 'semanticDarkFormat',
+          destination: 'tokens-dark.css',
+          filter: 'tokensDarkFilter',
+          format: 'tokensDarkFormat',
         },
       ],
     },
   },
 });
-styleSemanticDark.registerFilter({
-  name: 'semanticDarkFilter',
+styleTokensDark.registerFilter({
+  name: 'tokensDarkFilter',
   matcher: function (token) {
     return (
-      token.path.includes('02 - Semantic Token') && token.path.includes('Dark')
+      token.path.includes('Tokens') && token.path.includes('Dark')
     );
   },
 });
-styleSemanticDark.registerFormat({
-  name: 'semanticDarkFormat',
+styleTokensDark.registerFormat({
+  name: 'tokensDarkFormat',
   formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
 
@@ -149,66 +149,14 @@ styleSemanticDark.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens.replace(
-      /02-semantic-token-|color-|dark-/g,
+      /tokens-|color-|dark-/g,
       ''
     );
 
     return modifiedTokens;
   },
 });
-styleSemanticDark.buildAllPlatforms();
-
-
-
-
-// COMPONENT TOKEN
-
-const styleComponent = StyleDictionary.extend({
-  source: ['tokens/**/*.json'],
-  platforms: {
-    css: {
-      transformGroup: 'css',
-      buildPath: 'export/',
-      files: [
-        {
-          destination: 'component.css',
-          filter: 'componentFilter',
-          format: 'componentFormat',
-        },
-      ],
-    },
-  },
-});
-styleComponent.registerFilter({
-  name: 'componentFilter',
-  matcher: function (token) {
-    return (
-      token.path.includes('03 - Component Token')
-    );
-  },
-});
-styleComponent.registerFormat({
-  name: 'componentFormat',
-  formatter: function ({ dictionary, file, options }) {
-    const { outputReferences } = options;
-
-    const formattedTokens = `${fileHeader({
-      file,
-    })}:root {\n${formattedVariables({
-      format: 'css',
-      dictionary,
-      outputReferences,
-    })}\n}`;
-
-    const modifiedTokens = formattedTokens.replace(
-      /03-component-token-|color-/g,
-      ''
-    );
-
-    return modifiedTokens;
-  },
-});
-styleComponent.buildAllPlatforms();
+styleTokensDark.buildAllPlatforms();
 
 
 
@@ -275,7 +223,7 @@ styleBrand.registerFormat({
     brandTokens.forEach((token) => {
       const hslValue = hexToHSL(token.value);
       const brandName = token.name.replace(
-        /01-primitive-token-color-brand-brand-500/g,
+        /foundations-color-brand-brand-500/g,
         'brand'
       );
       cssVariables += `--${brandName}-hue: ${hslValue.h}deg;\n`;

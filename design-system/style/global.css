@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../../design-tokens/export/primitive.css';
+@import '../../design-tokens/export/foundations.css';
 
 @layer base {
   :root {

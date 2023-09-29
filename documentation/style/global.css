@@ -1,5 +1,5 @@
-@import '../../design-tokens/export/primitive.css';
-@import '../../design-tokens/export/semantic-light.css';
+@import '../../design-tokens/export/foundations.css';
+@import '../../design-tokens/export/tokens-light.css';
 @import '../../design-tokens/export/brand.css';
 
 :root {
@@ -16,17 +16,17 @@ body {
 }
 
 .nx-rounded {
-  border-radius: var(--light-border-radius);
-  -webkit-border-radius: var(--light-border-radius);
-  -moz-border-radius: var(--light-border-radius);
-  -ms-border-radius: var(--light-border-radius);
-  -o-border-radius: var(--light-border-radius);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
 }
 
 .nx-rounded-lg {
- border-radius: var(--light-border-radius);
- -webkit-border-radius: var(--light-border-radius);
- -moz-border-radius: var(--light-border-radius);
- -ms-border-radius: var(--light-border-radius);
- -o-border-radius: var(--light-border-radius);
+ border-radius: var(--border-radius);
+ -webkit-border-radius: var(--border-radius);
+ -moz-border-radius: var(--border-radius);
+ -ms-border-radius: var(--border-radius);
+ -o-border-radius: var(--border-radius);
 }
