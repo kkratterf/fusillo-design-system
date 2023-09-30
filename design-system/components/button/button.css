@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .button-default {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90;
+  }
+
+}
