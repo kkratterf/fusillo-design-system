@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 09 Oct 2023 20:10:09 GMT
+ * Generated on Mon, 09 Oct 2023 20:14:02 GMT
  */
 
 :root {
@@ -17,7 +17,7 @@
   --background-neutral-bg-interactive-disabled: #ffffff;
   --background-neutral-bg-container-disabled: #475569;
   --background-brand-bg-brand: #60a5fa;
-  --background-brand-bg-brand-hover: #60f63b;
+  --background-brand-bg-brand-hover: #3b82f6;
   --background-brand-bg-brand-active: #93c5fd;
   --background-brand-bg-brand-light: #172554;
   --background-brand-bg-brand-light-hover: #1e3a8a;
@@ -49,7 +49,7 @@
   --border-neutral-border-primary: #334155;
   --border-neutral-border-secondary: #1e293b;
   --border-brand-border-brand: #60a5fa;
-  --border-brand-border-brand-hover: #60f63b;
+  --border-brand-border-brand-hover: #3b82f6;
   --border-brand-border-brand-light: #1d4ed8;
   --border-brand-border-brand-light-hover: #2563eb;
   --border-brand-border-brand-active: #93c5fd;
@@ -85,7 +85,7 @@
   --text-neutral-text-placeholder: #64748b;
   --text-neutral-text-inverse: #020617;
   --text-brand-text-brand: #60a5fa;
-  --text-brand-text-brand-hover: #60f63b;
+  --text-brand-text-brand-hover: #3b82f6;
   --text-brand-text-brand-active: #93c5fd;
   --text-brand-text-brand-inverse: #f8fafc;
   --text-danger-text-danger: #f87171;
@@ -113,7 +113,7 @@
   --icon-neutral-icon-active: #ffffff;
   --icon-neutral-icon-disabled: #ffffff;
   --icon-brand-icon-brand: #60a5fa;
-  --icon-brand-icon-brand-hover: #60f63b;
+  --icon-brand-icon-brand-hover: #3b82f6;
   --icon-brand-icon-brand-active: #93c5fd;
   --icon-brand-icon-brand-disabled: #172554;
   --icon-danger-icon-danger: #f87171;
