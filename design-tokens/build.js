@@ -4,7 +4,7 @@ const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 
 
 
-// FOUNDATIONS
+// FOUNDATIONS CSS
 
 const styleFoundations = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
@@ -17,9 +17,19 @@ const styleFoundations = StyleDictionary.extend({
           destination: 'foundations.css',
           filter: 'foundationsFilter',
           format: 'foundationsFormat',
-//         options: {
-//            outputReferences: true,
-//          },
+          //         options: {
+          //            outputReferences: true,
+          //          },
+        },
+      ],
+    },
+    custom: {
+      transformGroup: 'custom-array',
+      buildPath: 'export/',
+      files: [
+        {
+          destination: 'foundations.json',
+          format: 'json/flat',
         },
       ],
     },
@@ -52,7 +62,57 @@ styleFoundations.registerFormat({
     return modifiedTokens;
   },
 });
+styleFoundations.registerTransformGroup({
+  name: 'custom-array',
+  transforms: ['attribute/cti', 'name/ti/camel'],
+});
 styleFoundations.buildAllPlatforms();
+
+
+
+
+
+// FOUNDATIONS JSON
+
+const styleFoundationsJson = StyleDictionary.extend({
+  source: ['tokens/**/*.json'],
+  platforms: {
+    custom: {
+      transformGroup: 'foundationsJsonTransformGroup',
+      buildPath: 'export/',
+      files: [
+        {
+          destination: 'foundations.json',
+          filter: 'foundationsJsonFilter',
+          format: 'json/flat',
+        },
+      ],
+    },
+    js: {
+      transformGroup: 'js',
+      buildPath: 'export/',
+      files: [
+        {
+          format: 'javascript/module',
+          destination: 'foundations.js',
+          filter: 'foundationsJsonFilter',
+        },
+      ],
+    },
+  },
+});
+styleFoundationsJson.registerFilter({
+  name: 'foundationsJsonFilter',
+  matcher: function (token) {
+    return token.path.includes('Foundations') && token.type === 'color';
+  },
+});
+styleFoundationsJson.registerTransformGroup({
+  name: 'foundationsJsonTransformGroup',
+  transforms: ['attribute/cti', 'name/ti/camel'],
+});
+styleFoundationsJson.buildAllPlatforms();
+
 
 
 

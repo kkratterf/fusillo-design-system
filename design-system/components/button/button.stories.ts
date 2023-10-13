@@ -29,3 +29,24 @@ export const Default: Story = {
     size: 'default',
   },
 };
+
+export const Destructive: Story = {
+  args: {
+    variant: 'destructive',
+    size: 'default',
+  },
+};
+
+export const Outline: Story = {
+  args: {
+    variant: 'outline',
+    size: 'default',
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    variant: 'secondary',
+    size: 'default',
+  },
+};
