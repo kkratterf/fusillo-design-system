@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 13 Oct 2023 20:55:09 GMT
+ * Generated on Fri, 13 Oct 2023 20:56:49 GMT
  */
 
 module.exports = {
@@ -850,7 +850,7 @@ module.exports = {
         },
         "brand-500": {
           "type": "color",
-          "value": "#3b82f6",
+          "value": "#a4f63b",
           "description": "",
           "$extensions": {
             "variableId": "VariableID:2:48"
@@ -859,7 +859,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-500}",
+            "value": "#a4f63b",
             "description": "",
             "$extensions": {
               "variableId": "VariableID:2:48"
