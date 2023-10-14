@@ -11,10 +11,7 @@ export default {
     };
   },
   footer: {
-    text: (
-      <span> © {logo.ConfigName} | 2024
-      </span>
-    ),
+    component: null,
   },
   editLink: {
     text: null,
