@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Oct 2023 19:35:59 GMT
+ * Generated on Sat, 14 Oct 2023 19:53:44 GMT
  */
 
 module.exports = {
@@ -691,7 +691,7 @@ module.exports = {
             "neutral-950"
           ]
         },
-        "neutral-0": {
+        "neutral-00": {
           "type": "color",
           "value": "#ffffff",
           "description": "",
@@ -708,18 +708,18 @@ module.exports = {
               "variableId": "VariableID:457:1980"
             }
           },
-          "name": "FoundationsColorNeutralNeutral0",
+          "name": "FoundationsColorNeutralNeutral00",
           "attributes": {
             "category": "Foundations",
             "type": "Color",
             "item": "Neutral",
-            "subitem": "neutral-0"
+            "subitem": "neutral-00"
           },
           "path": [
             "Foundations",
             "Color",
             "Neutral",
-            "neutral-0"
+            "neutral-00"
           ]
         },
         "neutral-1000": {

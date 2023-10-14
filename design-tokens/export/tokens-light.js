@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Oct 2023 19:35:59 GMT
+ * Generated on Sat, 14 Oct 2023 19:53:44 GMT
  */
 
 module.exports = {
@@ -54,7 +54,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:72:39"
@@ -88,7 +88,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:117"
@@ -2738,7 +2738,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:33"
@@ -2876,7 +2876,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:295"
@@ -3014,7 +3014,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:296"
@@ -3152,7 +3152,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:298"
@@ -3290,7 +3290,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:297"
@@ -3428,7 +3428,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:299"
@@ -3566,7 +3566,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-00}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:695"
