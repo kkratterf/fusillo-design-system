@@ -1,21 +1,21 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Oct 2023 19:30:46 GMT
+ * Generated on Sat, 14 Oct 2023 19:31:52 GMT
  */
 
 :root {
-  --background-neutral-bg-layout: #f1f5f9;
+  --background-neutral-bg-layout: #f4f4f5;
   --background-neutral-bg-elevated: #ffffff;
   --background-neutral-bg-container: #ffffff;
   --background-neutral-bg-spotlight: #ffffff;
   --background-neutral-bg-mask: #ffffff;
   --background-neutral-bg-interactive: #ffffff;
-  --background-neutral-bg-container-subdued: #f8fafc;
+  --background-neutral-bg-container-subdued: #fafafa;
   --background-neutral-bg-interactive-hover: #ffffff;
   --background-neutral-bg-interactive-active: #ffffff;
   --background-neutral-bg-interactive-active-hover: #ffffff;
   --background-neutral-bg-interactive-disabled: #ffffff;
-  --background-neutral-bg-container-disabled: #f1f5f9;
+  --background-neutral-bg-container-disabled: #f4f4f5;
   --background-brand-bg-brand: #2563eb;
   --background-brand-bg-brand-hover: #3b82f6;
   --background-brand-bg-brand-active: #1d4ed8;
@@ -46,8 +46,8 @@
   --background-discovery-bg-discovery-active: #6d28d9;
   --background-discovery-bg-discovery-light: #f5f3ff;
   --background-discovery-bg-discovery-hover: #ede9fe;
-  --border-neutral-border-primary: #e2e8f0;
-  --border-neutral-border-secondary: #f1f5f9;
+  --border-neutral-border-primary: #e4e4e7;
+  --border-neutral-border-secondary: #f4f4f5;
   --border-brand-border-brand: #2563eb;
   --border-brand-border-brand-hover: #3b82f6;
   --border-brand-border-brand-light: #93c5fd;
@@ -78,36 +78,36 @@
   --border-discovery-border-discovery-active: #6d28d9;
   --border-discovery-border-discovery-light: #c4b5fd;
   --border-discovery-border-discovery-hover: #a78bfa;
-  --text-neutral-text-description: #475569;
-  --text-neutral-text-heading: #1e293b;
-  --text-neutral-text-disabled: #cbd5e1;
-  --text-neutral-text: #1e293b;
-  --text-neutral-text-placeholder: #64748b;
+  --text-neutral-text-description: #52525b;
+  --text-neutral-text-heading: #27272a;
+  --text-neutral-text-disabled: #d4d4d8;
+  --text-neutral-text: #27272a;
+  --text-neutral-text-placeholder: #71717a;
   --text-neutral-text-inverse: #ffffff;
   --text-brand-text-brand: #2563eb;
   --text-brand-text-brand-hover: #3b82f6;
   --text-brand-text-brand-active: #1d4ed8;
-  --text-brand-text-brand-inverse: #f8fafc;
+  --text-brand-text-brand-inverse: #ffffff;
   --text-danger-text-danger: #dc2626;
   --text-danger-text-danger-hover: #ef4444;
   --text-danger-text-danger-active: #b91c1c;
-  --text-danger-text-danger-inverse: #f8fafc;
+  --text-danger-text-danger-inverse: #ffffff;
   --text-success-text-success: #16a34a;
   --text-success-text-success-hover: #22c55e;
   --text-success-text-success-active: #15803d;
-  --text-success-text-success-inverse: #f8fafc;
+  --text-success-text-success-inverse: #ffffff;
   --text-warning-text-warning: #d97706;
   --text-warning-text-warning-hover: #f59e0b;
   --text-warning-text-warning-active: #b45309;
-  --text-warning-text-warning-inverse: #f8fafc;
+  --text-warning-text-warning-inverse: #ffffff;
   --text-info-text-info: #2563eb;
   --text-info-text-info-hover: #3b82f6;
   --text-info-text-info-active: #1d4ed8;
-  --text-info-text-info-inverse: #f8fafc;
+  --text-info-text-info-inverse: #ffffff;
   --text-discovery-text-discovery: #7c3aed;
   --text-discovery-text-discovery-hover: #8b5cf6;
   --text-discovery-text-discovery-active: #6d28d9;
-  --text-discovery-text-discovery-inverse: #f8fafc;
+  --text-discovery-text-discovery-inverse: #ffffff;
   --icon-neutral-icon: #ffffff;
   --icon-neutral-icon-hover: #ffffff;
   --icon-neutral-icon-active: #ffffff;
