@@ -23,16 +23,6 @@ const styleFoundations = StyleDictionary.extend({
         },
       ],
     },
-    custom: {
-      transformGroup: 'custom-array',
-      buildPath: 'export/',
-      files: [
-        {
-          destination: 'foundations.json',
-          format: 'json/flat',
-        },
-      ],
-    },
   },
 });
 styleFoundations.registerFilter({
@@ -62,32 +52,17 @@ styleFoundations.registerFormat({
     return modifiedTokens;
   },
 });
-styleFoundations.registerTransformGroup({
-  name: 'custom-array',
-  transforms: ['attribute/cti', 'name/ti/camel'],
-});
 styleFoundations.buildAllPlatforms();
 
 
 
 
 
-// FOUNDATIONS JSON
+// FOUNDATIONS JS
 
-const styleFoundationsJson = StyleDictionary.extend({
+const styleFoundationsJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    custom: {
-      transformGroup: 'foundationsJsonTransformGroup',
-      buildPath: 'export/',
-      files: [
-        {
-          destination: 'foundations.json',
-          filter: 'foundationsJsonFilter',
-          format: 'json/flat',
-        },
-      ],
-    },
     js: {
       transformGroup: 'js',
       buildPath: 'export/',
@@ -95,29 +70,25 @@ const styleFoundationsJson = StyleDictionary.extend({
         {
           format: 'javascript/module',
           destination: 'foundations.js',
-          filter: 'foundationsJsonFilter',
+          filter: 'foundationsJsFilter',
         },
       ],
     },
   },
 });
-styleFoundationsJson.registerFilter({
-  name: 'foundationsJsonFilter',
+styleFoundationsJs.registerFilter({
+  name: 'foundationsJsFilter',
   matcher: function (token) {
-    return token.path.includes('Foundations') && token.type === 'color';
+    return token.path.includes('Foundations');
   },
 });
-styleFoundationsJson.registerTransformGroup({
-  name: 'foundationsJsonTransformGroup',
-  transforms: ['attribute/cti', 'name/ti/camel'],
-});
-styleFoundationsJson.buildAllPlatforms();
+styleFoundationsJs.buildAllPlatforms();
 
 
 
 
 
-// TOKENS LIGHT
+// TOKENS LIGHT CSS
 
 const styleTokensLight = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
@@ -165,6 +136,42 @@ styleTokensLight.registerFormat({
   },
 });
 styleTokensLight.buildAllPlatforms();
+
+
+
+
+
+
+// TOKENS LIGHT JS
+
+const styleTokensLightJs = StyleDictionary.extend({
+  source: ['tokens/**/*.json'],
+  platforms: {
+    js: {
+      transformGroup: 'js',
+      buildPath: 'export/',
+      files: [
+        {
+          format: 'javascript/module',
+          destination: 'tokens-light.js',
+          filter: 'tokensLightJsFilter',
+        },
+      ],
+    },
+  },
+});
+styleTokensLightJs.registerFilter({
+  name: 'tokensLightJsFilter',
+  matcher: function (token) {
+    return (
+      token.path.includes('Tokens') &&
+      token.path.includes('Light') &&
+      token.type === 'color'
+    );
+  },
+});
+styleTokensLightJs.buildAllPlatforms();
+
 
 
 

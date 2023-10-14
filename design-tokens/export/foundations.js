@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Oct 2023 15:09:45 GMT
+ * Generated on Sat, 14 Oct 2023 19:24:04 GMT
  */
 
 module.exports = {
@@ -7952,6 +7952,3311 @@ module.exports = {
           "Color",
           "black"
         ]
+      }
+    },
+    "Scale": {
+      "0": {
+        "type": "dimension",
+        "value": "0px",
+        "description": "0px | 0px",
+        "$extensions": {
+          "variableId": "VariableID:12:348"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "0px | 0px",
+          "$extensions": {
+            "variableId": "VariableID:12:348"
+          }
+        },
+        "name": "FoundationsScale0",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "0"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "0"
+        ]
+      },
+      "1": {
+        "type": "dimension",
+        "value": "4px",
+        "description": "0.25rem | 4px",
+        "$extensions": {
+          "variableId": "VariableID:11:278"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "4px",
+          "description": "0.25rem | 4px",
+          "$extensions": {
+            "variableId": "VariableID:11:278"
+          }
+        },
+        "name": "FoundationsScale1",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "1"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "1"
+        ]
+      },
+      "2": {
+        "type": "dimension",
+        "value": "8px",
+        "description": "0.5rem | 8px",
+        "$extensions": {
+          "variableId": "VariableID:11:280"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "8px",
+          "description": "0.5rem | 8px",
+          "$extensions": {
+            "variableId": "VariableID:11:280"
+          }
+        },
+        "name": "FoundationsScale2",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "2"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "2"
+        ]
+      },
+      "3": {
+        "type": "dimension",
+        "value": "12px",
+        "description": "0.75rem | 12px",
+        "$extensions": {
+          "variableId": "VariableID:11:282"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "12px",
+          "description": "0.75rem | 12px",
+          "$extensions": {
+            "variableId": "VariableID:11:282"
+          }
+        },
+        "name": "FoundationsScale3",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "3"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "3"
+        ]
+      },
+      "4": {
+        "type": "dimension",
+        "value": "16px",
+        "description": "1rem | 16px",
+        "$extensions": {
+          "variableId": "VariableID:11:284"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "16px",
+          "description": "1rem | 16px",
+          "$extensions": {
+            "variableId": "VariableID:11:284"
+          }
+        },
+        "name": "FoundationsScale4",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "4"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "4"
+        ]
+      },
+      "5": {
+        "type": "dimension",
+        "value": "20px",
+        "description": "1.25rem | 20px",
+        "$extensions": {
+          "variableId": "VariableID:11:285"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "20px",
+          "description": "1.25rem | 20px",
+          "$extensions": {
+            "variableId": "VariableID:11:285"
+          }
+        },
+        "name": "FoundationsScale5",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "5"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "5"
+        ]
+      },
+      "6": {
+        "type": "dimension",
+        "value": "24px",
+        "description": "1.5rem | 24px",
+        "$extensions": {
+          "variableId": "VariableID:11:286"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "24px",
+          "description": "1.5rem | 24px",
+          "$extensions": {
+            "variableId": "VariableID:11:286"
+          }
+        },
+        "name": "FoundationsScale6",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "6"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "6"
+        ]
+      },
+      "7": {
+        "type": "dimension",
+        "value": "28px",
+        "description": "1.75rem | 28px",
+        "$extensions": {
+          "variableId": "VariableID:11:287"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "28px",
+          "description": "1.75rem | 28px",
+          "$extensions": {
+            "variableId": "VariableID:11:287"
+          }
+        },
+        "name": "FoundationsScale7",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "7"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "7"
+        ]
+      },
+      "8": {
+        "type": "dimension",
+        "value": "32px",
+        "description": "2rem | 32px",
+        "$extensions": {
+          "variableId": "VariableID:11:288"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "32px",
+          "description": "2rem | 32px",
+          "$extensions": {
+            "variableId": "VariableID:11:288"
+          }
+        },
+        "name": "FoundationsScale8",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "8"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "8"
+        ]
+      },
+      "9": {
+        "type": "dimension",
+        "value": "36px",
+        "description": "2.25rem | 36px",
+        "$extensions": {
+          "variableId": "VariableID:11:289"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "36px",
+          "description": "2.25rem | 36px",
+          "$extensions": {
+            "variableId": "VariableID:11:289"
+          }
+        },
+        "name": "FoundationsScale9",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "9"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "9"
+        ]
+      },
+      "10": {
+        "type": "dimension",
+        "value": "40px",
+        "description": "2.5rem | 40px",
+        "$extensions": {
+          "variableId": "VariableID:11:290"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "40px",
+          "description": "2.5rem | 40px",
+          "$extensions": {
+            "variableId": "VariableID:11:290"
+          }
+        },
+        "name": "FoundationsScale10",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "10"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "10"
+        ]
+      },
+      "11": {
+        "type": "dimension",
+        "value": "44px",
+        "description": "2.75rem | 44px",
+        "$extensions": {
+          "variableId": "VariableID:11:291"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "44px",
+          "description": "2.75rem | 44px",
+          "$extensions": {
+            "variableId": "VariableID:11:291"
+          }
+        },
+        "name": "FoundationsScale11",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "11"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "11"
+        ]
+      },
+      "12": {
+        "type": "dimension",
+        "value": "48px",
+        "description": "3rem | 48px",
+        "$extensions": {
+          "variableId": "VariableID:11:292"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "48px",
+          "description": "3rem | 48px",
+          "$extensions": {
+            "variableId": "VariableID:11:292"
+          }
+        },
+        "name": "FoundationsScale12",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "12"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "12"
+        ]
+      },
+      "14": {
+        "type": "dimension",
+        "value": "56px",
+        "description": "3.5rem | 56px",
+        "$extensions": {
+          "variableId": "VariableID:11:293"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "56px",
+          "description": "3.5rem | 56px",
+          "$extensions": {
+            "variableId": "VariableID:11:293"
+          }
+        },
+        "name": "FoundationsScale14",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "14"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "14"
+        ]
+      },
+      "16": {
+        "type": "dimension",
+        "value": "64px",
+        "description": "4rem | 64px",
+        "$extensions": {
+          "variableId": "VariableID:11:294"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "64px",
+          "description": "4rem | 64px",
+          "$extensions": {
+            "variableId": "VariableID:11:294"
+          }
+        },
+        "name": "FoundationsScale16",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "16"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "16"
+        ]
+      },
+      "20": {
+        "type": "dimension",
+        "value": "80px",
+        "description": "5rem | 80px",
+        "$extensions": {
+          "variableId": "VariableID:11:295"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "80px",
+          "description": "5rem | 80px",
+          "$extensions": {
+            "variableId": "VariableID:11:295"
+          }
+        },
+        "name": "FoundationsScale20",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "20"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "20"
+        ]
+      },
+      "24": {
+        "type": "dimension",
+        "value": "96px",
+        "description": "6rem | 96px",
+        "$extensions": {
+          "variableId": "VariableID:11:296"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "96px",
+          "description": "6rem | 96px",
+          "$extensions": {
+            "variableId": "VariableID:11:296"
+          }
+        },
+        "name": "FoundationsScale24",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "24"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "24"
+        ]
+      },
+      "28": {
+        "type": "dimension",
+        "value": "112px",
+        "description": "7rem | 112px",
+        "$extensions": {
+          "variableId": "VariableID:11:297"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "112px",
+          "description": "7rem | 112px",
+          "$extensions": {
+            "variableId": "VariableID:11:297"
+          }
+        },
+        "name": "FoundationsScale28",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "28"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "28"
+        ]
+      },
+      "32": {
+        "type": "dimension",
+        "value": "128px",
+        "description": "8rem | 128px",
+        "$extensions": {
+          "variableId": "VariableID:11:298"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "128px",
+          "description": "8rem | 128px",
+          "$extensions": {
+            "variableId": "VariableID:11:298"
+          }
+        },
+        "name": "FoundationsScale32",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "32"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "32"
+        ]
+      },
+      "36": {
+        "type": "dimension",
+        "value": "144px",
+        "description": "9rem | 144px",
+        "$extensions": {
+          "variableId": "VariableID:11:299"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "144px",
+          "description": "9rem | 144px",
+          "$extensions": {
+            "variableId": "VariableID:11:299"
+          }
+        },
+        "name": "FoundationsScale36",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "36"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "36"
+        ]
+      },
+      "40": {
+        "type": "dimension",
+        "value": "160px",
+        "description": "10rem | 160px",
+        "$extensions": {
+          "variableId": "VariableID:11:300"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "160px",
+          "description": "10rem | 160px",
+          "$extensions": {
+            "variableId": "VariableID:11:300"
+          }
+        },
+        "name": "FoundationsScale40",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "40"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "40"
+        ]
+      },
+      "44": {
+        "type": "dimension",
+        "value": "176px",
+        "description": "11rem | 176px",
+        "$extensions": {
+          "variableId": "VariableID:11:301"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "176px",
+          "description": "11rem | 176px",
+          "$extensions": {
+            "variableId": "VariableID:11:301"
+          }
+        },
+        "name": "FoundationsScale44",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "44"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "44"
+        ]
+      },
+      "48": {
+        "type": "dimension",
+        "value": "192px",
+        "description": "12rem | 192px",
+        "$extensions": {
+          "variableId": "VariableID:12:305"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "192px",
+          "description": "12rem | 192px",
+          "$extensions": {
+            "variableId": "VariableID:12:305"
+          }
+        },
+        "name": "FoundationsScale48",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "48"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "48"
+        ]
+      },
+      "52": {
+        "type": "dimension",
+        "value": "208px",
+        "description": "13rem | 208px",
+        "$extensions": {
+          "variableId": "VariableID:12:306"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "208px",
+          "description": "13rem | 208px",
+          "$extensions": {
+            "variableId": "VariableID:12:306"
+          }
+        },
+        "name": "FoundationsScale52",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "52"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "52"
+        ]
+      },
+      "56": {
+        "type": "dimension",
+        "value": "224px",
+        "description": "14rem | 224px",
+        "$extensions": {
+          "variableId": "VariableID:12:307"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "224px",
+          "description": "14rem | 224px",
+          "$extensions": {
+            "variableId": "VariableID:12:307"
+          }
+        },
+        "name": "FoundationsScale56",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "56"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "56"
+        ]
+      },
+      "60": {
+        "type": "dimension",
+        "value": "240px",
+        "description": "15rem | 240px",
+        "$extensions": {
+          "variableId": "VariableID:12:308"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "240px",
+          "description": "15rem | 240px",
+          "$extensions": {
+            "variableId": "VariableID:12:308"
+          }
+        },
+        "name": "FoundationsScale60",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "60"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "60"
+        ]
+      },
+      "64": {
+        "type": "dimension",
+        "value": "256px",
+        "description": "16rem | 256px",
+        "$extensions": {
+          "variableId": "VariableID:12:309"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "256px",
+          "description": "16rem | 256px",
+          "$extensions": {
+            "variableId": "VariableID:12:309"
+          }
+        },
+        "name": "FoundationsScale64",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "64"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "64"
+        ]
+      },
+      "72": {
+        "type": "dimension",
+        "value": "288px",
+        "description": "18rem | 288px",
+        "$extensions": {
+          "variableId": "VariableID:12:310"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "288px",
+          "description": "18rem | 288px",
+          "$extensions": {
+            "variableId": "VariableID:12:310"
+          }
+        },
+        "name": "FoundationsScale72",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "72"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "72"
+        ]
+      },
+      "80": {
+        "type": "dimension",
+        "value": "320px",
+        "description": "20rem | 320px",
+        "$extensions": {
+          "variableId": "VariableID:12:311"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "320px",
+          "description": "20rem | 320px",
+          "$extensions": {
+            "variableId": "VariableID:12:311"
+          }
+        },
+        "name": "FoundationsScale80",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "80"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "80"
+        ]
+      },
+      "96": {
+        "type": "dimension",
+        "value": "384px",
+        "description": "24rem | 384px",
+        "$extensions": {
+          "variableId": "VariableID:12:312"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "384px",
+          "description": "24rem | 384px",
+          "$extensions": {
+            "variableId": "VariableID:12:312"
+          }
+        },
+        "name": "FoundationsScale96",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "96"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "96"
+        ]
+      },
+      "05": {
+        "type": "dimension",
+        "value": "2px",
+        "description": "0.125rem | 2px",
+        "$extensions": {
+          "variableId": "VariableID:11:272"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "2px",
+          "description": "0.125rem | 2px",
+          "$extensions": {
+            "variableId": "VariableID:11:272"
+          }
+        },
+        "name": "FoundationsScale05",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "05"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "05"
+        ]
+      },
+      "1,5": {
+        "type": "dimension",
+        "value": "6px",
+        "description": "0.375rem | 6px",
+        "$extensions": {
+          "variableId": "VariableID:11:279"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "6px",
+          "description": "0.375rem | 6px",
+          "$extensions": {
+            "variableId": "VariableID:11:279"
+          }
+        },
+        "name": "FoundationsScale15",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "1,5"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "1,5"
+        ]
+      },
+      "025": {
+        "type": "dimension",
+        "value": "1px",
+        "description": "1px | 1px",
+        "$extensions": {
+          "variableId": "VariableID:83:60"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1px",
+          "description": "1px | 1px",
+          "$extensions": {
+            "variableId": "VariableID:83:60"
+          }
+        },
+        "name": "FoundationsScale025",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "025"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "025"
+        ]
+      },
+      "full": {
+        "type": "dimension",
+        "value": "999px",
+        "description": "999px",
+        "$extensions": {
+          "variableId": "VariableID:229:672"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "999px",
+          "description": "999px",
+          "$extensions": {
+            "variableId": "VariableID:229:672"
+          }
+        },
+        "name": "FoundationsScaleFull",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "full"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "full"
+        ]
+      }
+    },
+    "Breakpoints": {
+      "0": {
+        "type": "dimension",
+        "value": "0px",
+        "description": "0px",
+        "$extensions": {
+          "variableId": "VariableID:229:679"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "0px",
+          "$extensions": {
+            "variableId": "VariableID:229:679"
+          }
+        },
+        "name": "FoundationsBreakpoints0",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "0"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "0"
+        ]
+      },
+      "320": {
+        "type": "dimension",
+        "value": "320px",
+        "description": "320px",
+        "$extensions": {
+          "variableId": "VariableID:229:680"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "320px",
+          "description": "320px",
+          "$extensions": {
+            "variableId": "VariableID:229:680"
+          }
+        },
+        "name": "FoundationsBreakpoints320",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "320"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "320"
+        ]
+      },
+      "375": {
+        "type": "dimension",
+        "value": "375px",
+        "description": "375px",
+        "$extensions": {
+          "variableId": "VariableID:12:327"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "375px",
+          "description": "375px",
+          "$extensions": {
+            "variableId": "VariableID:12:327"
+          }
+        },
+        "name": "FoundationsBreakpoints375",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "375"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "375"
+        ]
+      },
+      "390": {
+        "type": "dimension",
+        "value": "390px",
+        "description": "390",
+        "$extensions": {
+          "variableId": "VariableID:12:304"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "390px",
+          "description": "390",
+          "$extensions": {
+            "variableId": "VariableID:12:304"
+          }
+        },
+        "name": "FoundationsBreakpoints390",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "390"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "390"
+        ]
+      },
+      "490": {
+        "type": "dimension",
+        "value": "490px",
+        "description": "490px",
+        "$extensions": {
+          "variableId": "VariableID:229:681"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "490px",
+          "description": "490px",
+          "$extensions": {
+            "variableId": "VariableID:229:681"
+          }
+        },
+        "name": "FoundationsBreakpoints490",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "490"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "490"
+        ]
+      },
+      "640": {
+        "type": "dimension",
+        "value": "640px",
+        "description": "640px",
+        "$extensions": {
+          "variableId": "VariableID:12:313"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "640px",
+          "description": "640px",
+          "$extensions": {
+            "variableId": "VariableID:12:313"
+          }
+        },
+        "name": "FoundationsBreakpoints640",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "640"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "640"
+        ]
+      },
+      "768": {
+        "type": "dimension",
+        "value": "768px",
+        "description": "768px",
+        "$extensions": {
+          "variableId": "VariableID:12:314"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "768px",
+          "description": "768px",
+          "$extensions": {
+            "variableId": "VariableID:12:314"
+          }
+        },
+        "name": "FoundationsBreakpoints768",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "768"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "768"
+        ]
+      },
+      "1024": {
+        "type": "dimension",
+        "value": "1024px",
+        "description": "1024px",
+        "$extensions": {
+          "variableId": "VariableID:12:315"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1024px",
+          "description": "1024px",
+          "$extensions": {
+            "variableId": "VariableID:12:315"
+          }
+        },
+        "name": "FoundationsBreakpoints1024",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "1024"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "1024"
+        ]
+      },
+      "1280": {
+        "type": "dimension",
+        "value": "1280px",
+        "description": "1280px",
+        "$extensions": {
+          "variableId": "VariableID:12:316"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1280px",
+          "description": "1280px",
+          "$extensions": {
+            "variableId": "VariableID:12:316"
+          }
+        },
+        "name": "FoundationsBreakpoints1280",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "1280"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "1280"
+        ]
+      },
+      "1440": {
+        "type": "dimension",
+        "value": "1440px",
+        "description": "1440px",
+        "$extensions": {
+          "variableId": "VariableID:229:682"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1440px",
+          "description": "1440px",
+          "$extensions": {
+            "variableId": "VariableID:229:682"
+          }
+        },
+        "name": "FoundationsBreakpoints1440",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "1440"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "1440"
+        ]
+      },
+      "1536": {
+        "type": "dimension",
+        "value": "1536px",
+        "description": "1536px",
+        "$extensions": {
+          "variableId": "VariableID:12:317"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1536px",
+          "description": "1536px",
+          "$extensions": {
+            "variableId": "VariableID:12:317"
+          }
+        },
+        "name": "FoundationsBreakpoints1536",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "1536"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "1536"
+        ]
+      },
+      "1680": {
+        "type": "dimension",
+        "value": "1680px",
+        "description": "1680px",
+        "$extensions": {
+          "variableId": "VariableID:229:683"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1680px",
+          "description": "1680px",
+          "$extensions": {
+            "variableId": "VariableID:229:683"
+          }
+        },
+        "name": "FoundationsBreakpoints1680",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "1680"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "1680"
+        ]
+      },
+      "1920": {
+        "type": "dimension",
+        "value": "1920px",
+        "description": "1920px",
+        "$extensions": {
+          "variableId": "VariableID:229:684"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "1920px",
+          "description": "1920px",
+          "$extensions": {
+            "variableId": "VariableID:229:684"
+          }
+        },
+        "name": "FoundationsBreakpoints1920",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Breakpoints",
+          "item": "1920"
+        },
+        "path": [
+          "Foundations",
+          "Breakpoints",
+          "1920"
+        ]
+      }
+    },
+    "Effects": {
+      "Opacity": {
+        "opacity-0": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "opacity: 0",
+          "$extensions": {
+            "variableId": "VariableID:41:61"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0px",
+            "description": "opacity: 0",
+            "$extensions": {
+              "variableId": "VariableID:41:61"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity0",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-0"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-0"
+          ]
+        },
+        "opacity-5": {
+          "type": "dimension",
+          "value": "0.05000000074505806px",
+          "description": "opacity: 0.05",
+          "$extensions": {
+            "variableId": "VariableID:48:133"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.05000000074505806px",
+            "description": "opacity: 0.05",
+            "$extensions": {
+              "variableId": "VariableID:48:133"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity5",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-5"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-5"
+          ]
+        },
+        "opacity-10": {
+          "type": "dimension",
+          "value": "0.10000000149011612px",
+          "description": "opacity: 0.1",
+          "$extensions": {
+            "variableId": "VariableID:48:134"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.10000000149011612px",
+            "description": "opacity: 0.1",
+            "$extensions": {
+              "variableId": "VariableID:48:134"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity10",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-10"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-10"
+          ]
+        },
+        "opacity-20": {
+          "type": "dimension",
+          "value": "0.20000000298023224px",
+          "description": "opacity: 0.2",
+          "$extensions": {
+            "variableId": "VariableID:48:135"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.20000000298023224px",
+            "description": "opacity: 0.2",
+            "$extensions": {
+              "variableId": "VariableID:48:135"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity20",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-20"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-20"
+          ]
+        },
+        "opacity-25": {
+          "type": "dimension",
+          "value": "0.25px",
+          "description": "opacity: 0.25",
+          "$extensions": {
+            "variableId": "VariableID:48:136"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.25px",
+            "description": "opacity: 0.25",
+            "$extensions": {
+              "variableId": "VariableID:48:136"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity25",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-25"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-25"
+          ]
+        },
+        "opacity-30": {
+          "type": "dimension",
+          "value": "0.30000001192092896px",
+          "description": "opacity: 0.3",
+          "$extensions": {
+            "variableId": "VariableID:48:137"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.30000001192092896px",
+            "description": "opacity: 0.3",
+            "$extensions": {
+              "variableId": "VariableID:48:137"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity30",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-30"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-30"
+          ]
+        },
+        "opacity-40": {
+          "type": "dimension",
+          "value": "0.4000000059604645px",
+          "description": "opacity: 0.4",
+          "$extensions": {
+            "variableId": "VariableID:48:138"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.4000000059604645px",
+            "description": "opacity: 0.4",
+            "$extensions": {
+              "variableId": "VariableID:48:138"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity40",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-40"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-40"
+          ]
+        },
+        "opacity-50": {
+          "type": "dimension",
+          "value": "0.5px",
+          "description": "opacity: 0.5",
+          "$extensions": {
+            "variableId": "VariableID:48:139"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.5px",
+            "description": "opacity: 0.5",
+            "$extensions": {
+              "variableId": "VariableID:48:139"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity50",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-50"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-50"
+          ]
+        },
+        "opacity-60": {
+          "type": "dimension",
+          "value": "0.6000000238418579px",
+          "description": "opacity: 0.6",
+          "$extensions": {
+            "variableId": "VariableID:48:140"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.6000000238418579px",
+            "description": "opacity: 0.6",
+            "$extensions": {
+              "variableId": "VariableID:48:140"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity60",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-60"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-60"
+          ]
+        },
+        "opacity-70": {
+          "type": "dimension",
+          "value": "0.699999988079071px",
+          "description": "opacity: 0.7",
+          "$extensions": {
+            "variableId": "VariableID:48:141"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.699999988079071px",
+            "description": "opacity: 0.7",
+            "$extensions": {
+              "variableId": "VariableID:48:141"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity70",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-70"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-70"
+          ]
+        },
+        "opacity-75": {
+          "type": "dimension",
+          "value": "0.75px",
+          "description": "opacity: 0.75",
+          "$extensions": {
+            "variableId": "VariableID:48:142"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.75px",
+            "description": "opacity: 0.75",
+            "$extensions": {
+              "variableId": "VariableID:48:142"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity75",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-75"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-75"
+          ]
+        },
+        "opacity-80": {
+          "type": "dimension",
+          "value": "0.800000011920929px",
+          "description": "opacity: 0.8",
+          "$extensions": {
+            "variableId": "VariableID:48:143"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.800000011920929px",
+            "description": "opacity: 0.8",
+            "$extensions": {
+              "variableId": "VariableID:48:143"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity80",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-80"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-80"
+          ]
+        },
+        "opacity-90": {
+          "type": "dimension",
+          "value": "0.8999999761581421px",
+          "description": "opacity: 0.9",
+          "$extensions": {
+            "variableId": "VariableID:48:144"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.8999999761581421px",
+            "description": "opacity: 0.9",
+            "$extensions": {
+              "variableId": "VariableID:48:144"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity90",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-90"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-90"
+          ]
+        },
+        "opacity-95": {
+          "type": "dimension",
+          "value": "0.949999988079071px",
+          "description": "opacity: 0.95",
+          "$extensions": {
+            "variableId": "VariableID:48:145"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0.949999988079071px",
+            "description": "opacity: 0.95",
+            "$extensions": {
+              "variableId": "VariableID:48:145"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity95",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-95"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-95"
+          ]
+        },
+        "opacity-100": {
+          "type": "dimension",
+          "value": "1px",
+          "description": "opacity: 1",
+          "$extensions": {
+            "variableId": "VariableID:48:146"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "1px",
+            "description": "opacity: 1",
+            "$extensions": {
+              "variableId": "VariableID:48:146"
+            }
+          },
+          "name": "FoundationsEffectsOpacityOpacity100",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Opacity",
+            "subitem": "opacity-100"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Opacity",
+            "opacity-100"
+          ]
+        }
+      },
+      "Box Shadow": {
+        "shadow-sm": {
+          "type": "string",
+          "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+          "description": "box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05)",
+          "$extensions": {
+            "variableId": "VariableID:83:51"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+            "description": "box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05)",
+            "$extensions": {
+              "variableId": "VariableID:83:51"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadowSm",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-sm"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-sm"
+          ]
+        },
+        "shadow": {
+          "type": "string",
+          "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+          "description": "box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+          "$extensions": {
+            "variableId": "VariableID:83:53"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+            "description": "box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+            "$extensions": {
+              "variableId": "VariableID:83:53"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadow",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow"
+          ]
+        },
+        "shadow-md": {
+          "type": "string",
+          "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+          "description": "box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+          "$extensions": {
+            "variableId": "VariableID:83:54"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+            "description": "box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+            "$extensions": {
+              "variableId": "VariableID:83:54"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadowMd",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-md"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-md"
+          ]
+        },
+        "shadow-lg": {
+          "type": "string",
+          "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+          "description": "box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+          "$extensions": {
+            "variableId": "VariableID:83:55"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+            "description": "box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+            "$extensions": {
+              "variableId": "VariableID:83:55"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadowLg",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-lg"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-lg"
+          ]
+        },
+        "shadow-xl": {
+          "type": "string",
+          "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+          "description": "box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+          "$extensions": {
+            "variableId": "VariableID:83:56"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+            "description": "box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+            "$extensions": {
+              "variableId": "VariableID:83:56"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadowXl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-xl"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-xl"
+          ]
+        },
+        "shadow-2xl": {
+          "type": "string",
+          "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+          "description": "box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25)",
+          "$extensions": {
+            "variableId": "VariableID:83:57"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+            "description": "box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25)",
+            "$extensions": {
+              "variableId": "VariableID:83:57"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadow2xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-2xl"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-2xl"
+          ]
+        },
+        "shadow-inner": {
+          "type": "string",
+          "value": "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+          "description": "box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+          "$extensions": {
+            "variableId": "VariableID:83:58"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+            "description": "box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+            "$extensions": {
+              "variableId": "VariableID:83:58"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadowInner",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-inner"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-inner"
+          ]
+        },
+        "shadow-none": {
+          "type": "string",
+          "value": "0 0 #0000",
+          "description": "box-shadow: 0 0 #0000",
+          "$extensions": {
+            "variableId": "VariableID:83:59"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "0 0 #0000",
+            "description": "box-shadow: 0 0 #0000",
+            "$extensions": {
+              "variableId": "VariableID:83:59"
+            }
+          },
+          "name": "FoundationsEffectsBoxShadowShadowNone",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Effects",
+            "item": "Box Shadow",
+            "subitem": "shadow-none"
+          },
+          "path": [
+            "Foundations",
+            "Effects",
+            "Box Shadow",
+            "shadow-none"
+          ]
+        }
+      }
+    },
+    "Typography": {
+      "Font Size": {
+        "text-xs": {
+          "type": "dimension",
+          "value": "12px",
+          "description": "font-size: 0.75rem | 12px",
+          "$extensions": {
+            "variableId": "VariableID:41:62"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "12px",
+            "description": "font-size: 0.75rem | 12px",
+            "$extensions": {
+              "variableId": "VariableID:41:62"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeTextXs",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-xs"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-xs"
+          ]
+        },
+        "text-sm": {
+          "type": "dimension",
+          "value": "14px",
+          "description": "font-size: 0.875rem | 14px",
+          "$extensions": {
+            "variableId": "VariableID:83:13"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "14px",
+            "description": "font-size: 0.875rem | 14px",
+            "$extensions": {
+              "variableId": "VariableID:83:13"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeTextSm",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-sm"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-sm"
+          ]
+        },
+        "text-base": {
+          "type": "dimension",
+          "value": "16px",
+          "description": "font-size: 1rem | 16px",
+          "$extensions": {
+            "variableId": "VariableID:83:14"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "16px",
+            "description": "font-size: 1rem | 16px",
+            "$extensions": {
+              "variableId": "VariableID:83:14"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeTextBase",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-base"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-base"
+          ]
+        },
+        "text-lg": {
+          "type": "dimension",
+          "value": "18px",
+          "description": "font-size: 1.125rem | 18px",
+          "$extensions": {
+            "variableId": "VariableID:83:15"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "18px",
+            "description": "font-size: 1.125rem | 18px",
+            "$extensions": {
+              "variableId": "VariableID:83:15"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeTextLg",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-lg"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-lg"
+          ]
+        },
+        "text-xl": {
+          "type": "dimension",
+          "value": "20px",
+          "description": "font-size: 1.25rem | 20px",
+          "$extensions": {
+            "variableId": "VariableID:83:16"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "20px",
+            "description": "font-size: 1.25rem | 20px",
+            "$extensions": {
+              "variableId": "VariableID:83:16"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeTextXl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-xl"
+          ]
+        },
+        "text-2xl": {
+          "type": "dimension",
+          "value": "24px",
+          "description": "font-size: 1.5rem | 24px",
+          "$extensions": {
+            "variableId": "VariableID:83:17"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "24px",
+            "description": "font-size: 1.5rem | 24px",
+            "$extensions": {
+              "variableId": "VariableID:83:17"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText2xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-2xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-2xl"
+          ]
+        },
+        "text-3xl": {
+          "type": "dimension",
+          "value": "30px",
+          "description": "font-size: 1.875rem | 30px",
+          "$extensions": {
+            "variableId": "VariableID:83:18"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "30px",
+            "description": "font-size: 1.875rem | 30px",
+            "$extensions": {
+              "variableId": "VariableID:83:18"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText3xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-3xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-3xl"
+          ]
+        },
+        "text-4xl": {
+          "type": "dimension",
+          "value": "36px",
+          "description": "font-size: 2.25rem | 36px",
+          "$extensions": {
+            "variableId": "VariableID:83:19"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "36px",
+            "description": "font-size: 2.25rem | 36px",
+            "$extensions": {
+              "variableId": "VariableID:83:19"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText4xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-4xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-4xl"
+          ]
+        },
+        "text-5xl": {
+          "type": "dimension",
+          "value": "48px",
+          "description": "font-size: 3rem | 48px",
+          "$extensions": {
+            "variableId": "VariableID:83:20"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "48px",
+            "description": "font-size: 3rem | 48px",
+            "$extensions": {
+              "variableId": "VariableID:83:20"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText5xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-5xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-5xl"
+          ]
+        },
+        "text-6xl": {
+          "type": "dimension",
+          "value": "60px",
+          "description": "font-size: 3.75rem | 60px",
+          "$extensions": {
+            "variableId": "VariableID:83:21"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "60px",
+            "description": "font-size: 3.75rem | 60px",
+            "$extensions": {
+              "variableId": "VariableID:83:21"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText6xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-6xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-6xl"
+          ]
+        },
+        "text-7xl": {
+          "type": "dimension",
+          "value": "72px",
+          "description": "font-size: 4.5rem | 72px",
+          "$extensions": {
+            "variableId": "VariableID:83:22"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "72px",
+            "description": "font-size: 4.5rem | 72px",
+            "$extensions": {
+              "variableId": "VariableID:83:22"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText7xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-7xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-7xl"
+          ]
+        },
+        "text-8xl": {
+          "type": "dimension",
+          "value": "96px",
+          "description": "font-size: 6rem | 96px",
+          "$extensions": {
+            "variableId": "VariableID:83:23"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "96px",
+            "description": "font-size: 6rem | 96px",
+            "$extensions": {
+              "variableId": "VariableID:83:23"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText8xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-8xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-8xl"
+          ]
+        },
+        "text-9xl": {
+          "type": "dimension",
+          "value": "128px",
+          "description": "font-size: 8rem | 128px",
+          "$extensions": {
+            "variableId": "VariableID:83:24"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "128px",
+            "description": "font-size: 8rem | 128px",
+            "$extensions": {
+              "variableId": "VariableID:83:24"
+            }
+          },
+          "name": "FoundationsTypographyFontSizeText9xl",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Size",
+            "subitem": "text-9xl"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Size",
+            "text-9xl"
+          ]
+        }
+      },
+      "Font Family": {
+        "font-sans": {
+          "type": "string",
+          "value": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "description": "font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "$extensions": {
+            "variableId": "VariableID:83:10"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "description": "font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+            "$extensions": {
+              "variableId": "VariableID:83:10"
+            }
+          },
+          "name": "FoundationsTypographyFontFamilyFontSans",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Family",
+            "subitem": "font-sans"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Family",
+            "font-sans"
+          ]
+        },
+        "font-serif": {
+          "type": "string",
+          "value": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+          "description": "font-family: ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+          "$extensions": {
+            "variableId": "VariableID:83:11"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "description": "font-family: ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+            "$extensions": {
+              "variableId": "VariableID:83:11"
+            }
+          },
+          "name": "FoundationsTypographyFontFamilyFontSerif",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Family",
+            "subitem": "font-serif"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Family",
+            "font-serif"
+          ]
+        },
+        "font-mono": {
+          "type": "string",
+          "value": "font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "description": "font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "$extensions": {
+            "variableId": "VariableID:83:12"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "string",
+            "value": "font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "description": "font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "$extensions": {
+              "variableId": "VariableID:83:12"
+            }
+          },
+          "name": "FoundationsTypographyFontFamilyFontMono",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Family",
+            "subitem": "font-mono"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Family",
+            "font-mono"
+          ]
+        }
+      },
+      "Font Weight": {
+        "font-thin": {
+          "type": "dimension",
+          "value": "100px",
+          "description": "font-weight: 100",
+          "$extensions": {
+            "variableId": "VariableID:83:27"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "100px",
+            "description": "font-weight: 100",
+            "$extensions": {
+              "variableId": "VariableID:83:27"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontThin",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-thin"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-thin"
+          ]
+        },
+        "font-extralight": {
+          "type": "dimension",
+          "value": "200px",
+          "description": "font-weight: 200",
+          "$extensions": {
+            "variableId": "VariableID:83:28"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "200px",
+            "description": "font-weight: 200",
+            "$extensions": {
+              "variableId": "VariableID:83:28"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontExtralight",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-extralight"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-extralight"
+          ]
+        },
+        "font-light": {
+          "type": "dimension",
+          "value": "300px",
+          "description": "font-weight: 300",
+          "$extensions": {
+            "variableId": "VariableID:83:29"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "300px",
+            "description": "font-weight: 300",
+            "$extensions": {
+              "variableId": "VariableID:83:29"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontLight",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-light"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-light"
+          ]
+        },
+        "font-normal": {
+          "type": "dimension",
+          "value": "400px",
+          "description": "font-weight: 400",
+          "$extensions": {
+            "variableId": "VariableID:83:30"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "400px",
+            "description": "font-weight: 400",
+            "$extensions": {
+              "variableId": "VariableID:83:30"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontNormal",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-normal"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-normal"
+          ]
+        },
+        "font-medium": {
+          "type": "dimension",
+          "value": "500px",
+          "description": "font-weight: 500",
+          "$extensions": {
+            "variableId": "VariableID:83:31"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "500px",
+            "description": "font-weight: 500",
+            "$extensions": {
+              "variableId": "VariableID:83:31"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontMedium",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-medium"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-medium"
+          ]
+        },
+        "font-semibold": {
+          "type": "dimension",
+          "value": "600px",
+          "description": "font-weight: 600",
+          "$extensions": {
+            "variableId": "VariableID:83:32"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "600px",
+            "description": "font-weight: 600",
+            "$extensions": {
+              "variableId": "VariableID:83:32"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontSemibold",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-semibold"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-semibold"
+          ]
+        },
+        "font-bold": {
+          "type": "dimension",
+          "value": "700px",
+          "description": "font-weight: 700",
+          "$extensions": {
+            "variableId": "VariableID:83:33"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "700px",
+            "description": "font-weight: 700",
+            "$extensions": {
+              "variableId": "VariableID:83:33"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontBold",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-bold"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-bold"
+          ]
+        },
+        "font-extrabold": {
+          "type": "dimension",
+          "value": "800px",
+          "description": "font-weight: 800",
+          "$extensions": {
+            "variableId": "VariableID:83:34"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "800px",
+            "description": "font-weight: 800",
+            "$extensions": {
+              "variableId": "VariableID:83:34"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontExtrabold",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-extrabold"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-extrabold"
+          ]
+        },
+        "font-black": {
+          "type": "dimension",
+          "value": "900px",
+          "description": "font-weight: 900",
+          "$extensions": {
+            "variableId": "VariableID:83:35"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "900px",
+            "description": "font-weight: 900",
+            "$extensions": {
+              "variableId": "VariableID:83:35"
+            }
+          },
+          "name": "FoundationsTypographyFontWeightFontBlack",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Font Weight",
+            "subitem": "font-black"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Font Weight",
+            "font-black"
+          ]
+        }
+      },
+      "Line Height": {
+        "leading-3": {
+          "type": "dimension",
+          "value": "12px",
+          "description": "line-height: 0.75rem | 12px",
+          "$extensions": {
+            "variableId": "VariableID:83:36"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.3}",
+            "description": "line-height: 0.75rem | 12px",
+            "$extensions": {
+              "variableId": "VariableID:83:36"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading3",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-3"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-3"
+          ]
+        },
+        "leading-4": {
+          "type": "dimension",
+          "value": "16px",
+          "description": "line-height: 1rem | 16px",
+          "$extensions": {
+            "variableId": "VariableID:83:37"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.4}",
+            "description": "line-height: 1rem | 16px",
+            "$extensions": {
+              "variableId": "VariableID:83:37"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading4",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-4"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-4"
+          ]
+        },
+        "leading-5": {
+          "type": "dimension",
+          "value": "20px",
+          "description": "line-height: 1.25rem | 20px",
+          "$extensions": {
+            "variableId": "VariableID:83:38"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.5}",
+            "description": "line-height: 1.25rem | 20px",
+            "$extensions": {
+              "variableId": "VariableID:83:38"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading5",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-5"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-5"
+          ]
+        },
+        "leading-6": {
+          "type": "dimension",
+          "value": "24px",
+          "description": "line-height: 1.5rem | 24px",
+          "$extensions": {
+            "variableId": "VariableID:83:39"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.6}",
+            "description": "line-height: 1.5rem | 24px",
+            "$extensions": {
+              "variableId": "VariableID:83:39"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading6",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-6"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-6"
+          ]
+        },
+        "leading-7": {
+          "type": "dimension",
+          "value": "28px",
+          "description": "line-height: 1.75rem | 28px",
+          "$extensions": {
+            "variableId": "VariableID:83:40"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.7}",
+            "description": "line-height: 1.75rem | 28px",
+            "$extensions": {
+              "variableId": "VariableID:83:40"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading7",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-7"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-7"
+          ]
+        },
+        "leading-8": {
+          "type": "dimension",
+          "value": "32px",
+          "description": "line-height: 2rem | 32px",
+          "$extensions": {
+            "variableId": "VariableID:83:41"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.8}",
+            "description": "line-height: 2rem | 32px",
+            "$extensions": {
+              "variableId": "VariableID:83:41"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading8",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-8"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-8"
+          ]
+        },
+        "leading-9": {
+          "type": "dimension",
+          "value": "36px",
+          "description": "line-height: 2.25rem | 36px",
+          "$extensions": {
+            "variableId": "VariableID:83:42"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.9}",
+            "description": "line-height: 2.25rem | 36px",
+            "$extensions": {
+              "variableId": "VariableID:83:42"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading9",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-9"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-9"
+          ]
+        },
+        "leading-10": {
+          "type": "dimension",
+          "value": "40px",
+          "description": "line-height: 2.5rem | 40px",
+          "$extensions": {
+            "variableId": "VariableID:83:43"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "{Foundations.Scale.10}",
+            "description": "line-height: 2.5rem | 40px",
+            "$extensions": {
+              "variableId": "VariableID:83:43"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeading10",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-10"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-10"
+          ]
+        },
+        "leading-none": {
+          "type": "dimension",
+          "value": "1px",
+          "description": "line-height: 1",
+          "$extensions": {
+            "variableId": "VariableID:83:45"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "1px",
+            "description": "line-height: 1",
+            "$extensions": {
+              "variableId": "VariableID:83:45"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeadingNone",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-none"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-none"
+          ]
+        },
+        "leading-tight": {
+          "type": "dimension",
+          "value": "1.25px",
+          "description": "line-height: 1.25",
+          "$extensions": {
+            "variableId": "VariableID:83:46"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "1.25px",
+            "description": "line-height: 1.25",
+            "$extensions": {
+              "variableId": "VariableID:83:46"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeadingTight",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-tight"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-tight"
+          ]
+        },
+        "leading-snug": {
+          "type": "dimension",
+          "value": "1.375px",
+          "description": "line-height: 1.375",
+          "$extensions": {
+            "variableId": "VariableID:83:47"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "1.375px",
+            "description": "line-height: 1.375",
+            "$extensions": {
+              "variableId": "VariableID:83:47"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeadingSnug",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-snug"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-snug"
+          ]
+        },
+        "leading-normal": {
+          "type": "dimension",
+          "value": "1.5px",
+          "description": "line-height: 1.5",
+          "$extensions": {
+            "variableId": "VariableID:83:48"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "1.5px",
+            "description": "line-height: 1.5",
+            "$extensions": {
+              "variableId": "VariableID:83:48"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeadingNormal",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-normal"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-normal"
+          ]
+        },
+        "leading-relaxed": {
+          "type": "dimension",
+          "value": "1.625px",
+          "description": "line-height: 1.625",
+          "$extensions": {
+            "variableId": "VariableID:83:49"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "1.625px",
+            "description": "line-height: 1.625",
+            "$extensions": {
+              "variableId": "VariableID:83:49"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeadingRelaxed",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-relaxed"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-relaxed"
+          ]
+        },
+        "leading-loose": {
+          "type": "dimension",
+          "value": "2px",
+          "description": "line-height: 2",
+          "$extensions": {
+            "variableId": "VariableID:83:50"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "2px",
+            "description": "line-height: 2",
+            "$extensions": {
+              "variableId": "VariableID:83:50"
+            }
+          },
+          "name": "FoundationsTypographyLineHeightLeadingLoose",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Typography",
+            "item": "Line Height",
+            "subitem": "leading-loose"
+          },
+          "path": [
+            "Foundations",
+            "Typography",
+            "Line Height",
+            "leading-loose"
+          ]
+        }
       }
     }
   }

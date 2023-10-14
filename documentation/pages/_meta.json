@@ -1,10 +1,10 @@
 {
-  "index": "Get started",
+  "index": "Welcome",
+  "get-started": "Get started",
   "brand": "Brand",
   "foundations": "Foundations",
   "tokens": "Tokens",
   "components": "Components",
-  "advanced": "Advanced (A Folder)",
   "about": {
     "title": "About",
     "type": "page"

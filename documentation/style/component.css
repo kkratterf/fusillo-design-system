@@ -2,33 +2,90 @@
 @import '../../design-tokens/export/tokens-light.css';
 @import '../../design-tokens/export/brand.css';
 
-
 /* CARD FOR COLORS */
 
-.color-card-list {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+.color__grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
-.color-card {
-    display: flex;
-    border: 1px solid rgba(38,38,38,1);
-    border-color: rgba(38,38,38,1);
-    margin: 4px;
-    padding: 8px;
-    border-radius: var(--border-radius);
-    -webkit-border-radius: var(--border-radius);
-    -moz-border-radius: var(--border-radius);
-    -ms-border-radius: var(--border-radius);
-    -o-border-radius: var(--border-radius);
+@media screen and (max-width: 1024px) {
+  .color__grid {
+    grid-template-columns: 50% 50%;
+  }
 }
 
-.color-swatch {
-    height: 40px;
-    width: 40px;
-    border-radius: var(--border-radius);
-    -webkit-border-radius: var(--border-radius);
-    -moz-border-radius: var(--border-radius);
-    -ms-border-radius: var(--border-radius);
-    -o-border-radius: var(--border-radius);
+@media screen and (max-width: 640px) {
+  .color__grid {
+    grid-template-columns: 100%;
+  }
+}
+
+.color__card {
+  display: flex;
+  margin: 0 12px 12px 0;
+  align-items: center;
+}
+
+.color__swatch {
+  height: 56px;
+  width: 56px;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.color__text {
+  margin-left: 12px;
+}
+
+.color__title {
+  font-weight: 700;
+}
+
+.color__subtitle {
+  font-size: 14px;
+}
+
+
+/* CARDS FOR SCALE */
+
+.scale__grid {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.scale__card {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.scale__swatch {
+  height: 16px;
+  background-color: var(--background-brand-bg-brand);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius-sm);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.scale__text {
+  margin-right: 16px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.scale__title {
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.scale__subtitle {
+  font-size: 14px;
+  margin-left: 12px;
 }
