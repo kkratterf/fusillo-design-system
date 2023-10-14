@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Oct 2023 19:52:52 GMT
+ * Generated on Sat, 14 Oct 2023 20:51:23 GMT
  */
 
 :root {
@@ -83,17 +83,17 @@
   --lime-800: #3f6212;
   --lime-900: #365314;
   --lime-950: #1a2e05;
-  --green-green-50: #f0fdf4;
-  --green-green-100: #dcfce7;
-  --green-green-200: #bbf7d0;
-  --green-green-300: #86efac;
-  --green-green-400: #4ade80;
-  --green-green-500: #22c55e;
-  --green-green-600: #16a34a;
-  --green-green-700: #15803d;
-  --green-green-800: #166534;
-  --green-green-900: #14532d;
-  --green-green-950: #052e16;
+  --green-50: #f0fdf4;
+  --green-100: #dcfce7;
+  --green-200: #bbf7d0;
+  --green-300: #86efac;
+  --green-400: #4ade80;
+  --green-500: #22c55e;
+  --green-600: #16a34a;
+  --green-700: #15803d;
+  --green-800: #166534;
+  --green-900: #14532d;
+  --green-950: #052e16;
   --emerald-50: #ecfdf5;
   --emerald-100: #d1fae5;
   --emerald-200: #a7f3d0;
