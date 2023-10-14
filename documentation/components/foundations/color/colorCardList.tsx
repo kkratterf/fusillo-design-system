@@ -1,6 +1,6 @@
 import React from 'react';
 import colors from '../../../../design-tokens/export/foundations.js';
-import ColorCard from './colorCard.tsx';
+import ColorCard from './colorCard.js';
 
 interface ColorInfo {
   value: string;

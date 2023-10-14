@@ -1,11 +1,6 @@
 import React from 'react';
 
-interface ColorCardProps {
-  name: string;
-  value: string;
-}
-
-function ColorCard({ name, value }: ColorCardProps) {
+function ColorCard({ name, value }) {
   return (
     <div className="color__card">
       <div

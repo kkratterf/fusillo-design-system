@@ -1,11 +1,6 @@
 import React from 'react';
 
-interface ScaleCardProps {
-  name: string;
-  value: string;
-}
-
-function ScaleCard({ name, value }: ScaleCardProps) {
+function ScaleCard({ name, value }) {
   return (
     <div className="scale__card">
       <div className="scale__text">
