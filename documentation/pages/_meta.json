@@ -5,6 +5,8 @@
   "foundations": "Foundations",
   "tokens": "Tokens",
   "components": "Components",
+  "content": "Content",
+  "resources": "Resources",
   "about": {
     "title": "About",
     "type": "page"

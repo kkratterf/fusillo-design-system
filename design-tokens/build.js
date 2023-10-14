@@ -1,9 +1,6 @@
 const StyleDictionary = require('style-dictionary');
 const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 
-
-
-
 // FOUNDATIONS CSS
 
 const styleFoundations = StyleDictionary.extend({
@@ -44,19 +41,32 @@ styleFoundations.registerFormat({
       outputReferences,
     })}\n}`;
 
-    const modifiedTokens = formattedTokens.replace(
-      /foundations-|color-|typography-/g,
-      ''
-    );
+    const modifiedTokens = formattedTokens
+      .replace(/foundations-|color-|typography-/g, '')
+      .replace(/brand-brand/g, 'brand')
+      .replace(/neutral-neutral/g, 'neutral')
+      .replace(/red-red/g, 'red')
+      .replace(/orange-orange/g, 'orange')
+      .replace(/amber-amber/g, 'amber')
+      .replace(/yellow-yellow/g, 'yellow')
+      .replace(/lime-lime/g, 'lime')
+      .replace(/green-green/g, 'green')
+      .replace(/emerald-emerald/g, 'emerald')
+      .replace(/teal-teal/g, 'teal')
+      .replace(/cyan-cyan/g, 'cyan')
+      .replace(/sky-sky/g, 'sky')
+      .replace(/blue-blue/g, 'blue')
+      .replace(/indigo-indigo/g, 'indigo')
+      .replace(/violet-violet/g, 'violet')
+      .replace(/purple-purple/g, 'purple')
+      .replace(/fuchsia-fuchsia/g, 'fuchsia')
+      .replace(/pink-pink/g, 'pink')
+      .replace(/rose-rose/g, 'rose');
 
     return modifiedTokens;
   },
 });
 styleFoundations.buildAllPlatforms();
-
-
-
-
 
 // FOUNDATIONS JS
 
@@ -84,10 +94,6 @@ styleFoundationsJs.registerFilter({
 });
 styleFoundationsJs.buildAllPlatforms();
 
-
-
-
-
 // TOKENS LIGHT CSS
 
 const styleTokensLight = StyleDictionary.extend({
@@ -109,9 +115,7 @@ const styleTokensLight = StyleDictionary.extend({
 styleTokensLight.registerFilter({
   name: 'tokensLightFilter',
   matcher: function (token) {
-    return (
-      token.path.includes('Tokens') && token.path.includes('Light')
-    );
+    return token.path.includes('Tokens') && token.path.includes('Light');
   },
 });
 styleTokensLight.registerFormat({
@@ -136,11 +140,6 @@ styleTokensLight.registerFormat({
   },
 });
 styleTokensLight.buildAllPlatforms();
-
-
-
-
-
 
 // TOKENS LIGHT JS
 
@@ -172,10 +171,6 @@ styleTokensLightJs.registerFilter({
 });
 styleTokensLightJs.buildAllPlatforms();
 
-
-
-
-
 // TOKENS DARK
 
 const styleTokensDark = StyleDictionary.extend({
@@ -197,9 +192,7 @@ const styleTokensDark = StyleDictionary.extend({
 styleTokensDark.registerFilter({
   name: 'tokensDarkFilter',
   matcher: function (token) {
-    return (
-      token.path.includes('Tokens') && token.path.includes('Dark')
-    );
+    return token.path.includes('Tokens') && token.path.includes('Dark');
   },
 });
 styleTokensDark.registerFormat({
@@ -215,18 +208,12 @@ styleTokensDark.registerFormat({
       outputReferences,
     })}\n}`;
 
-    const modifiedTokens = formattedTokens.replace(
-      /tokens-|color-|dark-/g,
-      ''
-    );
+    const modifiedTokens = formattedTokens.replace(/tokens-|color-|dark-/g, '');
 
     return modifiedTokens;
   },
 });
 styleTokensDark.buildAllPlatforms();
-
-
-
 
 // CONFIG TOKEN
 
@@ -253,9 +240,6 @@ styleConfig.registerFilter({
   },
 });
 styleConfig.buildAllPlatforms();
-
-
-
 
 // BRAND TOKEN
 
@@ -302,7 +286,6 @@ styleBrand.registerFormat({
 });
 styleBrand.buildAllPlatforms();
 
-
 // Funzione per convertire un valore esadecimale (hex) in HSL
 function hexToHSL(hex) {
   hex = hex.replace(/^#/, ''); // Rimuovi il carattere "#"
@@ -319,7 +302,8 @@ function hexToHSL(hex) {
 
   if (max !== min) {
     const delta = max - min;
-    saturation = lightness > 0.5 ? delta / (2 - max - min) : delta / (max + min);
+    saturation =
+      lightness > 0.5 ? delta / (2 - max - min) : delta / (max + min);
 
     switch (max) {
       case r:
