@@ -30,9 +30,9 @@ export const Default: Story = {
   },
 };
 
-export const Destructive: Story = {
+export const Danger: Story = {
   args: {
-    variant: 'destructive',
+    variant: 'danger',
     size: 'default',
   },
 };

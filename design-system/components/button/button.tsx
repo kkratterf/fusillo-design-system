@@ -11,7 +11,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: 'button-default',
-        destructive:
+        danger:
           'bg-destructive text-destructive-foreground hover:bg-destructive/90',
         outline:
           'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
@@ -42,7 +42,10 @@ export interface ButtonProps
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, asChild = false, title, ...props }, ref) => {
+  (
+    { className, variant, size, asChild = false, title = 'Button', ...props },
+    ref
+  ) => {
     const Comp = asChild ? Slot : 'button';
     const buttonContent = title || props.children;
 
