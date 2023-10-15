@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 Oct 2023 14:22:24 GMT
+ * Generated on Sun, 15 Oct 2023 18:36:13 GMT
  */
 
 module.exports = {
@@ -45,7 +45,7 @@ module.exports = {
             },
             "bg-elevated": {
               "type": "color",
-              "value": "#3f3f46",
+              "value": "#09090b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:72:39"
@@ -54,7 +54,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-700}",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:72:39"
@@ -79,7 +79,7 @@ module.exports = {
             },
             "bg-container": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#18181b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:117"
@@ -88,7 +88,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:117"
@@ -109,40 +109,6 @@ module.exports = {
                 "Background",
                 "Neutral",
                 "bg-container"
-              ]
-            },
-            "bg-spotlight": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "",
-              "$extensions": {
-                "variableId": "VariableID:91:118"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffffff",
-                "description": "",
-                "$extensions": {
-                  "variableId": "VariableID:91:118"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgSpotlight",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-spotlight"
               ]
             },
             "bg-mask": {
@@ -215,7 +181,7 @@ module.exports = {
             },
             "bg-container-subdued": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#27272a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:122"
@@ -224,7 +190,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:122"
@@ -385,7 +351,7 @@ module.exports = {
             },
             "bg-container-disabled": {
               "type": "color",
-              "value": "#52525b",
+              "value": "#27272a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:291"
@@ -394,7 +360,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-600}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:291"
@@ -421,7 +387,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "bg for the brand color",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -430,7 +396,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.Color.Brand.brand-500}",
                 "description": "bg for the brand color",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
@@ -455,7 +421,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -464,7 +430,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:72:37"
@@ -489,7 +455,7 @@ module.exports = {
             },
             "bg-brand-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:126"
@@ -498,7 +464,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:126"
@@ -593,7 +559,7 @@ module.exports = {
           "Danger": {
             "bg-danger": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#ef4444",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:113"
@@ -602,7 +568,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.Color.Red.red-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:113"
@@ -627,7 +593,7 @@ module.exports = {
             },
             "bg-danger-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#dc2626",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:129"
@@ -636,7 +602,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.Color.Red.red-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:129"
@@ -661,7 +627,7 @@ module.exports = {
             },
             "bg-danger-active": {
               "type": "color",
-              "value": "#fca5a5",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:130"
@@ -670,7 +636,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:130"
@@ -765,7 +731,7 @@ module.exports = {
           "Warning": {
             "bg-warning": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#f59e0b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:114"
@@ -774,7 +740,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.Color.Amber.amber-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:114"
@@ -799,7 +765,7 @@ module.exports = {
             },
             "bg-warning-hover": {
               "type": "color",
-              "value": "#f59e0b",
+              "value": "#d97706",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:133"
@@ -808,7 +774,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.Color.Amber.amber-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:133"
@@ -833,7 +799,7 @@ module.exports = {
             },
             "bg-warning-active": {
               "type": "color",
-              "value": "#fcd34d",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:134"
@@ -842,7 +808,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:134"
@@ -937,7 +903,7 @@ module.exports = {
           "Success": {
             "bg-success": {
               "type": "color",
-              "value": "#4ade80",
+              "value": "#22c55e",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:115"
@@ -946,7 +912,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-400}",
+                "value": "{Foundations.Color.Green.green-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:115"
@@ -971,7 +937,7 @@ module.exports = {
             },
             "bg-success-hover": {
               "type": "color",
-              "value": "#22c55e",
+              "value": "#16a34a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:137"
@@ -980,7 +946,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-500}",
+                "value": "{Foundations.Color.Green.green-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:137"
@@ -1005,7 +971,7 @@ module.exports = {
             },
             "bg-success-active": {
               "type": "color",
-              "value": "#86efac",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:138"
@@ -1014,7 +980,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-300}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:138"
@@ -1109,7 +1075,7 @@ module.exports = {
           "Info": {
             "bg-info": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:116"
@@ -1118,7 +1084,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-400}",
+                "value": "{Foundations.Color.Blue.blue-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:116"
@@ -1143,7 +1109,7 @@ module.exports = {
             },
             "bg-info-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:141"
@@ -1152,7 +1118,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-500}",
+                "value": "{Foundations.Color.Blue.blue-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:141"
@@ -1177,7 +1143,7 @@ module.exports = {
             },
             "bg-info-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:142"
@@ -1186,7 +1152,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-300}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:142"
@@ -1281,7 +1247,7 @@ module.exports = {
           "Discovery": {
             "bg-discovery": {
               "type": "color",
-              "value": "#a78bfa",
+              "value": "#8b5cf6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:685"
@@ -1290,7 +1256,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-400}",
+                "value": "{Foundations.Color.Violet.violet-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:685"
@@ -1315,7 +1281,7 @@ module.exports = {
             },
             "bg-discovery-hover": {
               "type": "color",
-              "value": "#8b5cf6",
+              "value": "#7c3aed",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:687"
@@ -1324,7 +1290,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.Color.Violet.violet-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:687"
@@ -1349,7 +1315,7 @@ module.exports = {
             },
             "bg-discovery-active": {
               "type": "color",
-              "value": "#c4b5fd",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:688"
@@ -1358,7 +1324,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-300}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:688"
@@ -1525,7 +1491,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -1534,7 +1500,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.Color.Brand.brand-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:3"
@@ -1559,7 +1525,7 @@ module.exports = {
             },
             "border-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -1568,7 +1534,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:13"
@@ -1661,7 +1627,7 @@ module.exports = {
             },
             "border-brand-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:87"
@@ -1670,7 +1636,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:87"
@@ -1697,7 +1663,7 @@ module.exports = {
           "Danger": {
             "border-danger": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#ef4444",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:4"
@@ -1706,7 +1672,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.Color.Red.red-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:4"
@@ -1731,7 +1697,7 @@ module.exports = {
             },
             "border-danger-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#dc2626",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:12"
@@ -1740,7 +1706,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.Color.Red.red-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:12"
@@ -1833,7 +1799,7 @@ module.exports = {
             },
             "border-danger-active": {
               "type": "color",
-              "value": "#fca5a5",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:89"
@@ -1842,7 +1808,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:89"
@@ -1869,7 +1835,7 @@ module.exports = {
           "Success": {
             "border-success": {
               "type": "color",
-              "value": "#4ade80",
+              "value": "#22c55e",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:5"
@@ -1878,7 +1844,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-400}",
+                "value": "{Foundations.Color.Green.green-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:5"
@@ -1903,7 +1869,7 @@ module.exports = {
             },
             "border-success-hover": {
               "type": "color",
-              "value": "#22c55e",
+              "value": "#16a34a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:11"
@@ -1912,7 +1878,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-500}",
+                "value": "{Foundations.Color.Green.green-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:11"
@@ -2005,7 +1971,7 @@ module.exports = {
             },
             "border-success-active": {
               "type": "color",
-              "value": "#86efac",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:90"
@@ -2014,7 +1980,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-300}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:90"
@@ -2041,7 +2007,7 @@ module.exports = {
           "Warning": {
             "border-warning": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#f59e0b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:6"
@@ -2050,7 +2016,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.Color.Amber.amber-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:6"
@@ -2075,7 +2041,7 @@ module.exports = {
             },
             "border-warning-hover": {
               "type": "color",
-              "value": "#f59e0b",
+              "value": "#d97706",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:10"
@@ -2084,7 +2050,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.Color.Amber.amber-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:10"
@@ -2177,7 +2143,7 @@ module.exports = {
             },
             "border-warning-active": {
               "type": "color",
-              "value": "#fcd34d",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:91"
@@ -2186,7 +2152,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:91"
@@ -2213,7 +2179,7 @@ module.exports = {
           "Info": {
             "border-info": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:7"
@@ -2222,7 +2188,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-400}",
+                "value": "{Foundations.Color.Blue.blue-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:7"
@@ -2247,7 +2213,7 @@ module.exports = {
             },
             "border-info-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:8"
@@ -2256,7 +2222,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-500}",
+                "value": "{Foundations.Color.Blue.blue-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:8"
@@ -2281,7 +2247,7 @@ module.exports = {
             },
             "border-info-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:92"
@@ -2290,7 +2256,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-300}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:92"
@@ -2385,7 +2351,7 @@ module.exports = {
           "Discovery": {
             "border-discovery": {
               "type": "color",
-              "value": "#a78bfa",
+              "value": "#8b5cf6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:696"
@@ -2394,7 +2360,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-400}",
+                "value": "{Foundations.Color.Violet.violet-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:696"
@@ -2419,7 +2385,7 @@ module.exports = {
             },
             "border-discovery-hover": {
               "type": "color",
-              "value": "#8b5cf6",
+              "value": "#7c3aed",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:697"
@@ -2428,7 +2394,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.Color.Violet.violet-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:697"
@@ -2453,7 +2419,7 @@ module.exports = {
             },
             "border-discovery-active": {
               "type": "color",
-              "value": "#c4b5fd",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:698"
@@ -2462,7 +2428,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-300}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:698"
@@ -2559,7 +2525,7 @@ module.exports = {
           "Neutral": {
             "text-description": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#a1a1aa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:28"
@@ -2568,7 +2534,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:28"
@@ -2593,7 +2559,7 @@ module.exports = {
             },
             "text-heading": {
               "type": "color",
-              "value": "#fafafa",
+              "value": "#ffffff",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:29"
@@ -2602,7 +2568,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:29"
@@ -2627,7 +2593,7 @@ module.exports = {
             },
             "text-disabled": {
               "type": "color",
-              "value": "#d4d4d8",
+              "value": "#3f3f46",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:30"
@@ -2636,7 +2602,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-300}",
+                "value": "{Foundations.Color.Neutral.neutral-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:30"
@@ -2765,7 +2731,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -2774,7 +2740,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.Color.Brand.brand-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:34"
@@ -2799,7 +2765,7 @@ module.exports = {
             },
             "text-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:35"
@@ -2808,7 +2774,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:35"
@@ -2833,7 +2799,7 @@ module.exports = {
             },
             "text-brand-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:36"
@@ -2842,7 +2808,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:36"
@@ -2898,12 +2864,46 @@ module.exports = {
                 "Brand",
                 "text-brand-inverse"
               ]
+            },
+            "text-brand-strong": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11553"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Brand.brand-300}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11553"
+                }
+              },
+              "name": "TokensDarkColorTextBrandTextBrandStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Brand"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Text",
+                "Brand",
+                "text-brand-strong"
+              ]
             }
           },
           "Danger": {
             "text-danger": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#ef4444",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:37"
@@ -2912,7 +2912,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.Color.Red.red-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:37"
@@ -2937,7 +2937,7 @@ module.exports = {
             },
             "text-danger-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#dc2626",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:38"
@@ -2946,7 +2946,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.Color.Red.red-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:38"
@@ -2971,7 +2971,7 @@ module.exports = {
             },
             "text-danger-active": {
               "type": "color",
-              "value": "#fca5a5",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:39"
@@ -2980,7 +2980,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:39"
@@ -3036,12 +3036,46 @@ module.exports = {
                 "Danger",
                 "text-danger-inverse"
               ]
+            },
+            "text-danger-strong": {
+              "type": "color",
+              "value": "#fca5a5",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11554"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Red.red-300}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11554"
+                }
+              },
+              "name": "TokensDarkColorTextDangerTextDangerStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Danger"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Text",
+                "Danger",
+                "text-danger-strong"
+              ]
             }
           },
           "Success": {
             "text-success": {
               "type": "color",
-              "value": "#4ade80",
+              "value": "#22c55e",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:40"
@@ -3050,7 +3084,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-400}",
+                "value": "{Foundations.Color.Green.green-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:40"
@@ -3075,7 +3109,7 @@ module.exports = {
             },
             "text-success-hover": {
               "type": "color",
-              "value": "#22c55e",
+              "value": "#16a34a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:41"
@@ -3084,7 +3118,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-500}",
+                "value": "{Foundations.Color.Green.green-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:41"
@@ -3109,7 +3143,7 @@ module.exports = {
             },
             "text-success-active": {
               "type": "color",
-              "value": "#86efac",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:42"
@@ -3118,7 +3152,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-300}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:42"
@@ -3174,12 +3208,46 @@ module.exports = {
                 "Success",
                 "text-success-inverse"
               ]
+            },
+            "text-success-strong": {
+              "type": "color",
+              "value": "#86efac",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11556"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Green.green-300}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11556"
+                }
+              },
+              "name": "TokensDarkColorTextSuccessTextSuccessStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Success"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Text",
+                "Success",
+                "text-success-strong"
+              ]
             }
           },
           "Warning": {
             "text-warning": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#f59e0b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:43"
@@ -3188,7 +3256,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.Color.Amber.amber-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:43"
@@ -3213,7 +3281,7 @@ module.exports = {
             },
             "text-warning-hover": {
               "type": "color",
-              "value": "#f59e0b",
+              "value": "#d97706",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:44"
@@ -3222,7 +3290,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.Color.Amber.amber-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:44"
@@ -3247,7 +3315,7 @@ module.exports = {
             },
             "text-warning-active": {
               "type": "color",
-              "value": "#fcd34d",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:45"
@@ -3256,7 +3324,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:45"
@@ -3312,12 +3380,46 @@ module.exports = {
                 "Warning",
                 "text-warning-inverse"
               ]
+            },
+            "text-warning-strong": {
+              "type": "color",
+              "value": "#fcd34d",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11555"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Amber.amber-300}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11555"
+                }
+              },
+              "name": "TokensDarkColorTextWarningTextWarningStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Warning"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Text",
+                "Warning",
+                "text-warning-strong"
+              ]
             }
           },
           "Info": {
             "text-info": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:46"
@@ -3326,7 +3428,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-400}",
+                "value": "{Foundations.Color.Blue.blue-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:46"
@@ -3351,7 +3453,7 @@ module.exports = {
             },
             "text-info-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:47"
@@ -3360,7 +3462,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-500}",
+                "value": "{Foundations.Color.Blue.blue-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:47"
@@ -3385,7 +3487,7 @@ module.exports = {
             },
             "text-info-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:48"
@@ -3394,7 +3496,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-300}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:48"
@@ -3450,12 +3552,46 @@ module.exports = {
                 "Info",
                 "text-info-inverse"
               ]
+            },
+            "text-info-strong": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11557"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Blue.blue-300}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11557"
+                }
+              },
+              "name": "TokensDarkColorTextInfoTextInfoStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Info"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Text",
+                "Info",
+                "text-info-strong"
+              ]
             }
           },
           "Discovery": {
             "text-discovery": {
               "type": "color",
-              "value": "#a78bfa",
+              "value": "#8b5cf6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:692"
@@ -3464,7 +3600,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-400}",
+                "value": "{Foundations.Color.Violet.violet-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:692"
@@ -3489,7 +3625,7 @@ module.exports = {
             },
             "text-discovery-hover": {
               "type": "color",
-              "value": "#8b5cf6",
+              "value": "#7c3aed",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:693"
@@ -3498,7 +3634,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.Color.Violet.violet-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:693"
@@ -3523,7 +3659,7 @@ module.exports = {
             },
             "text-discovery-active": {
               "type": "color",
-              "value": "#c4b5fd",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:694"
@@ -3532,7 +3668,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-300}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:694"
@@ -3587,6 +3723,40 @@ module.exports = {
                 "Text",
                 "Discovery",
                 "text-discovery-inverse"
+              ]
+            },
+            "text-discovery-strong": {
+              "type": "color",
+              "value": "#c4b5fd",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11558"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Violet.violet-300}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11558"
+                }
+              },
+              "name": "TokensDarkColorTextDiscoveryTextDiscoveryStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Discovery"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Text",
+                "Discovery",
+                "text-discovery-strong"
               ]
             }
           }
@@ -3733,7 +3903,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:53"
@@ -3742,7 +3912,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.Color.Brand.brand-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:53"
@@ -3767,7 +3937,7 @@ module.exports = {
             },
             "icon-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:54"
@@ -3776,7 +3946,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:54"
@@ -3801,7 +3971,7 @@ module.exports = {
             },
             "icon-brand-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:55"
@@ -3810,7 +3980,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:55"
@@ -3871,7 +4041,7 @@ module.exports = {
           "Danger": {
             "icon-danger": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#ef4444",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:56"
@@ -3880,7 +4050,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.Color.Red.red-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:56"
@@ -3905,7 +4075,7 @@ module.exports = {
             },
             "icon-danger-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#dc2626",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:57"
@@ -3914,7 +4084,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.Color.Red.red-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:57"
@@ -3939,7 +4109,7 @@ module.exports = {
             },
             "icon-danger-active": {
               "type": "color",
-              "value": "#fca5a5",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:58"
@@ -3948,7 +4118,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:58"
@@ -4009,7 +4179,7 @@ module.exports = {
           "Success": {
             "icon-success": {
               "type": "color",
-              "value": "#4ade80",
+              "value": "#22c55e",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:59"
@@ -4018,7 +4188,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-400}",
+                "value": "{Foundations.Color.Green.green-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:59"
@@ -4043,7 +4213,7 @@ module.exports = {
             },
             "icon-success-hover": {
               "type": "color",
-              "value": "#22c55e",
+              "value": "#16a34a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:60"
@@ -4052,7 +4222,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-500}",
+                "value": "{Foundations.Color.Green.green-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:60"
@@ -4077,7 +4247,7 @@ module.exports = {
             },
             "icon-success-active": {
               "type": "color",
-              "value": "#86efac",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:61"
@@ -4086,7 +4256,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-300}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:61"
@@ -4147,7 +4317,7 @@ module.exports = {
           "Warning": {
             "icon-warning": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#f59e0b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:62"
@@ -4156,7 +4326,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.Color.Amber.amber-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:62"
@@ -4181,7 +4351,7 @@ module.exports = {
             },
             "icon-warning-hover": {
               "type": "color",
-              "value": "#f59e0b",
+              "value": "#d97706",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:63"
@@ -4190,7 +4360,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.Color.Amber.amber-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:63"
@@ -4215,7 +4385,7 @@ module.exports = {
             },
             "icon-warning-active": {
               "type": "color",
-              "value": "#fcd34d",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:64"
@@ -4224,7 +4394,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:64"
@@ -4285,7 +4455,7 @@ module.exports = {
           "Info": {
             "icon-info": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:65"
@@ -4294,7 +4464,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-400}",
+                "value": "{Foundations.Color.Blue.blue-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:65"
@@ -4319,7 +4489,7 @@ module.exports = {
             },
             "icon-info-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:66"
@@ -4328,7 +4498,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-500}",
+                "value": "{Foundations.Color.Blue.blue-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:66"
@@ -4353,7 +4523,7 @@ module.exports = {
             },
             "icon-info-active": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:67"
@@ -4362,7 +4532,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-300}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:67"
@@ -4423,7 +4593,7 @@ module.exports = {
           "Discovery": {
             "icon-discovery": {
               "type": "color",
-              "value": "#a78bfa",
+              "value": "#8b5cf6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:232:701"
@@ -4432,7 +4602,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-400}",
+                "value": "{Foundations.Color.Violet.violet-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:232:701"
@@ -4457,7 +4627,7 @@ module.exports = {
             },
             "icon-discovery-hover": {
               "type": "color",
-              "value": "#8b5cf6",
+              "value": "#7c3aed",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:232:702"
@@ -4466,7 +4636,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.Color.Violet.violet-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:232:702"
@@ -4491,7 +4661,7 @@ module.exports = {
             },
             "icon-discovery-active": {
               "type": "color",
-              "value": "#c4b5fd",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:232:703"
@@ -4500,7 +4670,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-300}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:232:703"

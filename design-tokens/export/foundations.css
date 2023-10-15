@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 Oct 2023 14:22:24 GMT
+ * Generated on Sun, 15 Oct 2023 18:36:13 GMT
  */
 
 :root {
@@ -249,17 +249,17 @@
   --scale-1-5: 6px;
   --scale-025: 1px;
   --scale-full: 999px;
-  --breakpoints-0: 0px;
-  --breakpoints-320: 320px;
-  --breakpoints-375: 375px;
-  --breakpoints-390: 390px;
-  --breakpoints-490: 490px;
-  --breakpoints-640: 640px;
-  --breakpoints-768: 768px;
-  --breakpoints-1024: 1024px;
-  --breakpoints-1280: 1280px;
-  --breakpoints-1440: 1440px;
-  --breakpoints-1536: 1536px;
-  --breakpoints-1680: 1680px;
-  --breakpoints-1920: 1920px;
+  --breakpoint-0: 0px;
+  --breakpoint-320: 320px;
+  --breakpoint-375: 375px;
+  --breakpoint-390: 390px;
+  --breakpoint-490: 490px;
+  --breakpoint-640: 640px;
+  --breakpoint-768: 768px;
+  --breakpoint-1024: 1024px;
+  --breakpoint-1280: 1280px;
+  --breakpoint-1440: 1440px;
+  --breakpoint-1536: 1536px;
+  --breakpoint-1680: 1680px;
+  --breakpoint-1920: 1920px;
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 Oct 2023 14:22:24 GMT
+ * Generated on Sun, 15 Oct 2023 18:36:13 GMT
  */
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
           "Neutral": {
             "bg-layout": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "#ffffff",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:72:35"
@@ -20,7 +20,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:72:35"
@@ -111,40 +111,6 @@ module.exports = {
                 "bg-container"
               ]
             },
-            "bg-spotlight": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "",
-              "$extensions": {
-                "variableId": "VariableID:91:118"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffffff",
-                "description": "",
-                "$extensions": {
-                  "variableId": "VariableID:91:118"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgSpotlight",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-spotlight"
-              ]
-            },
             "bg-mask": {
               "type": "color",
               "value": "#ffffff",
@@ -215,7 +181,7 @@ module.exports = {
             },
             "bg-container-subdued": {
               "type": "color",
-              "value": "#fafafa",
+              "value": "#f4f4f5",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:122"
@@ -224,7 +190,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
+                "value": "{Foundations.Color.Neutral.neutral-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:122"
@@ -385,7 +351,7 @@ module.exports = {
             },
             "bg-container-disabled": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "#e4e4e7",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:291"
@@ -394,7 +360,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
+                "value": "{Foundations.Color.Neutral.neutral-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:291"
@@ -523,7 +489,7 @@ module.exports = {
             },
             "bg-brand-light": {
               "type": "color",
-              "value": "#eff6ff",
+              "value": "#dbeafe",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:127"
@@ -532,7 +498,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-50}",
+                "value": "{Foundations.Color.Brand.brand-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:127"
@@ -557,7 +523,7 @@ module.exports = {
             },
             "bg-brand-light-hover": {
               "type": "color",
-              "value": "#dbeafe",
+              "value": "#bfdbfe",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:128"
@@ -566,7 +532,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-100}",
+                "value": "{Foundations.Color.Brand.brand-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:128"
@@ -695,7 +661,7 @@ module.exports = {
             },
             "bg-danger-light": {
               "type": "color",
-              "value": "#fef2f2",
+              "value": "#fee2e2",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:131"
@@ -704,7 +670,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-50}",
+                "value": "{Foundations.Color.Red.red-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:131"
@@ -729,7 +695,7 @@ module.exports = {
             },
             "bg-danger-light-hover": {
               "type": "color",
-              "value": "#fee2e2",
+              "value": "#fecaca",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:132"
@@ -738,7 +704,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-100}",
+                "value": "{Foundations.Color.Red.red-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
@@ -867,7 +833,7 @@ module.exports = {
             },
             "bg-warning-light": {
               "type": "color",
-              "value": "#fffbeb",
+              "value": "#fef3c7",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:135"
@@ -876,7 +842,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-50}",
+                "value": "{Foundations.Color.Amber.amber-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:135"
@@ -901,7 +867,7 @@ module.exports = {
             },
             "bg-warning-light-hover": {
               "type": "color",
-              "value": "#fef3c7",
+              "value": "#fde68a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:136"
@@ -910,7 +876,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-100}",
+                "value": "{Foundations.Color.Amber.amber-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
@@ -1039,7 +1005,7 @@ module.exports = {
             },
             "bg-success-light": {
               "type": "color",
-              "value": "#f0fdf4",
+              "value": "#dcfce7",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:139"
@@ -1048,7 +1014,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-50}",
+                "value": "{Foundations.Color.Green.green-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:139"
@@ -1073,7 +1039,7 @@ module.exports = {
             },
             "bg-success-light-hover": {
               "type": "color",
-              "value": "#dcfce7",
+              "value": "#bbf7d0",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:140"
@@ -1082,7 +1048,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-100}",
+                "value": "{Foundations.Color.Green.green-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:140"
@@ -1211,7 +1177,7 @@ module.exports = {
             },
             "bg-info-light": {
               "type": "color",
-              "value": "#eff6ff",
+              "value": "#dbeafe",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:143"
@@ -1220,7 +1186,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-50}",
+                "value": "{Foundations.Color.Blue.blue-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:143"
@@ -1245,7 +1211,7 @@ module.exports = {
             },
             "bg-info-light-hover": {
               "type": "color",
-              "value": "#dbeafe",
+              "value": "#bfdbfe",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:144"
@@ -1254,7 +1220,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-100}",
+                "value": "{Foundations.Color.Blue.blue-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:144"
@@ -1383,7 +1349,7 @@ module.exports = {
             },
             "bg-discovery-light": {
               "type": "color",
-              "value": "#f5f3ff",
+              "value": "#ede9fe",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:689"
@@ -1392,7 +1358,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-50}",
+                "value": "{Foundations.Color.Violet.violet-100}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:689"
@@ -1417,7 +1383,7 @@ module.exports = {
             },
             "bg-discovery-light-hover": {
               "type": "color",
-              "value": "#ede9fe",
+              "value": "#ddd6fe",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:690"
@@ -1426,7 +1392,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-100}",
+                "value": "{Foundations.Color.Violet.violet-200}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:690"
@@ -2559,7 +2525,7 @@ module.exports = {
           "Neutral": {
             "text-description": {
               "type": "color",
-              "value": "#52525b",
+              "value": "#71717a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:28"
@@ -2568,7 +2534,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-600}",
+                "value": "{Foundations.Color.Neutral.neutral-500}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:28"
@@ -2593,7 +2559,7 @@ module.exports = {
             },
             "text-heading": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#09090b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:29"
@@ -2602,7 +2568,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:29"
@@ -2661,7 +2627,7 @@ module.exports = {
             },
             "text": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#18181b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:31"
@@ -2670,7 +2636,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:31"
@@ -2695,7 +2661,7 @@ module.exports = {
             },
             "text-placeholder": {
               "type": "color",
-              "value": "#71717a",
+              "value": "#a1a1aa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:32"
@@ -2704,7 +2670,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-500}",
+                "value": "{Foundations.Color.Neutral.neutral-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:32"
@@ -2898,6 +2864,40 @@ module.exports = {
                 "Brand",
                 "text-brand-inverse"
               ]
+            },
+            "text-brand-strong": {
+              "type": "color",
+              "value": "#1d4ed8",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11553"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Brand.brand-700}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11553"
+                }
+              },
+              "name": "TokensLightColorTextBrandTextBrandStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Brand"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Text",
+                "Brand",
+                "text-brand-strong"
+              ]
             }
           },
           "Danger": {
@@ -3035,6 +3035,40 @@ module.exports = {
                 "Text",
                 "Danger",
                 "text-danger-inverse"
+              ]
+            },
+            "text-danger-strong": {
+              "type": "color",
+              "value": "#b91c1c",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11554"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Red.red-700}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11554"
+                }
+              },
+              "name": "TokensLightColorTextDangerTextDangerStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Danger"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Text",
+                "Danger",
+                "text-danger-strong"
               ]
             }
           },
@@ -3174,6 +3208,40 @@ module.exports = {
                 "Success",
                 "text-success-inverse"
               ]
+            },
+            "text-success-strong": {
+              "type": "color",
+              "value": "#15803d",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11556"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Green.green-700}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11556"
+                }
+              },
+              "name": "TokensLightColorTextSuccessTextSuccessStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Success"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Text",
+                "Success",
+                "text-success-strong"
+              ]
             }
           },
           "Warning": {
@@ -3311,6 +3379,40 @@ module.exports = {
                 "Text",
                 "Warning",
                 "text-warning-inverse"
+              ]
+            },
+            "text-warning-strong": {
+              "type": "color",
+              "value": "#b45309",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11555"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Amber.amber-700}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11555"
+                }
+              },
+              "name": "TokensLightColorTextWarningTextWarningStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Warning"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Text",
+                "Warning",
+                "text-warning-strong"
               ]
             }
           },
@@ -3450,6 +3552,40 @@ module.exports = {
                 "Info",
                 "text-info-inverse"
               ]
+            },
+            "text-info-strong": {
+              "type": "color",
+              "value": "#1d4ed8",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11557"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Blue.blue-700}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11557"
+                }
+              },
+              "name": "TokensLightColorTextInfoTextInfoStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Info"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Text",
+                "Info",
+                "text-info-strong"
+              ]
             }
           },
           "Discovery": {
@@ -3587,6 +3723,40 @@ module.exports = {
                 "Text",
                 "Discovery",
                 "text-discovery-inverse"
+              ]
+            },
+            "text-discovery-strong": {
+              "type": "color",
+              "value": "#6d28d9",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:487:11558"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Violet.violet-700}",
+                "description": "",
+                "$extensions": {
+                  "variableId": "VariableID:487:11558"
+                }
+              },
+              "name": "TokensLightColorTextDiscoveryTextDiscoveryStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Text",
+                "state": "Discovery"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Text",
+                "Discovery",
+                "text-discovery-strong"
               ]
             }
           }

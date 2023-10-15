@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 Oct 2023 14:22:24 GMT
+ * Generated on Sun, 15 Oct 2023 18:36:13 GMT
  */
 
 module.exports = {
@@ -7574,7 +7574,7 @@ module.exports = {
         ]
       }
     },
-    "Breakpoints": {
+    "Breakpoint": {
       "0": {
         "type": "dimension",
         "value": "0px",
@@ -7592,15 +7592,15 @@ module.exports = {
             "variableId": "VariableID:229:679"
           }
         },
-        "name": "FoundationsBreakpoints0",
+        "name": "FoundationsBreakpoint0",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "0"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "0"
         ]
       },
@@ -7621,15 +7621,15 @@ module.exports = {
             "variableId": "VariableID:229:680"
           }
         },
-        "name": "FoundationsBreakpoints320",
+        "name": "FoundationsBreakpoint320",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "320"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "320"
         ]
       },
@@ -7650,15 +7650,15 @@ module.exports = {
             "variableId": "VariableID:12:327"
           }
         },
-        "name": "FoundationsBreakpoints375",
+        "name": "FoundationsBreakpoint375",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "375"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "375"
         ]
       },
@@ -7679,15 +7679,15 @@ module.exports = {
             "variableId": "VariableID:12:304"
           }
         },
-        "name": "FoundationsBreakpoints390",
+        "name": "FoundationsBreakpoint390",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "390"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "390"
         ]
       },
@@ -7708,15 +7708,15 @@ module.exports = {
             "variableId": "VariableID:229:681"
           }
         },
-        "name": "FoundationsBreakpoints490",
+        "name": "FoundationsBreakpoint490",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "490"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "490"
         ]
       },
@@ -7737,15 +7737,15 @@ module.exports = {
             "variableId": "VariableID:12:313"
           }
         },
-        "name": "FoundationsBreakpoints640",
+        "name": "FoundationsBreakpoint640",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "640"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "640"
         ]
       },
@@ -7766,15 +7766,15 @@ module.exports = {
             "variableId": "VariableID:12:314"
           }
         },
-        "name": "FoundationsBreakpoints768",
+        "name": "FoundationsBreakpoint768",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "768"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "768"
         ]
       },
@@ -7795,15 +7795,15 @@ module.exports = {
             "variableId": "VariableID:12:315"
           }
         },
-        "name": "FoundationsBreakpoints1024",
+        "name": "FoundationsBreakpoint1024",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "1024"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "1024"
         ]
       },
@@ -7824,15 +7824,15 @@ module.exports = {
             "variableId": "VariableID:12:316"
           }
         },
-        "name": "FoundationsBreakpoints1280",
+        "name": "FoundationsBreakpoint1280",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "1280"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "1280"
         ]
       },
@@ -7853,15 +7853,15 @@ module.exports = {
             "variableId": "VariableID:229:682"
           }
         },
-        "name": "FoundationsBreakpoints1440",
+        "name": "FoundationsBreakpoint1440",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "1440"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "1440"
         ]
       },
@@ -7882,15 +7882,15 @@ module.exports = {
             "variableId": "VariableID:12:317"
           }
         },
-        "name": "FoundationsBreakpoints1536",
+        "name": "FoundationsBreakpoint1536",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "1536"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "1536"
         ]
       },
@@ -7911,15 +7911,15 @@ module.exports = {
             "variableId": "VariableID:229:683"
           }
         },
-        "name": "FoundationsBreakpoints1680",
+        "name": "FoundationsBreakpoint1680",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "1680"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "1680"
         ]
       },
@@ -7940,15 +7940,15 @@ module.exports = {
             "variableId": "VariableID:229:684"
           }
         },
-        "name": "FoundationsBreakpoints1920",
+        "name": "FoundationsBreakpoint1920",
         "attributes": {
           "category": "Foundations",
-          "type": "Breakpoints",
+          "type": "Breakpoint",
           "item": "1920"
         },
         "path": [
           "Foundations",
-          "Breakpoints",
+          "Breakpoint",
           "1920"
         ]
       }
