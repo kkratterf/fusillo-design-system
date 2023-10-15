@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 Oct 2023 18:36:13 GMT
+ * Generated on Sun, 15 Oct 2023 19:47:51 GMT
  */
 
 module.exports = {
@@ -79,7 +79,7 @@ module.exports = {
             },
             "bg-container": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#09090b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:117"
@@ -88,7 +88,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:117"
@@ -113,7 +113,7 @@ module.exports = {
             },
             "bg-mask": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#09090be6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:119"
@@ -122,7 +122,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "#09090be6",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:119"
@@ -147,7 +147,7 @@ module.exports = {
             },
             "bg-interactive": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#09090b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:121"
@@ -156,7 +156,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:121"
@@ -179,7 +179,7 @@ module.exports = {
                 "bg-interactive"
               ]
             },
-            "bg-container-subdued": {
+            "bg-container-subtle": {
               "type": "color",
               "value": "#27272a",
               "description": "",
@@ -196,7 +196,7 @@ module.exports = {
                   "variableId": "VariableID:91:122"
                 }
               },
-              "name": "TokensDarkColorBackgroundNeutralBgContainerSubdued",
+              "name": "TokensDarkColorBackgroundNeutralBgContainerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -210,12 +210,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Neutral",
-                "bg-container-subdued"
+                "bg-container-subtle"
               ]
             },
             "bg-interactive-hover": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#18181b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:123"
@@ -224,7 +224,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:123"
@@ -249,7 +249,7 @@ module.exports = {
             },
             "bg-interactive-active": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#27272a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:124"
@@ -258,7 +258,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:124"
@@ -283,7 +283,7 @@ module.exports = {
             },
             "bg-interactive-active-hover": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#3f3f46",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:125"
@@ -292,7 +292,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:125"
@@ -317,7 +317,7 @@ module.exports = {
             },
             "bg-interactive-disabled": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#18181b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:290"
@@ -326,7 +326,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:290"
@@ -487,7 +487,7 @@ module.exports = {
                 "bg-brand-active"
               ]
             },
-            "bg-brand-light": {
+            "bg-brand-subtlest": {
               "type": "color",
               "value": "#172554",
               "description": "",
@@ -504,7 +504,7 @@ module.exports = {
                   "variableId": "VariableID:91:127"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrandLight",
+              "name": "TokensDarkColorBackgroundBrandBgBrandSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -518,12 +518,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Brand",
-                "bg-brand-light"
+                "bg-brand-subtlest"
               ]
             },
-            "bg-brand-light-hover": {
+            "bg-brand-subtle": {
               "type": "color",
-              "value": "#1e3a8a",
+              "value": "#172554",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:128"
@@ -532,13 +532,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-900}",
+                "value": "{Foundations.Color.Brand.brand-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:128"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrandLightHover",
+              "name": "TokensDarkColorBackgroundBrandBgBrandSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -552,7 +552,7 @@ module.exports = {
                 "Color",
                 "Background",
                 "Brand",
-                "bg-brand-light-hover"
+                "bg-brand-subtle"
               ]
             }
           },
@@ -659,7 +659,7 @@ module.exports = {
                 "bg-danger-active"
               ]
             },
-            "bg-danger-light": {
+            "bg-danger-subtlest": {
               "type": "color",
               "value": "#450a0a",
               "description": "",
@@ -676,7 +676,7 @@ module.exports = {
                   "variableId": "VariableID:91:131"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDangerLight",
+              "name": "TokensDarkColorBackgroundDangerBgDangerSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -690,12 +690,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Danger",
-                "bg-danger-light"
+                "bg-danger-subtlest"
               ]
             },
-            "bg-danger-light-hover": {
+            "bg-danger-subtle": {
               "type": "color",
-              "value": "#7f1d1d",
+              "value": "#450a0a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:132"
@@ -704,13 +704,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-900}",
+                "value": "{Foundations.Color.Red.red-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDangerLightHover",
+              "name": "TokensDarkColorBackgroundDangerBgDangerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -724,7 +724,7 @@ module.exports = {
                 "Color",
                 "Background",
                 "Danger",
-                "bg-danger-light-hover"
+                "bg-danger-subtle"
               ]
             }
           },
@@ -831,7 +831,7 @@ module.exports = {
                 "bg-warning-active"
               ]
             },
-            "bg-warning-light": {
+            "bg-warning-subtlest": {
               "type": "color",
               "value": "#451a03",
               "description": "",
@@ -848,7 +848,7 @@ module.exports = {
                   "variableId": "VariableID:91:135"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarningLight",
+              "name": "TokensDarkColorBackgroundWarningBgWarningSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -862,12 +862,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Warning",
-                "bg-warning-light"
+                "bg-warning-subtlest"
               ]
             },
-            "bg-warning-light-hover": {
+            "bg-warning-subtle": {
               "type": "color",
-              "value": "#78350f",
+              "value": "#451a03",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:136"
@@ -876,13 +876,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-900}",
+                "value": "{Foundations.Color.Amber.amber-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarningLightHover",
+              "name": "TokensDarkColorBackgroundWarningBgWarningSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -896,7 +896,7 @@ module.exports = {
                 "Color",
                 "Background",
                 "Warning",
-                "bg-warning-light-hover"
+                "bg-warning-subtle"
               ]
             }
           },
@@ -1003,7 +1003,7 @@ module.exports = {
                 "bg-success-active"
               ]
             },
-            "bg-success-light": {
+            "bg-success-subtlest": {
               "type": "color",
               "value": "#052e16",
               "description": "",
@@ -1020,7 +1020,7 @@ module.exports = {
                   "variableId": "VariableID:91:139"
                 }
               },
-              "name": "TokensDarkColorBackgroundSuccessBgSuccessLight",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccessSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1034,12 +1034,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Success",
-                "bg-success-light"
+                "bg-success-subtlest"
               ]
             },
-            "bg-success-light-hover": {
+            "bg-success-subtle": {
               "type": "color",
-              "value": "#14532d",
+              "value": "#052e16",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:140"
@@ -1048,13 +1048,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-900}",
+                "value": "{Foundations.Color.Green.green-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:140"
                 }
               },
-              "name": "TokensDarkColorBackgroundSuccessBgSuccessLightHover",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccessSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1068,7 +1068,7 @@ module.exports = {
                 "Color",
                 "Background",
                 "Success",
-                "bg-success-light-hover"
+                "bg-success-subtle"
               ]
             }
           },
@@ -1175,7 +1175,7 @@ module.exports = {
                 "bg-info-active"
               ]
             },
-            "bg-info-light": {
+            "bg-info-subtlest": {
               "type": "color",
               "value": "#172554",
               "description": "",
@@ -1192,7 +1192,7 @@ module.exports = {
                   "variableId": "VariableID:91:143"
                 }
               },
-              "name": "TokensDarkColorBackgroundInfoBgInfoLight",
+              "name": "TokensDarkColorBackgroundInfoBgInfoSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1206,12 +1206,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Info",
-                "bg-info-light"
+                "bg-info-subtlest"
               ]
             },
-            "bg-info-light-hover": {
+            "bg-info-subtle": {
               "type": "color",
-              "value": "#1e3a8a",
+              "value": "#172554",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:144"
@@ -1220,13 +1220,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-900}",
+                "value": "{Foundations.Color.Blue.blue-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:144"
                 }
               },
-              "name": "TokensDarkColorBackgroundInfoBgInfoLightHover",
+              "name": "TokensDarkColorBackgroundInfoBgInfoSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1240,7 +1240,7 @@ module.exports = {
                 "Color",
                 "Background",
                 "Info",
-                "bg-info-light-hover"
+                "bg-info-subtle"
               ]
             }
           },
@@ -1347,7 +1347,7 @@ module.exports = {
                 "bg-discovery-active"
               ]
             },
-            "bg-discovery-light": {
+            "bg-discovery-subtlest": {
               "type": "color",
               "value": "#2e1065",
               "description": "",
@@ -1364,7 +1364,7 @@ module.exports = {
                   "variableId": "VariableID:229:689"
                 }
               },
-              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoveryLight",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoverySubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1378,12 +1378,12 @@ module.exports = {
                 "Color",
                 "Background",
                 "Discovery",
-                "bg-discovery-light"
+                "bg-discovery-subtlest"
               ]
             },
-            "bg-discovery-light-hover": {
+            "bg-discovery-subtle": {
               "type": "color",
-              "value": "#4c1d95",
+              "value": "#2e1065",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:690"
@@ -1392,13 +1392,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-900}",
+                "value": "{Foundations.Color.Violet.violet-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:690"
                 }
               },
-              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoveryLightHover",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoverySubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1412,7 +1412,7 @@ module.exports = {
                 "Color",
                 "Background",
                 "Discovery",
-                "bg-discovery-light-hover"
+                "bg-discovery-subtle"
               ]
             }
           }
@@ -1421,7 +1421,7 @@ module.exports = {
           "Neutral": {
             "border-primary": {
               "type": "color",
-              "value": "#3f3f46",
+              "value": "#27272a",
               "description": "Default border color, used to separate different elements, such as: form separator, card separator, etc",
               "$extensions": {
                 "variableId": "VariableID:72:47"
@@ -1430,7 +1430,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-700}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "Default border color, used to separate different elements, such as: form separator, card separator, etc",
                 "$extensions": {
                   "variableId": "VariableID:72:47"
@@ -1455,7 +1455,7 @@ module.exports = {
             },
             "border-secondary": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#18181b",
               "description": "Slightly lighter than the default border color",
               "$extensions": {
                 "variableId": "VariableID:75:2"
@@ -1464,7 +1464,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "Slightly lighter than the default border color",
                 "$extensions": {
                   "variableId": "VariableID:75:2"
@@ -1557,9 +1557,9 @@ module.exports = {
                 "border-brand-hover"
               ]
             },
-            "border-brand-light": {
+            "border-brand-subtlest": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#1e40af",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:89:78"
@@ -1568,13 +1568,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.Color.Brand.brand-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:89:78"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrandLight",
+              "name": "TokensDarkColorBorderBrandBorderBrandSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1588,12 +1588,12 @@ module.exports = {
                 "Color",
                 "Border",
                 "Brand",
-                "border-brand-light"
+                "border-brand-subtlest"
               ]
             },
-            "border-brand-light-hover": {
+            "border-brand-subtle": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#1e40af",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:89:79"
@@ -1602,13 +1602,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.Color.Brand.brand-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:89:79"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrandLightHover",
+              "name": "TokensDarkColorBorderBrandBorderBrandSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1622,7 +1622,7 @@ module.exports = {
                 "Color",
                 "Border",
                 "Brand",
-                "border-brand-light-hover"
+                "border-brand-subtle"
               ]
             },
             "border-brand-active": {
@@ -1729,9 +1729,9 @@ module.exports = {
                 "border-danger-hover"
               ]
             },
-            "border-danger-light": {
+            "border-danger-subtlest": {
               "type": "color",
-              "value": "#b91c1c",
+              "value": "#991b1b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:90:80"
@@ -1740,13 +1740,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.Color.Red.red-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:90:80"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDangerLight",
+              "name": "TokensDarkColorBorderDangerBorderDangerSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1760,12 +1760,12 @@ module.exports = {
                 "Color",
                 "Border",
                 "Danger",
-                "border-danger-light"
+                "border-danger-subtlest"
               ]
             },
-            "border-danger-light-hover": {
+            "border-danger-subtle": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#991b1b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:90:81"
@@ -1774,13 +1774,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.Color.Red.red-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:90:81"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDangerLightHover",
+              "name": "TokensDarkColorBorderDangerBorderDangerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1794,7 +1794,7 @@ module.exports = {
                 "Color",
                 "Border",
                 "Danger",
-                "border-danger-light-hover"
+                "border-danger-subtle"
               ]
             },
             "border-danger-active": {
@@ -1901,9 +1901,9 @@ module.exports = {
                 "border-success-hover"
               ]
             },
-            "border-success-light": {
+            "border-success-subtlest": {
               "type": "color",
-              "value": "#15803d",
+              "value": "#166534",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:83"
@@ -1912,13 +1912,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-700}",
+                "value": "{Foundations.Color.Green.green-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:83"
                 }
               },
-              "name": "TokensDarkColorBorderSuccessBorderSuccessLight",
+              "name": "TokensDarkColorBorderSuccessBorderSuccessSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1932,12 +1932,12 @@ module.exports = {
                 "Color",
                 "Border",
                 "Success",
-                "border-success-light"
+                "border-success-subtlest"
               ]
             },
-            "border-success-light-hover": {
+            "border-success-subtle": {
               "type": "color",
-              "value": "#16a34a",
+              "value": "#166534",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:84"
@@ -1946,13 +1946,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-600}",
+                "value": "{Foundations.Color.Green.green-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:84"
                 }
               },
-              "name": "TokensDarkColorBorderSuccessBorderSuccessLightHover",
+              "name": "TokensDarkColorBorderSuccessBorderSuccessSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -1966,7 +1966,7 @@ module.exports = {
                 "Color",
                 "Border",
                 "Success",
-                "border-success-light-hover"
+                "border-success-subtle"
               ]
             },
             "border-success-active": {
@@ -2073,9 +2073,9 @@ module.exports = {
                 "border-warning-hover"
               ]
             },
-            "border-warning-light": {
+            "border-warning-subtlest": {
               "type": "color",
-              "value": "#b45309",
+              "value": "#92400e",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:85"
@@ -2084,13 +2084,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.Color.Amber.amber-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:85"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarningLight",
+              "name": "TokensDarkColorBorderWarningBorderWarningSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -2104,12 +2104,12 @@ module.exports = {
                 "Color",
                 "Border",
                 "Warning",
-                "border-warning-light"
+                "border-warning-subtlest"
               ]
             },
-            "border-warning-light-hover": {
+            "border-warning-subtle": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#92400e",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:86"
@@ -2118,13 +2118,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.Color.Amber.amber-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:86"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarningLightHover",
+              "name": "TokensDarkColorBorderWarningBorderWarningSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -2138,7 +2138,7 @@ module.exports = {
                 "Color",
                 "Border",
                 "Warning",
-                "border-warning-light-hover"
+                "border-warning-subtle"
               ]
             },
             "border-warning-active": {
@@ -2279,9 +2279,9 @@ module.exports = {
                 "border-info-active"
               ]
             },
-            "border-info-light": {
+            "border-info-subtlest": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#1e40af",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:93"
@@ -2290,13 +2290,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-700}",
+                "value": "{Foundations.Color.Blue.blue-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:93"
                 }
               },
-              "name": "TokensDarkColorBorderInfoBorderInfoLight",
+              "name": "TokensDarkColorBorderInfoBorderInfoSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -2310,12 +2310,12 @@ module.exports = {
                 "Color",
                 "Border",
                 "Info",
-                "border-info-light"
+                "border-info-subtlest"
               ]
             },
-            "border-info-light-hover": {
+            "border-info-subtle": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#1e40af",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:94"
@@ -2324,13 +2324,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-600}",
+                "value": "{Foundations.Color.Blue.blue-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:94"
                 }
               },
-              "name": "TokensDarkColorBorderInfoBorderInfoLightHover",
+              "name": "TokensDarkColorBorderInfoBorderInfoSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -2344,7 +2344,7 @@ module.exports = {
                 "Color",
                 "Border",
                 "Info",
-                "border-info-light-hover"
+                "border-info-subtle"
               ]
             }
           },
@@ -2451,9 +2451,9 @@ module.exports = {
                 "border-discovery-active"
               ]
             },
-            "border-discovery-light": {
+            "border-discovery-subtlest": {
               "type": "color",
-              "value": "#6d28d9",
+              "value": "#5b21b6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:699"
@@ -2462,13 +2462,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-700}",
+                "value": "{Foundations.Color.Violet.violet-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:699"
                 }
               },
-              "name": "TokensDarkColorBorderDiscoveryBorderDiscoveryLight",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscoverySubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -2482,12 +2482,12 @@ module.exports = {
                 "Color",
                 "Border",
                 "Discovery",
-                "border-discovery-light"
+                "border-discovery-subtlest"
               ]
             },
-            "border-discovery-light-hover": {
+            "border-discovery-subtle": {
               "type": "color",
-              "value": "#7c3aed",
+              "value": "#5b21b6",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:700"
@@ -2496,13 +2496,13 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.Color.Violet.violet-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:700"
                 }
               },
-              "name": "TokensDarkColorBorderDiscoveryBorderDiscoveryLightHover",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscoverySubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -2516,7 +2516,7 @@ module.exports = {
                 "Color",
                 "Border",
                 "Discovery",
-                "border-discovery-light-hover"
+                "border-discovery-subtle"
               ]
             }
           }
@@ -3765,7 +3765,7 @@ module.exports = {
           "Neutral": {
             "icon": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#a1a1aa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:51"
@@ -3774,7 +3774,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:51"
@@ -3799,7 +3799,7 @@ module.exports = {
             },
             "icon-hover": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#fafafa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:52"
@@ -3808,7 +3808,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-50}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:52"
@@ -3833,7 +3833,7 @@ module.exports = {
             },
             "icon-active": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#fafafa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:96"
@@ -3842,7 +3842,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-50}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:96"
@@ -3867,7 +3867,7 @@ module.exports = {
             },
             "icon-disabled": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#3f3f46",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:303"
@@ -3876,7 +3876,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "#ffffff",
+                "value": "{Foundations.Color.Neutral.neutral-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:303"
