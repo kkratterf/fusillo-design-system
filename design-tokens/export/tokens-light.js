@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Oct 2023 20:51:24 GMT
+ * Generated on Sun, 15 Oct 2023 12:46:08 GMT
  */
 
 module.exports = {
@@ -422,7 +422,7 @@ module.exports = {
             "bg-brand": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "bg for the brand color",
               "$extensions": {
                 "variableId": "VariableID:72:36"
               },
@@ -431,7 +431,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-600}",
-                "description": "",
+                "description": "bg for the brand color",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
                 }
