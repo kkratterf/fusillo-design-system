@@ -6,6 +6,9 @@ import TokenCard from './tokenColorCard.js';
 interface TokenInfo {
   value: string;
   description: string;
+  original: {
+    value: string;
+  };
 }
 
 function TokenCardList({ token }: { token: Record<string, TokenInfo> }) {
