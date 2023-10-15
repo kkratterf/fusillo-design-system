@@ -10,7 +10,7 @@ function ColorCard({ name, value }) {
         }}
       ></div>
       <div className="color__text">
-        <p className="color__title">{name}</p>
+        <p className="color__title">--color-{name}</p>
         <p className="color__subtitle">{value}</p>
       </div>
     </div>

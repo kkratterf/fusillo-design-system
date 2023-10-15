@@ -5,13 +5,13 @@
 
 module.exports = {
   "Tokens": {
-    "Light": {
+    "Dark": {
       "Color": {
         "Background": {
           "Neutral": {
             "bg-layout": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "#09090b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:72:35"
@@ -20,23 +20,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:72:35"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgLayout",
+              "name": "TokensDarkColorBackgroundNeutralBgLayout",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -45,7 +45,7 @@ module.exports = {
             },
             "bg-elevated": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#3f3f46",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:72:39"
@@ -54,23 +54,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:72:39"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgElevated",
+              "name": "TokensDarkColorBackgroundNeutralBgElevated",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -79,7 +79,7 @@ module.exports = {
             },
             "bg-container": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#27272a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:117"
@@ -88,23 +88,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:117"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgContainer",
+              "name": "TokensDarkColorBackgroundNeutralBgContainer",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -128,17 +128,17 @@ module.exports = {
                   "variableId": "VariableID:91:118"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgSpotlight",
+              "name": "TokensDarkColorBackgroundNeutralBgSpotlight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -162,17 +162,17 @@ module.exports = {
                   "variableId": "VariableID:91:119"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgMask",
+              "name": "TokensDarkColorBackgroundNeutralBgMask",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -196,17 +196,17 @@ module.exports = {
                   "variableId": "VariableID:91:121"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgInteractive",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -215,7 +215,7 @@ module.exports = {
             },
             "bg-container-subdued": {
               "type": "color",
-              "value": "#fafafa",
+              "value": "#18181b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:122"
@@ -224,23 +224,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:122"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgContainerSubdued",
+              "name": "TokensDarkColorBackgroundNeutralBgContainerSubdued",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -264,17 +264,17 @@ module.exports = {
                   "variableId": "VariableID:91:123"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgInteractiveHover",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractiveHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -298,17 +298,17 @@ module.exports = {
                   "variableId": "VariableID:91:124"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgInteractiveActive",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractiveActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -332,17 +332,17 @@ module.exports = {
                   "variableId": "VariableID:91:125"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgInteractiveActiveHover",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractiveActiveHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -366,17 +366,17 @@ module.exports = {
                   "variableId": "VariableID:160:290"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgInteractiveDisabled",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractiveDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -385,7 +385,7 @@ module.exports = {
             },
             "bg-container-disabled": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "#52525b",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:291"
@@ -394,23 +394,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
+                "value": "{Foundations.Color.Neutral.neutral-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:291"
                 }
               },
-              "name": "TokensLightColorBackgroundNeutralBgContainerDisabled",
+              "name": "TokensDarkColorBackgroundNeutralBgContainerDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Neutral",
@@ -421,7 +421,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "bg for the brand color",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -430,23 +430,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "bg for the brand color",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrand",
+              "name": "TokensDarkColorBackgroundBrandBgBrand",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Brand",
@@ -470,17 +470,17 @@ module.exports = {
                   "variableId": "VariableID:72:37"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandHover",
+              "name": "TokensDarkColorBackgroundBrandBgBrandHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Brand",
@@ -489,7 +489,7 @@ module.exports = {
             },
             "bg-brand-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:126"
@@ -498,23 +498,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.Color.Brand.brand-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:126"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandActive",
+              "name": "TokensDarkColorBackgroundBrandBgBrandActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Brand",
@@ -523,7 +523,7 @@ module.exports = {
             },
             "bg-brand-light": {
               "type": "color",
-              "value": "#eff6ff",
+              "value": "#172554",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:127"
@@ -532,23 +532,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-50}",
+                "value": "{Foundations.Color.Brand.brand-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:127"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandLight",
+              "name": "TokensDarkColorBackgroundBrandBgBrandLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Brand",
@@ -557,7 +557,7 @@ module.exports = {
             },
             "bg-brand-light-hover": {
               "type": "color",
-              "value": "#dbeafe",
+              "value": "#1e3a8a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:128"
@@ -566,23 +566,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-100}",
+                "value": "{Foundations.Color.Brand.brand-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:128"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandLightHover",
+              "name": "TokensDarkColorBackgroundBrandBgBrandLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Brand",
@@ -593,7 +593,7 @@ module.exports = {
           "Danger": {
             "bg-danger": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:113"
@@ -602,23 +602,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:113"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDanger",
+              "name": "TokensDarkColorBackgroundDangerBgDanger",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Danger",
@@ -642,17 +642,17 @@ module.exports = {
                   "variableId": "VariableID:91:129"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerHover",
+              "name": "TokensDarkColorBackgroundDangerBgDangerHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Danger",
@@ -661,7 +661,7 @@ module.exports = {
             },
             "bg-danger-active": {
               "type": "color",
-              "value": "#b91c1c",
+              "value": "#fca5a5",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:130"
@@ -670,23 +670,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.Color.Red.red-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:130"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerActive",
+              "name": "TokensDarkColorBackgroundDangerBgDangerActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Danger",
@@ -695,7 +695,7 @@ module.exports = {
             },
             "bg-danger-light": {
               "type": "color",
-              "value": "#fef2f2",
+              "value": "#450a0a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:131"
@@ -704,23 +704,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-50}",
+                "value": "{Foundations.Color.Red.red-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:131"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerLight",
+              "name": "TokensDarkColorBackgroundDangerBgDangerLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Danger",
@@ -729,7 +729,7 @@ module.exports = {
             },
             "bg-danger-light-hover": {
               "type": "color",
-              "value": "#fee2e2",
+              "value": "#7f1d1d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:132"
@@ -738,23 +738,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-100}",
+                "value": "{Foundations.Color.Red.red-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerLightHover",
+              "name": "TokensDarkColorBackgroundDangerBgDangerLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Danger",
@@ -765,7 +765,7 @@ module.exports = {
           "Warning": {
             "bg-warning": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:114"
@@ -774,23 +774,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:114"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarning",
+              "name": "TokensDarkColorBackgroundWarningBgWarning",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Warning",
@@ -814,17 +814,17 @@ module.exports = {
                   "variableId": "VariableID:91:133"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningHover",
+              "name": "TokensDarkColorBackgroundWarningBgWarningHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Warning",
@@ -833,7 +833,7 @@ module.exports = {
             },
             "bg-warning-active": {
               "type": "color",
-              "value": "#b45309",
+              "value": "#fcd34d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:134"
@@ -842,23 +842,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.Color.Amber.amber-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:134"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningActive",
+              "name": "TokensDarkColorBackgroundWarningBgWarningActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Warning",
@@ -867,7 +867,7 @@ module.exports = {
             },
             "bg-warning-light": {
               "type": "color",
-              "value": "#fffbeb",
+              "value": "#451a03",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:135"
@@ -876,23 +876,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-50}",
+                "value": "{Foundations.Color.Amber.amber-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:135"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningLight",
+              "name": "TokensDarkColorBackgroundWarningBgWarningLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Warning",
@@ -901,7 +901,7 @@ module.exports = {
             },
             "bg-warning-light-hover": {
               "type": "color",
-              "value": "#fef3c7",
+              "value": "#78350f",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:136"
@@ -910,23 +910,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-100}",
+                "value": "{Foundations.Color.Amber.amber-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningLightHover",
+              "name": "TokensDarkColorBackgroundWarningBgWarningLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Warning",
@@ -937,7 +937,7 @@ module.exports = {
           "Success": {
             "bg-success": {
               "type": "color",
-              "value": "#16a34a",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:115"
@@ -946,23 +946,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-600}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:115"
                 }
               },
-              "name": "TokensLightColorBackgroundSuccessBgSuccess",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccess",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Success",
@@ -986,17 +986,17 @@ module.exports = {
                   "variableId": "VariableID:91:137"
                 }
               },
-              "name": "TokensLightColorBackgroundSuccessBgSuccessHover",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccessHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Success",
@@ -1005,7 +1005,7 @@ module.exports = {
             },
             "bg-success-active": {
               "type": "color",
-              "value": "#15803d",
+              "value": "#86efac",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:138"
@@ -1014,23 +1014,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-700}",
+                "value": "{Foundations.Color.Green.green-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:138"
                 }
               },
-              "name": "TokensLightColorBackgroundSuccessBgSuccessActive",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccessActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Success",
@@ -1039,7 +1039,7 @@ module.exports = {
             },
             "bg-success-light": {
               "type": "color",
-              "value": "#f0fdf4",
+              "value": "#052e16",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:139"
@@ -1048,23 +1048,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-50}",
+                "value": "{Foundations.Color.Green.green-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:139"
                 }
               },
-              "name": "TokensLightColorBackgroundSuccessBgSuccessLight",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccessLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Success",
@@ -1073,7 +1073,7 @@ module.exports = {
             },
             "bg-success-light-hover": {
               "type": "color",
-              "value": "#dcfce7",
+              "value": "#14532d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:140"
@@ -1082,23 +1082,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-100}",
+                "value": "{Foundations.Color.Green.green-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:140"
                 }
               },
-              "name": "TokensLightColorBackgroundSuccessBgSuccessLightHover",
+              "name": "TokensDarkColorBackgroundSuccessBgSuccessLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Success",
@@ -1109,7 +1109,7 @@ module.exports = {
           "Info": {
             "bg-info": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:116"
@@ -1118,23 +1118,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-600}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:116"
                 }
               },
-              "name": "TokensLightColorBackgroundInfoBgInfo",
+              "name": "TokensDarkColorBackgroundInfoBgInfo",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Info",
@@ -1158,17 +1158,17 @@ module.exports = {
                   "variableId": "VariableID:91:141"
                 }
               },
-              "name": "TokensLightColorBackgroundInfoBgInfoHover",
+              "name": "TokensDarkColorBackgroundInfoBgInfoHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Info",
@@ -1177,7 +1177,7 @@ module.exports = {
             },
             "bg-info-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:142"
@@ -1186,23 +1186,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-700}",
+                "value": "{Foundations.Color.Blue.blue-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:142"
                 }
               },
-              "name": "TokensLightColorBackgroundInfoBgInfoActive",
+              "name": "TokensDarkColorBackgroundInfoBgInfoActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Info",
@@ -1211,7 +1211,7 @@ module.exports = {
             },
             "bg-info-light": {
               "type": "color",
-              "value": "#eff6ff",
+              "value": "#172554",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:143"
@@ -1220,23 +1220,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-50}",
+                "value": "{Foundations.Color.Blue.blue-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:143"
                 }
               },
-              "name": "TokensLightColorBackgroundInfoBgInfoLight",
+              "name": "TokensDarkColorBackgroundInfoBgInfoLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Info",
@@ -1245,7 +1245,7 @@ module.exports = {
             },
             "bg-info-light-hover": {
               "type": "color",
-              "value": "#dbeafe",
+              "value": "#1e3a8a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:144"
@@ -1254,23 +1254,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-100}",
+                "value": "{Foundations.Color.Blue.blue-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:144"
                 }
               },
-              "name": "TokensLightColorBackgroundInfoBgInfoLightHover",
+              "name": "TokensDarkColorBackgroundInfoBgInfoLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Info",
@@ -1281,7 +1281,7 @@ module.exports = {
           "Discovery": {
             "bg-discovery": {
               "type": "color",
-              "value": "#7c3aed",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:685"
@@ -1290,23 +1290,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:685"
                 }
               },
-              "name": "TokensLightColorBackgroundDiscoveryBgDiscovery",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscovery",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Discovery",
@@ -1330,17 +1330,17 @@ module.exports = {
                   "variableId": "VariableID:229:687"
                 }
               },
-              "name": "TokensLightColorBackgroundDiscoveryBgDiscoveryHover",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoveryHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Discovery",
@@ -1349,7 +1349,7 @@ module.exports = {
             },
             "bg-discovery-active": {
               "type": "color",
-              "value": "#6d28d9",
+              "value": "#c4b5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:688"
@@ -1358,23 +1358,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-700}",
+                "value": "{Foundations.Color.Violet.violet-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:688"
                 }
               },
-              "name": "TokensLightColorBackgroundDiscoveryBgDiscoveryActive",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoveryActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Discovery",
@@ -1383,7 +1383,7 @@ module.exports = {
             },
             "bg-discovery-light": {
               "type": "color",
-              "value": "#f5f3ff",
+              "value": "#2e1065",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:689"
@@ -1392,23 +1392,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-50}",
+                "value": "{Foundations.Color.Violet.violet-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:689"
                 }
               },
-              "name": "TokensLightColorBackgroundDiscoveryBgDiscoveryLight",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoveryLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Discovery",
@@ -1417,7 +1417,7 @@ module.exports = {
             },
             "bg-discovery-light-hover": {
               "type": "color",
-              "value": "#ede9fe",
+              "value": "#4c1d95",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:690"
@@ -1426,23 +1426,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-100}",
+                "value": "{Foundations.Color.Violet.violet-900}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:690"
                 }
               },
-              "name": "TokensLightColorBackgroundDiscoveryBgDiscoveryLightHover",
+              "name": "TokensDarkColorBackgroundDiscoveryBgDiscoveryLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Background",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Background",
                 "Discovery",
@@ -1455,7 +1455,7 @@ module.exports = {
           "Neutral": {
             "border-primary": {
               "type": "color",
-              "value": "#e4e4e7",
+              "value": "#3f3f46",
               "description": "Default border color, used to separate different elements, such as: form separator, card separator, etc",
               "$extensions": {
                 "variableId": "VariableID:72:47"
@@ -1464,23 +1464,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-200}",
+                "value": "{Foundations.Color.Neutral.neutral-700}",
                 "description": "Default border color, used to separate different elements, such as: form separator, card separator, etc",
                 "$extensions": {
                   "variableId": "VariableID:72:47"
                 }
               },
-              "name": "TokensLightColorBorderNeutralBorderPrimary",
+              "name": "TokensDarkColorBorderNeutralBorderPrimary",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Neutral",
@@ -1489,7 +1489,7 @@ module.exports = {
             },
             "border-secondary": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "#27272a",
               "description": "Slightly lighter than the default border color",
               "$extensions": {
                 "variableId": "VariableID:75:2"
@@ -1498,23 +1498,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "Slightly lighter than the default border color",
                 "$extensions": {
                   "variableId": "VariableID:75:2"
                 }
               },
-              "name": "TokensLightColorBorderNeutralBorderSecondary",
+              "name": "TokensDarkColorBorderNeutralBorderSecondary",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Neutral",
@@ -1525,7 +1525,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -1534,23 +1534,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:3"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrand",
+              "name": "TokensDarkColorBorderBrandBorderBrand",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Brand",
@@ -1574,17 +1574,17 @@ module.exports = {
                   "variableId": "VariableID:75:13"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandHover",
+              "name": "TokensDarkColorBorderBrandBorderBrandHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Brand",
@@ -1593,7 +1593,7 @@ module.exports = {
             },
             "border-brand-light": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#1d4ed8",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:89:78"
@@ -1602,23 +1602,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.Color.Brand.brand-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:89:78"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandLight",
+              "name": "TokensDarkColorBorderBrandBorderBrandLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Brand",
@@ -1627,7 +1627,7 @@ module.exports = {
             },
             "border-brand-light-hover": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:89:79"
@@ -1636,23 +1636,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:89:79"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandLightHover",
+              "name": "TokensDarkColorBorderBrandBorderBrandLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Brand",
@@ -1661,7 +1661,7 @@ module.exports = {
             },
             "border-brand-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:87"
@@ -1670,23 +1670,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.Color.Brand.brand-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:87"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandActive",
+              "name": "TokensDarkColorBorderBrandBorderBrandActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Brand",
@@ -1697,7 +1697,7 @@ module.exports = {
           "Danger": {
             "border-danger": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:4"
@@ -1706,23 +1706,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:4"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDanger",
+              "name": "TokensDarkColorBorderDangerBorderDanger",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Danger",
@@ -1746,17 +1746,17 @@ module.exports = {
                   "variableId": "VariableID:75:12"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerHover",
+              "name": "TokensDarkColorBorderDangerBorderDangerHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Danger",
@@ -1765,7 +1765,7 @@ module.exports = {
             },
             "border-danger-light": {
               "type": "color",
-              "value": "#fca5a5",
+              "value": "#b91c1c",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:90:80"
@@ -1774,23 +1774,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.Color.Red.red-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:90:80"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerLight",
+              "name": "TokensDarkColorBorderDangerBorderDangerLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Danger",
@@ -1799,7 +1799,7 @@ module.exports = {
             },
             "border-danger-light-hover": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#dc2626",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:90:81"
@@ -1808,23 +1808,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.Color.Red.red-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:90:81"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerLightHover",
+              "name": "TokensDarkColorBorderDangerBorderDangerLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Danger",
@@ -1833,7 +1833,7 @@ module.exports = {
             },
             "border-danger-active": {
               "type": "color",
-              "value": "#b91c1c",
+              "value": "#fca5a5",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:89"
@@ -1842,23 +1842,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.Color.Red.red-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:89"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerActive",
+              "name": "TokensDarkColorBorderDangerBorderDangerActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Danger",
@@ -1869,7 +1869,7 @@ module.exports = {
           "Success": {
             "border-success": {
               "type": "color",
-              "value": "#16a34a",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:5"
@@ -1878,23 +1878,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-600}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:5"
                 }
               },
-              "name": "TokensLightColorBorderSuccessBorderSuccess",
+              "name": "TokensDarkColorBorderSuccessBorderSuccess",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Success",
@@ -1918,17 +1918,17 @@ module.exports = {
                   "variableId": "VariableID:75:11"
                 }
               },
-              "name": "TokensLightColorBorderSuccessBorderSuccessHover",
+              "name": "TokensDarkColorBorderSuccessBorderSuccessHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Success",
@@ -1937,7 +1937,7 @@ module.exports = {
             },
             "border-success-light": {
               "type": "color",
-              "value": "#86efac",
+              "value": "#15803d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:83"
@@ -1946,23 +1946,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-300}",
+                "value": "{Foundations.Color.Green.green-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:83"
                 }
               },
-              "name": "TokensLightColorBorderSuccessBorderSuccessLight",
+              "name": "TokensDarkColorBorderSuccessBorderSuccessLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Success",
@@ -1971,7 +1971,7 @@ module.exports = {
             },
             "border-success-light-hover": {
               "type": "color",
-              "value": "#4ade80",
+              "value": "#16a34a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:84"
@@ -1980,23 +1980,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-400}",
+                "value": "{Foundations.Color.Green.green-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:84"
                 }
               },
-              "name": "TokensLightColorBorderSuccessBorderSuccessLightHover",
+              "name": "TokensDarkColorBorderSuccessBorderSuccessLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Success",
@@ -2005,7 +2005,7 @@ module.exports = {
             },
             "border-success-active": {
               "type": "color",
-              "value": "#15803d",
+              "value": "#86efac",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:90"
@@ -2014,23 +2014,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-700}",
+                "value": "{Foundations.Color.Green.green-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:90"
                 }
               },
-              "name": "TokensLightColorBorderSuccessBorderSuccessActive",
+              "name": "TokensDarkColorBorderSuccessBorderSuccessActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Success",
@@ -2041,7 +2041,7 @@ module.exports = {
           "Warning": {
             "border-warning": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:6"
@@ -2050,23 +2050,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:6"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarning",
+              "name": "TokensDarkColorBorderWarningBorderWarning",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Warning",
@@ -2090,17 +2090,17 @@ module.exports = {
                   "variableId": "VariableID:75:10"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningHover",
+              "name": "TokensDarkColorBorderWarningBorderWarningHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Warning",
@@ -2109,7 +2109,7 @@ module.exports = {
             },
             "border-warning-light": {
               "type": "color",
-              "value": "#fcd34d",
+              "value": "#b45309",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:85"
@@ -2118,23 +2118,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.Color.Amber.amber-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:85"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningLight",
+              "name": "TokensDarkColorBorderWarningBorderWarningLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Warning",
@@ -2143,7 +2143,7 @@ module.exports = {
             },
             "border-warning-light-hover": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#d97706",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:86"
@@ -2152,23 +2152,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.Color.Amber.amber-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:86"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningLightHover",
+              "name": "TokensDarkColorBorderWarningBorderWarningLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Warning",
@@ -2177,7 +2177,7 @@ module.exports = {
             },
             "border-warning-active": {
               "type": "color",
-              "value": "#b45309",
+              "value": "#fcd34d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:91"
@@ -2186,23 +2186,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.Color.Amber.amber-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:91"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningActive",
+              "name": "TokensDarkColorBorderWarningBorderWarningActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Warning",
@@ -2213,7 +2213,7 @@ module.exports = {
           "Info": {
             "border-info": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:7"
@@ -2222,23 +2222,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-600}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:7"
                 }
               },
-              "name": "TokensLightColorBorderInfoBorderInfo",
+              "name": "TokensDarkColorBorderInfoBorderInfo",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Info",
@@ -2262,17 +2262,17 @@ module.exports = {
                   "variableId": "VariableID:75:8"
                 }
               },
-              "name": "TokensLightColorBorderInfoBorderInfoHover",
+              "name": "TokensDarkColorBorderInfoBorderInfoHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Info",
@@ -2281,7 +2281,7 @@ module.exports = {
             },
             "border-info-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:92"
@@ -2290,23 +2290,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-700}",
+                "value": "{Foundations.Color.Blue.blue-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:92"
                 }
               },
-              "name": "TokensLightColorBorderInfoBorderInfoActive",
+              "name": "TokensDarkColorBorderInfoBorderInfoActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Info",
@@ -2315,7 +2315,7 @@ module.exports = {
             },
             "border-info-light": {
               "type": "color",
-              "value": "#93c5fd",
+              "value": "#1d4ed8",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:93"
@@ -2324,23 +2324,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-300}",
+                "value": "{Foundations.Color.Blue.blue-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:93"
                 }
               },
-              "name": "TokensLightColorBorderInfoBorderInfoLight",
+              "name": "TokensDarkColorBorderInfoBorderInfoLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Info",
@@ -2349,7 +2349,7 @@ module.exports = {
             },
             "border-info-light-hover": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#2563eb",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:91:94"
@@ -2358,23 +2358,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-400}",
+                "value": "{Foundations.Color.Blue.blue-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:91:94"
                 }
               },
-              "name": "TokensLightColorBorderInfoBorderInfoLightHover",
+              "name": "TokensDarkColorBorderInfoBorderInfoLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Info",
@@ -2385,7 +2385,7 @@ module.exports = {
           "Discovery": {
             "border-discovery": {
               "type": "color",
-              "value": "#7c3aed",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:696"
@@ -2394,23 +2394,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:696"
                 }
               },
-              "name": "TokensLightColorBorderDiscoveryBorderDiscovery",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscovery",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Discovery",
@@ -2434,17 +2434,17 @@ module.exports = {
                   "variableId": "VariableID:229:697"
                 }
               },
-              "name": "TokensLightColorBorderDiscoveryBorderDiscoveryHover",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscoveryHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Discovery",
@@ -2453,7 +2453,7 @@ module.exports = {
             },
             "border-discovery-active": {
               "type": "color",
-              "value": "#6d28d9",
+              "value": "#c4b5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:698"
@@ -2462,23 +2462,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-700}",
+                "value": "{Foundations.Color.Violet.violet-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:698"
                 }
               },
-              "name": "TokensLightColorBorderDiscoveryBorderDiscoveryActive",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscoveryActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Discovery",
@@ -2487,7 +2487,7 @@ module.exports = {
             },
             "border-discovery-light": {
               "type": "color",
-              "value": "#c4b5fd",
+              "value": "#6d28d9",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:699"
@@ -2496,23 +2496,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-300}",
+                "value": "{Foundations.Color.Violet.violet-700}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:699"
                 }
               },
-              "name": "TokensLightColorBorderDiscoveryBorderDiscoveryLight",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscoveryLight",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Discovery",
@@ -2521,7 +2521,7 @@ module.exports = {
             },
             "border-discovery-light-hover": {
               "type": "color",
-              "value": "#a78bfa",
+              "value": "#7c3aed",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:700"
@@ -2530,23 +2530,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-400}",
+                "value": "{Foundations.Color.Violet.violet-600}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:700"
                 }
               },
-              "name": "TokensLightColorBorderDiscoveryBorderDiscoveryLightHover",
+              "name": "TokensDarkColorBorderDiscoveryBorderDiscoveryLightHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Border",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Border",
                 "Discovery",
@@ -2559,7 +2559,7 @@ module.exports = {
           "Neutral": {
             "text-description": {
               "type": "color",
-              "value": "#52525b",
+              "value": "#27272a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:28"
@@ -2568,23 +2568,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-600}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:28"
                 }
               },
-              "name": "TokensLightColorTextNeutralTextDescription",
+              "name": "TokensDarkColorTextNeutralTextDescription",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Neutral",
@@ -2593,7 +2593,7 @@ module.exports = {
             },
             "text-heading": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#fafafa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:29"
@@ -2602,23 +2602,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-50}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:29"
                 }
               },
-              "name": "TokensLightColorTextNeutralTextHeading",
+              "name": "TokensDarkColorTextNeutralTextHeading",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Neutral",
@@ -2642,17 +2642,17 @@ module.exports = {
                   "variableId": "VariableID:75:30"
                 }
               },
-              "name": "TokensLightColorTextNeutralTextDisabled",
+              "name": "TokensDarkColorTextNeutralTextDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Neutral",
@@ -2661,7 +2661,7 @@ module.exports = {
             },
             "text": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#fafafa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:31"
@@ -2670,23 +2670,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-50}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:31"
                 }
               },
-              "name": "TokensLightColorTextNeutralText",
+              "name": "TokensDarkColorTextNeutralText",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Neutral",
@@ -2710,17 +2710,17 @@ module.exports = {
                   "variableId": "VariableID:75:32"
                 }
               },
-              "name": "TokensLightColorTextNeutralTextPlaceholder",
+              "name": "TokensDarkColorTextNeutralTextPlaceholder",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Neutral",
@@ -2744,17 +2744,17 @@ module.exports = {
                   "variableId": "VariableID:75:33"
                 }
               },
-              "name": "TokensLightColorTextNeutralTextInverse",
+              "name": "TokensDarkColorTextNeutralTextInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Neutral",
@@ -2765,7 +2765,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -2774,23 +2774,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:34"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrand",
+              "name": "TokensDarkColorTextBrandTextBrand",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Brand",
@@ -2814,17 +2814,17 @@ module.exports = {
                   "variableId": "VariableID:75:35"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandHover",
+              "name": "TokensDarkColorTextBrandTextBrandHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Brand",
@@ -2833,7 +2833,7 @@ module.exports = {
             },
             "text-brand-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:36"
@@ -2842,23 +2842,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.Color.Brand.brand-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:36"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandActive",
+              "name": "TokensDarkColorTextBrandTextBrandActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Brand",
@@ -2882,17 +2882,17 @@ module.exports = {
                   "variableId": "VariableID:160:295"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandInverse",
+              "name": "TokensDarkColorTextBrandTextBrandInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Brand",
@@ -2903,7 +2903,7 @@ module.exports = {
           "Danger": {
             "text-danger": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:37"
@@ -2912,23 +2912,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:37"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDanger",
+              "name": "TokensDarkColorTextDangerTextDanger",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Danger",
@@ -2952,17 +2952,17 @@ module.exports = {
                   "variableId": "VariableID:75:38"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerHover",
+              "name": "TokensDarkColorTextDangerTextDangerHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Danger",
@@ -2971,7 +2971,7 @@ module.exports = {
             },
             "text-danger-active": {
               "type": "color",
-              "value": "#b91c1c",
+              "value": "#fca5a5",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:39"
@@ -2980,23 +2980,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.Color.Red.red-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:39"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerActive",
+              "name": "TokensDarkColorTextDangerTextDangerActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Danger",
@@ -3020,17 +3020,17 @@ module.exports = {
                   "variableId": "VariableID:160:296"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerInverse",
+              "name": "TokensDarkColorTextDangerTextDangerInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Danger",
@@ -3041,7 +3041,7 @@ module.exports = {
           "Success": {
             "text-success": {
               "type": "color",
-              "value": "#16a34a",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:40"
@@ -3050,23 +3050,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-600}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:40"
                 }
               },
-              "name": "TokensLightColorTextSuccessTextSuccess",
+              "name": "TokensDarkColorTextSuccessTextSuccess",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Success",
@@ -3090,17 +3090,17 @@ module.exports = {
                   "variableId": "VariableID:75:41"
                 }
               },
-              "name": "TokensLightColorTextSuccessTextSuccessHover",
+              "name": "TokensDarkColorTextSuccessTextSuccessHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Success",
@@ -3109,7 +3109,7 @@ module.exports = {
             },
             "text-success-active": {
               "type": "color",
-              "value": "#15803d",
+              "value": "#86efac",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:42"
@@ -3118,23 +3118,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-700}",
+                "value": "{Foundations.Color.Green.green-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:42"
                 }
               },
-              "name": "TokensLightColorTextSuccessTextSuccessActive",
+              "name": "TokensDarkColorTextSuccessTextSuccessActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Success",
@@ -3158,17 +3158,17 @@ module.exports = {
                   "variableId": "VariableID:160:298"
                 }
               },
-              "name": "TokensLightColorTextSuccessTextSuccessInverse",
+              "name": "TokensDarkColorTextSuccessTextSuccessInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Success",
@@ -3179,7 +3179,7 @@ module.exports = {
           "Warning": {
             "text-warning": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:43"
@@ -3188,23 +3188,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:43"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarning",
+              "name": "TokensDarkColorTextWarningTextWarning",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Warning",
@@ -3228,17 +3228,17 @@ module.exports = {
                   "variableId": "VariableID:75:44"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningHover",
+              "name": "TokensDarkColorTextWarningTextWarningHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Warning",
@@ -3247,7 +3247,7 @@ module.exports = {
             },
             "text-warning-active": {
               "type": "color",
-              "value": "#b45309",
+              "value": "#fcd34d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:45"
@@ -3256,23 +3256,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.Color.Amber.amber-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:45"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningActive",
+              "name": "TokensDarkColorTextWarningTextWarningActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Warning",
@@ -3296,17 +3296,17 @@ module.exports = {
                   "variableId": "VariableID:160:297"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningInverse",
+              "name": "TokensDarkColorTextWarningTextWarningInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Warning",
@@ -3317,7 +3317,7 @@ module.exports = {
           "Info": {
             "text-info": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:46"
@@ -3326,23 +3326,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-600}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:46"
                 }
               },
-              "name": "TokensLightColorTextInfoTextInfo",
+              "name": "TokensDarkColorTextInfoTextInfo",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Info",
@@ -3366,17 +3366,17 @@ module.exports = {
                   "variableId": "VariableID:75:47"
                 }
               },
-              "name": "TokensLightColorTextInfoTextInfoHover",
+              "name": "TokensDarkColorTextInfoTextInfoHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Info",
@@ -3385,7 +3385,7 @@ module.exports = {
             },
             "text-info-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:48"
@@ -3394,23 +3394,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-700}",
+                "value": "{Foundations.Color.Blue.blue-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:48"
                 }
               },
-              "name": "TokensLightColorTextInfoTextInfoActive",
+              "name": "TokensDarkColorTextInfoTextInfoActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Info",
@@ -3434,17 +3434,17 @@ module.exports = {
                   "variableId": "VariableID:160:299"
                 }
               },
-              "name": "TokensLightColorTextInfoTextInfoInverse",
+              "name": "TokensDarkColorTextInfoTextInfoInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Info",
@@ -3455,7 +3455,7 @@ module.exports = {
           "Discovery": {
             "text-discovery": {
               "type": "color",
-              "value": "#7c3aed",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:692"
@@ -3464,23 +3464,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:692"
                 }
               },
-              "name": "TokensLightColorTextDiscoveryTextDiscovery",
+              "name": "TokensDarkColorTextDiscoveryTextDiscovery",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Discovery",
@@ -3504,17 +3504,17 @@ module.exports = {
                   "variableId": "VariableID:229:693"
                 }
               },
-              "name": "TokensLightColorTextDiscoveryTextDiscoveryHover",
+              "name": "TokensDarkColorTextDiscoveryTextDiscoveryHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Discovery",
@@ -3523,7 +3523,7 @@ module.exports = {
             },
             "text-discovery-active": {
               "type": "color",
-              "value": "#6d28d9",
+              "value": "#c4b5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:229:694"
@@ -3532,23 +3532,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-700}",
+                "value": "{Foundations.Color.Violet.violet-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:229:694"
                 }
               },
-              "name": "TokensLightColorTextDiscoveryTextDiscoveryActive",
+              "name": "TokensDarkColorTextDiscoveryTextDiscoveryActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Discovery",
@@ -3572,17 +3572,17 @@ module.exports = {
                   "variableId": "VariableID:229:695"
                 }
               },
-              "name": "TokensLightColorTextDiscoveryTextDiscoveryInverse",
+              "name": "TokensDarkColorTextDiscoveryTextDiscoveryInverse",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Text",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Text",
                 "Discovery",
@@ -3610,17 +3610,17 @@ module.exports = {
                   "variableId": "VariableID:75:51"
                 }
               },
-              "name": "TokensLightColorIconNeutralIcon",
+              "name": "TokensDarkColorIconNeutralIcon",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Neutral",
@@ -3644,17 +3644,17 @@ module.exports = {
                   "variableId": "VariableID:75:52"
                 }
               },
-              "name": "TokensLightColorIconNeutralIconHover",
+              "name": "TokensDarkColorIconNeutralIconHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Neutral",
@@ -3678,17 +3678,17 @@ module.exports = {
                   "variableId": "VariableID:91:96"
                 }
               },
-              "name": "TokensLightColorIconNeutralIconActive",
+              "name": "TokensDarkColorIconNeutralIconActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Neutral",
@@ -3712,17 +3712,17 @@ module.exports = {
                   "variableId": "VariableID:160:303"
                 }
               },
-              "name": "TokensLightColorIconNeutralIconDisabled",
+              "name": "TokensDarkColorIconNeutralIconDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Neutral"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Neutral",
@@ -3733,7 +3733,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:53"
@@ -3742,23 +3742,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.Color.Brand.brand-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:53"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrand",
+              "name": "TokensDarkColorIconBrandIconBrand",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Brand",
@@ -3782,17 +3782,17 @@ module.exports = {
                   "variableId": "VariableID:75:54"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandHover",
+              "name": "TokensDarkColorIconBrandIconBrandHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Brand",
@@ -3801,7 +3801,7 @@ module.exports = {
             },
             "icon-brand-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:55"
@@ -3810,23 +3810,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.Color.Brand.brand-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:55"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandActive",
+              "name": "TokensDarkColorIconBrandIconBrandActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Brand",
@@ -3835,7 +3835,7 @@ module.exports = {
             },
             "icon-brand-disabled": {
               "type": "color",
-              "value": "#eff6ff",
+              "value": "#172554",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:306"
@@ -3844,23 +3844,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-50}",
+                "value": "{Foundations.Color.Brand.brand-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:306"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandDisabled",
+              "name": "TokensDarkColorIconBrandIconBrandDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Brand"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Brand",
@@ -3871,7 +3871,7 @@ module.exports = {
           "Danger": {
             "icon-danger": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#f87171",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:56"
@@ -3880,23 +3880,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.Color.Red.red-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:56"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDanger",
+              "name": "TokensDarkColorIconDangerIconDanger",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Danger",
@@ -3920,17 +3920,17 @@ module.exports = {
                   "variableId": "VariableID:75:57"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerHover",
+              "name": "TokensDarkColorIconDangerIconDangerHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Danger",
@@ -3939,7 +3939,7 @@ module.exports = {
             },
             "icon-danger-active": {
               "type": "color",
-              "value": "#b91c1c",
+              "value": "#fca5a5",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:58"
@@ -3948,23 +3948,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.Color.Red.red-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:58"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerActive",
+              "name": "TokensDarkColorIconDangerIconDangerActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Danger",
@@ -3973,7 +3973,7 @@ module.exports = {
             },
             "icon-danger-disabled": {
               "type": "color",
-              "value": "#fef2f2",
+              "value": "#450a0a",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:313"
@@ -3982,23 +3982,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-50}",
+                "value": "{Foundations.Color.Red.red-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:313"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerDisabled",
+              "name": "TokensDarkColorIconDangerIconDangerDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Danger"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Danger",
@@ -4009,7 +4009,7 @@ module.exports = {
           "Success": {
             "icon-success": {
               "type": "color",
-              "value": "#16a34a",
+              "value": "#4ade80",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:59"
@@ -4018,23 +4018,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-600}",
+                "value": "{Foundations.Color.Green.green-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:59"
                 }
               },
-              "name": "TokensLightColorIconSuccessIconSuccess",
+              "name": "TokensDarkColorIconSuccessIconSuccess",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Success",
@@ -4058,17 +4058,17 @@ module.exports = {
                   "variableId": "VariableID:75:60"
                 }
               },
-              "name": "TokensLightColorIconSuccessIconSuccessHover",
+              "name": "TokensDarkColorIconSuccessIconSuccessHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Success",
@@ -4077,7 +4077,7 @@ module.exports = {
             },
             "icon-success-active": {
               "type": "color",
-              "value": "#15803d",
+              "value": "#86efac",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:61"
@@ -4086,23 +4086,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-700}",
+                "value": "{Foundations.Color.Green.green-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:61"
                 }
               },
-              "name": "TokensLightColorIconSuccessIconSuccessActive",
+              "name": "TokensDarkColorIconSuccessIconSuccessActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Success",
@@ -4111,7 +4111,7 @@ module.exports = {
             },
             "icon-success-disabled": {
               "type": "color",
-              "value": "#f0fdf4",
+              "value": "#052e16",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:324"
@@ -4120,23 +4120,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-50}",
+                "value": "{Foundations.Color.Green.green-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:324"
                 }
               },
-              "name": "TokensLightColorIconSuccessIconSuccessDisabled",
+              "name": "TokensDarkColorIconSuccessIconSuccessDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Success"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Success",
@@ -4147,7 +4147,7 @@ module.exports = {
           "Warning": {
             "icon-warning": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#fbbf24",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:62"
@@ -4156,23 +4156,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.Color.Amber.amber-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:62"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarning",
+              "name": "TokensDarkColorIconWarningIconWarning",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Warning",
@@ -4196,17 +4196,17 @@ module.exports = {
                   "variableId": "VariableID:75:63"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningHover",
+              "name": "TokensDarkColorIconWarningIconWarningHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Warning",
@@ -4215,7 +4215,7 @@ module.exports = {
             },
             "icon-warning-active": {
               "type": "color",
-              "value": "#b45309",
+              "value": "#fcd34d",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:64"
@@ -4224,23 +4224,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.Color.Amber.amber-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:64"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningActive",
+              "name": "TokensDarkColorIconWarningIconWarningActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Warning",
@@ -4249,7 +4249,7 @@ module.exports = {
             },
             "icon-warning-disabled": {
               "type": "color",
-              "value": "#fffbeb",
+              "value": "#451a03",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:160:319"
@@ -4258,23 +4258,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-50}",
+                "value": "{Foundations.Color.Amber.amber-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:160:319"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningDisabled",
+              "name": "TokensDarkColorIconWarningIconWarningDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Warning"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Warning",
@@ -4285,7 +4285,7 @@ module.exports = {
           "Info": {
             "icon-info": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#60a5fa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:65"
@@ -4294,23 +4294,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-600}",
+                "value": "{Foundations.Color.Blue.blue-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:65"
                 }
               },
-              "name": "TokensLightColorIconInfoIconInfo",
+              "name": "TokensDarkColorIconInfoIconInfo",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Info",
@@ -4334,17 +4334,17 @@ module.exports = {
                   "variableId": "VariableID:75:66"
                 }
               },
-              "name": "TokensLightColorIconInfoIconInfoHover",
+              "name": "TokensDarkColorIconInfoIconInfoHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Info",
@@ -4353,7 +4353,7 @@ module.exports = {
             },
             "icon-info-active": {
               "type": "color",
-              "value": "#1d4ed8",
+              "value": "#93c5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:75:67"
@@ -4362,23 +4362,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-700}",
+                "value": "{Foundations.Color.Blue.blue-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:75:67"
                 }
               },
-              "name": "TokensLightColorIconInfoIconInfoActive",
+              "name": "TokensDarkColorIconInfoIconInfoActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Info",
@@ -4387,7 +4387,7 @@ module.exports = {
             },
             "icon-info-disabled": {
               "type": "color",
-              "value": "#eff6ff",
+              "value": "#172554",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:161:329"
@@ -4396,23 +4396,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-50}",
+                "value": "{Foundations.Color.Blue.blue-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:161:329"
                 }
               },
-              "name": "TokensLightColorIconInfoIconInfoDisabled",
+              "name": "TokensDarkColorIconInfoIconInfoDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Info"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Info",
@@ -4423,7 +4423,7 @@ module.exports = {
           "Discovery": {
             "icon-discovery": {
               "type": "color",
-              "value": "#7c3aed",
+              "value": "#a78bfa",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:232:701"
@@ -4432,23 +4432,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.Color.Violet.violet-400}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:232:701"
                 }
               },
-              "name": "TokensLightColorIconDiscoveryIconDiscovery",
+              "name": "TokensDarkColorIconDiscoveryIconDiscovery",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Discovery",
@@ -4472,17 +4472,17 @@ module.exports = {
                   "variableId": "VariableID:232:702"
                 }
               },
-              "name": "TokensLightColorIconDiscoveryIconDiscoveryHover",
+              "name": "TokensDarkColorIconDiscoveryIconDiscoveryHover",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Discovery",
@@ -4491,7 +4491,7 @@ module.exports = {
             },
             "icon-discovery-active": {
               "type": "color",
-              "value": "#6d28d9",
+              "value": "#c4b5fd",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:232:703"
@@ -4500,23 +4500,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-700}",
+                "value": "{Foundations.Color.Violet.violet-300}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:232:703"
                 }
               },
-              "name": "TokensLightColorIconDiscoveryIconDiscoveryActive",
+              "name": "TokensDarkColorIconDiscoveryIconDiscoveryActive",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Discovery",
@@ -4525,7 +4525,7 @@ module.exports = {
             },
             "icon-discovery-disabled": {
               "type": "color",
-              "value": "#f5f3ff",
+              "value": "#2e1065",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:232:704"
@@ -4534,23 +4534,23 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-50}",
+                "value": "{Foundations.Color.Violet.violet-950}",
                 "description": "",
                 "$extensions": {
                   "variableId": "VariableID:232:704"
                 }
               },
-              "name": "TokensLightColorIconDiscoveryIconDiscoveryDisabled",
+              "name": "TokensDarkColorIconDiscoveryIconDiscoveryDisabled",
               "attributes": {
                 "category": "Tokens",
-                "type": "Light",
+                "type": "Dark",
                 "item": "Color",
                 "subitem": "Icon",
                 "state": "Discovery"
               },
               "path": [
                 "Tokens",
-                "Light",
+                "Dark",
                 "Color",
                 "Icon",
                 "Discovery",

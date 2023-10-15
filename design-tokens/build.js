@@ -42,7 +42,7 @@ styleFoundations.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens
-      .replace(/foundations-|color-|typography-/g, '')
+      .replace(/foundations-|typography-/g, '')
       .replace(/brand-brand/g, 'brand')
       .replace(/neutral-neutral/g, 'neutral')
       .replace(/red-red/g, 'red')
@@ -131,10 +131,40 @@ styleTokensLight.registerFormat({
       outputReferences,
     })}\n}`;
 
-    const modifiedTokens = formattedTokens.replace(
-      /tokens-|color-|light-/g,
-      ''
-    );
+    const modifiedTokens = formattedTokens
+      .replace(/tokens-|light-/g, '')
+      .replace(/background-neutral-/g, '')
+      .replace(/background-brand-/g, '')
+      .replace(/background-danger-/g, '')
+      .replace(/background-warning-/g, '')
+      .replace(/background-success-/g, '')
+      .replace(/background-info-/g, '')
+      .replace(/background-discovery-/g, '')
+      .replace(/border-neutral-/g, '')
+      .replace(/-border-brand-border-brand/g, '-border-brand')
+      .replace(/-border-danger-border-danger/g, '-border-danger')
+      .replace(/-border-warning-border-warning/g, '-border-warning')
+      .replace(/-border-success-border-success/g, '-border-success')
+      .replace(/-border-info-border-info/g, '-border-info')
+      .replace(/-border-discovery-border-discovery/g, '-border-discovery')
+      .replace(/text-neutral-/g, '')
+      .replace(/-text-brand-text-brand/g, '-text-brand')
+      .replace(/-text-danger-text-danger/g, '-text-danger')
+      .replace(/-text-warning-text-warning/g, '-text-warning')
+      .replace(/-text-success-text-success/g, '-text-success')
+      .replace(/-text-info-text-info/g, '-text-info')
+      .replace(/-text-discovery-text-discovery/g, '-text-discovery')
+      .replace(/-icon-neutral-icon/g, '-icon')
+      .replace(/-icon-brand-icon-brand/g, '-icon-brand')
+      .replace(/-icon-danger-icon-danger/g, '-icon-danger')
+      .replace(/-icon-warning-icon-warning/g, '-icon-warning')
+      .replace(/-icon-success-icon-success/g, '-icon-success')
+      .replace(/-icon-info-icon-info/g, '-icon-info')
+      .replace(/-icon-discovery-icon-discovery/g, '-icon-discovery')
+      .replace(/width-width/g, 'width')
+      .replace(/height-height/g, 'height')
+      .replace(/space-space/g, 'space')
+      .replace(/breakpoints-breakpoints/g, 'breakpoints');
 
     return modifiedTokens;
   },
@@ -170,6 +200,10 @@ styleTokensLightJs.registerFilter({
   },
 });
 styleTokensLightJs.buildAllPlatforms();
+
+
+
+
 
 // TOKENS DARK
 
@@ -208,12 +242,81 @@ styleTokensDark.registerFormat({
       outputReferences,
     })}\n}`;
 
-    const modifiedTokens = formattedTokens.replace(/tokens-|color-|dark-/g, '');
+    const modifiedTokens = formattedTokens
+      .replace(/tokens-|dark-/g, '')
+      .replace(/background-neutral-/g, '')
+      .replace(/background-brand-/g, '')
+      .replace(/background-danger-/g, '')
+      .replace(/background-warning-/g, '')
+      .replace(/background-success-/g, '')
+      .replace(/background-info-/g, '')
+      .replace(/background-discovery-/g, '')
+      .replace(/border-neutral-/g, '')
+      .replace(/-border-brand-border-brand/g, '-border-brand')
+      .replace(/-border-danger-border-danger/g, '-border-danger')
+      .replace(/-border-warning-border-warning/g, '-border-warning')
+      .replace(/-border-success-border-success/g, '-border-success')
+      .replace(/-border-info-border-info/g, '-border-info')
+      .replace(/-border-discovery-border-discovery/g, '-border-discovery')
+      .replace(/text-neutral-/g, '')
+      .replace(/-text-brand-text-brand/g, '-text-brand')
+      .replace(/-text-danger-text-danger/g, '-text-danger')
+      .replace(/-text-warning-text-warning/g, '-text-warning')
+      .replace(/-text-success-text-success/g, '-text-success')
+      .replace(/-text-info-text-info/g, '-text-info')
+      .replace(/-text-discovery-text-discovery/g, '-text-discovery')
+      .replace(/-icon-neutral-icon/g, '-icon')
+      .replace(/-icon-brand-icon-brand/g, '-icon-brand')
+      .replace(/-icon-danger-icon-danger/g, '-icon-danger')
+      .replace(/-icon-warning-icon-warning/g, '-icon-warning')
+      .replace(/-icon-success-icon-success/g, '-icon-success')
+      .replace(/-icon-info-icon-info/g, '-icon-info')
+      .replace(/-icon-discovery-icon-discovery/g, '-icon-discovery')
+      .replace(/width-width/g, 'width')
+      .replace(/height-height/g, 'height')
+      .replace(/space-space/g, 'space')
+      .replace(/breakpoints-breakpoints/g, 'breakpoints');
 
     return modifiedTokens;
   },
 });
 styleTokensDark.buildAllPlatforms();
+
+
+
+
+// TOKENS DARK JS
+
+const styleTokensDarkJs = StyleDictionary.extend({
+  source: ['tokens/**/*.json'],
+  platforms: {
+    js: {
+      transformGroup: 'js',
+      buildPath: 'export/',
+      files: [
+        {
+          format: 'javascript/module',
+          destination: 'tokens-dark.js',
+          filter: 'tokensDarkJsFilter',
+        },
+      ],
+    },
+  },
+});
+styleTokensDarkJs.registerFilter({
+  name: 'tokensDarkJsFilter',
+  matcher: function (token) {
+    return (
+      token.path.includes('Tokens') &&
+      token.path.includes('Dark') &&
+      token.type === 'color'
+    );
+  },
+});
+styleTokensDarkJs.buildAllPlatforms();
+
+
+
 
 // CONFIG TOKEN
 

@@ -95,19 +95,7 @@
 
 .token__grid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-}
-
-@media screen and (max-width: 1024px) {
-  .token__grid {
-    grid-template-columns: 50% 50%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .token__grid {
-    grid-template-columns: 100%;
-  }
+  grid-template-columns: 100%;
 }
 
 .token__card {

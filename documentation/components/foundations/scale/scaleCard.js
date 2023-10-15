@@ -4,7 +4,7 @@ function ScaleCard({ name, value }) {
   return (
     <div className="scale__card">
       <div className="scale__text">
-        <p className="scale__title">Scale {name}</p>
+        <p className="scale__title">--scale-{name}</p>
         |
         <p className="scale__subtitle">{value}</p>
       </div>
