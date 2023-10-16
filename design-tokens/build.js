@@ -42,7 +42,7 @@ styleFoundations.registerFormat({
     })}\n}`;
 
     const modifiedTokens = formattedTokens
-      .replace(/foundations-|typography-/g, '')
+      .replace(/foundations-/g, '')
       .replace(/brand-brand/g, 'brand')
       .replace(/neutral-neutral/g, 'neutral')
       .replace(/red-red/g, 'red')
@@ -163,7 +163,7 @@ styleTokensLight.registerFormat({
       .replace(/-icon-discovery-icon-discovery/g, '-icon-discovery')
       .replace(/width-width/g, 'width')
       .replace(/height-height/g, 'height')
-      .replace(/space-space/g, 'space')
+      .replace(/spacing-space/g, 'space')
       .replace(/breakpoints-breakpoints/g, 'breakpoints');
 
     return modifiedTokens;
@@ -274,7 +274,7 @@ styleTokensDark.registerFormat({
       .replace(/-icon-discovery-icon-discovery/g, '-icon-discovery')
       .replace(/width-width/g, 'width')
       .replace(/height-height/g, 'height')
-      .replace(/space-space/g, 'space')
+      .replace(/spacing-space/g, 'space')
       .replace(/breakpoints-breakpoints/g, 'breakpoints');
 
     return modifiedTokens;

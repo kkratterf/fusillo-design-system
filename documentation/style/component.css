@@ -52,18 +52,18 @@
 
 /* CARDS FOR SCALE */
 
-.scale__grid {
+.space__grid {
   display: grid;
   grid-template-columns: 100%;
 }
 
-.scale__card {
+.space__card {
   display: flex;
   margin-bottom: 8px;
   align-items: center;
 }
 
-.scale__swatch {
+.space__swatch {
   height: 16px;
   background-color: var(--background-brand-bg-brand);
   border-radius: var(--border-radius);
@@ -73,19 +73,19 @@
   -o-border-radius: var(--border-radius);
 }
 
-.scale__text {
+.space__text {
   margin-right: 16px;
   width: 200px;
   display: flex;
   align-items: center;
 }
 
-.scale__title {
+.space__title {
   font-weight: 700;
   margin-right: 12px;
 }
 
-.scale__subtitle {
+.space__subtitle {
   font-size: 14px;
   margin-left: 12px;
 }
