@@ -1,13 +1,13 @@
 import React from 'react';
-import scale from '../../../../design-tokens/export/foundations.js';
+import space from '../../../../design-tokens/export/foundations.js';
 import SpaceCard from './spaceCard.js';
 
 function SpaceCardList() {
-  const scales = scale.Foundations.Scale;
+  const spacing = space.Foundations.Spacing;
   return (
     <div className='scale__grid'>
-      {Object.entries(scales).map(([scaleName, scaleInfo]) => (
-        <SpaceCard key={scaleName} name={scaleName} value={scaleInfo.value} />
+      {Object.entries(spacing).map(([spaceName, spaceInfo]) => (
+        <SpaceCard key={spaceName} name={spaceName} value={spaceInfo.value} />
       ))}
     </div>
   );
