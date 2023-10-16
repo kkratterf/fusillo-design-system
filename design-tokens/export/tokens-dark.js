@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 16:06:51 GMT
+ * Generated on Mon, 16 Oct 2023 16:08:27 GMT
  */
 
 module.exports = {
@@ -12,7 +12,7 @@ module.exports = {
             "bg-layout": {
               "type": "color",
               "value": "#09090b",
-              "description": "",
+              "description": "The default background color of the interface.",
               "$extensions": {
                 "variableId": "VariableID:72:35"
               },
@@ -21,7 +21,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "",
+                "description": "The default background color of the interface.",
                 "$extensions": {
                   "variableId": "VariableID:72:35"
                 }
@@ -46,7 +46,7 @@ module.exports = {
             "bg-elevated": {
               "type": "color",
               "value": "#09090b",
-              "description": "",
+              "description": "The background color for elements with a different height than the interface, such as a dialog box, tooltip, or drop-down menu.",
               "$extensions": {
                 "variableId": "VariableID:72:39"
               },
@@ -55,7 +55,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "",
+                "description": "The background color for elements with a different height than the interface, such as a dialog box, tooltip, or drop-down menu.",
                 "$extensions": {
                   "variableId": "VariableID:72:39"
                 }
@@ -80,7 +80,7 @@ module.exports = {
             "bg-container": {
               "type": "color",
               "value": "#09090b",
-              "description": "",
+              "description": "The background color for elements with the highest level of prominence, like a card.",
               "$extensions": {
                 "variableId": "VariableID:91:117"
               },
@@ -89,7 +89,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "",
+                "description": "The background color for elements with the highest level of prominence, like a card.",
                 "$extensions": {
                   "variableId": "VariableID:91:117"
                 }
@@ -114,7 +114,7 @@ module.exports = {
             "bg-mask": {
               "type": "color",
               "value": "#09090be6",
-              "description": "",
+              "description": "The background color of the mask, used to cover the content below the mask. Modal, Drawer and other components use this token.",
               "$extensions": {
                 "variableId": "VariableID:91:119"
               },
@@ -123,7 +123,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "#09090be6",
-                "description": "",
+                "description": "The background color of the mask, used to cover the content below the mask. Modal, Drawer and other components use this token.",
                 "$extensions": {
                   "variableId": "VariableID:91:119"
                 }
@@ -148,7 +148,7 @@ module.exports = {
             "bg-interactive": {
               "type": "color",
               "value": "#09090b",
-              "description": "",
+              "description": "The background color of contained elements with a smaller surface area, like a button.",
               "$extensions": {
                 "variableId": "VariableID:91:121"
               },
@@ -157,7 +157,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "",
+                "description": "The background color of contained elements with a smaller surface area, like a button.",
                 "$extensions": {
                   "variableId": "VariableID:91:121"
                 }
@@ -182,7 +182,7 @@ module.exports = {
             "bg-container-subtle": {
               "type": "color",
               "value": "#27272a",
-              "description": "",
+              "description": "The background color for elements with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:122"
               },
@@ -191,7 +191,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "",
+                "description": "The background color for elements with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:122"
                 }
@@ -216,7 +216,7 @@ module.exports = {
             "bg-interactive-hover": {
               "type": "color",
               "value": "#18181b",
-              "description": "",
+              "description": "The hover state color of contained elements with a smaller surface area, like a button.",
               "$extensions": {
                 "variableId": "VariableID:91:123"
               },
@@ -225,7 +225,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "",
+                "description": "The hover state color of contained elements with a smaller surface area, like a button.",
                 "$extensions": {
                   "variableId": "VariableID:91:123"
                 }
@@ -247,10 +247,10 @@ module.exports = {
                 "bg-interactive-hover"
               ]
             },
-            "bg-interactive-active": {
+            "bg-interactive-selected": {
               "type": "color",
               "value": "#27272a",
-              "description": "",
+              "description": "The selected state color of contained elements with a smaller surface area, like a button or checkbox.",
               "$extensions": {
                 "variableId": "VariableID:91:124"
               },
@@ -259,12 +259,12 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "",
+                "description": "The selected state color of contained elements with a smaller surface area, like a button or checkbox.",
                 "$extensions": {
                   "variableId": "VariableID:91:124"
                 }
               },
-              "name": "TokensDarkColorBackgroundNeutralBgInteractiveActive",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractiveSelected",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -278,13 +278,13 @@ module.exports = {
                 "Color",
                 "Background",
                 "Neutral",
-                "bg-interactive-active"
+                "bg-interactive-selected"
               ]
             },
-            "bg-interactive-active-hover": {
+            "bg-interactive-selected-hover": {
               "type": "color",
               "value": "#3f3f46",
-              "description": "",
+              "description": "The hover state color of selected contained elements with a smaller surface area, like a button.",
               "$extensions": {
                 "variableId": "VariableID:91:125"
               },
@@ -293,12 +293,12 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-700}",
-                "description": "",
+                "description": "The hover state color of selected contained elements with a smaller surface area, like a button.",
                 "$extensions": {
                   "variableId": "VariableID:91:125"
                 }
               },
-              "name": "TokensDarkColorBackgroundNeutralBgInteractiveActiveHover",
+              "name": "TokensDarkColorBackgroundNeutralBgInteractiveSelectedHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
@@ -312,13 +312,13 @@ module.exports = {
                 "Color",
                 "Background",
                 "Neutral",
-                "bg-interactive-active-hover"
+                "bg-interactive-selected-hover"
               ]
             },
             "bg-interactive-disabled": {
               "type": "color",
               "value": "#18181b",
-              "description": "",
+              "description": "The disabled state color of contained elements with a smaller surface area, like a button.",
               "$extensions": {
                 "variableId": "VariableID:160:290"
               },
@@ -327,7 +327,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "",
+                "description": "The disabled state color of contained elements with a smaller surface area, like a button.",
                 "$extensions": {
                   "variableId": "VariableID:160:290"
                 }
@@ -352,7 +352,7 @@ module.exports = {
             "bg-container-disabled": {
               "type": "color",
               "value": "#27272a",
-              "description": "",
+              "description": "The disabled state color for elements.",
               "$extensions": {
                 "variableId": "VariableID:160:291"
               },
@@ -361,7 +361,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "",
+                "description": "The disabled state color for elements.",
                 "$extensions": {
                   "variableId": "VariableID:160:291"
                 }
@@ -388,7 +388,7 @@ module.exports = {
             "bg-brand": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "bg for the brand color",
+              "description": "The background color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
               },
@@ -397,7 +397,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-500}",
-                "description": "bg for the brand color",
+                "description": "The background color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
                 }
@@ -422,7 +422,7 @@ module.exports = {
             "bg-brand-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
               },
@@ -431,7 +431,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-600}",
-                "description": "",
+                "description": "The hover state color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:37"
                 }
@@ -456,7 +456,7 @@ module.exports = {
             "bg-brand-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:91:126"
               },
@@ -465,7 +465,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-400}",
-                "description": "",
+                "description": "The active state (on press) color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:91:126"
                 }
@@ -490,7 +490,7 @@ module.exports = {
             "bg-brand-subtlest": {
               "type": "color",
               "value": "#172554",
-              "description": "",
+              "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:127"
               },
@@ -499,7 +499,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-950}",
-                "description": "",
+                "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:127"
                 }
@@ -524,7 +524,7 @@ module.exports = {
             "bg-brand-subtle": {
               "type": "color",
               "value": "#172554",
-              "description": "",
+              "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:128"
               },
@@ -533,7 +533,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-950}",
-                "description": "",
+                "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:128"
                 }
@@ -554,13 +554,47 @@ module.exports = {
                 "Brand",
                 "bg-brand-subtle"
               ]
+            },
+            "bg-brand-selected": {
+              "type": "color",
+              "value": "#3b82f6",
+              "description": "The selected state color of main actions, like primary buttons.",
+              "$extensions": {
+                "variableId": "VariableID:497:1523"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Brand.brand-500}",
+                "description": "The selected state color of main actions, like primary buttons.",
+                "$extensions": {
+                  "variableId": "VariableID:497:1523"
+                }
+              },
+              "name": "TokensDarkColorBackgroundBrandBgBrandSelected",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Background",
+                "state": "Brand"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Background",
+                "Brand",
+                "bg-brand-selected"
+              ]
             }
           },
           "Danger": {
             "bg-danger": {
               "type": "color",
               "value": "#ef4444",
-              "description": "",
+              "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner.",
               "$extensions": {
                 "variableId": "VariableID:91:113"
               },
@@ -569,7 +603,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-500}",
-                "description": "",
+                "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:113"
                 }
@@ -594,7 +628,7 @@ module.exports = {
             "bg-danger-hover": {
               "type": "color",
               "value": "#dc2626",
-              "description": "",
+              "description": "The hover state color for communicating critical information on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:129"
               },
@@ -603,7 +637,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-600}",
-                "description": "",
+                "description": "The hover state color for communicating critical information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:129"
                 }
@@ -628,7 +662,7 @@ module.exports = {
             "bg-danger-active": {
               "type": "color",
               "value": "#f87171",
-              "description": "",
+              "description": "The active state (on press) color for communicating critical information on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:130"
               },
@@ -637,7 +671,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-400}",
-                "description": "",
+                "description": "The active state (on press) color for communicating critical information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:130"
                 }
@@ -662,7 +696,7 @@ module.exports = {
             "bg-danger-subtlest": {
               "type": "color",
               "value": "#450a0a",
-              "description": "",
+              "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:131"
               },
@@ -671,7 +705,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:131"
                 }
@@ -696,7 +730,7 @@ module.exports = {
             "bg-danger-subtle": {
               "type": "color",
               "value": "#450a0a",
-              "description": "",
+              "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:132"
               },
@@ -705,7 +739,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
                 }
@@ -726,13 +760,47 @@ module.exports = {
                 "Danger",
                 "bg-danger-subtle"
               ]
+            },
+            "bg-danger-selected": {
+              "type": "color",
+              "value": "#ef4444",
+              "description": "The selected state color for communicating critical information on elements with a smaller surface area.",
+              "$extensions": {
+                "variableId": "VariableID:497:1524"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Red.red-500}",
+                "description": "The selected state color for communicating critical information on elements with a smaller surface area.",
+                "$extensions": {
+                  "variableId": "VariableID:497:1524"
+                }
+              },
+              "name": "TokensDarkColorBackgroundDangerBgDangerSelected",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Background",
+                "state": "Danger"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Background",
+                "Danger",
+                "bg-danger-selected"
+              ]
             }
           },
           "Warning": {
             "bg-warning": {
               "type": "color",
               "value": "#f59e0b",
-              "description": "",
+              "description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner.",
               "$extensions": {
                 "variableId": "VariableID:91:114"
               },
@@ -741,7 +809,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-500}",
-                "description": "",
+                "description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:114"
                 }
@@ -766,7 +834,7 @@ module.exports = {
             "bg-warning-hover": {
               "type": "color",
               "value": "#d97706",
-              "description": "",
+              "description": "The hover state color for communicating warning on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:133"
               },
@@ -775,7 +843,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-600}",
-                "description": "",
+                "description": "The hover state color for communicating warning on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:133"
                 }
@@ -800,7 +868,7 @@ module.exports = {
             "bg-warning-active": {
               "type": "color",
               "value": "#fbbf24",
-              "description": "",
+              "description": "The active state (on press) color for communicating warning on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:134"
               },
@@ -809,7 +877,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-400}",
-                "description": "",
+                "description": "The active state (on press) color for communicating warning on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:134"
                 }
@@ -834,7 +902,7 @@ module.exports = {
             "bg-warning-subtlest": {
               "type": "color",
               "value": "#451a03",
-              "description": "",
+              "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:135"
               },
@@ -843,7 +911,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:135"
                 }
@@ -868,7 +936,7 @@ module.exports = {
             "bg-warning-subtle": {
               "type": "color",
               "value": "#451a03",
-              "description": "",
+              "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:136"
               },
@@ -877,7 +945,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
                 }
@@ -904,7 +972,7 @@ module.exports = {
             "bg-success": {
               "type": "color",
               "value": "#22c55e",
-              "description": "",
+              "description": "Use for backgrounds communicating success on elements with a smaller surface area, like a badge or a banner.",
               "$extensions": {
                 "variableId": "VariableID:91:115"
               },
@@ -913,7 +981,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-500}",
-                "description": "",
+                "description": "Use for backgrounds communicating success on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:115"
                 }
@@ -938,7 +1006,7 @@ module.exports = {
             "bg-success-hover": {
               "type": "color",
               "value": "#16a34a",
-              "description": "",
+              "description": "The hover state color for communicating success on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:137"
               },
@@ -947,7 +1015,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-600}",
-                "description": "",
+                "description": "The hover state color for communicating success on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:137"
                 }
@@ -972,7 +1040,7 @@ module.exports = {
             "bg-success-active": {
               "type": "color",
               "value": "#4ade80",
-              "description": "",
+              "description": "The active state (on press) color for communicating success on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:138"
               },
@@ -981,7 +1049,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-400}",
-                "description": "",
+                "description": "The active state (on press) color for communicating success on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:138"
                 }
@@ -1006,7 +1074,7 @@ module.exports = {
             "bg-success-subtlest": {
               "type": "color",
               "value": "#052e16",
-              "description": "",
+              "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:139"
               },
@@ -1015,7 +1083,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:139"
                 }
@@ -1040,7 +1108,7 @@ module.exports = {
             "bg-success-subtle": {
               "type": "color",
               "value": "#052e16",
-              "description": "",
+              "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:140"
               },
@@ -1049,7 +1117,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:140"
                 }
@@ -1076,7 +1144,7 @@ module.exports = {
             "bg-info": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for backgrounds communicating important information on elements with a smaller surface area, like a badge or button.",
               "$extensions": {
                 "variableId": "VariableID:91:116"
               },
@@ -1085,7 +1153,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-500}",
-                "description": "",
+                "description": "Use for backgrounds communicating important information on elements with a smaller surface area, like a badge or button.",
                 "$extensions": {
                   "variableId": "VariableID:91:116"
                 }
@@ -1110,7 +1178,7 @@ module.exports = {
             "bg-info-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover state color for communicating important information on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:141"
               },
@@ -1119,7 +1187,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-600}",
-                "description": "",
+                "description": "The hover state color for communicating important information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:141"
                 }
@@ -1144,7 +1212,7 @@ module.exports = {
             "bg-info-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for communicating important information on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:142"
               },
@@ -1153,7 +1221,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-400}",
-                "description": "",
+                "description": "The active state (on press) color for communicating important information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:142"
                 }
@@ -1178,7 +1246,7 @@ module.exports = {
             "bg-info-subtlest": {
               "type": "color",
               "value": "#172554",
-              "description": "",
+              "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:143"
               },
@@ -1187,7 +1255,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:143"
                 }
@@ -1212,7 +1280,7 @@ module.exports = {
             "bg-info-subtle": {
               "type": "color",
               "value": "#172554",
-              "description": "",
+              "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:144"
               },
@@ -1221,7 +1289,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-950}",
-                "description": "",
+                "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:144"
                 }
@@ -1248,7 +1316,7 @@ module.exports = {
             "bg-discovery": {
               "type": "color",
               "value": "#8b5cf6",
-              "description": "",
+              "description": "The background color of suggested items to discover, such as a badge or banner.",
               "$extensions": {
                 "variableId": "VariableID:229:685"
               },
@@ -1257,7 +1325,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-500}",
-                "description": "",
+                "description": "The background color of suggested items to discover, such as a badge or banner.",
                 "$extensions": {
                   "variableId": "VariableID:229:685"
                 }
@@ -1282,7 +1350,7 @@ module.exports = {
             "bg-discovery-hover": {
               "type": "color",
               "value": "#7c3aed",
-              "description": "",
+              "description": "The hover state color for suggested items to discover, such as a badge or banner.",
               "$extensions": {
                 "variableId": "VariableID:229:687"
               },
@@ -1291,7 +1359,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-600}",
-                "description": "",
+                "description": "The hover state color for suggested items to discover, such as a badge or banner.",
                 "$extensions": {
                   "variableId": "VariableID:229:687"
                 }
@@ -1316,7 +1384,7 @@ module.exports = {
             "bg-discovery-active": {
               "type": "color",
               "value": "#a78bfa",
-              "description": "",
+              "description": "The active state (on press) color for suggested items to discover, such as a badge or banner.",
               "$extensions": {
                 "variableId": "VariableID:229:688"
               },
@@ -1325,7 +1393,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-400}",
-                "description": "",
+                "description": "The active state (on press) color for suggested items to discover, such as a badge or banner.",
                 "$extensions": {
                   "variableId": "VariableID:229:688"
                 }
@@ -1350,7 +1418,7 @@ module.exports = {
             "bg-discovery-subtlest": {
               "type": "color",
               "value": "#2e1065",
-              "description": "",
+              "description": "Use for backgrounds suggesting items to discover, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:229:689"
               },
@@ -1359,7 +1427,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-950}",
-                "description": "",
+                "description": "Use for backgrounds suggesting items to discover, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:229:689"
                 }
@@ -1384,7 +1452,7 @@ module.exports = {
             "bg-discovery-subtle": {
               "type": "color",
               "value": "#2e1065",
-              "description": "",
+              "description": "The hover state color for suggested items to discover, such as a badge or banner.",
               "$extensions": {
                 "variableId": "VariableID:229:690"
               },
@@ -1393,7 +1461,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-950}",
-                "description": "",
+                "description": "The hover state color for suggested items to discover, such as a badge or banner.",
                 "$extensions": {
                   "variableId": "VariableID:229:690"
                 }
@@ -1422,7 +1490,7 @@ module.exports = {
             "border-primary": {
               "type": "color",
               "value": "#27272a",
-              "description": "Default border color, used to separate different elements, such as: form separator, card separator, etc",
+              "description": "The default color for borders on any element.",
               "$extensions": {
                 "variableId": "VariableID:72:47"
               },
@@ -1431,7 +1499,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "Default border color, used to separate different elements, such as: form separator, card separator, etc",
+                "description": "The default color for borders on any element.",
                 "$extensions": {
                   "variableId": "VariableID:72:47"
                 }
@@ -1456,7 +1524,7 @@ module.exports = {
             "border-secondary": {
               "type": "color",
               "value": "#18181b",
-              "description": "Slightly lighter than the default border color",
+              "description": "The color for hr elements or any visual dividers.",
               "$extensions": {
                 "variableId": "VariableID:75:2"
               },
@@ -1465,7 +1533,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "Slightly lighter than the default border color",
+                "description": "The color for hr elements or any visual dividers.",
                 "$extensions": {
                   "variableId": "VariableID:75:2"
                 }
@@ -1486,13 +1554,81 @@ module.exports = {
                 "Neutral",
                 "border-secondary"
               ]
+            },
+            "border-primary-hover": {
+              "type": "color",
+              "value": "#3f3f46",
+              "description": "The hover color for borders on any element.",
+              "$extensions": {
+                "variableId": "VariableID:497:1525"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-700}",
+                "description": "The hover color for borders on any element.",
+                "$extensions": {
+                  "variableId": "VariableID:497:1525"
+                }
+              },
+              "name": "TokensDarkColorBorderNeutralBorderPrimaryHover",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Border",
+                "state": "Neutral"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Border",
+                "Neutral",
+                "border-primary-hover"
+              ]
+            },
+            "border-primary-disabled": {
+              "type": "color",
+              "value": "#18181b",
+              "description": "The disabled color for borders on any element.",
+              "$extensions": {
+                "variableId": "VariableID:497:1526"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "description": "The disabled color for borders on any element.",
+                "$extensions": {
+                  "variableId": "VariableID:497:1526"
+                }
+              },
+              "name": "TokensDarkColorBorderNeutralBorderPrimaryDisabled",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Border",
+                "state": "Neutral"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Border",
+                "Neutral",
+                "border-primary-disabled"
+              ]
             }
           },
           "Brand": {
             "border-brand": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
               },
@@ -1501,7 +1637,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-500}",
-                "description": "",
+                "description": "Use for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:75:3"
                 }
@@ -1526,7 +1662,7 @@ module.exports = {
             "border-brand-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
               },
@@ -1535,7 +1671,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-600}",
-                "description": "",
+                "description": "The hover color for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:75:13"
                 }
@@ -1560,7 +1696,7 @@ module.exports = {
             "border-brand-subtlest": {
               "type": "color",
               "value": "#1e40af",
-              "description": "",
+              "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:89:78"
               },
@@ -1569,7 +1705,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-800}",
-                "description": "",
+                "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:89:78"
                 }
@@ -1594,7 +1730,7 @@ module.exports = {
             "border-brand-subtle": {
               "type": "color",
               "value": "#1e40af",
-              "description": "",
+              "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:89:79"
               },
@@ -1603,7 +1739,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-800}",
-                "description": "",
+                "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:89:79"
                 }
@@ -1628,7 +1764,7 @@ module.exports = {
             "border-brand-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:91:87"
               },
@@ -1637,7 +1773,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-400}",
-                "description": "",
+                "description": "The active state (on press) color for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:91:87"
                 }
@@ -1664,7 +1800,7 @@ module.exports = {
             "border-danger": {
               "type": "color",
               "value": "#ef4444",
-              "description": "",
+              "description": "Use for borders communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:4"
               },
@@ -1673,7 +1809,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-500}",
-                "description": "",
+                "description": "Use for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:4"
                 }
@@ -1698,7 +1834,7 @@ module.exports = {
             "border-danger-hover": {
               "type": "color",
               "value": "#dc2626",
-              "description": "",
+              "description": "The hover color for borders communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:12"
               },
@@ -1707,7 +1843,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-600}",
-                "description": "",
+                "description": "The hover color for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:12"
                 }
@@ -1732,7 +1868,7 @@ module.exports = {
             "border-danger-subtlest": {
               "type": "color",
               "value": "#991b1b",
-              "description": "",
+              "description": "Use for the border of elements communicating critical information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:90:80"
               },
@@ -1741,7 +1877,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating critical information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:90:80"
                 }
@@ -1766,7 +1902,7 @@ module.exports = {
             "border-danger-subtle": {
               "type": "color",
               "value": "#991b1b",
-              "description": "",
+              "description": "Use for the border of elements communicating critical information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:90:81"
               },
@@ -1775,7 +1911,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating critical information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:90:81"
                 }
@@ -1800,7 +1936,7 @@ module.exports = {
             "border-danger-active": {
               "type": "color",
               "value": "#f87171",
-              "description": "",
+              "description": "The active state (on press) color for borders communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:91:89"
               },
@@ -1809,7 +1945,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-400}",
-                "description": "",
+                "description": "The active state (on press) color for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:91:89"
                 }
@@ -1836,7 +1972,7 @@ module.exports = {
             "border-success": {
               "type": "color",
               "value": "#22c55e",
-              "description": "",
+              "description": "Use for borders communicating success information.",
               "$extensions": {
                 "variableId": "VariableID:75:5"
               },
@@ -1845,7 +1981,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-500}",
-                "description": "",
+                "description": "Use for borders communicating success information.",
                 "$extensions": {
                   "variableId": "VariableID:75:5"
                 }
@@ -1870,7 +2006,7 @@ module.exports = {
             "border-success-hover": {
               "type": "color",
               "value": "#16a34a",
-              "description": "",
+              "description": "The hover color for borders communicating success information.",
               "$extensions": {
                 "variableId": "VariableID:75:11"
               },
@@ -1879,7 +2015,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-600}",
-                "description": "",
+                "description": "The hover color for borders communicating success information.",
                 "$extensions": {
                   "variableId": "VariableID:75:11"
                 }
@@ -1904,7 +2040,7 @@ module.exports = {
             "border-success-subtlest": {
               "type": "color",
               "value": "#166534",
-              "description": "",
+              "description": "Use for the border of elements communicating success information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:83"
               },
@@ -1913,7 +2049,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating success information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:83"
                 }
@@ -1938,7 +2074,7 @@ module.exports = {
             "border-success-subtle": {
               "type": "color",
               "value": "#166534",
-              "description": "",
+              "description": "Use for the border of elements communicating success information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:84"
               },
@@ -1947,7 +2083,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating success information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:84"
                 }
@@ -1972,7 +2108,7 @@ module.exports = {
             "border-success-active": {
               "type": "color",
               "value": "#4ade80",
-              "description": "",
+              "description": "The active state (on press) color for borders communicating success information.",
               "$extensions": {
                 "variableId": "VariableID:91:90"
               },
@@ -1981,7 +2117,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-400}",
-                "description": "",
+                "description": "The active state (on press) color for borders communicating success information.",
                 "$extensions": {
                   "variableId": "VariableID:91:90"
                 }
@@ -2008,7 +2144,7 @@ module.exports = {
             "border-warning": {
               "type": "color",
               "value": "#f59e0b",
-              "description": "",
+              "description": "Use for borders communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:6"
               },
@@ -2017,7 +2153,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-500}",
-                "description": "",
+                "description": "Use for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:6"
                 }
@@ -2042,7 +2178,7 @@ module.exports = {
             "border-warning-hover": {
               "type": "color",
               "value": "#d97706",
-              "description": "",
+              "description": "The hover color for borders communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:10"
               },
@@ -2051,7 +2187,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-600}",
-                "description": "",
+                "description": "The hover color for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:10"
                 }
@@ -2076,7 +2212,7 @@ module.exports = {
             "border-warning-subtlest": {
               "type": "color",
               "value": "#92400e",
-              "description": "",
+              "description": "Use for the border of elements communicating warning information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:85"
               },
@@ -2085,7 +2221,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating warning information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:85"
                 }
@@ -2110,7 +2246,7 @@ module.exports = {
             "border-warning-subtle": {
               "type": "color",
               "value": "#92400e",
-              "description": "",
+              "description": "Use for the border of elements communicating warning information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:86"
               },
@@ -2119,7 +2255,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating warning information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:86"
                 }
@@ -2144,7 +2280,7 @@ module.exports = {
             "border-warning-active": {
               "type": "color",
               "value": "#fbbf24",
-              "description": "",
+              "description": "The active state (on press) color for borders communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:91:91"
               },
@@ -2153,7 +2289,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-400}",
-                "description": "",
+                "description": "The active state (on press) color for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:91:91"
                 }
@@ -2180,7 +2316,7 @@ module.exports = {
             "border-info": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for borders communicating information.",
               "$extensions": {
                 "variableId": "VariableID:75:7"
               },
@@ -2189,7 +2325,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-500}",
-                "description": "",
+                "description": "Use for borders communicating information.",
                 "$extensions": {
                   "variableId": "VariableID:75:7"
                 }
@@ -2214,7 +2350,7 @@ module.exports = {
             "border-info-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover color for borders communicating information.",
               "$extensions": {
                 "variableId": "VariableID:75:8"
               },
@@ -2223,7 +2359,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-600}",
-                "description": "",
+                "description": "The hover color for borders communicating information.",
                 "$extensions": {
                   "variableId": "VariableID:75:8"
                 }
@@ -2248,7 +2384,7 @@ module.exports = {
             "border-info-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for borders communicating information.",
               "$extensions": {
                 "variableId": "VariableID:91:92"
               },
@@ -2257,7 +2393,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-400}",
-                "description": "",
+                "description": "The active state (on press) color for borders communicating information.",
                 "$extensions": {
                   "variableId": "VariableID:91:92"
                 }
@@ -2282,7 +2418,7 @@ module.exports = {
             "border-info-subtlest": {
               "type": "color",
               "value": "#1e40af",
-              "description": "",
+              "description": "Use for the border of elements communicating information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:93"
               },
@@ -2291,7 +2427,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:93"
                 }
@@ -2316,7 +2452,7 @@ module.exports = {
             "border-info-subtle": {
               "type": "color",
               "value": "#1e40af",
-              "description": "",
+              "description": "Use for the border of elements communicating information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:91:94"
               },
@@ -2325,7 +2461,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:94"
                 }
@@ -2352,7 +2488,7 @@ module.exports = {
             "border-discovery": {
               "type": "color",
               "value": "#8b5cf6",
-              "description": "",
+              "description": "Use for borders communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:229:696"
               },
@@ -2361,7 +2497,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-500}",
-                "description": "",
+                "description": "Use for borders communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:229:696"
                 }
@@ -2386,7 +2522,7 @@ module.exports = {
             "border-discovery-hover": {
               "type": "color",
               "value": "#7c3aed",
-              "description": "",
+              "description": "The hover color for borders communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:229:697"
               },
@@ -2395,7 +2531,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-600}",
-                "description": "",
+                "description": "The hover color for borders communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:229:697"
                 }
@@ -2420,7 +2556,7 @@ module.exports = {
             "border-discovery-active": {
               "type": "color",
               "value": "#a78bfa",
-              "description": "",
+              "description": "The active state (on press) color for borders communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:229:698"
               },
@@ -2429,7 +2565,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-400}",
-                "description": "",
+                "description": "The active state (on press) color for borders communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:229:698"
                 }
@@ -2454,7 +2590,7 @@ module.exports = {
             "border-discovery-subtlest": {
               "type": "color",
               "value": "#5b21b6",
-              "description": "",
+              "description": "Use for the border of elements communicating discovery information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:229:699"
               },
@@ -2463,7 +2599,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating discovery information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:229:699"
                 }
@@ -2488,7 +2624,7 @@ module.exports = {
             "border-discovery-subtle": {
               "type": "color",
               "value": "#5b21b6",
-              "description": "",
+              "description": "Use for the border of elements communicating discovery information, but with less emphasis.",
               "$extensions": {
                 "variableId": "VariableID:229:700"
               },
@@ -2497,7 +2633,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-800}",
-                "description": "",
+                "description": "Use for the border of elements communicating discovery information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:229:700"
                 }
@@ -2526,7 +2662,7 @@ module.exports = {
             "text-description": {
               "type": "color",
               "value": "#a1a1aa",
-              "description": "",
+              "description": "Use for text with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:75:28"
               },
@@ -2535,7 +2671,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-400}",
-                "description": "",
+                "description": "Use for text with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:75:28"
                 }
@@ -2560,7 +2696,7 @@ module.exports = {
             "text-heading": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text indicating headings on elements with the highest level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:75:29"
               },
@@ -2569,7 +2705,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text indicating headings on elements with the highest level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:75:29"
                 }
@@ -2594,7 +2730,7 @@ module.exports = {
             "text-disabled": {
               "type": "color",
               "value": "#3f3f46",
-              "description": "",
+              "description": "Use for text in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:75:30"
               },
@@ -2603,7 +2739,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-700}",
-                "description": "",
+                "description": "Use for text in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:75:30"
                 }
@@ -2628,7 +2764,7 @@ module.exports = {
             "text": {
               "type": "color",
               "value": "#fafafa",
-              "description": "",
+              "description": "The default text color.",
               "$extensions": {
                 "variableId": "VariableID:75:31"
               },
@@ -2637,7 +2773,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "",
+                "description": "The default text color.",
                 "$extensions": {
                   "variableId": "VariableID:75:31"
                 }
@@ -2662,7 +2798,7 @@ module.exports = {
             "text-placeholder": {
               "type": "color",
               "value": "#71717a",
-              "description": "",
+              "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
               "$extensions": {
                 "variableId": "VariableID:75:32"
               },
@@ -2671,7 +2807,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-500}",
-                "description": "",
+                "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
                 "$extensions": {
                   "variableId": "VariableID:75:32"
                 }
@@ -2696,7 +2832,7 @@ module.exports = {
             "text-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text on dark background.",
               "$extensions": {
                 "variableId": "VariableID:75:33"
               },
@@ -2705,7 +2841,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text on dark background.",
                 "$extensions": {
                   "variableId": "VariableID:75:33"
                 }
@@ -2732,7 +2868,7 @@ module.exports = {
             "text-brand": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:34"
               },
@@ -2741,7 +2877,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-500}",
-                "description": "",
+                "description": "Use for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:34"
                 }
@@ -2766,7 +2902,7 @@ module.exports = {
             "text-brand-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover state color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:35"
               },
@@ -2775,7 +2911,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-600}",
-                "description": "",
+                "description": "The hover state color for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:35"
                 }
@@ -2800,7 +2936,7 @@ module.exports = {
             "text-brand-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:36"
               },
@@ -2809,7 +2945,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-400}",
-                "description": "",
+                "description": "The active state (on press) color for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:36"
                 }
@@ -2834,7 +2970,7 @@ module.exports = {
             "text-brand-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text on bg-brand, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:160:295"
               },
@@ -2843,7 +2979,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text on bg-brand, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:160:295"
                 }
@@ -2868,7 +3004,7 @@ module.exports = {
             "text-brand-strong": {
               "type": "color",
               "value": "#93c5fd",
-              "description": "",
+              "description": "Use for text on bg-brand-subtle and subtles, like badge and alert.",
               "$extensions": {
                 "variableId": "VariableID:487:11553"
               },
@@ -2877,7 +3013,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-300}",
-                "description": "",
+                "description": "Use for text on bg-brand-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11553"
                 }
@@ -2904,7 +3040,7 @@ module.exports = {
             "text-danger": {
               "type": "color",
               "value": "#ef4444",
-              "description": "",
+              "description": "Use for text communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:37"
               },
@@ -2913,7 +3049,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-500}",
-                "description": "",
+                "description": "Use for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:37"
                 }
@@ -2938,7 +3074,7 @@ module.exports = {
             "text-danger-hover": {
               "type": "color",
               "value": "#dc2626",
-              "description": "",
+              "description": "The hover state color for text communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:38"
               },
@@ -2947,7 +3083,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-600}",
-                "description": "",
+                "description": "The hover state color for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:38"
                 }
@@ -2972,7 +3108,7 @@ module.exports = {
             "text-danger-active": {
               "type": "color",
               "value": "#f87171",
-              "description": "",
+              "description": "The active state (on press) color for text communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:39"
               },
@@ -2981,7 +3117,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-400}",
-                "description": "",
+                "description": "The active state (on press) color for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:39"
                 }
@@ -3006,7 +3142,7 @@ module.exports = {
             "text-danger-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text and icons on bg-danger.",
               "$extensions": {
                 "variableId": "VariableID:160:296"
               },
@@ -3015,7 +3151,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text and icons on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:160:296"
                 }
@@ -3040,7 +3176,7 @@ module.exports = {
             "text-danger-strong": {
               "type": "color",
               "value": "#fca5a5",
-              "description": "",
+              "description": "Use for text on bg-danger-subtle and subtles, like badge and alert.",
               "$extensions": {
                 "variableId": "VariableID:487:11554"
               },
@@ -3049,7 +3185,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-300}",
-                "description": "",
+                "description": "Use for text on bg-danger-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11554"
                 }
@@ -3076,7 +3212,7 @@ module.exports = {
             "text-success": {
               "type": "color",
               "value": "#22c55e",
-              "description": "",
+              "description": "Use for text communicating success.",
               "$extensions": {
                 "variableId": "VariableID:75:40"
               },
@@ -3085,7 +3221,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-500}",
-                "description": "",
+                "description": "Use for text communicating success.",
                 "$extensions": {
                   "variableId": "VariableID:75:40"
                 }
@@ -3110,7 +3246,7 @@ module.exports = {
             "text-success-hover": {
               "type": "color",
               "value": "#16a34a",
-              "description": "",
+              "description": "The hover state color for text communicating success.",
               "$extensions": {
                 "variableId": "VariableID:75:41"
               },
@@ -3119,7 +3255,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-600}",
-                "description": "",
+                "description": "The hover state color for text communicating success.",
                 "$extensions": {
                   "variableId": "VariableID:75:41"
                 }
@@ -3144,7 +3280,7 @@ module.exports = {
             "text-success-active": {
               "type": "color",
               "value": "#4ade80",
-              "description": "",
+              "description": "The active state (on press) color for text communicating success.",
               "$extensions": {
                 "variableId": "VariableID:75:42"
               },
@@ -3153,7 +3289,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-400}",
-                "description": "",
+                "description": "The active state (on press) color for text communicating success.",
                 "$extensions": {
                   "variableId": "VariableID:75:42"
                 }
@@ -3178,7 +3314,7 @@ module.exports = {
             "text-success-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text and icons on bg-success.",
               "$extensions": {
                 "variableId": "VariableID:160:298"
               },
@@ -3187,7 +3323,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text and icons on bg-success.",
                 "$extensions": {
                   "variableId": "VariableID:160:298"
                 }
@@ -3212,7 +3348,7 @@ module.exports = {
             "text-success-strong": {
               "type": "color",
               "value": "#86efac",
-              "description": "",
+              "description": "Use for text on bg-success-subtle and subtles, like badge and alert.",
               "$extensions": {
                 "variableId": "VariableID:487:11556"
               },
@@ -3221,7 +3357,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-300}",
-                "description": "",
+                "description": "Use for text on bg-success-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11556"
                 }
@@ -3248,7 +3384,7 @@ module.exports = {
             "text-warning": {
               "type": "color",
               "value": "#f59e0b",
-              "description": "",
+              "description": "Use for text communicating warning.",
               "$extensions": {
                 "variableId": "VariableID:75:43"
               },
@@ -3257,7 +3393,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-500}",
-                "description": "",
+                "description": "Use for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:43"
                 }
@@ -3282,7 +3418,7 @@ module.exports = {
             "text-warning-hover": {
               "type": "color",
               "value": "#d97706",
-              "description": "",
+              "description": "The hover state color for text communicating warning.",
               "$extensions": {
                 "variableId": "VariableID:75:44"
               },
@@ -3291,7 +3427,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-600}",
-                "description": "",
+                "description": "The hover state color for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:44"
                 }
@@ -3316,7 +3452,7 @@ module.exports = {
             "text-warning-active": {
               "type": "color",
               "value": "#fbbf24",
-              "description": "",
+              "description": "The active state (on press) color for text communicating warning.",
               "$extensions": {
                 "variableId": "VariableID:75:45"
               },
@@ -3325,7 +3461,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-400}",
-                "description": "",
+                "description": "The active state (on press) color for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:45"
                 }
@@ -3350,7 +3486,7 @@ module.exports = {
             "text-warning-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text and icons on bg-warning.",
               "$extensions": {
                 "variableId": "VariableID:160:297"
               },
@@ -3359,7 +3495,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text and icons on bg-warning.",
                 "$extensions": {
                   "variableId": "VariableID:160:297"
                 }
@@ -3384,7 +3520,7 @@ module.exports = {
             "text-warning-strong": {
               "type": "color",
               "value": "#fcd34d",
-              "description": "",
+              "description": "Use for text on bg-warning-subtle and subtles, like badge and alert.",
               "$extensions": {
                 "variableId": "VariableID:487:11555"
               },
@@ -3393,7 +3529,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-300}",
-                "description": "",
+                "description": "Use for text on bg-warning-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11555"
                 }
@@ -3420,7 +3556,7 @@ module.exports = {
             "text-info": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for text communicating important information.",
               "$extensions": {
                 "variableId": "VariableID:75:46"
               },
@@ -3429,7 +3565,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-500}",
-                "description": "",
+                "description": "Use for text communicating important information.",
                 "$extensions": {
                   "variableId": "VariableID:75:46"
                 }
@@ -3454,7 +3590,7 @@ module.exports = {
             "text-info-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover state color for text communicating important information.",
               "$extensions": {
                 "variableId": "VariableID:75:47"
               },
@@ -3463,7 +3599,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-600}",
-                "description": "",
+                "description": "The hover state color for text communicating important information.",
                 "$extensions": {
                   "variableId": "VariableID:75:47"
                 }
@@ -3488,7 +3624,7 @@ module.exports = {
             "text-info-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for text communicating important information.",
               "$extensions": {
                 "variableId": "VariableID:75:48"
               },
@@ -3497,7 +3633,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-400}",
-                "description": "",
+                "description": "The active state (on press) color for text communicating important information.",
                 "$extensions": {
                   "variableId": "VariableID:75:48"
                 }
@@ -3522,7 +3658,7 @@ module.exports = {
             "text-info-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text and icons on bg-info.",
               "$extensions": {
                 "variableId": "VariableID:160:299"
               },
@@ -3531,7 +3667,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text and icons on bg-info.",
                 "$extensions": {
                   "variableId": "VariableID:160:299"
                 }
@@ -3556,7 +3692,7 @@ module.exports = {
             "text-info-strong": {
               "type": "color",
               "value": "#93c5fd",
-              "description": "",
+              "description": "Use for text on bg-info-subtle and subtles, like badge and alert.",
               "$extensions": {
                 "variableId": "VariableID:487:11557"
               },
@@ -3565,7 +3701,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-300}",
-                "description": "",
+                "description": "Use for text on bg-info-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11557"
                 }
@@ -3592,7 +3728,7 @@ module.exports = {
             "text-discovery": {
               "type": "color",
               "value": "#8b5cf6",
-              "description": "",
+              "description": "Use for text communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:229:692"
               },
@@ -3601,7 +3737,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-500}",
-                "description": "",
+                "description": "Use for text communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:229:692"
                 }
@@ -3626,7 +3762,7 @@ module.exports = {
             "text-discovery-hover": {
               "type": "color",
               "value": "#7c3aed",
-              "description": "",
+              "description": "The hover state color for text communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:229:693"
               },
@@ -3635,7 +3771,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-600}",
-                "description": "",
+                "description": "The hover state color for text communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:229:693"
                 }
@@ -3660,7 +3796,7 @@ module.exports = {
             "text-discovery-active": {
               "type": "color",
               "value": "#a78bfa",
-              "description": "",
+              "description": "The active state (on press) color for text communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:229:694"
               },
@@ -3669,7 +3805,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-400}",
-                "description": "",
+                "description": "The active state (on press) color for text communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:229:694"
                 }
@@ -3694,7 +3830,7 @@ module.exports = {
             "text-discovery-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "",
+              "description": "Use for text and icons on bg-discovery.",
               "$extensions": {
                 "variableId": "VariableID:229:695"
               },
@@ -3703,7 +3839,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "",
+                "description": "Use for text and icons on bg-discovery.",
                 "$extensions": {
                   "variableId": "VariableID:229:695"
                 }
@@ -3728,7 +3864,7 @@ module.exports = {
             "text-discovery-strong": {
               "type": "color",
               "value": "#c4b5fd",
-              "description": "",
+              "description": "Use for text on bg-discovery-subtle and subtles, like badge and alert.",
               "$extensions": {
                 "variableId": "VariableID:487:11558"
               },
@@ -3737,7 +3873,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-300}",
-                "description": "",
+                "description": "Use for text on bg-discovery-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11558"
                 }
@@ -3766,7 +3902,7 @@ module.exports = {
             "icon": {
               "type": "color",
               "value": "#a1a1aa",
-              "description": "",
+              "description": "The default color for icons.",
               "$extensions": {
                 "variableId": "VariableID:75:51"
               },
@@ -3775,7 +3911,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-400}",
-                "description": "",
+                "description": "The default color for icons.",
                 "$extensions": {
                   "variableId": "VariableID:75:51"
                 }
@@ -3800,7 +3936,7 @@ module.exports = {
             "icon-hover": {
               "type": "color",
               "value": "#fafafa",
-              "description": "",
+              "description": "The hover state color for icons.",
               "$extensions": {
                 "variableId": "VariableID:75:52"
               },
@@ -3809,7 +3945,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "",
+                "description": "The hover state color for icons.",
                 "$extensions": {
                   "variableId": "VariableID:75:52"
                 }
@@ -3834,7 +3970,7 @@ module.exports = {
             "icon-active": {
               "type": "color",
               "value": "#fafafa",
-              "description": "",
+              "description": "The active state (on press) color for icons.",
               "$extensions": {
                 "variableId": "VariableID:91:96"
               },
@@ -3843,7 +3979,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "",
+                "description": "The active state (on press) color for icons.",
                 "$extensions": {
                   "variableId": "VariableID:91:96"
                 }
@@ -3868,7 +4004,7 @@ module.exports = {
             "icon-disabled": {
               "type": "color",
               "value": "#3f3f46",
-              "description": "",
+              "description": "The disabled state color for icons.",
               "$extensions": {
                 "variableId": "VariableID:160:303"
               },
@@ -3877,7 +4013,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-700}",
-                "description": "",
+                "description": "The disabled state color for icons.",
                 "$extensions": {
                   "variableId": "VariableID:160:303"
                 }
@@ -3904,7 +4040,7 @@ module.exports = {
             "icon-brand": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:53"
               },
@@ -3913,7 +4049,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-500}",
-                "description": "",
+                "description": "Use for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:53"
                 }
@@ -3938,7 +4074,7 @@ module.exports = {
             "icon-brand-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:54"
               },
@@ -3947,7 +4083,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-600}",
-                "description": "",
+                "description": "The hover color for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:54"
                 }
@@ -3972,7 +4108,7 @@ module.exports = {
             "icon-brand-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:55"
               },
@@ -3981,7 +4117,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-400}",
-                "description": "",
+                "description": "The active state (on press) color for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:55"
                 }
@@ -4006,7 +4142,7 @@ module.exports = {
             "icon-brand-disabled": {
               "type": "color",
               "value": "#172554",
-              "description": "",
+              "description": "Use for icons that need to pull more focus in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:160:306"
               },
@@ -4015,7 +4151,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Brand.brand-950}",
-                "description": "",
+                "description": "Use for icons that need to pull more focus in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:160:306"
                 }
@@ -4042,7 +4178,7 @@ module.exports = {
             "icon-danger": {
               "type": "color",
               "value": "#ef4444",
-              "description": "",
+              "description": "Use for icons communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:56"
               },
@@ -4051,7 +4187,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-500}",
-                "description": "",
+                "description": "Use for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:56"
                 }
@@ -4076,7 +4212,7 @@ module.exports = {
             "icon-danger-hover": {
               "type": "color",
               "value": "#dc2626",
-              "description": "",
+              "description": "The hover color for icons communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:57"
               },
@@ -4085,7 +4221,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-600}",
-                "description": "",
+                "description": "The hover color for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:57"
                 }
@@ -4110,7 +4246,7 @@ module.exports = {
             "icon-danger-active": {
               "type": "color",
               "value": "#f87171",
-              "description": "",
+              "description": "The active state (on press) color for icons communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:58"
               },
@@ -4119,7 +4255,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-400}",
-                "description": "",
+                "description": "The active state (on press) color for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:58"
                 }
@@ -4144,7 +4280,7 @@ module.exports = {
             "icon-danger-disabled": {
               "type": "color",
               "value": "#450a0a",
-              "description": "",
+              "description": "Use for icons communicating critical information in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:160:313"
               },
@@ -4153,7 +4289,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Red.red-950}",
-                "description": "",
+                "description": "Use for icons communicating critical information in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:160:313"
                 }
@@ -4180,7 +4316,7 @@ module.exports = {
             "icon-success": {
               "type": "color",
               "value": "#22c55e",
-              "description": "",
+              "description": "Use for icons communicating success information.",
               "$extensions": {
                 "variableId": "VariableID:75:59"
               },
@@ -4189,7 +4325,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-500}",
-                "description": "",
+                "description": "Use for icons communicating success information.",
                 "$extensions": {
                   "variableId": "VariableID:75:59"
                 }
@@ -4214,7 +4350,7 @@ module.exports = {
             "icon-success-hover": {
               "type": "color",
               "value": "#16a34a",
-              "description": "",
+              "description": "The hover color for icons communicating success information.",
               "$extensions": {
                 "variableId": "VariableID:75:60"
               },
@@ -4223,7 +4359,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-600}",
-                "description": "",
+                "description": "The hover color for icons communicating success information.",
                 "$extensions": {
                   "variableId": "VariableID:75:60"
                 }
@@ -4248,7 +4384,7 @@ module.exports = {
             "icon-success-active": {
               "type": "color",
               "value": "#4ade80",
-              "description": "",
+              "description": "The active state (on press) color for icons communicating success information.",
               "$extensions": {
                 "variableId": "VariableID:75:61"
               },
@@ -4257,7 +4393,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-400}",
-                "description": "",
+                "description": "The active state (on press) color for icons communicating success information.",
                 "$extensions": {
                   "variableId": "VariableID:75:61"
                 }
@@ -4282,7 +4418,7 @@ module.exports = {
             "icon-success-disabled": {
               "type": "color",
               "value": "#052e16",
-              "description": "",
+              "description": "Use for icons communicating success information in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:160:324"
               },
@@ -4291,7 +4427,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Green.green-950}",
-                "description": "",
+                "description": "Use for icons communicating success information in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:160:324"
                 }
@@ -4318,7 +4454,7 @@ module.exports = {
             "icon-warning": {
               "type": "color",
               "value": "#f59e0b",
-              "description": "",
+              "description": "Use for icons communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:62"
               },
@@ -4327,7 +4463,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-500}",
-                "description": "",
+                "description": "Use for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:62"
                 }
@@ -4352,7 +4488,7 @@ module.exports = {
             "icon-warning-hover": {
               "type": "color",
               "value": "#d97706",
-              "description": "",
+              "description": "The hover color for icons communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:63"
               },
@@ -4361,7 +4497,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-600}",
-                "description": "",
+                "description": "The hover color for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:63"
                 }
@@ -4386,7 +4522,7 @@ module.exports = {
             "icon-warning-active": {
               "type": "color",
               "value": "#fbbf24",
-              "description": "",
+              "description": "The active state (on press) color for icons communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:64"
               },
@@ -4395,7 +4531,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-400}",
-                "description": "",
+                "description": "The active state (on press) color for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:64"
                 }
@@ -4420,7 +4556,7 @@ module.exports = {
             "icon-warning-disabled": {
               "type": "color",
               "value": "#451a03",
-              "description": "",
+              "description": "Use for icons communicating warning information in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:160:319"
               },
@@ -4429,7 +4565,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Amber.amber-950}",
-                "description": "",
+                "description": "Use for icons communicating warning information in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:160:319"
                 }
@@ -4456,7 +4592,7 @@ module.exports = {
             "icon-info": {
               "type": "color",
               "value": "#3b82f6",
-              "description": "",
+              "description": "Use for icons communicating information.",
               "$extensions": {
                 "variableId": "VariableID:75:65"
               },
@@ -4465,7 +4601,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-500}",
-                "description": "",
+                "description": "Use for icons communicating information.",
                 "$extensions": {
                   "variableId": "VariableID:75:65"
                 }
@@ -4490,7 +4626,7 @@ module.exports = {
             "icon-info-hover": {
               "type": "color",
               "value": "#2563eb",
-              "description": "",
+              "description": "The hover color for icons communicating information.",
               "$extensions": {
                 "variableId": "VariableID:75:66"
               },
@@ -4499,7 +4635,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-600}",
-                "description": "",
+                "description": "The hover color for icons communicating information.",
                 "$extensions": {
                   "variableId": "VariableID:75:66"
                 }
@@ -4524,7 +4660,7 @@ module.exports = {
             "icon-info-active": {
               "type": "color",
               "value": "#60a5fa",
-              "description": "",
+              "description": "The active state (on press) color for icons communicating information.",
               "$extensions": {
                 "variableId": "VariableID:75:67"
               },
@@ -4533,7 +4669,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-400}",
-                "description": "",
+                "description": "The active state (on press) color for icons communicating information.",
                 "$extensions": {
                   "variableId": "VariableID:75:67"
                 }
@@ -4558,7 +4694,7 @@ module.exports = {
             "icon-info-disabled": {
               "type": "color",
               "value": "#172554",
-              "description": "",
+              "description": "Use for icons communicating information in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:161:329"
               },
@@ -4567,7 +4703,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Blue.blue-950}",
-                "description": "",
+                "description": "Use for icons communicating information in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:161:329"
                 }
@@ -4594,7 +4730,7 @@ module.exports = {
             "icon-discovery": {
               "type": "color",
               "value": "#8b5cf6",
-              "description": "",
+              "description": "Use for icons communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:232:701"
               },
@@ -4603,7 +4739,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-500}",
-                "description": "",
+                "description": "Use for icons communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:232:701"
                 }
@@ -4628,7 +4764,7 @@ module.exports = {
             "icon-discovery-hover": {
               "type": "color",
               "value": "#7c3aed",
-              "description": "",
+              "description": "The hover color for icons communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:232:702"
               },
@@ -4637,7 +4773,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-600}",
-                "description": "",
+                "description": "The hover color for icons communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:232:702"
                 }
@@ -4662,7 +4798,7 @@ module.exports = {
             "icon-discovery-active": {
               "type": "color",
               "value": "#a78bfa",
-              "description": "",
+              "description": "The active state (on press) color for icons communicating discovery information.",
               "$extensions": {
                 "variableId": "VariableID:232:703"
               },
@@ -4671,7 +4807,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-400}",
-                "description": "",
+                "description": "The active state (on press) color for icons communicating discovery information.",
                 "$extensions": {
                   "variableId": "VariableID:232:703"
                 }
@@ -4696,7 +4832,7 @@ module.exports = {
             "icon-discovery-disabled": {
               "type": "color",
               "value": "#2e1065",
-              "description": "",
+              "description": "Use for icons communicating discovery information in a disabled state.",
               "$extensions": {
                 "variableId": "VariableID:232:704"
               },
@@ -4705,7 +4841,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Violet.violet-950}",
-                "description": "",
+                "description": "Use for icons communicating discovery information in a disabled state.",
                 "$extensions": {
                   "variableId": "VariableID:232:704"
                 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 16:06:50 GMT
+ * Generated on Mon, 16 Oct 2023 16:08:27 GMT
  */
 
 :root {
@@ -11,8 +11,8 @@
   --color-bg-interactive: #ffffff;
   --color-bg-container-subtle: #f4f4f5;
   --color-bg-interactive-hover: #f4f4f5;
-  --color-bg-interactive-active: #e4e4e7;
-  --color-bg-interactive-active-hover: #d4d4d8;
+  --color-bg-interactive-selected: #e4e4e7;
+  --color-bg-interactive-selected-hover: #d4d4d8;
   --color-bg-interactive-disabled: #f4f4f5;
   --color-bg-container-disabled: #e4e4e7;
   --color-bg-brand: #2563eb;
@@ -20,11 +20,13 @@
   --color-bg-brand-active: #1d4ed8;
   --color-bg-brand-subtlest: #eff6ff;
   --color-bg-brand-subtle: #dbeafe;
+  --color-bg-brand-selected: #2563eb;
   --color-bg-danger: #dc2626;
   --color-bg-danger-hover: #ef4444;
   --color-bg-danger-active: #b91c1c;
   --color-bg-danger-subtlest: #fee2e2;
   --color-bg-danger-subtle: #fecaca;
+  --color-bg-danger-selected: #dc2626;
   --color-bg-warning: #d97706;
   --color-bg-warning-hover: #f59e0b;
   --color-bg-warning-active: #b45309;
@@ -47,6 +49,8 @@
   --color-bg-discovery-subtle: #ddd6fe;
   --color-border-primary: #e4e4e7;
   --color-border-secondary: #f4f4f5;
+  --color-border-primary-hover: #d4d4d8;
+  --color-border-primary-disabled: #f4f4f5;
   --color-border-brand: #2563eb;
   --color-border-brand-hover: #3b82f6;
   --color-border-brand-subtlest: #bfdbfe;
@@ -152,27 +156,25 @@
   --border-radius: 6px;
   --border-radius-sm: 4px;
   --border-radius-lg: 8px;
-  --border-radius-full: 999px;
+  --border-radius-full: 9999px;
   --border-radius-none: 0px;
-  --space-space-0: 0px;
-  --space-space-025: 1px;
-  --space-space-1: 4px;
-  --space-space-05: 2px;
-  --space-space-2: 8px;
-  --space-space-3: 12px;
-  --space-space-4: 16px;
-  --space-space-5: 20px;
-  --space-space-6: 24px;
-  --space-space-8: 32px;
-  --space-space-10: 40px;
-  --space-space-12: 48px;
-  --space-space-16: 64px;
-  --space-space-20: 80px;
-  --space-space-24: 96px;
-  --space-space-28: 112px;
-  --space-space-32: 128px;
-  --space-space-36: 144px;
-  --space-space-40: 160px;
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-28: 112px;
+  --space-32: 128px;
+  --space-36: 144px;
+  --space-40: 160px;
   --breakpoints-xs: 390px;
   --breakpoints-sm: 490px;
   --breakpoints-md: 768px;

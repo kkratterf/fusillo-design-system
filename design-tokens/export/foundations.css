@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 16:06:50 GMT
+ * Generated on Mon, 16 Oct 2023 16:08:27 GMT
  */
 
 :root {
@@ -215,40 +215,36 @@
   --color-rose-800: #9f1239;
   --color-rose-900: #881337;
   --color-rose-950: #4c0519;
-  --scale-0: 0px;
-  --scale-1: 4px;
-  --scale-2: 8px;
-  --scale-3: 12px;
-  --scale-4: 16px;
-  --scale-5: 20px;
-  --scale-6: 24px;
-  --scale-7: 28px;
-  --scale-8: 32px;
-  --scale-9: 36px;
-  --scale-10: 40px;
-  --scale-11: 44px;
-  --scale-12: 48px;
-  --scale-14: 56px;
-  --scale-16: 64px;
-  --scale-20: 80px;
-  --scale-24: 96px;
-  --scale-28: 112px;
-  --scale-32: 128px;
-  --scale-36: 144px;
-  --scale-40: 160px;
-  --scale-44: 176px;
-  --scale-48: 192px;
-  --scale-52: 208px;
-  --scale-56: 224px;
-  --scale-60: 240px;
-  --scale-64: 256px;
-  --scale-72: 288px;
-  --scale-80: 320px;
-  --scale-96: 384px;
-  --scale-05: 2px;
-  --scale-1-5: 6px;
-  --scale-025: 1px;
-  --scale-full: 999px;
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-14: 56px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-28: 112px;
+  --spacing-32: 128px;
+  --spacing-36: 144px;
+  --spacing-40: 160px;
+  --spacing-44: 176px;
+  --spacing-48: 192px;
+  --spacing-52: 208px;
+  --spacing-56: 224px;
+  --spacing-60: 240px;
+  --spacing-64: 256px;
+  --spacing-72: 288px;
+  --spacing-80: 320px;
+  --spacing-96: 384px;
   --breakpoint-0: 0px;
   --breakpoint-320: 320px;
   --breakpoint-375: 375px;
