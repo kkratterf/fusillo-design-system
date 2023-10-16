@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 16:02:01 GMT
+ * Generated on Mon, 16 Oct 2023 16:12:17 GMT
  */
 
 module.exports = {
@@ -6586,7 +6586,7 @@ module.exports = {
         }
       }
     },
-    "Scale": {
+    "Spacing": {
       "0": {
         "type": "dimension",
         "value": "0px",
@@ -6604,15 +6604,15 @@ module.exports = {
             "variableId": "VariableID:12:348"
           }
         },
-        "name": "FoundationsScale0",
+        "name": "FoundationsSpacing0",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "0"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "0"
         ]
       },
@@ -6633,15 +6633,15 @@ module.exports = {
             "variableId": "VariableID:11:278"
           }
         },
-        "name": "FoundationsScale1",
+        "name": "FoundationsSpacing1",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "1"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "1"
         ]
       },
@@ -6662,15 +6662,15 @@ module.exports = {
             "variableId": "VariableID:11:280"
           }
         },
-        "name": "FoundationsScale2",
+        "name": "FoundationsSpacing2",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "2"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "2"
         ]
       },
@@ -6691,15 +6691,15 @@ module.exports = {
             "variableId": "VariableID:11:282"
           }
         },
-        "name": "FoundationsScale3",
+        "name": "FoundationsSpacing3",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "3"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "3"
         ]
       },
@@ -6720,15 +6720,15 @@ module.exports = {
             "variableId": "VariableID:11:284"
           }
         },
-        "name": "FoundationsScale4",
+        "name": "FoundationsSpacing4",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "4"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "4"
         ]
       },
@@ -6749,15 +6749,15 @@ module.exports = {
             "variableId": "VariableID:11:285"
           }
         },
-        "name": "FoundationsScale5",
+        "name": "FoundationsSpacing5",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "5"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "5"
         ]
       },
@@ -6778,15 +6778,15 @@ module.exports = {
             "variableId": "VariableID:11:286"
           }
         },
-        "name": "FoundationsScale6",
+        "name": "FoundationsSpacing6",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "6"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "6"
         ]
       },
@@ -6807,15 +6807,15 @@ module.exports = {
             "variableId": "VariableID:11:287"
           }
         },
-        "name": "FoundationsScale7",
+        "name": "FoundationsSpacing7",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "7"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "7"
         ]
       },
@@ -6836,15 +6836,15 @@ module.exports = {
             "variableId": "VariableID:11:288"
           }
         },
-        "name": "FoundationsScale8",
+        "name": "FoundationsSpacing8",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "8"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "8"
         ]
       },
@@ -6865,15 +6865,15 @@ module.exports = {
             "variableId": "VariableID:11:289"
           }
         },
-        "name": "FoundationsScale9",
+        "name": "FoundationsSpacing9",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "9"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "9"
         ]
       },
@@ -6894,15 +6894,15 @@ module.exports = {
             "variableId": "VariableID:11:290"
           }
         },
-        "name": "FoundationsScale10",
+        "name": "FoundationsSpacing10",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "10"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "10"
         ]
       },
@@ -6923,15 +6923,15 @@ module.exports = {
             "variableId": "VariableID:11:291"
           }
         },
-        "name": "FoundationsScale11",
+        "name": "FoundationsSpacing11",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "11"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "11"
         ]
       },
@@ -6952,15 +6952,15 @@ module.exports = {
             "variableId": "VariableID:11:292"
           }
         },
-        "name": "FoundationsScale12",
+        "name": "FoundationsSpacing12",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "12"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "12"
         ]
       },
@@ -6981,15 +6981,15 @@ module.exports = {
             "variableId": "VariableID:11:293"
           }
         },
-        "name": "FoundationsScale14",
+        "name": "FoundationsSpacing14",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "14"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "14"
         ]
       },
@@ -7010,15 +7010,15 @@ module.exports = {
             "variableId": "VariableID:11:294"
           }
         },
-        "name": "FoundationsScale16",
+        "name": "FoundationsSpacing16",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "16"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "16"
         ]
       },
@@ -7039,15 +7039,15 @@ module.exports = {
             "variableId": "VariableID:11:295"
           }
         },
-        "name": "FoundationsScale20",
+        "name": "FoundationsSpacing20",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "20"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "20"
         ]
       },
@@ -7068,15 +7068,15 @@ module.exports = {
             "variableId": "VariableID:11:296"
           }
         },
-        "name": "FoundationsScale24",
+        "name": "FoundationsSpacing24",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "24"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "24"
         ]
       },
@@ -7097,15 +7097,15 @@ module.exports = {
             "variableId": "VariableID:11:297"
           }
         },
-        "name": "FoundationsScale28",
+        "name": "FoundationsSpacing28",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "28"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "28"
         ]
       },
@@ -7126,15 +7126,15 @@ module.exports = {
             "variableId": "VariableID:11:298"
           }
         },
-        "name": "FoundationsScale32",
+        "name": "FoundationsSpacing32",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "32"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "32"
         ]
       },
@@ -7155,15 +7155,15 @@ module.exports = {
             "variableId": "VariableID:11:299"
           }
         },
-        "name": "FoundationsScale36",
+        "name": "FoundationsSpacing36",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "36"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "36"
         ]
       },
@@ -7184,15 +7184,15 @@ module.exports = {
             "variableId": "VariableID:11:300"
           }
         },
-        "name": "FoundationsScale40",
+        "name": "FoundationsSpacing40",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "40"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "40"
         ]
       },
@@ -7213,15 +7213,15 @@ module.exports = {
             "variableId": "VariableID:11:301"
           }
         },
-        "name": "FoundationsScale44",
+        "name": "FoundationsSpacing44",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "44"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "44"
         ]
       },
@@ -7242,15 +7242,15 @@ module.exports = {
             "variableId": "VariableID:12:305"
           }
         },
-        "name": "FoundationsScale48",
+        "name": "FoundationsSpacing48",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "48"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "48"
         ]
       },
@@ -7271,15 +7271,15 @@ module.exports = {
             "variableId": "VariableID:12:306"
           }
         },
-        "name": "FoundationsScale52",
+        "name": "FoundationsSpacing52",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "52"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "52"
         ]
       },
@@ -7300,15 +7300,15 @@ module.exports = {
             "variableId": "VariableID:12:307"
           }
         },
-        "name": "FoundationsScale56",
+        "name": "FoundationsSpacing56",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "56"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "56"
         ]
       },
@@ -7329,15 +7329,15 @@ module.exports = {
             "variableId": "VariableID:12:308"
           }
         },
-        "name": "FoundationsScale60",
+        "name": "FoundationsSpacing60",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "60"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "60"
         ]
       },
@@ -7358,15 +7358,15 @@ module.exports = {
             "variableId": "VariableID:12:309"
           }
         },
-        "name": "FoundationsScale64",
+        "name": "FoundationsSpacing64",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "64"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "64"
         ]
       },
@@ -7387,15 +7387,15 @@ module.exports = {
             "variableId": "VariableID:12:310"
           }
         },
-        "name": "FoundationsScale72",
+        "name": "FoundationsSpacing72",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "72"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "72"
         ]
       },
@@ -7416,15 +7416,15 @@ module.exports = {
             "variableId": "VariableID:12:311"
           }
         },
-        "name": "FoundationsScale80",
+        "name": "FoundationsSpacing80",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "80"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "80"
         ]
       },
@@ -7445,132 +7445,16 @@ module.exports = {
             "variableId": "VariableID:12:312"
           }
         },
-        "name": "FoundationsScale96",
+        "name": "FoundationsSpacing96",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
+          "type": "Spacing",
           "item": "96"
         },
         "path": [
           "Foundations",
-          "Scale",
+          "Spacing",
           "96"
-        ]
-      },
-      "05": {
-        "type": "dimension",
-        "value": "2px",
-        "description": "0.125rem | 2px",
-        "$extensions": {
-          "variableId": "VariableID:11:272"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "2px",
-          "description": "0.125rem | 2px",
-          "$extensions": {
-            "variableId": "VariableID:11:272"
-          }
-        },
-        "name": "FoundationsScale05",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "05"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "05"
-        ]
-      },
-      "1,5": {
-        "type": "dimension",
-        "value": "6px",
-        "description": "0.375rem | 6px",
-        "$extensions": {
-          "variableId": "VariableID:11:279"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "6px",
-          "description": "0.375rem | 6px",
-          "$extensions": {
-            "variableId": "VariableID:11:279"
-          }
-        },
-        "name": "FoundationsScale15",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "1,5"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "1,5"
-        ]
-      },
-      "025": {
-        "type": "dimension",
-        "value": "1px",
-        "description": "1px | 1px",
-        "$extensions": {
-          "variableId": "VariableID:83:60"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "1px",
-          "description": "1px | 1px",
-          "$extensions": {
-            "variableId": "VariableID:83:60"
-          }
-        },
-        "name": "FoundationsScale025",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "025"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "025"
-        ]
-      },
-      "full": {
-        "type": "dimension",
-        "value": "999px",
-        "description": "999px",
-        "$extensions": {
-          "variableId": "VariableID:229:672"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "999px",
-          "description": "999px",
-          "$extensions": {
-            "variableId": "VariableID:229:672"
-          }
-        },
-        "name": "FoundationsScaleFull",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "full"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "full"
         ]
       }
     },
