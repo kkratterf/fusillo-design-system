@@ -6,7 +6,21 @@ const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 const styleFoundations = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css: {
+    css_design_system: {
+      transformGroup: 'css',
+      buildPath: '../design-system/style/',
+      files: [
+        {
+          destination: 'foundations.css',
+          filter: 'foundationsFilter',
+          format: 'foundationsFormat',
+          //         options: {
+          //            outputReferences: true,
+          //          },
+        },
+      ],
+    },
+    css_export: {
       transformGroup: 'css',
       buildPath: 'export/',
       files: [
@@ -99,7 +113,18 @@ styleFoundationsJs.buildAllPlatforms();
 const styleTokensLight = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css: {
+    css_design_system: {
+      transformGroup: 'css',
+      buildPath: '../design-system/style/',
+      files: [
+        {
+          destination: 'tokens-light.css',
+          filter: 'tokensLightFilter',
+          format: 'tokensLightFormat',
+        },
+      ],
+    },
+    css_export: {
       transformGroup: 'css',
       buildPath: 'export/',
       files: [
@@ -210,7 +235,18 @@ styleTokensLightJs.buildAllPlatforms();
 const styleTokensDark = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css: {
+    css_design_system: {
+      transformGroup: 'css',
+      buildPath: '../design-system/style/',
+      files: [
+        {
+          destination: 'tokens-dark.css',
+          filter: 'tokensDarkFilter',
+          format: 'tokensDarkFormat',
+        },
+      ],
+    },
+    css_export: {
       transformGroup: 'css',
       buildPath: 'export/',
       files: [
@@ -236,7 +272,7 @@ styleTokensDark.registerFormat({
 
     const formattedTokens = `${fileHeader({
       file,
-    })}:root {\n${formattedVariables({
+    })}.dark {\n${formattedVariables({
       format: 'css',
       dictionary,
       outputReferences,
