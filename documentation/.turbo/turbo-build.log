@@ -6,36 +6,66 @@
    Creating an optimized production build...
  ✓ Compiled successfully
    Collecting page data...
-   Generating static pages (0/12)...
-   Generating static pages (3/12)
+   Generating static pages (0/43)...
+   Generating static pages (10/43)
 
-   Generating static pages (6/12)
+   Generating static pages (21/43)
 
-   Generating static pages (9/12)
+   Generating static pages (32/43)
 
- ✓ Generating static pages (12/12)
+ ✓ Generating static pages (43/43)
    Finalizing page optimization...
 
-Route (pages)                              Size     First Load JS
-┌ ○ /                                      820 B           190 kB
-├   /_app                                  0 B             185 kB
-├ ○ /404                                   181 B           185 kB
-├ ○ /about                                 816 B           190 kB
-├ ○ /advanced (657 ms)                     814 B           190 kB
-├ ○ /advanced/satori                       860 B           190 kB
-├ ○ /another                               1.29 kB         190 kB
-├   └ css/a0786626dbb3c2b6.css             103 B
-├ ○ /brand (656 ms)                        533 B           189 kB
-├ ○ /components                            533 B           189 kB
-├ ○ /components/button                     572 B           189 kB
-├ ○ /foundations (662 ms)                  538 B           189 kB
-└ ○ /tokens                                471 B           189 kB
-+ First Load JS shared by all              201 kB
-  ├ chunks/framework-66d32731bdd20e83.js   45.2 kB
-  ├ chunks/main-25ea56493abba4b5.js        36.2 kB
-  ├ chunks/pages/_app-f013d7a4f48ef145.js  103 kB
-  ├ chunks/webpack-6efcf3b4cfe438c7.js     1.03 kB
-  └ css/1d17410100e2985b.css               16 kB
+Route (pages)                                  Size     First Load JS
+┌ ○ /                                          628 B           193 kB
+├   /_app                                      0 B             188 kB
+├ ○ /404                                       181 B           188 kB
+├ ○ /documentation/brand                       778 B           193 kB
+├ ○ /documentation/brand/mission               575 B           193 kB
+├ ○ /documentation/brand/values                639 B           193 kB
+├ ○ /documentation/brand/vision                575 B           193 kB
+├ ○ /documentation/components                  884 B           193 kB
+├ ○ /documentation/components/accordion        564 B           193 kB
+├ ○ /documentation/components/alert            559 B           193 kB
+├ ○ /documentation/components/alert-dialog     572 B           193 kB
+├ ○ /documentation/components/aspect-ratio     572 B           193 kB
+├ ○ /documentation/components/avatar           563 B           193 kB
+├ ○ /documentation/components/badge            560 B           193 kB
+├ ○ /documentation/components/button           579 B           193 kB
+├ ○ /documentation/components/calendar         564 B           193 kB
+├ ○ /documentation/components/card             560 B           193 kB
+├ ○ /documentation/components/checkbox         563 B           193 kB
+├ ○ /documentation/components/collapsible      565 B           193 kB
+├ ○ /documentation/components/combobox         564 B           193 kB
+├ ○ /documentation/components/command          561 B           193 kB
+├ ○ /documentation/components/context-menu     568 B           193 kB
+├ ○ /documentation/content                     732 B           193 kB
+├ ○ /documentation/content/inclusive-language  642 B           193 kB
+├ ○ /documentation/foundations                 790 B           193 kB
+├ ○ /documentation/foundations/accessibility   625 B           193 kB
+├ ○ /documentation/foundations/color           1.42 kB         201 kB
+├ ○ /documentation/foundations/iconography     629 B           193 kB
+├ ○ /documentation/foundations/scale           1.12 kB         201 kB
+├ ○ /documentation/foundations/typography      644 B           193 kB
+├ ○ /documentation/get-started                 742 B           193 kB
+├ ○ /documentation/get-started/content         606 B           193 kB
+├ ○ /documentation/get-started/design          591 B           193 kB
+├ ○ /documentation/get-started/develop         612 B           193 kB
+├ ○ /documentation/resources                   655 B           193 kB
+├ ○ /documentation/resources/fonts             606 B           193 kB
+├ ○ /documentation/tokens                      712 B           193 kB
+├ ○ /documentation/tokens/border               556 B           193 kB
+├ ○ /documentation/tokens/breakpoints          561 B           193 kB
+├ ○ /documentation/tokens/color                10.4 kB         202 kB
+├ ○ /documentation/tokens/size                 555 B           193 kB
+├ ○ /documentation/tokens/space                553 B           193 kB
+└ ○ /documentation/welcome                     1.99 kB         194 kB
++ First Load JS shared by all                  203 kB
+  ├ chunks/framework-66d32731bdd20e83.js       45.2 kB
+  ├ chunks/main-25ea56493abba4b5.js            36.2 kB
+  ├ chunks/pages/_app-7c67cbcc1a64de29.js      106 kB
+  ├ chunks/webpack-6efcf3b4cfe438c7.js         1.03 kB
+  └ css/b18b0b7871a8e9ee.css                   15.1 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 

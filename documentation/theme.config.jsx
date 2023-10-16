@@ -19,4 +19,7 @@ export default {
   feedback: {
     content: null,
   },
+  search: {
+    loading: 'Loading...',
+  },
 };

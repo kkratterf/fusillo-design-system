@@ -23,9 +23,8 @@
         "title": "About",
         "href": "/about"
       },
-      "contact": {
-        "title": "Contact ↗",
-        "type": "page",
+      "linkedin": {
+        "title": "Linkedin ↗",
         "href": "https://twitter.com/shuding_",
         "newWindow": true
       }

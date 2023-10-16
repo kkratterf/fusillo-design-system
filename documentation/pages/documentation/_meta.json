@@ -1,16 +1,10 @@
 {
   "welcome": "Welcome",
-  "-": {
-    "type": "separator"
-  },
   "get-started": "Get started",
   "brand": "Brand",
   "foundations": "Foundations",
   "tokens": "Tokens",
   "components": "Components",
   "content": "Content",
-  "--": {
-    "type": "separator"
-  },
   "resources": "Resources"
 }
