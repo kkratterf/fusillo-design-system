@@ -1,7 +1,10 @@
+'use client'
+
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
-import './button.css'
+import { useTheme } from '../theme';
+import './button.css';
 
 import { cn } from "../../lib/utils"
 
@@ -10,7 +13,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: 'button-default',
+        default: 'otherprova',
         danger:
           'bg-destructive text-destructive-foreground hover:bg-destructive/90',
         outline:
@@ -26,10 +29,15 @@ const buttonVariants = cva(
         lg: 'h-11 rounded-md px-8',
         icon: 'h-10 w-10',
       },
+      theme: {
+        light: '',
+        dark: 'dark',
+      },
     },
     defaultVariants: {
       variant: 'default',
       size: 'default',
+      theme: 'light',
     },
   }
 );
@@ -48,10 +56,13 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ) => {
     const Comp = asChild ? Slot : 'button';
     const buttonContent = title || props.children;
+    const theme = useTheme() || 'light';
 
     return (
       <Comp
-        className={cn(buttonVariants({ variant, size, className }))}
+        className={cn(
+          buttonVariants({ variant, size , className, theme })
+        )}
         ref={ref}
         {...props}
       >

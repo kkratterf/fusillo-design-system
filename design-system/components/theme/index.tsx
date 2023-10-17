@@ -12,7 +12,7 @@ type Theme = 'light' | 'dark';
 
 const ThemeContext = createContext<Theme | undefined>(undefined);
 
-export const ThemeProvider: React.FC<{
+export const Theme: React.FC<{
   theme?: Theme;
   children: ReactNode;
 }> = ({ theme, children }) => {
@@ -35,12 +35,12 @@ export const ThemeProvider: React.FC<{
 
   return (
     <ThemeContext.Provider value={currentTheme}>
-      <div className={currentTheme === 'dark' ? 'dark' : ''}>{children}</div>
+      {children}
     </ThemeContext.Provider>
   );
 };
 
-export const useTheme = () => {
+export const useTheme = (): Theme => {
   const theme = useContext(ThemeContext);
   if (!theme) {
     throw new Error('useTheme must be used within a ThemeProvider');

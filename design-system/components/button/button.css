@@ -1,3 +1,6 @@
+@import '../../style/tokens-light.css';
+@import '../../style/tokens-dark.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +10,21 @@
 
   .button-default {
     @apply bg-primary text-primary-foreground hover:bg-primary/90;
+  }
+
+  .prova {
+    background-color: var(--color-bg-brand);
+    color: var(--color-text-brand-inverse)
+  }
+
+  .otherprova {
+    background-color: var(--color-bg-brand);
+    color: var(--color-text-brand-inverse)
+  }
+
+  .otherprova:hover {
+    background-color: var(--color-bg-brand-hover);
+    color: var(--color-text-brand-inverse)
   }
 
 }
