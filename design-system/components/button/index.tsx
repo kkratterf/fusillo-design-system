@@ -13,7 +13,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: 'otherprova',
+        default: 'button-default',
         danger:
           'bg-destructive text-destructive-foreground hover:bg-destructive/90',
         outline:
@@ -51,7 +51,7 @@ export interface ButtonProps
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
-    { className, variant, size, asChild = false, title = 'Button', ...props },
+    { className, variant, size, asChild = false, title, ...props },
     ref
   ) => {
     const Comp = asChild ? Slot : 'button';

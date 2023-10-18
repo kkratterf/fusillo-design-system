@@ -1,3 +1,92 @@
-# ❖ Accordion
+import { Tabs, Steps } from 'nextra/components';
 
-Lorem ipsum dolor sit amet
+# 💠 Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <iframe
+  src="https://65105469f35fe6b822a88ef1-myezeavehy.chromatic.com/?path=/story/design-system-components-button--default&viewMode=story&shortcuts=false&singleStory=true"
+  width="100%"
+  height="600"
+></iframe>
+<iframe
+  src="https://65105469f35fe6b822a88ef1-myezeavehy.chromatic.com/iframe.html?id=design-system-components-button--default&viewMode=story&shortcuts=false&singleStory=true"
+  width="100%"
+  height="600"
+></iframe>
+<iframe
+  src="https://65105469f35fe6b822a88ef1-myezeavehy.chromatic.com/iframe.html?id=design-system-components-button--default&viewMode=story&shortcuts=false&singleStory=true"
+  width="800"
+  height="200"
+></iframe>
+<iframe
+  src="https://5ccbc373887ca40020446347-wtuhidckxo.chromatic.com/iframe.html?id=shadowboxcta--default&viewMode=story&shortcuts=false&singleStory=true"
+  width="800"
+  height="200"
+></iframe>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
+ 
+    export function AccordionDemo() {
+     return (
+        <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It comes with default styles that matches the other
+            components&apos; aesthetic.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It&apos;s animated by default, but you can disable it if you
+            prefer.
+            </AccordionContent>
+        </AccordionItem>
+        </Accordion>
+     )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Usage
+
+<Steps>
+
+### Import utilities
+
+```js copy 
+import { 
+Accordion, 
+AccordionContent,
+AccordionItem,
+AccordionTrigger 
+} from "@/components/accordion"
+```
+
+### Import components items
+
+```js copy 
+<Accordion type="single" collapsible className="w-full">
+  <AccordionItem value="item-1">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+```
+
+</Steps>

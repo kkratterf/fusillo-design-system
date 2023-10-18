@@ -12,19 +12,4 @@
     @apply bg-primary text-primary-foreground hover:bg-primary/90;
   }
 
-  .prova {
-    background-color: var(--color-bg-brand);
-    color: var(--color-text-brand-inverse)
-  }
-
-  .otherprova {
-    background-color: var(--color-bg-brand);
-    color: var(--color-text)
-  }
-
-  .otherprova:hover {
-    background-color: var(--color-bg-brand-hover);
-    color: var(--color-text)
-  }
-
 }
