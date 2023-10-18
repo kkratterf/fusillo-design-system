@@ -42,8 +42,10 @@ export const Theme: React.FC<{
 
 export const useTheme = (): Theme => {
   const theme = useContext(ThemeContext);
+
   if (!theme) {
-    throw new Error('useTheme must be used within a ThemeProvider');
+    return 'light'; // Imposta il tema su 'light' come valore predefinito
   }
+  
   return theme;
 };

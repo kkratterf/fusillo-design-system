@@ -56,13 +56,12 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ) => {
     const Comp = asChild ? Slot : 'button';
     const buttonContent = title || props.children;
-    const theme = useTheme() || 'light';
+    const themeContext = useTheme();
+    const theme = themeContext || 'light'; // Use 'light' if ThemeProvider is not present
 
     return (
       <Comp
-        className={cn(
-          buttonVariants({ variant, size , className, theme })
-        )}
+        className={cn(buttonVariants({ variant, size, className, theme }))}
         ref={ref}
         {...props}
       >

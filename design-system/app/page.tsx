@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="space-y-4 z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <div className="space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
         <Theme theme="dark">
           <Button>Cambia Tema</Button>
         </Theme>
@@ -16,6 +16,7 @@ export default function Home() {
         <Theme>
           <Button>Prova</Button>
         </Theme>
+        <Button>Prova</Button>
         <IconAccessibility color="brand" size="xl" />
         <IconMail color="danger" size="sm" />
         <IconMailCheck color="warning" size="xs" />
