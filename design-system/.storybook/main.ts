@@ -22,7 +22,7 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-mdx-gfm'),
     getAbsolutePath('@storybook/addon-a11y'),
     getAbsolutePath('@storybook/addon-designs'),
-    getAbsolutePath('@storybook-tailwind-dark-mode'),
+    getAbsolutePath('storybook-tailwind-dark-mode'),
   ],
   framework: {
     name: getAbsolutePath('@storybook/nextjs'),
