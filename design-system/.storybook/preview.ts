@@ -1,10 +1,18 @@
 import type { Preview } from "@storybook/react";
 import '../style/global.css';
 
-
 const preview: Preview = {
+  globalTypes: {
+    darkMode: {
+      defaultValue: true, // Enable dark mode by default on all stories
+    },
+    // Optional (Default: 'dark')
+    className: {
+      defaultValue: 'dark', // Set your custom dark mode class name
+    },
+  },
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
         color: /(background|color)$/i,

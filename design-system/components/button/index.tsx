@@ -72,4 +72,12 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 );
 Button.displayName = "Button"
 
+export const Accessible = () => <Button>Accessible button</Button>;
+
+export const Inaccessible = () => (
+  <Button style={{ backgroundColor: 'red', color: 'darkRed' }}>
+    Inaccessible button
+  </Button>
+);
+
 export { Button, buttonVariants }

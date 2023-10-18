@@ -12,7 +12,7 @@ type Theme = 'light' | 'dark';
 
 const ThemeContext = createContext<Theme | undefined>(undefined);
 
-export const Theme: React.FC<{
+export const ThemeProvider: React.FC<{
   theme?: Theme;
   children: ReactNode;
 }> = ({ theme, children }) => {
