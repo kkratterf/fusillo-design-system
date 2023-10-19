@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Oct 2023 21:27:03 GMT
+ * Generated on Thu, 19 Oct 2023 10:44:08 GMT
  */
 
 module.exports = {
-  "ConfigName": "Fusillo Design System",
+  "ConfigName": "Wow",
   "ConfigVersion": "1.0.1",
   "ConfigBrand": "Al dente"
 };
