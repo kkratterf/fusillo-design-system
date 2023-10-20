@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 16:34:40 GMT
+ * Generated on Fri, 20 Oct 2023 16:49:41 GMT
  */
 
 module.exports = {
@@ -421,7 +421,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#84cc16",
+              "value": "#3b82f6",
               "description": "The hover state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -1661,7 +1661,7 @@ module.exports = {
             },
             "border-brand-hover": {
               "type": "color",
-              "value": "#84cc16",
+              "value": "#3b82f6",
               "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -2901,7 +2901,7 @@ module.exports = {
             },
             "text-brand-hover": {
               "type": "color",
-              "value": "#84cc16",
+              "value": "#3b82f6",
               "description": "The hover state color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:35"
@@ -4073,7 +4073,7 @@ module.exports = {
             },
             "icon-brand-hover": {
               "type": "color",
-              "value": "#84cc16",
+              "value": "#3b82f6",
               "description": "The hover color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:54"
