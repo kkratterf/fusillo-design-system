@@ -1,9 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Fri, 20 Oct 2023 16:49:41 GMT
+ * Generated on Sat, 21 Oct 2023 14:03:41 GMT
  */
 
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
   --color-brand-50: #eff6ff;
   --color-brand-100: #dbeafe;
   --color-brand-200: #bfdbfe;
@@ -215,47 +220,5 @@
   --color-rose-800: #9f1239;
   --color-rose-900: #881337;
   --color-rose-950: #4c0519;
-  --spacing-0: 0px;
-  --spacing-1: 4px;
-  --spacing-2: 8px;
-  --spacing-3: 12px;
-  --spacing-4: 16px;
-  --spacing-5: 20px;
-  --spacing-6: 24px;
-  --spacing-7: 28px;
-  --spacing-8: 32px;
-  --spacing-9: 36px;
-  --spacing-10: 40px;
-  --spacing-11: 44px;
-  --spacing-12: 48px;
-  --spacing-14: 56px;
-  --spacing-16: 64px;
-  --spacing-20: 80px;
-  --spacing-24: 96px;
-  --spacing-28: 112px;
-  --spacing-32: 128px;
-  --spacing-36: 144px;
-  --spacing-40: 160px;
-  --spacing-44: 176px;
-  --spacing-48: 192px;
-  --spacing-52: 208px;
-  --spacing-56: 224px;
-  --spacing-60: 240px;
-  --spacing-64: 256px;
-  --spacing-72: 288px;
-  --spacing-80: 320px;
-  --spacing-96: 384px;
-  --breakpoint-0: 0px;
-  --breakpoint-320: 320px;
-  --breakpoint-375: 375px;
-  --breakpoint-390: 390px;
-  --breakpoint-490: 490px;
-  --breakpoint-640: 640px;
-  --breakpoint-768: 768px;
-  --breakpoint-1024: 1024px;
-  --breakpoint-1280: 1280px;
-  --breakpoint-1440: 1440px;
-  --breakpoint-1536: 1536px;
-  --breakpoint-1680: 1680px;
-  --breakpoint-1920: 1920px;
+  }
 }

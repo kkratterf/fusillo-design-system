@@ -18,6 +18,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
         <ThemeProvider theme="dark">
+          <div className="rounded-radius-sm h-sm w-sm bg-brand-200"></div>
+          <div className="rounded-radius-full bg-color-bg-brand-subtle">
+            <p className="text-color-text-discovery text-5xl font-bold">
+              Label
+            </p>
+          </div>
           <Button title="Diocan" />
           <Alert>
             <IconAccessibility color="brand" size="xl" />
@@ -47,9 +53,8 @@ export default function Home() {
         <ThemeProvider>
           <Button title="Diocan" />
         </ThemeProvider>
-        <Button asChild={true}>
-          <Link href="/login">Diocan</Link>
-        </Button>
+        <Button title="Prova" />
+        <Button title="Prova bis?" />
         <Alert>
           <IconAccessibility color="brand" size="xl" />
           <AlertTitle>Heads up!</AlertTitle>

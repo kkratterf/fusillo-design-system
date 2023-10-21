@@ -6,9 +6,23 @@ const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 const styleFoundations = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css_design_system: {
+    css_design_system_style: {
       transformGroup: 'css',
       buildPath: '../design-system/style/',
+      files: [
+        {
+          destination: 'foundations.css',
+          filter: 'foundationsFilter',
+          format: 'foundationsDesignSystemStyleFormat',
+          //         options: {
+          //            outputReferences: true,
+          //          },
+        },
+      ],
+    },
+    css_design_foundations: {
+      transformGroup: 'css',
+      buildPath: '../design-system/foundations/',
       files: [
         {
           destination: 'foundations.css',
@@ -39,7 +53,10 @@ const styleFoundations = StyleDictionary.extend({
 styleFoundations.registerFilter({
   name: 'foundationsFilter',
   matcher: function (token) {
-    return token.path.includes('Foundations');
+    return (
+      token.path.includes('Foundations') &&
+      token.path.includes('Color')
+    );
   },
 });
 styleFoundations.registerFormat({
@@ -75,12 +92,56 @@ styleFoundations.registerFormat({
       .replace(/purple-purple/g, 'purple')
       .replace(/fuchsia-fuchsia/g, 'fuchsia')
       .replace(/pink-pink/g, 'pink')
-      .replace(/rose-rose/g, 'rose');
+      .replace(/rose-rose/g, 'rose')
+
+    return modifiedTokens;
+  },
+});
+styleFoundations.registerFormat({
+  name: 'foundationsDesignSystemStyleFormat',
+  formatter: function ({ dictionary, file, options }) {
+    const { outputReferences } = options;
+
+    const formattedTokens = `${fileHeader({
+      file,
+    })}@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n  :root {\n${formattedVariables(
+      {
+        format: 'css',
+        dictionary,
+        outputReferences,
+      }
+    )}\n  }\n}`;
+
+    const modifiedTokens = formattedTokens
+      .replace(/foundations-/g, '')
+      .replace(/brand-brand/g, 'brand')
+      .replace(/neutral-neutral/g, 'neutral')
+      .replace(/red-red/g, 'red')
+      .replace(/orange-orange/g, 'orange')
+      .replace(/amber-amber/g, 'amber')
+      .replace(/yellow-yellow/g, 'yellow')
+      .replace(/lime-lime/g, 'lime')
+      .replace(/green-green/g, 'green')
+      .replace(/emerald-emerald/g, 'emerald')
+      .replace(/teal-teal/g, 'teal')
+      .replace(/cyan-cyan/g, 'cyan')
+      .replace(/sky-sky/g, 'sky')
+      .replace(/blue-blue/g, 'blue')
+      .replace(/indigo-indigo/g, 'indigo')
+      .replace(/violet-violet/g, 'violet')
+      .replace(/purple-purple/g, 'purple')
+      .replace(/fuchsia-fuchsia/g, 'fuchsia')
+      .replace(/pink-pink/g, 'pink')
+      .replace(/rose-rose/g, 'rose')
 
     return modifiedTokens;
   },
 });
 styleFoundations.buildAllPlatforms();
+
+
+
+
 
 // FOUNDATIONS JS
 
@@ -108,9 +169,13 @@ styleFoundationsJs.registerFilter({
 });
 styleFoundationsJs.buildAllPlatforms();
 
-// TOKENS LIGHT CSS
 
-const styleTokensLight = StyleDictionary.extend({
+
+
+
+// TOKENS ALL
+
+const styleTokens = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
     css_design_system: {
@@ -118,9 +183,20 @@ const styleTokensLight = StyleDictionary.extend({
       buildPath: '../design-system/style/',
       files: [
         {
-          destination: 'tokens-light.css',
-          filter: 'tokensLightFilter',
-          format: 'tokensLightFormat',
+          destination: 'tokens.css',
+          filter: 'tokensFilter',
+          format: 'tokensTailwindFormat',
+        },
+      ],
+    },
+    css_tokens: {
+      transformGroup: 'css',
+      buildPath: '../design-system/tokens/',
+      files: [
+        {
+          destination: 'tokens.css',
+          filter: 'tokensFilter',
+          format: 'tokensCssFormat',
         },
       ],
     },
@@ -129,35 +205,120 @@ const styleTokensLight = StyleDictionary.extend({
       buildPath: 'export/',
       files: [
         {
-          destination: 'tokens-light.css',
-          filter: 'tokensLightFilter',
-          format: 'tokensLightFormat',
+          destination: 'tokens.css',
+          filter: 'tokensFilter',
+          format: 'tokensCssFormat',
         },
       ],
     },
   },
 });
-styleTokensLight.registerFilter({
-  name: 'tokensLightFilter',
+styleTokens.registerFilter({
+  name: 'tokensFilter',
   matcher: function (token) {
-    return token.path.includes('Tokens') && token.path.includes('Light');
+    return token.path.includes('Tokens');
   },
 });
-styleTokensLight.registerFormat({
-  name: 'tokensLightFormat',
+styleTokens.registerFormat({
+  name: 'tokensTailwindFormat',
   formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
 
-    const formattedTokens = `${fileHeader({
-      file,
-    })}:root {\n${formattedVariables({
+    // Ottenere tutte le variabili formattate
+    const formattedTokens = formattedVariables({
       format: 'css',
       dictionary,
       outputReferences,
-    })}\n}`;
+    });
 
-    const modifiedTokens = formattedTokens
-      .replace(/tokens-|light-/g, '')
+    // Estrarre i token "light" e "dark" in base al nome
+    const lightTokens = formattedTokens
+      .split('\n')
+      .filter((line) => line.includes('light'))
+      .map((line) => line.replace(/tokens-|light-/g, '')) // Rimuovi prefisso
+      .join('\n');
+
+    const darkTokens = formattedTokens
+      .split('\n')
+      .filter((line) => line.includes('dark'))
+      .map((line) => line.replace(/tokens-|dark-/g, '')) // Rimuovi prefisso
+      .join('\n');
+
+    // Componi il risultato
+    const result = `${fileHeader({
+      file,
+    })}@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n\n  :root {\n${lightTokens}\n  } \n\n .dark {\n${darkTokens}\n  }\n\n}`;
+
+    const modifiedTokens = result
+      .replace(/tokens-|light-|dark-/g, '')
+      .replace(/background-neutral-/g, '')
+      .replace(/background-brand-/g, '')
+      .replace(/background-danger-/g, '')
+      .replace(/background-warning-/g, '')
+      .replace(/background-success-/g, '')
+      .replace(/background-info-/g, '')
+      .replace(/background-discovery-/g, '')
+      .replace(/border-neutral-/g, '')
+      .replace(/-border-brand-border-brand/g, '-border-brand')
+      .replace(/-border-danger-border-danger/g, '-border-danger')
+      .replace(/-border-warning-border-warning/g, '-border-warning')
+      .replace(/-border-success-border-success/g, '-border-success')
+      .replace(/-border-info-border-info/g, '-border-info')
+      .replace(/-border-discovery-border-discovery/g, '-border-discovery')
+      .replace(/text-neutral-/g, '')
+      .replace(/-text-brand-text-brand/g, '-text-brand')
+      .replace(/-text-danger-text-danger/g, '-text-danger')
+      .replace(/-text-warning-text-warning/g, '-text-warning')
+      .replace(/-text-success-text-success/g, '-text-success')
+      .replace(/-text-info-text-info/g, '-text-info')
+      .replace(/-text-discovery-text-discovery/g, '-text-discovery')
+      .replace(/-icon-neutral-icon/g, '-icon')
+      .replace(/-icon-brand-icon-brand/g, '-icon-brand')
+      .replace(/-icon-danger-icon-danger/g, '-icon-danger')
+      .replace(/-icon-warning-icon-warning/g, '-icon-warning')
+      .replace(/-icon-success-icon-success/g, '-icon-success')
+      .replace(/-icon-info-icon-info/g, '-icon-info')
+      .replace(/-icon-discovery-icon-discovery/g, '-icon-discovery')
+      .replace(/width-width/g, 'width')
+      .replace(/height-height/g, 'height')
+      .replace(/spacing-space/g, 'space')
+      .replace(/breakpoints-breakpoints/g, 'breakpoints')
+
+    return modifiedTokens;
+  },
+});
+styleTokens.registerFormat({
+  name: 'tokensCssFormat',
+  formatter: function ({ dictionary, file, options }) {
+    const { outputReferences } = options;
+
+    // Ottenere tutte le variabili formattate
+    const formattedTokens = formattedVariables({
+      format: 'css',
+      dictionary,
+      outputReferences,
+    });
+
+    // Estrarre i token "light" e "dark" in base al nome
+    const lightTokens = formattedTokens
+      .split('\n')
+      .filter((line) => line.includes('light'))
+      .map((line) => line.replace(/tokens-|light-/g, '')) // Rimuovi prefisso
+      .join('\n');
+
+    const darkTokens = formattedTokens
+      .split('\n')
+      .filter((line) => line.includes('dark'))
+      .map((line) => line.replace(/tokens-|dark-/g, '')) // Rimuovi prefisso
+      .join('\n');
+
+    // Componi il risultato
+    const result = `${fileHeader({
+      file,
+    })}:root {\n${lightTokens}\n  } \n\n .dark {\n${darkTokens}\n  }`;
+
+    const modifiedTokens = result
+      .replace(/tokens-|light-|dark-/g, '')
       .replace(/background-neutral-/g, '')
       .replace(/background-brand-/g, '')
       .replace(/background-danger-/g, '')
@@ -194,7 +355,11 @@ styleTokensLight.registerFormat({
     return modifiedTokens;
   },
 });
-styleTokensLight.buildAllPlatforms();
+styleTokens.buildAllPlatforms();
+
+
+
+
 
 // TOKENS LIGHT JS
 
@@ -226,97 +391,6 @@ styleTokensLightJs.registerFilter({
 });
 styleTokensLightJs.buildAllPlatforms();
 
-
-
-
-
-// TOKENS DARK
-
-const styleTokensDark = StyleDictionary.extend({
-  source: ['tokens/**/*.json'],
-  platforms: {
-    css_design_system: {
-      transformGroup: 'css',
-      buildPath: '../design-system/style/',
-      files: [
-        {
-          destination: 'tokens-dark.css',
-          filter: 'tokensDarkFilter',
-          format: 'tokensDarkFormat',
-        },
-      ],
-    },
-    css_export: {
-      transformGroup: 'css',
-      buildPath: 'export/',
-      files: [
-        {
-          destination: 'tokens-dark.css',
-          filter: 'tokensDarkFilter',
-          format: 'tokensDarkFormat',
-        },
-      ],
-    },
-  },
-});
-styleTokensDark.registerFilter({
-  name: 'tokensDarkFilter',
-  matcher: function (token) {
-    return token.path.includes('Tokens') && token.path.includes('Dark');
-  },
-});
-styleTokensDark.registerFormat({
-  name: 'tokensDarkFormat',
-  formatter: function ({ dictionary, file, options }) {
-    const { outputReferences } = options;
-
-    const formattedTokens = `${fileHeader({
-      file,
-    })}.dark {\n${formattedVariables({
-      format: 'css',
-      dictionary,
-      outputReferences,
-    })}\n}`;
-
-    const modifiedTokens = formattedTokens
-      .replace(/tokens-|dark-/g, '')
-      .replace(/background-neutral-/g, '')
-      .replace(/background-brand-/g, '')
-      .replace(/background-danger-/g, '')
-      .replace(/background-warning-/g, '')
-      .replace(/background-success-/g, '')
-      .replace(/background-info-/g, '')
-      .replace(/background-discovery-/g, '')
-      .replace(/border-neutral-/g, '')
-      .replace(/-border-brand-border-brand/g, '-border-brand')
-      .replace(/-border-danger-border-danger/g, '-border-danger')
-      .replace(/-border-warning-border-warning/g, '-border-warning')
-      .replace(/-border-success-border-success/g, '-border-success')
-      .replace(/-border-info-border-info/g, '-border-info')
-      .replace(/-border-discovery-border-discovery/g, '-border-discovery')
-      .replace(/text-neutral-/g, '')
-      .replace(/-text-brand-text-brand/g, '-text-brand')
-      .replace(/-text-danger-text-danger/g, '-text-danger')
-      .replace(/-text-warning-text-warning/g, '-text-warning')
-      .replace(/-text-success-text-success/g, '-text-success')
-      .replace(/-text-info-text-info/g, '-text-info')
-      .replace(/-text-discovery-text-discovery/g, '-text-discovery')
-      .replace(/-icon-neutral-icon/g, '-icon')
-      .replace(/-icon-brand-icon-brand/g, '-icon-brand')
-      .replace(/-icon-danger-icon-danger/g, '-icon-danger')
-      .replace(/-icon-warning-icon-warning/g, '-icon-warning')
-      .replace(/-icon-success-icon-success/g, '-icon-success')
-      .replace(/-icon-info-icon-info/g, '-icon-info')
-      .replace(/-icon-discovery-icon-discovery/g, '-icon-discovery')
-      .replace(/width-width/g, 'width')
-      .replace(/height-height/g, 'height')
-      .replace(/spacing-space/g, 'space')
-      .replace(/breakpoints-breakpoints/g, 'breakpoints');
-
-    return modifiedTokens;
-  },
-});
-styleTokensDark.buildAllPlatforms();
 
 
 
@@ -354,6 +428,7 @@ styleTokensDarkJs.buildAllPlatforms();
 
 
 
+
 // CONFIG TOKEN
 
 const styleConfig = StyleDictionary.extend({
@@ -379,6 +454,10 @@ styleConfig.registerFilter({
   },
 });
 styleConfig.buildAllPlatforms();
+
+
+
+
 
 // BRAND TOKEN
 

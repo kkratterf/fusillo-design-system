@@ -1,5 +1,4 @@
-@import '../../style/tokens-light.css';
-@import '../../style/tokens-dark.css';
+@import '../../style/tokens.css';
 
 @tailwind base;
 @tailwind components;

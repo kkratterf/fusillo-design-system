@@ -1262,7 +1262,8 @@ import {
   TextSelect,
   Train,
 } from 'lucide-react';
-import '../../../design-tokens/export/tokens-light.css';
+
+import '../../style/tokens.css';
 
 type IconProps = {
   color: keyof typeof colorToHex;
