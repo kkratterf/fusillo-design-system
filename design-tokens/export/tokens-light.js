@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 21 Oct 2023 15:54:04 GMT
+ * Generated on Sat, 21 Oct 2023 19:20:38 GMT
  */
 
 module.exports = {
@@ -2691,40 +2691,6 @@ module.exports = {
                 "Text",
                 "Neutral",
                 "text-description"
-              ]
-            },
-            "text-heading": {
-              "type": "color",
-              "value": "#09090b",
-              "description": "Use for text indicating headings on elements with the highest level of prominence.",
-              "$extensions": {
-                "variableId": "VariableID:75:29"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "Use for text indicating headings on elements with the highest level of prominence.",
-                "$extensions": {
-                  "variableId": "VariableID:75:29"
-                }
-              },
-              "name": "TokensLightColorTextNeutralTextHeading",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-heading"
               ]
             },
             "text-disabled": {
