@@ -1,6 +1,9 @@
-@import '../../design-tokens/export/foundations.css';
-@import '../../design-tokens/export/tokens.css';
-@import '../../design-tokens/export/brand.css';
+@import './tailwind-tokens.css';
+@import './brand.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* CARD FOR COLORS */
 

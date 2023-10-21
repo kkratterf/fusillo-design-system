@@ -18,7 +18,10 @@ export const ThemeProvider: React.FC<{
 }> = ({ theme, children }) => {
   
   const getSystemTheme = (): Theme => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (
+      window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+    ) {
       return 'dark';
     } else {
       return 'light';

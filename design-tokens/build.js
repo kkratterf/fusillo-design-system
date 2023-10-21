@@ -11,7 +11,7 @@ const styleFoundations = StyleDictionary.extend({
       buildPath: '../design-system/style/',
       files: [
         {
-          destination: 'foundations.css',
+          destination: 'tailwind-foundations.css',
           filter: 'foundationsFilter',
           format: 'foundationsDesignSystemStyleFormat',
           //         options: {
@@ -22,21 +22,7 @@ const styleFoundations = StyleDictionary.extend({
     },
     css_design_foundations: {
       transformGroup: 'css',
-      buildPath: '../design-system/foundations/',
-      files: [
-        {
-          destination: 'foundations.css',
-          filter: 'foundationsFilter',
-          format: 'foundationsFormat',
-          //         options: {
-          //            outputReferences: true,
-          //          },
-        },
-      ],
-    },
-    css_export: {
-      transformGroup: 'css',
-      buildPath: 'export/',
+      buildPath: '../design-system/style/',
       files: [
         {
           destination: 'foundations.css',
@@ -183,7 +169,7 @@ const styleTokens = StyleDictionary.extend({
       buildPath: '../design-system/style/',
       files: [
         {
-          destination: 'tokens.css',
+          destination: 'tailwind-tokens.css',
           filter: 'tokensFilter',
           format: 'tokensTailwindFormat',
         },
@@ -191,7 +177,7 @@ const styleTokens = StyleDictionary.extend({
     },
     css_tokens: {
       transformGroup: 'css',
-      buildPath: '../design-system/tokens/',
+      buildPath: '../design-system/style/',
       files: [
         {
           destination: 'tokens.css',
@@ -200,14 +186,14 @@ const styleTokens = StyleDictionary.extend({
         },
       ],
     },
-    css_export: {
+    css_documentation: {
       transformGroup: 'css',
-      buildPath: 'export/',
+      buildPath: '../documentation/style/',
       files: [
         {
-          destination: 'tokens.css',
+          destination: 'tailwind-tokens.css',
           filter: 'tokensFilter',
-          format: 'tokensCssFormat',
+          format: 'tokensTailwindFormat',
         },
       ],
     },
@@ -466,7 +452,7 @@ const styleBrand = StyleDictionary.extend({
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'export/',
+      buildPath: '../documentation/style/',
       files: [
         {
           destination: 'brand.css',

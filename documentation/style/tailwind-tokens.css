@@ -1,9 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Sat, 21 Oct 2023 15:54:04 GMT
+ * Generated on Sat, 21 Oct 2023 18:22:10 GMT
  */
 
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  :root {
   --color-bg-layout: #ffffff;
   --color-bg-elevated: #ffffff;
   --color-bg-container: #ffffff;
@@ -362,3 +368,5 @@
   --breakpoints-xl: 1280px;
   --breakpoints-xxl: 1536px;
   }
+
+}

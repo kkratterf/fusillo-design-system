@@ -1,6 +1,8 @@
-@import '../../design-tokens/export/foundations.css';
-@import '../../design-tokens/export/tokens.css';
-@import '../../design-tokens/export/brand.css';
+@import './brand.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --nextra-primary-hue: var(--brand-hue);
@@ -19,21 +21,13 @@ body {
 }
 
 .nx-px-2 {
-  padding: 0.355rem 1rem;
+  @apply py-1.5 px-4;
 }
 
 .nx-rounded {
-  border-radius: var(--border-radius);
-  -webkit-border-radius: var(--border-radius);
-  -moz-border-radius: var(--border-radius);
-  -ms-border-radius: var(--border-radius);
-  -o-border-radius: var(--border-radius);
+  @apply rounded-radius;
 }
 
 .nx-rounded-lg {
- border-radius: var(--border-radius);
- -webkit-border-radius: var(--border-radius);
- -moz-border-radius: var(--border-radius);
- -ms-border-radius: var(--border-radius);
- -o-border-radius: var(--border-radius);
+ @apply rounded-radius-lg;
 }

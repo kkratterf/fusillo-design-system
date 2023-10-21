@@ -66,7 +66,6 @@ module.exports = {
         'bg-discovery-selected': 'var(--color-bg-discovery-selected)',
         'bg-discovery-subtle': 'var(--color-bg-discovery-subtle)',
         'bg-discovery-subtlest': 'var(--color-bg-discovery-subtlest)',
-        'text-heading': 'var(--color-text-heading)',
         text: 'var(--color-text)',
         'text-description': 'var(--color-text-description)',
         'text-placeholder': 'var(--color-text-placeholder)',
@@ -438,9 +437,17 @@ module.exports = {
     borderRadius: {
       'radius-none': 'var(--border-radius-none)',
       'radius-sm': 'var(--border-radius-sm)',
-      'radius': 'var(--border-radius)',
+      radius: 'var(--border-radius)',
       'radius-lg': 'var(--border-radius-lg)',
       'radius-full': 'var(--border-radius-full)',
+    },
+    screens: {
+      'xs': '390px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     },
     extend: {
       /* DA TOGLIERE */
