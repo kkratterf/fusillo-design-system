@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 21 Oct 2023 22:00:24 GMT
+ * Generated on Sat, 21 Oct 2023 22:04:08 GMT
  */
 
 module.exports = {
@@ -181,7 +181,7 @@ module.exports = {
             },
             "bg-container-subtle": {
               "type": "color",
-              "value": "#27272a",
+              "value": "#18181b",
               "description": "The background color for elements with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:122"
@@ -190,7 +190,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
+                "value": "{Foundations.Color.Neutral.neutral-900}",
                 "description": "The background color for elements with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:122"
@@ -2691,40 +2691,6 @@ module.exports = {
                 "Text",
                 "Neutral",
                 "text-description"
-              ]
-            },
-            "text-heading": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "Use for text indicating headings on elements with the highest level of prominence.",
-              "$extensions": {
-                "variableId": "VariableID:75:29"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "Use for text indicating headings on elements with the highest level of prominence.",
-                "$extensions": {
-                  "variableId": "VariableID:75:29"
-                }
-              },
-              "name": "TokensDarkColorTextNeutralTextHeading",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-heading"
               ]
             },
             "text-disabled": {

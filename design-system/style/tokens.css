@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 21 Oct 2023 22:00:24 GMT
+ * Generated on Sat, 21 Oct 2023 22:04:08 GMT
  */
 
 :root {
@@ -82,7 +82,6 @@
   --color-border-discovery-subtlest: #ddd6fe;
   --color-border-discovery-subtle: #c4b5fd;
   --color-text-description: #71717a;
-  --color-text-heading: #09090b;
   --color-text-disabled: #d4d4d8;
   --color-text: #18181b;
   --color-text-placeholder: #a1a1aa;
@@ -189,7 +188,7 @@
   --color-bg-container: #09090b;
   --color-bg-mask: #09090be6;
   --color-bg-interactive: #09090b;
-  --color-bg-container-subtle: #27272a;
+  --color-bg-container-subtle: #18181b;
   --color-bg-interactive-hover: #18181b;
   --color-bg-interactive-selected: #27272a;
   --color-bg-interactive-selected-hover: #3f3f46;
@@ -262,7 +261,6 @@
   --color-border-discovery-subtlest: #5b21b6;
   --color-border-discovery-subtle: #5b21b6;
   --color-text-description: #a1a1aa;
-  --color-text-heading: #ffffff;
   --color-text-disabled: #3f3f46;
   --color-text: #fafafa;
   --color-text-placeholder: #71717a;
