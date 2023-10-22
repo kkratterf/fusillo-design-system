@@ -6,7 +6,7 @@
 @layer components {
 
   .button-default {
-    @apply bg-primary text-primary-foreground hover:bg-primary/90;
+    @apply bg-color-bg-brand text-color-text-brand-inverse hover:bg-color-bg-brand-hover active:bg-color-bg-brand-active;
   }
 
 }

@@ -29,5 +29,5 @@ body {
 }
 
 .nx-rounded-lg {
- @apply rounded-radius-lg;
+ @apply rounded-radius;
 }

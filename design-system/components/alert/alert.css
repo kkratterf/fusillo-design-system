@@ -1,2 +1,10 @@
-@import '../../style/tokens.css';
-@import '../../style/global.css'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    
+
+}

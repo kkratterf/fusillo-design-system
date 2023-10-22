@@ -1,6 +1,7 @@
 import type { Preview } from "@storybook/react";
-
+import '../style/foundations.css';
 import '../style/global.css';
+import '../style/tokens.css';
 
 const preview: Preview = {
   globalTypes: {

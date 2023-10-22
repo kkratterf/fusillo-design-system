@@ -1,3 +1,5 @@
+@import '../../style/global.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,7 +12,7 @@
   }
 
   .accordion-trigger {
-    @apply flex flex-1 items-center justify-between p-4 font-medium transition-all hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
+    @apply flex flex-1 items-center text-color-text justify-between p-4 transition-all hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
   }
 
   .accordion-content {

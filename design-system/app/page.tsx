@@ -17,11 +17,30 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
         <ThemeProvider theme="dark">
-          <div className="rounded-radius-sm h-sm w-sm bg-brand-200"></div>
-          <div className="md:text-center max-width-screen-xs rounded-radius-full bg-color-bg-brand">
-            <p className="text-color-text-discovery text-5xl font-bold">
-              Label
-            </p>
+          <div className='bg-color-bg-layout'>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionContent>
+                  Yes. It adheres to the WAI-ARIA design pattern.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2">
+                <AccordionTrigger>Diocan</AccordionTrigger>
+                <AccordionContent>
+                  Yes. It adheres to the WAI-ARIA design pattern.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            <div className="rounded-radius-sm h-sm w-sm bg-brand-200"></div>
+            <h1 className="title-screen">Lorem ipsum dolor sit amet</h1>
+            <h2 className="title-section">Lorem ipsum dolor sit amet</h2>
+            <h3 className="title-subsection">Lorem ipsum dolor sit amet</h3>
+            <h4 className="title-body">Lorem ipsum dolor sit amet</h4>
+            <h5 className="title-group">Lorem ipsum dolor sit amet</h5>
+            <p className="body-large-semibold">Lorem ipsum dolor sit amet</p>
+            <p className="body-base">Lorem ipsum dolor sit amet</p>
+            <div className="p-2 bg-color-bg-brand m-40">Lorem ipsum</div>
           </div>
           <Button title="Diocan" />
           <ThemeProvider theme="light">

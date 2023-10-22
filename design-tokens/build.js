@@ -6,7 +6,7 @@ const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
 const styleFoundations = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css_design_system_style: {
+    css_tailwind_foundations: {
       transformGroup: 'css',
       buildPath: '../design-system/style/',
       files: [
@@ -20,7 +20,7 @@ const styleFoundations = StyleDictionary.extend({
         },
       ],
     },
-    css_design_foundations: {
+    css_foundations: {
       transformGroup: 'css',
       buildPath: '../design-system/style/',
       files: [
@@ -134,7 +134,7 @@ styleFoundations.buildAllPlatforms();
 const styleFoundationsJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    js: {
+    js_foundations: {
       transformGroup: 'js',
       buildPath: 'export/',
       files: [
@@ -164,7 +164,7 @@ styleFoundationsJs.buildAllPlatforms();
 const styleTokens = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css_design_system: {
+    css_tailwind_tokens: {
       transformGroup: 'css',
       buildPath: '../design-system/style/',
       files: [
@@ -186,7 +186,7 @@ const styleTokens = StyleDictionary.extend({
         },
       ],
     },
-    css_documentation: {
+    css_tailwind_tokens_documentation: {
       transformGroup: 'css',
       buildPath: '../documentation/style/',
       files: [
@@ -352,7 +352,7 @@ styleTokens.buildAllPlatforms();
 const styleTokensLightJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    js: {
+    js_tokens_light: {
       transformGroup: 'js',
       buildPath: 'export/',
       files: [
@@ -386,7 +386,7 @@ styleTokensLightJs.buildAllPlatforms();
 const styleTokensDarkJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    js: {
+    js_tokens_dark: {
       transformGroup: 'js',
       buildPath: 'export/',
       files: [
@@ -420,7 +420,7 @@ styleTokensDarkJs.buildAllPlatforms();
 const styleConfig = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css: {
+    js_config: {
       transformGroup: 'js',
       buildPath: 'export/',
       files: [
@@ -450,7 +450,7 @@ styleConfig.buildAllPlatforms();
 const styleBrand = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    css: {
+    css_brand_tokens: {
       transformGroup: 'css',
       buildPath: '../documentation/style/',
       files: [

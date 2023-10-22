@@ -15,7 +15,7 @@ const AccordionItem = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AccordionPrimitive.Item
     ref={ref}
-    className={cn('accordion-item', className)}
+    className={cn('accordion-item AccordionItem', className)}
     {...props}
   />
 ));
@@ -28,17 +28,14 @@ const AccordionTrigger = React.forwardRef<
   <AccordionPrimitive.Header className="accordion-header">
     <AccordionPrimitive.Trigger
       ref={ref}
-      className={cn(
-        "accordion-trigger",
-        className
-      )}
+      className={cn('accordion-trigger body-large-medium', className)}
       {...props}
     >
       {children}
       <ChevronDown className="accordion-icon" />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
-))
+));
 AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName
 
 const AccordionContent = React.forwardRef<
