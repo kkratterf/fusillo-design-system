@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 21 Oct 2023 22:04:08 GMT
+ * Generated on Sun, 22 Oct 2023 13:40:12 GMT
  */
 
 :root {
@@ -144,14 +144,16 @@
   --color-icon-discovery-hover: #8b5cf6;
   --color-icon-discovery-active: #6d28d9;
   --color-icon-discovery-disabled: #ede9fe;
-  --size-width-xs: 16px;
-  --size-width-sm: 24px;
-  --size-width: 32px;
-  --size-width-lg: 40px;
-  --size-height: 32px;
-  --size-height-sm: 24px;
-  --size-height-xs: 16px;
-  --size-height-lg: 40px;
+  --size-width-4: 16px;
+  --size-width-6: 24px;
+  --size-width-8: 32px;
+  --size-width-10: 40px;
+  --size-width-0: 0px;
+  --size-height-8: 32px;
+  --size-height-6: 24px;
+  --size-height-4: 16px;
+  --size-height-10: 40px;
+  --size-height-0: 0px;
   --border-radius: 6px;
   --border-radius-sm: 4px;
   --border-radius-lg: 8px;
@@ -323,14 +325,16 @@
   --color-icon-discovery-hover: #7c3aed;
   --color-icon-discovery-active: #a78bfa;
   --color-icon-discovery-disabled: #2e1065;
-  --size-width-xs: 16px;
-  --size-width-sm: 24px;
-  --size-width: 32px;
-  --size-width-lg: 40px;
-  --size-height: 32px;
-  --size-height-sm: 24px;
-  --size-height-xs: 16px;
-  --size-height-lg: 40px;
+  --size-width-4: 16px;
+  --size-width-6: 24px;
+  --size-width-8: 32px;
+  --size-width-10: 40px;
+  --size-width-0: 0px;
+  --size-height-8: 32px;
+  --size-height-6: 24px;
+  --size-height-4: 16px;
+  --size-height-10: 40px;
+  --size-height-0: 0px;
   --border-radius: 6px;
   --border-radius-sm: 4px;
   --border-radius-lg: 8px;
