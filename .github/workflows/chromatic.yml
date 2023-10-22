@@ -23,6 +23,6 @@ jobs:
 
       - uses: chromaui/action@v1
         with:
-          working-directory: ./design-system
+          workingDir: ./design-system
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
