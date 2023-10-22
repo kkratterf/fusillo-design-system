@@ -97,7 +97,7 @@ export const Single = {
     },
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/Sample-File',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=612%3A22584&mode=design&t=mHjfqQlvjzpHOW2a-1',
     },
   },
 };

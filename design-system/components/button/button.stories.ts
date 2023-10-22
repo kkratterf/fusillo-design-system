@@ -13,7 +13,8 @@ const meta: Meta<typeof Button> = {
     },
     docs: {
       description: {
-        component: 'Displays a button or a component that looks like a button.',
+        component:
+          'Triggers an event or action. They let users know what will happen next.',
       },
     },
   },

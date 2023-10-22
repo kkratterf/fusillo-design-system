@@ -13,7 +13,8 @@ const meta: Meta<typeof Badge> = {
     },
     docs: {
       description: {
-        component: 'Displays a callout for user attention.',
+        component:
+          'Visual indicator for states or numeric values such as tallies and scores.',
       },
     },
   },

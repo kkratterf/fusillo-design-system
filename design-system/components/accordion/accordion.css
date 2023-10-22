@@ -4,23 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
 
-  .accordion-item {
-    @apply border-b border-b-color-border-primary;
+  .accordion-root {
+    @apply border border-color-border-primary rounded-radius overflow-hidden;
   }
 
+  .accordion-item {
+    @apply border-b border-b-color-border-primary last:border-none;
+  }
+  
   .accordion-trigger {
-    @apply flex flex-1 items-center text-color-text justify-between p-4 transition-all hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
+    @apply flex flex-1 items-center body-large-medium text-color-text justify-between p-4 transition-all hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
   }
 
   .accordion-content {
-    @apply overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
+    @apply overflow-hidden border-t border-t-color-border-primary transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
   }
 
   .accordion-content-children {
-    @apply p-4;
+    @apply p-4 body-base text-color-text-description;
   }
 
   .accordion-header {
