@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 Oct 2023 16:04:48 GMT
+ * Generated on Sun, 22 Oct 2023 16:53:36 GMT
  */
 
 :root {
@@ -15,6 +15,7 @@
   --color-bg-interactive-selected-hover: #d4d4d8;
   --color-bg-interactive-disabled: #f4f4f5;
   --color-bg-container-disabled: #e4e4e7;
+  --color-bg-container-inverse: #09090b;
   --color-bg-brand: #2563eb;
   --color-bg-brand-hover: #3b82f6;
   --color-bg-brand-active: #1d4ed8;
@@ -120,36 +121,43 @@
   --color-icon-hover: #18181b;
   --color-icon-active: #18181b;
   --color-icon-disabled: #d4d4d8;
+  --color-icon-inverse: #fafafa;
   --color-icon-brand: #2563eb;
   --color-icon-brand-hover: #3b82f6;
   --color-icon-brand-active: #1d4ed8;
   --color-icon-brand-disabled: #dbeafe;
   --color-icon-brand-strong: #1d4ed8;
+  --color-icon-brand-inverse: #ffffff;
   --color-icon-danger: #dc2626;
   --color-icon-danger-hover: #ef4444;
   --color-icon-danger-active: #b91c1c;
   --color-icon-danger-disabled: #fee2e2;
   --color-icon-danger-strong: #b91c1c;
+  --color-icon-danger-inverse: #ffffff;
   --color-icon-success: #16a34a;
   --color-icon-success-hover: #22c55e;
   --color-icon-success-active: #15803d;
   --color-icon-success-disabled: #dcfce7;
   --color-icon-success-strong: #15803d;
+  --color-icon-success-inverse: #ffffff;
   --color-icon-warning: #d97706;
   --color-icon-warning-hover: #f59e0b;
   --color-icon-warning-active: #b45309;
   --color-icon-warning-disabled: #fef3c7;
   --color-icon-warning-strong: #b45309;
+  --color-icon-warning-inverse: #ffffff;
   --color-icon-info: #2563eb;
   --color-icon-info-hover: #3b82f6;
   --color-icon-info-active: #1d4ed8;
   --color-icon-info-disabled: #dbeafe;
   --color-icon-info-strong: #1d4ed8;
+  --color-icon-info-inverse: #ffffff;
   --color-icon-discovery: #7c3aed;
   --color-icon-discovery-hover: #8b5cf6;
   --color-icon-discovery-active: #6d28d9;
   --color-icon-discovery-disabled: #ede9fe;
   --color-icon-discovery-strong: #6d28d9;
+  --color-icon-discovery-inverse: #ffffff;
   --size-width-4: 16px;
   --size-width-6: 24px;
   --size-width-8: 32px;
@@ -202,6 +210,7 @@
   --color-bg-interactive-selected-hover: #3f3f46;
   --color-bg-interactive-disabled: #18181b;
   --color-bg-container-disabled: #27272a;
+  --color-bg-container-inverse: #ffffff;
   --color-bg-brand: #3b82f6;
   --color-bg-brand-hover: #2563eb;
   --color-bg-brand-active: #60a5fa;
@@ -272,7 +281,7 @@
   --color-text-disabled: #3f3f46;
   --color-text: #fafafa;
   --color-text-placeholder: #71717a;
-  --color-text-inverse: #ffffff;
+  --color-text-inverse: #18181b;
   --color-text-brand: #3b82f6;
   --color-text-brand-hover: #2563eb;
   --color-text-brand-active: #60a5fa;
@@ -307,36 +316,43 @@
   --color-icon-hover: #fafafa;
   --color-icon-active: #fafafa;
   --color-icon-disabled: #3f3f46;
+  --color-icon-inverse: #18181b;
   --color-icon-brand: #3b82f6;
   --color-icon-brand-hover: #2563eb;
   --color-icon-brand-active: #60a5fa;
   --color-icon-brand-disabled: #172554;
   --color-icon-brand-strong: #93c5fd;
+  --color-icon-brand-inverse: #ffffff;
   --color-icon-danger: #ef4444;
   --color-icon-danger-hover: #dc2626;
   --color-icon-danger-active: #f87171;
   --color-icon-danger-disabled: #450a0a;
   --color-icon-danger-strong: #fca5a5;
+  --color-icon-danger-inverse: #ffffff;
   --color-icon-success: #22c55e;
   --color-icon-success-hover: #16a34a;
   --color-icon-success-active: #4ade80;
   --color-icon-success-disabled: #052e16;
   --color-icon-success-strong: #86efac;
+  --color-icon-success-inverse: #ffffff;
   --color-icon-warning: #f59e0b;
   --color-icon-warning-hover: #d97706;
   --color-icon-warning-active: #fbbf24;
   --color-icon-warning-disabled: #451a03;
   --color-icon-warning-strong: #fcd34d;
+  --color-icon-warning-inverse: #ffffff;
   --color-icon-info: #3b82f6;
   --color-icon-info-hover: #2563eb;
   --color-icon-info-active: #60a5fa;
   --color-icon-info-disabled: #172554;
   --color-icon-info-strong: #93c5fd;
+  --color-icon-info-inverse: #ffffff;
   --color-icon-discovery: #8b5cf6;
   --color-icon-discovery-hover: #7c3aed;
   --color-icon-discovery-active: #a78bfa;
   --color-icon-discovery-disabled: #2e1065;
   --color-icon-discovery-strong: #c4b5fd;
+  --color-icon-discovery-inverse: #ffffff;
   --size-width-4: 16px;
   --size-width-6: 24px;
   --size-width-8: 32px;

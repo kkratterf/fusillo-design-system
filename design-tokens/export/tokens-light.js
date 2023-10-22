@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 Oct 2023 16:04:48 GMT
+ * Generated on Sun, 22 Oct 2023 16:53:36 GMT
  */
 
 module.exports = {
@@ -381,6 +381,40 @@ module.exports = {
                 "Background",
                 "Neutral",
                 "bg-container-disabled"
+              ]
+            },
+            "bg-container-inverse": {
+              "type": "color",
+              "value": "#09090b",
+              "description": "The background color for elements that should stand out in the interface.",
+              "$extensions": {
+                "variableId": "VariableID:634:2406"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
+                "description": "The background color for elements that should stand out in the interface.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2406"
+                }
+              },
+              "name": "TokensLightColorBackgroundNeutralBgContainerInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Background",
+                "state": "Neutral"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Background",
+                "Neutral",
+                "bg-container-inverse"
               ]
             }
           },
@@ -3108,7 +3142,7 @@ module.exports = {
             "text-danger-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "Use for text and icons on bg-danger.",
+              "description": "Use for text on bg-danger.",
               "$extensions": {
                 "variableId": "VariableID:160:296"
               },
@@ -3117,7 +3151,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "Use for text and icons on bg-danger.",
+                "description": "Use for text on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:160:296"
                 }
@@ -3280,7 +3314,7 @@ module.exports = {
             "text-success-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "Use for text and icons on bg-success.",
+              "description": "Use for text on bg-success.",
               "$extensions": {
                 "variableId": "VariableID:160:298"
               },
@@ -3289,7 +3323,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "Use for text and icons on bg-success.",
+                "description": "Use for text on bg-success.",
                 "$extensions": {
                   "variableId": "VariableID:160:298"
                 }
@@ -3452,7 +3486,7 @@ module.exports = {
             "text-warning-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "Use for text and icons on bg-warning.",
+              "description": "Use for text on bg-warning.",
               "$extensions": {
                 "variableId": "VariableID:160:297"
               },
@@ -3461,7 +3495,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "Use for text and icons on bg-warning.",
+                "description": "Use for text on bg-warning.",
                 "$extensions": {
                   "variableId": "VariableID:160:297"
                 }
@@ -3624,7 +3658,7 @@ module.exports = {
             "text-info-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "Use for text and icons on bg-info.",
+              "description": "Use for text on bg-info.",
               "$extensions": {
                 "variableId": "VariableID:160:299"
               },
@@ -3633,7 +3667,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "Use for text and icons on bg-info.",
+                "description": "Use for text on bg-info.",
                 "$extensions": {
                   "variableId": "VariableID:160:299"
                 }
@@ -3796,7 +3830,7 @@ module.exports = {
             "text-discovery-inverse": {
               "type": "color",
               "value": "#ffffff",
-              "description": "Use for text and icons on bg-discovery.",
+              "description": "Use for text on bg-discovery.",
               "$extensions": {
                 "variableId": "VariableID:229:695"
               },
@@ -3805,7 +3839,7 @@ module.exports = {
               "original": {
                 "type": "color",
                 "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "Use for text and icons on bg-discovery.",
+                "description": "Use for text on bg-discovery.",
                 "$extensions": {
                   "variableId": "VariableID:229:695"
                 }
@@ -4000,6 +4034,40 @@ module.exports = {
                 "Neutral",
                 "icon-disabled"
               ]
+            },
+            "icon-inverse": {
+              "type": "color",
+              "value": "#fafafa",
+              "description": "Use for icon on dark background.",
+              "$extensions": {
+                "variableId": "VariableID:634:2407"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-50}",
+                "description": "Use for icon on dark background.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2407"
+                }
+              },
+              "name": "TokensLightColorIconNeutralIconInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Neutral"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Neutral",
+                "icon-inverse"
+              ]
             }
           },
           "Brand": {
@@ -4171,6 +4239,40 @@ module.exports = {
                 "Icon",
                 "Brand",
                 "icon-brand-strong"
+              ]
+            },
+            "icon-brand-inverse": {
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Use for icon on bg-brand, like primary buttons.",
+              "$extensions": {
+                "variableId": "VariableID:634:2408"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "description": "Use for icon on bg-brand, like primary buttons.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2408"
+                }
+              },
+              "name": "TokensLightColorIconBrandIconBrandInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Brand"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Brand",
+                "icon-brand-inverse"
               ]
             }
           },
@@ -4344,6 +4446,40 @@ module.exports = {
                 "Danger",
                 "icon-danger-strong"
               ]
+            },
+            "icon-danger-inverse": {
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Use for icons on bg-danger.",
+              "$extensions": {
+                "variableId": "VariableID:634:2409"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "description": "Use for icons on bg-danger.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2409"
+                }
+              },
+              "name": "TokensLightColorIconDangerIconDangerInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Danger"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Danger",
+                "icon-danger-inverse"
+              ]
             }
           },
           "Success": {
@@ -4515,6 +4651,40 @@ module.exports = {
                 "Icon",
                 "Success",
                 "icon-success-strong"
+              ]
+            },
+            "icon-success-inverse": {
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Use for icons on bg-success.",
+              "$extensions": {
+                "variableId": "VariableID:634:2411"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "description": "Use for icons on bg-success.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2411"
+                }
+              },
+              "name": "TokensLightColorIconSuccessIconSuccessInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Success"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Success",
+                "icon-success-inverse"
               ]
             }
           },
@@ -4688,6 +4858,40 @@ module.exports = {
                 "Warning",
                 "icon-warning-strong"
               ]
+            },
+            "icon-warning-inverse": {
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Use for icons on bg-warning.",
+              "$extensions": {
+                "variableId": "VariableID:634:2410"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "description": "Use for icons on bg-warning.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2410"
+                }
+              },
+              "name": "TokensLightColorIconWarningIconWarningInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Warning"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Warning",
+                "icon-warning-inverse"
+              ]
             }
           },
           "Info": {
@@ -4860,6 +5064,40 @@ module.exports = {
                 "Info",
                 "icon-info-strong"
               ]
+            },
+            "icon-info-inverse": {
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Use for icons on bg-info.",
+              "$extensions": {
+                "variableId": "VariableID:634:2412"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "description": "Use for icons on bg-info.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2412"
+                }
+              },
+              "name": "TokensLightColorIconInfoIconInfoInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Info"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Info",
+                "icon-info-inverse"
+              ]
             }
           },
           "Discovery": {
@@ -5031,6 +5269,40 @@ module.exports = {
                 "Icon",
                 "Discovery",
                 "icon-discovery-strong"
+              ]
+            },
+            "icon-discovery-inverse": {
+              "type": "color",
+              "value": "#ffffff",
+              "description": "Use for icons on bg-discovery.",
+              "$extensions": {
+                "variableId": "VariableID:634:2413"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "description": "Use for icons on bg-discovery.",
+                "$extensions": {
+                  "variableId": "VariableID:634:2413"
+                }
+              },
+              "name": "TokensLightColorIconDiscoveryIconDiscoveryInverse",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Discovery"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Discovery",
+                "icon-discovery-inverse"
               ]
             }
           }
