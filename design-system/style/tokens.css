@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 Oct 2023 13:40:12 GMT
+ * Generated on Sun, 22 Oct 2023 16:04:48 GMT
  */
 
 :root {
@@ -24,29 +24,29 @@
   --color-bg-danger: #dc2626;
   --color-bg-danger-hover: #ef4444;
   --color-bg-danger-active: #b91c1c;
-  --color-bg-danger-subtlest: #fee2e2;
-  --color-bg-danger-subtle: #fecaca;
+  --color-bg-danger-subtlest: #fef2f2;
+  --color-bg-danger-subtle: #fee2e2;
   --color-bg-danger-selected: #dc2626;
   --color-bg-warning: #d97706;
   --color-bg-warning-hover: #f59e0b;
   --color-bg-warning-active: #b45309;
-  --color-bg-warning-subtlest: #fef3c7;
-  --color-bg-warning-subtle: #fde68a;
+  --color-bg-warning-subtlest: #fffbeb;
+  --color-bg-warning-subtle: #fef3c7;
   --color-bg-success: #16a34a;
   --color-bg-success-hover: #22c55e;
   --color-bg-success-active: #15803d;
-  --color-bg-success-subtlest: #dcfce7;
-  --color-bg-success-subtle: #bbf7d0;
+  --color-bg-success-subtlest: #f0fdf4;
+  --color-bg-success-subtle: #dcfce7;
   --color-bg-info: #2563eb;
   --color-bg-info-hover: #3b82f6;
   --color-bg-info-active: #1d4ed8;
-  --color-bg-info-subtlest: #dbeafe;
-  --color-bg-info-subtle: #bfdbfe;
+  --color-bg-info-subtlest: #eff6ff;
+  --color-bg-info-subtle: #dbeafe;
   --color-bg-discovery: #7c3aed;
   --color-bg-discovery-hover: #8b5cf6;
   --color-bg-discovery-active: #6d28d9;
-  --color-bg-discovery-subtlest: #ede9fe;
-  --color-bg-discovery-subtle: #ddd6fe;
+  --color-bg-discovery-subtlest: #f5f3ff;
+  --color-bg-discovery-subtle: #ede9fe;
   --color-border-primary: #e4e4e7;
   --color-border-secondary: #f4f4f5;
   --color-border-primary-hover: #d4d4d8;
@@ -124,26 +124,32 @@
   --color-icon-brand-hover: #3b82f6;
   --color-icon-brand-active: #1d4ed8;
   --color-icon-brand-disabled: #dbeafe;
+  --color-icon-brand-strong: #1d4ed8;
   --color-icon-danger: #dc2626;
   --color-icon-danger-hover: #ef4444;
   --color-icon-danger-active: #b91c1c;
   --color-icon-danger-disabled: #fee2e2;
+  --color-icon-danger-strong: #b91c1c;
   --color-icon-success: #16a34a;
   --color-icon-success-hover: #22c55e;
   --color-icon-success-active: #15803d;
   --color-icon-success-disabled: #dcfce7;
+  --color-icon-success-strong: #15803d;
   --color-icon-warning: #d97706;
   --color-icon-warning-hover: #f59e0b;
   --color-icon-warning-active: #b45309;
   --color-icon-warning-disabled: #fef3c7;
+  --color-icon-warning-strong: #b45309;
   --color-icon-info: #2563eb;
   --color-icon-info-hover: #3b82f6;
   --color-icon-info-active: #1d4ed8;
   --color-icon-info-disabled: #dbeafe;
+  --color-icon-info-strong: #1d4ed8;
   --color-icon-discovery: #7c3aed;
   --color-icon-discovery-hover: #8b5cf6;
   --color-icon-discovery-active: #6d28d9;
   --color-icon-discovery-disabled: #ede9fe;
+  --color-icon-discovery-strong: #6d28d9;
   --size-width-4: 16px;
   --size-width-6: 24px;
   --size-width-8: 32px;
@@ -305,26 +311,32 @@
   --color-icon-brand-hover: #2563eb;
   --color-icon-brand-active: #60a5fa;
   --color-icon-brand-disabled: #172554;
+  --color-icon-brand-strong: #93c5fd;
   --color-icon-danger: #ef4444;
   --color-icon-danger-hover: #dc2626;
   --color-icon-danger-active: #f87171;
   --color-icon-danger-disabled: #450a0a;
+  --color-icon-danger-strong: #fca5a5;
   --color-icon-success: #22c55e;
   --color-icon-success-hover: #16a34a;
   --color-icon-success-active: #4ade80;
   --color-icon-success-disabled: #052e16;
+  --color-icon-success-strong: #86efac;
   --color-icon-warning: #f59e0b;
   --color-icon-warning-hover: #d97706;
   --color-icon-warning-active: #fbbf24;
   --color-icon-warning-disabled: #451a03;
+  --color-icon-warning-strong: #fcd34d;
   --color-icon-info: #3b82f6;
   --color-icon-info-hover: #2563eb;
   --color-icon-info-active: #60a5fa;
   --color-icon-info-disabled: #172554;
+  --color-icon-info-strong: #93c5fd;
   --color-icon-discovery: #8b5cf6;
   --color-icon-discovery-hover: #7c3aed;
   --color-icon-discovery-active: #a78bfa;
   --color-icon-discovery-disabled: #2e1065;
+  --color-icon-discovery-strong: #c4b5fd;
   --size-width-4: 16px;
   --size-width-6: 24px;
   --size-width-8: 32px;

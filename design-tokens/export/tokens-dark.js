@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 Oct 2023 13:40:12 GMT
+ * Generated on Sun, 22 Oct 2023 16:04:48 GMT
  */
 
 module.exports = {
@@ -4138,6 +4138,40 @@ module.exports = {
                 "Brand",
                 "icon-brand-disabled"
               ]
+            },
+            "icon-brand-strong": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1808"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Brand.brand-300}",
+                "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1808"
+                }
+              },
+              "name": "TokensDarkColorIconBrandIconBrandStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Brand"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Icon",
+                "Brand",
+                "icon-brand-strong"
+              ]
             }
           },
           "Danger": {
@@ -4275,6 +4309,40 @@ module.exports = {
                 "Icon",
                 "Danger",
                 "icon-danger-disabled"
+              ]
+            },
+            "icon-danger-strong": {
+              "type": "color",
+              "value": "#fca5a5",
+              "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1809"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Red.red-300}",
+                "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1809"
+                }
+              },
+              "name": "TokensDarkColorIconDangerIconDangerStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Danger"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Icon",
+                "Danger",
+                "icon-danger-strong"
               ]
             }
           },
@@ -4414,6 +4482,40 @@ module.exports = {
                 "Success",
                 "icon-success-disabled"
               ]
+            },
+            "icon-success-strong": {
+              "type": "color",
+              "value": "#86efac",
+              "description": "Use for icon on bg-success-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1811"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Green.green-300}",
+                "description": "Use for icon on bg-success-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1811"
+                }
+              },
+              "name": "TokensDarkColorIconSuccessIconSuccessStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Success"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Icon",
+                "Success",
+                "icon-success-strong"
+              ]
             }
           },
           "Warning": {
@@ -4551,6 +4653,40 @@ module.exports = {
                 "Icon",
                 "Warning",
                 "icon-warning-disabled"
+              ]
+            },
+            "icon-warning-strong": {
+              "type": "color",
+              "value": "#fcd34d",
+              "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1810"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Amber.amber-300}",
+                "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1810"
+                }
+              },
+              "name": "TokensDarkColorIconWarningIconWarningStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Warning"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Icon",
+                "Warning",
+                "icon-warning-strong"
               ]
             }
           },
@@ -4690,6 +4826,40 @@ module.exports = {
                 "Info",
                 "icon-info-disabled"
               ]
+            },
+            "icon-info-strong": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "Use for icon on bg-info-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1812"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Blue.blue-300}",
+                "description": "Use for icon on bg-info-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1812"
+                }
+              },
+              "name": "TokensDarkColorIconInfoIconInfoStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Info"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Icon",
+                "Info",
+                "icon-info-strong"
+              ]
             }
           },
           "Discovery": {
@@ -4827,6 +4997,40 @@ module.exports = {
                 "Icon",
                 "Discovery",
                 "icon-discovery-disabled"
+              ]
+            },
+            "icon-discovery-strong": {
+              "type": "color",
+              "value": "#c4b5fd",
+              "description": "Use for icon on bg-discovery-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1813"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Violet.violet-300}",
+                "description": "Use for icon on bg-discovery-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1813"
+                }
+              },
+              "name": "TokensDarkColorIconDiscoveryIconDiscoveryStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Discovery"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "Color",
+                "Icon",
+                "Discovery",
+                "icon-discovery-strong"
               ]
             }
           }

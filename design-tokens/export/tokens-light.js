@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 Oct 2023 13:40:12 GMT
+ * Generated on Sun, 22 Oct 2023 16:04:48 GMT
  */
 
 module.exports = {
@@ -695,7 +695,7 @@ module.exports = {
             },
             "bg-danger-subtlest": {
               "type": "color",
-              "value": "#fee2e2",
+              "value": "#fef2f2",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:131"
@@ -704,7 +704,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-100}",
+                "value": "{Foundations.Color.Red.red-50}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:131"
@@ -729,7 +729,7 @@ module.exports = {
             },
             "bg-danger-subtle": {
               "type": "color",
-              "value": "#fecaca",
+              "value": "#fee2e2",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:132"
@@ -738,7 +738,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-200}",
+                "value": "{Foundations.Color.Red.red-100}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
@@ -901,7 +901,7 @@ module.exports = {
             },
             "bg-warning-subtlest": {
               "type": "color",
-              "value": "#fef3c7",
+              "value": "#fffbeb",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:135"
@@ -910,7 +910,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-100}",
+                "value": "{Foundations.Color.Amber.amber-50}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:135"
@@ -935,7 +935,7 @@ module.exports = {
             },
             "bg-warning-subtle": {
               "type": "color",
-              "value": "#fde68a",
+              "value": "#fef3c7",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:136"
@@ -944,7 +944,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-200}",
+                "value": "{Foundations.Color.Amber.amber-100}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
@@ -1073,7 +1073,7 @@ module.exports = {
             },
             "bg-success-subtlest": {
               "type": "color",
-              "value": "#dcfce7",
+              "value": "#f0fdf4",
               "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:139"
@@ -1082,7 +1082,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-100}",
+                "value": "{Foundations.Color.Green.green-50}",
                 "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:139"
@@ -1107,7 +1107,7 @@ module.exports = {
             },
             "bg-success-subtle": {
               "type": "color",
-              "value": "#bbf7d0",
+              "value": "#dcfce7",
               "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:140"
@@ -1116,7 +1116,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Green.green-200}",
+                "value": "{Foundations.Color.Green.green-100}",
                 "description": "Use for backgrounds communicating success on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:140"
@@ -1245,7 +1245,7 @@ module.exports = {
             },
             "bg-info-subtlest": {
               "type": "color",
-              "value": "#dbeafe",
+              "value": "#eff6ff",
               "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:143"
@@ -1254,7 +1254,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-100}",
+                "value": "{Foundations.Color.Blue.blue-50}",
                 "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:143"
@@ -1279,7 +1279,7 @@ module.exports = {
             },
             "bg-info-subtle": {
               "type": "color",
-              "value": "#bfdbfe",
+              "value": "#dbeafe",
               "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:91:144"
@@ -1288,7 +1288,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Blue.blue-200}",
+                "value": "{Foundations.Color.Blue.blue-100}",
                 "description": "Use for backgrounds communicating important information on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:144"
@@ -1417,7 +1417,7 @@ module.exports = {
             },
             "bg-discovery-subtlest": {
               "type": "color",
-              "value": "#ede9fe",
+              "value": "#f5f3ff",
               "description": "Use for backgrounds suggesting items to discover, with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:229:689"
@@ -1426,7 +1426,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-100}",
+                "value": "{Foundations.Color.Violet.violet-50}",
                 "description": "Use for backgrounds suggesting items to discover, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:229:689"
@@ -1451,7 +1451,7 @@ module.exports = {
             },
             "bg-discovery-subtle": {
               "type": "color",
-              "value": "#ddd6fe",
+              "value": "#ede9fe",
               "description": "Use for backgrounds suggesting items to discover, with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:229:690"
@@ -1460,7 +1460,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-200}",
+                "value": "{Foundations.Color.Violet.violet-100}",
                 "description": "Use for backgrounds suggesting items to discover, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:229:690"
@@ -4138,6 +4138,40 @@ module.exports = {
                 "Brand",
                 "icon-brand-disabled"
               ]
+            },
+            "icon-brand-strong": {
+              "type": "color",
+              "value": "#1d4ed8",
+              "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1808"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Brand.brand-700}",
+                "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1808"
+                }
+              },
+              "name": "TokensLightColorIconBrandIconBrandStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Brand"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Brand",
+                "icon-brand-strong"
+              ]
             }
           },
           "Danger": {
@@ -4275,6 +4309,40 @@ module.exports = {
                 "Icon",
                 "Danger",
                 "icon-danger-disabled"
+              ]
+            },
+            "icon-danger-strong": {
+              "type": "color",
+              "value": "#b91c1c",
+              "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1809"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Red.red-700}",
+                "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1809"
+                }
+              },
+              "name": "TokensLightColorIconDangerIconDangerStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Danger"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Danger",
+                "icon-danger-strong"
               ]
             }
           },
@@ -4414,6 +4482,40 @@ module.exports = {
                 "Success",
                 "icon-success-disabled"
               ]
+            },
+            "icon-success-strong": {
+              "type": "color",
+              "value": "#15803d",
+              "description": "Use for icon on bg-success-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1811"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Green.green-700}",
+                "description": "Use for icon on bg-success-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1811"
+                }
+              },
+              "name": "TokensLightColorIconSuccessIconSuccessStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Success"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Success",
+                "icon-success-strong"
+              ]
             }
           },
           "Warning": {
@@ -4551,6 +4653,40 @@ module.exports = {
                 "Icon",
                 "Warning",
                 "icon-warning-disabled"
+              ]
+            },
+            "icon-warning-strong": {
+              "type": "color",
+              "value": "#b45309",
+              "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1810"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Amber.amber-700}",
+                "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1810"
+                }
+              },
+              "name": "TokensLightColorIconWarningIconWarningStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Warning"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Warning",
+                "icon-warning-strong"
               ]
             }
           },
@@ -4690,6 +4826,40 @@ module.exports = {
                 "Info",
                 "icon-info-disabled"
               ]
+            },
+            "icon-info-strong": {
+              "type": "color",
+              "value": "#1d4ed8",
+              "description": "Use for icon on bg-info-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1812"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Blue.blue-700}",
+                "description": "Use for icon on bg-info-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1812"
+                }
+              },
+              "name": "TokensLightColorIconInfoIconInfoStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Info"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Info",
+                "icon-info-strong"
+              ]
             }
           },
           "Discovery": {
@@ -4827,6 +4997,40 @@ module.exports = {
                 "Icon",
                 "Discovery",
                 "icon-discovery-disabled"
+              ]
+            },
+            "icon-discovery-strong": {
+              "type": "color",
+              "value": "#6d28d9",
+              "description": "Use for icon on bg-discovery-subtle and subtles, like badge and alert.",
+              "$extensions": {
+                "variableId": "VariableID:632:1813"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.Color.Violet.violet-700}",
+                "description": "Use for icon on bg-discovery-subtle and subtles, like badge and alert.",
+                "$extensions": {
+                  "variableId": "VariableID:632:1813"
+                }
+              },
+              "name": "TokensLightColorIconDiscoveryIconDiscoveryStrong",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "Color",
+                "subitem": "Icon",
+                "state": "Discovery"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "Color",
+                "Icon",
+                "Discovery",
+                "icon-discovery-strong"
               ]
             }
           }
