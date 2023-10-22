@@ -8,7 +8,7 @@
 @layer components {
 
   .accordion-item {
-    @apply border-b font-bold border-b-color-border-primary;
+    @apply border-b border-b-color-border-primary;
   }
 
   .accordion-trigger {
