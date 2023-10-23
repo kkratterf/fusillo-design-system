@@ -7,7 +7,7 @@
 @layer components {
 
   .accordion-root {
-    @apply border border-color-border-primary rounded-radius overflow-hidden;
+    @apply border border-color-border-primary rounded-radius;
   }
 
   .accordion-item {
@@ -15,15 +15,15 @@
   }
   
   .accordion-trigger {
-    @apply flex flex-1 items-center body-large-medium text-color-text justify-between p-4 transition-all hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
+    @apply flex flex-1 items-center body-large-medium text-color-text justify-between p-4 transition-all bg-color-bg-interactive hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
   }
 
   .accordion-content {
-    @apply overflow-hidden border-t border-t-color-border-primary transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
+    @apply overflow-hidden bg-color-bg-container-subtle border-t border-t-color-border-primary transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
   }
 
   .accordion-content-children {
-    @apply p-4 body-base text-color-text-description;
+    @apply p-4 body-base text-color-text;
   }
 
   .accordion-header {

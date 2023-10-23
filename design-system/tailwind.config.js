@@ -2,6 +2,7 @@
 module.exports = {
   darkMode: ['class'],
   content: [
+    './storybook/**/*.{ts,tsx}',
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
@@ -21,6 +22,7 @@ module.exports = {
         'bg-layout': 'var(--color-bg-layout)',
         'bg-container': 'var(--color-bg-container)',
         'bg-container-subtle': 'var(--color-bg-container-subtle)',
+        'bg-container-subtlest': 'var(--color-bg-container-subtlest)',
         'bg-container-disabled': 'var(--color-bg-container-disabled)',
         'bg-container-inverse': 'var(--color-bg-container-inverse)',
         'bg-elevated': 'var(--color-bg-elevated)',
