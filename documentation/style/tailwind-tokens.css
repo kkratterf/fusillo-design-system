@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 Oct 2023 16:57:46 GMT
+ * Generated on Mon, 23 Oct 2023 16:02:17 GMT
  */
 
 @tailwind base;
@@ -15,13 +15,14 @@
   --color-bg-container: #ffffff;
   --color-bg-mask: #ffffffe6;
   --color-bg-interactive: #ffffff;
-  --color-bg-container-subtle: #f4f4f5;
+  --color-bg-container-subtle: #fafafa;
   --color-bg-interactive-hover: #f4f4f5;
   --color-bg-interactive-selected: #e4e4e7;
   --color-bg-interactive-selected-hover: #d4d4d8;
   --color-bg-interactive-disabled: #f4f4f5;
   --color-bg-container-disabled: #e4e4e7;
   --color-bg-container-inverse: #09090b;
+  --color-bg-container-subtlest: #f4f4f5;
   --color-bg-brand: #2563eb;
   --color-bg-brand-hover: #3b82f6;
   --color-bg-brand-active: #1d4ed8;
@@ -217,6 +218,7 @@
   --color-bg-interactive-disabled: #18181b;
   --color-bg-container-disabled: #27272a;
   --color-bg-container-inverse: #ffffff;
+  --color-bg-container-subtlest: #18181b;
   --color-bg-brand: #3b82f6;
   --color-bg-brand-hover: #2563eb;
   --color-bg-brand-active: #60a5fa;
