@@ -1,17 +1,19 @@
-import type { Preview } from '@storybook/react';
+import type { Preview, Renderer } from "@storybook/react";
+import { withThemeByClassName } from "@storybook/addon-themes";
 import '../style/foundations.css';
 import '../style/global.css';
 import '../style/tokens.css';
 
 const preview: Preview = {
-  globalTypes: {
-    darkMode: {
-      defaultValue: false,
-    },
-    className: {
-      defaultValue: 'dark', // Set your custom dark mode class name
-    },
-  },
+  decorators: [
+    withThemeByClassName<Renderer>({
+      themes: {
+        light: '',
+        dark: 'dark',
+      },
+      defaultTheme: 'light',
+    }),
+  ],
   parameters: {
     backgrounds: {
       disable: true,

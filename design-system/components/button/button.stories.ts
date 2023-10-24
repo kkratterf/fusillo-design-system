@@ -17,6 +17,10 @@ const meta: Meta<typeof Button> = {
           'Triggers an event or action. They let users know what will happen next.',
       },
     },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File',
+    },
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ['autodocs'],
@@ -48,10 +52,6 @@ export const Default = {
       description: {
         story: 'Cool description bro',
       },
-    },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File',
     },
   },
 };
