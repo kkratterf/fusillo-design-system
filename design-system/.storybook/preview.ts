@@ -8,10 +8,10 @@ const preview: Preview = {
   decorators: [
     withThemeByClassName<Renderer>({
       themes: {
-        light: '',
-        dark: 'dark',
+        Light: '',
+        Dark: 'dark',
       },
-      defaultTheme: 'light',
+      defaultTheme: 'Light',
     }),
   ],
   parameters: {
