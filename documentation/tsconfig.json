@@ -24,7 +24,9 @@
     "**/*.ts",
     "**/*.tsx",
     "pages/_app.mdx",
-    "middleware.ts"
+    "middleware.ts",
+    "../design-system/components/**/*.tsx",
+    "../design-system/components/**/*.ts"
   ],
   "exclude": [
     "node_modules"

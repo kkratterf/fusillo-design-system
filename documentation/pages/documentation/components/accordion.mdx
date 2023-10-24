@@ -1,31 +1,55 @@
 import { Tabs, Steps } from 'nextra/components';
+import colors from '../../../../design-tokens/export/foundations.js';
+import tokens from '../../../../design-tokens/export/tokens-light.js';
+
 
 # 💠 Accordion
 
 A vertically stacked set of interactive headings that each reveal a section of content.
 
+<br />
+
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <iframe
-  src="https://65105469f35fe6b822a88ef1-myezeavehy.chromatic.com/?path=/story/design-system-components-button--default&viewMode=story&shortcuts=false&singleStory=true"
-  width="100%"
-  height="600"
-></iframe>
-<iframe
-  src="https://65105469f35fe6b822a88ef1-myezeavehy.chromatic.com/iframe.html?id=design-system-components-button--default&viewMode=story&shortcuts=false&singleStory=true"
-  width="100%"
-  height="600"
-></iframe>
-<iframe
-  src="https://65105469f35fe6b822a88ef1-myezeavehy.chromatic.com/iframe.html?id=design-system-components-button--default&viewMode=story&shortcuts=false&singleStory=true"
-  width="800"
-  height="200"
-></iframe>
-<iframe
-  src="https://5ccbc373887ca40020446347-wtuhidckxo.chromatic.com/iframe.html?id=shadowboxcta--default&viewMode=story&shortcuts=false&singleStory=true"
-  width="800"
-  height="200"
-></iframe>
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr>
+      <th align="left">Name</th>
+      <th align="left">Token</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(colors.Foundations.Color.Brand).map(([colorName, colorInfo]) => (
+  <tr key={colorName} className="w-full">
+    <td className="w-full">--{colorName}</td>
+    <td className="p-1">
+      <div className="w-24 h-10 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+***
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr>
+      <th align="left">Name</th>
+      <th align="left">Description</th>
+      <th align="left">Token</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full">
+    <td className="w-full">--{tokenName}</td>
+    <td>{tokenInfo.description}</td>
+    <td>
+      <div className="w-10 h-10 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
   </Tabs.Tab>
   <Tabs.Tab>
     ```js copy 
@@ -61,24 +85,26 @@ A vertically stacked set of interactive headings that each reveal a section of c
   </Tabs.Tab>
 </Tabs>
 
+***
+
 ## Usage
 
 <Steps>
 
 ### Import utilities
 
-```js copy 
-import { 
-Accordion, 
-AccordionContent,
-AccordionItem,
-AccordionTrigger 
-} from "@/components/accordion"
+```js copy
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/accordion';
 ```
 
 ### Import components items
 
-```js copy 
+```js copy
 <Accordion type="single" collapsible className="w-full">
   <AccordionItem value="item-1">
     <AccordionTrigger>Is it accessible?</AccordionTrigger>
