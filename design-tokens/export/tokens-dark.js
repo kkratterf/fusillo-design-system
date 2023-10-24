@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 23 Oct 2023 16:02:17 GMT
+ * Generated on Tue, 24 Oct 2023 19:25:06 GMT
  */
 
 module.exports = {
@@ -455,7 +455,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The background color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -625,7 +625,7 @@ module.exports = {
             },
             "bg-brand-selected": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The selected state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:497:1523"
@@ -1695,7 +1695,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -2901,7 +2901,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "Use for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -4107,7 +4107,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "Use for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:53"
