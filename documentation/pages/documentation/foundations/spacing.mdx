@@ -1,4 +1,4 @@
-import SpaceCardList from '../../../components/foundations/spacing/spaceCardList.tsx';
+import spacing from '../../../../design-tokens/export/foundations.js';
 
 # 📐 Spacing
 
@@ -13,5 +13,24 @@ Building off of the 4px base unit, the main foundation of our spacing system is 
 Each scale value is a multiple of the base unit and ranges from 0px to 384px to allow for flexibility while still maintaining consistency across different layouts. 
 
 <br/>
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 p-2" align="left">Name</th>
+      <th className="border-t-0 border-x-0 p-2 pr-8" align="right">Pixels</th>
+      <th className="border-t-0 border-x-0 p-2" align="left">Visual</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(spacing.Foundations.Spacing).map(([colorName, colorInfo]) => (
+  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-2">Space-{colorName}</td>
+    <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{colorInfo.value}</div></td>
+    <td className="border-t-0 border-x-0 p-2">
+      <div className="w-32 h-6 rounded-radius-sm bg-color-bg-brand" style={{ width: colorInfo.value  }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
 <br/>
-<SpaceCardList />

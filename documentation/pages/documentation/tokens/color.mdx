@@ -1,4 +1,5 @@
 import { Tabs } from 'nextra/components';
+import tokensLight from '../../../../design-tokens/export/tokens-light.js';
 import {
   TokenCardListBackgroundBrand,
   TokenCardListBackgroundBrandDark,
@@ -65,6 +66,59 @@ import {
 ## Light Mode
 
 ### Background
+
+#### Neutral
+<br/>
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokensLight.Tokens.Light.Color.Background.Neutral).map(([colorName, colorInfo]) => (
+      <>
+  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 p-1.5">--color-{colorName}</td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-24 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
+    </td>
+  </tr>
+  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full text-sm border-t-0 border-x-0 p-1.5">{colorInfo.description}</td>
+  </tr>
+  </>
+))}
+  </tbody>
+</table> }
+<br/>
+
+#### Brand
+<br/>
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokensLight.Tokens.Light.Color.Background.Brand).map(([colorName, colorInfo]) => (
+  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 p-1.5">--color-{colorName}</td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-24 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
 
 #### Neutral
 <br/>
