@@ -7,6 +7,26 @@
 
 /* CARD FOR COLORS */
 
+iframe {
+  border-radius: var(--border-radius-lg);
+  -webkit-border-radius: var(--border-radius-lg);
+  -moz-border-radius: var(--border-radius-lg);
+  -ms-border-radius: var(--border-radius-lg);
+  -o-border-radius: var(--border-radius-lg);
+}
+
+.storybook-root {
+  background-color: red !important;
+}
+
+.sb-main-centered {
+  background-color: red !important;
+}
+
+.sb-show-main {
+  background-color: red !important;
+}
+
 .color__grid {
   display: grid;
   grid-template-columns: 33% 33% 33%;
