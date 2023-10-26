@@ -81,7 +81,7 @@ import {
     {Object.entries(tokensLight.Tokens.Light.Color.Background.Neutral).map(([colorName, colorInfo]) => (
       <>
   <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full font-mono font-medium border-t-0 border-x-0 p-1.5">--color-{colorName}</td>
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 p-1.5"><code>--color-{colorName}</code></td>
     <td className="border-t-0 border-x-0 p-1.5"><div className="w-24 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
     <td className="border-t-0 border-x-0 p-1.5">
       <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
