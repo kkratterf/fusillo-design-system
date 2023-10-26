@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 24 Oct 2023 19:41:50 GMT
+ * Generated on Thu, 26 Oct 2023 14:34:14 GMT
  */
 
 module.exports = {
@@ -346,411 +346,6 @@ module.exports = {
             "Color",
             "Brand",
             "brand-950"
-          ]
-        }
-      },
-      "Neutral": {
-        "neutral-50": {
-          "type": "color",
-          "value": "#fafafa",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:2:24"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#fafafa",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:2:24"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral50",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-50"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-50"
-          ]
-        },
-        "neutral-100": {
-          "type": "color",
-          "value": "#f4f4f5",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:74"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#f4f4f5",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:74"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral100",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-100"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-100"
-          ]
-        },
-        "neutral-200": {
-          "type": "color",
-          "value": "#e4e4e7",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:75"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#e4e4e7",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:75"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral200",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-200"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-200"
-          ]
-        },
-        "neutral-300": {
-          "type": "color",
-          "value": "#d4d4d8",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:76"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#d4d4d8",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:76"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral300",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-300"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-300"
-          ]
-        },
-        "neutral-400": {
-          "type": "color",
-          "value": "#a1a1aa",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:77"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#a1a1aa",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:77"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral400",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-400"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-400"
-          ]
-        },
-        "neutral-500": {
-          "type": "color",
-          "value": "#71717a",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:78"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#71717a",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:78"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral500",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-500"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-500"
-          ]
-        },
-        "neutral-600": {
-          "type": "color",
-          "value": "#52525b",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:79"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#52525b",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:79"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral600",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-600"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-600"
-          ]
-        },
-        "neutral-700": {
-          "type": "color",
-          "value": "#3f3f46",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:80"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#3f3f46",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:80"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral700",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-700"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-700"
-          ]
-        },
-        "neutral-800": {
-          "type": "color",
-          "value": "#27272a",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:81"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#27272a",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:81"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral800",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-800"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-800"
-          ]
-        },
-        "neutral-900": {
-          "type": "color",
-          "value": "#18181b",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:82"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#18181b",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:82"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral900",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-900"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-900"
-          ]
-        },
-        "neutral-950": {
-          "type": "color",
-          "value": "#09090b",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:3:83"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#09090b",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:3:83"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral950",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-950"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-950"
-          ]
-        },
-        "neutral-0": {
-          "type": "color",
-          "value": "#ffffff",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:457:1980"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#ffffff",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:457:1980"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral0",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-0"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-0"
-          ]
-        },
-        "neutral-1000": {
-          "type": "color",
-          "value": "#000000",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:457:1981"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
-            "type": "color",
-            "value": "#000000",
-            "description": "",
-            "$extensions": {
-              "variableId": "VariableID:457:1981"
-            }
-          },
-          "name": "FoundationsColorNeutralNeutral1000",
-          "attributes": {
-            "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-1000"
-          },
-          "path": [
-            "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-1000"
           ]
         }
       },
@@ -6582,6 +6177,411 @@ module.exports = {
             "Color",
             "Rose",
             "rose-950"
+          ]
+        }
+      },
+      "Neutral": {
+        "neutral-0": {
+          "type": "color",
+          "value": "#ffffff",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2200"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2200"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral0",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-0"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-0"
+          ]
+        },
+        "neutral-50": {
+          "type": "color",
+          "value": "#fafafa",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2201"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#fafafa",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2201"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral50",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-50"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-50"
+          ]
+        },
+        "neutral-100": {
+          "type": "color",
+          "value": "#f4f4f5",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2202"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#f4f4f5",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2202"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral100",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-100"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-100"
+          ]
+        },
+        "neutral-200": {
+          "type": "color",
+          "value": "#e4e4e7",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2203"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#e4e4e7",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2203"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral200",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-200"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-200"
+          ]
+        },
+        "neutral-300": {
+          "type": "color",
+          "value": "#d4d4d8",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2204"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#d4d4d8",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2204"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral300",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-300"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-300"
+          ]
+        },
+        "neutral-400": {
+          "type": "color",
+          "value": "#a1a1aa",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2205"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#a1a1aa",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2205"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral400",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-400"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-400"
+          ]
+        },
+        "neutral-500": {
+          "type": "color",
+          "value": "#71717a",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2206"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#71717a",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2206"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral500",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-500"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-500"
+          ]
+        },
+        "neutral-600": {
+          "type": "color",
+          "value": "#52525b",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2207"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#52525b",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2207"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral600",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-600"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-600"
+          ]
+        },
+        "neutral-700": {
+          "type": "color",
+          "value": "#3f3f46",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2208"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#3f3f46",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2208"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral700",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-700"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-700"
+          ]
+        },
+        "neutral-800": {
+          "type": "color",
+          "value": "#27272a",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2209"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#27272a",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2209"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral800",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-800"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-800"
+          ]
+        },
+        "neutral-900": {
+          "type": "color",
+          "value": "#18181b",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2210"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2210"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral900",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-900"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-900"
+          ]
+        },
+        "neutral-950": {
+          "type": "color",
+          "value": "#09090b",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2211"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#09090b",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2211"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral950",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-950"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-950"
+          ]
+        },
+        "neutral-1000": {
+          "type": "color",
+          "value": "#000000",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:693:2212"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "#000000",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:693:2212"
+            }
+          },
+          "name": "FoundationsColorNeutralNeutral1000",
+          "attributes": {
+            "category": "Foundations",
+            "type": "Color",
+            "item": "Neutral",
+            "subitem": "neutral-1000"
+          },
+          "path": [
+            "Foundations",
+            "Color",
+            "Neutral",
+            "neutral-1000"
           ]
         }
       }
