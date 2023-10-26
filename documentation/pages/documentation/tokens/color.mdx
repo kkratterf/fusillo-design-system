@@ -1,67 +1,6 @@
-import { Tabs } from 'nextra/components';
-import tokensLight from '../../../../design-tokens/export/tokens-light.js';
-import {
-  TokenCardListBackgroundBrand,
-  TokenCardListBackgroundBrandDark,
-  TokenCardListBackgroundNeutral,
-  TokenCardListBackgroundNeutralDark,
-  TokenCardListBackgroundDanger,
-  TokenCardListBackgroundDangerDark,
-  TokenCardListBackgroundWarning,
-  TokenCardListBackgroundWarningDark,
-  TokenCardListBackgroundSuccess,
-  TokenCardListBackgroundSuccessDark,
-  TokenCardListBackgroundInfo,
-  TokenCardListBackgroundInfoDark,
-  TokenCardListBackgroundDiscovery,
-  TokenCardListBackgroundDiscoveryDark,
-  TokenCardListTextBrand,
-  TokenCardListTextBrandDark,
-  TokenCardListTextNeutral,
-  TokenCardListTextNeutralDark,
-  TokenCardListTextDanger,
-  TokenCardListTextDangerDark,
-  TokenCardListTextWarning,
-  TokenCardListTextWarningDark,
-  TokenCardListTextSuccess,
-  TokenCardListTextSuccessDark,
-  TokenCardListTextInfo,
-  TokenCardListTextInfoDark,
-  TokenCardListTextDiscovery,
-  TokenCardListTextDiscoveryDark,
-  TokenCardListBorderBrand,
-  TokenCardListBorderBrandDark,
-  TokenCardListBorderNeutral,
-  TokenCardListBorderNeutralDark,
-  TokenCardListBorderDanger,
-  TokenCardListBorderDangerDark,
-  TokenCardListBorderWarning,
-  TokenCardListBorderWarningDark,
-  TokenCardListBorderSuccess,
-  TokenCardListBorderSuccessDark,
-  TokenCardListBorderInfo,
-  TokenCardListBorderInfoDark,
-  TokenCardListBorderDiscovery,
-  TokenCardListBorderDiscoveryDark,
-  TokenCardListIconBrand,
-  TokenCardListIconBrandDark,
-  TokenCardListIconNeutral,
-  TokenCardListIconNeutralDark,
-  TokenCardListIconDanger,
-  TokenCardListIconDangerDark,
-  TokenCardListIconWarning,
-  TokenCardListIconWarningDark,
-  TokenCardListIconSuccess,
-  TokenCardListIconSuccessDark,
-  TokenCardListIconInfo,
-  TokenCardListIconInfoDark,
-  TokenCardListIconDiscovery,
-  TokenCardListIconDiscoveryDark,
-} from '../../../components/tokens/color/tokenColorCardList.tsx';
+import tokens from '../../../../design-tokens/export/tokens.js';
 
 # 🎨 Color
-
-## Overview
 
 ## Light Mode
 
@@ -72,25 +11,20 @@ import {
 { <table className="w-full">
   <thead className="w-full">
     <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
       <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
     </tr>
   </thead>
   <tbody className="w-full">
-    {Object.entries(tokensLight.Tokens.Light.Color.Background.Neutral).map(([colorName, colorInfo]) => (
-      <>
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full font-mono font-medium border-t-0 border-x-0 p-1.5"><code>--color-{colorName}</code></td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-24 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
+    {Object.entries(tokens.Tokens.Light.Color.Background.Neutral).map(([tokenName, tokenInfo]) => (
+      <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
     <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
     </td>
   </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full text-sm border-t-0 border-x-0 p-1.5">{colorInfo.description}</td>
-  </tr>
-  </>
 ))}
   </tbody>
 </table> }
@@ -101,18 +35,18 @@ import {
 { <table className="w-full">
   <thead className="w-full">
     <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
       <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
     </tr>
   </thead>
   <tbody className="w-full">
-    {Object.entries(tokensLight.Tokens.Light.Color.Background.Brand).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full font-mono font-medium border-t-0 border-x-0 p-1.5">--color-{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-24 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
+    {Object.entries(tokens.Tokens.Light.Color.Background.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
     <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
     </td>
   </tr>
 ))}
@@ -120,122 +54,662 @@ import {
 </table> }
 <br/>
 
-#### Neutral
-<br/>
-<TokenCardListBackgroundNeutral />
-
-#### Brand
-<br/>
-<TokenCardListBackgroundBrand />
 
 #### Danger
 <br/>
-<TokenCardListBackgroundDanger />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListBackgroundWarning />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListBackgroundSuccess />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListBackgroundInfo />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListBackgroundDiscovery />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ### Text
 
 #### Neutral
 <br/>
-<TokenCardListTextNeutral />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Brand
 <br/>
-<TokenCardListTextBrand />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListTextDanger />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListTextWarning />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListTextSuccess />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListTextInfo />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListTextDiscovery />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Text.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ### Border
 
 #### Neutral
-<TokenCardListBorderNeutral />
+<br/>
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Brand
 <br/>
-<TokenCardListBorderBrand />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListBorderDanger />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListBorderWarning />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListBorderSuccess />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListBorderInfo />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListBorderDiscovery />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Border.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ### Icon
 
 #### Neutral
 <br/>
-<TokenCardListIconNeutral />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Brand
 <br/>
-<TokenCardListIconBrand />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListIconDanger />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListIconWarning />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListIconSuccess />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListIconInfo />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListIconDiscovery />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Icon.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ## Dark Mode
 
@@ -243,118 +717,704 @@ import {
 
 #### Neutral
 <br/>
-<TokenCardListBackgroundNeutralDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Neutral).map(([tokenName, tokenInfo]) => (
+      <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
 
 #### Brand
 <br/>
-<TokenCardListBackgroundBrandDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListBackgroundDangerDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListBackgroundWarningDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListBackgroundSuccessDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListBackgroundInfoDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListBackgroundDiscoveryDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Background.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ### Text
 
 #### Neutral
 <br/>
-<TokenCardListTextNeutralDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Brand
 <br/>
-<TokenCardListTextBrandDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListTextDangerDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListTextWarningDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListTextSuccessDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListTextInfoDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListTextDiscoveryDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Text.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ### Border
 
 #### Neutral
 <br/>
-<TokenCardListBorderNeutralDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Brand
 <br/>
-<TokenCardListBorderBrandDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListBorderDangerDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListBorderWarningDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListBorderSuccessDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListBorderInfoDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListBorderDiscoveryDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Border.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 ### Icon
 
 #### Neutral
 <br/>
-<TokenCardListIconNeutralDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Neutral).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Brand
 <br/>
-<TokenCardListIconBrandDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Brand).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Danger
 <br/>
-<TokenCardListIconDangerDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Danger).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Warning
 <br/>
-<TokenCardListIconWarningDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Warning).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Success
 <br/>
-<TokenCardListIconSuccessDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Success).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Info
 <br/>
-<TokenCardListIconInfoDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Info).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>
+
 
 #### Discovery
 <br/>
-<TokenCardListIconDiscoveryDark />
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Dark.Color.Icon.Discovery).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>color-{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
+    <td className="border-t-0 border-x-0 p-1.5"><div className="w-40 opacity-70 font-medium font-mono text-sm"><code>color-{tokenInfo.original.value.split('.').pop().slice(0, -1)}</code></div></td>
+    <td className="border-t-0 border-x-0 p-1.5">
+      <div className="w-32 h-12 rounded-radius" style={{ backgroundColor: tokenInfo.value }}></div>
+    </td>
+  </tr>
+))}
+  </tbody>
+</table> }
+<br/>

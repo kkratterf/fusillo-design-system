@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'design-system/**'
+      - 'design-tokens/**'
 
 jobs:
   build:

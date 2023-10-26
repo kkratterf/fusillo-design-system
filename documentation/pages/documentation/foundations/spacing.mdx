@@ -17,20 +17,20 @@ Each scale value is a multiple of the base unit and ranges from 0px to 384px to 
   <thead className="w-full">
     <tr className="border-0">
       <th className="border-t-0 border-x-0 p-2" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-2 pr-8" align="right">Pixels</th>
-      <th className="border-t-0 border-x-0 p-2" align="left">Visual</th>
+      <th className="border-t-0 border-x-0 p-2 pr-8" align="right">Value</th>
+      <th className="border-t-0 border-x-0 p-2 hidden sm:table-cell" align="left">Visual</th>
     </tr>
   </thead>
   <tbody className="w-full">
-    {Object.entries(spacing.Foundations.Spacing).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-2">Space-{colorName}</td>
-    <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{colorInfo.value}</div></td>
-    <td className="border-t-0 border-x-0 p-2">
-      <div className="w-32 h-6 rounded-radius-sm bg-color-bg-brand" style={{ width: colorInfo.value  }}></div>
+  {Object.entries(spacing.Foundations.Spacing).map(([tokenName, tokenInfo]) => (
+  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-2">Space-{tokenName}</td>
+    <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{tokenInfo.value}</div></td>
+    <td className="border-t-0 border-x-0 p-2 hidden sm:table-cell">
+      <div className="w-32 h-6 rounded-radius-sm bg-color-bg-brand" style={{ width: tokenInfo.value  }}></div>
     </td>
   </tr>
-))}
+  ))}
   </tbody>
 </table> }
 <br/>

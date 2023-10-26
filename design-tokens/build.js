@@ -347,70 +347,33 @@ styleTokens.buildAllPlatforms();
 
 
 
-// TOKENS LIGHT JS
+// TOKENS JS
 
-const styleTokensLightJs = StyleDictionary.extend({
+const styleTokensJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'],
   platforms: {
-    js_tokens_light: {
+    js_tokens: {
       transformGroup: 'js',
       buildPath: 'export/',
       files: [
         {
           format: 'javascript/module',
-          destination: 'tokens-light.js',
-          filter: 'tokensLightJsFilter',
+          destination: 'tokens.js',
+          filter: 'tokensJsFilter',
         },
       ],
     },
   },
 });
-styleTokensLightJs.registerFilter({
-  name: 'tokensLightJsFilter',
+styleTokensJs.registerFilter({
+  name: 'tokensJsFilter',
   matcher: function (token) {
     return (
-      token.path.includes('Tokens') &&
-      token.path.includes('Light') &&
-      token.type === 'color'
+      token.path.includes('Tokens')
     );
   },
 });
-styleTokensLightJs.buildAllPlatforms();
-
-
-
-
-
-// TOKENS DARK JS
-
-const styleTokensDarkJs = StyleDictionary.extend({
-  source: ['tokens/**/*.json'],
-  platforms: {
-    js_tokens_dark: {
-      transformGroup: 'js',
-      buildPath: 'export/',
-      files: [
-        {
-          format: 'javascript/module',
-          destination: 'tokens-dark.js',
-          filter: 'tokensDarkJsFilter',
-        },
-      ],
-    },
-  },
-});
-styleTokensDarkJs.registerFilter({
-  name: 'tokensDarkJsFilter',
-  matcher: function (token) {
-    return (
-      token.path.includes('Tokens') &&
-      token.path.includes('Dark') &&
-      token.type === 'color'
-    );
-  },
-});
-styleTokensDarkJs.buildAllPlatforms();
-
+styleTokensJs.buildAllPlatforms();
 
 
 
