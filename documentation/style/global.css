@@ -17,10 +17,7 @@
    @apply font-sans
   }
 
-}
-
-
-.docs_logo {
+  .docs_logo {
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -35,4 +32,15 @@
 
 .nx-rounded-lg {
  @apply rounded-radius;
+}
+
+iframe {
+  border-radius: var(--border-radius-lg);
+  -webkit-border-radius: var(--border-radius-lg);
+  -moz-border-radius: var(--border-radius-lg);
+  -ms-border-radius: var(--border-radius-lg);
+  -o-border-radius: var(--border-radius-lg);
+}
+
+
 }
