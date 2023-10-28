@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Oct 2023 19:23:22 GMT
+ * Generated on Sat, 28 Oct 2023 16:23:54 GMT
  */
 
 module.exports = {
@@ -5347,7 +5347,7 @@ module.exports = {
           "width-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XS component width.",
+            "description": "XXS component width.",
             "$extensions": {
               "variableId": "VariableID:75:68"
             },
@@ -5356,7 +5356,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.4}",
-              "description": "XS component width.",
+              "description": "XXS component width.",
               "$extensions": {
                 "variableId": "VariableID:75:68"
               }
@@ -5380,7 +5380,7 @@ module.exports = {
           "width-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "SM component width.",
+            "description": "XS component width.",
             "$extensions": {
               "variableId": "VariableID:91:110"
             },
@@ -5389,7 +5389,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.6}",
-              "description": "SM component width.",
+              "description": "XS component width.",
               "$extensions": {
                 "variableId": "VariableID:91:110"
               }
@@ -5413,7 +5413,7 @@ module.exports = {
           "width-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "The width of the basic controls such as icon buttons and toggle.",
+            "description": "SM component width.",
             "$extensions": {
               "variableId": "VariableID:91:111"
             },
@@ -5422,7 +5422,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.8}",
-              "description": "The width of the basic controls such as icon buttons and toggle.",
+              "description": "SM component width.",
               "$extensions": {
                 "variableId": "VariableID:91:111"
               }
@@ -5443,10 +5443,10 @@ module.exports = {
               "width-8"
             ]
           },
-          "width-10": {
+          "width-9": {
             "type": "dimension",
-            "value": "40px",
-            "description": "LG component width.",
+            "value": "36px",
+            "description": "The width of the basic controls such as icon buttons and toggle.",
             "$extensions": {
               "variableId": "VariableID:91:112"
             },
@@ -5454,26 +5454,26 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
-              "description": "LG component width.",
+              "value": "{Foundations.Spacing.9}",
+              "description": "The width of the basic controls such as icon buttons and toggle.",
               "$extensions": {
                 "variableId": "VariableID:91:112"
               }
             },
-            "name": "TokensLightSizeWidthWidth10",
+            "name": "TokensLightSizeWidthWidth9",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Size",
               "subitem": "Width",
-              "state": "width-10"
+              "state": "width-9"
             },
             "path": [
               "Tokens",
               "Light",
               "Size",
               "Width",
-              "width-10"
+              "width-9"
             ]
           },
           "width-0": {
@@ -5508,13 +5508,46 @@ module.exports = {
               "Width",
               "width-0"
             ]
+          },
+          "width-10": {
+            "type": "dimension",
+            "value": "40px",
+            "description": "LG component width.",
+            "$extensions": {
+              "variableId": "VariableID:722:12316"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Spacing.10}",
+              "description": "LG component width.",
+              "$extensions": {
+                "variableId": "VariableID:722:12316"
+              }
+            },
+            "name": "TokensLightSizeWidthWidth10",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-10"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Width",
+              "width-10"
+            ]
           }
         },
         "Height": {
           "height-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "The height of the basic controls such as buttons and input boxes.",
+            "description": "SM component height.",
             "$extensions": {
               "variableId": "VariableID:75:73"
             },
@@ -5523,7 +5556,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.8}",
-              "description": "The height of the basic controls such as buttons and input boxes.",
+              "description": "SM component height.",
               "$extensions": {
                 "variableId": "VariableID:75:73"
               }
@@ -5547,7 +5580,7 @@ module.exports = {
           "height-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "SM component height.",
+            "description": "XS component height.",
             "$extensions": {
               "variableId": "VariableID:91:107"
             },
@@ -5556,7 +5589,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.6}",
-              "description": "SM component height.",
+              "description": "XS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:107"
               }
@@ -5580,7 +5613,7 @@ module.exports = {
           "height-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XS component height.",
+            "description": "XXS component height.",
             "$extensions": {
               "variableId": "VariableID:91:108"
             },
@@ -5589,7 +5622,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.4}",
-              "description": "XS component height.",
+              "description": "XXS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:108"
               }
@@ -5610,10 +5643,10 @@ module.exports = {
               "height-4"
             ]
           },
-          "height-10": {
+          "height-9": {
             "type": "dimension",
-            "value": "40px",
-            "description": "LG component height.",
+            "value": "36px",
+            "description": "The height of the basic controls such as buttons and input boxes.",
             "$extensions": {
               "variableId": "VariableID:91:109"
             },
@@ -5621,26 +5654,26 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
-              "description": "LG component height.",
+              "value": "{Foundations.Spacing.9}",
+              "description": "The height of the basic controls such as buttons and input boxes.",
               "$extensions": {
                 "variableId": "VariableID:91:109"
               }
             },
-            "name": "TokensLightSizeHeightHeight10",
+            "name": "TokensLightSizeHeightHeight9",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Size",
               "subitem": "Height",
-              "state": "height-10"
+              "state": "height-9"
             },
             "path": [
               "Tokens",
               "Light",
               "Size",
               "Height",
-              "height-10"
+              "height-9"
             ]
           },
           "height-0": {
@@ -5674,6 +5707,39 @@ module.exports = {
               "Size",
               "Height",
               "height-0"
+            ]
+          },
+          "height-10": {
+            "type": "dimension",
+            "value": "40px",
+            "description": "LG component height.",
+            "$extensions": {
+              "variableId": "VariableID:722:12317"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Spacing.10}",
+              "description": "LG component height.",
+              "$extensions": {
+                "variableId": "VariableID:722:12317"
+              }
+            },
+            "name": "TokensLightSizeHeightHeight10",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-10"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Height",
+              "height-10"
             ]
           }
         }
@@ -11895,7 +11961,7 @@ module.exports = {
           "width-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XS component width.",
+            "description": "XXS component width.",
             "$extensions": {
               "variableId": "VariableID:75:68"
             },
@@ -11904,7 +11970,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.4}",
-              "description": "XS component width.",
+              "description": "XXS component width.",
               "$extensions": {
                 "variableId": "VariableID:75:68"
               }
@@ -11928,7 +11994,7 @@ module.exports = {
           "width-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "SM component width.",
+            "description": "XS component width.",
             "$extensions": {
               "variableId": "VariableID:91:110"
             },
@@ -11937,7 +12003,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.6}",
-              "description": "SM component width.",
+              "description": "XS component width.",
               "$extensions": {
                 "variableId": "VariableID:91:110"
               }
@@ -11961,7 +12027,7 @@ module.exports = {
           "width-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "The width of the basic controls such as icon buttons and toggle.",
+            "description": "SM component width.",
             "$extensions": {
               "variableId": "VariableID:91:111"
             },
@@ -11970,7 +12036,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.8}",
-              "description": "The width of the basic controls such as icon buttons and toggle.",
+              "description": "SM component width.",
               "$extensions": {
                 "variableId": "VariableID:91:111"
               }
@@ -11991,10 +12057,10 @@ module.exports = {
               "width-8"
             ]
           },
-          "width-10": {
+          "width-9": {
             "type": "dimension",
-            "value": "40px",
-            "description": "LG component width.",
+            "value": "36px",
+            "description": "The width of the basic controls such as icon buttons and toggle.",
             "$extensions": {
               "variableId": "VariableID:91:112"
             },
@@ -12002,26 +12068,26 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
-              "description": "LG component width.",
+              "value": "{Foundations.Spacing.9}",
+              "description": "The width of the basic controls such as icon buttons and toggle.",
               "$extensions": {
                 "variableId": "VariableID:91:112"
               }
             },
-            "name": "TokensDarkSizeWidthWidth10",
+            "name": "TokensDarkSizeWidthWidth9",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Size",
               "subitem": "Width",
-              "state": "width-10"
+              "state": "width-9"
             },
             "path": [
               "Tokens",
               "Dark",
               "Size",
               "Width",
-              "width-10"
+              "width-9"
             ]
           },
           "width-0": {
@@ -12056,13 +12122,46 @@ module.exports = {
               "Width",
               "width-0"
             ]
+          },
+          "width-10": {
+            "type": "dimension",
+            "value": "40px",
+            "description": "LG component width.",
+            "$extensions": {
+              "variableId": "VariableID:722:12316"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Spacing.10}",
+              "description": "LG component width.",
+              "$extensions": {
+                "variableId": "VariableID:722:12316"
+              }
+            },
+            "name": "TokensDarkSizeWidthWidth10",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-10"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Width",
+              "width-10"
+            ]
           }
         },
         "Height": {
           "height-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "The height of the basic controls such as buttons and input boxes.",
+            "description": "SM component height.",
             "$extensions": {
               "variableId": "VariableID:75:73"
             },
@@ -12071,7 +12170,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.8}",
-              "description": "The height of the basic controls such as buttons and input boxes.",
+              "description": "SM component height.",
               "$extensions": {
                 "variableId": "VariableID:75:73"
               }
@@ -12095,7 +12194,7 @@ module.exports = {
           "height-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "SM component height.",
+            "description": "XS component height.",
             "$extensions": {
               "variableId": "VariableID:91:107"
             },
@@ -12104,7 +12203,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.6}",
-              "description": "SM component height.",
+              "description": "XS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:107"
               }
@@ -12128,7 +12227,7 @@ module.exports = {
           "height-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XS component height.",
+            "description": "XXS component height.",
             "$extensions": {
               "variableId": "VariableID:91:108"
             },
@@ -12137,7 +12236,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Spacing.4}",
-              "description": "XS component height.",
+              "description": "XXS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:108"
               }
@@ -12158,10 +12257,10 @@ module.exports = {
               "height-4"
             ]
           },
-          "height-10": {
+          "height-9": {
             "type": "dimension",
-            "value": "40px",
-            "description": "LG component height.",
+            "value": "36px",
+            "description": "The height of the basic controls such as buttons and input boxes.",
             "$extensions": {
               "variableId": "VariableID:91:109"
             },
@@ -12169,26 +12268,26 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
-              "description": "LG component height.",
+              "value": "{Foundations.Spacing.9}",
+              "description": "The height of the basic controls such as buttons and input boxes.",
               "$extensions": {
                 "variableId": "VariableID:91:109"
               }
             },
-            "name": "TokensDarkSizeHeightHeight10",
+            "name": "TokensDarkSizeHeightHeight9",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Size",
               "subitem": "Height",
-              "state": "height-10"
+              "state": "height-9"
             },
             "path": [
               "Tokens",
               "Dark",
               "Size",
               "Height",
-              "height-10"
+              "height-9"
             ]
           },
           "height-0": {
@@ -12222,6 +12321,39 @@ module.exports = {
               "Size",
               "Height",
               "height-0"
+            ]
+          },
+          "height-10": {
+            "type": "dimension",
+            "value": "40px",
+            "description": "LG component height.",
+            "$extensions": {
+              "variableId": "VariableID:722:12317"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Spacing.10}",
+              "description": "LG component height.",
+              "$extensions": {
+                "variableId": "VariableID:722:12317"
+              }
+            },
+            "name": "TokensDarkSizeHeightHeight10",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-10"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Height",
+              "height-10"
             ]
           }
         }
