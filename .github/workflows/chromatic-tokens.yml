@@ -1,26 +1,16 @@
 name: Chromatic Tokens
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Build Design Tokens"]
+    types:
+      - completed
 
 jobs: 
   chromatic_publish:
     runs-on: ubuntu-latest
 
     steps:
-      # Check if the push to main has completed successfully
-      - name: Check if push is successful
-        run: |
-          if [ "$GITHUB_REF" == "refs/heads/main" ]; then
-            echo "Push to main branch is successful. Proceed with Chromatic Publish."
-          else
-            echo "Push to main branch failed. Exiting Chromatic Publish."
-            exit 1
-          fi
-
-      # Steps for Chromatic Publish
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
