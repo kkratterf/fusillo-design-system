@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 29 Oct 2023 16:39:17 GMT
+ * Generated on Sun, 29 Oct 2023 17:06:27 GMT
  */
 
 module.exports = {
@@ -313,74 +313,6 @@ module.exports = {
                 "Background",
                 "Neutral",
                 "bg-interactive-selected-hover"
-              ]
-            },
-            "bg-interactive-disabled": {
-              "type": "color",
-              "value": "#f4f4f5",
-              "description": "The disabled state color of contained elements with a smaller surface area, like a button.",
-              "$extensions": {
-                "variableId": "VariableID:160:290"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
-                "description": "The disabled state color of contained elements with a smaller surface area, like a button.",
-                "$extensions": {
-                  "variableId": "VariableID:160:290"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgInteractiveDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-interactive-disabled"
-              ]
-            },
-            "bg-container-disabled": {
-              "type": "color",
-              "value": "#e4e4e7",
-              "description": "The disabled state color for elements.",
-              "$extensions": {
-                "variableId": "VariableID:160:291"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-200}",
-                "description": "The disabled state color for elements.",
-                "$extensions": {
-                  "variableId": "VariableID:160:291"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgContainerDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-container-disabled"
               ]
             },
             "bg-container-inverse": {
@@ -1656,40 +1588,6 @@ module.exports = {
                 "Neutral",
                 "border-primary-hover"
               ]
-            },
-            "border-primary-disabled": {
-              "type": "color",
-              "value": "#f4f4f5",
-              "description": "The disabled color for borders on any element.",
-              "$extensions": {
-                "variableId": "VariableID:497:1526"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
-                "description": "The disabled color for borders on any element.",
-                "$extensions": {
-                  "variableId": "VariableID:497:1526"
-                }
-              },
-              "name": "TokensLightColorBorderNeutralBorderPrimaryDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Border",
-                "Neutral",
-                "border-primary-disabled"
-              ]
             }
           },
           "Brand": {
@@ -2759,40 +2657,6 @@ module.exports = {
                 "Text",
                 "Neutral",
                 "text-description"
-              ]
-            },
-            "text-disabled": {
-              "type": "color",
-              "value": "#d4d4d8",
-              "description": "Use for text in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:75:30"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-300}",
-                "description": "Use for text in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:75:30"
-                }
-              },
-              "name": "TokensLightColorTextNeutralTextDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-disabled"
               ]
             },
             "text": {
@@ -4035,40 +3899,6 @@ module.exports = {
                 "icon-active"
               ]
             },
-            "icon-disabled": {
-              "type": "color",
-              "value": "#d4d4d8",
-              "description": "The disabled state color for icons.",
-              "$extensions": {
-                "variableId": "VariableID:160:303"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-300}",
-                "description": "The disabled state color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:160:303"
-                }
-              },
-              "name": "TokensLightColorIconNeutralIconDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-disabled"
-              ]
-            },
             "icon-inverse": {
               "type": "color",
               "value": "#fafafa",
@@ -4205,40 +4035,6 @@ module.exports = {
                 "Icon",
                 "Brand",
                 "icon-brand-active"
-              ]
-            },
-            "icon-brand-disabled": {
-              "type": "color",
-              "value": "#dbeafe",
-              "description": "Use for icons that need to pull more focus in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:306"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Brand.brand-100}",
-                "description": "Use for icons that need to pull more focus in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:306"
-                }
-              },
-              "name": "TokensLightColorIconBrandIconBrandDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-disabled"
               ]
             },
             "icon-brand-strong": {
@@ -4413,40 +4209,6 @@ module.exports = {
                 "icon-danger-active"
               ]
             },
-            "icon-danger-disabled": {
-              "type": "color",
-              "value": "#fee2e2",
-              "description": "Use for icons communicating critical information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:313"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Red.red-100}",
-                "description": "Use for icons communicating critical information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:313"
-                }
-              },
-              "name": "TokensLightColorIconDangerIconDangerDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-disabled"
-              ]
-            },
             "icon-danger-strong": {
               "type": "color",
               "value": "#b91c1c",
@@ -4617,40 +4379,6 @@ module.exports = {
                 "Icon",
                 "Success",
                 "icon-success-active"
-              ]
-            },
-            "icon-success-disabled": {
-              "type": "color",
-              "value": "#dcfce7",
-              "description": "Use for icons communicating success information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:324"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Green.green-100}",
-                "description": "Use for icons communicating success information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:324"
-                }
-              },
-              "name": "TokensLightColorIconSuccessIconSuccessDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Success"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Success",
-                "icon-success-disabled"
               ]
             },
             "icon-success-strong": {
@@ -4825,40 +4553,6 @@ module.exports = {
                 "icon-warning-active"
               ]
             },
-            "icon-warning-disabled": {
-              "type": "color",
-              "value": "#fef3c7",
-              "description": "Use for icons communicating warning information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:319"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Amber.amber-100}",
-                "description": "Use for icons communicating warning information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:319"
-                }
-              },
-              "name": "TokensLightColorIconWarningIconWarningDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-disabled"
-              ]
-            },
             "icon-warning-strong": {
               "type": "color",
               "value": "#b45309",
@@ -5031,40 +4725,6 @@ module.exports = {
                 "icon-info-active"
               ]
             },
-            "icon-info-disabled": {
-              "type": "color",
-              "value": "#dbeafe",
-              "description": "Use for icons communicating information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:161:329"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Blue.blue-100}",
-                "description": "Use for icons communicating information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:161:329"
-                }
-              },
-              "name": "TokensLightColorIconInfoIconInfoDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Info"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Info",
-                "icon-info-disabled"
-              ]
-            },
             "icon-info-strong": {
               "type": "color",
               "value": "#1d4ed8",
@@ -5235,40 +4895,6 @@ module.exports = {
                 "Icon",
                 "Discovery",
                 "icon-discovery-active"
-              ]
-            },
-            "icon-discovery-disabled": {
-              "type": "color",
-              "value": "#ede9fe",
-              "description": "Use for icons communicating discovery information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:232:704"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Violet.violet-100}",
-                "description": "Use for icons communicating discovery information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:232:704"
-                }
-              },
-              "name": "TokensLightColorIconDiscoveryIconDiscoveryDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Discovery"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Discovery",
-                "icon-discovery-disabled"
               ]
             },
             "icon-discovery-strong": {
@@ -7127,74 +6753,6 @@ module.exports = {
                 "bg-interactive-selected-hover"
               ]
             },
-            "bg-interactive-disabled": {
-              "type": "color",
-              "value": "#18181b",
-              "description": "The disabled state color of contained elements with a smaller surface area, like a button.",
-              "$extensions": {
-                "variableId": "VariableID:160:290"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "The disabled state color of contained elements with a smaller surface area, like a button.",
-                "$extensions": {
-                  "variableId": "VariableID:160:290"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgInteractiveDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-interactive-disabled"
-              ]
-            },
-            "bg-container-disabled": {
-              "type": "color",
-              "value": "#27272a",
-              "description": "The disabled state color for elements.",
-              "$extensions": {
-                "variableId": "VariableID:160:291"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "The disabled state color for elements.",
-                "$extensions": {
-                  "variableId": "VariableID:160:291"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgContainerDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-container-disabled"
-              ]
-            },
             "bg-container-inverse": {
               "type": "color",
               "value": "#ffffff",
@@ -8468,40 +8026,6 @@ module.exports = {
                 "Neutral",
                 "border-primary-hover"
               ]
-            },
-            "border-primary-disabled": {
-              "type": "color",
-              "value": "#18181b",
-              "description": "The disabled color for borders on any element.",
-              "$extensions": {
-                "variableId": "VariableID:497:1526"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "The disabled color for borders on any element.",
-                "$extensions": {
-                  "variableId": "VariableID:497:1526"
-                }
-              },
-              "name": "TokensDarkColorBorderNeutralBorderPrimaryDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Border",
-                "Neutral",
-                "border-primary-disabled"
-              ]
             }
           },
           "Brand": {
@@ -9571,40 +9095,6 @@ module.exports = {
                 "Text",
                 "Neutral",
                 "text-description"
-              ]
-            },
-            "text-disabled": {
-              "type": "color",
-              "value": "#3f3f46",
-              "description": "Use for text in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:75:30"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-700}",
-                "description": "Use for text in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:75:30"
-                }
-              },
-              "name": "TokensDarkColorTextNeutralTextDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-disabled"
               ]
             },
             "text": {
@@ -10847,40 +10337,6 @@ module.exports = {
                 "icon-active"
               ]
             },
-            "icon-disabled": {
-              "type": "color",
-              "value": "#3f3f46",
-              "description": "The disabled state color for icons.",
-              "$extensions": {
-                "variableId": "VariableID:160:303"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-700}",
-                "description": "The disabled state color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:160:303"
-                }
-              },
-              "name": "TokensDarkColorIconNeutralIconDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-disabled"
-              ]
-            },
             "icon-inverse": {
               "type": "color",
               "value": "#18181b",
@@ -11017,40 +10473,6 @@ module.exports = {
                 "Icon",
                 "Brand",
                 "icon-brand-active"
-              ]
-            },
-            "icon-brand-disabled": {
-              "type": "color",
-              "value": "#172554",
-              "description": "Use for icons that need to pull more focus in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:306"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Brand.brand-950}",
-                "description": "Use for icons that need to pull more focus in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:306"
-                }
-              },
-              "name": "TokensDarkColorIconBrandIconBrandDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-disabled"
               ]
             },
             "icon-brand-strong": {
@@ -11225,40 +10647,6 @@ module.exports = {
                 "icon-danger-active"
               ]
             },
-            "icon-danger-disabled": {
-              "type": "color",
-              "value": "#450a0a",
-              "description": "Use for icons communicating critical information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:313"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Red.red-950}",
-                "description": "Use for icons communicating critical information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:313"
-                }
-              },
-              "name": "TokensDarkColorIconDangerIconDangerDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-disabled"
-              ]
-            },
             "icon-danger-strong": {
               "type": "color",
               "value": "#fca5a5",
@@ -11429,40 +10817,6 @@ module.exports = {
                 "Icon",
                 "Success",
                 "icon-success-active"
-              ]
-            },
-            "icon-success-disabled": {
-              "type": "color",
-              "value": "#052e16",
-              "description": "Use for icons communicating success information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:324"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Green.green-950}",
-                "description": "Use for icons communicating success information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:324"
-                }
-              },
-              "name": "TokensDarkColorIconSuccessIconSuccessDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Success"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Success",
-                "icon-success-disabled"
               ]
             },
             "icon-success-strong": {
@@ -11637,40 +10991,6 @@ module.exports = {
                 "icon-warning-active"
               ]
             },
-            "icon-warning-disabled": {
-              "type": "color",
-              "value": "#451a03",
-              "description": "Use for icons communicating warning information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:160:319"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Amber.amber-950}",
-                "description": "Use for icons communicating warning information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:160:319"
-                }
-              },
-              "name": "TokensDarkColorIconWarningIconWarningDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-disabled"
-              ]
-            },
             "icon-warning-strong": {
               "type": "color",
               "value": "#fcd34d",
@@ -11843,40 +11163,6 @@ module.exports = {
                 "icon-info-active"
               ]
             },
-            "icon-info-disabled": {
-              "type": "color",
-              "value": "#172554",
-              "description": "Use for icons communicating information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:161:329"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Blue.blue-950}",
-                "description": "Use for icons communicating information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:161:329"
-                }
-              },
-              "name": "TokensDarkColorIconInfoIconInfoDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Info"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Info",
-                "icon-info-disabled"
-              ]
-            },
             "icon-info-strong": {
               "type": "color",
               "value": "#93c5fd",
@@ -12047,40 +11333,6 @@ module.exports = {
                 "Icon",
                 "Discovery",
                 "icon-discovery-active"
-              ]
-            },
-            "icon-discovery-disabled": {
-              "type": "color",
-              "value": "#2e1065",
-              "description": "Use for icons communicating discovery information in a disabled state.",
-              "$extensions": {
-                "variableId": "VariableID:232:704"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Violet.violet-950}",
-                "description": "Use for icons communicating discovery information in a disabled state.",
-                "$extensions": {
-                  "variableId": "VariableID:232:704"
-                }
-              },
-              "name": "TokensDarkColorIconDiscoveryIconDiscoveryDisabled",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Discovery"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Discovery",
-                "icon-discovery-disabled"
               ]
             },
             "icon-discovery-strong": {
