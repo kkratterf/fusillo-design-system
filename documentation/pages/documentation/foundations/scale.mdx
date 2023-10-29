@@ -1,4 +1,4 @@
-import spacing from '../../../../design-tokens/export/foundations.js';
+import scale from '../../../../design-tokens/export/foundations.js';
 
 # 🪜 Scale
 
@@ -22,7 +22,7 @@ Each scale value is a multiple of the base unit and ranges from 0px to 384px to 
     </tr>
   </thead>
   <tbody className="w-full">
-  {Object.entries(spacing.Foundations.Spacing).map(([tokenName, tokenInfo]) => (
+  {Object.entries(scale.Foundations.Scale).map(([tokenName, tokenInfo]) => (
   <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
     <td className="w-full capitalize font-medium border-t-0 border-x-0 p-2">Space-{tokenName}</td>
     <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{tokenInfo.value}</div></td>
