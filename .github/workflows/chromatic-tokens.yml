@@ -1,12 +1,12 @@
-name: Chromatic Publish
+name: Chromatic Tokens
 
 on:
   push:
-    paths:
-      - 'design-system/**'
+    branches:
+      - main
 
 jobs:
-  build:
+  chromatic_publish:
     runs-on: ubuntu-latest
 
     steps:
