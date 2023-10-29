@@ -1,9 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Sun, 29 Oct 2023 17:06:26 GMT
+ * Generated on Sun, 29 Oct 2023 17:08:54 GMT
  */
 
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
   --color-brand-50: #eff6ff;
   --color-brand-100: #dbeafe;
   --color-brand-200: #bfdbfe;
@@ -215,4 +220,5 @@
   --color-neutral-900: #18181b;
   --color-neutral-950: #09090b;
   --color-neutral-1000: #000000;
+  }
 }
