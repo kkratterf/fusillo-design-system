@@ -11,36 +11,35 @@
   --nextra-primary-saturation: var(--brand-hue);
 }
 
+.docs_logo {
+  font-weight: 600;
+  font-size: 1.3rem;
+  }
+
 @layer base {
 
   body {
    @apply font-sans
   }
 
-  .docs_logo {
-  font-weight: 600;
-  font-size: 1.5rem;
-}
+  .nx-px-2 {
+    @apply py-1.5 px-4;
+  }
 
-.nx-px-2 {
-  @apply py-1.5 px-4;
-}
+  .nx-rounded {
+    @apply rounded-radius;
+  }
 
-.nx-rounded {
-  @apply rounded-radius;
-}
+  .nx-rounded-lg {
+    @apply rounded-radius;
+  }
 
-.nx-rounded-lg {
- @apply rounded-radius;
-}
-
-iframe {
-  border-radius: var(--border-radius-lg);
-  -webkit-border-radius: var(--border-radius-lg);
-  -moz-border-radius: var(--border-radius-lg);
-  -ms-border-radius: var(--border-radius-lg);
-  -o-border-radius: var(--border-radius-lg);
-}
-
+  iframe {
+    border-radius: var(--border-radius-lg);
+    -webkit-border-radius: var(--border-radius-lg);
+    -moz-border-radius: var(--border-radius-lg);
+    -ms-border-radius: var(--border-radius-lg);
+    -o-border-radius: var(--border-radius-lg);
+  }
 
 }
