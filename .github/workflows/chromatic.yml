@@ -4,7 +4,10 @@ on:
   push:
     paths:
       - 'design-system/**'
-      - 'design-tokens/**'
+  workflow_run:
+    workflows: ["Build Design Tokens"]
+    types:
+      - completed
 
 jobs:
   build:
