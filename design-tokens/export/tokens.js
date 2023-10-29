@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 29 Oct 2023 15:41:15 GMT
+ * Generated on Sun, 29 Oct 2023 16:00:26 GMT
  */
 
 module.exports = {
@@ -5574,6 +5574,72 @@ module.exports = {
               "Width",
               "width-2"
             ]
+          },
+          "width-12": {
+            "type": "dimension",
+            "value": "48px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4439"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.12}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4439"
+              }
+            },
+            "name": "TokensLightSizeWidthWidth12",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-12"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Width",
+              "width-12"
+            ]
+          },
+          "width-16": {
+            "type": "dimension",
+            "value": "64px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4440"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.16}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4440"
+              }
+            },
+            "name": "TokensLightSizeWidthWidth16",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-16"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Width",
+              "width-16"
+            ]
           }
         },
         "Height": {
@@ -5720,7 +5786,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Tokens.Light.Spacing.space-0}",
+              "value": "{Foundations.Scale.0}",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:621:1421"
@@ -5773,6 +5839,105 @@ module.exports = {
               "Size",
               "Height",
               "height-10"
+            ]
+          },
+          "height-2": {
+            "type": "dimension",
+            "value": "8px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4436"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.2}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4436"
+              }
+            },
+            "name": "TokensLightSizeHeightHeight2",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-2"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Height",
+              "height-2"
+            ]
+          },
+          "height-12": {
+            "type": "dimension",
+            "value": "48px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4437"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.12}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4437"
+              }
+            },
+            "name": "TokensLightSizeHeightHeight12",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-12"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Height",
+              "height-12"
+            ]
+          },
+          "height-16": {
+            "type": "dimension",
+            "value": "64px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4438"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.16}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4438"
+              }
+            },
+            "name": "TokensLightSizeHeightHeight16",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-16"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Height",
+              "height-16"
             ]
           }
         }
@@ -12221,6 +12386,72 @@ module.exports = {
               "Width",
               "width-2"
             ]
+          },
+          "width-12": {
+            "type": "dimension",
+            "value": "48px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4439"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.12}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4439"
+              }
+            },
+            "name": "TokensDarkSizeWidthWidth12",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-12"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Width",
+              "width-12"
+            ]
+          },
+          "width-16": {
+            "type": "dimension",
+            "value": "64px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4440"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.16}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4440"
+              }
+            },
+            "name": "TokensDarkSizeWidthWidth16",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-16"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Width",
+              "width-16"
+            ]
           }
         },
         "Height": {
@@ -12367,7 +12598,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Tokens.Dark.Spacing.space-0}",
+              "value": "{Foundations.Scale.0}",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:621:1421"
@@ -12420,6 +12651,105 @@ module.exports = {
               "Size",
               "Height",
               "height-10"
+            ]
+          },
+          "height-2": {
+            "type": "dimension",
+            "value": "8px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4436"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.2}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4436"
+              }
+            },
+            "name": "TokensDarkSizeHeightHeight2",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-2"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Height",
+              "height-2"
+            ]
+          },
+          "height-12": {
+            "type": "dimension",
+            "value": "48px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4437"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.12}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4437"
+              }
+            },
+            "name": "TokensDarkSizeHeightHeight12",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-12"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Height",
+              "height-12"
+            ]
+          },
+          "height-16": {
+            "type": "dimension",
+            "value": "64px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:750:4438"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.16}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:750:4438"
+              }
+            },
+            "name": "TokensDarkSizeHeightHeight16",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-16"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Height",
+              "height-16"
             ]
           }
         }
