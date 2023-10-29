@@ -30,7 +30,7 @@ const meta: Meta<typeof Button> = {
   },
   args: {
     title: 'Button',
-    variant: 'default',
+    variant: 'danger',
     size: 'default',
     asChild: false,
   },
