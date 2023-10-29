@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 29 Oct 2023 15:18:19 GMT
+ * Generated on Sun, 29 Oct 2023 15:41:15 GMT
  */
 
 module.exports = {
@@ -455,7 +455,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "The background color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -489,7 +489,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "The hover state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -625,7 +625,7 @@ module.exports = {
             },
             "bg-brand-selected": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "The selected state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:497:1523"
@@ -1695,7 +1695,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -1729,7 +1729,7 @@ module.exports = {
             },
             "border-brand-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -2901,7 +2901,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "Use for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -2935,7 +2935,7 @@ module.exports = {
             },
             "text-brand-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "The hover state color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:35"
@@ -4107,7 +4107,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "Use for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:53"
@@ -4141,7 +4141,7 @@ module.exports = {
             },
             "icon-brand-hover": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "The hover color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:54"
@@ -5355,7 +5355,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.4}",
+              "value": "{Foundations.Scale.4}",
               "description": "XXS component width.",
               "$extensions": {
                 "variableId": "VariableID:75:68"
@@ -5388,7 +5388,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.6}",
+              "value": "{Foundations.Scale.6}",
               "description": "XS component width.",
               "$extensions": {
                 "variableId": "VariableID:91:110"
@@ -5421,7 +5421,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.8}",
+              "value": "{Foundations.Scale.8}",
               "description": "SM component width.",
               "$extensions": {
                 "variableId": "VariableID:91:111"
@@ -5454,7 +5454,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.9}",
+              "value": "{Foundations.Scale.9}",
               "description": "The width of the basic controls such as icon buttons and toggle.",
               "$extensions": {
                 "variableId": "VariableID:91:112"
@@ -5487,7 +5487,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.0}",
+              "value": "{Foundations.Scale.0}",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:621:1420"
@@ -5520,7 +5520,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
+              "value": "{Foundations.Scale.10}",
               "description": "LG component width.",
               "$extensions": {
                 "variableId": "VariableID:722:12316"
@@ -5553,7 +5553,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.2}",
+              "value": "{Foundations.Scale.2}",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:746:4411"
@@ -5588,7 +5588,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.8}",
+              "value": "{Foundations.Scale.8}",
               "description": "SM component height.",
               "$extensions": {
                 "variableId": "VariableID:75:73"
@@ -5621,7 +5621,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.6}",
+              "value": "{Foundations.Scale.6}",
               "description": "XS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:107"
@@ -5654,7 +5654,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.4}",
+              "value": "{Foundations.Scale.4}",
               "description": "XXS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:108"
@@ -5687,7 +5687,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.9}",
+              "value": "{Foundations.Scale.9}",
               "description": "The height of the basic controls such as buttons and input boxes.",
               "$extensions": {
                 "variableId": "VariableID:91:109"
@@ -5753,7 +5753,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
+              "value": "{Foundations.Scale.10}",
               "description": "LG component height.",
               "$extensions": {
                 "variableId": "VariableID:722:12317"
@@ -5946,7 +5946,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.0}",
+            "value": "{Foundations.Scale.0}",
             "description": "Equates to `0`. Use for resetting default spacing styles.",
             "$extensions": {
               "variableId": "VariableID:125:289"
@@ -5977,7 +5977,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.1}",
+            "value": "{Foundations.Scale.1}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:292"
@@ -6008,7 +6008,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.2}",
+            "value": "{Foundations.Scale.2}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:295"
@@ -6039,7 +6039,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.3}",
+            "value": "{Foundations.Scale.3}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:297"
@@ -6070,7 +6070,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.4}",
+            "value": "{Foundations.Scale.4}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:299"
@@ -6101,7 +6101,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.5}",
+            "value": "{Foundations.Scale.5}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:300"
@@ -6132,7 +6132,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.6}",
+            "value": "{Foundations.Scale.6}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:301"
@@ -6163,7 +6163,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.8}",
+            "value": "{Foundations.Scale.8}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:303"
@@ -6194,7 +6194,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.10}",
+            "value": "{Foundations.Scale.10}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:305"
@@ -6225,7 +6225,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.12}",
+            "value": "{Foundations.Scale.12}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:307"
@@ -6256,7 +6256,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.16}",
+            "value": "{Foundations.Scale.16}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:309"
@@ -6287,7 +6287,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.20}",
+            "value": "{Foundations.Scale.20}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:310"
@@ -6318,7 +6318,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.24}",
+            "value": "{Foundations.Scale.24}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:311"
@@ -6349,7 +6349,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.28}",
+            "value": "{Foundations.Scale.28}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:312"
@@ -6380,7 +6380,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.32}",
+            "value": "{Foundations.Scale.32}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:313"
@@ -6411,7 +6411,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.36}",
+            "value": "{Foundations.Scale.36}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:314"
@@ -6442,7 +6442,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.40}",
+            "value": "{Foundations.Scale.40}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:315"
@@ -7102,7 +7102,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "The background color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -7136,7 +7136,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "The hover state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -7272,7 +7272,7 @@ module.exports = {
             },
             "bg-brand-selected": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "The selected state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:497:1523"
@@ -8342,7 +8342,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -8376,7 +8376,7 @@ module.exports = {
             },
             "border-brand-hover": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -9548,7 +9548,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "Use for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -9582,7 +9582,7 @@ module.exports = {
             },
             "text-brand-hover": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "The hover state color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:35"
@@ -10754,7 +10754,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#8b5cf6",
               "description": "Use for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:53"
@@ -10788,7 +10788,7 @@ module.exports = {
             },
             "icon-brand-hover": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#7c3aed",
               "description": "The hover color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:54"
@@ -12002,7 +12002,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.4}",
+              "value": "{Foundations.Scale.4}",
               "description": "XXS component width.",
               "$extensions": {
                 "variableId": "VariableID:75:68"
@@ -12035,7 +12035,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.6}",
+              "value": "{Foundations.Scale.6}",
               "description": "XS component width.",
               "$extensions": {
                 "variableId": "VariableID:91:110"
@@ -12068,7 +12068,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.8}",
+              "value": "{Foundations.Scale.8}",
               "description": "SM component width.",
               "$extensions": {
                 "variableId": "VariableID:91:111"
@@ -12101,7 +12101,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.9}",
+              "value": "{Foundations.Scale.9}",
               "description": "The width of the basic controls such as icon buttons and toggle.",
               "$extensions": {
                 "variableId": "VariableID:91:112"
@@ -12134,7 +12134,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.0}",
+              "value": "{Foundations.Scale.0}",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:621:1420"
@@ -12167,7 +12167,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
+              "value": "{Foundations.Scale.10}",
               "description": "LG component width.",
               "$extensions": {
                 "variableId": "VariableID:722:12316"
@@ -12200,7 +12200,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.2}",
+              "value": "{Foundations.Scale.2}",
               "description": "",
               "$extensions": {
                 "variableId": "VariableID:746:4411"
@@ -12235,7 +12235,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.8}",
+              "value": "{Foundations.Scale.8}",
               "description": "SM component height.",
               "$extensions": {
                 "variableId": "VariableID:75:73"
@@ -12268,7 +12268,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.6}",
+              "value": "{Foundations.Scale.6}",
               "description": "XS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:107"
@@ -12301,7 +12301,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.4}",
+              "value": "{Foundations.Scale.4}",
               "description": "XXS component height.",
               "$extensions": {
                 "variableId": "VariableID:91:108"
@@ -12334,7 +12334,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.9}",
+              "value": "{Foundations.Scale.9}",
               "description": "The height of the basic controls such as buttons and input boxes.",
               "$extensions": {
                 "variableId": "VariableID:91:109"
@@ -12400,7 +12400,7 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "{Foundations.Spacing.10}",
+              "value": "{Foundations.Scale.10}",
               "description": "LG component height.",
               "$extensions": {
                 "variableId": "VariableID:722:12317"
@@ -12593,7 +12593,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.0}",
+            "value": "{Foundations.Scale.0}",
             "description": "Equates to `0`. Use for resetting default spacing styles.",
             "$extensions": {
               "variableId": "VariableID:125:289"
@@ -12624,7 +12624,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.1}",
+            "value": "{Foundations.Scale.1}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:292"
@@ -12655,7 +12655,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.2}",
+            "value": "{Foundations.Scale.2}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:295"
@@ -12686,7 +12686,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.3}",
+            "value": "{Foundations.Scale.3}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:297"
@@ -12717,7 +12717,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.4}",
+            "value": "{Foundations.Scale.4}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:299"
@@ -12748,7 +12748,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.5}",
+            "value": "{Foundations.Scale.5}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:300"
@@ -12779,7 +12779,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.6}",
+            "value": "{Foundations.Scale.6}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:301"
@@ -12810,7 +12810,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.8}",
+            "value": "{Foundations.Scale.8}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:303"
@@ -12841,7 +12841,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.10}",
+            "value": "{Foundations.Scale.10}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:305"
@@ -12872,7 +12872,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.12}",
+            "value": "{Foundations.Scale.12}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:307"
@@ -12903,7 +12903,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.16}",
+            "value": "{Foundations.Scale.16}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:309"
@@ -12934,7 +12934,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.20}",
+            "value": "{Foundations.Scale.20}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:310"
@@ -12965,7 +12965,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.24}",
+            "value": "{Foundations.Scale.24}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:311"
@@ -12996,7 +12996,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.28}",
+            "value": "{Foundations.Scale.28}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:312"
@@ -13027,7 +13027,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.32}",
+            "value": "{Foundations.Scale.32}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:313"
@@ -13058,7 +13058,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.36}",
+            "value": "{Foundations.Scale.36}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:314"
@@ -13089,7 +13089,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Spacing.40}",
+            "value": "{Foundations.Scale.40}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:125:315"
