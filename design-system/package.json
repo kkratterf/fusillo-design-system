@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_53f57b433e23d30"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -77,9 +78,11 @@
     "@storybook/react": "^7.5.0",
     "@storybook/test-runner": "^0.13.0",
     "@storybook/testing-library": "^0.2.2",
-    "chromatic": "^7.2.0",
+    "chromatic": "^7.5.4",
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.5.0",
     "storybook-tailwind-dark-mode": "^1.0.22"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "design-system@1.0.1"
 }

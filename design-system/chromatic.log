@@ -1,0 +1,114 @@
+
+Chromatic CLI v7.5.4
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************3d30'
+Retrieving git information
+Retrieved git information
+    → Commit '2c223db' on branch 'main'; found 1 parent build
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.0 for React; no supported addons found
+Initializing build
+Initialized build
+    → Build 2 initialized
+Building your Storybook
+    → Running command: npm run build-storybook -- --output-dir /var/folders/77/q1qhrg853n94d1hzfc35t6nc0000gn/T/chromatic--3520-95Zgey4ZlM2n
+Storybook built in 19 seconds
+    → View build log at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 1%
+    → [==                  ] 8%
+    → [==                  ] 11%
+    → [===                 ] 16%
+    → [===                 ] 17%
+    → [====                ] 18%
+    → [====                ] 20%
+    → [=====               ] 23%
+    → [=====               ] 26%
+    → [=====               ] 27%
+    → [======              ] 28%
+    → [======              ] 32%
+    → [=======             ] 34%
+    → [=======             ] 37%
+    → [========            ] 39%
+    → [========            ] 40%
+    → [========            ] 42%
+    → [=========           ] 44%
+    → [=========           ] 45%
+    → [=========           ] 47%
+    → [==========          ] 48%
+    → [==========          ] 49%
+    → [==========          ] 52%
+    → [===========         ] 53%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [===========         ] 57%
+    → [============        ] 58%
+    → [============        ] 59%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [============        ] 62%
+    → [=============       ] 63%
+    → [=============       ] 65%
+    → [=============       ] 66%
+    → [=============       ] 67%
+    → [==============      ] 68%
+    → [==============      ] 69%
+    → [==============      ] 70%
+    → [==============      ] 71%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 77%
+    → [================    ] 78%
+    → [================    ] 79%
+    → [================    ] 80%
+    → [================    ] 81%
+    → [================    ] 82%
+    → [=================   ] 83%
+    → [=================   ] 84%
+    → [=================   ] 86%
+    → [=================   ] 87%
+    → [==================  ] 89%
+    → [==================  ] 90%
+    → [==================  ] 91%
+    → [=================== ] 93%
+    → [=================== ] 95%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 98%
+    → [====================] 99%
+Publish complete in 16 seconds
+    → View your Storybook at https://653e613f4feb85c1b6467ba7-nnlgmkrpze.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 2
+    → View build details at https://www.chromatic.com/build?appId=653e613f4feb85c1b6467ba7&number=2
+Running 11 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [==                  ] 1/11  Accordion › Default 
+    → [====                ] 2/11  Accordion › Expanded by default 
+    → [=====               ] 3/11  Accordion › Multiple items opened 
+    → [=======             ] 4/11  Alert › Default 
+    → [=========           ] 5/11  Alert › Danger 
+    → [===========         ] 6/11  Badge › Default 
+    → [=============       ] 7/11  Badge › Danger 
+    → [===============     ] 8/11  Button › Default 
+    → [================    ] 9/11  Button › Danger 
+    → [==================  ] 10/11  Button › Outline 
+    → [====================] 11/11  Button › Secondary 
+✔ Build 2 passed!
+No visual changes were found in this build.
+ℹ View build details at https://www.chromatic.com/build?appId=653e613f4feb85c1b6467ba7&number=2
