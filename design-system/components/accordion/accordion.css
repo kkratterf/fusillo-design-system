@@ -1,4 +1,6 @@
 @import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
 
 @tailwind base;
 @tailwind components;
@@ -6,16 +8,12 @@
 
 @layer components {
 
-  .accordion-root {
-    @apply border border-color-border-primary rounded-radius;
-  }
-
   .accordion-item {
     @apply border-b border-b-color-border-primary last:border-none;
   }
   
   .accordion-trigger {
-    @apply flex flex-1 items-center body-large-medium text-color-text justify-between p-4 transition-all bg-color-bg-interactive hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180;
+    @apply flex flex-1 items-center body-large-medium text-color-text justify-between p-4 transition-all bg-color-bg-interactive hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180 ring-offset-color-bg-layout focus-visible:outline-none focus-visible:rounded-radius focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2;
   }
 
   .accordion-content {

@@ -1,3 +1,7 @@
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +9,44 @@
 
 @layer components {
 
-    
+    .alert-default {
+    @apply bg-color-bg-container border-color-border-primary text-color-text stroke-color-icon-active;
+    }
 
+    .alert-danger {
+    @apply bg-color-bg-danger-subtlest border-color-border-danger-subtlest text-color-text-danger-strong stroke-color-icon-danger-strong;
+    }
+
+    .alert-warning {
+    @apply bg-color-bg-warning-subtlest border-color-border-warning-subtlest text-color-text-warning-strong stroke-color-icon-warning-strong;
+    }
+
+    .alert-success {
+    @apply bg-color-bg-success-subtlest border-color-border-success-subtlest text-color-text-success-strong stroke-color-icon-success-strong;
+    }
+
+    .alert-info {
+    @apply bg-color-bg-info-subtlest border-color-border-info-subtlest text-color-text-info-strong stroke-color-icon-info-strong;
+    }
+
+    .alert-discovery {
+    @apply bg-color-bg-discovery-subtlest border-color-border-discovery-subtlest text-color-text-discovery-strong stroke-color-icon-discovery-strong;
+    }
+
+    .alert-component {
+    @apply relative w-full rounded-lg border p-4;
+    }
+
+    .alert-icon {
+    @apply [&>svg~*]:pl-6 [&>+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:stroke-2 [&>svg]:w-6 [&>svg]:h-6
+    }
+
+    .alert-title {
+        @apply body-large-medium mb-1;
+    }
+
+    .alert-description {
+        @apply body-base text-color-text;
+    }
+    
 }

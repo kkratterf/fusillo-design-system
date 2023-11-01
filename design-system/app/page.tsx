@@ -1,6 +1,8 @@
-import { IconAccessibility, IconMail, IconMailCheck } from '@/components/icon';
-import { Button } from '@/components/button';
-import { ThemeProvider } from '@/components/theme';
+'use client'
+
+import { IconAccessibility } from '@/components/icon';
+import { Button, IconButton } from '@/components/button';
+import { useTheme } from '@/components/theme';
 import {
   Accordion,
   AccordionContent,
@@ -8,85 +10,119 @@ import {
   AccordionTrigger,
 } from '@/components/accordion';
 
-import { Alert, AlertDescription, AlertTitle } from '@/components/alert';
+import { Alert, AlertIcon, AlertDescription, AlertTitle } from '@/components/alert';
 
 
 export default function Home() {
 
+  const theme = useTheme();
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
-        <ThemeProvider theme="dark">
-          <div className='bg-color-bg-layout'>
-            <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
-                <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger>Diocan</AccordionTrigger>
-                <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-            <div className="rounded-radius-sm h-sm w-sm bg-brand-200"></div>
-            <h1 className="title-screen">Lorem ipsum dolor sit amet</h1>
-            <h2 className="title-section">Lorem ipsum dolor sit amet</h2>
-            <h3 className="title-subsection">Lorem ipsum dolor sit amet</h3>
-            <h4 className="title-body">Lorem ipsum dolor sit amet</h4>
-            <h5 className="title-group">Lorem ipsum dolor sit amet</h5>
-            <p className="body-large-semibold">Lorem ipsum dolor sit amet</p>
-            <p className="body-base">Lorem ipsum dolor sit amet</p>
-            <div className="p-2 bg-color-bg-brand m-40">Lorem ipsum</div>
-          </div>
-          <Button title="Diocan" />
-          <ThemeProvider theme="light">
-            <Button title="Diocan" />
-          </ThemeProvider>
-          <Alert>
-            <IconAccessibility color="brand" size="xl" />
-            <AlertTitle>Heads up!</AlertTitle>
-            <AlertDescription>
-              You can add components and dependencies to your app using the cli.
-            </AlertDescription>
-          </Alert>
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1">
-              <AccordionTrigger>Is it accessible?</AccordionTrigger>
-              <AccordionContent>
-                Yes. It adheres to the WAI-ARIA design pattern.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2">
-              <AccordionTrigger>Diocan</AccordionTrigger>
-              <AccordionContent>
-                Yes. It adheres to the WAI-ARIA design pattern.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </ThemeProvider>
-        <ThemeProvider theme="light">
-          <Button title="Diocan" />
-        </ThemeProvider>
-        <ThemeProvider>
-          <Button title="Diocan" />
-        </ThemeProvider>
-        <Button title="Prova" />
-        <Button title="Prova bis?" />
+    <main
+      className={`bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24 ${
+        theme === 'dark' ? 'dark' : 'light'
+      }`}
+    >
+      <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
+        <Accordion type="single" collapsible>
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Diocan</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+
+        <Accordion type="multiple">
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Diocan</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+
+        <Button title="Diocan" />
+        <Button variant="secondary" title="Diocan" />
+        <Button variant="text" title="Diocan" />
+        <Button variant="link" title="Diocan" />
+        <Button variant="danger" title="Diocan" />
+
+        <IconButton icon={<IconAccessibility />}></IconButton>
+        <IconButton
+          variant="secondary"
+          icon={<IconAccessibility />}
+        ></IconButton>
+        <IconButton variant="text" icon={<IconAccessibility />}></IconButton>
+        <IconButton variant="link" icon={<IconAccessibility />}></IconButton>
+        <IconButton variant="danger" icon={<IconAccessibility />}></IconButton>
+
         <Alert>
-          <IconAccessibility color="brand" size="xl" />
+          <AlertIcon>
+            <IconAccessibility />
+          </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <IconAccessibility color="brand" size="xl" />
-        <IconMail color="danger" size="sm" />
-        <IconMailCheck color="warning" size="xs" />
-        <IconMailCheck color="default" size="xs" />
+        <Alert variant="danger">
+          <AlertIcon>
+            <IconAccessibility />
+          </AlertIcon>
+          <AlertTitle>Heads up!</AlertTitle>
+          <AlertDescription>
+            You can add components and dependencies to your app using the cli.
+          </AlertDescription>
+        </Alert>
+        <Alert variant="warning">
+          <AlertIcon>
+            <IconAccessibility />
+          </AlertIcon>
+          <AlertTitle>Heads up!</AlertTitle>
+          <AlertDescription>
+            You can add components and dependencies to your app using the cli.
+          </AlertDescription>
+        </Alert>
+        <Alert variant="success">
+          <AlertIcon>
+            <IconAccessibility />
+          </AlertIcon>
+          <AlertTitle>Heads up!</AlertTitle>
+          <AlertDescription>
+            You can add components and dependencies to your app using the cli.
+          </AlertDescription>
+        </Alert>
+        <Alert variant="info">
+          <AlertIcon>
+            <IconAccessibility />
+          </AlertIcon>
+          <AlertTitle>Heads up!</AlertTitle>
+          <AlertDescription>
+            You can add components and dependencies to your app using the cli.
+          </AlertDescription>
+        </Alert>
+        <Alert variant="discovery">
+          <AlertIcon>
+            <IconAccessibility />
+          </AlertIcon>
+          <AlertTitle>Heads up!</AlertTitle>
+          <AlertDescription>
+            Dai su diomerda perchè non funziona
+          </AlertDescription>
+        </Alert>
       </div>
     </main>
   );

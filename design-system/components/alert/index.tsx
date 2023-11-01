@@ -1,37 +1,62 @@
+'use client'
+
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
+import { useTheme } from '../theme';
 import './alert.css';
 
 import { cn } from "../../lib/utils"
 
-const alertVariants = cva(
-  'relative w-full rounded-lg border p-4 [&>svg~*]:pl-7 [&>svg+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:text-foreground',
-  {
-    variants: {
-      variant: {
-        default: 'bg-background text-foreground',
-        danger:
-          'border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive',
-      },
+const alertVariants = cva('alert-component', {
+  variants: {
+    variant: {
+      default: 'alert-default',
+      danger: 'alert-danger',
+      warning: 'alert-warning',
+      success: 'alert-success',
+      info: 'alert-info',
+      discovery: 'alert-discovery',
     },
-    defaultVariants: {
-      variant: 'default',
+    theme: {
+      light: '',
+      dark: 'dark',
     },
-  }
-);
+  },
+  defaultVariants: {
+    variant: 'default',
+  },
+});
 
 const Alert = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement> & VariantProps<typeof alertVariants>
->(({ className, variant, ...props }, ref) => (
+>(({ className, variant, ...props }, ref) => {
+  const themeContext = useTheme();
+  const theme = themeContext || 'light'; // Use 'light' if ThemeProvider is not present
+  return (
+    <div
+      ref={ref}
+      role="alert"
+      className={cn(alertVariants({ variant }), className, theme)}
+      {...props}
+    />
+  );
+});
+Alert.displayName = 'Alert';
+
+const AlertIcon = React.forwardRef<
+  HTMLParagraphElement,
+  React.HTMLAttributes<HTMLHeadingElement>
+>(({ className, children, ...props }, ref) => (
   <div
     ref={ref}
-    role="alert"
-    className={cn(alertVariants({ variant }), className)}
+    className={cn('alert-icon', className)}
     {...props}
-  />
-))
-Alert.displayName = "Alert"
+  >
+    {children}
+  </div>
+));
+AlertIcon.displayName = 'AlertIcon';
 
 const AlertTitle = React.forwardRef<
   HTMLParagraphElement,
@@ -39,7 +64,7 @@ const AlertTitle = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <h5
     ref={ref}
-    className={cn("mb-1 font-medium leading-none tracking-tight", className)}
+    className={cn("alert-title", className)}
     {...props}
   />
 ))
@@ -51,10 +76,10 @@ const AlertDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("text-sm [&_p]:leading-relaxed", className)}
+    className={cn('alert-description', className)}
     {...props}
   />
-))
+));
 AlertDescription.displayName = "AlertDescription"
 
-export { Alert, AlertTitle, AlertDescription }
+export { Alert, AlertIcon, AlertTitle, AlertDescription }

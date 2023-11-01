@@ -31,7 +31,6 @@ const meta: Meta<typeof Button> = {
   args: {
     title: 'Button',
     variant: 'danger',
-    size: 'default',
     asChild: false,
   },
 };
@@ -42,38 +41,9 @@ type Story = StoryObj<typeof Button>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 
-export const Default = {
+export const Primary = {
   args: {
-    variant: 'default',
-    size: 'default',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
-  },
-};
-
-export const Danger: Story = {
-  args: {
-    variant: 'danger',
-    size: 'default',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
-  },
-};
-
-export const Outline: Story = {
-  args: {
-    variant: 'outline',
-    size: 'default',
+    variant: 'primary',
   },
   parameters: {
     docs: {
@@ -87,7 +57,45 @@ export const Outline: Story = {
 export const Secondary: Story = {
   args: {
     variant: 'secondary',
-    size: 'default',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const Text: Story = {
+  args: {
+    variant: 'text',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const Link: Story = {
+  args: {
+    variant: 'link',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const Danger: Story = {
+  args: {
+    variant: 'danger',
   },
   parameters: {
     docs: {

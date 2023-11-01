@@ -16,11 +16,13 @@ type AccordionArgs = {
 
 const AccordionComponent = ({
   type,
+  collapsible,
   expandedByDefault,
 }: AccordionArgs) => {
   return (
     <Accordion
       type={type}
+      collapsible={true}
       defaultValue={expandedByDefault}
     >
       <AccordionItem value="item-1">

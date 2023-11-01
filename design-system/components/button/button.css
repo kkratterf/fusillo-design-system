@@ -1,3 +1,7 @@
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,8 +9,52 @@
 
 @layer components {
 
-  .button-default {
+  .button-component {
+    @apply h-9 rounded-radius px-3 inline-flex items-center justify-center body-base-medium ring-offset-color-bg-layout transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .button-primary {
     @apply bg-color-bg-brand text-color-text-brand-inverse hover:bg-color-bg-brand-hover active:bg-color-bg-brand-active;
+  }
+
+  .button-secondary {
+    @apply bg-color-bg-interactive text-color-text border border-color-border-primary hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected active:border-color-border-primary-hover;
+  }
+
+  .button-text {
+    @apply text-color-text hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected;
+  }
+
+  .button-link {
+    @apply text-color-text-brand underline underline-offset-4 hover:text-color-text-brand-hover active:text-color-text-brand-active;
+  }
+
+  .button-danger {
+    @apply bg-color-bg-danger text-color-text-danger-inverse hover:bg-color-bg-danger-hover active:bg-color-bg-danger-active;
+  }
+
+  .icon-button-component {
+    @apply h-9 w-9 rounded-radius px-3 inline-flex items-center justify-center body-base-medium ring-offset-color-bg-layout transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .icon-button-primary {
+    @apply bg-color-bg-brand text-color-text-brand-inverse hover:bg-color-bg-brand-hover active:bg-color-bg-brand-active;
+  }
+
+  .icon-button-secondary {
+    @apply bg-color-bg-interactive text-color-text border border-color-border-primary hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected active:border-color-border-primary-hover;
+  }
+
+  .icon-button-text {
+    @apply text-color-text hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected;
+  }
+
+  .icon-button-link {
+    @apply text-color-text-brand underline underline-offset-4 hover:text-color-text-brand-hover active:text-color-text-brand-active;
+  }
+
+  .icon-button-danger {
+    @apply bg-color-bg-danger text-color-text-danger-inverse hover:bg-color-bg-danger-hover active:bg-color-bg-danger-active;
   }
 
 }

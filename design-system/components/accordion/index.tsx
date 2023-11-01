@@ -2,23 +2,39 @@
 
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
-import { ChevronDown } from "lucide-react"
+import { cva, type VariantProps } from 'class-variance-authority';
+import { ChevronDown } from "lucide-react";
+import { useTheme } from '../theme';
 import './accordion.css'
 
 import { cn } from '../../lib/utils';
 
-/* const Accordion = AccordionPrimitive.Root */
+const accordionVariants = cva('accordion-root', {
+  variants: {
+    theme: {
+      light: '',
+      dark: 'dark',
+    },
+  },
+  defaultVariants: {
+    theme: 'light',
+  },
+});
 
 const Accordion = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Root>
->(({ className, ...props }, ref) => (
+>(({ className, ...props }, ref) => {
+  const themeContext = useTheme();
+  const theme = themeContext || 'light'; // Use 'light' if ThemeProvider is not present
+  return (
   <AccordionPrimitive.Root
     ref={ref}
-    className={cn('accordion-root', className)}
+    className={cn('accordion-root', accordionVariants({ theme }), className)}
     {...props}
   />
-));
+  );
+});
 Accordion.displayName = 'Accordion';
 
 const AccordionItem = React.forwardRef<
@@ -27,7 +43,7 @@ const AccordionItem = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AccordionPrimitive.Item
     ref={ref}
-    className={cn('accordion-item AccordionItem', className)}
+    className={cn('accordion-item', className)}
     {...props}
   />
 ));
@@ -66,5 +82,6 @@ const AccordionContent = React.forwardRef<
   </AccordionPrimitive.Content>
 ))
 AccordionContent.displayName = AccordionPrimitive.Content.displayName
+
 
 export { Accordion, AccordionItem, AccordionTrigger, AccordionContent }

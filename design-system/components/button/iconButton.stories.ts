@@ -1,10 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Alert } from '.';
+import { IconAccessibility } from '../icon';
+import { IconButton } from '.';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
-const meta: Meta<typeof Alert> = {
-  title: 'Design System/Components/Alert',
-  component: Alert,
+const meta: Meta<typeof IconButton> = {
+  title: 'Design System/Components/Icon Button',
+  component: IconButton,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'centered',
@@ -13,7 +14,8 @@ const meta: Meta<typeof Alert> = {
     },
     docs: {
       description: {
-        component: 'Displays a callout for user attention.',
+        component:
+          'Triggers an event or action. They let users know what will happen next.',
       },
     },
     design: {
@@ -28,21 +30,59 @@ const meta: Meta<typeof Alert> = {
     // backgroundColor: { control: 'color' },
   },
   args: {
-    variant: 'default',
-    theme: 'light',
+    icon: IconAccessibility,
+    variant: 'danger',
   },
 };
 
 export default meta;
 
-type Story = StoryObj<typeof Alert>;
+type Story = StoryObj<typeof IconButton>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 
-export const Default = {
+export const Primary = {
   args: {
-    variant: 'default',
-    size: 'default',
+    variant: 'primary',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    variant: 'secondary',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const Text: Story = {
+  args: {
+    variant: 'text',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const Link: Story = {
+  args: {
+    variant: 'link',
   },
   parameters: {
     docs: {

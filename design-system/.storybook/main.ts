@@ -23,8 +23,9 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-a11y'),
     getAbsolutePath('@storybook/addon-designs'),
     getAbsolutePath('@storybook/addon-themes'),
-    '@storybook/addon-themes',
-    '@storybook/addon-styling-webpack',
+    getAbsolutePath("@storybook/addon-themes"),
+    getAbsolutePath("@storybook/addon-styling-webpack"),
+    getAbsolutePath("@storybook/addon-mdx-gfm")
   ],
   framework: {
     name: getAbsolutePath('@storybook/nextjs'),

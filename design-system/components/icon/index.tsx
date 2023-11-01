@@ -1266,8 +1266,8 @@ import {
 import '../../style/tokens.css';
 
 type IconProps = {
-  color: keyof typeof colorToHex;
-  size: keyof typeof sizeToPx;
+  color?: keyof typeof colorToHex;
+  size?: keyof typeof sizeToPx;
 };
 
 const colorToHex: Record<string, string> = {

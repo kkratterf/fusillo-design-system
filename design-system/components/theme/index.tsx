@@ -1,5 +1,9 @@
 'use client'
 
+import '../../style/global.css'
+import '../../style/foundations.css';
+import '../../style/tokens.css';
+
 import React, {
   createContext,
   useState,
@@ -18,12 +22,14 @@ export const ThemeProvider: React.FC<{
 }> = ({ theme, children }) => {
   
   const getSystemTheme = (): Theme => {
-    if (
-      window.matchMedia &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches
-    ) {
-      return 'dark';
+    if (typeof window !== 'undefined' && window.matchMedia) {
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        return 'dark';
+      } else {
+        return 'light';
+      }
     } else {
+      // Gestire il caso in cui window non è definito
       return 'light';
     }
   };
