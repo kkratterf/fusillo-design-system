@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
+      <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
