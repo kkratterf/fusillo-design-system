@@ -51,6 +51,11 @@ module.exports = {
       'radius-lg': 'var(--border-radius-lg)',
       'radius-full': 'var(--border-radius-full)',
     },
+    extend: {
+      colors: {
+        'color-bg-brand': 'var(--color-bg-brand)', 
+      }
+    },
   },
   plugins: [],
 };

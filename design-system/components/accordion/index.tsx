@@ -1,36 +1,23 @@
 "use client"
 
-import * as React from "react"
-import * as AccordionPrimitive from "@radix-ui/react-accordion"
-import { cva, type VariantProps } from 'class-variance-authority';
-import { ChevronDown } from "lucide-react";
-import { useTheme } from '../theme';
+// Import core
+import * as React from 'react';
+// Import third parts
+import * as AccordionPrimitive from '@radix-ui/react-accordion';
+// Import customs
+import { IconChevronDown } from '../icon';
 import './accordion.css'
-
 import { cn } from '../../lib/utils';
 
-const accordionVariants = cva('accordion-root', {
-  variants: {
-    theme: {
-      light: '',
-      dark: 'dark',
-    },
-  },
-  defaultVariants: {
-    theme: 'light',
-  },
-});
 
 const Accordion = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Root>
 >(({ className, ...props }, ref) => {
-  const themeContext = useTheme();
-  const theme = themeContext || 'light'; // Use 'light' if ThemeProvider is not present
   return (
   <AccordionPrimitive.Root
     ref={ref}
-    className={cn('accordion-root', accordionVariants({ theme }), className)}
+    className={cn('accordion-root', className)}
     {...props}
   />
   );
@@ -56,11 +43,11 @@ const AccordionTrigger = React.forwardRef<
   <AccordionPrimitive.Header className="accordion-header">
     <AccordionPrimitive.Trigger
       ref={ref}
-      className={cn('accordion-trigger body-large-medium', className)}
+      className={cn('accordion-trigger', className)}
       {...props}
     >
       {children}
-      <ChevronDown className="accordion-icon" />
+      <IconChevronDown className="accordion-icon" />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ));

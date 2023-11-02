@@ -1,12 +1,14 @@
+/* Import style */
 @import '../../style/global.css';
 @import '../../style/foundations.css';
 @import '../../style/tokens.css';
 
+/* Import tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+/* Tailwind layer */
 @layer components {
 
     .alert-default {

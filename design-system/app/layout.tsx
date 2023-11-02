@@ -1,4 +1,3 @@
-import { ThemeProvider } from '@/components/theme';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,12 +10,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-
   return (
-    <ThemeProvider theme='dark'>
-      <html lang="en">
-        <body>{children}</body>
-      </html>
-    </ThemeProvider>
+    <html lang="en">
+      <body className="dark">{children}</body>
+    </html>
   );
 }

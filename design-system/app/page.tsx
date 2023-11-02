@@ -1,32 +1,35 @@
-'use client'
-
 import { IconAccessibility } from '@/components/icon';
-import { Button, IconButton } from '@/components/button';
-import { useTheme } from '@/components/theme';
+import { Button } from '@/components/button';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from '@/components/accordion';
-
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/alert-dialog';
 import { Alert, AlertIcon, AlertDescription, AlertTitle } from '@/components/alert';
 
 
 export default function Home() {
 
-  const theme = useTheme();
-
   return (
-    <main
-      className={`bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24 ${
-        theme === 'dark' ? 'dark' : 'light'
-      }`}
-    >
+    <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionTrigger>
+              Is it accessible?
+              </AccordionTrigger>
             <AccordionContent>
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
@@ -59,15 +62,6 @@ export default function Home() {
         <Button variant="text" title="Diocan" />
         <Button variant="link" title="Diocan" />
         <Button variant="danger" title="Diocan" />
-
-        <IconButton icon={<IconAccessibility />}></IconButton>
-        <IconButton
-          variant="secondary"
-          icon={<IconAccessibility />}
-        ></IconButton>
-        <IconButton variant="text" icon={<IconAccessibility />}></IconButton>
-        <IconButton variant="link" icon={<IconAccessibility />}></IconButton>
-        <IconButton variant="danger" icon={<IconAccessibility />}></IconButton>
 
         <Alert>
           <AlertIcon>
@@ -123,6 +117,25 @@ export default function Home() {
             Dai su diomerda perchè non funziona
           </AlertDescription>
         </Alert>
+
+        <AlertDialog>
+          <AlertDialogTrigger asChild>
+            <Button variant="secondary">Show Dialog</Button>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+              <AlertDialogDescription>
+                This action cannot be undone. This will permanently delete your
+                account and remove your data from our servers.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction>Continue</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </div>
     </main>
   );

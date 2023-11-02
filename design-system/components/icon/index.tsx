@@ -1268,6 +1268,7 @@ import '../../style/tokens.css';
 type IconProps = {
   color?: keyof typeof colorToHex;
   size?: keyof typeof sizeToPx;
+  className?: string;
 };
 
 const colorToHex: Record<string, string> = {
@@ -1294,141 +1295,142 @@ const getIcon = (color: IconProps['color'], size: IconProps['size']) => {
   return { pixelSize, colorHex };
 };
 
-const IconAccessibility: React.FC<IconProps> = ({ color, size }) => {
+const IconAccessibility: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Accessibility color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Accessibility color={colorHex} size={pixelSize} strokeWidth={stroke} className={className}/>
   );
 };
 
-const IconActivitySquare: React.FC<IconProps> = ({ color, size }) => {
+const IconActivitySquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ActivitySquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ActivitySquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconActivity: React.FC<IconProps> = ({ color, size }) => {
+const IconActivity: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Activity color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Activity color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlarmCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconAlarmCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlarmCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlarmCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAirVent: React.FC<IconProps> = ({ color, size }) => {
+const IconAirVent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AirVent color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AirVent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAirplay: React.FC<IconProps> = ({ color, size }) => {
+const IconAirplay: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Airplay color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Airplay color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlarmClock: React.FC<IconProps> = ({ color, size }) => {
+const IconAlarmClock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlarmClock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlarmClock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlarmClockOff: React.FC<IconProps> = ({ color, size }) => {
+const IconAlarmClockOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <AlarmClockOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <AlarmClockOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconAlarmMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconAlarmMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlarmMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlarmMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlarmPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconAlarmPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlarmPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlarmPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlbum: React.FC<IconProps> = ({ color, size }) => {
+const IconAlbum: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Album color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Album color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlertCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconAlertCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlertCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlertCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlertOctagon: React.FC<IconProps> = ({ color, size }) => {
+const IconAlertOctagon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <AlertOctagon color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <AlertOctagon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconAlertTriangle: React.FC<IconProps> = ({ color, size }) => {
+const IconAlertTriangle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <AlertTriangle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <AlertTriangle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconAlignCenterHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignCenterHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignCenterHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconAlignCenterVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignCenterVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignCenterVertical
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconAlignCenter: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignCenter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlignCenter color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlignCenter color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlignEndHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignEndHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignEndHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconAlignEndVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignEndVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <AlignEndVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <AlignEndVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
 const IconAlignHorizontalDistributeCenter: React.FC<IconProps> = ({
   color,
   size,
+  className
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignHorizontalDistributeCenter
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
@@ -1436,6 +1438,7 @@ const IconAlignHorizontalDistributeCenter: React.FC<IconProps> = ({
 const IconAlignHorizontalDistributeEnd: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1443,6 +1446,7 @@ const IconAlignHorizontalDistributeEnd: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1450,6 +1454,7 @@ const IconAlignHorizontalDistributeEnd: React.FC<IconProps> = ({
 const IconAlignHorizontalDistributeStart: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1457,6 +1462,7 @@ const IconAlignHorizontalDistributeStart: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1464,6 +1470,7 @@ const IconAlignHorizontalDistributeStart: React.FC<IconProps> = ({
 const IconAlignHorizontalJustifyCenter: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1471,6 +1478,7 @@ const IconAlignHorizontalJustifyCenter: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1478,6 +1486,7 @@ const IconAlignHorizontalJustifyCenter: React.FC<IconProps> = ({
 const IconAlignHorizontalJustifyEnd: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1485,6 +1494,7 @@ const IconAlignHorizontalJustifyEnd: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1492,6 +1502,7 @@ const IconAlignHorizontalJustifyEnd: React.FC<IconProps> = ({
 const IconAlignHorizontalJustifyStart: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1499,6 +1510,7 @@ const IconAlignHorizontalJustifyStart: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1506,6 +1518,7 @@ const IconAlignHorizontalJustifyStart: React.FC<IconProps> = ({
 const IconAlignHorizontalSpaceAround: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1513,6 +1526,7 @@ const IconAlignHorizontalSpaceAround: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1520,6 +1534,7 @@ const IconAlignHorizontalSpaceAround: React.FC<IconProps> = ({
 const IconAlignHorizontalSpaceBetween: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1527,45 +1542,46 @@ const IconAlignHorizontalSpaceBetween: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
 
-const IconAlignJustify: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignJustify: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <AlignJustify color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <AlignJustify color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconAlignLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlignLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlignLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlignRight: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AlignRight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AlignRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAlignStartHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignStartHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignStartHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconAlignStartVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignStartVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignStartVertical
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
@@ -1573,6 +1589,7 @@ const IconAlignStartVertical: React.FC<IconProps> = ({ color, size }) => {
 const IconAlignVerticalDistributeCenter: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1580,6 +1597,7 @@ const IconAlignVerticalDistributeCenter: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1587,6 +1605,7 @@ const IconAlignVerticalDistributeCenter: React.FC<IconProps> = ({
 const IconAlignVerticalDistributeEnd: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1594,6 +1613,7 @@ const IconAlignVerticalDistributeEnd: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1601,6 +1621,7 @@ const IconAlignVerticalDistributeEnd: React.FC<IconProps> = ({
 const IconAlignVerticalDistributeStart: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1608,6 +1629,7 @@ const IconAlignVerticalDistributeStart: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
@@ -1615,6 +1637,7 @@ const IconAlignVerticalDistributeStart: React.FC<IconProps> = ({
 const IconAlignVerticalJustifyCenter: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1622,17 +1645,18 @@ const IconAlignVerticalJustifyCenter: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
 
-const IconAlignVerticalJustifyEnd: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignVerticalJustifyEnd: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignVerticalJustifyEnd
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
@@ -1640,6 +1664,7 @@ const IconAlignVerticalJustifyEnd: React.FC<IconProps> = ({ color, size }) => {
 const IconAlignVerticalJustifyStart: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1647,17 +1672,18 @@ const IconAlignVerticalJustifyStart: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
 
-const IconAlignVerticalSpaceAround: React.FC<IconProps> = ({ color, size }) => {
+const IconAlignVerticalSpaceAround: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <AlignVerticalSpaceAround
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
@@ -1665,6 +1691,7 @@ const IconAlignVerticalSpaceAround: React.FC<IconProps> = ({ color, size }) => {
 const IconAlignVerticalSpaceBetween: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -1672,5185 +1699,5193 @@ const IconAlignVerticalSpaceBetween: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
 
-const IconAmpersand: React.FC<IconProps> = ({ color, size }) => {
+const IconAmpersand: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ampersand color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ampersand color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAmpersands: React.FC<IconProps> = ({ color, size }) => {
+const IconAmpersands: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ampersands color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ampersands color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAnchor: React.FC<IconProps> = ({ color, size }) => {
+const IconAnchor: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Anchor color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Anchor color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAngry: React.FC<IconProps> = ({ color, size }) => {
+const IconAngry: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Angry color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Angry color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAnnoyed: React.FC<IconProps> = ({ color, size }) => {
+const IconAnnoyed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Annoyed color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Annoyed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAntenna: React.FC<IconProps> = ({ color, size }) => {
+const IconAntenna: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Antenna color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Antenna color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAperture: React.FC<IconProps> = ({ color, size }) => {
+const IconAperture: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Aperture color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Aperture color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAppWindow: React.FC<IconProps> = ({ color, size }) => {
+const IconAppWindow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AppWindow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AppWindow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconApple: React.FC<IconProps> = ({ color, size }) => {
+const IconApple: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Apple color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Apple color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArchiveRestore: React.FC<IconProps> = ({ color, size }) => {
+const IconArchiveRestore: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArchiveRestore color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArchiveRestore color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArchiveX: React.FC<IconProps> = ({ color, size }) => {
+const IconArchiveX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArchiveX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArchiveX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArchive: React.FC<IconProps> = ({ color, size }) => {
+const IconArchive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Archive color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Archive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAreaChart: React.FC<IconProps> = ({ color, size }) => {
+const IconAreaChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AreaChart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AreaChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArmchair: React.FC<IconProps> = ({ color, size }) => {
+const IconArmchair: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Armchair color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Armchair color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowBigDownDash: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigDownDash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigDownDash color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigDownDash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigDown: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigLeftDash: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigLeftDash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigLeftDash color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigLeftDash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigRightDash: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigRightDash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigRightDash color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigRightDash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigRight: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigUpDash: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigUpDash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowBigUpDash color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowBigUpDash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowBigUp: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowBigUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowBigUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowBigUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowDownCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownFromLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownFromLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownLeftFromCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownLeftFromCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowDownLeftFromCircle
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowDownLeftSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownLeftSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowDownLeftSquare
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowDownLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownNarrowWide: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownNarrowWide: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowDownNarrowWide
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowDownRightFromCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownRightFromCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowDownRightFromCircle
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowDownRightSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownRightSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowDownRightSquare
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowDownRight: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownToDot: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownToDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownToDot color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownToDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownToLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownToLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowDownToLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowDownToLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowDownUp: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowDownUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowDownUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowDown: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowLeftCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowLeftCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowLeftCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowLeftCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowLeftFromLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowLeftFromLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowLeftFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowLeftFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowLeftRight: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowLeftRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowLeftRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowLeftRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowLeftSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowLeftSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowLeftSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowLeftSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowLeftToLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowLeftToLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowLeftToLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowLeftToLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowRightCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowRightCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowRightCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowRightCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowRightFromLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowRightFromLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowRightFromLine
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowRightLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowRightLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowRightLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowRightLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowRightSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowRightSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowRightSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowRightSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowRightToLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowRightToLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowRightToLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowRightToLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowRight: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowRight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUpCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpDown: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUpDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUpDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUpFromDot: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpFromDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpFromDot color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpFromDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpFromLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpFromLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpLeftFromCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpLeftFromCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowUpLeftFromCircle
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowUpLeftSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpLeftSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpLeftSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpLeftSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUpLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUpLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUpRightFromCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpRightFromCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowUpRightFromCircle
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowUpRightSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpRightSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowUpRightSquare
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowUpRight: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpToLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpToLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpToLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpToLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpWideNarrow: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpWideNarrow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpWideNarrow color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpWideNarrow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUp: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowsUpFromLine: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowsUpFromLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowsUpFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowsUpFromLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconAsterisk: React.FC<IconProps> = ({ color, size }) => {
+const IconAsterisk: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Asterisk color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Asterisk color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAtSign: React.FC<IconProps> = ({ color, size }) => {
+const IconAtSign: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <AtSign color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <AtSign color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAtom: React.FC<IconProps> = ({ color, size }) => {
+const IconAtom: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Atom color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Atom color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAward: React.FC<IconProps> = ({ color, size }) => {
+const IconAward: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Award color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Award color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAxe: React.FC<IconProps> = ({ color, size }) => {
+const IconAxe: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Axe color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Axe color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBaby: React.FC<IconProps> = ({ color, size }) => {
+const IconBaby: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Baby color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Baby color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBackpack: React.FC<IconProps> = ({ color, size }) => {
+const IconBackpack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Backpack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Backpack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeAlert: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeAlert: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeAlert color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeAlert color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeCent: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeCent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeCent color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeCent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeDollarSign: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeDollarSign: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BadgeDollarSign color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BadgeDollarSign color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBadgeEuro: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeEuro: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeEuro color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeEuro color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeHelp: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeHelp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeHelp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeHelp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeIndianRupee: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeIndianRupee: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BadgeIndianRupee color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BadgeIndianRupee color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBadgeInfo: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeInfo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeInfo color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeInfo color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeJapaneseYen: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeJapaneseYen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BadgeJapaneseYen color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BadgeJapaneseYen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBadgeMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgePercent: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgePercent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BadgePercent color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BadgePercent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBadgePlus: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgePlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgePlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgePlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgePoundSterling: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgePoundSterling: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <BadgePoundSterling
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconBadgeRussianRuble: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeRussianRuble: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BadgeRussianRuble color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BadgeRussianRuble color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBadgeSwissFranc: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeSwissFranc: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BadgeSwissFranc color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BadgeSwissFranc color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBadgeX: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadge: React.FC<IconProps> = ({ color, size }) => {
+const IconBadge: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Badge color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Badge color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBaggageClaim: React.FC<IconProps> = ({ color, size }) => {
+const IconBaggageClaim: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BaggageClaim color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BaggageClaim color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBan: React.FC<IconProps> = ({ color, size }) => {
+const IconBan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ban color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ban color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBanana: React.FC<IconProps> = ({ color, size }) => {
+const IconBanana: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Banana color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Banana color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBanknote: React.FC<IconProps> = ({ color, size }) => {
+const IconBanknote: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Banknote color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Banknote color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBarChart2: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChart2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BarChart2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BarChart2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBarChart3: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChart3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BarChart3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BarChart3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBarChart4: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChart4: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BarChart4 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BarChart4 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBarChartBig: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChartBig: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BarChartBig color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BarChartBig color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBarChartHorizontalBig: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChartHorizontalBig: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <BarChartHorizontalBig
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconBarChartHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChartHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <BarChartHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconBarChart: React.FC<IconProps> = ({ color, size }) => {
+const IconBarChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BarChart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BarChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBaseline: React.FC<IconProps> = ({ color, size }) => {
+const IconBaseline: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Baseline color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Baseline color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBath: React.FC<IconProps> = ({ color, size }) => {
+const IconBath: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bath color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bath color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBatteryCharging: React.FC<IconProps> = ({ color, size }) => {
+const IconBatteryCharging: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BatteryCharging color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BatteryCharging color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBatteryFull: React.FC<IconProps> = ({ color, size }) => {
+const IconBatteryFull: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BatteryFull color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BatteryFull color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBatteryLow: React.FC<IconProps> = ({ color, size }) => {
+const IconBatteryLow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BatteryLow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BatteryLow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBatteryMedium: React.FC<IconProps> = ({ color, size }) => {
+const IconBatteryMedium: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BatteryMedium color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BatteryMedium color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBatteryWarning: React.FC<IconProps> = ({ color, size }) => {
+const IconBatteryWarning: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BatteryWarning color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BatteryWarning color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBattery: React.FC<IconProps> = ({ color, size }) => {
+const IconBattery: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Battery color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Battery color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBeaker: React.FC<IconProps> = ({ color, size }) => {
+const IconBeaker: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Beaker color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Beaker color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBeanOff: React.FC<IconProps> = ({ color, size }) => {
+const IconBeanOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BeanOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BeanOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBean: React.FC<IconProps> = ({ color, size }) => {
+const IconBean: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bean color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bean color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBedDouble: React.FC<IconProps> = ({ color, size }) => {
+const IconBedDouble: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BedDouble color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BedDouble color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBedSingle: React.FC<IconProps> = ({ color, size }) => {
+const IconBedSingle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BedSingle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BedSingle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBed: React.FC<IconProps> = ({ color, size }) => {
+const IconBed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bed color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBeef: React.FC<IconProps> = ({ color, size }) => {
+const IconBeef: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Beef color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Beef color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBeer: React.FC<IconProps> = ({ color, size }) => {
+const IconBeer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Beer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Beer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBellDot: React.FC<IconProps> = ({ color, size }) => {
+const IconBellDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BellDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BellDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBellMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconBellMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BellMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BellMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBellOff: React.FC<IconProps> = ({ color, size }) => {
+const IconBellOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BellOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BellOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBellPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconBellPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BellPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BellPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBellRing: React.FC<IconProps> = ({ color, size }) => {
+const IconBellRing: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BellRing color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BellRing color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBell: React.FC<IconProps> = ({ color, size }) => {
+const IconBell: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bell color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bell color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBike: React.FC<IconProps> = ({ color, size }) => {
+const IconBike: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bike color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bike color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBinary: React.FC<IconProps> = ({ color, size }) => {
+const IconBinary: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Binary color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Binary color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBiohazard: React.FC<IconProps> = ({ color, size }) => {
+const IconBiohazard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Biohazard color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Biohazard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBird: React.FC<IconProps> = ({ color, size }) => {
+const IconBird: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bird color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bird color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBitcoin: React.FC<IconProps> = ({ color, size }) => {
+const IconBitcoin: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bitcoin color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bitcoin color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBlinds: React.FC<IconProps> = ({ color, size }) => {
+const IconBlinds: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Blinds color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Blinds color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBlocks: React.FC<IconProps> = ({ color, size }) => {
+const IconBlocks: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Blocks color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Blocks color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBluetoothConnected: React.FC<IconProps> = ({ color, size }) => {
+const IconBluetoothConnected: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <BluetoothConnected
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconBluetoothOff: React.FC<IconProps> = ({ color, size }) => {
+const IconBluetoothOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BluetoothOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BluetoothOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBluetoothSearching: React.FC<IconProps> = ({ color, size }) => {
+const IconBluetoothSearching: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <BluetoothSearching
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconBluetooth: React.FC<IconProps> = ({ color, size }) => {
+const IconBluetooth: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bluetooth color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bluetooth color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBold: React.FC<IconProps> = ({ color, size }) => {
+const IconBold: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bold color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bold color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBomb: React.FC<IconProps> = ({ color, size }) => {
+const IconBomb: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bomb color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bomb color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBone: React.FC<IconProps> = ({ color, size }) => {
+const IconBone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bone color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookCopy: React.FC<IconProps> = ({ color, size }) => {
+const IconBookCopy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookCopy color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookCopy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookDown: React.FC<IconProps> = ({ color, size }) => {
+const IconBookDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookKey: React.FC<IconProps> = ({ color, size }) => {
+const IconBookKey: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookKey color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookKey color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookLock: React.FC<IconProps> = ({ color, size }) => {
+const IconBookLock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookLock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookLock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookMarked: React.FC<IconProps> = ({ color, size }) => {
+const IconBookMarked: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookMarked color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookMarked color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconBookMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookOpenCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconBookOpenCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BookOpenCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BookOpenCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBookOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconBookOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconBookPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookTemplate: React.FC<IconProps> = ({ color, size }) => {
+const IconBookTemplate: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BookTemplate color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BookTemplate color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBookUp2: React.FC<IconProps> = ({ color, size }) => {
+const IconBookUp2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookUp2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookUp2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookUp: React.FC<IconProps> = ({ color, size }) => {
+const IconBookUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookX: React.FC<IconProps> = ({ color, size }) => {
+const IconBookX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBook: React.FC<IconProps> = ({ color, size }) => {
+const IconBook: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Book color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Book color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookmarkCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconBookmarkCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BookmarkCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BookmarkCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBookmarkMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconBookmarkMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BookmarkMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BookmarkMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBookmarkPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconBookmarkPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BookmarkPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BookmarkPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBookmarkX: React.FC<IconProps> = ({ color, size }) => {
+const IconBookmarkX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BookmarkX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BookmarkX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBookmark: React.FC<IconProps> = ({ color, size }) => {
+const IconBookmark: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bookmark color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bookmark color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBoomBox: React.FC<IconProps> = ({ color, size }) => {
+const IconBoomBox: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BoomBox color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BoomBox color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBot: React.FC<IconProps> = ({ color, size }) => {
+const IconBot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBoxSelect: React.FC<IconProps> = ({ color, size }) => {
+const IconBoxSelect: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BoxSelect color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BoxSelect color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBox: React.FC<IconProps> = ({ color, size }) => {
+const IconBox: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Box color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Box color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBoxes: React.FC<IconProps> = ({ color, size }) => {
+const IconBoxes: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Boxes color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Boxes color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBrackets: React.FC<IconProps> = ({ color, size }) => {
+const IconBrackets: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Brackets color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Brackets color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBrainCircuit: React.FC<IconProps> = ({ color, size }) => {
+const IconBrainCircuit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BrainCircuit color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BrainCircuit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBrainCog: React.FC<IconProps> = ({ color, size }) => {
+const IconBrainCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BrainCog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BrainCog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBrain: React.FC<IconProps> = ({ color, size }) => {
+const IconBrain: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Brain color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Brain color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBriefcase: React.FC<IconProps> = ({ color, size }) => {
+const IconBriefcase: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Briefcase color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Briefcase color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBringToFront: React.FC<IconProps> = ({ color, size }) => {
+const IconBringToFront: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <BringToFront color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <BringToFront color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconBrush: React.FC<IconProps> = ({ color, size }) => {
+const IconBrush: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Brush color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Brush color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBugOff: React.FC<IconProps> = ({ color, size }) => {
+const IconBugOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BugOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BugOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBugPlay: React.FC<IconProps> = ({ color, size }) => {
+const IconBugPlay: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BugPlay color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BugPlay color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBug: React.FC<IconProps> = ({ color, size }) => {
+const IconBug: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bug color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bug color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBuilding2: React.FC<IconProps> = ({ color, size }) => {
+const IconBuilding2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Building2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Building2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBuilding: React.FC<IconProps> = ({ color, size }) => {
+const IconBuilding: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Building color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Building color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBusFront: React.FC<IconProps> = ({ color, size }) => {
+const IconBusFront: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BusFront color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BusFront color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBus: React.FC<IconProps> = ({ color, size }) => {
+const IconBus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Bus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Bus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCableCar: React.FC<IconProps> = ({ color, size }) => {
+const IconCableCar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CableCar color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CableCar color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCable: React.FC<IconProps> = ({ color, size }) => {
+const IconCable: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cable color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cable color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCakeSlice: React.FC<IconProps> = ({ color, size }) => {
+const IconCakeSlice: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CakeSlice color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CakeSlice color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCake: React.FC<IconProps> = ({ color, size }) => {
+const IconCake: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cake color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cake color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCalculator: React.FC<IconProps> = ({ color, size }) => {
+const IconCalculator: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Calculator color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Calculator color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCalendarCheck2: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarCheck2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarClock: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarClock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarClock color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarClock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarDays: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarDays: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarDays color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarDays color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarHeart: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarHeart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarHeart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarHeart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarOff: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CalendarOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CalendarOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCalendarPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarRange: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarRange: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarRange color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarRange color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarSearch: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarSearch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CalendarSearch color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CalendarSearch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCalendarX2: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarX2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CalendarX2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CalendarX2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCalendarX: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendarX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CalendarX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CalendarX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCalendar: React.FC<IconProps> = ({ color, size }) => {
+const IconCalendar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Calendar color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Calendar color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCameraOff: React.FC<IconProps> = ({ color, size }) => {
+const IconCameraOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CameraOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CameraOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCamera: React.FC<IconProps> = ({ color, size }) => {
+const IconCamera: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Camera color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Camera color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCandlestickChart: React.FC<IconProps> = ({ color, size }) => {
+const IconCandlestickChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CandlestickChart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CandlestickChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCandyCane: React.FC<IconProps> = ({ color, size }) => {
+const IconCandyCane: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CandyCane color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CandyCane color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCandyOff: React.FC<IconProps> = ({ color, size }) => {
+const IconCandyOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CandyOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CandyOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCandy: React.FC<IconProps> = ({ color, size }) => {
+const IconCandy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Candy color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Candy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCarFront: React.FC<IconProps> = ({ color, size }) => {
+const IconCarFront: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CarFront color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CarFront color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCarTaxiFront: React.FC<IconProps> = ({ color, size }) => {
+const IconCarTaxiFront: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CarTaxiFront color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CarTaxiFront color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCar: React.FC<IconProps> = ({ color, size }) => {
+const IconCar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Car color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Car color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCarrot: React.FC<IconProps> = ({ color, size }) => {
+const IconCarrot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Carrot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Carrot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCaseLower: React.FC<IconProps> = ({ color, size }) => {
+const IconCaseLower: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CaseLower color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CaseLower color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCaseSensitive: React.FC<IconProps> = ({ color, size }) => {
+const IconCaseSensitive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CaseSensitive color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CaseSensitive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCaseUpper: React.FC<IconProps> = ({ color, size }) => {
+const IconCaseUpper: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CaseUpper color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CaseUpper color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCassetteTape: React.FC<IconProps> = ({ color, size }) => {
+const IconCassetteTape: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CassetteTape color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CassetteTape color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCast: React.FC<IconProps> = ({ color, size }) => {
+const IconCast: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cast color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cast color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCastle: React.FC<IconProps> = ({ color, size }) => {
+const IconCastle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Castle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Castle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCat: React.FC<IconProps> = ({ color, size }) => {
+const IconCat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCheckCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconCheckCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CheckCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CheckCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCheckCircle2: React.FC<IconProps> = ({ color, size }) => {
+const IconCheckCircle2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CheckCircle2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CheckCircle2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCheckCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconCheckCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CheckCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CheckCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCheckSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconCheckSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CheckSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CheckSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Check color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Check color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconChefHat: React.FC<IconProps> = ({ color, size }) => {
+const IconChefHat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ChefHat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ChefHat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCherry: React.FC<IconProps> = ({ color, size }) => {
+const IconCherry: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cherry color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cherry color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconChevronDownCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronDownCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronDownCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronDownCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronDownSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronDownSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronDownSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronDownSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronDown: React.FC<IconProps> = ({ color, size }) => {
-  const { pixelSize, colorHex } = getIcon(color, size);
-  return <ChevronDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
-};
-
-const IconChevronFirst: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronFirst color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronDown
+      color={colorHex}
+      size={pixelSize}
+      strokeWidth={stroke}
+      className={className}
+    />
   );
 };
 
-const IconChevronLast: React.FC<IconProps> = ({ color, size }) => {
-  const { pixelSize, colorHex } = getIcon(color, size);
-  return <ChevronLast color={colorHex} size={pixelSize} strokeWidth={stroke} />;
-};
-
-const IconChevronLeftCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronFirst: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronLeftCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronFirst color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronLeftSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronLast: React.FC<IconProps> = ({ color, size, className }) => {
+  const { pixelSize, colorHex } = getIcon(color, size);
+  return <ChevronLast color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
+};
+
+const IconChevronLeftCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronLeftSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronLeftCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronLeftSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ChevronLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return (
+    <ChevronLeftSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
+  );
 };
 
-const IconChevronRightCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronLeft: React.FC<IconProps> = ({ color, size, className }) => {
+  const { pixelSize, colorHex } = getIcon(color, size);
+  return <ChevronLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
+};
+
+const IconChevronRightCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ChevronRightCircle
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconChevronRightSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronRightSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ChevronRightSquare
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconChevronRight: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronUpCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronUpCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronUpCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronUpCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronUpSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronUpSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronUpSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronUpSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronUp: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ChevronUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ChevronUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconChevronsDownUp: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsDownUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsDownUp color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsDownUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsDown: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsLeftRight: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsLeftRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsLeftRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsLeftRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsRightLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsRightLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsRightLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsRightLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsRight: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsUpDown: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsUpDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ChevronsUpDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ChevronsUpDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconChevronsUp: React.FC<IconProps> = ({ color, size }) => {
+const IconChevronsUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ChevronsUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ChevronsUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconChrome: React.FC<IconProps> = ({ color, size }) => {
+const IconChrome: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Chrome color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Chrome color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconChurch: React.FC<IconProps> = ({ color, size }) => {
+const IconChurch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Church color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Church color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCigaretteOff: React.FC<IconProps> = ({ color, size }) => {
+const IconCigaretteOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CigaretteOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CigaretteOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCigarette: React.FC<IconProps> = ({ color, size }) => {
+const IconCigarette: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cigarette color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cigarette color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircleDashed: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleDashed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CircleDashed color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CircleDashed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCircleDollarSign: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleDollarSign: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CircleDollarSign color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CircleDollarSign color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCircleDotDashed: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleDotDashed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CircleDotDashed color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CircleDotDashed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCircleDot: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CircleDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CircleDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircleEllipsis: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleEllipsis: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CircleEllipsis color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CircleEllipsis color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCircleEqual: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleEqual: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CircleEqual color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CircleEqual color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircleOff: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CircleOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CircleOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircleSlash: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleSlash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CircleSlash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CircleSlash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Circle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Circle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircuitBoard: React.FC<IconProps> = ({ color, size }) => {
+const IconCircuitBoard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CircuitBoard color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CircuitBoard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCitrus: React.FC<IconProps> = ({ color, size }) => {
+const IconCitrus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Citrus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Citrus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClapperboard: React.FC<IconProps> = ({ color, size }) => {
+const IconClapperboard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Clapperboard color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Clapperboard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ClipboardCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ClipboardCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardCopy: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardCopy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ClipboardCopy color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ClipboardCopy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardEdit: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardEdit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ClipboardEdit color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ClipboardEdit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardList: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardList: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ClipboardList color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ClipboardList color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardPaste: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardPaste: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ClipboardPaste color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ClipboardPaste color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardSignature: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardSignature: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ClipboardSignature
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconClipboardType: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardType: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ClipboardType color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ClipboardType color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconClipboardX: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboardX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ClipboardX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ClipboardX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClipboard: React.FC<IconProps> = ({ color, size }) => {
+const IconClipboard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clipboard color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clipboard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock1: React.FC<IconProps> = ({ color, size }) => {
+const IconClock1: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock1 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock1 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock10: React.FC<IconProps> = ({ color, size }) => {
+const IconClock10: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock10 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock10 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock11: React.FC<IconProps> = ({ color, size }) => {
+const IconClock11: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock11 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock11 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock12: React.FC<IconProps> = ({ color, size }) => {
+const IconClock12: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock12 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock12 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock2: React.FC<IconProps> = ({ color, size }) => {
+const IconClock2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock3: React.FC<IconProps> = ({ color, size }) => {
+const IconClock3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock4: React.FC<IconProps> = ({ color, size }) => {
+const IconClock4: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock4 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock4 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock5: React.FC<IconProps> = ({ color, size }) => {
+const IconClock5: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock5 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock5 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock6: React.FC<IconProps> = ({ color, size }) => {
+const IconClock6: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock6 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock6 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock7: React.FC<IconProps> = ({ color, size }) => {
+const IconClock7: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock7 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock7 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock8: React.FC<IconProps> = ({ color, size }) => {
+const IconClock8: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock8 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock8 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock9: React.FC<IconProps> = ({ color, size }) => {
+const IconClock9: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock9 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock9 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClock: React.FC<IconProps> = ({ color, size }) => {
+const IconClock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudCog: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudCog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudCog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudDrizzle: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudDrizzle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CloudDrizzle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CloudDrizzle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCloudFog: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudFog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudFog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudFog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudHail: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudHail: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudHail color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudHail color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudLightning: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudLightning: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CloudLightning color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CloudLightning color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCloudMoonRain: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudMoonRain: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CloudMoonRain color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CloudMoonRain color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCloudMoon: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudMoon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudMoon color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudMoon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudOff: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudRainWind: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudRainWind: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CloudRainWind color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CloudRainWind color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCloudRain: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudRain: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudRain color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudRain color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudSnow: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudSnow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudSnow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudSnow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudSunRain: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudSunRain: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CloudSunRain color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CloudSunRain color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCloudSun: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudSun: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CloudSun color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CloudSun color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloud: React.FC<IconProps> = ({ color, size }) => {
+const IconCloud: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cloud color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cloud color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCloudy: React.FC<IconProps> = ({ color, size }) => {
+const IconCloudy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cloudy color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cloudy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClover: React.FC<IconProps> = ({ color, size }) => {
+const IconClover: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Clover color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Clover color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconClub: React.FC<IconProps> = ({ color, size }) => {
+const IconClub: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Club color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Club color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCode2: React.FC<IconProps> = ({ color, size }) => {
+const IconCode2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Code2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Code2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCode: React.FC<IconProps> = ({ color, size }) => {
+const IconCode: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Code color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Code color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCodepen: React.FC<IconProps> = ({ color, size }) => {
+const IconCodepen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Codepen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Codepen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCodesandbox: React.FC<IconProps> = ({ color, size }) => {
+const IconCodesandbox: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Codesandbox color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Codesandbox color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCoffee: React.FC<IconProps> = ({ color, size }) => {
+const IconCoffee: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Coffee color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Coffee color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCog: React.FC<IconProps> = ({ color, size }) => {
+const IconCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCoins: React.FC<IconProps> = ({ color, size }) => {
+const IconCoins: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Coins color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Coins color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconColumns: React.FC<IconProps> = ({ color, size }) => {
+const IconColumns: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Columns color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Columns color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCombine: React.FC<IconProps> = ({ color, size }) => {
+const IconCombine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Combine color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Combine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCommand: React.FC<IconProps> = ({ color, size }) => {
+const IconCommand: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Command color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Command color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCompass: React.FC<IconProps> = ({ color, size }) => {
+const IconCompass: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Compass color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Compass color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconComponent: React.FC<IconProps> = ({ color, size }) => {
+const IconComponent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Component color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Component color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconComputer: React.FC<IconProps> = ({ color, size }) => {
+const IconComputer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Computer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Computer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconConciergeBell: React.FC<IconProps> = ({ color, size }) => {
+const IconConciergeBell: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ConciergeBell color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ConciergeBell color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconConstruction: React.FC<IconProps> = ({ color, size }) => {
+const IconConstruction: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Construction color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Construction color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconContact2: React.FC<IconProps> = ({ color, size }) => {
+const IconContact2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Contact2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Contact2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconContact: React.FC<IconProps> = ({ color, size }) => {
+const IconContact: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Contact color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Contact color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconContainer: React.FC<IconProps> = ({ color, size }) => {
+const IconContainer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Container color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Container color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconContrast: React.FC<IconProps> = ({ color, size }) => {
+const IconContrast: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Contrast color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Contrast color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCookie: React.FC<IconProps> = ({ color, size }) => {
+const IconCookie: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cookie color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cookie color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopyCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconCopyCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CopyCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CopyCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopyMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconCopyMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CopyMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CopyMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopyPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconCopyPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CopyPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CopyPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopySlash: React.FC<IconProps> = ({ color, size }) => {
+const IconCopySlash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CopySlash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CopySlash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopyX: React.FC<IconProps> = ({ color, size }) => {
+const IconCopyX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CopyX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CopyX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopy: React.FC<IconProps> = ({ color, size }) => {
+const IconCopy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Copy color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Copy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopyleft: React.FC<IconProps> = ({ color, size }) => {
+const IconCopyleft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Copyleft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Copyleft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCopyright: React.FC<IconProps> = ({ color, size }) => {
+const IconCopyright: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Copyright color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Copyright color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCornerDownLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerDownLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerDownLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerDownLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerDownRight: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerDownRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerDownRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerDownRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerLeftDown: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerLeftDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerLeftDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerLeftDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerLeftUp: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerLeftUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerLeftUp color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerLeftUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerRightDown: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerRightDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerRightDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerRightDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerRightUp: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerRightUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerRightUp color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerRightUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerUpLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerUpLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerUpLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerUpLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCornerUpRight: React.FC<IconProps> = ({ color, size }) => {
+const IconCornerUpRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CornerUpRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CornerUpRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCpu: React.FC<IconProps> = ({ color, size }) => {
+const IconCpu: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cpu color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cpu color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCreativeCommons: React.FC<IconProps> = ({ color, size }) => {
+const IconCreativeCommons: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CreativeCommons color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CreativeCommons color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconCreditCard: React.FC<IconProps> = ({ color, size }) => {
+const IconCreditCard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CreditCard color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CreditCard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCroissant: React.FC<IconProps> = ({ color, size }) => {
+const IconCroissant: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Croissant color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Croissant color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCrop: React.FC<IconProps> = ({ color, size }) => {
+const IconCrop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Crop color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Crop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCross: React.FC<IconProps> = ({ color, size }) => {
+const IconCross: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Cross color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Cross color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCrosshair: React.FC<IconProps> = ({ color, size }) => {
+const IconCrosshair: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Crosshair color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Crosshair color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCrown: React.FC<IconProps> = ({ color, size }) => {
+const IconCrown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Crown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Crown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCupSoda: React.FC<IconProps> = ({ color, size }) => {
+const IconCupSoda: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <CupSoda color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <CupSoda color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCurrency: React.FC<IconProps> = ({ color, size }) => {
+const IconCurrency: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Currency color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Currency color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDatabaseBackup: React.FC<IconProps> = ({ color, size }) => {
+const IconDatabaseBackup: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <DatabaseBackup color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <DatabaseBackup color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconDatabaseZap: React.FC<IconProps> = ({ color, size }) => {
+const IconDatabaseZap: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <DatabaseZap color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <DatabaseZap color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDatabase: React.FC<IconProps> = ({ color, size }) => {
+const IconDatabase: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Database color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Database color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDelete: React.FC<IconProps> = ({ color, size }) => {
+const IconDelete: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Delete color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Delete color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDessert: React.FC<IconProps> = ({ color, size }) => {
+const IconDessert: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dessert color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dessert color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDiamond: React.FC<IconProps> = ({ color, size }) => {
+const IconDiamond: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Diamond color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Diamond color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDice1: React.FC<IconProps> = ({ color, size }) => {
+const IconDice1: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dice1 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dice1 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDice2: React.FC<IconProps> = ({ color, size }) => {
+const IconDice2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dice2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dice2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDice3: React.FC<IconProps> = ({ color, size }) => {
+const IconDice3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dice3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dice3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDice4: React.FC<IconProps> = ({ color, size }) => {
+const IconDice4: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dice4 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dice4 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDice5: React.FC<IconProps> = ({ color, size }) => {
+const IconDice5: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dice5 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dice5 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDice6: React.FC<IconProps> = ({ color, size }) => {
+const IconDice6: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dice6 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dice6 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDices: React.FC<IconProps> = ({ color, size }) => {
+const IconDices: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dices color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dices color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDiff: React.FC<IconProps> = ({ color, size }) => {
+const IconDiff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Diff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Diff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDisc2: React.FC<IconProps> = ({ color, size }) => {
+const IconDisc2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Disc2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Disc2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDisc3: React.FC<IconProps> = ({ color, size }) => {
+const IconDisc3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Disc3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Disc3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDisc: React.FC<IconProps> = ({ color, size }) => {
+const IconDisc: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Disc color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Disc color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDivideCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconDivideCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <DivideCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <DivideCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconDivideSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconDivideSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <DivideSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <DivideSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconDivide: React.FC<IconProps> = ({ color, size }) => {
+const IconDivide: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Divide color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Divide color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDnaOff: React.FC<IconProps> = ({ color, size }) => {
+const IconDnaOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <DnaOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <DnaOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDna: React.FC<IconProps> = ({ color, size }) => {
+const IconDna: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dna color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dna color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDog: React.FC<IconProps> = ({ color, size }) => {
+const IconDog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDollarSign: React.FC<IconProps> = ({ color, size }) => {
+const IconDollarSign: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <DollarSign color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <DollarSign color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDonut: React.FC<IconProps> = ({ color, size }) => {
+const IconDonut: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Donut color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Donut color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDoorClosed: React.FC<IconProps> = ({ color, size }) => {
+const IconDoorClosed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <DoorClosed color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <DoorClosed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDoorOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconDoorOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <DoorOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <DoorOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDot: React.FC<IconProps> = ({ color, size }) => {
+const IconDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDownloadCloud: React.FC<IconProps> = ({ color, size }) => {
+const IconDownloadCloud: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <DownloadCloud color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <DownloadCloud color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconDownload: React.FC<IconProps> = ({ color, size }) => {
+const IconDownload: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Download color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Download color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDrama: React.FC<IconProps> = ({ color, size }) => {
+const IconDrama: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Drama color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Drama color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDribbble: React.FC<IconProps> = ({ color, size }) => {
+const IconDribbble: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dribbble color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dribbble color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDroplet: React.FC<IconProps> = ({ color, size }) => {
+const IconDroplet: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Droplet color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Droplet color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDroplets: React.FC<IconProps> = ({ color, size }) => {
+const IconDroplets: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Droplets color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Droplets color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDrumstick: React.FC<IconProps> = ({ color, size }) => {
+const IconDrumstick: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Drumstick color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Drumstick color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconDumbbell: React.FC<IconProps> = ({ color, size }) => {
+const IconDumbbell: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Dumbbell color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Dumbbell color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEarOff: React.FC<IconProps> = ({ color, size }) => {
+const IconEarOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <EarOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <EarOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEar: React.FC<IconProps> = ({ color, size }) => {
+const IconEar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ear color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ear color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEggFried: React.FC<IconProps> = ({ color, size }) => {
+const IconEggFried: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <EggFried color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <EggFried color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEggOff: React.FC<IconProps> = ({ color, size }) => {
+const IconEggOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <EggOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <EggOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEgg: React.FC<IconProps> = ({ color, size }) => {
+const IconEgg: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Egg color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Egg color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEqualNot: React.FC<IconProps> = ({ color, size }) => {
+const IconEqualNot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <EqualNot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <EqualNot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEqual: React.FC<IconProps> = ({ color, size }) => {
+const IconEqual: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Equal color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Equal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEraser: React.FC<IconProps> = ({ color, size }) => {
+const IconEraser: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Eraser color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Eraser color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEuro: React.FC<IconProps> = ({ color, size }) => {
+const IconEuro: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Euro color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Euro color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconExpand: React.FC<IconProps> = ({ color, size }) => {
+const IconExpand: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Expand color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Expand color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconExternalLink: React.FC<IconProps> = ({ color, size }) => {
+const IconExternalLink: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ExternalLink color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ExternalLink color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconEyeOff: React.FC<IconProps> = ({ color, size }) => {
+const IconEyeOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <EyeOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <EyeOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEye: React.FC<IconProps> = ({ color, size }) => {
+const IconEye: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Eye color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Eye color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFacebook: React.FC<IconProps> = ({ color, size }) => {
+const IconFacebook: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Facebook color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Facebook color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFactory: React.FC<IconProps> = ({ color, size }) => {
+const IconFactory: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Factory color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Factory color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFan: React.FC<IconProps> = ({ color, size }) => {
+const IconFan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Fan color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Fan color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFastForward: React.FC<IconProps> = ({ color, size }) => {
+const IconFastForward: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FastForward color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FastForward color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFeather: React.FC<IconProps> = ({ color, size }) => {
+const IconFeather: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Feather color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Feather color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFerrisWheel: React.FC<IconProps> = ({ color, size }) => {
+const IconFerrisWheel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FerrisWheel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FerrisWheel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFigma: React.FC<IconProps> = ({ color, size }) => {
+const IconFigma: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Figma color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Figma color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileArchive: React.FC<IconProps> = ({ color, size }) => {
+const IconFileArchive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileArchive color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileArchive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileAudio2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileAudio2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileAudio2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileAudio2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileAudio: React.FC<IconProps> = ({ color, size }) => {
+const IconFileAudio: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileAudio color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileAudio color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileBadge2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileBadge2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileBadge2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileBadge2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileBadge: React.FC<IconProps> = ({ color, size }) => {
+const IconFileBadge: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileBadge color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileBadge color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileBarChart2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileBarChart2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileBarChart2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileBarChart2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileBarChart: React.FC<IconProps> = ({ color, size }) => {
+const IconFileBarChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileBarChart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileBarChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileBox: React.FC<IconProps> = ({ color, size }) => {
+const IconFileBox: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileBox color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileBox color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileCheck2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileCheck2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconFileCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileClock: React.FC<IconProps> = ({ color, size }) => {
+const IconFileClock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileClock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileClock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileCode2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileCode2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileCode2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileCode2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileCode: React.FC<IconProps> = ({ color, size }) => {
+const IconFileCode: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileCode color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileCode color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileDiff: React.FC<IconProps> = ({ color, size }) => {
+const IconFileDiff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileDiff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileDiff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileDigit: React.FC<IconProps> = ({ color, size }) => {
+const IconFileDigit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileDigit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileDigit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileDown: React.FC<IconProps> = ({ color, size }) => {
+const IconFileDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileEdit: React.FC<IconProps> = ({ color, size }) => {
+const IconFileEdit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileEdit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileEdit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileHeart: React.FC<IconProps> = ({ color, size }) => {
+const IconFileHeart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileHeart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileHeart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileImage: React.FC<IconProps> = ({ color, size }) => {
+const IconFileImage: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileImage color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileImage color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileInput: React.FC<IconProps> = ({ color, size }) => {
+const IconFileInput: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileInput color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileInput color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileJson2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileJson2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileJson2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileJson2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileJson: React.FC<IconProps> = ({ color, size }) => {
+const IconFileJson: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileJson color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileJson color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileKey2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileKey2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileKey2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileKey2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileKey: React.FC<IconProps> = ({ color, size }) => {
+const IconFileKey: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileKey color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileKey color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileLineChart: React.FC<IconProps> = ({ color, size }) => {
+const IconFileLineChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileLineChart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileLineChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileLock2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileLock2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileLock2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileLock2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileLock: React.FC<IconProps> = ({ color, size }) => {
+const IconFileLock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileLock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileLock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileMinus2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileMinus2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileMinus2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileMinus2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconFileMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileOutput: React.FC<IconProps> = ({ color, size }) => {
+const IconFileOutput: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileOutput color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileOutput color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFilePieChart: React.FC<IconProps> = ({ color, size }) => {
+const IconFilePieChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FilePieChart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FilePieChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFilePlus2: React.FC<IconProps> = ({ color, size }) => {
+const IconFilePlus2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FilePlus2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FilePlus2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFilePlus: React.FC<IconProps> = ({ color, size }) => {
+const IconFilePlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FilePlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FilePlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileQuestion: React.FC<IconProps> = ({ color, size }) => {
+const IconFileQuestion: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileQuestion color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileQuestion color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileScan: React.FC<IconProps> = ({ color, size }) => {
+const IconFileScan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileScan color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileScan color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileSearch2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileSearch2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileSearch2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileSearch2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileSearch: React.FC<IconProps> = ({ color, size }) => {
+const IconFileSearch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileSearch color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileSearch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileSignature: React.FC<IconProps> = ({ color, size }) => {
+const IconFileSignature: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileSignature color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileSignature color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileSpreadsheet: React.FC<IconProps> = ({ color, size }) => {
+const IconFileSpreadsheet: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileSpreadsheet color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileSpreadsheet color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileStack: React.FC<IconProps> = ({ color, size }) => {
+const IconFileStack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileStack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileStack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileSymlink: React.FC<IconProps> = ({ color, size }) => {
+const IconFileSymlink: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileSymlink color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileSymlink color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileTerminal: React.FC<IconProps> = ({ color, size }) => {
+const IconFileTerminal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FileTerminal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FileTerminal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileText: React.FC<IconProps> = ({ color, size }) => {
+const IconFileText: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileText color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileText color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileType2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileType2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileType2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileType2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileType: React.FC<IconProps> = ({ color, size }) => {
+const IconFileType: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileType color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileType color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileUp: React.FC<IconProps> = ({ color, size }) => {
+const IconFileUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileVideo2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileVideo2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileVideo2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileVideo2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileVideo: React.FC<IconProps> = ({ color, size }) => {
+const IconFileVideo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileVideo color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileVideo color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileVolume2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileVolume2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileVolume2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileVolume2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileVolume: React.FC<IconProps> = ({ color, size }) => {
+const IconFileVolume: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileVolume color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileVolume color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileWarning: React.FC<IconProps> = ({ color, size }) => {
+const IconFileWarning: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileWarning color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileWarning color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileX2: React.FC<IconProps> = ({ color, size }) => {
+const IconFileX2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileX2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileX2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileX: React.FC<IconProps> = ({ color, size }) => {
+const IconFileX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFile: React.FC<IconProps> = ({ color, size }) => {
+const IconFile: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <File color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <File color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFiles: React.FC<IconProps> = ({ color, size }) => {
+const IconFiles: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Files color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Files color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFilm: React.FC<IconProps> = ({ color, size }) => {
+const IconFilm: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Film color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Film color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFilterX: React.FC<IconProps> = ({ color, size }) => {
+const IconFilterX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FilterX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FilterX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFilter: React.FC<IconProps> = ({ color, size }) => {
+const IconFilter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Filter color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Filter color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFingerprint: React.FC<IconProps> = ({ color, size }) => {
+const IconFingerprint: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Fingerprint color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Fingerprint color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFishOff: React.FC<IconProps> = ({ color, size }) => {
+const IconFishOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FishOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FishOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFishSymbol: React.FC<IconProps> = ({ color, size }) => {
+const IconFishSymbol: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FishSymbol color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FishSymbol color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFish: React.FC<IconProps> = ({ color, size }) => {
+const IconFish: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Fish color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Fish color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlagOff: React.FC<IconProps> = ({ color, size }) => {
+const IconFlagOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FlagOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FlagOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlagTriangleLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconFlagTriangleLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlagTriangleLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlagTriangleLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlagTriangleRight: React.FC<IconProps> = ({ color, size }) => {
+const IconFlagTriangleRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlagTriangleRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlagTriangleRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlag: React.FC<IconProps> = ({ color, size }) => {
+const IconFlag: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Flag color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Flag color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlame: React.FC<IconProps> = ({ color, size }) => {
+const IconFlame: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Flame color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Flame color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlashlightOff: React.FC<IconProps> = ({ color, size }) => {
+const IconFlashlightOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlashlightOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlashlightOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlashlight: React.FC<IconProps> = ({ color, size }) => {
+const IconFlashlight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Flashlight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Flashlight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlaskConicalOff: React.FC<IconProps> = ({ color, size }) => {
+const IconFlaskConicalOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlaskConicalOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlaskConicalOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlaskConical: React.FC<IconProps> = ({ color, size }) => {
+const IconFlaskConical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlaskConical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlaskConical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlaskRound: React.FC<IconProps> = ({ color, size }) => {
+const IconFlaskRound: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FlaskRound color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FlaskRound color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlipHorizontal2: React.FC<IconProps> = ({ color, size }) => {
+const IconFlipHorizontal2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlipHorizontal2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlipHorizontal2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlipHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconFlipHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlipHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlipHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlipVertical2: React.FC<IconProps> = ({ color, size }) => {
+const IconFlipVertical2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlipVertical2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlipVertical2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlipVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconFlipVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FlipVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FlipVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFlower2: React.FC<IconProps> = ({ color, size }) => {
+const IconFlower2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Flower2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Flower2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFlower: React.FC<IconProps> = ({ color, size }) => {
+const IconFlower: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Flower color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Flower color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFocus: React.FC<IconProps> = ({ color, size }) => {
+const IconFocus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Focus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Focus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFoldHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconFoldHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FoldHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FoldHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFoldVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconFoldVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FoldVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FoldVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderArchive: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderArchive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderArchive color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderArchive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderClock: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderClock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderClock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderClock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderClosed: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderClosed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderClosed color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderClosed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderDot: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderDown: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderEdit: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderEdit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderEdit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderEdit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderGit2: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderGit2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderGit2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderGit2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderGit: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderGit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderGit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderGit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderHeart: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderHeart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderHeart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderHeart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderInput: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderInput: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderInput color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderInput color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderKanban: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderKanban: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderKanban color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderKanban color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderKey: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderKey: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderKey color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderKey color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderLock: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderLock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderLock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderLock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderOpenDot: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderOpenDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderOpenDot color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderOpenDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderOutput: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderOutput: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderOutput color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderOutput color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderRoot: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderRoot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderRoot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderRoot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderSearch2: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderSearch2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderSearch2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderSearch2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderSearch: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderSearch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderSearch color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderSearch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderSymlink: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderSymlink: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FolderSymlink color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FolderSymlink color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFolderSync: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderSync: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderSync color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderSync color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderTree: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderTree: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderTree color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderTree color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderUp: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderX: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolder: React.FC<IconProps> = ({ color, size }) => {
+const IconFolder: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Folder color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Folder color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolders: React.FC<IconProps> = ({ color, size }) => {
+const IconFolders: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Folders color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Folders color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFootprints: React.FC<IconProps> = ({ color, size }) => {
+const IconFootprints: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Footprints color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Footprints color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconForklift: React.FC<IconProps> = ({ color, size }) => {
+const IconForklift: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Forklift color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Forklift color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFormInput: React.FC<IconProps> = ({ color, size }) => {
+const IconFormInput: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FormInput color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FormInput color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconForward: React.FC<IconProps> = ({ color, size }) => {
+const IconForward: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Forward color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Forward color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFrame: React.FC<IconProps> = ({ color, size }) => {
+const IconFrame: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Frame color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Frame color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFramer: React.FC<IconProps> = ({ color, size }) => {
+const IconFramer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Framer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Framer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFrown: React.FC<IconProps> = ({ color, size }) => {
+const IconFrown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Frown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Frown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFuel: React.FC<IconProps> = ({ color, size }) => {
+const IconFuel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Fuel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Fuel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFunctionSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconFunctionSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <FunctionSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <FunctionSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGalleryHorizontalEnd: React.FC<IconProps> = ({ color, size }) => {
+const IconGalleryHorizontalEnd: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <GalleryHorizontalEnd
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconGalleryHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconGalleryHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GalleryHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GalleryHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGalleryThumbnails: React.FC<IconProps> = ({ color, size }) => {
+const IconGalleryThumbnails: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GalleryThumbnails color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GalleryThumbnails color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGalleryVerticalEnd: React.FC<IconProps> = ({ color, size }) => {
+const IconGalleryVerticalEnd: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <GalleryVerticalEnd
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconGalleryVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconGalleryVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GalleryVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GalleryVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGamepad2: React.FC<IconProps> = ({ color, size }) => {
+const IconGamepad2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gamepad2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gamepad2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGamepad: React.FC<IconProps> = ({ color, size }) => {
+const IconGamepad: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gamepad color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gamepad color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGanttChart: React.FC<IconProps> = ({ color, size }) => {
+const IconGanttChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GanttChart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GanttChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGaugeCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconGaugeCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GaugeCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GaugeCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGauge: React.FC<IconProps> = ({ color, size }) => {
+const IconGauge: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gauge color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gauge color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGavel: React.FC<IconProps> = ({ color, size }) => {
+const IconGavel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gavel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gavel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGem: React.FC<IconProps> = ({ color, size }) => {
+const IconGem: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gem color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gem color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGhost: React.FC<IconProps> = ({ color, size }) => {
+const IconGhost: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ghost color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ghost color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGift: React.FC<IconProps> = ({ color, size }) => {
+const IconGift: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gift color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gift color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitBranchPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconGitBranchPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GitBranchPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GitBranchPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGitBranch: React.FC<IconProps> = ({ color, size }) => {
+const IconGitBranch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GitBranch color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GitBranch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitCommit: React.FC<IconProps> = ({ color, size }) => {
+const IconGitCommit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GitCommit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GitCommit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitCompare: React.FC<IconProps> = ({ color, size }) => {
+const IconGitCompare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GitCompare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GitCompare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitFork: React.FC<IconProps> = ({ color, size }) => {
+const IconGitFork: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GitFork color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GitFork color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitMerge: React.FC<IconProps> = ({ color, size }) => {
+const IconGitMerge: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GitMerge color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GitMerge color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitPullRequestClosed: React.FC<IconProps> = ({ color, size }) => {
+const IconGitPullRequestClosed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <GitPullRequestClosed
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconGitPullRequestDraft: React.FC<IconProps> = ({ color, size }) => {
+const IconGitPullRequestDraft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <GitPullRequestDraft
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconGitPullRequest: React.FC<IconProps> = ({ color, size }) => {
+const IconGitPullRequest: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GitPullRequest color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GitPullRequest color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGithub: React.FC<IconProps> = ({ color, size }) => {
+const IconGithub: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Github color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Github color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGitlab: React.FC<IconProps> = ({ color, size }) => {
+const IconGitlab: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Gitlab color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Gitlab color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGlassWater: React.FC<IconProps> = ({ color, size }) => {
+const IconGlassWater: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <GlassWater color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <GlassWater color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGlasses: React.FC<IconProps> = ({ color, size }) => {
+const IconGlasses: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Glasses color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Glasses color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGlobe2: React.FC<IconProps> = ({ color, size }) => {
+const IconGlobe2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Globe2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Globe2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGlobe: React.FC<IconProps> = ({ color, size }) => {
+const IconGlobe: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Globe color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Globe color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGoal: React.FC<IconProps> = ({ color, size }) => {
+const IconGoal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Goal color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Goal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGrab: React.FC<IconProps> = ({ color, size }) => {
+const IconGrab: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Grab color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Grab color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGraduationCap: React.FC<IconProps> = ({ color, size }) => {
+const IconGraduationCap: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GraduationCap color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GraduationCap color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGrape: React.FC<IconProps> = ({ color, size }) => {
+const IconGrape: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Grape color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Grape color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGripHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconGripHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GripHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GripHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGripVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconGripVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GripVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GripVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGrip: React.FC<IconProps> = ({ color, size }) => {
+const IconGrip: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Grip color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Grip color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGroup: React.FC<IconProps> = ({ color, size }) => {
+const IconGroup: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Group color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Group color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHammer: React.FC<IconProps> = ({ color, size }) => {
+const IconHammer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hammer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hammer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHandMetal: React.FC<IconProps> = ({ color, size }) => {
+const IconHandMetal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HandMetal color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HandMetal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHand: React.FC<IconProps> = ({ color, size }) => {
+const IconHand: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hand color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hand color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHardDriveDownload: React.FC<IconProps> = ({ color, size }) => {
+const IconHardDriveDownload: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <HardDriveDownload color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <HardDriveDownload color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconHardDriveUpload: React.FC<IconProps> = ({ color, size }) => {
+const IconHardDriveUpload: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <HardDriveUpload color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <HardDriveUpload color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconHardDrive: React.FC<IconProps> = ({ color, size }) => {
+const IconHardDrive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HardDrive color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HardDrive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHardHat: React.FC<IconProps> = ({ color, size }) => {
+const IconHardHat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HardHat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HardHat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHash: React.FC<IconProps> = ({ color, size }) => {
+const IconHash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHaze: React.FC<IconProps> = ({ color, size }) => {
+const IconHaze: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Haze color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Haze color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHdmiPort: React.FC<IconProps> = ({ color, size }) => {
+const IconHdmiPort: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HdmiPort color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HdmiPort color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading1: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading1: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading1 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading1 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading2: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading3: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading4: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading4: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading4 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading4 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading5: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading5: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading5 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading5 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading6: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading6: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading6 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading6 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeading: React.FC<IconProps> = ({ color, size }) => {
+const IconHeading: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heading color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heading color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeadphones: React.FC<IconProps> = ({ color, size }) => {
+const IconHeadphones: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Headphones color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Headphones color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeartCrack: React.FC<IconProps> = ({ color, size }) => {
+const IconHeartCrack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HeartCrack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HeartCrack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeartHandshake: React.FC<IconProps> = ({ color, size }) => {
+const IconHeartHandshake: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <HeartHandshake color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <HeartHandshake color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconHeartOff: React.FC<IconProps> = ({ color, size }) => {
+const IconHeartOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HeartOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HeartOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeartPulse: React.FC<IconProps> = ({ color, size }) => {
+const IconHeartPulse: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HeartPulse color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HeartPulse color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHeart: React.FC<IconProps> = ({ color, size }) => {
+const IconHeart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Heart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Heart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHelpCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconHelpCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HelpCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HelpCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHelpingHand: React.FC<IconProps> = ({ color, size }) => {
+const IconHelpingHand: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HelpingHand color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HelpingHand color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHexagon: React.FC<IconProps> = ({ color, size }) => {
+const IconHexagon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hexagon color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hexagon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHighlighter: React.FC<IconProps> = ({ color, size }) => {
+const IconHighlighter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Highlighter color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Highlighter color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHistory: React.FC<IconProps> = ({ color, size }) => {
+const IconHistory: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <History color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <History color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHome: React.FC<IconProps> = ({ color, size }) => {
+const IconHome: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Home color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Home color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHopOff: React.FC<IconProps> = ({ color, size }) => {
+const IconHopOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <HopOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <HopOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHop: React.FC<IconProps> = ({ color, size }) => {
+const IconHop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hop color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHotel: React.FC<IconProps> = ({ color, size }) => {
+const IconHotel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hotel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hotel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconHourglass: React.FC<IconProps> = ({ color, size }) => {
+const IconHourglass: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Hourglass color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Hourglass color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconIceCream2: React.FC<IconProps> = ({ color, size }) => {
+const IconIceCream2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <IceCream2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <IceCream2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconIceCream: React.FC<IconProps> = ({ color, size }) => {
+const IconIceCream: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <IceCream color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <IceCream color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconImageMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconImageMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ImageMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ImageMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconImageOff: React.FC<IconProps> = ({ color, size }) => {
+const IconImageOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ImageOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ImageOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconImagePlus: React.FC<IconProps> = ({ color, size }) => {
+const IconImagePlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ImagePlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ImagePlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconImage: React.FC<IconProps> = ({ color, size }) => {
+const IconImage: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Image color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Image color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconImport: React.FC<IconProps> = ({ color, size }) => {
+const IconImport: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Import color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Import color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconInbox: React.FC<IconProps> = ({ color, size }) => {
+const IconInbox: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Inbox color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Inbox color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconIndent: React.FC<IconProps> = ({ color, size }) => {
+const IconIndent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Indent color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Indent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconIndianRupee: React.FC<IconProps> = ({ color, size }) => {
+const IconIndianRupee: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <IndianRupee color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <IndianRupee color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconInfinity: React.FC<IconProps> = ({ color, size }) => {
+const IconInfinity: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Infinity color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Infinity color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconInfo: React.FC<IconProps> = ({ color, size }) => {
+const IconInfo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Info color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Info color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconInstagram: React.FC<IconProps> = ({ color, size }) => {
+const IconInstagram: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Instagram color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Instagram color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconItalic: React.FC<IconProps> = ({ color, size }) => {
+const IconItalic: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Italic color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Italic color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconIterationCcw: React.FC<IconProps> = ({ color, size }) => {
+const IconIterationCcw: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <IterationCcw color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <IterationCcw color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconIterationCw: React.FC<IconProps> = ({ color, size }) => {
+const IconIterationCw: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <IterationCw color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <IterationCw color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconJapaneseYen: React.FC<IconProps> = ({ color, size }) => {
+const IconJapaneseYen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <JapaneseYen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <JapaneseYen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconJoystick: React.FC<IconProps> = ({ color, size }) => {
+const IconJoystick: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Joystick color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Joystick color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconKanban: React.FC<IconProps> = ({ color, size }) => {
+const IconKanban: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Kanban color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Kanban color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconKeyRound: React.FC<IconProps> = ({ color, size }) => {
+const IconKeyRound: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <KeyRound color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <KeyRound color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconKeySquare: React.FC<IconProps> = ({ color, size }) => {
+const IconKeySquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <KeySquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <KeySquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconKey: React.FC<IconProps> = ({ color, size }) => {
+const IconKey: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Key color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Key color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconKeyboard: React.FC<IconProps> = ({ color, size }) => {
+const IconKeyboard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Keyboard color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Keyboard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLampCeiling: React.FC<IconProps> = ({ color, size }) => {
+const IconLampCeiling: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LampCeiling color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LampCeiling color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLampDesk: React.FC<IconProps> = ({ color, size }) => {
+const IconLampDesk: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LampDesk color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LampDesk color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLampFloor: React.FC<IconProps> = ({ color, size }) => {
+const IconLampFloor: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LampFloor color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LampFloor color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLampWallDown: React.FC<IconProps> = ({ color, size }) => {
+const IconLampWallDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <LampWallDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <LampWallDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconLampWallUp: React.FC<IconProps> = ({ color, size }) => {
+const IconLampWallUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LampWallUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LampWallUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLamp: React.FC<IconProps> = ({ color, size }) => {
+const IconLamp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Lamp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Lamp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLandmark: React.FC<IconProps> = ({ color, size }) => {
+const IconLandmark: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Landmark color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Landmark color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLanguages: React.FC<IconProps> = ({ color, size }) => {
+const IconLanguages: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Languages color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Languages color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLaptop2: React.FC<IconProps> = ({ color, size }) => {
+const IconLaptop2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Laptop2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Laptop2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLaptop: React.FC<IconProps> = ({ color, size }) => {
+const IconLaptop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Laptop color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Laptop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLassoSelect: React.FC<IconProps> = ({ color, size }) => {
+const IconLassoSelect: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LassoSelect color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LassoSelect color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLasso: React.FC<IconProps> = ({ color, size }) => {
+const IconLasso: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Lasso color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Lasso color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLaugh: React.FC<IconProps> = ({ color, size }) => {
+const IconLaugh: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Laugh color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Laugh color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLayers: React.FC<IconProps> = ({ color, size }) => {
+const IconLayers: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Layers color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Layers color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLayoutDashboard: React.FC<IconProps> = ({ color, size }) => {
+const IconLayoutDashboard: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <LayoutDashboard color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <LayoutDashboard color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconLayoutGrid: React.FC<IconProps> = ({ color, size }) => {
+const IconLayoutGrid: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LayoutGrid color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LayoutGrid color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLayoutList: React.FC<IconProps> = ({ color, size }) => {
+const IconLayoutList: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LayoutList color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LayoutList color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLayoutPanelLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconLayoutPanelLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <LayoutPanelLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <LayoutPanelLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconLayoutPanelTop: React.FC<IconProps> = ({ color, size }) => {
+const IconLayoutPanelTop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <LayoutPanelTop color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <LayoutPanelTop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconLayoutTemplate: React.FC<IconProps> = ({ color, size }) => {
+const IconLayoutTemplate: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <LayoutTemplate color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <LayoutTemplate color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconLayout: React.FC<IconProps> = ({ color, size }) => {
+const IconLayout: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Layout color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Layout color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLeaf: React.FC<IconProps> = ({ color, size }) => {
+const IconLeaf: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Leaf color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Leaf color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLeafyGreen: React.FC<IconProps> = ({ color, size }) => {
+const IconLeafyGreen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LeafyGreen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LeafyGreen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLibrary: React.FC<IconProps> = ({ color, size }) => {
+const IconLibrary: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Library color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Library color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLifeBuoy: React.FC<IconProps> = ({ color, size }) => {
+const IconLifeBuoy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LifeBuoy color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LifeBuoy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLigature: React.FC<IconProps> = ({ color, size }) => {
+const IconLigature: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ligature color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ligature color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLightbulbOff: React.FC<IconProps> = ({ color, size }) => {
+const IconLightbulbOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <LightbulbOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <LightbulbOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconLightbulb: React.FC<IconProps> = ({ color, size }) => {
+const IconLightbulb: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Lightbulb color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Lightbulb color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLineChart: React.FC<IconProps> = ({ color, size }) => {
+const IconLineChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LineChart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LineChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLink2Off: React.FC<IconProps> = ({ color, size }) => {
+const IconLink2Off: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Link2Off color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Link2Off color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLink2: React.FC<IconProps> = ({ color, size }) => {
+const IconLink2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Link2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Link2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLink: React.FC<IconProps> = ({ color, size }) => {
+const IconLink: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Link color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Link color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLinkedin: React.FC<IconProps> = ({ color, size }) => {
+const IconLinkedin: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Linkedin color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Linkedin color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListChecks: React.FC<IconProps> = ({ color, size }) => {
+const IconListChecks: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListChecks color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListChecks color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListEnd: React.FC<IconProps> = ({ color, size }) => {
+const IconListEnd: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListEnd color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListEnd color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListFilter: React.FC<IconProps> = ({ color, size }) => {
+const IconListFilter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListFilter color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListFilter color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconListMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListMusic: React.FC<IconProps> = ({ color, size }) => {
+const IconListMusic: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListMusic color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListMusic color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListOrdered: React.FC<IconProps> = ({ color, size }) => {
+const IconListOrdered: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListOrdered color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListOrdered color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconListPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListRestart: React.FC<IconProps> = ({ color, size }) => {
+const IconListRestart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListRestart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListRestart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListStart: React.FC<IconProps> = ({ color, size }) => {
+const IconListStart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListStart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListStart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListTodo: React.FC<IconProps> = ({ color, size }) => {
+const IconListTodo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListTodo color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListTodo color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListTree: React.FC<IconProps> = ({ color, size }) => {
+const IconListTree: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListTree color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListTree color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListVideo: React.FC<IconProps> = ({ color, size }) => {
+const IconListVideo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListVideo color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListVideo color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconListX: React.FC<IconProps> = ({ color, size }) => {
+const IconListX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ListX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ListX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconList: React.FC<IconProps> = ({ color, size }) => {
+const IconList: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <List color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <List color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLoader2: React.FC<IconProps> = ({ color, size }) => {
+const IconLoader2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Loader2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Loader2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLoader: React.FC<IconProps> = ({ color, size }) => {
+const IconLoader: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Loader color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Loader color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLocateFixed: React.FC<IconProps> = ({ color, size }) => {
+const IconLocateFixed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LocateFixed color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LocateFixed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLocateOff: React.FC<IconProps> = ({ color, size }) => {
+const IconLocateOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LocateOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LocateOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLocate: React.FC<IconProps> = ({ color, size }) => {
+const IconLocate: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Locate color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Locate color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLock: React.FC<IconProps> = ({ color, size }) => {
+const IconLock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Lock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Lock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLogIn: React.FC<IconProps> = ({ color, size }) => {
+const IconLogIn: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LogIn color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LogIn color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLogOut: React.FC<IconProps> = ({ color, size }) => {
+const IconLogOut: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <LogOut color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <LogOut color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLollipop: React.FC<IconProps> = ({ color, size }) => {
+const IconLollipop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Lollipop color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Lollipop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconLuggage: React.FC<IconProps> = ({ color, size }) => {
+const IconLuggage: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Luggage color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Luggage color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconMSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMagnet: React.FC<IconProps> = ({ color, size }) => {
+const IconMagnet: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Magnet color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Magnet color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconMailCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconMailMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconMailOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconMailPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailQuestion: React.FC<IconProps> = ({ color, size }) => {
+const IconMailQuestion: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MailQuestion color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MailQuestion color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMailSearch: React.FC<IconProps> = ({ color, size }) => {
+const IconMailSearch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailSearch color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailSearch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailWarning: React.FC<IconProps> = ({ color, size }) => {
+const IconMailWarning: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailWarning color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailWarning color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailX: React.FC<IconProps> = ({ color, size }) => {
+const IconMailX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MailX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MailX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMail: React.FC<IconProps> = ({ color, size }) => {
+const IconMail: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mail color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mail color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMailbox: React.FC<IconProps> = ({ color, size }) => {
+const IconMailbox: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mailbox color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mailbox color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMails: React.FC<IconProps> = ({ color, size }) => {
+const IconMails: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mails color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mails color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMapPinOff: React.FC<IconProps> = ({ color, size }) => {
+const IconMapPinOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MapPinOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MapPinOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMapPin: React.FC<IconProps> = ({ color, size }) => {
+const IconMapPin: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MapPin color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MapPin color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMap: React.FC<IconProps> = ({ color, size }) => {
+const IconMap: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Map color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Map color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMartini: React.FC<IconProps> = ({ color, size }) => {
+const IconMartini: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Martini color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Martini color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMaximize2: React.FC<IconProps> = ({ color, size }) => {
+const IconMaximize2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Maximize2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Maximize2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMaximize: React.FC<IconProps> = ({ color, size }) => {
+const IconMaximize: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Maximize color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Maximize color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMedal: React.FC<IconProps> = ({ color, size }) => {
+const IconMedal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Medal color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Medal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMegaphoneOff: React.FC<IconProps> = ({ color, size }) => {
+const IconMegaphoneOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MegaphoneOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MegaphoneOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMegaphone: React.FC<IconProps> = ({ color, size }) => {
+const IconMegaphone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Megaphone color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Megaphone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMeh: React.FC<IconProps> = ({ color, size }) => {
+const IconMeh: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Meh color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Meh color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMemoryStick: React.FC<IconProps> = ({ color, size }) => {
+const IconMemoryStick: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MemoryStick color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MemoryStick color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMenuSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconMenuSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MenuSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MenuSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMenu: React.FC<IconProps> = ({ color, size }) => {
+const IconMenu: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Menu color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Menu color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMerge: React.FC<IconProps> = ({ color, size }) => {
+const IconMerge: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Merge color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Merge color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMessageCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconMessageCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MessageCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MessageCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMessageSquareDashed: React.FC<IconProps> = ({ color, size }) => {
+const IconMessageSquareDashed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <MessageSquareDashed
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconMessageSquarePlus: React.FC<IconProps> = ({ color, size }) => {
+const IconMessageSquarePlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MessageSquarePlus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MessageSquarePlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMessageSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconMessageSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MessageSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MessageSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMessagesSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconMessagesSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MessagesSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MessagesSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMic2: React.FC<IconProps> = ({ color, size }) => {
+const IconMic2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mic2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mic2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMicOff: React.FC<IconProps> = ({ color, size }) => {
+const IconMicOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MicOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MicOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMic: React.FC<IconProps> = ({ color, size }) => {
+const IconMic: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mic color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mic color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMicroscope: React.FC<IconProps> = ({ color, size }) => {
+const IconMicroscope: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Microscope color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Microscope color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMicrowave: React.FC<IconProps> = ({ color, size }) => {
+const IconMicrowave: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Microwave color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Microwave color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMilestone: React.FC<IconProps> = ({ color, size }) => {
+const IconMilestone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Milestone color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Milestone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMilkOff: React.FC<IconProps> = ({ color, size }) => {
+const IconMilkOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MilkOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MilkOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMilk: React.FC<IconProps> = ({ color, size }) => {
+const IconMilk: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Milk color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Milk color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMinimize2: React.FC<IconProps> = ({ color, size }) => {
+const IconMinimize2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Minimize2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Minimize2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMinimize: React.FC<IconProps> = ({ color, size }) => {
+const IconMinimize: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Minimize color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Minimize color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMinusCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconMinusCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MinusCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MinusCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMinusSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconMinusSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MinusSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MinusSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Minus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Minus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MonitorCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MonitorCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMonitorDot: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorDown: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorOff: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorPause: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorPause: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MonitorPause color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MonitorPause color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMonitorPlay: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorPlay: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorPlay color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorPlay color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorSmartphone: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorSmartphone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MonitorSmartphone color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MonitorSmartphone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMonitorSpeaker: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorSpeaker: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MonitorSpeaker color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MonitorSpeaker color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMonitorStop: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorStop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorStop color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorStop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorUp: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitorX: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitorX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MonitorX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MonitorX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMonitor: React.FC<IconProps> = ({ color, size }) => {
+const IconMonitor: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Monitor color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Monitor color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoonStar: React.FC<IconProps> = ({ color, size }) => {
+const IconMoonStar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoonStar color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoonStar color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoon: React.FC<IconProps> = ({ color, size }) => {
+const IconMoon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Moon color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Moon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoreHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconMoreHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoreHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoreHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMoreVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconMoreVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoreVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoreVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMountainSnow: React.FC<IconProps> = ({ color, size }) => {
+const IconMountainSnow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MountainSnow color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MountainSnow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMountain: React.FC<IconProps> = ({ color, size }) => {
+const IconMountain: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mountain color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mountain color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMousePointer2: React.FC<IconProps> = ({ color, size }) => {
+const IconMousePointer2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MousePointer2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MousePointer2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMousePointerClick: React.FC<IconProps> = ({ color, size }) => {
+const IconMousePointerClick: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MousePointerClick color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MousePointerClick color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMousePointerSquareDashed: React.FC<IconProps> = ({ color, size }) => {
+const IconMousePointerSquareDashed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <MousePointerSquareDashed
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconMousePointer: React.FC<IconProps> = ({ color, size }) => {
+const IconMousePointer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MousePointer color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MousePointer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMouse: React.FC<IconProps> = ({ color, size }) => {
+const IconMouse: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Mouse color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Mouse color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveDiagonal2: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveDiagonal2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoveDiagonal2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoveDiagonal2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMoveDiagonal: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveDiagonal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoveDiagonal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoveDiagonal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMoveDownLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveDownLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoveDownLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoveDownLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMoveDownRight: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveDownRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoveDownRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoveDownRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMoveDown: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoveDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoveDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoveHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoveHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMoveLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoveLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoveLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveRight: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoveRight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoveRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveUpLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveUpLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoveUpLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoveUpLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveUpRight: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveUpRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoveUpRight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoveUpRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveUp: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <MoveUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <MoveUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMoveVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconMoveVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <MoveVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <MoveVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconMove: React.FC<IconProps> = ({ color, size }) => {
+const IconMove: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Move color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Move color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMusic2: React.FC<IconProps> = ({ color, size }) => {
+const IconMusic2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Music2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Music2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMusic3: React.FC<IconProps> = ({ color, size }) => {
+const IconMusic3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Music3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Music3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMusic4: React.FC<IconProps> = ({ color, size }) => {
+const IconMusic4: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Music4 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Music4 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMusic: React.FC<IconProps> = ({ color, size }) => {
+const IconMusic: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Music color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Music color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNavigation2Off: React.FC<IconProps> = ({ color, size }) => {
+const IconNavigation2Off: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Navigation2Off color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Navigation2Off color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconNavigation2: React.FC<IconProps> = ({ color, size }) => {
+const IconNavigation2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Navigation2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Navigation2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNavigationOff: React.FC<IconProps> = ({ color, size }) => {
+const IconNavigationOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <NavigationOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <NavigationOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconNavigation: React.FC<IconProps> = ({ color, size }) => {
+const IconNavigation: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Navigation color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Navigation color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNetwork: React.FC<IconProps> = ({ color, size }) => {
+const IconNetwork: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Network color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Network color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNewspaper: React.FC<IconProps> = ({ color, size }) => {
+const IconNewspaper: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Newspaper color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Newspaper color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNfc: React.FC<IconProps> = ({ color, size }) => {
+const IconNfc: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Nfc color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Nfc color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNutOff: React.FC<IconProps> = ({ color, size }) => {
+const IconNutOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <NutOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <NutOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconNut: React.FC<IconProps> = ({ color, size }) => {
+const IconNut: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Nut color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Nut color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconOctagon: React.FC<IconProps> = ({ color, size }) => {
+const IconOctagon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Octagon color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Octagon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconOption: React.FC<IconProps> = ({ color, size }) => {
+const IconOption: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Option color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Option color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconOrbit: React.FC<IconProps> = ({ color, size }) => {
+const IconOrbit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Orbit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Orbit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconOutdent: React.FC<IconProps> = ({ color, size }) => {
+const IconOutdent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Outdent color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Outdent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPackage2: React.FC<IconProps> = ({ color, size }) => {
+const IconPackage2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Package2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Package2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPackageCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconPackageCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PackageCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PackageCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPackageMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconPackageMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PackageMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PackageMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPackageOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconPackageOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PackageOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PackageOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPackagePlus: React.FC<IconProps> = ({ color, size }) => {
+const IconPackagePlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PackagePlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PackagePlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPackageSearch: React.FC<IconProps> = ({ color, size }) => {
+const IconPackageSearch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PackageSearch color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PackageSearch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPackageX: React.FC<IconProps> = ({ color, size }) => {
+const IconPackageX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PackageX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PackageX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPackage: React.FC<IconProps> = ({ color, size }) => {
+const IconPackage: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Package color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Package color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPaintBucket: React.FC<IconProps> = ({ color, size }) => {
+const IconPaintBucket: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PaintBucket color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PaintBucket color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPaintbrush2: React.FC<IconProps> = ({ color, size }) => {
+const IconPaintbrush2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Paintbrush2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Paintbrush2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPaintbrush: React.FC<IconProps> = ({ color, size }) => {
+const IconPaintbrush: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Paintbrush color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Paintbrush color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPalette: React.FC<IconProps> = ({ color, size }) => {
+const IconPalette: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Palette color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Palette color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPalmtree: React.FC<IconProps> = ({ color, size }) => {
+const IconPalmtree: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Palmtree color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Palmtree color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPanelBottomClose: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelBottomClose: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelBottomClose color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelBottomClose color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelBottomInactive: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelBottomInactive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <PanelBottomInactive
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconPanelBottomOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelBottomOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelBottomOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelBottomOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelBottom: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelBottom: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PanelBottom color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PanelBottom color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPanelLeftInactive: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelLeftInactive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelLeftInactive color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelLeftInactive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelRightClose: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelRightClose: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelRightClose color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelRightClose color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelRightInactive: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelRightInactive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <PanelRightInactive
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconPanelRightOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelRightOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelRightOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelRightOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelRight: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PanelRight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PanelRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPanelTopClose: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelTopClose: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelTopClose color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelTopClose color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelTopInactive: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelTopInactive: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelTopInactive color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelTopInactive color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelTopOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelTopOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelTopOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelTopOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelTop: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelTop: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PanelTop color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PanelTop color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPaperclip: React.FC<IconProps> = ({ color, size }) => {
+const IconPaperclip: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Paperclip color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Paperclip color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconParentheses: React.FC<IconProps> = ({ color, size }) => {
+const IconParentheses: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Parentheses color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Parentheses color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconParkingCircleOff: React.FC<IconProps> = ({ color, size }) => {
+const IconParkingCircleOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ParkingCircleOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ParkingCircleOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconParkingCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconParkingCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ParkingCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ParkingCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconParkingMeter: React.FC<IconProps> = ({ color, size }) => {
+const IconParkingMeter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ParkingMeter color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ParkingMeter color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconParkingSquareOff: React.FC<IconProps> = ({ color, size }) => {
+const IconParkingSquareOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ParkingSquareOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ParkingSquareOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconParkingSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconParkingSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ParkingSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ParkingSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPartyPopper: React.FC<IconProps> = ({ color, size }) => {
+const IconPartyPopper: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PartyPopper color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PartyPopper color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPauseCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconPauseCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PauseCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PauseCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPauseOctagon: React.FC<IconProps> = ({ color, size }) => {
+const IconPauseOctagon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PauseOctagon color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PauseOctagon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPause: React.FC<IconProps> = ({ color, size }) => {
+const IconPause: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pause color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pause color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPawPrint: React.FC<IconProps> = ({ color, size }) => {
+const IconPawPrint: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PawPrint color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PawPrint color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPcCase: React.FC<IconProps> = ({ color, size }) => {
+const IconPcCase: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PcCase color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PcCase color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPenTool: React.FC<IconProps> = ({ color, size }) => {
+const IconPenTool: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PenTool color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PenTool color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPencilLine: React.FC<IconProps> = ({ color, size }) => {
+const IconPencilLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PencilLine color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PencilLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPencilRuler: React.FC<IconProps> = ({ color, size }) => {
+const IconPencilRuler: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PencilRuler color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PencilRuler color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPencil: React.FC<IconProps> = ({ color, size }) => {
+const IconPencil: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pencil color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pencil color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPercentCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconPercentCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PercentCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PercentCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPercentDiamond: React.FC<IconProps> = ({ color, size }) => {
+const IconPercentDiamond: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PercentDiamond color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PercentDiamond color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPercentSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconPercentSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PercentSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PercentSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPercent: React.FC<IconProps> = ({ color, size }) => {
+const IconPercent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Percent color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Percent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPersonStanding: React.FC<IconProps> = ({ color, size }) => {
+const IconPersonStanding: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PersonStanding color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PersonStanding color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPhoneCall: React.FC<IconProps> = ({ color, size }) => {
+const IconPhoneCall: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PhoneCall color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PhoneCall color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPhoneForwarded: React.FC<IconProps> = ({ color, size }) => {
+const IconPhoneForwarded: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PhoneForwarded color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PhoneForwarded color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPhoneIncoming: React.FC<IconProps> = ({ color, size }) => {
+const IconPhoneIncoming: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PhoneIncoming color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PhoneIncoming color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPhoneMissed: React.FC<IconProps> = ({ color, size }) => {
+const IconPhoneMissed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PhoneMissed color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PhoneMissed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPhoneOff: React.FC<IconProps> = ({ color, size }) => {
+const IconPhoneOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PhoneOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PhoneOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPhoneOutgoing: React.FC<IconProps> = ({ color, size }) => {
+const IconPhoneOutgoing: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PhoneOutgoing color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PhoneOutgoing color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPhone: React.FC<IconProps> = ({ color, size }) => {
+const IconPhone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Phone color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Phone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPiSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconPiSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PiSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PiSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPi: React.FC<IconProps> = ({ color, size }) => {
+const IconPi: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pi color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pi color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPictureInPicture2: React.FC<IconProps> = ({ color, size }) => {
+const IconPictureInPicture2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PictureInPicture2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PictureInPicture2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPictureInPicture: React.FC<IconProps> = ({ color, size }) => {
+const IconPictureInPicture: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PictureInPicture color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PictureInPicture color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPieChart: React.FC<IconProps> = ({ color, size }) => {
+const IconPieChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PieChart color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PieChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPiggyBank: React.FC<IconProps> = ({ color, size }) => {
+const IconPiggyBank: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PiggyBank color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PiggyBank color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPilcrowSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconPilcrowSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PilcrowSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PilcrowSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPilcrow: React.FC<IconProps> = ({ color, size }) => {
+const IconPilcrow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pilcrow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pilcrow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPill: React.FC<IconProps> = ({ color, size }) => {
+const IconPill: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pill color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pill color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPinOff: React.FC<IconProps> = ({ color, size }) => {
+const IconPinOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PinOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PinOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPin: React.FC<IconProps> = ({ color, size }) => {
+const IconPin: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pin color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pin color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPipette: React.FC<IconProps> = ({ color, size }) => {
+const IconPipette: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pipette color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pipette color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPizza: React.FC<IconProps> = ({ color, size }) => {
+const IconPizza: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pizza color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pizza color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlaneLanding: React.FC<IconProps> = ({ color, size }) => {
+const IconPlaneLanding: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PlaneLanding color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PlaneLanding color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPlaneTakeoff: React.FC<IconProps> = ({ color, size }) => {
+const IconPlaneTakeoff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PlaneTakeoff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PlaneTakeoff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPlane: React.FC<IconProps> = ({ color, size }) => {
+const IconPlane: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Plane color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Plane color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlayCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconPlayCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PlayCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PlayCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlaySquare: React.FC<IconProps> = ({ color, size }) => {
+const IconPlaySquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PlaySquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PlaySquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlay: React.FC<IconProps> = ({ color, size }) => {
+const IconPlay: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Play color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Play color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlug2: React.FC<IconProps> = ({ color, size }) => {
+const IconPlug2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Plug2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Plug2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlugZap2: React.FC<IconProps> = ({ color, size }) => {
+const IconPlugZap2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PlugZap2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PlugZap2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlugZap: React.FC<IconProps> = ({ color, size }) => {
+const IconPlugZap: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PlugZap color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PlugZap color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlug: React.FC<IconProps> = ({ color, size }) => {
+const IconPlug: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Plug color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Plug color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlusCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconPlusCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PlusCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PlusCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlusSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconPlusSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PlusSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PlusSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Plus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Plus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPocketKnife: React.FC<IconProps> = ({ color, size }) => {
+const IconPocketKnife: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PocketKnife color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PocketKnife color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPocket: React.FC<IconProps> = ({ color, size }) => {
+const IconPocket: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pocket color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pocket color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPodcast: React.FC<IconProps> = ({ color, size }) => {
+const IconPodcast: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Podcast color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Podcast color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPointer: React.FC<IconProps> = ({ color, size }) => {
+const IconPointer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Pointer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Pointer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPopcorn: React.FC<IconProps> = ({ color, size }) => {
+const IconPopcorn: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Popcorn color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Popcorn color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPopsicle: React.FC<IconProps> = ({ color, size }) => {
+const IconPopsicle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Popsicle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Popsicle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPoundSterling: React.FC<IconProps> = ({ color, size }) => {
+const IconPoundSterling: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PoundSterling color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PoundSterling color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPowerOff: React.FC<IconProps> = ({ color, size }) => {
+const IconPowerOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PowerOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PowerOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPower: React.FC<IconProps> = ({ color, size }) => {
+const IconPower: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Power color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Power color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPresentation: React.FC<IconProps> = ({ color, size }) => {
+const IconPresentation: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Presentation color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Presentation color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPrinter: React.FC<IconProps> = ({ color, size }) => {
+const IconPrinter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Printer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Printer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconProjector: React.FC<IconProps> = ({ color, size }) => {
+const IconProjector: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Projector color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Projector color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPuzzle: React.FC<IconProps> = ({ color, size }) => {
+const IconPuzzle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Puzzle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Puzzle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconQrCode: React.FC<IconProps> = ({ color, size }) => {
+const IconQrCode: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <QrCode color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <QrCode color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconQuote: React.FC<IconProps> = ({ color, size }) => {
+const IconQuote: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Quote color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Quote color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRabbit: React.FC<IconProps> = ({ color, size }) => {
+const IconRabbit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rabbit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rabbit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRadar: React.FC<IconProps> = ({ color, size }) => {
+const IconRadar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Radar color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Radar color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRadiation: React.FC<IconProps> = ({ color, size }) => {
+const IconRadiation: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Radiation color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Radiation color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRadioReceiver: React.FC<IconProps> = ({ color, size }) => {
+const IconRadioReceiver: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RadioReceiver color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RadioReceiver color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRadioTower: React.FC<IconProps> = ({ color, size }) => {
+const IconRadioTower: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RadioTower color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RadioTower color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRadio: React.FC<IconProps> = ({ color, size }) => {
+const IconRadio: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Radio color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Radio color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRailSymbol: React.FC<IconProps> = ({ color, size }) => {
+const IconRailSymbol: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RailSymbol color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RailSymbol color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRainbow: React.FC<IconProps> = ({ color, size }) => {
+const IconRainbow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rainbow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rainbow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRat: React.FC<IconProps> = ({ color, size }) => {
+const IconRat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRatio: React.FC<IconProps> = ({ color, size }) => {
+const IconRatio: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ratio color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ratio color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconReceipt: React.FC<IconProps> = ({ color, size }) => {
+const IconReceipt: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Receipt color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Receipt color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRectangleHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconRectangleHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <RectangleHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconRectangleVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconRectangleVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RectangleVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RectangleVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRecycle: React.FC<IconProps> = ({ color, size }) => {
+const IconRecycle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Recycle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Recycle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRedo2: React.FC<IconProps> = ({ color, size }) => {
+const IconRedo2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Redo2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Redo2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRedoDot: React.FC<IconProps> = ({ color, size }) => {
+const IconRedoDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RedoDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RedoDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRedo: React.FC<IconProps> = ({ color, size }) => {
+const IconRedo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Redo color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Redo color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRefreshCcwDot: React.FC<IconProps> = ({ color, size }) => {
+const IconRefreshCcwDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RefreshCcwDot color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RefreshCcwDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRefreshCcw: React.FC<IconProps> = ({ color, size }) => {
+const IconRefreshCcw: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RefreshCcw color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RefreshCcw color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRefreshCwOff: React.FC<IconProps> = ({ color, size }) => {
+const IconRefreshCwOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RefreshCwOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RefreshCwOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRefreshCw: React.FC<IconProps> = ({ color, size }) => {
+const IconRefreshCw: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RefreshCw color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RefreshCw color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRefrigerator: React.FC<IconProps> = ({ color, size }) => {
+const IconRefrigerator: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Refrigerator color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Refrigerator color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRegex: React.FC<IconProps> = ({ color, size }) => {
+const IconRegex: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Regex color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Regex color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRemoveFormatting: React.FC<IconProps> = ({ color, size }) => {
+const IconRemoveFormatting: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RemoveFormatting color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RemoveFormatting color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRepeat1: React.FC<IconProps> = ({ color, size }) => {
+const IconRepeat1: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Repeat1 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Repeat1 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRepeat2: React.FC<IconProps> = ({ color, size }) => {
+const IconRepeat2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Repeat2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Repeat2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRepeat: React.FC<IconProps> = ({ color, size }) => {
+const IconRepeat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Repeat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Repeat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconReplaceAll: React.FC<IconProps> = ({ color, size }) => {
+const IconReplaceAll: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ReplaceAll color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ReplaceAll color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconReplace: React.FC<IconProps> = ({ color, size }) => {
+const IconReplace: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Replace color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Replace color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconReplyAll: React.FC<IconProps> = ({ color, size }) => {
+const IconReplyAll: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ReplyAll color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ReplyAll color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconReply: React.FC<IconProps> = ({ color, size }) => {
+const IconReply: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Reply color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Reply color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRewind: React.FC<IconProps> = ({ color, size }) => {
+const IconRewind: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rewind color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rewind color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRocket: React.FC<IconProps> = ({ color, size }) => {
+const IconRocket: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rocket color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rocket color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRockingChair: React.FC<IconProps> = ({ color, size }) => {
+const IconRockingChair: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RockingChair color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RockingChair color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRollerCoaster: React.FC<IconProps> = ({ color, size }) => {
+const IconRollerCoaster: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RollerCoaster color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RollerCoaster color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconRotateCcw: React.FC<IconProps> = ({ color, size }) => {
+const IconRotateCcw: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RotateCcw color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RotateCcw color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRotateCw: React.FC<IconProps> = ({ color, size }) => {
+const IconRotateCw: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <RotateCw color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <RotateCw color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRouter: React.FC<IconProps> = ({ color, size }) => {
+const IconRouter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Router color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Router color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRows: React.FC<IconProps> = ({ color, size }) => {
+const IconRows: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rows color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rows color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRss: React.FC<IconProps> = ({ color, size }) => {
+const IconRss: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rss color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rss color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRuler: React.FC<IconProps> = ({ color, size }) => {
+const IconRuler: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ruler color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ruler color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRussianRuble: React.FC<IconProps> = ({ color, size }) => {
+const IconRussianRuble: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <RussianRuble color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <RussianRuble color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSailboat: React.FC<IconProps> = ({ color, size }) => {
+const IconSailboat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sailboat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sailboat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSalad: React.FC<IconProps> = ({ color, size }) => {
+const IconSalad: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Salad color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Salad color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSandwich: React.FC<IconProps> = ({ color, size }) => {
+const IconSandwich: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sandwich color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sandwich color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSatelliteDish: React.FC<IconProps> = ({ color, size }) => {
+const IconSatelliteDish: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SatelliteDish color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SatelliteDish color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSatellite: React.FC<IconProps> = ({ color, size }) => {
+const IconSatellite: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Satellite color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Satellite color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSaveAll: React.FC<IconProps> = ({ color, size }) => {
+const IconSaveAll: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SaveAll color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SaveAll color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSave: React.FC<IconProps> = ({ color, size }) => {
+const IconSave: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Save color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Save color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScale: React.FC<IconProps> = ({ color, size }) => {
+const IconScale: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Scale color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Scale color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScaling: React.FC<IconProps> = ({ color, size }) => {
+const IconScaling: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Scaling color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Scaling color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScanFace: React.FC<IconProps> = ({ color, size }) => {
+const IconScanFace: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ScanFace color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ScanFace color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScanLine: React.FC<IconProps> = ({ color, size }) => {
+const IconScanLine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ScanLine color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ScanLine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScan: React.FC<IconProps> = ({ color, size }) => {
+const IconScan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Scan color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Scan color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScatterChart: React.FC<IconProps> = ({ color, size }) => {
+const IconScatterChart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ScatterChart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ScatterChart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSchool2: React.FC<IconProps> = ({ color, size }) => {
+const IconSchool2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <School2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <School2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSchool: React.FC<IconProps> = ({ color, size }) => {
+const IconSchool: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <School color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <School color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScissorsLineDashed: React.FC<IconProps> = ({ color, size }) => {
+const IconScissorsLineDashed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ScissorsLineDashed
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
@@ -6858,6 +6893,7 @@ const IconScissorsLineDashed: React.FC<IconProps> = ({ color, size }) => {
 const IconScissorsSquareDashedBottom: React.FC<IconProps> = ({
   color,
   size,
+  className,
 }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
@@ -6865,1669 +6901,1670 @@ const IconScissorsSquareDashedBottom: React.FC<IconProps> = ({
       color={colorHex}
       size={pixelSize}
       strokeWidth={stroke}
+      className={className}
     />
   );
 };
 
-const IconScissorsSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconScissorsSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ScissorsSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ScissorsSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconScissors: React.FC<IconProps> = ({ color, size }) => {
+const IconScissors: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Scissors color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Scissors color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScreenShareOff: React.FC<IconProps> = ({ color, size }) => {
+const IconScreenShareOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ScreenShareOff color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ScreenShareOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconScreenShare: React.FC<IconProps> = ({ color, size }) => {
+const IconScreenShare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ScreenShare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ScreenShare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScrollText: React.FC<IconProps> = ({ color, size }) => {
+const IconScrollText: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ScrollText color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ScrollText color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScroll: React.FC<IconProps> = ({ color, size }) => {
+const IconScroll: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Scroll color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Scroll color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSearchCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconSearchCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SearchCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SearchCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSearchCode: React.FC<IconProps> = ({ color, size }) => {
+const IconSearchCode: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SearchCode color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SearchCode color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSearchSlash: React.FC<IconProps> = ({ color, size }) => {
+const IconSearchSlash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SearchSlash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SearchSlash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSearchX: React.FC<IconProps> = ({ color, size }) => {
+const IconSearchX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SearchX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SearchX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSearch: React.FC<IconProps> = ({ color, size }) => {
+const IconSearch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Search color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Search color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSendToBack: React.FC<IconProps> = ({ color, size }) => {
+const IconSendToBack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SendToBack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SendToBack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSend: React.FC<IconProps> = ({ color, size }) => {
+const IconSend: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Send color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Send color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSeparatorHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconSeparatorHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <SeparatorHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconSeparatorVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconSeparatorVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SeparatorVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SeparatorVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconServerCog: React.FC<IconProps> = ({ color, size }) => {
+const IconServerCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ServerCog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ServerCog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconServerCrash: React.FC<IconProps> = ({ color, size }) => {
+const IconServerCrash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ServerCrash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ServerCrash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconServerOff: React.FC<IconProps> = ({ color, size }) => {
+const IconServerOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ServerOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ServerOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconServer: React.FC<IconProps> = ({ color, size }) => {
+const IconServer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Server color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Server color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSettings2: React.FC<IconProps> = ({ color, size }) => {
+const IconSettings2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Settings2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Settings2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSettings: React.FC<IconProps> = ({ color, size }) => {
+const IconSettings: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Settings color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Settings color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShapes: React.FC<IconProps> = ({ color, size }) => {
+const IconShapes: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shapes color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shapes color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShare2: React.FC<IconProps> = ({ color, size }) => {
+const IconShare2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Share2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Share2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShare: React.FC<IconProps> = ({ color, size }) => {
+const IconShare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Share color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Share color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSheet: React.FC<IconProps> = ({ color, size }) => {
+const IconSheet: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sheet color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sheet color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShell: React.FC<IconProps> = ({ color, size }) => {
+const IconShell: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shell color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shell color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldAlert: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldAlert: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldAlert color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldAlert color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldBan: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldBan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldBan color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldBan color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldEllipsis: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldEllipsis: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ShieldEllipsis color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ShieldEllipsis color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconShieldHalf: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldHalf: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldHalf color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldHalf color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldOff: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShieldQuestion: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldQuestion: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ShieldQuestion color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ShieldQuestion color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconShield: React.FC<IconProps> = ({ color, size }) => {
+const IconShield: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shield color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shield color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShipWheel: React.FC<IconProps> = ({ color, size }) => {
+const IconShipWheel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShipWheel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShipWheel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShip: React.FC<IconProps> = ({ color, size }) => {
+const IconShip: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ship color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ship color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShirt: React.FC<IconProps> = ({ color, size }) => {
+const IconShirt: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shirt color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shirt color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShoppingBag: React.FC<IconProps> = ({ color, size }) => {
+const IconShoppingBag: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShoppingBag color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShoppingBag color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShoppingBasket: React.FC<IconProps> = ({ color, size }) => {
+const IconShoppingBasket: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ShoppingBasket color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ShoppingBasket color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconShoppingCart: React.FC<IconProps> = ({ color, size }) => {
+const IconShoppingCart: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ShoppingCart color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ShoppingCart color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconShovel: React.FC<IconProps> = ({ color, size }) => {
+const IconShovel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shovel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shovel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShowerHead: React.FC<IconProps> = ({ color, size }) => {
+const IconShowerHead: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShowerHead color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShowerHead color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShrink: React.FC<IconProps> = ({ color, size }) => {
+const IconShrink: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shrink color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shrink color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShrub: React.FC<IconProps> = ({ color, size }) => {
+const IconShrub: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shrub color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shrub color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconShuffle: React.FC<IconProps> = ({ color, size }) => {
+const IconShuffle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Shuffle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Shuffle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSigmaSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconSigmaSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SigmaSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SigmaSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSigma: React.FC<IconProps> = ({ color, size }) => {
+const IconSigma: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sigma color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sigma color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSignalHigh: React.FC<IconProps> = ({ color, size }) => {
+const IconSignalHigh: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SignalHigh color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SignalHigh color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSignalLow: React.FC<IconProps> = ({ color, size }) => {
+const IconSignalLow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SignalLow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SignalLow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSignalMedium: React.FC<IconProps> = ({ color, size }) => {
+const IconSignalMedium: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SignalMedium color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SignalMedium color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSignalZero: React.FC<IconProps> = ({ color, size }) => {
+const IconSignalZero: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SignalZero color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SignalZero color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSignal: React.FC<IconProps> = ({ color, size }) => {
+const IconSignal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Signal color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Signal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSiren: React.FC<IconProps> = ({ color, size }) => {
+const IconSiren: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Siren color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Siren color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSkipBack: React.FC<IconProps> = ({ color, size }) => {
+const IconSkipBack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SkipBack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SkipBack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSkipForward: React.FC<IconProps> = ({ color, size }) => {
+const IconSkipForward: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SkipForward color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SkipForward color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSkull: React.FC<IconProps> = ({ color, size }) => {
+const IconSkull: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Skull color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Skull color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSlack: React.FC<IconProps> = ({ color, size }) => {
+const IconSlack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Slack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Slack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSlash: React.FC<IconProps> = ({ color, size }) => {
+const IconSlash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Slash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Slash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSlice: React.FC<IconProps> = ({ color, size }) => {
+const IconSlice: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Slice color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Slice color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSlidersHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconSlidersHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SlidersHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SlidersHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSliders: React.FC<IconProps> = ({ color, size }) => {
+const IconSliders: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sliders color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sliders color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSmartphoneCharging: React.FC<IconProps> = ({ color, size }) => {
+const IconSmartphoneCharging: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <SmartphoneCharging
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconSmartphoneNfc: React.FC<IconProps> = ({ color, size }) => {
+const IconSmartphoneNfc: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SmartphoneNfc color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SmartphoneNfc color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSmartphone: React.FC<IconProps> = ({ color, size }) => {
+const IconSmartphone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Smartphone color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Smartphone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSmilePlus: React.FC<IconProps> = ({ color, size }) => {
+const IconSmilePlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SmilePlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SmilePlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSmile: React.FC<IconProps> = ({ color, size }) => {
+const IconSmile: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Smile color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Smile color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSnail: React.FC<IconProps> = ({ color, size }) => {
+const IconSnail: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Snail color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Snail color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSnowflake: React.FC<IconProps> = ({ color, size }) => {
+const IconSnowflake: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Snowflake color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Snowflake color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSofa: React.FC<IconProps> = ({ color, size }) => {
+const IconSofa: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sofa color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sofa color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSoup: React.FC<IconProps> = ({ color, size }) => {
+const IconSoup: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Soup color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Soup color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpace: React.FC<IconProps> = ({ color, size }) => {
+const IconSpace: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Space color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Space color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpade: React.FC<IconProps> = ({ color, size }) => {
+const IconSpade: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Spade color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Spade color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSparkle: React.FC<IconProps> = ({ color, size }) => {
+const IconSparkle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sparkle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sparkle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpeaker: React.FC<IconProps> = ({ color, size }) => {
+const IconSpeaker: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Speaker color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Speaker color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpeech: React.FC<IconProps> = ({ color, size }) => {
+const IconSpeech: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Speech color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Speech color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpellCheck2: React.FC<IconProps> = ({ color, size }) => {
+const IconSpellCheck2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SpellCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SpellCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpellCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconSpellCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SpellCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SpellCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSpline: React.FC<IconProps> = ({ color, size }) => {
+const IconSpline: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Spline color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Spline color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSplitSquareHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconSplitSquareHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <SplitSquareHorizontal
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconSplitSquareVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconSplitSquareVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <SplitSquareVertical
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconSplit: React.FC<IconProps> = ({ color, size }) => {
+const IconSplit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Split color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Split color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSprayCan: React.FC<IconProps> = ({ color, size }) => {
+const IconSprayCan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SprayCan color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SprayCan color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSprout: React.FC<IconProps> = ({ color, size }) => {
+const IconSprout: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sprout color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sprout color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquareAsterisk: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareAsterisk: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SquareAsterisk color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SquareAsterisk color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSquareCode: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareCode: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SquareCode color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SquareCode color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquareDashedBottomCode: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareDashedBottomCode: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <SquareDashedBottomCode
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconSquareDashedBottom: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareDashedBottom: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <SquareDashedBottom
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconSquareDot: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SquareDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SquareDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquareEqual: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareEqual: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SquareEqual color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SquareEqual color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquareSlash: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareSlash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SquareSlash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SquareSlash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquareStack: React.FC<IconProps> = ({ color, size }) => {
+const IconSquareStack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SquareStack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SquareStack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Square color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Square color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSquirrel: React.FC<IconProps> = ({ color, size }) => {
+const IconSquirrel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Squirrel color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Squirrel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStamp: React.FC<IconProps> = ({ color, size }) => {
+const IconStamp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Stamp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Stamp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStarHalf: React.FC<IconProps> = ({ color, size }) => {
+const IconStarHalf: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <StarHalf color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <StarHalf color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStarOff: React.FC<IconProps> = ({ color, size }) => {
+const IconStarOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <StarOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <StarOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStar: React.FC<IconProps> = ({ color, size }) => {
+const IconStar: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Star color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Star color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStepBack: React.FC<IconProps> = ({ color, size }) => {
+const IconStepBack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <StepBack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <StepBack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStepForward: React.FC<IconProps> = ({ color, size }) => {
+const IconStepForward: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <StepForward color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <StepForward color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStethoscope: React.FC<IconProps> = ({ color, size }) => {
+const IconStethoscope: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Stethoscope color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Stethoscope color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSticker: React.FC<IconProps> = ({ color, size }) => {
+const IconSticker: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sticker color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sticker color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStickyNote: React.FC<IconProps> = ({ color, size }) => {
+const IconStickyNote: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <StickyNote color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <StickyNote color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStopCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconStopCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <StopCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <StopCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStore: React.FC<IconProps> = ({ color, size }) => {
+const IconStore: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Store color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Store color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconStretchHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconStretchHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <StretchHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <StretchHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconStretchVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconStretchVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <StretchVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <StretchVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconStrikethrough: React.FC<IconProps> = ({ color, size }) => {
+const IconStrikethrough: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <Strikethrough color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <Strikethrough color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSubscript: React.FC<IconProps> = ({ color, size }) => {
+const IconSubscript: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Subscript color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Subscript color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSubtitles: React.FC<IconProps> = ({ color, size }) => {
+const IconSubtitles: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Subtitles color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Subtitles color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSunDim: React.FC<IconProps> = ({ color, size }) => {
+const IconSunDim: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SunDim color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SunDim color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSunMedium: React.FC<IconProps> = ({ color, size }) => {
+const IconSunMedium: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SunMedium color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SunMedium color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSunMoon: React.FC<IconProps> = ({ color, size }) => {
+const IconSunMoon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SunMoon color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SunMoon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSunSnow: React.FC<IconProps> = ({ color, size }) => {
+const IconSunSnow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SunSnow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SunSnow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSun: React.FC<IconProps> = ({ color, size }) => {
+const IconSun: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sun color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sun color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSunrise: React.FC<IconProps> = ({ color, size }) => {
+const IconSunrise: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sunrise color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sunrise color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSunset: React.FC<IconProps> = ({ color, size }) => {
+const IconSunset: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sunset color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sunset color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSuperscript: React.FC<IconProps> = ({ color, size }) => {
+const IconSuperscript: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Superscript color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Superscript color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSwissFranc: React.FC<IconProps> = ({ color, size }) => {
+const IconSwissFranc: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <SwissFranc color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <SwissFranc color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSwitchCamera: React.FC<IconProps> = ({ color, size }) => {
+const IconSwitchCamera: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SwitchCamera color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SwitchCamera color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconSword: React.FC<IconProps> = ({ color, size }) => {
+const IconSword: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sword color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sword color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSwords: React.FC<IconProps> = ({ color, size }) => {
+const IconSwords: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Swords color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Swords color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSyringe: React.FC<IconProps> = ({ color, size }) => {
+const IconSyringe: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Syringe color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Syringe color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTable2: React.FC<IconProps> = ({ color, size }) => {
+const IconTable2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Table2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Table2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTableProperties: React.FC<IconProps> = ({ color, size }) => {
+const IconTableProperties: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TableProperties color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TableProperties color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTable: React.FC<IconProps> = ({ color, size }) => {
+const IconTable: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Table color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Table color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTabletSmartphone: React.FC<IconProps> = ({ color, size }) => {
+const IconTabletSmartphone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TabletSmartphone color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TabletSmartphone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTablet: React.FC<IconProps> = ({ color, size }) => {
+const IconTablet: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tablet color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tablet color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTablets: React.FC<IconProps> = ({ color, size }) => {
+const IconTablets: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tablets color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tablets color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTag: React.FC<IconProps> = ({ color, size }) => {
+const IconTag: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tag color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tag color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTags: React.FC<IconProps> = ({ color, size }) => {
+const IconTags: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tags color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tags color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTally1: React.FC<IconProps> = ({ color, size }) => {
+const IconTally1: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tally1 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tally1 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTally2: React.FC<IconProps> = ({ color, size }) => {
+const IconTally2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tally2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tally2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTally3: React.FC<IconProps> = ({ color, size }) => {
+const IconTally3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tally3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tally3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTally4: React.FC<IconProps> = ({ color, size }) => {
+const IconTally4: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tally4 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tally4 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTally5: React.FC<IconProps> = ({ color, size }) => {
+const IconTally5: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tally5 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tally5 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTarget: React.FC<IconProps> = ({ color, size }) => {
+const IconTarget: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Target color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Target color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTent: React.FC<IconProps> = ({ color, size }) => {
+const IconTent: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tent color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tent color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTerminalSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconTerminalSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TerminalSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TerminalSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTerminal: React.FC<IconProps> = ({ color, size }) => {
+const IconTerminal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Terminal color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Terminal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTestTube2: React.FC<IconProps> = ({ color, size }) => {
+const IconTestTube2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TestTube2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TestTube2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTestTube: React.FC<IconProps> = ({ color, size }) => {
+const IconTestTube: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TestTube color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TestTube color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTestTubes: React.FC<IconProps> = ({ color, size }) => {
+const IconTestTubes: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TestTubes color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TestTubes color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTextCursorInput: React.FC<IconProps> = ({ color, size }) => {
+const IconTextCursorInput: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TextCursorInput color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TextCursorInput color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTextCursor: React.FC<IconProps> = ({ color, size }) => {
+const IconTextCursor: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TextCursor color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TextCursor color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTextQuote: React.FC<IconProps> = ({ color, size }) => {
+const IconTextQuote: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TextQuote color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TextQuote color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconText: React.FC<IconProps> = ({ color, size }) => {
+const IconText: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Text color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Text color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTheater: React.FC<IconProps> = ({ color, size }) => {
+const IconTheater: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Theater color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Theater color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconThermometerSnowflake: React.FC<IconProps> = ({ color, size }) => {
+const IconThermometerSnowflake: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ThermometerSnowflake
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconThermometerSun: React.FC<IconProps> = ({ color, size }) => {
+const IconThermometerSun: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ThermometerSun color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ThermometerSun color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconThermometer: React.FC<IconProps> = ({ color, size }) => {
+const IconThermometer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Thermometer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Thermometer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconThumbsDown: React.FC<IconProps> = ({ color, size }) => {
+const IconThumbsDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ThumbsDown color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ThumbsDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconThumbsUp: React.FC<IconProps> = ({ color, size }) => {
+const IconThumbsUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ThumbsUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ThumbsUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTicket: React.FC<IconProps> = ({ color, size }) => {
+const IconTicket: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ticket color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ticket color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTimerOff: React.FC<IconProps> = ({ color, size }) => {
+const IconTimerOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TimerOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TimerOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTimerReset: React.FC<IconProps> = ({ color, size }) => {
+const IconTimerReset: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TimerReset color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TimerReset color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTimer: React.FC<IconProps> = ({ color, size }) => {
+const IconTimer: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Timer color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Timer color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconToggleLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconToggleLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ToggleLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ToggleLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconToggleRight: React.FC<IconProps> = ({ color, size }) => {
+const IconToggleRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ToggleRight color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ToggleRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTornado: React.FC<IconProps> = ({ color, size }) => {
+const IconTornado: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tornado color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tornado color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTouchpadOff: React.FC<IconProps> = ({ color, size }) => {
+const IconTouchpadOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TouchpadOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TouchpadOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTouchpad: React.FC<IconProps> = ({ color, size }) => {
+const IconTouchpad: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Touchpad color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Touchpad color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTowerControl: React.FC<IconProps> = ({ color, size }) => {
+const IconTowerControl: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TowerControl color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TowerControl color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconToyBrick: React.FC<IconProps> = ({ color, size }) => {
+const IconToyBrick: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ToyBrick color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ToyBrick color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTractor: React.FC<IconProps> = ({ color, size }) => {
+const IconTractor: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tractor color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tractor color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrafficCone: React.FC<IconProps> = ({ color, size }) => {
+const IconTrafficCone: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TrafficCone color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TrafficCone color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrainFrontTunnel: React.FC<IconProps> = ({ color, size }) => {
+const IconTrainFrontTunnel: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TrainFrontTunnel color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TrainFrontTunnel color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTrainFront: React.FC<IconProps> = ({ color, size }) => {
+const IconTrainFront: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TrainFront color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TrainFront color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrainTrack: React.FC<IconProps> = ({ color, size }) => {
+const IconTrainTrack: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TrainTrack color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TrainTrack color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrash2: React.FC<IconProps> = ({ color, size }) => {
+const IconTrash2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Trash2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Trash2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrash: React.FC<IconProps> = ({ color, size }) => {
+const IconTrash: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Trash color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Trash color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTreeDeciduous: React.FC<IconProps> = ({ color, size }) => {
+const IconTreeDeciduous: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TreeDeciduous color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TreeDeciduous color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTreePine: React.FC<IconProps> = ({ color, size }) => {
+const IconTreePine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TreePine color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TreePine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrees: React.FC<IconProps> = ({ color, size }) => {
+const IconTrees: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Trees color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Trees color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrello: React.FC<IconProps> = ({ color, size }) => {
+const IconTrello: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Trello color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Trello color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrendingDown: React.FC<IconProps> = ({ color, size }) => {
+const IconTrendingDown: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TrendingDown color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TrendingDown color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTrendingUp: React.FC<IconProps> = ({ color, size }) => {
+const IconTrendingUp: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TrendingUp color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TrendingUp color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTriangleRight: React.FC<IconProps> = ({ color, size }) => {
+const IconTriangleRight: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <TriangleRight color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <TriangleRight color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconTriangle: React.FC<IconProps> = ({ color, size }) => {
+const IconTriangle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Triangle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Triangle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrophy: React.FC<IconProps> = ({ color, size }) => {
+const IconTrophy: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Trophy color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Trophy color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTruck: React.FC<IconProps> = ({ color, size }) => {
+const IconTruck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Truck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Truck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTurtle: React.FC<IconProps> = ({ color, size }) => {
+const IconTurtle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Turtle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Turtle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTv2: React.FC<IconProps> = ({ color, size }) => {
+const IconTv2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tv2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tv2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTv: React.FC<IconProps> = ({ color, size }) => {
+const IconTv: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Tv color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Tv color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTwitch: React.FC<IconProps> = ({ color, size }) => {
+const IconTwitch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Twitch color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Twitch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTwitter: React.FC<IconProps> = ({ color, size }) => {
+const IconTwitter: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Twitter color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Twitter color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconType: React.FC<IconProps> = ({ color, size }) => {
+const IconType: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Type color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Type color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUmbrella: React.FC<IconProps> = ({ color, size }) => {
+const IconUmbrella: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Umbrella color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Umbrella color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUnderline: React.FC<IconProps> = ({ color, size }) => {
+const IconUnderline: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Underline color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Underline color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUndo2: React.FC<IconProps> = ({ color, size }) => {
+const IconUndo2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Undo2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Undo2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUndoDot: React.FC<IconProps> = ({ color, size }) => {
+const IconUndoDot: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UndoDot color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UndoDot color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUndo: React.FC<IconProps> = ({ color, size }) => {
+const IconUndo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Undo color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Undo color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUnfoldHorizontal: React.FC<IconProps> = ({ color, size }) => {
+const IconUnfoldHorizontal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <UnfoldHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <UnfoldHorizontal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconUnfoldVertical: React.FC<IconProps> = ({ color, size }) => {
+const IconUnfoldVertical: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <UnfoldVertical color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <UnfoldVertical color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconUngroup: React.FC<IconProps> = ({ color, size }) => {
+const IconUngroup: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Ungroup color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Ungroup color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUnlink2: React.FC<IconProps> = ({ color, size }) => {
+const IconUnlink2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Unlink2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Unlink2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUnlink: React.FC<IconProps> = ({ color, size }) => {
+const IconUnlink: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Unlink color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Unlink color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUnlock: React.FC<IconProps> = ({ color, size }) => {
+const IconUnlock: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Unlock color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Unlock color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUnplug: React.FC<IconProps> = ({ color, size }) => {
+const IconUnplug: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Unplug color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Unplug color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUploadCloud: React.FC<IconProps> = ({ color, size }) => {
+const IconUploadCloud: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UploadCloud color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UploadCloud color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUpload: React.FC<IconProps> = ({ color, size }) => {
+const IconUpload: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Upload color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Upload color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUsb: React.FC<IconProps> = ({ color, size }) => {
+const IconUsb: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Usb color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Usb color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUser2: React.FC<IconProps> = ({ color, size }) => {
+const IconUser2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <User2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <User2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserCheck2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserCheck2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserCheck2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconUserCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserCircle2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserCircle2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserCircle2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserCircle2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconUserCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserCog2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserCog2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserCog2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserCog2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserCog: React.FC<IconProps> = ({ color, size }) => {
+const IconUserCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserCog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserCog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserMinus2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserMinus2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserMinus2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserMinus2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserMinus: React.FC<IconProps> = ({ color, size }) => {
+const IconUserMinus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserMinus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserMinus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserPlus2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserPlus2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserPlus2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserPlus2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserPlus: React.FC<IconProps> = ({ color, size }) => {
+const IconUserPlus: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserPlus color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserPlus color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserSquare2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserSquare2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserSquare2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserSquare2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconUserSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserX2: React.FC<IconProps> = ({ color, size }) => {
+const IconUserX2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserX2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserX2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUserX: React.FC<IconProps> = ({ color, size }) => {
+const IconUserX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UserX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UserX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUser: React.FC<IconProps> = ({ color, size }) => {
+const IconUser: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <User color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <User color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUsers2: React.FC<IconProps> = ({ color, size }) => {
+const IconUsers2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Users2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Users2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUsers: React.FC<IconProps> = ({ color, size }) => {
+const IconUsers: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Users color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Users color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUtensilsCrossed: React.FC<IconProps> = ({ color, size }) => {
+const IconUtensilsCrossed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <UtensilsCrossed color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <UtensilsCrossed color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconUtensils: React.FC<IconProps> = ({ color, size }) => {
+const IconUtensils: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Utensils color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Utensils color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconUtilityPole: React.FC<IconProps> = ({ color, size }) => {
+const IconUtilityPole: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <UtilityPole color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <UtilityPole color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVariable: React.FC<IconProps> = ({ color, size }) => {
+const IconVariable: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Variable color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Variable color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVegan: React.FC<IconProps> = ({ color, size }) => {
+const IconVegan: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Vegan color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Vegan color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVenetianMask: React.FC<IconProps> = ({ color, size }) => {
+const IconVenetianMask: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <VenetianMask color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <VenetianMask color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconVibrateOff: React.FC<IconProps> = ({ color, size }) => {
+const IconVibrateOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <VibrateOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <VibrateOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVibrate: React.FC<IconProps> = ({ color, size }) => {
+const IconVibrate: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Vibrate color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Vibrate color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVideoOff: React.FC<IconProps> = ({ color, size }) => {
+const IconVideoOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <VideoOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <VideoOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVideo: React.FC<IconProps> = ({ color, size }) => {
+const IconVideo: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Video color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Video color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVideotape: React.FC<IconProps> = ({ color, size }) => {
+const IconVideotape: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Videotape color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Videotape color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconView: React.FC<IconProps> = ({ color, size }) => {
+const IconView: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <View color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <View color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVoicemail: React.FC<IconProps> = ({ color, size }) => {
+const IconVoicemail: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Voicemail color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Voicemail color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVolume1: React.FC<IconProps> = ({ color, size }) => {
+const IconVolume1: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Volume1 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Volume1 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVolume2: React.FC<IconProps> = ({ color, size }) => {
+const IconVolume2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Volume2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Volume2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVolumeX: React.FC<IconProps> = ({ color, size }) => {
+const IconVolumeX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <VolumeX color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <VolumeX color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVolume: React.FC<IconProps> = ({ color, size }) => {
+const IconVolume: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Volume color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Volume color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconVote: React.FC<IconProps> = ({ color, size }) => {
+const IconVote: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Vote color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Vote color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWallet2: React.FC<IconProps> = ({ color, size }) => {
+const IconWallet2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wallet2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wallet2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWalletCards: React.FC<IconProps> = ({ color, size }) => {
+const IconWalletCards: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <WalletCards color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <WalletCards color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWallet: React.FC<IconProps> = ({ color, size }) => {
+const IconWallet: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wallet color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wallet color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWallpaper: React.FC<IconProps> = ({ color, size }) => {
+const IconWallpaper: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wallpaper color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wallpaper color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWand2: React.FC<IconProps> = ({ color, size }) => {
+const IconWand2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wand2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wand2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWand: React.FC<IconProps> = ({ color, size }) => {
+const IconWand: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wand color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wand color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWarehouse: React.FC<IconProps> = ({ color, size }) => {
+const IconWarehouse: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Warehouse color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Warehouse color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWatch: React.FC<IconProps> = ({ color, size }) => {
+const IconWatch: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Watch color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Watch color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWaves: React.FC<IconProps> = ({ color, size }) => {
+const IconWaves: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Waves color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Waves color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWebcam: React.FC<IconProps> = ({ color, size }) => {
+const IconWebcam: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Webcam color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Webcam color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWebhook: React.FC<IconProps> = ({ color, size }) => {
+const IconWebhook: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Webhook color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Webhook color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWheatOff: React.FC<IconProps> = ({ color, size }) => {
+const IconWheatOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <WheatOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <WheatOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWheat: React.FC<IconProps> = ({ color, size }) => {
+const IconWheat: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wheat color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wheat color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWholeWord: React.FC<IconProps> = ({ color, size }) => {
+const IconWholeWord: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <WholeWord color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <WholeWord color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWifiOff: React.FC<IconProps> = ({ color, size }) => {
+const IconWifiOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <WifiOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <WifiOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWifi: React.FC<IconProps> = ({ color, size }) => {
+const IconWifi: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wifi color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wifi color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWind: React.FC<IconProps> = ({ color, size }) => {
+const IconWind: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wind color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wind color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWineOff: React.FC<IconProps> = ({ color, size }) => {
+const IconWineOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <WineOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <WineOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWine: React.FC<IconProps> = ({ color, size }) => {
+const IconWine: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wine color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wine color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWorkflow: React.FC<IconProps> = ({ color, size }) => {
+const IconWorkflow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Workflow color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Workflow color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWrapText: React.FC<IconProps> = ({ color, size }) => {
+const IconWrapText: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <WrapText color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <WrapText color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconWrench: React.FC<IconProps> = ({ color, size }) => {
+const IconWrench: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Wrench color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Wrench color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconXCircle: React.FC<IconProps> = ({ color, size }) => {
+const IconXCircle: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <XCircle color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <XCircle color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconXOctagon: React.FC<IconProps> = ({ color, size }) => {
+const IconXOctagon: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <XOctagon color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <XOctagon color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconXSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconXSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <XSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <XSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconX: React.FC<IconProps> = ({ color, size }) => {
+const IconX: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <X color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <X color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconYoutube: React.FC<IconProps> = ({ color, size }) => {
+const IconYoutube: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Youtube color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Youtube color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconZapOff: React.FC<IconProps> = ({ color, size }) => {
+const IconZapOff: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ZapOff color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ZapOff color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconZap: React.FC<IconProps> = ({ color, size }) => {
+const IconZap: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Zap color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Zap color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconZoomIn: React.FC<IconProps> = ({ color, size }) => {
+const IconZoomIn: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ZoomIn color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ZoomIn color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconZoomOut: React.FC<IconProps> = ({ color, size }) => {
+const IconZoomOut: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ZoomOut color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ZoomOut color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowDown01: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDown01: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowDown01 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowDown01 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowDown10: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDown10: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowDown10 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowDown10 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowDownAZ: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownAZ: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowDownAZ color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowDownAZ color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowDownWideNarrow: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownWideNarrow: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <ArrowDownWideNarrow
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconArrowDownZA: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowDownZA: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowDownZA color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowDownZA color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUp01: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUp01: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUp01 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUp01 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUp10: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUp10: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUp10 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUp10 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUpAZ: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpAZ: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUpAZ color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUpAZ color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconArrowUpNarrowWide: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpNarrowWide: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <ArrowUpNarrowWide color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <ArrowUpNarrowWide color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconArrowUpZA: React.FC<IconProps> = ({ color, size }) => {
+const IconArrowUpZA: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ArrowUpZA color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ArrowUpZA color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconAxis3D: React.FC<IconProps> = ({ color, size }) => {
+const IconAxis3D: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Axis3D color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Axis3D color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBadgeCheck: React.FC<IconProps> = ({ color, size }) => {
+const IconBadgeCheck: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <BadgeCheck color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <BadgeCheck color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconBraces: React.FC<IconProps> = ({ color, size }) => {
+const IconBraces: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Braces color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Braces color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconCircleSlash2: React.FC<IconProps> = ({ color, size }) => {
+const IconCircleSlash2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <CircleSlash2 color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <CircleSlash2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconFileAxis3D: React.FC<IconProps> = ({ color, size }) => {
+const IconFileAxis3D: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileAxis3D color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileAxis3D color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFileCog: React.FC<IconProps> = ({ color, size }) => {
+const IconFileCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FileCog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FileCog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconFolderCog: React.FC<IconProps> = ({ color, size }) => {
+const IconFolderCog: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <FolderCog color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <FolderCog color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGanttChartSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconGanttChartSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <GanttChartSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <GanttChartSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconGrid2X2: React.FC<IconProps> = ({ color, size }) => {
+const IconGrid2X2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Grid2X2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Grid2X2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconGrid: React.FC<IconProps> = ({ color, size }) => {
+const IconGrid: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Grid color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Grid color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconKanbanSquareDashed: React.FC<IconProps> = ({ color, size }) => {
+const IconKanbanSquareDashed: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
     <KanbanSquareDashed
       color={colorHex}
       size={pixelSize}
-      strokeWidth={stroke}
+      strokeWidth={stroke} className={className}
     />
   );
 };
 
-const IconKanbanSquare: React.FC<IconProps> = ({ color, size }) => {
+const IconKanbanSquare: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <KanbanSquare color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <KanbanSquare color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconInspect: React.FC<IconProps> = ({ color, size }) => {
+const IconInspect: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Inspect color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Inspect color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconMove3D: React.FC<IconProps> = ({ color, size }) => {
+const IconMove3D: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Move3D color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Move3D color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconPanelLeftClose: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelLeftClose: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelLeftClose color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelLeftClose color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelLeftOpen: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelLeftOpen: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <PanelLeftOpen color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <PanelLeftOpen color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconPanelLeft: React.FC<IconProps> = ({ color, size }) => {
+const IconPanelLeft: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <PanelLeft color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <PanelLeft color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEdit3: React.FC<IconProps> = ({ color, size }) => {
+const IconEdit3: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Edit3 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Edit3 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEdit: React.FC<IconProps> = ({ color, size }) => {
+const IconEdit: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Edit color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Edit color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconEdit2: React.FC<IconProps> = ({ color, size }) => {
+const IconEdit2: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Edit2 color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Edit2 color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconRotate3D: React.FC<IconProps> = ({ color, size }) => {
+const IconRotate3D: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Rotate3D color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Rotate3D color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconScale3D: React.FC<IconProps> = ({ color, size }) => {
+const IconScale3D: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Scale3D color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Scale3D color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSendHorizonal: React.FC<IconProps> = ({ color, size }) => {
+const IconSendHorizonal: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
   return (
-    <SendHorizonal color={colorHex} size={pixelSize} strokeWidth={stroke} />
+    <SendHorizonal color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />
   );
 };
 
-const IconShieldClose: React.FC<IconProps> = ({ color, size }) => {
+const IconShieldClose: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <ShieldClose color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <ShieldClose color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconSparkles: React.FC<IconProps> = ({ color, size }) => {
+const IconSparkles: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Sparkles color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Sparkles color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTextSelect: React.FC<IconProps> = ({ color, size }) => {
+const IconTextSelect: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <TextSelect color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <TextSelect color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
-const IconTrain: React.FC<IconProps> = ({ color, size }) => {
+const IconTrain: React.FC<IconProps> = ({ color, size, className }) => {
   const { pixelSize, colorHex } = getIcon(color, size);
-  return <Train color={colorHex} size={pixelSize} strokeWidth={stroke} />;
+  return <Train color={colorHex} size={pixelSize} strokeWidth={stroke} className={className} />;
 };
 
 export {

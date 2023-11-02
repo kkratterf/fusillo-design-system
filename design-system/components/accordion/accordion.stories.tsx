@@ -1,5 +1,8 @@
+// Import core
 import React from 'react';
+// Import third parts
 import { StoryObj, Meta } from '@storybook/react';
+// Import customs
 import './accordion.css';
 import {
   Accordion,
@@ -8,23 +11,16 @@ import {
   AccordionTrigger,
 } from './';
 
+
 type AccordionArgs = {
-  type: "single";
+  type: 'single';
   collapsible: boolean;
   expandedByDefault: string;
 };
 
-const AccordionComponent = ({
-  type,
-  collapsible,
-  expandedByDefault,
-}: AccordionArgs) => {
+const AccordionComponent = ({ type, expandedByDefault }: AccordionArgs) => {
   return (
-    <Accordion
-      type={type}
-      collapsible={true}
-      defaultValue={expandedByDefault}
-    >
+    <Accordion type={type} collapsible={true} defaultValue={expandedByDefault}>
       <AccordionItem value="item-1">
         <AccordionTrigger>Is it accessible?</AccordionTrigger>
         <AccordionContent>

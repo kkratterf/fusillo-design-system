@@ -1,11 +1,13 @@
 'use client'
 
-import * as React from "react"
-import { cva, type VariantProps } from "class-variance-authority"
-import { useTheme } from '../theme';
+// Import core
+import * as React from 'react';
+// Import third parts
+import { cva, type VariantProps } from 'class-variance-authority';
+// Import customs
 import './alert.css';
+import { cn } from '../../lib/utils';
 
-import { cn } from "../../lib/utils"
 
 const alertVariants = cva('alert-component', {
   variants: {
@@ -17,10 +19,6 @@ const alertVariants = cva('alert-component', {
       info: 'alert-info',
       discovery: 'alert-discovery',
     },
-    theme: {
-      light: '',
-      dark: 'dark',
-    },
   },
   defaultVariants: {
     variant: 'default',
@@ -31,13 +29,11 @@ const Alert = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement> & VariantProps<typeof alertVariants>
 >(({ className, variant, ...props }, ref) => {
-  const themeContext = useTheme();
-  const theme = themeContext || 'light'; // Use 'light' if ThemeProvider is not present
   return (
     <div
       ref={ref}
       role="alert"
-      className={cn(alertVariants({ variant }), className, theme)}
+      className={cn(alertVariants({ variant }), className)}
       {...props}
     />
   );
