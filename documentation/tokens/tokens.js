@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 29 Oct 2023 17:29:13 GMT
+ * Generated on Thu, 02 Nov 2023 13:05:58 GMT
  */
 
 module.exports = {
@@ -351,7 +351,7 @@ module.exports = {
             },
             "bg-container-subtlest": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "#e4e4e7",
               "description": "The background color for elements with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:651:265"
@@ -360,7 +360,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
+                "value": "{Foundations.Color.Neutral.neutral-200}",
                 "description": "The background color for elements with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:651:265"
@@ -1557,7 +1557,7 @@ module.exports = {
             },
             "border-primary-hover": {
               "type": "color",
-              "value": "#d4d4d8",
+              "value": "#a1a1aa",
               "description": "The hover color for borders on any element.",
               "$extensions": {
                 "variableId": "VariableID:497:1525"
@@ -1566,7 +1566,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-300}",
+                "value": "{Foundations.Color.Neutral.neutral-400}",
                 "description": "The hover color for borders on any element.",
                 "$extensions": {
                   "variableId": "VariableID:497:1525"
@@ -5266,6 +5266,39 @@ module.exports = {
               "Width",
               "width-16"
             ]
+          },
+          "width-20": {
+            "type": "dimension",
+            "value": "80px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:767:5829"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.20}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:767:5829"
+              }
+            },
+            "name": "TokensLightSizeWidthWidth20",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-20"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Width",
+              "width-20"
+            ]
           }
         },
         "Height": {
@@ -5564,6 +5597,39 @@ module.exports = {
               "Size",
               "Height",
               "height-16"
+            ]
+          },
+          "height-20": {
+            "type": "dimension",
+            "value": "80px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:767:5830"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.20}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:767:5830"
+              }
+            },
+            "name": "TokensLightSizeHeightHeight20",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-20"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Size",
+              "Height",
+              "height-20"
             ]
           }
         }
@@ -6789,7 +6855,7 @@ module.exports = {
             },
             "bg-container-subtlest": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#27272a",
               "description": "The background color for elements with a tertiary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:651:265"
@@ -6798,7 +6864,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.Color.Neutral.neutral-800}",
                 "description": "The background color for elements with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:651:265"
@@ -7995,7 +8061,7 @@ module.exports = {
             },
             "border-primary-hover": {
               "type": "color",
-              "value": "#3f3f46",
+              "value": "#52525b",
               "description": "The hover color for borders on any element.",
               "$extensions": {
                 "variableId": "VariableID:497:1525"
@@ -8004,7 +8070,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-700}",
+                "value": "{Foundations.Color.Neutral.neutral-600}",
                 "description": "The hover color for borders on any element.",
                 "$extensions": {
                   "variableId": "VariableID:497:1525"
@@ -11704,6 +11770,39 @@ module.exports = {
               "Width",
               "width-16"
             ]
+          },
+          "width-20": {
+            "type": "dimension",
+            "value": "80px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:767:5829"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.20}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:767:5829"
+              }
+            },
+            "name": "TokensDarkSizeWidthWidth20",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Width",
+              "state": "width-20"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Width",
+              "width-20"
+            ]
           }
         },
         "Height": {
@@ -12002,6 +12101,39 @@ module.exports = {
               "Size",
               "Height",
               "height-16"
+            ]
+          },
+          "height-20": {
+            "type": "dimension",
+            "value": "80px",
+            "description": "",
+            "$extensions": {
+              "variableId": "VariableID:767:5830"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "{Foundations.Scale.20}",
+              "description": "",
+              "$extensions": {
+                "variableId": "VariableID:767:5830"
+              }
+            },
+            "name": "TokensDarkSizeHeightHeight20",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Size",
+              "subitem": "Height",
+              "state": "height-20"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Size",
+              "Height",
+              "height-20"
             ]
           }
         }
