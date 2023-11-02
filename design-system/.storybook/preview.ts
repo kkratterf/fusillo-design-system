@@ -1,6 +1,5 @@
 import type { Preview, Renderer } from "@storybook/react";
 import { withThemeByClassName } from "@storybook/addon-themes";
-import { GeistSans, GeistMono } from 'geist/font';
 import '../style/foundations.css';
 import '../style/global.css';
 import '../style/tokens.css';
