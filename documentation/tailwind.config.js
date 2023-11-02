@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
+        'Geist',
         'Inter',
         'ui-sans-serif',
         'system-ui',
@@ -25,15 +26,8 @@ module.exports = {
         'Segoe UI Symbol',
         'Noto Color Emoji',
       ],
-      serif: [
-        'ui-serif',
-        'Georgia',
-        'Cambria',
-        'Times New Roman',
-        'Times',
-        'serif',
-      ],
       mono: [
+        'Geist Mono',
         'ui-monospace',
         'SFMono-Regular',
         'Menlo',

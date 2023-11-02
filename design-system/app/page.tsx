@@ -18,6 +18,7 @@ import {
   AlertDialogTrigger,
 } from '@/components/alert-dialog';
 import { Alert, AlertIcon, AlertDescription, AlertTitle } from '@/components/alert';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
 
 
 export default function Home() {
@@ -27,9 +28,7 @@ export default function Home() {
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm lg:flex">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>
-              Is it accessible?
-              </AccordionTrigger>
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
@@ -136,6 +135,10 @@ export default function Home() {
             </AlertDialogFooter>
           </AlertDialogContent>
         </AlertDialog>
+        <Avatar>
+          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+          <AvatarFallback>CN</AvatarFallback>
+        </Avatar>
       </div>
     </main>
   );

@@ -482,6 +482,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Geist',
         'Inter',
         'ui-sans-serif',
         'system-ui',
@@ -507,6 +508,7 @@ module.exports = {
         'serif',
       ],
       mono: [
+        'Geist Mono',
         'ui-monospace',
         'SFMono-Regular',
         'Menlo',

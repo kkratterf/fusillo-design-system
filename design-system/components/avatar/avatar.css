@@ -1,0 +1,26 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .avatar-component {
+        @apply relative flex h-10 w-10 shrink-0 overflow-hidden rounded-radius-full;
+    }
+
+    .avatar-image {
+        @apply aspect-square h-full w-full;
+    }
+
+    .avatar-fallback {
+        @apply flex h-full w-full items-center justify-center rounded-radius-full bg-color-bg-container-subtlest;
+    }
+    
+}
