@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Nov 2023 15:22:44 GMT
+ * Generated on Sat, 04 Nov 2023 09:42:49 GMT
  */
 
 @tailwind base;
@@ -216,12 +216,12 @@
   --color-bg-interactive-selected-hover: #3f3f46;
   --color-bg-container-inverse: #ffffff;
   --color-bg-container-subtlest: #27272a;
-  --color-bg-brand: #3b82f6;
-  --color-bg-brand-hover: #2563eb;
-  --color-bg-brand-active: #60a5fa;
+  --color-bg-brand: #2563eb;
+  --color-bg-brand-hover: #1d4ed8;
+  --color-bg-brand-active: #3b82f6;
   --color-bg-brand-subtlest: #172554;
   --color-bg-brand-subtle: #172554;
-  --color-bg-brand-selected: #3b82f6;
+  --color-bg-brand-selected: #2563eb;
   --color-bg-danger: #ef4444;
   --color-bg-danger-hover: #dc2626;
   --color-bg-danger-active: #f87171;
@@ -293,7 +293,7 @@
   --color-text-danger: #ef4444;
   --color-text-danger-hover: #dc2626;
   --color-text-danger-active: #f87171;
-  --color-text-danger-inverse: #ffffff;
+  --color-text-danger-inverse: #09090b;
   --color-text-danger-strong: #fca5a5;
   --color-text-success: #22c55e;
   --color-text-success-hover: #16a34a;

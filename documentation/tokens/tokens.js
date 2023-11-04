@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Nov 2023 15:22:44 GMT
+ * Generated on Sat, 04 Nov 2023 09:42:49 GMT
  */
 
 module.exports = {
@@ -6891,7 +6891,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "The background color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -6900,7 +6900,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "The background color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
@@ -6925,7 +6925,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#1d4ed8",
               "description": "The hover state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -6934,7 +6934,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.Color.Brand.brand-700}",
                 "description": "The hover state color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:37"
@@ -6959,7 +6959,7 @@ module.exports = {
             },
             "bg-brand-active": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "The active state (on press) color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:91:126"
@@ -6968,7 +6968,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.Color.Brand.brand-500}",
                 "description": "The active state (on press) color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:91:126"
@@ -7061,7 +7061,7 @@ module.exports = {
             },
             "bg-brand-selected": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "The selected state color of main actions, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:497:1523"
@@ -7070,7 +7070,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.Color.Brand.brand-600}",
                 "description": "The selected state color of main actions, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:497:1523"
@@ -9543,7 +9543,7 @@ module.exports = {
             },
             "text-danger-inverse": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "#09090b",
               "description": "Use for text on bg-danger.",
               "$extensions": {
                 "variableId": "VariableID:160:296"
@@ -9552,7 +9552,7 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.Color.Neutral.neutral-950}",
                 "description": "Use for text on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:160:296"
