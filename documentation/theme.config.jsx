@@ -22,4 +22,7 @@ export default {
   search: {
     loading: 'Loading...',
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+  },
 };
