@@ -11,6 +11,10 @@
 /* Tailwind layer */
 @layer components {
 
+  .accordion-root {
+    @apply bg-color-bg-layout
+  }
+
   .accordion-item {
     @apply border-b border-b-color-border-primary last:border-none;
   }

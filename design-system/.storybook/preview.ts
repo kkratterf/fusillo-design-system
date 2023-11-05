@@ -21,6 +21,11 @@ const preview: Preview = {
     nextjs: {
       appDirectory: true,
     },
+    docs: { 
+      source: {
+         type: 'code' 
+        } 
+    },
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {

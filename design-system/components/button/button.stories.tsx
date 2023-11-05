@@ -6,10 +6,16 @@ import { Button } from './';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof Button> = {
-  title: 'Design System/Components/Button',
+  title: 'Components/Button',
   component: Button,
+  tags: ['autodocs'],
+  argTypes: {},
+  args: {
+    title: 'Button',
+    variant: 'danger',
+    asChild: false,
+  },
   parameters: {
-    // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'centered',
     docs: {
       description: {
@@ -22,26 +28,14 @@ const meta: Meta<typeof Button> = {
       url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File',
     },
   },
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
-  tags: ['autodocs'],
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {
-    // backgroundColor: { control: 'color' },
-  },
-  args: {
-    title: 'Button',
-    variant: 'danger',
-    asChild: false,
-  },
 };
 
 export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-
-export const Primary = {
+export const Primary: Story = {
+  render: (args) => <Button {...args}>Button</Button>,
   args: {
     variant: 'primary',
   },
