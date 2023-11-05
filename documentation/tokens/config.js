@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Sat, 04 Nov 2023 09:55:21 GMT
+ * Generated on Sun, 05 Nov 2023 21:13:48 GMT
  */
 
 module.exports = {
-  "ConfigName": "Fusillo Design System",
+  "ConfigName": "Stocazzo Design System",
   "ConfigVersion": "1.0.1",
   "ConfigBrand": "Al dente"
 };
