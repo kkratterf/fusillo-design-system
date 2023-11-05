@@ -9,14 +9,6 @@ module.exports = {
     './src/**/*.{ts,tsx}',
   ],
   theme: {
-    /* DA TOGLIERE */
-    container: {
-      center: true,
-      padding: '2rem',
-      screens: {
-        '2xl': '1400px',
-      },
-    },
     colors: {
       color: {
         'bg-layout': 'var(--color-bg-layout)',

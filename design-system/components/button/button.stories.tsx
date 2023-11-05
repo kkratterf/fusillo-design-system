@@ -11,9 +11,6 @@ const meta: Meta<typeof Button> = {
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'centered',
-    controls: {
-      exclude: ['theme'],
-    },
     docs: {
       description: {
         component:

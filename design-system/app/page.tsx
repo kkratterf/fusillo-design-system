@@ -19,6 +19,9 @@ import {
 } from '@/components/alert-dialog';
 import { Alert, AlertIcon, AlertDescription, AlertTitle } from '@/components/alert';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
+import { Badge } from '@/components/badge';
+import { Calendar } from '@/components/calendar';
+import { Card } from '@/components/card';
 
 
 export default function Home() {
@@ -139,6 +142,10 @@ export default function Home() {
           <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
+        <Badge>Lorem</Badge>
+        <Card>
+          <Calendar />
+        </Card>
       </div>
     </main>
   );

@@ -18,6 +18,9 @@ const preview: Preview = {
     backgrounds: {
       disable: true,
     },
+    nextjs: {
+      appDirectory: true,
+    },
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
