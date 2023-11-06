@@ -45,10 +45,18 @@ module.exports = {
       'radius-lg': 'var(--border-radius-lg)',
       'radius-full': 'var(--border-radius-full)',
     },
+    /* DA TOGLIERE */
+    container: {
+      center: true,
+      padding: '2rem',
+      screens: {
+        '2xl': '1400px',
+      },
+    },
     extend: {
       colors: {
-        'color-bg-brand': 'var(--color-bg-brand)', 
-      }
+        'color-bg-brand': 'var(--color-bg-brand)',
+      },
     },
   },
   plugins: [],
