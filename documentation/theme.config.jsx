@@ -25,4 +25,5 @@ export default {
   sidebar: {
     defaultMenuCollapseLevel: 1,
   },
+  gitTimestamp: false
 };

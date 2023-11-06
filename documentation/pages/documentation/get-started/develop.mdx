@@ -1,5 +1,49 @@
 import * as logo from '../../../tokens/config.js';
+import { Callout } from 'nextra/components'
 
 # 🤖 Develop
 
 Set up your environment to use {logo.ConfigName} components, design tokens, and tools.
+
+
+## Intro
+
+Atlassian Design System is a collection of UI components, foundations, and standards that help teams build beautiful product experiences.
+
+This page lists how to use Atlassian's design system components and developer tools.
+
+
+## Before you begin
+
+The Atlassian Design System is implemented with React 16 and TypeScript. Make sure you have React and optionally TypeScript installed before you start.
+
+You’ll also need a package manager like NPM. We use yarn in our examples:
+
+```node copy
+yarn add react@16.8 react-dom@16.8 typescript@4.5
+```
+
+Atlassian Design System packages are available on npm under the @atlaskit scope, along with other Atlassian platform components. 
+
+You can view source code for our public packages in Bitbucket (Atlassians can view these in the private Atlassian Frontend repository).
+
+
+## Set up your style environment
+
+1. Copy the following into your terminal to install our dependencies: CSS reset, design tokens, and ESLint plugin.
+
+```node copy
+yarn add @atlaskit/css-reset @atlaskit/tokens
+```
+
+2. Import these stylesheets at the root of your application. These are required for our components to work as expected in light and dark mode (coming soon).
+
+```tsx copy
+import '@atlaskit/css-reset';
+```
+
+<Callout type="info" emoji="ℹ️">
+  **We’re rolling out design tokens across Atlassian.**
+  With design tokens, your style choices align with system-level design decisions. Implementing tokens makes things like dark mode possible and scalable across Atlassian.
+  [Learn more about design tokens](/design-tokens)
+</Callout>

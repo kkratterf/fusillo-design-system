@@ -4,6 +4,7 @@
     "type": "page",
     "display": "hidden",
     "theme": {
+      "layout": "full",
       "breadcrumb": false,
       "footer": false,
       "sidebar": false,
