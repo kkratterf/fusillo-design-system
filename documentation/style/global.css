@@ -8,8 +8,12 @@
 @tailwind utilities;
 
 :root {
+  --nextra-primary-hue: 217deg;
+  --nextra-primary-saturation: 91%;
+  /*
   --nextra-primary-hue: var(--brand-hue);
   --nextra-primary-saturation: var(--brand-hue);
+  */
 }
 
 .docs_logo {

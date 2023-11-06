@@ -1,11 +1,12 @@
 {
-  "name": "nextra-docs-template",
+  "name": "documentation",
   "version": "1.0.1",
   "description": "Nextra docs template",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",

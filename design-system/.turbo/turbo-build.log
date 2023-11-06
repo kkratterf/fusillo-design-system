@@ -5,26 +5,19 @@
    Creating an optimized production build...
  ✓ Compiled successfully
    Linting and checking validity of types...
-   Collecting page data...
-   Generating static pages (0/5)...
-   Generating static pages (1/5)
+Failed to compile.
 
-   Generating static pages (2/5)
+./components/sheet/index.tsx:17:3
+Type error: Property 'className' does not exist on type 'DialogPortalProps'.
 
-   Generating static pages (3/5)
-
- ✓ Generating static pages (5/5)
-   Finalizing page optimization...
-
-Route (app)                              Size     First Load JS
-┌ ○ /                                    5.17 kB        84.3 kB
-└ ○ /_not-found                          878 B          80.1 kB
-+ First Load JS shared by all            79.2 kB
-  ├ chunks/864-4a979332dff86894.js       26.5 kB
-  ├ chunks/fd9d1056-e4abb10dc68a7173.js  50.8 kB
-  ├ chunks/main-app-7c4f213c3c1625b3.js  221 B
-  └ chunks/webpack-12a8f0eb21d39c4c.js   1.64 kB
-
-
-○  (Static)  automatically rendered as static HTML (uses no initial props)
-
+[0m [90m 15 | [39m[0m
+[0m [90m 16 | [39m[36mconst[39m [33mSheetPortal[39m [33m=[39m ({[0m
+[0m[31m[1m>[22m[39m[90m 17 | [39m  className[33m,[39m[0m
+[0m [90m    | [39m  [31m[1m^[22m[39m[0m
+[0m [90m 18 | [39m  [33m...[39mprops[0m
+[0m [90m 19 | [39m}[33m:[39m [33mSheetPrimitive[39m[33m.[39m[33mDialogPortalProps[39m) [33m=>[39m ([0m
+[0m [90m 20 | [39m  [33m<[39m[33mSheetPrimitive[39m[33m.[39m[33mPortal[39m className[33m=[39m{cn(className)} {[33m...[39mprops} [33m/[39m[33m>[39m[0m
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: design-system@1.0.1 
+npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system 

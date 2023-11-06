@@ -1,4 +1,4 @@
-import { IconAccessibility } from '@/components/icon';
+import { Accessibility } from 'lucide-react';
 import { Button } from '@/components/button';
 import {
   Accordion,
@@ -67,7 +67,7 @@ export default function Home() {
 
         <Alert>
           <AlertIcon>
-            <IconAccessibility />
+            <Accessibility />
           </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
@@ -76,7 +76,7 @@ export default function Home() {
         </Alert>
         <Alert variant="danger">
           <AlertIcon>
-            <IconAccessibility />
+            <Accessibility />
           </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
@@ -85,7 +85,7 @@ export default function Home() {
         </Alert>
         <Alert variant="warning">
           <AlertIcon>
-            <IconAccessibility />
+            <Accessibility />
           </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
@@ -94,7 +94,7 @@ export default function Home() {
         </Alert>
         <Alert variant="success">
           <AlertIcon>
-            <IconAccessibility />
+            <Accessibility />
           </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
@@ -103,7 +103,7 @@ export default function Home() {
         </Alert>
         <Alert variant="info">
           <AlertIcon>
-            <IconAccessibility />
+            <Accessibility />
           </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
@@ -112,7 +112,7 @@ export default function Home() {
         </Alert>
         <Alert variant="discovery">
           <AlertIcon>
-            <IconAccessibility />
+            <Accessibility />
           </AlertIcon>
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>

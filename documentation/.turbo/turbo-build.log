@@ -1,71 +1,104 @@
 
-> nextra-docs-template@1.0.1 build
+> documentation@1.0.1 build
 > next build
 
    Linting and checking validity of types...
    Creating an optimized production build...
  ✓ Compiled successfully
    Collecting page data...
-   Generating static pages (0/43)...
-   Generating static pages (10/43)
+   Generating static pages (0/76)...
+   Generating static pages (19/76)
 
-   Generating static pages (21/43)
+   Generating static pages (38/76)
 
-   Generating static pages (32/43)
+   Generating static pages (57/76)
 
- ✓ Generating static pages (43/43)
+ ✓ Generating static pages (76/76)
    Finalizing page optimization...
 
-Route (pages)                                  Size     First Load JS
-┌ ○ /                                          628 B           193 kB
-├   /_app                                      0 B             188 kB
-├ ○ /404                                       181 B           188 kB
-├ ○ /documentation/brand                       778 B           193 kB
-├ ○ /documentation/brand/mission               575 B           193 kB
-├ ○ /documentation/brand/values                639 B           193 kB
-├ ○ /documentation/brand/vision                575 B           193 kB
-├ ○ /documentation/components                  884 B           193 kB
-├ ○ /documentation/components/accordion        564 B           193 kB
-├ ○ /documentation/components/alert            559 B           193 kB
-├ ○ /documentation/components/alert-dialog     572 B           193 kB
-├ ○ /documentation/components/aspect-ratio     572 B           193 kB
-├ ○ /documentation/components/avatar           563 B           193 kB
-├ ○ /documentation/components/badge            560 B           193 kB
-├ ○ /documentation/components/button           579 B           193 kB
-├ ○ /documentation/components/calendar         564 B           193 kB
-├ ○ /documentation/components/card             560 B           193 kB
-├ ○ /documentation/components/checkbox         563 B           193 kB
-├ ○ /documentation/components/collapsible      565 B           193 kB
-├ ○ /documentation/components/combobox         564 B           193 kB
-├ ○ /documentation/components/command          561 B           193 kB
-├ ○ /documentation/components/context-menu     568 B           193 kB
-├ ○ /documentation/content                     732 B           193 kB
-├ ○ /documentation/content/inclusive-language  642 B           193 kB
-├ ○ /documentation/foundations                 790 B           193 kB
-├ ○ /documentation/foundations/accessibility   625 B           193 kB
-├ ○ /documentation/foundations/color           1.42 kB         201 kB
-├ ○ /documentation/foundations/iconography     629 B           193 kB
-├ ○ /documentation/foundations/scale           1.12 kB         201 kB
-├ ○ /documentation/foundations/typography      644 B           193 kB
-├ ○ /documentation/get-started                 742 B           193 kB
-├ ○ /documentation/get-started/content         606 B           193 kB
-├ ○ /documentation/get-started/design          591 B           193 kB
-├ ○ /documentation/get-started/develop         612 B           193 kB
-├ ○ /documentation/resources                   655 B           193 kB
-├ ○ /documentation/resources/fonts             606 B           193 kB
-├ ○ /documentation/tokens                      712 B           193 kB
-├ ○ /documentation/tokens/border               556 B           193 kB
-├ ○ /documentation/tokens/breakpoints          561 B           193 kB
-├ ○ /documentation/tokens/color                10.4 kB         202 kB
-├ ○ /documentation/tokens/size                 555 B           193 kB
-├ ○ /documentation/tokens/space                553 B           193 kB
-└ ○ /documentation/welcome                     1.99 kB         194 kB
-+ First Load JS shared by all                  203 kB
-  ├ chunks/framework-66d32731bdd20e83.js       45.2 kB
-  ├ chunks/main-25ea56493abba4b5.js            36.2 kB
-  ├ chunks/pages/_app-7c67cbcc1a64de29.js      106 kB
-  ├ chunks/webpack-6efcf3b4cfe438c7.js         1.03 kB
-  └ css/b18b0b7871a8e9ee.css                   15.1 kB
+Route (pages)                                                 Size     First Load JS
+┌ ○ /                                                         636 B           182 kB
+├   /_app                                                     0 B             177 kB
+├ ○ /404                                                      184 B           177 kB
+├ ○ /documentation/brand                                      780 B           182 kB
+├ ○ /documentation/brand/mission                              578 B           182 kB
+├ ○ /documentation/brand/values                               645 B           182 kB
+├ ○ /documentation/brand/vision                               578 B           182 kB
+├ ○ /documentation/components                                 1.16 kB         182 kB
+├ ○ /documentation/components/accordion                       1.88 kB         183 kB
+├ ○ /documentation/components/alert                           574 B           182 kB
+├ ○ /documentation/components/alert-dialog                    611 B           182 kB
+├ ○ /documentation/components/aspect-ratio                    584 B           182 kB
+├ ○ /documentation/components/avatar                          573 B           182 kB
+├ ○ /documentation/components/badge                           596 B           182 kB
+├ ○ /documentation/components/button                          1.68 kB         183 kB
+├ ○ /documentation/components/calendar                        581 B           182 kB
+├ ○ /documentation/components/card                            580 B           182 kB
+├ ○ /documentation/components/checkbox                        605 B           182 kB
+├ ○ /documentation/components/collapsible                     586 B           182 kB
+├ ○ /documentation/components/combobox                        594 B           182 kB
+├ ○ /documentation/components/command                         581 B           182 kB
+├ ○ /documentation/components/context-menu                    623 B           182 kB
+├ ○ /documentation/components/date-picker                     600 B           182 kB
+├ ○ /documentation/components/dialog                          608 B           182 kB
+├ ○ /documentation/components/dropdown-menu                   626 B           182 kB
+├ ○ /documentation/components/form                            568 B           182 kB
+├ ○ /documentation/components/hover-card                      600 B           182 kB
+├ ○ /documentation/components/icon                            594 B           182 kB
+├ ○ /documentation/components/input                           585 B           182 kB
+├ ○ /documentation/components/label                           585 B           182 kB
+├ ○ /documentation/components/menubar                         626 B           182 kB
+├ ○ /documentation/components/navigation-menu                 588 B           182 kB
+├ ○ /documentation/components/popover                         589 B           182 kB
+├ ○ /documentation/components/progress                        610 B           182 kB
+├ ○ /documentation/components/radio-group                     632 B           182 kB
+├ ○ /documentation/components/scroll-area                     601 B           182 kB
+├ ○ /documentation/components/select                          610 B           182 kB
+├ ○ /documentation/components/separator                       578 B           182 kB
+├ ○ /documentation/components/sheet                           599 B           182 kB
+├ ○ /documentation/components/skeleton                        581 B           182 kB
+├ ○ /documentation/components/slider                          593 B           182 kB
+├ ○ /documentation/components/switch                          595 B           182 kB
+├ ○ /documentation/components/table                           564 B           182 kB
+├ ○ /documentation/components/tabs                            612 B           182 kB
+├ ○ /documentation/components/tag                             579 B           182 kB
+├ ○ /documentation/components/textarea                        596 B           182 kB
+├ ○ /documentation/components/toast                           582 B           182 kB
+├ ○ /documentation/components/toggle                          582 B           182 kB
+├ ○ /documentation/components/tooltip                         605 B           182 kB
+├ ○ /documentation/content                                    882 B           182 kB
+├ ○ /documentation/content/brand-vocabulary                   634 B           182 kB
+├ ○ /documentation/content/content-accessibility              2.56 kB         184 kB
+├ ○ /documentation/content/grammar-and-style                  765 B           182 kB
+├ ○ /documentation/content/inclusive-language                 838 B           182 kB
+├ ○ /documentation/content/tone-of-voice                      677 B           182 kB
+├ ○ /documentation/content/writing-guidelines-for-components  696 B           182 kB
+├ ○ /documentation/foundations                                832 B           182 kB
+├ ○ /documentation/foundations/accessibility                  629 B           182 kB
+├ ○ /documentation/foundations/color                          2.74 kB         191 kB
+├ ○ /documentation/foundations/design-tokens                  2.79 kB         184 kB
+├ ○ /documentation/foundations/iconography                    634 B           182 kB
+├ ○ /documentation/foundations/scale                          1.3 kB          189 kB
+├ ○ /documentation/foundations/typography                     648 B           182 kB
+├ ○ /documentation/get-started                                751 B           182 kB
+├ ○ /documentation/get-started/content                        1.6 kB          183 kB
+├ ○ /documentation/get-started/design                         1.74 kB         183 kB
+├ ○ /documentation/get-started/develop                        1.73 kB         183 kB
+├ ○ /documentation/resources                                  660 B           182 kB
+├ ○ /documentation/resources/fonts                            614 B           182 kB
+├ ○ /documentation/tokens                                     717 B           182 kB
+├ ○ /documentation/tokens/border                              1.02 kB         197 kB
+├ ○ /documentation/tokens/breakpoints                         1.05 kB         197 kB
+├ ○ /documentation/tokens/color                               2.62 kB         198 kB
+├ ○ /documentation/tokens/size                                1.08 kB         197 kB
+├ ○ /documentation/tokens/spacing                             1.03 kB         197 kB
+└ ○ /documentation/welcome                                    2 kB            183 kB
++ First Load JS shared by all                                 192 kB
+  ├ chunks/framework-3d19f84d256cc7ee.js                      45.2 kB
+  ├ chunks/main-731f25b360c9170e.js                           36.2 kB
+  ├ chunks/pages/_app-e71671a1c5106bdf.js                     94.8 kB
+  ├ chunks/webpack-d91a8bf45cb20e46.js                        1.03 kB
+  └ css/5b37a553a983ac6b.css                                  14.8 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 

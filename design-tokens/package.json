@@ -1,5 +1,5 @@
 {
-  "name": "tokens",
+  "name": "design-tokens",
   "version": "1.0.1",
   "description": "Design tokens converter",
   "main": "build.js",

@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "next test",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
