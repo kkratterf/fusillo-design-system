@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Nov 2023 20:15:26 GMT
+ * Generated on Mon, 06 Nov 2023 20:16:49 GMT
  */
 
 module.exports = {
@@ -164,7 +164,7 @@ module.exports = {
         },
         "brand-500": {
           "type": "color",
-          "value": "#3b82f6",
+          "value": "#84cc16",
           "description": "",
           "$extensions": {
             "variableId": "VariableID:2:48"
@@ -173,7 +173,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-500}",
+            "value": "{Foundations.Color.Lime.lime-500}",
             "description": "",
             "$extensions": {
               "variableId": "VariableID:2:48"
@@ -195,7 +195,7 @@ module.exports = {
         },
         "brand-600": {
           "type": "color",
-          "value": "#2563eb",
+          "value": "#65a30d",
           "description": "",
           "$extensions": {
             "variableId": "VariableID:2:49"
@@ -204,7 +204,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-600}",
+            "value": "{Foundations.Color.Lime.lime-600}",
             "description": "",
             "$extensions": {
               "variableId": "VariableID:2:49"
