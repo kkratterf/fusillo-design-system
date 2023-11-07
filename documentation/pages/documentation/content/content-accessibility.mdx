@@ -1,19 +1,13 @@
 import { Callout } from 'nextra/components'
+import * as logo from '../../../tokens/config.js';
 
 # 🫂 Content accessibility
 
-Lorem ipsum dolor sit amet
-
-## Intro
-
-We at Fusillo give you all the tools to create design products for everyone. That means all the people can use your product and feel welcome, understood and valued. 
-
-Here’s how. 
-
+We at **{logo.ConfigBrand}** give you all the tools to create **design products for everyone**. That means all the people can use your product and feel welcome, understood and valued. Here’s how. 
 
 ## POUR principle
 
-We follow the WCAG guidelines that are driven by four principles: 
+We follow the [WCAG guidelines](https://www.w3.org/WAI/fundamentals/accessibility-principles/#standards) that are driven by four principles: 
 
 - **[Perceivable](#perceivable)**
 - **[Operable](#operable)**
@@ -21,87 +15,285 @@ We follow the WCAG guidelines that are driven by four principles:
 - **[Robust](#robust)**
 
 ### Perceivable
-All users will be able to perceive the information presented in your design - with all of their senses. 
+All users will be able to **perceive the information** presented in your design - with all of their senses. 
 
-That means a large use of empathy. Also, keep in mind that people will read your content on screen - seems obvious, but sometimes it’s not. Timing, colors, size, spacing and a lot of other aspects are essential. 
+That means a large use of **empathy**. Also, keep in mind that people **will read your content on screen** - seems obvious, but sometimes it’s not. Timing, colors, size, spacing and a lot of other aspects are essential. 
 
-Take care of each of them - some users can’t see or hear, have low vision or are color blind. All the people need to have access to your content 🧡
+Take care of each of them - some users can’t see or hear, have low vision or are color blind. **All the people need to have access to your content 🧡**.
 
+#### Examples
 <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
-#### Do's
-#### Dont's
-<Callout className="h-40" type="info" emoji="💚">
-    Use captions and subtitles for videos.
+<Callout type="info" emoji="💚">
+    **DO** - Use captions and subtitles for videos.
 </Callout>
-<Callout style={{ margin: '0' }} type="error" emoji="💔">
-    Don’t publish videos without context, subtitles or saying who is talking.
+<Callout type="error" emoji="💔">
+    **DON'T** - Don’t publish videos without context, subtitles or saying who is talking.
 </Callout>
-<Callout className="w-full mt-0!important" type="info" emoji="💚">
-    Make sure your links are meaningful and precise, and stand out from the text - learn more about how to deal with links.
+<Callout type="info" emoji="💚">
+    **DO**: Make sure your [links are meaningful and precise](), and stand out from the text.
 </Callout>
-<Callout className="w-full mt-0!important" type="error" emoji="💔">
-    Avoid generic links as click here.
+<Callout type="error" emoji="💔">
+    **DON'T**: Avoid generic links as [click here]().
 </Callout>
-<Callout className="w-full mt-0!important" type="info" emoji="💚">
-    Keep in mind that font face, size and weight should be nice and readable.
+<Callout type="info" emoji="💚">
+    **DO**  
+    Keep in mind that **font face, size and weight** should be nice and readable.
 </Callout>
-<Callout className="w-full mt-0!important" type="error" emoji="💔">
+<Callout type="error" emoji="💔">
+    **DON'T**  
     Avoid fonts that are cute but hard to read.
 </Callout>
-<Callout className="w-full mt-0!important" type="info" emoji="💚">
-    Be careful with the emojis - they can add value but the sentence must be readable without them (example: “What a nice unicorn! 🦄”)
+<Callout type="info" emoji="💚">
+    **DO**  
+    **Be careful with the emojis** - they can add value but the sentence must be readable without them (example: “What a nice unicorn! 🦄”).
 </Callout>
-<Callout className="w-full mt-0!important" type="error" emoji="💔">
-    Do not use an emoji in place of a word (example: “What a nice 🦄!”) 
+<Callout type="error" emoji="💔">
+    **DON'T**  
+    Do not use an emoji in place of a word (example: “What a nice 🦄!”).
 </Callout>
 </div>
 
 
 ### Operable
 
-All users will be able to operate your interface: content must be meaningful and navigation must be simple. 
-Keep in mind that the experience shouldn’t require too much effort and users should have enough time to read what you’re telling them. 
-Use Fusillo components and follow these principles: 
+All users will be able to **operate your interface**: content must be meaningful and navigation must be simple. 
+Keep in mind that the experience shouldn’t require too much effort and users should have **enough time to read** what you’re telling them. 
+Use {logo.ConfigName} components and follow these principles: 
 
-- When you write your content, think about how much time a person would take to read it and match it with the timing on screen: is it enough?
-- Consider splitting your content in different paragraphs, web pages or app screens in order to be more clear
-- Make accessible forms: make sure labels are meaningful and they persist during the navigation inside the field, take extra care to error messages
+- When you write your content, think about **how much time a person would take to read it** and match it with the timing on screen: is it enough?
+- Consider **splitting your content** in different paragraphs, web pages or app screens in order to be more clear
+- **Make accessible forms**: make sure labels are meaningful and they persist during the navigation inside the field, take extra care to [error messages]()
 
 
 ### Understandable
 
-Users need to understand and memorize your content easily. 
-Focus people attention, keep it short and simple and, if you need to go deeper, use a meaningful information hierarchy. 
+Users need to **understand and memorize your content** easily. 
+Focus people attention, keep it short and simple and, if you need to go deeper, use a meaningful **information hierarchy**. 
 
-Follow Fusillo do’s and dont’s to design a fully understandable product. 
+Follow **{logo.ConfigBrand}** do’s and dont’s to design a fully understandable product. 
 
 <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
 #### Do's
 #### Dont's
-<Callout className="h-40" type="info" emoji="💚">
-    Try to keep your sentences up to 20 words long.
+<Callout type="info" emoji="💚">
+    Try to keep your sentences up to **20 words** long.
 </Callout>
-<Callout style={{ margin: '0' }} type="error" emoji="💔">
+<Callout type="error" emoji="💔">
     Do not write long sentences without using paragraphs, spacing, headers or bullet points. 
 </Callout>
-<Callout className="w-full mt-0!important" type="info" emoji="💚">
-    Try to always read your content out loud: how does it sound? Good? Some users will hear it - and even those who will read it, they will appreciate your effort to make it more clear.
+<Callout type="info" emoji="💚">
+    Try to always **read your content out loud**: how does it sound? Good? Some users will hear it - and even those who will read it, they will appreciate your effort to make it more clear.
 </Callout>
-<Callout className="w-full mt-0!important" type="error" emoji="💔">
-    Don’t presume that it doesn’t matter if the content is long, because people can skip it: put more effort so they can put none 
+<Callout type="error" emoji="💔">
+    Don’t presume that it doesn’t matter if the content is long, because people can skip it: put more effort so they can put none.
 </Callout>
-<Callout className="w-full mt-0!important" type="info" emoji="💚">
-    Imagine that you’re writing for a kid, in terms of readability: WCAG guidelines suggest us to aim to lower secondary education level
+<Callout type="info" emoji="💚">
+   **Imagine that you’re writing for a kid**, in terms of readability: [WCAG guidelines](https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html) suggest us to aim to lower secondary education level - our [readability guideline]() show you how.
 </Callout>
-<Callout className="w-full mt-0!important" type="error" emoji="💔">
-    //
+<Callout type="error" emoji="💔">
+    Avoid complex words and chose simpler ones when possible.
 </Callout>
 </div>
 
 
 ### Robust
 
+Make **your content suitable for all devices and assistive technologies**: users and technologies keep evolving but your content needs to remain accessible. 
+
+Test your product to see if every aspect of your content is good for different browsers, devices and if it’s good to be read by assistive technologies. 
+
+
+## Readability
+
+We at **{logo.ConfigBrand}** help you write **compelling yet simple and accessible content**. 
+Keep these two goals in mind. Readability plays a huge role. Your content should be accessible to people from 9 to 15 years old. And it’s **good for everyone**: 
+
+- It’s easier to understand by non-native speakers
+- It’s easier to be heard by people who need assistive technologies
+- It’s easier for neurodivergent people
+- It’s easier for people in a rush, on the bus, tired and so on 
+
+Let’s do it, then. 
+
+
+### Keep it short
+
+**Short sentences** are good for all devices: remember that users are ***screen readers***. 
+
+Moreover, let’s consider: 
+- **Personal conditions**
+- **External context** (space and time, such as being outdoor, on the bus, with other people around, or in a rush) 
+- **Different states of mind** (curious, anxious, worried, impatient…) 
+
+We need our content to be **short and sweet**. 
+
+- Keep your sentences **up to 20 words**
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    We’ve being doing this for 20 years so we are trained to be your assistants. (15 words)
+</Callout>
+<Callout type="error" emoji="💔">
+    Our deep experience of the complex and diverse maket has granted us to be the best player in town to offer our clients the best assistance they need. (28 words)
+</Callout>
+</div>
+
+- When in doubt, **chose a shorter synonym**
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Use
+</Callout>
+<Callout type="error" emoji="💔">
+    Utilize
+</Callout>
+</div>
+
+- **Avoid unnecessary words** and be careful with **prepositions**
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Now
+</Callout>
+<Callout type="error" emoji="💔">
+    At the moment
+</Callout>
+<Callout type="info" emoji="💚">
+    We offer you an experience
+</Callout>
+<Callout type="error" emoji="💔">
+    We intend to offer you an experience
+</Callout>
+</div>
+
+- Be **concrete and precise**, avoid vague expressions: people are more and more surrounded by **“empty words”** and do not pay attention
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Our product is 100% organic cotton and has a three-year warranty.
+</Callout>
+<Callout type="error" emoji="💔">
+    Our product is innovative, competitive, efficient, unique, reliable and has extraordinary features. 
+</Callout>
+</div>
+
+
+### Use plain language
+
+Plain language is the **shortest, most accurate and efficient way** to pass information. 
+That means choosing the information that users need and putting it in the right way. 
+That’s **ordinary language**, very close to the spoken language, and it’s not unprofessional writing.
+
+Users need to feel understood and guided. Your content must do that. 
+
+- **Don’t be robotic**: your content speaks as a human being
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Something went wrong
+</Callout>
+<Callout type="error" emoji="💔">
+    Error detected
+</Callout>
+</div>
+
+- **Use active verbs** and keep it conversational: active voice makes it clear who needs to do what and leave no ambiguity about who is responsible for an action.
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Create a new password
+</Callout>
+<Callout type="error" emoji="💔">
+    A new password is required
+</Callout>
+<Callout type="info" emoji="💚">
+    Pay now
+</Callout>
+<Callout type="error" emoji="💔">
+    Payment needed
+</Callout>
+</div>
+
+- **Write in sentence case**. Use capital letters only for proper nouns and for the first word. That makes your content scannable and easier to read
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Fill the form
+</Callout>
+<Callout type="error" emoji="💔">
+    Fill the Form
+</Callout>
+<Callout type="info" emoji="💚">
+    How to reach new clients
+</Callout>
+<Callout type="error" emoji="💔">
+    How to reach New Clients
+</Callout>
+</div>
+
+- Always prefer simple words (they’re quite often the shorter ones too)
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    Help
+</Callout>
+<Callout type="error" emoji="💔">
+    Assistance
+</Callout>
+<Callout type="info" emoji="💚">
+    Need
+</Callout>
+<Callout type="error" emoji="💔">
+    Necessitate
+</Callout>
+<Callout type="info" emoji="💚">
+    Before
+</Callout>
+<Callout type="error" emoji="💔">
+    Previously
+</Callout>
+</div>
+
+- **Avoid nominalizations** (verbs that becomes nouns)
+
+<div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0">
+#### Do's
+#### Dont's
+<Callout type="info" emoji="💚">
+    To finalize your account
+</Callout>
+<Callout type="error" emoji="💔">
+     In order to proceed with the finalization of your account
+</Callout>
+<Callout type="info" emoji="💚">
+    Your must apply for this feature
+</Callout>
+<Callout type="error" emoji="💔">
+    You must make an application for this feature
+</Callout>
+</div>
+
+### Organize the information
+
+### Design for readers
+
+### Readability scores
 
 ## Simple language
-## Readability
 ## Alt-text
