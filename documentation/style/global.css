@@ -3,48 +3,32 @@
 @import './brand.css';
 @import './tokens.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --nextra-primary-hue: 217deg;
-  --nextra-primary-saturation: 91%;
-  /*
-  --nextra-primary-hue: var(--brand-hue);
-  --nextra-primary-saturation: var(--brand-hue);
-  */
+body {
+  @apply font-sans
+}
+
+.nx-px-2 {
+  @apply py-1.5 px-4;
+}
+
+.nx-rounded {
+  @apply rounded-radius;
+}
+
+.nx-rounded-lg {
+  @apply rounded-radius;
+}
+
+iframe {
+  border-radius: var(--border-radius-lg);
+  -webkit-border-radius: var(--border-radius-lg);
+  -moz-border-radius: var(--border-radius-lg);
+  -ms-border-radius: var(--border-radius-lg);
+  -o-border-radius: var(--border-radius-lg);
 }
 
 .docs_logo {
   font-weight: 600;
   font-size: 1.3rem;
-  }
-
-@layer base {
-
-  body {
-   @apply font-sans
-  }
-
-  .nx-px-2 {
-    @apply py-1.5 px-4;
-  }
-
-  .nx-rounded {
-    @apply rounded-radius;
-  }
-
-  .nx-rounded-lg {
-    @apply rounded-radius;
-  }
-
-  iframe {
-    border-radius: var(--border-radius-lg);
-    -webkit-border-radius: var(--border-radius-lg);
-    -moz-border-radius: var(--border-radius-lg);
-    -ms-border-radius: var(--border-radius-lg);
-    -o-border-radius: var(--border-radius-lg);
-  }
-
 }

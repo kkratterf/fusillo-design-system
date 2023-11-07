@@ -311,7 +311,7 @@ styleBrand.registerFormat({
       const hslValue = hexToHSL(token.value);
       const brandName = token.name.replace(
         /foundations-color-brand-brand-500/g,
-        'brand'
+        'nextra-primary'
       );
       cssVariables += `--${brandName}-hue: ${hslValue.h}deg;\n`;
       cssVariables += `--${brandName}-saturation: ${hslValue.s}%;\n`;
