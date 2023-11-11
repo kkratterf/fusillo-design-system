@@ -17,20 +17,18 @@ const meta: Meta<typeof Accordion> = {
     type: {
       options: ['single', 'multiple'],
       control: { type: 'select' },
-      defaultValue: 'single',
       description:
         'Set the type prop to multiple to enable opening multiple items at once',
     },
-    asChild: { table: { disable: true } },
     collapsible: {
-      defaultValue: 'false',
+      description: 'Use the collapsible prop to allow all items to close',
     },
+    asChild: { table: { disable: true } },
     defaultValue: {
       options: ['item-1', 'item-2', 'item-3'],
       control: { type: 'select' },
-      defaultValue: 'item-2',
       description:
-        'Use the defaultValue prop to define the open item by default'
+        'Use the defaultValue prop to define the open item by default',
     },
   },
   parameters: {
@@ -42,7 +40,7 @@ const meta: Meta<typeof Accordion> = {
     },
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A748&mode=design&t=MpDMELWReoDbdLIS-1',
     },
   },
 };
@@ -79,6 +77,7 @@ export const Single: Story = {
   args: {
     type: 'single',
     collapsible: true,
+    defaultValue: undefined,
   },
 };
 
@@ -147,6 +146,7 @@ export const DefaultValue: Story = {
   ),
   args: {
     type: 'single',
+    collapsible: false,
     defaultValue: 'item-2',
   },
   parameters: {
