@@ -1,5 +1,7 @@
-import { Meta, StoryObj } from '@storybook/react';
-
+// Import core
+import type { Meta, StoryObj } from '@storybook/react';
+// Import third parts
+// Import customs
 import {
   ContextMenu,
   ContextMenuCheckboxItem,
@@ -15,6 +17,7 @@ import {
   ContextMenuSubTrigger,
   ContextMenuTrigger,
 } from './';
+
 
 const meta: Meta<typeof ContextMenu> = {
   title: 'Components/ContextMenu',
@@ -67,7 +70,6 @@ export const Base: Story = {
         <ContextMenuSeparator />
         <ContextMenuRadioGroup value="pedro">
           <ContextMenuLabel inset>People</ContextMenuLabel>
-          <ContextMenuSeparator />
           <ContextMenuRadioItem value="pedro">
             Pedro Duarte
           </ContextMenuRadioItem>

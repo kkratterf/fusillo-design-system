@@ -32,7 +32,7 @@ interface CommandDialogProps extends DialogProps {}
 const CommandDialog = ({ children, ...props }: CommandDialogProps) => {
   return (
     <Dialog {...props}>
-      <DialogContent className="command-dialog-content">
+      <DialogContent className="command-dialog-content p-0">
         <Command className="command-dialog">{children}</Command>
       </DialogContent>
     </Dialog>
@@ -47,14 +47,11 @@ const CommandInput = React.forwardRef<
     <Search className="command-input-search" />
     <CommandPrimitive.Input
       ref={ref}
-      className={cn(
-        "command-input",
-        className
-      )}
+      className={cn('command-input', className)}
       {...props}
     />
   </div>
-))
+));
 
 CommandInput.displayName = CommandPrimitive.Input.displayName
 

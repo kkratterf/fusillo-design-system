@@ -20,6 +20,7 @@ const meta: Meta<typeof Avatar> = {
     asChild: { table: { disable: true } },
   },
   parameters: {
+    layout: 'centered',
     docs: {
       description: {
         component: 'Visual representation of a user or entity.',

@@ -1,6 +1,8 @@
-import { Meta, StoryObj } from '@storybook/react';
+// Import core
+import type { Meta, StoryObj } from '@storybook/react';
+// Import third parts
 import { BellRing, Check } from 'lucide-react';
-
+// Import customs
 import { cn } from '../../lib/utils';
 import { Button } from '../button';
 import {
@@ -12,6 +14,7 @@ import {
   CardTitle,
 } from './';
 import { Switch } from '../switch';
+
 
 const meta: Meta<typeof Card> = {
   title: 'Components/Card',

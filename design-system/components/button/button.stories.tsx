@@ -1,6 +1,6 @@
 // Import core
-// Import third parts
 import type { Meta, StoryObj } from '@storybook/react';
+// Import third parts
 // Import customs
 import { Button } from './';
 
@@ -25,7 +25,7 @@ const meta: Meta<typeof Button> = {
     },
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=119%3A6&mode=design&t=MpDMELWReoDbdLIS-1',
     },
   },
 };

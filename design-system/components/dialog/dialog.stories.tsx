@@ -1,5 +1,7 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Button } from '../button';
 import {
   Dialog,
@@ -12,6 +14,7 @@ import {
 } from './';
 import { Input } from '../input';
 import { Label } from '../label';
+
 
 const meta: Meta<typeof Dialog> = {
   title: 'Components/Dialog',

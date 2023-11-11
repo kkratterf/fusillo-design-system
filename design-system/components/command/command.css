@@ -16,7 +16,7 @@
   }
 
   .command-dialog-content {
-    @apply overflow-hidden p-0 shadow-lg;
+    @apply overflow-hidden shadow-lg;
   }
   
   .command-dialog {
@@ -28,7 +28,7 @@
   }
 
   .command-input-search {
-    @apply mr-2 h-4 w-4 shrink-0 opacity-50;
+    @apply mr-2 h-4 w-4 shrink-0 stroke-2 stroke-color-icon;
   }
 
   .command-input {
@@ -40,11 +40,11 @@
   }
 
   .command-empty {
-    @apply py-6 text-center body-base;
+    @apply py-6 text-center body-base text-color-text-description;
   }
 
   .command-group {
-    @apply overflow-hidden p-1 text-color-text [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-2 [&_[cmdk-group-heading]]:title-group [&_[cmdk-group-heading]]:text-color-text-description;
+    @apply overflow-hidden p-1 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-2 [&_[cmdk-group-heading]]:title-group [&_[cmdk-group-heading]]:text-color-text-description;
   }
 
   .command-separator {
@@ -52,7 +52,7 @@
   }
 
   .command-item {
-    @apply relative flex cursor-default select-none items-center rounded-sm px-2 py-2 text-sm outline-none aria-selected:bg-color-bg-interactive-selected aria-selected:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-9 body-base outline-none aria-selected:bg-color-bg-interactive-selected aria-selected:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
   }
 
   .command-shortcut {

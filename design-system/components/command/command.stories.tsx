@@ -1,5 +1,7 @@
+// Import core
 import { useEffect, useState } from 'react';
 import { Meta, StoryObj } from '@storybook/react';
+// Import third parts
 import { CommandSeparator } from 'cmdk';
 import {
   Calculator,
@@ -9,7 +11,7 @@ import {
   Smile,
   User,
 } from 'lucide-react';
-
+// Import customs
 import {
   Command,
   CommandDialog,
@@ -20,6 +22,7 @@ import {
   CommandList,
   CommandShortcut,
 } from './';
+
 
 const meta: Meta<typeof Command> = {
   title: 'Components/Command',

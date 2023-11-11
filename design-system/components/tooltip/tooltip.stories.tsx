@@ -1,13 +1,11 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
+// Import third parts
 import { Plus } from 'lucide-react';
-
+// Import customs
 import { Button } from '../button';
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from './';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './';
+
 
 const meta: Meta<typeof Tooltip> = {
   title: 'Components/Tooltip',
