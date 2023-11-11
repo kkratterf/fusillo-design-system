@@ -12,11 +12,11 @@ import './avatar.css';
 const avatarVariants = cva('avatar-component', {
   variants: {
     size: {
-      xxs: 'h-4 w-4',
-      xs: 'h-6 w-6',
-      sm: 'h-8 w-8',
-      md: 'h-9 w-9',
-      lg: 'h-10 w-10',
+      xs: 'h-4 w-4',
+      sm: 'h-6 w-6',
+      md: 'h-8 w-8',
+      lg: 'h-9 w-9',
+      xl: 'h-10 w-10',
     },
   },
   defaultVariants: {

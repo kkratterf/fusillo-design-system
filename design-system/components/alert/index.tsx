@@ -11,7 +11,7 @@ import { cn } from '../../lib/utils';
 
 const alertVariants = cva('alert-component', {
   variants: {
-    variant: {
+    status: {
       default: 'alert-default',
       danger: 'alert-danger',
       warning: 'alert-warning',
@@ -21,19 +21,19 @@ const alertVariants = cva('alert-component', {
     },
   },
   defaultVariants: {
-    variant: 'default',
+    status: 'default',
   },
 });
 
 const Alert = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement> & VariantProps<typeof alertVariants>
->(({ className, variant, ...props }, ref) => {
+>(({ className, status, ...props }, ref) => {
   return (
     <div
       ref={ref}
       role="alert"
-      className={cn(alertVariants({ variant }), className)}
+      className={cn(alertVariants({ status }), className)}
       {...props}
     />
   );

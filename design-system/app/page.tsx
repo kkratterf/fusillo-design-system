@@ -116,7 +116,7 @@ export default function Home() {
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <Alert variant="danger">
+        <Alert status="danger">
           <AlertIcon>
             <Accessibility />
           </AlertIcon>
@@ -125,7 +125,7 @@ export default function Home() {
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <Alert variant="warning">
+        <Alert status="warning">
           <AlertIcon>
             <Accessibility />
           </AlertIcon>
@@ -134,7 +134,7 @@ export default function Home() {
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <Alert variant="success">
+        <Alert status="success">
           <AlertIcon>
             <Accessibility />
           </AlertIcon>
@@ -143,13 +143,13 @@ export default function Home() {
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <Alert variant="info">
+        <Alert status="info">
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <Alert variant="discovery">
+        <Alert status="discovery">
           <AlertTitle>Heads up!</AlertTitle>
           <AlertDescription>
             Dai su diomerda perchè non funziona
@@ -291,7 +291,7 @@ export default function Home() {
               </ContextMenuRadioItem>
             </ContextMenuRadioGroup>
           </ContextMenuContent>
-        </ContextMenu> 
+        </ContextMenu>
       </div>
     </main>
   );
