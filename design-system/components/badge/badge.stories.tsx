@@ -17,23 +17,9 @@ export const Base: Story = {
   args: {},
 };
 
-export const Secondary: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
-  args: {
-    variant: 'secondary',
-  },
-};
-
 export const Danger: Story = {
   render: (args) => <Badge {...args}>Badge</Badge>,
   args: {
-    variant: 'danger',
-  },
-};
-
-export const Outline: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
-  args: {
-    variant: 'outline',
+    status: 'danger',
   },
 };

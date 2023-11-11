@@ -5,12 +5,10 @@ import { Tabs, Steps } from 'nextra/components';
 
 A vertically stacked set of interactive headings that each reveal a section of content.
 
-<br />
-
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
   <iframe
-  src="https://main--653e613f4feb85c1b6467ba7.chromatic.com/iframe.html?globals=theme:Light&args=&id=design-system-components-accordion--default"
+  src="https://main--653e613f4feb85c1b6467ba7.chromatic.com/iframe.html?globals=theme:Light&args=&id=components-accordion--single"
   width="100%"
   height="260"
 ></iframe>
@@ -48,26 +46,165 @@ A vertically stacked set of interactive headings that each reveal a section of c
     ```
   </Tabs.Tab>
 </Tabs>
-
 <br/>
 
 ## Usage
+The accordion component efficiently presents extensive content within a confined space by revealing information progressively. The header title provides users with a summarized view of the content, empowering them to choose which sections to explore further.
+
+Accordions enhance information processing and discovery, optimizing effectiveness. However, it's essential to consider that accordions conceal content, and there's a possibility that users may not notice or read all the included information. If users are likely to read all content, it's recommended to avoid using an accordion, as it introduces the additional step of clicking. Instead, opt for a full-scrolling page with regular headers.
+
+### When to use
+- **Organizing Related Information**: Use accordions to structure and present related pieces of information together.
+- **Reducing Scrolling on Non-Crucial Content**: Implement accordions to condense pages and minimize scrolling when it's not essential for users to read the entire content.
+- **Limited Space Scenarios**: Deploy accordions in situations where space is limited, and displaying lengthy content all at once is impractical, such as on mobile interfaces or within side panels.
+
 
 ## Example
 
-## Installation
+### Single
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+  <iframe
+  src="https://main--653e613f4feb85c1b6467ba7.chromatic.com/iframe.html?globals=theme:Light&args=&id=components-accordion--single"
+  width="100%"
+  height="260"
+></iframe>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
+ 
+    export function AccordionDemo() {
+     return (
+        <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It comes with default styles that matches the other
+            components&apos; aesthetic.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It&apos;s animated by default, but you can disable it if you
+            prefer.
+            </AccordionContent>
+        </AccordionItem>
+        </Accordion>
+     )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+<br/>
+
+### Multiple
+Set the `type` prop to multiple to enable opening multiple items at once.
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+  <iframe
+  src="https://main--653e613f4feb85c1b6467ba7.chromatic.com/iframe.html?globals=theme:Light&args=&id=components-accordion--multiple"
+  width="100%"
+  height="260"
+></iframe>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
+ 
+    export function AccordionDemo() {
+     return (
+        <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It comes with default styles that matches the other
+            components&apos; aesthetic.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It&apos;s animated by default, but you can disable it if you
+            prefer.
+            </AccordionContent>
+        </AccordionItem>
+        </Accordion>
+     )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+<br/>
+
+### Default Value
+Use the `defaultValue` prop to define the open item by default.
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+  <iframe
+  src="https://main--653e613f4feb85c1b6467ba7.chromatic.com/iframe.html?globals=theme:Light&args=&id=components-accordion--default-value"
+  width="100%"
+  height="260"
+></iframe>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
+ 
+    export function AccordionDemo() {
+     return (
+        <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It comes with default styles that matches the other
+            components&apos; aesthetic.
+            </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent>
+            Yes. It&apos;s animated by default, but you can disable it if you
+            prefer.
+            </AccordionContent>
+        </AccordionItem>
+        </Accordion>
+     )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+<br/>
 
 ## API
 
 ## Accessibility
 
-
-
 ***
 
+## Installation
 <Steps>
 
-### Import utilities
+### Import the necessary modules
 
 ```js copy
 import {
@@ -78,7 +215,7 @@ import {
 } from '@/components/accordion';
 ```
 
-### Import components items
+### Import component parts
 
 ```js copy
 <Accordion type="single" collapsible className="w-full">

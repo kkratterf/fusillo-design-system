@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   darkMode: ['class'],
   content: [
     './storybook/**/*.{ts,tsx}',
@@ -441,8 +442,8 @@ module.exports = {
       10: 'var(--size-width-10)',
       12: 'var(--size-width-12)',
       16: 'var(--size-width-16)',
-      'full': '100%',
-      'screen': '100vw',
+      full: '100%',
+      screen: '100vw',
     },
     height: {
       0: 'var(--size-height-0)',
@@ -454,8 +455,8 @@ module.exports = {
       10: 'var(--size-height-10)',
       12: 'var(--size-height-12)',
       16: 'var(--size-height-16)',
-      'full': '100%',
-      'screen': '100vh',
+      full: '100%',
+      screen: '100vh',
     },
     borderRadius: {
       'radius-none': 'var(--border-radius-none)',

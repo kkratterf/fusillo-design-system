@@ -1,11 +1,15 @@
 "use client"
 
-import * as React from "react"
-import { ChevronLeft, ChevronRight } from "lucide-react"
-import { DayPicker } from "react-day-picker"
+// Import core
+import * as React from 'react';
+// Import third parts
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { DayPicker } from 'react-day-picker';
+// Import customs
+import { cn } from '../../lib/utils';
+import { buttonVariants } from '../button';
+import './calendar.css'
 
-import { cn } from "../../lib/utils"
-import { buttonVariants } from "../button"
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>
 
@@ -18,37 +22,37 @@ function Calendar({
   return (
     <DayPicker
       showOutsideDays={showOutsideDays}
-      className={cn("p-3", className)}
+      className={cn('calendar-component', className)}
       classNames={{
-        months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
-        month: "space-y-4",
-        caption: "flex justify-center pt-1 relative items-center",
-        caption_label: "text-sm font-medium",
-        nav: "space-x-1 flex items-center",
+        months: 'calendar-months',
+        month: 'calendar-month',
+        caption: 'calendar-caption',
+        caption_label: 'calendar-caption-label',
+        nav: 'calendar-nav',
         nav_button: cn(
-          buttonVariants({ variant: "secondary" }),
-          "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100"
+          buttonVariants({ variant: 'secondary' }),
+          'calendar-nav-button'
         ),
-        nav_button_previous: "absolute left-1",
-        nav_button_next: "absolute right-1",
-        table: "w-full border-collapse space-y-1",
-        head_row: "flex",
+        nav_button_previous: 'calendar-nav-button-previus',
+        nav_button_next: 'calendar-nav-button-next',
+        table: 'calendar-table',
+        head_row: 'calendar-header-row',
         head_cell:
-          "text-muted-foreground rounded-md w-9 font-normal text-[0.8rem]",
-        row: "flex w-full mt-2",
-        cell: "text-center text-sm p-0 relative [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
+          'calendar-header-cell',
+        row: 'calendar-row',
+        cell: 'calendar-cell',
         day: cn(
-          buttonVariants({ variant: "text" }),
-          "h-9 w-9 p-0 font-normal aria-selected:opacity-100"
+          buttonVariants({ variant: 'text' }),
+          'calendar-day'
         ),
         day_selected:
-          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
-        day_today: "bg-accent text-accent-foreground",
-        day_outside: "text-muted-foreground opacity-50",
-        day_disabled: "text-muted-foreground opacity-50",
+          'calendar-day-selected',
+        day_today: 'calendar-day-today',
+        day_outside: 'calendar-day-outside',
+        day_disabled: 'calendar-day-disabled',
         day_range_middle:
-          "aria-selected:bg-accent aria-selected:text-accent-foreground",
-        day_hidden: "invisible",
+          'calendar-day-range-middle',
+        day_hidden: 'calendar-day-hidden',
         ...classNames,
       }}
       components={{
@@ -57,7 +61,7 @@ function Calendar({
       }}
       {...props}
     />
-  )
+  );
 }
 Calendar.displayName = "Calendar"
 

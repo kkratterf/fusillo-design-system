@@ -1,0 +1,98 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+  .calendar-component {
+    @apply p-3;
+  }
+
+  .calendar-months {
+    @apply flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0;
+  }
+
+  .calendar-month {
+    @apply space-y-4;
+  }
+
+  .calendar-caption {
+    @apply flex justify-center pt-1 relative items-center;
+  }
+
+  .calendar-caption-label {
+    @apply body-base-medium;
+  }
+
+  .calendar-nav {
+    @apply space-x-1 flex items-center;
+  }
+
+  .calendar-nav-button {
+    @apply h-8 w-8 p-0 opacity-50 hover:opacity-100;
+  }
+
+  .calendar-nav-button-previus {
+    @apply absolute left-1;
+  }
+
+  .calendar-nav-button-next {
+    @apply absolute right-1;
+  }
+
+  .calendar-table {
+    @apply w-full border-collapse space-y-1;
+  }
+
+  .calendar-header-row {
+    @apply flex;
+  }
+
+  .calendar-header-cell {
+    @apply text-color-text-description rounded-radius w-9 body-base;
+  }
+  
+  .calendar-row {
+    @apply flex w-full mt-2;
+  }
+
+  .calendar-cell {
+    @apply text-center body-small p-0 relative [&:has([aria-selected])]:bg-color-bg-interactive-hover first:[&:has([aria-selected])]:rounded-l-radius last:[&:has([aria-selected])]:rounded-r-radius focus-within:relative focus-within:z-20;
+  }
+
+  .calendar-day {
+    @apply h-9 w-9 p-0 body-base aria-selected:opacity-100;
+  }
+
+  .calendar-day-selected {
+    @apply bg-color-bg-brand text-color-text-brand-inverse hover:bg-color-bg-brand-hover focus:bg-color-bg-brand focus:text-color-text-brand-inverse
+  }
+
+  .calendar-day-today {
+    @apply bg-color-bg-interactive-hover text-color-text;
+  }
+
+  .calendar-day-outside {
+    @apply text-color-text-description opacity-50;
+  }
+
+  .calendar-day-disabled {
+    @apply text-color-text-description opacity-50;
+  }
+
+  .calendar-day-range-middle {
+    @apply aria-selected:bg-color-bg-interactive-hover aria-selected:rounded-radius-none aria-selected:text-color-text;
+  }
+
+  .calendar-day-hidden {
+    @apply invisible;
+  }
+
+}

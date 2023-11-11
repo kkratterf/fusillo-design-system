@@ -3,6 +3,7 @@ import { AlertCircle, Terminal } from 'lucide-react';
 
 import {
   Alert,
+  AlertIcon,
   AlertDescription,
   AlertTitle,
 } from './';
@@ -21,7 +22,9 @@ type Story = StoryObj<typeof Alert>;
 export const Base: Story = {
   render: (args) => (
     <Alert {...args}>
-      <Terminal className="h-4 w-4" />
+      <AlertIcon>
+        <Terminal />
+      </AlertIcon>
       <AlertTitle>Heads up!</AlertTitle>
       <AlertDescription>
         You can add components to your app using the cli.
@@ -36,7 +39,9 @@ export const Base: Story = {
 export const Danger: Story = {
   render: (args) => (
     <Alert {...args}>
-      <AlertCircle className="h-4 w-4" />
+      <AlertIcon>
+        <AlertCircle />
+      </AlertIcon>
       <AlertTitle>Error</AlertTitle>
       <AlertDescription>
         Your session has expired. Please log in again.

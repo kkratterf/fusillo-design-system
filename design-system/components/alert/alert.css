@@ -40,15 +40,25 @@
     }
 
     .alert-icon {
-    @apply [&>svg~*]:pl-6 [&>+div]:translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:stroke-2 [&>svg]:w-6 [&>svg]:h-6
+    @apply [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:stroke-2 [&>svg]:w-6 [&>svg]:h-6
     }
 
     .alert-title {
-        @apply body-large-medium mb-1;
+        @apply body-large-medium mb-1 pl-8;
+    }
+
+    .alert-component:not(:has(> .alert-icon)) .alert-title
+     {
+        @apply pl-0
     }
 
     .alert-description {
-        @apply body-base text-color-text;
+        @apply body-base text-color-text pl-8;
+    }
+
+    .alert-component:not(:has(> .alert-icon)) .alert-description
+     {
+        @apply pl-0
     }
     
 }

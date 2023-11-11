@@ -1,0 +1,72 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+  .context-menu-subtrigger {
+    @apply flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[state=open]:bg-color-bg-interactive-hover data-[state=open]:text-color-text;
+  }
+
+  .context-menu-subtrigger-icon {
+    @apply ml-auto h-4 w-4;
+  }
+
+  .context-menu-subcontent {
+    @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2;
+  }
+
+  .context-menu-content {
+    @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text shadow-md animate-in fade-in-80 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2;
+  }
+
+  .context-menu-item {
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+  }
+
+  .context-menu-checkbox {
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+  }
+
+  .context-menu-checkbox-span {
+    @apply absolute left-2 flex h-4 w-4 items-center justify-center 
+  }
+
+  .context-menu-checkbox-icon {
+    @apply h-4 w-4;
+  }
+
+  .context-menu-radio {
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+  }
+
+  .context-menu-radio-span {
+    @apply absolute left-2 flex h-4 w-4 items-center justify-center;
+  }
+
+  .context-menu-radio-icon {
+    @apply h-2 w-2;
+  }
+
+  .context-menu-label {
+    @apply relative flex items-center px-2 py-1 h-8 title-group text-color-text-description;
+  }
+
+  .context-menu-separator {
+    @apply -mx-1 my-1 h-[1px] bg-color-border-primary;
+  }
+
+  .context-menu-shortcut {
+    @apply ml-auto pl-1 body-small tracking-widest text-color-text-description;
+  }
+
+}
+
+

@@ -1,22 +1,24 @@
 'use client';
 
+// Import core
 import * as React from 'react';
+// Import third parts
 import { Check, ChevronsUpDown } from 'lucide-react';
-
-import { cn } from '@/lib/utils';
-import { Button } from '@/components/button';
+// Import customs
+import { cn } from '../../lib/utils';
+import { Button } from '../button';
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from '@/components/command';
+} from '../command';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/components/popover';
+} from '../popover';
 
 const frameworks = [
   {

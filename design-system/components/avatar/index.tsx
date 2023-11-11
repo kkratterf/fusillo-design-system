@@ -3,24 +3,38 @@
 // Import core
 import * as React from 'react';
 // Import third parts
+import { cva, type VariantProps } from 'class-variance-authority';
 import * as AvatarPrimitive from '@radix-ui/react-avatar';
 // Import customs
 import { cn } from "../../lib/utils"
 import './avatar.css';
 
+const avatarVariants = cva('avatar-component', {
+  variants: {
+    size: {
+      xxs: 'h-4 w-4',
+      xs: 'h-6 w-6',
+      sm: 'h-8 w-8',
+      md: 'h-9 w-9',
+      lg: 'h-10 w-10',
+    },
+  },
+  defaultVariants: {
+    size: 'md',
+  },
+});
+
 const Avatar = React.forwardRef<
   React.ElementRef<typeof AvatarPrimitive.Root>,
-  React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Root>
->(({ className, ...props }, ref) => (
+  React.ComponentPropsWithoutRef<typeof AvatarPrimitive.Root> &
+    VariantProps<typeof avatarVariants>
+>(({ className, size, ...props }, ref) => (
   <AvatarPrimitive.Root
     ref={ref}
-    className={cn(
-      "avatar-component",
-      className
-    )}
+    className={cn(avatarVariants({ size }), className)}
     {...props}
   />
-))
+));
 Avatar.displayName = AvatarPrimitive.Root.displayName
 
 const AvatarImage = React.forwardRef<

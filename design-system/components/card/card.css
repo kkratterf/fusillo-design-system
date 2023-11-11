@@ -1,0 +1,38 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+  .card-component {
+    @apply rounded-radius-lg border bg-color-bg-container text-color-text shadow-sm;
+  }
+
+  .card-header {
+    @apply flex flex-col space-y-2 p-6;
+  }
+
+  .card-title {
+    @apply title-subsection tracking-tight;
+  }
+
+  .card-description {
+    @apply body-base text-color-text-description;
+  }
+
+  .card-content {
+    @apply p-6 pt-0;
+  }
+
+  .card-footer {
+    @apply flex items-center gap-1 p-6 pt-0;
+  }
+  
+}

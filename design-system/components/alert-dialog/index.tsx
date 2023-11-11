@@ -4,7 +4,6 @@
 import * as React from 'react';
 // Import third parts
 import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog';
-import { cva } from 'class-variance-authority';
 // Import customs
 import { cn } from "../../lib/utils"
 import { buttonVariants } from "../button"
