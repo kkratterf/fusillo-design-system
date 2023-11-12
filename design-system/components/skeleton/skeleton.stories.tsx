@@ -1,6 +1,9 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Skeleton } from './';
+
 
 const meta: Meta<typeof Skeleton> = {
   title: 'Components/Skeleton',

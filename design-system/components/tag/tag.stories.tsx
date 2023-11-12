@@ -1,6 +1,9 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Tag } from './';
+
 
 const meta: Meta<typeof Tag> = {
   title: 'Components/Tag',
@@ -12,28 +15,42 @@ export default meta;
 
 type Story = StoryObj<typeof Tag>;
 
-export const Base: Story = {
+export const Default: Story = {
   render: (args) => <Tag {...args}>Tag</Tag>,
   args: {},
-};
-
-export const Secondary: Story = {
-  render: (args) => <Tag {...args}>Tag</Tag>,
-  args: {
-    variant: 'secondary',
-  },
 };
 
 export const Danger: Story = {
   render: (args) => <Tag {...args}>Tag</Tag>,
   args: {
-    variant: 'danger',
+    status: 'danger',
   },
 };
 
-export const Outline: Story = {
+export const Warning: Story = {
   render: (args) => <Tag {...args}>Tag</Tag>,
   args: {
-    variant: 'outline',
+    status: 'warning',
+  },
+};
+
+export const Success: Story = {
+  render: (args) => <Tag {...args}>Tag</Tag>,
+  args: {
+    status: 'success',
+  },
+};
+
+export const Info: Story = {
+  render: (args) => <Tag {...args}>Loading...</Tag>,
+  args: {
+    status: 'info',
+  },
+};
+
+export const Discovery: Story = {
+  render: (args) => <Tag {...args}>Discovery</Tag>,
+  args: {
+    status: 'discovery',
   },
 };

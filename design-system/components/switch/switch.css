@@ -1,0 +1,22 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .switch-component {
+        @apply inline-flex h-6 w-[44px] shrink-0 cursor-pointer items-center rounded-radius-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 focus-visible:ring-offset-color-bg-layout disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-color-bg-brand data-[state=unchecked]:bg-color-bg-container-subtlest;
+    }
+
+    .switch-thumb {
+        @apply pointer-events-none block h-[20px] w-[20px] rounded-radius-full bg-color-bg-container shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-5 data-[state=unchecked]:translate-x-0;
+    }
+
+}

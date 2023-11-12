@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Toaster } from '@/components/toast';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="dark">{children}</body>
+      <body className="">
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }

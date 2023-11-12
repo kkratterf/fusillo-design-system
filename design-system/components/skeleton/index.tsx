@@ -1,15 +1,31 @@
-import { cn } from "../../lib/utils"
+// Import core
+// Import third parts
+import { cva, type VariantProps } from 'class-variance-authority';
+// Import customs
+import { cn } from '../../lib/utils';
+import './skeleton.css'
 
-function Skeleton({
-  className,
-  ...props
-}: React.HTMLAttributes<HTMLDivElement>) {
+
+const skeletonVariants = cva('skeleton-component', {
+  variants: {
+    shape: {
+      line: 'skeleton-line',
+      circle: 'skeleton-circle',
+    },
+  },
+  defaultVariants: {
+    shape: 'line',
+  },
+});
+
+export interface SkeletonProps
+  extends React.HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof skeletonVariants> {}
+
+function Skeleton({ className, shape, ...props }: SkeletonProps) {
   return (
-    <div
-      className={cn("animate-pulse rounded-md bg-muted", className)}
-      {...props}
-    />
-  )
+    <div className={cn(skeletonVariants({ shape }), className)} {...props} />
+  );
 }
 
-export { Skeleton }
+export { Skeleton, skeletonVariants };

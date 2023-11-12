@@ -410,6 +410,7 @@ module.exports = {
         900: 'var(--color-rose-900)',
         950: 'var(--color-rose-950)',
       },
+      transparent: 'transparent',
     },
     spacing: {
       px: '1px',

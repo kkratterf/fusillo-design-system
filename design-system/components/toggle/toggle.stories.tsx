@@ -1,7 +1,10 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
+// Import third parts
 import { Bold, Italic, Underline } from 'lucide-react';
-
+// Import customs
 import { Toggle } from './';
+
 
 const meta: Meta<typeof Toggle> = {
   title: 'Components/Toggle',
@@ -16,7 +19,7 @@ type Story = StoryObj<typeof Toggle>;
 export const Base: Story = {
   render: (args) => (
     <Toggle {...args} aria-label="Toggle italic">
-      <Bold className="h-4 w-4" />
+      <Bold />
     </Toggle>
   ),
   args: {},
@@ -25,7 +28,7 @@ export const Base: Story = {
 export const Outline: Story = {
   render: (args) => (
     <Toggle {...args} aria-label="Toggle italic">
-      <Italic className="h-4 w-4" />
+      <Italic />
     </Toggle>
   ),
   args: {
@@ -36,33 +39,11 @@ export const Outline: Story = {
 export const WithText: Story = {
   render: (args) => (
     <Toggle {...args} aria-label="Toggle italic">
-      <Italic className="mr-2 h-4 w-4" />
+      <Italic />
       Italic
     </Toggle>
   ),
   args: {},
-};
-
-export const Small: Story = {
-  render: (args) => (
-    <Toggle {...args} aria-label="Toggle italic">
-      <Italic className="h-4 w-4" />
-    </Toggle>
-  ),
-  args: {
-    size: 'sm',
-  },
-};
-
-export const Large: Story = {
-  render: (args) => (
-    <Toggle {...args} aria-label="Toggle italic">
-      <Italic className="h-4 w-4" />
-    </Toggle>
-  ),
-  args: {
-    size: 'lg',
-  },
 };
 
 export const Disabled: Story = {

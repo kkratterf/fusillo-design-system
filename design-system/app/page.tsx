@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React from 'react';
 import {
@@ -44,7 +44,12 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from '@/components/alert-dialog';
-import { Alert, AlertIcon, AlertDescription, AlertTitle } from '@/components/alert';
+import {
+  Alert,
+  AlertIcon,
+  AlertDescription,
+  AlertTitle,
+} from '@/components/alert';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
 import { Badge } from '@/components/badge';
 import { Calendar } from '@/components/calendar';
@@ -58,9 +63,11 @@ import {
 } from '@/components/card';
 import { Checkbox } from '@/components/checkbox';
 import { Label } from '@radix-ui/react-label';
-import { Collapsible,
+import {
+  Collapsible,
   CollapsibleContent,
-  CollapsibleTrigger, } from '@/components/collapsible';
+  CollapsibleTrigger,
+} from '@/components/collapsible';
 import {
   Command,
   CommandDialog,
@@ -117,11 +124,21 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/tooltip';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/tabs';
 
+
+import { useToast } from '@/components/toast/use-toast';
+import { ToastAction } from '@/components/toast/toast';
+import { Textarea } from '@/components/textarea';
+import { Tag } from '@/components/tag';
+import { Switch } from '@/components/switch';
+import { Slider } from '@/components/slider';
+import { Skeleton } from '@/components/skeleton';
 
 export default function Home() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
   const [isOpen, setIsOpen] = React.useState(false);
+  const { toast } = useToast();
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
@@ -526,6 +543,173 @@ export default function Home() {
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button>Prova</Button>
+            </TooltipTrigger>
+            <TooltipContent side="left">
+              <p>Add to library</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button>Prova</Button>
+            </TooltipTrigger>
+            <TooltipContent side="right">
+              <p>Add to library</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+        <div className="w-20 h-20 m-20 p-20">
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger>Prova</TooltipTrigger>
+              <TooltipContent side="right">
+                <p>Add to library</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger>Prova</TooltipTrigger>
+              <TooltipContent side="top">
+                <p>Add to library</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger>Prova</TooltipTrigger>
+              <TooltipContent style="outline" side="bottom">
+                <p>Add to library</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Button>Prova</Button>
+              </TooltipTrigger>
+              <TooltipContent style="fill" side="right">
+                <p>Add to library</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+        </div>
+        <Button
+          onClick={() => {
+            toast({
+              title: 'Scheduled: Catch up',
+              description: 'Friday, February 10, 2023 at 5:57 PM',
+              action: <ToastAction altText="Try again">Try again</ToastAction>,
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Button
+          variant="secondary"
+          onClick={() => {
+            toast({
+              status: 'danger',
+              title: 'Uh oh! Something went wrong.',
+              description: 'There was a problem with your request.',
+              action: <ToastAction altText="Try again">Try again</ToastAction>,
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Button
+          variant="secondary"
+          onClick={() => {
+            toast({
+              status: 'warning',
+              title: 'Uh oh! Something went wrong.',
+              description: 'There was a problem with your request.',
+              action: <ToastAction altText="Try again">Try again</ToastAction>,
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Button
+          variant="secondary"
+          onClick={() => {
+            toast({
+              status: 'success',
+              title: 'Uh oh! Something went wrong.',
+              description: 'There was a problem with your request.',
+              action: <ToastAction altText="Try again">Try again</ToastAction>,
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Button
+          variant="secondary"
+          onClick={() => {
+            toast({
+              status: 'info',
+              title: 'Uh oh! Something went wrong.',
+              description: 'There was a problem with your request.',
+              action: <ToastAction altText="Try again">Try again</ToastAction>,
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Button
+          variant="secondary"
+          onClick={() => {
+            toast({
+              status: 'discovery',
+              title: 'Uh oh! Something went wrong.',
+              description: 'There was a problem with your request.',
+              action: <ToastAction altText="Try again">Try again</ToastAction>,
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Textarea placeholder="Type your message here." />
+        <div className="flex gap-2">
+          <Tag status="default">Label</Tag>
+          <Tag status="danger">
+            <Bomb />
+            Error
+          </Tag>
+          <Tag status="warning">
+            <AlertTriangle />
+            Warning
+          </Tag>
+          <Tag status="success">
+            <CheckCircle />
+          </Tag>
+          <Tag status="info">
+            <Loader />
+            Loading
+          </Tag>
+          <Tag status="discovery">Discovery</Tag>
+        </div>
+        <Tabs defaultValue="account" className="w-full">
+          <TabsList>
+            <TabsTrigger value="account">Account</TabsTrigger>
+            <TabsTrigger value="password">Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">
+            Make changes to your account here.
+          </TabsContent>
+          <TabsContent value="password">Change your password here.</TabsContent>
+        </Tabs>
+        <Switch />
+        <Slider defaultValue={[33, 88]} max={100} />
+        <Skeleton className="w-[100px] h-[20px] rounded-full" />
+        <Skeleton shape="line" />
+        <Skeleton shape="circle" />
       </div>
     </main>
   );

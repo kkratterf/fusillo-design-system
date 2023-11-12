@@ -13,7 +13,7 @@
 
     /* BADGE */
     .badge-component {
-        @apply inline-flex items-center gap-1 rounded-radius-full px-2 py-1 body-small-medium [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
+        @apply inline-flex items-center gap-1 rounded-radius-full px-2 py-1 h-6 body-base [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
     }
 
     .badge-default {

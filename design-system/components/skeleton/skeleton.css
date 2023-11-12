@@ -1,0 +1,26 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .skeleton-component {
+        @apply animate-pulse rounded-radius-full bg-color-bg-container-subtlest;
+    }
+
+    .skeleton-line {
+        @apply h-4 w-full 
+    }
+
+    .skeleton-circle {
+        @apply h-12 w-12
+    }
+
+}

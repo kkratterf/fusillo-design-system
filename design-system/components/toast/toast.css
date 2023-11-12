@@ -1,0 +1,63 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+  .toast-viewport {
+    @apply fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px];
+  }
+
+  .toast-component {
+    @apply pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-radius p-6 pr-8 shadow-lg transition-all data-[swipe=cancel]:translate-x-0 data-[swipe=end]:translate-x-[var(--radix-toast-swipe-end-x)] data-[swipe=move]:translate-x-[var(--radix-toast-swipe-move-x)] data-[swipe=move]:transition-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-top-full data-[state=open]:sm:slide-in-from-bottom-full;
+  }
+
+  .toast-component-default {
+    @apply border border-color-border-primary bg-color-bg-elevated text-color-text;
+  }
+
+  .toast-component-danger {
+    @apply bg-color-bg-danger text-color-text-danger-inverse;
+  }
+  
+  .toast-component-warning {
+    @apply bg-color-bg-warning text-color-text-warning-inverse;
+  }
+
+  .toast-component-success {
+    @apply bg-color-bg-success text-color-text-success-inverse;
+  }
+
+  .toast-component-info {
+    @apply bg-color-bg-info text-color-text-info-inverse;
+  }
+
+  .toast-component-discovery {
+    @apply bg-color-bg-discovery text-color-text-discovery-inverse;
+  }
+
+  .toast-action {
+    @apply inline-flex h-9 shrink-0 items-center justify-center rounded-radius bg-color-bg-container-inverse text-color-text-inverse hover:opacity-90 px-3 body-base-medium transition-colors focus:outline-none disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .toast-close {
+    @apply absolute right-2 top-2 rounded-radius-sm p-1 opacity-0 group-hover:opacity-80 transition-opacity focus:opacity-100 focus:outline-none focus:ring-2 [&>svg]:w-4 [&>svg]:h-4;
+  }
+
+  .toast-title {
+    @apply body-large-medium;
+  }
+
+  .toast-description {
+    @apply body-base opacity-90;
+  }
+
+}
+

@@ -1,7 +1,10 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Label } from '../label';
 import { Switch } from './';
+
 
 const meta: Meta<typeof Switch> = {
   title: 'Components/Switch',

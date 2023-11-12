@@ -1,14 +1,12 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Button } from '../button';
 import { Input } from '../input';
 import { Label } from '../label';
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from './';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from './';
+
 
 const meta: Meta<typeof Tabs> = {
   title: 'Components/Tabs',

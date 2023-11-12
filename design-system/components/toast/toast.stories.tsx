@@ -1,12 +1,9 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Button } from '../button';
-import {
-  Toast,
-  ToastAction,
-  ToastActionElement,
-  ToastProps,
-} from './toast';
+import { Toast, ToastAction, ToastActionElement, ToastProps } from './toast';
 import { Toaster } from './';
 import { useToast } from './use-toast';
 
@@ -70,10 +67,10 @@ export const WithAction: Story = {
   },
 };
 
-export const Destructive: Story = {
+export const Danger: Story = {
   render: (args) => <ToastExample {...args} />,
   args: {
-    variant: 'destructive',
+    status: 'danger',
     title: 'Uh oh! Something went wrong.',
     description: 'There was a problem with your request.',
     action: <ToastAction altText="Try again">Try again</ToastAction>,

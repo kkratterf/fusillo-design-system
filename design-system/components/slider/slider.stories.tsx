@@ -1,6 +1,9 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Slider } from './';
+
 
 const meta: Meta<typeof Slider> = {
   title: 'Components/Slider',
@@ -24,6 +27,6 @@ export const Interval: Story = {
   args: {
     defaultValue: [33, 88],
     max: 100,
-    step: 1,
+    step: 2,
   },
 };
