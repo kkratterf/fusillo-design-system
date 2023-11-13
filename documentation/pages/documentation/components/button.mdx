@@ -1,18 +1,21 @@
 import { Tabs } from 'nextra/components';
 import { Button } from 'design-system/components/button'
+import Preview from '../../../components/preview'
 
-# 💠 Button
+# ❖ Button
 
 Triggers an event or action. They let users know what will happen next.
 
 <br />
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-  
-  <Button variant='primary'>Diocane</Button>
-  <Button variant='secondary'>Diocane</Button>
-  <Button variant='danger'>Diocane</Button>
-
+  <Preview>
+    <div className='flex items-center justify-center gap-2'>
+    <Button variant='primary'>Diocane</Button>
+    <Button variant='secondary'>Diocane</Button>
+    <Button variant='danger'>Diocane</Button>
+    </div>
+  </Preview>
   </Tabs.Tab>
   <Tabs.Tab>
     ```js copy 
