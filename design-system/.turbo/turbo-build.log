@@ -5,19 +5,26 @@
    Creating an optimized production build...
  ✓ Compiled successfully
    Linting and checking validity of types...
-Failed to compile.
+   Collecting page data...
+   Generating static pages (0/4)...
+   Generating static pages (1/4)
 
-./components/sheet/index.tsx:17:3
-Type error: Property 'className' does not exist on type 'DialogPortalProps'.
+   Generating static pages (2/4)
 
-[0m [90m 15 | [39m[0m
-[0m [90m 16 | [39m[36mconst[39m [33mSheetPortal[39m [33m=[39m ({[0m
-[0m[31m[1m>[22m[39m[90m 17 | [39m  className[33m,[39m[0m
-[0m [90m    | [39m  [31m[1m^[22m[39m[0m
-[0m [90m 18 | [39m  [33m...[39mprops[0m
-[0m [90m 19 | [39m}[33m:[39m [33mSheetPrimitive[39m[33m.[39m[33mDialogPortalProps[39m) [33m=>[39m ([0m
-[0m [90m 20 | [39m  [33m<[39m[33mSheetPrimitive[39m[33m.[39m[33mPortal[39m className[33m=[39m{cn(className)} {[33m...[39mprops} [33m/[39m[33m>[39m[0m
-npm ERR! Lifecycle script `build` failed with error: 
-npm ERR! Error: command failed 
-npm ERR!   in workspace: design-system@1.0.1 
-npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system 
+   Generating static pages (3/4)
+
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    56 kB           150 kB
+└ ○ /_not-found                          877 B          80.1 kB
++ First Load JS shared by all            79.3 kB
+  ├ chunks/267-82389d20407c1fc4.js       26.5 kB
+  ├ chunks/618f8807-a3ec0260ea419ea3.js  50.8 kB
+  ├ chunks/main-app-ca2e47076db02757.js  220 B
+  └ chunks/webpack-de51250dd6e24100.js   1.72 kB
+
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
