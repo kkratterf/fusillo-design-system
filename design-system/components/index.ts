@@ -149,7 +149,9 @@ export {
   SelectLabel,
   SelectItem,
   SelectSeparator,
-} from './select'
+  SelectScrollUpButton,
+  SelectScrollDownButton,
+} from './select';
 export { Separator } from './separator';
 export {
   Sheet,

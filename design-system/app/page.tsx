@@ -26,6 +26,16 @@ import {
   UserPlus,
   Users,
 } from 'lucide-react';
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/sheet';
 import { Button } from '@/components/button';
 import {
   Accordion,
@@ -53,6 +63,16 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
 import { Badge } from '@/components/badge';
 import { Calendar } from '@/components/calendar';
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+  SelectSeparator,
+} from '@/components/select';
 import {
   Card,
   CardContent,
@@ -126,7 +146,6 @@ import {
 } from '@/components/tooltip';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/tabs';
 
-
 import { useToast } from '@/components/toast/use-toast';
 import { ToastAction } from '@/components/toast/toast';
 import { Textarea } from '@/components/textarea';
@@ -134,6 +153,7 @@ import { Tag } from '@/components/tag';
 import { Switch } from '@/components/switch';
 import { Slider } from '@/components/slider';
 import { Skeleton } from '@/components/skeleton';
+import { Separator } from '@/components/separator';
 
 export default function Home() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
@@ -142,6 +162,125 @@ export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
+        <Select>
+          <SelectTrigger className="w-[240px]">
+            <SelectValue placeholder="Select a fruit" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectGroup>
+              <SelectLabel>North America</SelectLabel>
+              <SelectItem value="est">Eastern Standard Time (EST)</SelectItem>
+              <SelectItem value="cst">Central Standard Time (CST)</SelectItem>
+              <SelectItem value="mst">Mountain Standard Time (MST)</SelectItem>
+              <SelectItem value="pst">Pacific Standard Time (PST)</SelectItem>
+              <SelectItem value="akst">Alaska Standard Time (AKST)</SelectItem>
+              <SelectItem value="hst">Hawaii Standard Time (HST)</SelectItem>
+            </SelectGroup>
+            <SelectSeparator></SelectSeparator>
+            <SelectGroup>
+              <SelectLabel>Europe & Africa</SelectLabel>
+              <SelectItem value="gmt">Greenwich Mean Time (GMT)</SelectItem>
+              <SelectItem value="cet">Central European Time (CET)</SelectItem>
+              <SelectItem value="eet">Eastern European Time (EET)</SelectItem>
+              <SelectItem value="west">
+                Western European Summer Time (WEST)
+              </SelectItem>
+              <SelectItem value="cat">Central Africa Time (CAT)</SelectItem>
+              <SelectItem value="eat">East Africa Time (EAT)</SelectItem>
+            </SelectGroup>
+            <SelectSeparator />
+            <SelectGroup>
+              <SelectLabel>Asia</SelectLabel>
+              <SelectItem value="msk">Moscow Time (MSK)</SelectItem>
+              <SelectItem value="ist">India Standard Time (IST)</SelectItem>
+              <SelectItem value="cst_china">
+                China Standard Time (CST)
+              </SelectItem>
+              <SelectItem value="jst">Japan Standard Time (JST)</SelectItem>
+              <SelectItem value="kst">Korea Standard Time (KST)</SelectItem>
+              <SelectItem value="ist_indonesia">
+                Indonesia Central Standard Time (WITA)
+              </SelectItem>
+            </SelectGroup>
+            <SelectGroup>
+              <SelectLabel>Australia & Pacific</SelectLabel>
+              <SelectItem value="awst">
+                Australian Western Standard Time (AWST)
+              </SelectItem>
+              <SelectItem value="acst">
+                Australian Central Standard Time (ACST)
+              </SelectItem>
+              <SelectItem value="aest">
+                Australian Eastern Standard Time (AEST)
+              </SelectItem>
+              <SelectItem value="nzst">
+                New Zealand Standard Time (NZST)
+              </SelectItem>
+              <SelectItem value="fjt">Fiji Time (FJT)</SelectItem>
+            </SelectGroup>
+            <SelectGroup>
+              <SelectLabel>South America</SelectLabel>
+              <SelectItem value="art">Argentina Time (ART)</SelectItem>
+              <SelectItem value="bot">Bolivia Time (BOT)</SelectItem>
+              <SelectItem value="brt">Brasilia Time (BRT)</SelectItem>
+              <SelectItem value="clt">Chile Standard Time (CLT)</SelectItem>
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+        <div className="grid grid-flow-col gap-4 auto-cols-max">
+          <Tag status="default">Label</Tag>
+          <Separator orientation="vertical" />
+          <Tag status="default">Label</Tag>
+          <Separator orientation="vertical" />
+          <Tag status="default">Label</Tag>
+          <Separator orientation="vertical" />
+        </div>
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button variant="secondary">Open</Button>
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Edit profile</SheetTitle>
+              <SheetDescription>
+                Make changes to your profile here. Click save when you&apos;re
+                done.
+              </SheetDescription>
+            </SheetHeader>
+            <div className="grid gap-4 py-4">
+              <div className="grid grid-cols-4 items-center gap-4">
+                <Label htmlFor="name" className="text-right">
+                  Name
+                </Label>
+                <Input id="name" value="Pedro Duarte" className="col-span-3" />
+              </div>
+              <div className="grid grid-cols-4 items-center gap-4">
+                <Label htmlFor="username" className="text-right">
+                  Username
+                </Label>
+                <Input id="username" value="@peduarte" className="col-span-3" />
+              </div>
+            </div>
+            <SheetFooter>
+              <SheetClose asChild>
+                <Button type="submit">Save changes</Button>
+              </SheetClose>
+            </SheetFooter>
+          </SheetContent>
+        </Sheet>
+        <Sheet>
+          <SheetTrigger>Open</SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Are you sure absolutely sure?</SheetTitle>
+              <SheetDescription>
+                This action cannot be undone. This will permanently delete your
+                account and remove your data from our servers.
+              </SheetDescription>
+            </SheetHeader>
+          </SheetContent>
+        </Sheet>
+        <Separator />
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
@@ -676,23 +815,28 @@ export default function Home() {
           Show Toast
         </Button>
         <Textarea placeholder="Type your message here." />
-        <div className="flex gap-2">
+        <div className="flex items-center space-x-2">
           <Tag status="default">Label</Tag>
+          <Separator orientation="vertical" />
           <Tag status="danger">
             <Bomb />
             Error
           </Tag>
+          <Separator orientation="vertical" />
           <Tag status="warning">
             <AlertTriangle />
             Warning
           </Tag>
+          <Separator orientation="vertical" />
           <Tag status="success">
             <CheckCircle />
           </Tag>
+          <Separator orientation="vertical" />
           <Tag status="info">
             <Loader />
             Loading
           </Tag>
+          <Separator orientation="vertical" />
           <Tag status="discovery">Discovery</Tag>
         </div>
         <Tabs defaultValue="account" className="w-full">
@@ -710,6 +854,86 @@ export default function Home() {
         <Skeleton className="w-[100px] h-[20px] rounded-full" />
         <Skeleton shape="line" />
         <Skeleton shape="circle" />
+        <Select>
+          <SelectTrigger className="w-[180px]">
+            <SelectValue placeholder="Select a fruit" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectGroup>
+              <SelectLabel>Fruits</SelectLabel>
+              <SelectItem value="apple">Apple</SelectItem>
+              <SelectItem value="banana">Banana</SelectItem>
+              <SelectItem value="blueberry">Blueberry</SelectItem>
+              <SelectItem value="grapes">Grapes</SelectItem>
+              <SelectItem value="pineapple">Pineapple</SelectItem>
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+        <Select>
+          <SelectTrigger className="w-[240px]">
+            <SelectValue placeholder="Select a fruit" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectGroup>
+              <SelectLabel>North America</SelectLabel>
+              <SelectItem value="est">Eastern Standard Time (EST)</SelectItem>
+              <SelectItem value="cst">Central Standard Time (CST)</SelectItem>
+              <SelectItem value="mst">Mountain Standard Time (MST)</SelectItem>
+              <SelectItem value="pst">Pacific Standard Time (PST)</SelectItem>
+              <SelectItem value="akst">Alaska Standard Time (AKST)</SelectItem>
+              <SelectItem value="hst">Hawaii Standard Time (HST)</SelectItem>
+            </SelectGroup>
+            <SelectSeparator></SelectSeparator>
+            <SelectGroup>
+              <SelectLabel>Europe & Africa</SelectLabel>
+              <SelectItem value="gmt">Greenwich Mean Time (GMT)</SelectItem>
+              <SelectItem value="cet">Central European Time (CET)</SelectItem>
+              <SelectItem value="eet">Eastern European Time (EET)</SelectItem>
+              <SelectItem value="west">
+                Western European Summer Time (WEST)
+              </SelectItem>
+              <SelectItem value="cat">Central Africa Time (CAT)</SelectItem>
+              <SelectItem value="eat">East Africa Time (EAT)</SelectItem>
+            </SelectGroup>
+            <SelectSeparator />
+            <SelectGroup>
+              <SelectLabel>Asia</SelectLabel>
+              <SelectItem value="msk">Moscow Time (MSK)</SelectItem>
+              <SelectItem value="ist">India Standard Time (IST)</SelectItem>
+              <SelectItem value="cst_china">
+                China Standard Time (CST)
+              </SelectItem>
+              <SelectItem value="jst">Japan Standard Time (JST)</SelectItem>
+              <SelectItem value="kst">Korea Standard Time (KST)</SelectItem>
+              <SelectItem value="ist_indonesia">
+                Indonesia Central Standard Time (WITA)
+              </SelectItem>
+            </SelectGroup>
+            <SelectGroup>
+              <SelectLabel>Australia & Pacific</SelectLabel>
+              <SelectItem value="awst">
+                Australian Western Standard Time (AWST)
+              </SelectItem>
+              <SelectItem value="acst">
+                Australian Central Standard Time (ACST)
+              </SelectItem>
+              <SelectItem value="aest">
+                Australian Eastern Standard Time (AEST)
+              </SelectItem>
+              <SelectItem value="nzst">
+                New Zealand Standard Time (NZST)
+              </SelectItem>
+              <SelectItem value="fjt">Fiji Time (FJT)</SelectItem>
+            </SelectGroup>
+            <SelectGroup>
+              <SelectLabel>South America</SelectLabel>
+              <SelectItem value="art">Argentina Time (ART)</SelectItem>
+              <SelectItem value="bot">Bolivia Time (BOT)</SelectItem>
+              <SelectItem value="brt">Brasilia Time (BRT)</SelectItem>
+              <SelectItem value="clt">Chile Standard Time (CLT)</SelectItem>
+            </SelectGroup>
+          </SelectContent>
+        </Select>
       </div>
     </main>
   );

@@ -1,0 +1,26 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .separator-component {
+        @apply shrink-0 bg-color-border-primary;
+    }
+
+    .separator-horizontal {
+        @apply h-[1px] w-full;
+    }
+
+    .separator-vertical {
+        @apply h-full min-h-2 w-[1px];
+    }
+
+}
