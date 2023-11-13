@@ -303,14 +303,14 @@ export default function Home() {
               </Button>
             </CollapsibleTrigger>
           </div>
-          <div className="rounded-md border px-4 py-3 font-mono text-sm">
+          <div className="rounded-md border border-color-border-primary px-4 py-3 font-mono text-sm">
             @radix-ui/primitives
           </div>
           <CollapsibleContent className="space-y-2">
-            <div className="rounded-md border px-4 py-3 font-mono text-sm">
+            <div className="rounded-md border border-color-border-primary px-4 py-3 font-mono text-sm">
               @radix-ui/colors
             </div>
-            <div className="rounded-md border px-4 py-3 font-mono text-sm">
+            <div className="rounded-md border border-color-border-primary px-4 py-3 font-mono text-sm">
               @stitches/react
             </div>
           </CollapsibleContent>

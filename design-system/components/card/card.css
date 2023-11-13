@@ -12,7 +12,7 @@
 @layer components {
 
   .card-component {
-    @apply rounded-radius-lg border bg-color-bg-container text-color-text shadow-sm;
+    @apply rounded-radius-lg border border-color-border-primary bg-color-bg-container text-color-text shadow-sm;
   }
 
   .card-header {

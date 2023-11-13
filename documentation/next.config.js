@@ -3,4 +3,9 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.jsx',
 });
 
-module.exports = withNextra();
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  transpilePackages: ['design-system'],
+};
+
+module.exports = withNextra(nextConfig);
