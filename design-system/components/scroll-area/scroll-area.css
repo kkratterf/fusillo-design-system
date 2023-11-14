@@ -1,0 +1,38 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .scroll-area-component {
+        @apply relative overflow-hidden;
+    }
+
+    .scroll-area-viewport {
+        @apply h-full w-full rounded-[inherit];
+    }
+
+    .scroll-bar-component {
+        @apply flex touch-none select-none transition-colors;
+    }
+
+    .scroll-bar-vertical {
+        @apply h-full w-2 border-l border-l-transparent p-[1px];
+    }
+
+    .scroll-bar-horizontal {
+        @apply h-2 border-t border-t-transparent p-[1px];
+    }
+
+    .scroll-area-thumb {
+        @apply relative rounded-radius-full bg-color-border-primary hover:bg-color-border-primary-hover transition-colors duration-300;
+    }
+
+}

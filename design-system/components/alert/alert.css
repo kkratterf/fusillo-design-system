@@ -40,7 +40,7 @@
     }
 
     .alert-icon {
-    @apply [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:stroke-2 [&>svg]:w-6 [&>svg]:h-6
+    @apply [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:stroke-2 [&>svg]:w-6 [&>svg]:h-6;
     }
 
     .alert-title {
@@ -49,7 +49,7 @@
 
     .alert-component:not(:has(> .alert-icon)) .alert-title
      {
-        @apply pl-0
+        @apply pl-0;
     }
 
     .alert-description {
@@ -58,7 +58,7 @@
 
     .alert-component:not(:has(> .alert-icon)) .alert-description
      {
-        @apply pl-0
+        @apply pl-0;
     }
     
 }

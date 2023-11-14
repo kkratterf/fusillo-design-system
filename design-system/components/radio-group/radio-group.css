@@ -1,0 +1,26 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .radio-group-component {
+        @apply grid gap-2;
+    }
+
+    .radio-group-item {
+        @apply aspect-square h-4 w-4 rounded-radius-full border border-color-border-brand ring-offset-color-bg-layout focus:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+    }
+
+    .radio-group-item-indicator {
+        @apply flex items-center justify-center [&>svg]:w-[10px] [&>svg]:h-[10px] [&>svg]:fill-color-bg-brand [&>svg]:stroke-color-border-brand;
+    }
+
+}

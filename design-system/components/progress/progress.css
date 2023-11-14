@@ -1,0 +1,57 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .progress-component {
+        @apply relative h-2 w-full overflow-hidden rounded-radius-full bg-color-bg-container-subtlest;
+    }
+
+    .progress-component-default {
+        @apply bg-color-bg-container-subtlest;
+    }
+
+    .progress-component-brand {
+        @apply bg-color-bg-brand-subtle;
+    }
+
+    .progress-component-danger {
+        @apply bg-color-bg-danger-subtle;
+    }
+
+    .progress-component-warning {
+        @apply bg-color-bg-warning-subtle;
+    }
+
+    .progress-component-success {
+        @apply bg-color-bg-success-subtle;
+    }
+
+    .progress-component-info {
+        @apply bg-color-bg-info-subtle;
+    }
+
+    .progress-component-discovery {
+        @apply bg-color-bg-discovery-subtle;
+    }
+
+    .progress-indicator {
+        @apply h-full w-full rounded-radius-full flex-1 transition-all bg-color-bg-container-inverse;
+        &[data-variant='default'] { @apply bg-color-bg-container-inverse; }
+        &[data-variant='brand'] { @apply bg-color-bg-brand; }
+        &[data-variant='danger'] { @apply bg-color-bg-danger; }
+        &[data-variant='warning'] { @apply bg-color-bg-warning; }
+        &[data-variant='success'] { @apply bg-color-bg-success; }
+        &[data-variant='info'] { @apply bg-color-bg-info; }
+        &[data-variant='discovery'] { @apply bg-color-bg-discovery; }
+    }
+
+}

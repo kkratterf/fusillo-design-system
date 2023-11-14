@@ -17,6 +17,7 @@
 
   .toast-component {
     @apply pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-radius p-6 pr-8 shadow-lg transition-all data-[swipe=cancel]:translate-x-0 data-[swipe=end]:translate-x-[var(--radix-toast-swipe-end-x)] data-[swipe=move]:translate-x-[var(--radix-toast-swipe-move-x)] data-[swipe=move]:transition-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-top-full data-[state=open]:sm:slide-in-from-bottom-full;
+    &[data-variant='danger'] { @apply border-2 border-color-border-brand-hover; }
   }
 
   .toast-component-default {
@@ -44,11 +45,23 @@
   }
 
   .toast-action {
-    @apply inline-flex h-9 shrink-0 items-center justify-center rounded-radius bg-color-bg-container-inverse text-color-text-inverse hover:opacity-90 px-3 body-base-medium transition-colors focus:outline-none disabled:pointer-events-none disabled:opacity-50;
+    @apply inline-flex h-9 shrink-0 items-center justify-center rounded-radius px-3 body-base-medium transition-colors disabled:pointer-events-none focus-visible:outline-none disabled:opacity-50;
+    &[data-variant='default'] { @apply border border-color-border-primary bg-transparent ring-offset-color-bg-elevated focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover focus:ring-color-border-brand; }
+    &[data-variant='danger'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-danger focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-danger-subtlest; }
+    &[data-variant='warning'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-warning focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-warning-subtlest; }
+    &[data-variant='success'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-success focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-success-subtlest; }
+    &[data-variant='info'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-info focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-info-subtlest; }
+    &[data-variant='discovery'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-discovery focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-discovery-subtlest; }
   }
 
   .toast-close {
-    @apply absolute right-2 top-2 rounded-radius-sm p-1 opacity-0 group-hover:opacity-80 transition-opacity focus:opacity-100 focus:outline-none focus:ring-2 [&>svg]:w-4 [&>svg]:h-4;
+    @apply absolute right-2 top-2 rounded-radius-sm p-1 transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2 [&>svg]:w-4 [&>svg]:h-4;
+    &[data-variant='default'] { @apply [&>svg]:stroke-color-icon [&>svg]:hover:stroke-color-icon-hover ring-offset-color-bg-elevated focus:ring-color-border-brand; }
+    &[data-variant='danger'] { @apply [&>svg]:stroke-color-icon-danger-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-danger focus:ring-color-border-danger-subtlest; }
+    &[data-variant='warning'] { @apply [&>svg]:stroke-color-icon-warning-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-warning focus:ring-color-border-warning-subtlest; }
+    &[data-variant='success'] { @apply [&>svg]:stroke-color-icon-success-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-success focus:ring-color-border-success-subtlest; }
+    &[data-variant='info'] { @apply [&>svg]:stroke-color-icon-info-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-info focus:ring-color-border-info-subtlest; }
+    &[data-variant='discovery'] { @apply [&>svg]:stroke-color-icon-discovery-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-discovery focus:ring-color-border-discovery-subtlest; }
   }
 
   .toast-title {

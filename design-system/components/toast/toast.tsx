@@ -26,7 +26,7 @@ const ToastViewport = React.forwardRef<
 ));
 ToastViewport.displayName = ToastPrimitives.Viewport.displayName;
 
-const toastVariants = cva('toast-component', {
+const toastVariants = cva('toast-component group', {
   variants: {
     status: {
       default: 'toast-component-default',
@@ -46,7 +46,7 @@ const Toast = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Root>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Root> &
     VariantProps<typeof toastVariants>
->(({ className, status, ...props }, ref) => {
+>(({ className, status = 'default', ...props }, ref) => {
   return (
     <ToastPrimitives.Root
       ref={ref}
@@ -57,26 +57,35 @@ const Toast = React.forwardRef<
 });
 Toast.displayName = ToastPrimitives.Root.displayName;
 
+type ToastActionProps = React.ComponentPropsWithoutRef<
+  typeof ToastPrimitives.Action
+> & VariantProps<typeof toastVariants>;
+
 const ToastAction = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Action>,
-  React.ComponentPropsWithoutRef<typeof ToastPrimitives.Action>
->(({ className, ...props }, ref) => (
+  ToastActionProps
+>(({ className, status = 'default', ...props }, ref) => (
   <ToastPrimitives.Action
     ref={ref}
-    className={cn('toast-action bg-color-bg-container-inverse', className)}
+    data-variant={status}
+    className={cn('toast-action', className)}
     {...props}
   />
 ));
 ToastAction.displayName = ToastPrimitives.Action.displayName;
 
+type ToastCloseProps = React.ComponentPropsWithoutRef<
+  typeof ToastPrimitives.Close > & VariantProps<typeof toastVariants>;
+
 const ToastClose = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Close>,
-  React.ComponentPropsWithoutRef<typeof ToastPrimitives.Close>
->(({ className, ...props }, ref) => (
+  ToastCloseProps
+>(({ className, status = 'default', ...props }, ref) => (
   <ToastPrimitives.Close
     ref={ref}
+    data-variant={status}
     className={cn(
-      'toast-close',
+      'toast-close opacity-0 group-hover:opacity-100',
       className
     )}
     toast-close=""

@@ -1,7 +1,10 @@
+// Import core
 import { useEffect, useState } from 'react';
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Progress } from './';
+
 
 const meta: Meta<typeof Progress> = {
   title: 'Components/Progress',

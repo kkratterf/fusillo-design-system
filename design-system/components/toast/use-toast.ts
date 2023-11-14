@@ -4,7 +4,7 @@
 import * as React from 'react';
 // Import third parts
 // Import customs
-import type { ToastActionElement, ToastProps } from '@/components/toast/toast';
+import type { ToastProps } from '@/components/toast/toast';
 
 
 const TOAST_LIMIT = 1;
@@ -14,7 +14,8 @@ type ToasterToast = ToastProps & {
   id: string;
   title?: React.ReactNode;
   description?: React.ReactNode;
-  action?: ToastActionElement;
+  action?: string;
+  status?: string;
 };
 
 const actionTypes = {

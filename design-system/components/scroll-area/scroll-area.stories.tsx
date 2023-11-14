@@ -1,8 +1,11 @@
+// Import core
 import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { ScrollArea } from './';
 import { Separator } from '../separator';
+
 
 const meta: Meta<typeof ScrollArea> = {
   title: 'Components/ScrollArea',

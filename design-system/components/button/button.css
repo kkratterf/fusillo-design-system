@@ -20,7 +20,7 @@
   }
 
   .button-secondary {
-    @apply bg-color-bg-interactive text-color-text border border-color-border-primary hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected active:border-color-border-primary-hover;
+    @apply bg-color-bg-interactive text-color-text border border-color-border-primary hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected;
   }
 
   .button-text {

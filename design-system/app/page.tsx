@@ -154,6 +154,9 @@ import { Switch } from '@/components/switch';
 import { Slider } from '@/components/slider';
 import { Skeleton } from '@/components/skeleton';
 import { Separator } from '@/components/separator';
+import { ScrollArea } from '@/components/scroll-area';
+import { RadioGroup, RadioGroupItem } from '@/components/radio-group';
+import { Progress } from '@/components/progress';
 
 export default function Home() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
@@ -162,6 +165,27 @@ export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
+        <Progress value={33} className="w-[60%]" />
+        <Progress value={33} className="w-[60%]" status="brand" />
+        <Progress value={33} className="w-[60%]" status="danger" />
+        <Progress value={33} className="w-[60%]" status="warning" />
+        <Progress value={100} className="w-[60%]" status="success" />
+        <Progress value={33} className="w-[60%]" status="info" />
+        <Progress value={33} className="w-[60%]" status="discovery" />
+        <RadioGroup defaultValue="comfortable">
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="default" id="r1" />
+            <Label htmlFor="r1">Default</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="comfortable" id="r2" />
+            <Label htmlFor="r2">Comfortable</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="compact" id="r3" />
+            <Label htmlFor="r3">Compact</Label>
+          </div>
+        </RadioGroup>
         <Select>
           <SelectTrigger className="w-[240px]">
             <SelectValue placeholder="Select a fruit" />
@@ -741,9 +765,10 @@ export default function Home() {
         <Button
           onClick={() => {
             toast({
+              status: 'danger',
               title: 'Scheduled: Catch up',
               description: 'Friday, February 10, 2023 at 5:57 PM',
-              action: <ToastAction altText="Try again">Try again</ToastAction>,
+              action: 'Diocane',
             });
           }}
         >
@@ -753,23 +778,10 @@ export default function Home() {
           variant="secondary"
           onClick={() => {
             toast({
-              status: 'danger',
+              status: 'default',
               title: 'Uh oh! Something went wrong.',
               description: 'There was a problem with your request.',
-              action: <ToastAction altText="Try again">Try again</ToastAction>,
-            });
-          }}
-        >
-          Show Toast
-        </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'warning',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: <ToastAction altText="Try again">Try again</ToastAction>,
+              action: 'prova',
             });
           }}
         >
@@ -782,7 +794,7 @@ export default function Home() {
               status: 'success',
               title: 'Uh oh! Something went wrong.',
               description: 'There was a problem with your request.',
-              action: <ToastAction altText="Try again">Try again</ToastAction>,
+              action: 'prova',
             });
           }}
         >
@@ -792,10 +804,10 @@ export default function Home() {
           variant="secondary"
           onClick={() => {
             toast({
-              status: 'info',
+              status: 'warning',
               title: 'Uh oh! Something went wrong.',
               description: 'There was a problem with your request.',
-              action: <ToastAction altText="Try again">Try again</ToastAction>,
+              action: 'prova',
             });
           }}
         >
@@ -808,7 +820,20 @@ export default function Home() {
               status: 'discovery',
               title: 'Uh oh! Something went wrong.',
               description: 'There was a problem with your request.',
-              action: <ToastAction altText="Try again">Try again</ToastAction>,
+              action: 'prova',
+            });
+          }}
+        >
+          Show Toast
+        </Button>
+        <Button
+          variant="secondary"
+          onClick={() => {
+            toast({
+              status: 'info',
+              title: 'Uh oh! Something went wrong.',
+              description: 'There was a problem with your request.',
+              action: 'prova',
             });
           }}
         >
