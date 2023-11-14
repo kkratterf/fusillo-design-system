@@ -24,7 +24,6 @@ type ToasterToast = ToastProps & {
   title?: string;
   description?: string;
   action?: string;
-  status?: string;
 };
 
 const ToastExample = (args: Story['args']) => {
@@ -34,7 +33,10 @@ const ToastExample = (args: Story['args']) => {
       <Button
         variant="secondary"
         onClick={() => {
-          toast(args);
+          toast({
+            ...args,
+            status: args.status ?? 'default',
+          });
         }}
       >
         Show Toast

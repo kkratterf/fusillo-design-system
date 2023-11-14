@@ -4,8 +4,6 @@
 
    Linting and checking validity of types...
    Creating an optimized production build...
-Warning: For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.
-Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
  ✓ Compiled successfully
    Collecting page data...
    Generating static pages (0/76)...
@@ -26,48 +24,49 @@ Route (pages)                                                 Size     First Loa
 ├ ○ /documentation/brand/mission                              578 B           182 kB
 ├ ○ /documentation/brand/values                               645 B           182 kB
 ├ ○ /documentation/brand/vision                               578 B           182 kB
-├ ○ /documentation/components                                 1.17 kB         182 kB
-├ ○ /documentation/components/accordion                       3.92 kB         200 kB
-├ ○ /documentation/components/alert                           574 B           182 kB
+├ ○ /documentation/components                                 1.15 kB         182 kB
+├ ○ /documentation/components/accordion                       8.91 kB         212 kB
+├   └ css/4eb17fc2bbd4ba8d.css                                8.5 kB
+├ ○ /documentation/components/alert                           570 B           182 kB
 ├ ○ /documentation/components/alert-dialog                    1.21 kB         182 kB
-├ ○ /documentation/components/aspect-ratio                    584 B           182 kB
+├ ○ /documentation/components/aspect-ratio                    582 B           182 kB
 ├ ○ /documentation/components/avatar                          573 B           182 kB
 ├ ○ /documentation/components/badge                           596 B           182 kB
-├ ○ /documentation/components/button                          9.11 kB         190 kB
-├   └ css/71f402051c7430d5.css                                8.96 kB
-├ ○ /documentation/components/calendar                        581 B           182 kB
-├ ○ /documentation/components/card                            580 B           182 kB
-├ ○ /documentation/components/checkbox                        605 B           182 kB
-├ ○ /documentation/components/collapsible                     586 B           182 kB
-├ ○ /documentation/components/combobox                        594 B           182 kB
-├ ○ /documentation/components/command                         581 B           182 kB
-├ ○ /documentation/components/context-menu                    623 B           182 kB
+├ ○ /documentation/components/button                          2.43 kB         191 kB
+├   └ css/cdda65bd60d0b4db.css                                8.39 kB
+├ ○ /documentation/components/calendar                        582 B           182 kB
+├ ○ /documentation/components/card                            576 B           182 kB
+├ ○ /documentation/components/checkbox                        606 B           182 kB
+├ ○ /documentation/components/collapsible                     583 B           182 kB
+├ ○ /documentation/components/combobox                        593 B           182 kB
+├ ○ /documentation/components/command                         578 B           182 kB
+├ ○ /documentation/components/context-menu                    616 B           182 kB
 ├ ○ /documentation/components/date-picker                     600 B           182 kB
 ├ ○ /documentation/components/dialog                          608 B           182 kB
-├ ○ /documentation/components/dropdown-menu                   626 B           182 kB
+├ ○ /documentation/components/dropdown-menu                   620 B           182 kB
 ├ ○ /documentation/components/form                            568 B           182 kB
-├ ○ /documentation/components/hover-card                      600 B           182 kB
-├ ○ /documentation/components/icon                            594 B           182 kB
-├ ○ /documentation/components/input                           585 B           182 kB
-├ ○ /documentation/components/label                           585 B           182 kB
-├ ○ /documentation/components/menubar                         626 B           182 kB
-├ ○ /documentation/components/navigation-menu                 588 B           182 kB
-├ ○ /documentation/components/popover                         589 B           182 kB
-├ ○ /documentation/components/progress                        610 B           182 kB
-├ ○ /documentation/components/radio-group                     632 B           182 kB
-├ ○ /documentation/components/scroll-area                     601 B           182 kB
-├ ○ /documentation/components/select                          610 B           182 kB
-├ ○ /documentation/components/separator                       578 B           182 kB
-├ ○ /documentation/components/sheet                           599 B           182 kB
-├ ○ /documentation/components/skeleton                        581 B           182 kB
+├ ○ /documentation/components/hover-card                      597 B           182 kB
+├ ○ /documentation/components/icon                            590 B           182 kB
+├ ○ /documentation/components/input                           587 B           182 kB
+├ ○ /documentation/components/label                           581 B           182 kB
+├ ○ /documentation/components/menubar                         625 B           182 kB
+├ ○ /documentation/components/navigation-menu                 587 B           182 kB
+├ ○ /documentation/components/popover                         586 B           182 kB
+├ ○ /documentation/components/progress                        607 B           182 kB
+├ ○ /documentation/components/radio-group                     627 B           182 kB
+├ ○ /documentation/components/scroll-area                     599 B           182 kB
+├ ○ /documentation/components/select                          604 B           182 kB
+├ ○ /documentation/components/separator                       575 B           182 kB
+├ ○ /documentation/components/sheet                           596 B           182 kB
+├ ○ /documentation/components/skeleton                        579 B           182 kB
 ├ ○ /documentation/components/slider                          593 B           182 kB
 ├ ○ /documentation/components/switch                          595 B           182 kB
-├ ○ /documentation/components/table                           564 B           182 kB
-├ ○ /documentation/components/tabs                            612 B           182 kB
-├ ○ /documentation/components/tag                             579 B           182 kB
+├ ○ /documentation/components/table                           561 B           182 kB
+├ ○ /documentation/components/tabs                            607 B           182 kB
+├ ○ /documentation/components/tag                             576 B           182 kB
 ├ ○ /documentation/components/textarea                        596 B           182 kB
-├ ○ /documentation/components/toast                           582 B           182 kB
-├ ○ /documentation/components/toggle                          582 B           182 kB
+├ ○ /documentation/components/toast                           580 B           182 kB
+├ ○ /documentation/components/toggle                          581 B           182 kB
 ├ ○ /documentation/components/tooltip                         605 B           182 kB
 ├ ○ /documentation/content                                    882 B           182 kB
 ├ ○ /documentation/content/brand-vocabulary                   634 B           182 kB
@@ -101,7 +100,7 @@ Route (pages)                                                 Size     First Loa
   ├ chunks/main-731f25b360c9170e.js                           36.2 kB
   ├ chunks/pages/_app-641c3e795b4b9738.js                     95 kB
   ├ chunks/webpack-d91a8bf45cb20e46.js                        1.03 kB
-  └ css/c21fa5d3a0569902.css                                  17.7 kB
+  └ css/1d4dca84ac208a29.css                                  17.2 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
