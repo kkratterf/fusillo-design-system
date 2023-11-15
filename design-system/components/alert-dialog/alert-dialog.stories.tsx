@@ -15,6 +15,11 @@ import {
 } from './';
 import { Button } from '../button';
 
+type AlertDialogStoryProps = {
+  title: string;
+  description: string;
+};
+
 const meta: Meta<typeof AlertDialog> = {
   title: 'Components/AlertDialog',
   component: AlertDialog,
@@ -28,7 +33,7 @@ const meta: Meta<typeof AlertDialog> = {
     },
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=482%3A9166&mode=design&t=MpDMELWReoDbdLIS-1',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=482%3A9166&mode=design&t=F5zgbD2phu8xvUpj-1',
     },
   },
 };
@@ -38,7 +43,7 @@ export default meta;
 type Story = StoryObj<typeof AlertDialog>;
 
 export const Default: Story = {
-  render: (args) => (
+  render: (...args) => (
     <AlertDialog {...args}>
       <AlertDialogTrigger asChild>
         <Button variant="secondary">Open</Button>
@@ -47,8 +52,7 @@ export const Default: Story = {
         <AlertDialogHeader>
           <AlertDialogTitle>Are you sure absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
-            This action cannot be undone. This will permanently delete your
-            account and remove your data from our servers.
+            This action cannot be undone. This will permanently delete your account and remove your data from our servers.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>

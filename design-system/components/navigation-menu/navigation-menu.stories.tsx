@@ -1,6 +1,8 @@
-import Link from 'next/link';
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+import Link from 'next/link';
+// Import customs
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -8,6 +10,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from './';
+
 
 const meta: Meta<typeof NavigationMenu> = {
   title: 'Components/NavigationMenu',

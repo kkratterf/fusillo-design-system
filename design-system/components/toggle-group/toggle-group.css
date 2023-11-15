@@ -11,16 +11,8 @@
 /* Tailwind layer */
 @layer components {
 
-    .form-label {
-        @apply text-color-text-danger;
-    }
-
-    .form-description {
-        @apply body-base text-color-text-description;
-    }
-
-    .form-message {
-        @apply body-base-medium text-color-text-danger;
-    }
+  .toggle-group-component {
+    @apply flex items-center justify-center gap-1;
+  }
 
 }

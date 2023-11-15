@@ -1,6 +1,9 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Label } from './';
+
 
 const meta: Meta<typeof Label> = {
   title: 'Components/Label',

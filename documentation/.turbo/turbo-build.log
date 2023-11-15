@@ -4,103 +4,70 @@
 
    Linting and checking validity of types...
    Creating an optimized production build...
- ✓ Compiled successfully
-   Collecting page data...
-   Generating static pages (0/76)...
-   Generating static pages (19/76)
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[11].use[1]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[11].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/alert-dialog/alert-dialog.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+Failed to compile.
 
-   Generating static pages (38/76)
+../design-system/components/alert-dialog/alert-dialog.css:15:5
+Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/alert-dialog/alert-dialog.css The `data-[state=open]:animate-in` class does not exist. If `data-[state=open]:animate-in` is a custom class, make sure it is defined within a `@layer` directive.
 
-   Generating static pages (57/76)
+  13 | 
+  14 |     .alert-dialog-overlay {
+> 15 |     @apply fixed inset-0 z-50 bg-color-bg-mask backdrop-blur-sm data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0;
+     |     ^
+  16 |     }
+  17 |
 
- ✓ Generating static pages (76/76)
-   Finalizing page optimization...
+../design-system/components/alert-dialog/alert-dialog.css
+Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/alert-dialog/alert-dialog.css The `data-[state=open]:animate-in` class does not exist. If `data-[state=open]:animate-in` is a custom class, make sure it is defined within a `@layer` directive. (15:5)
 
-Route (pages)                                                 Size     First Load JS
-┌ ○ /                                                         636 B           182 kB
-├   /_app                                                     0 B             177 kB
-├ ○ /404                                                      184 B           178 kB
-├ ○ /documentation/brand                                      780 B           182 kB
-├ ○ /documentation/brand/mission                              578 B           182 kB
-├ ○ /documentation/brand/values                               645 B           182 kB
-├ ○ /documentation/brand/vision                               578 B           182 kB
-├ ○ /documentation/components                                 1.15 kB         182 kB
-├ ○ /documentation/components/accordion                       8.91 kB         212 kB
-├   └ css/4eb17fc2bbd4ba8d.css                                8.5 kB
-├ ○ /documentation/components/alert                           570 B           182 kB
-├ ○ /documentation/components/alert-dialog                    1.21 kB         182 kB
-├ ○ /documentation/components/aspect-ratio                    582 B           182 kB
-├ ○ /documentation/components/avatar                          573 B           182 kB
-├ ○ /documentation/components/badge                           596 B           182 kB
-├ ○ /documentation/components/button                          2.43 kB         191 kB
-├   └ css/cdda65bd60d0b4db.css                                8.39 kB
-├ ○ /documentation/components/calendar                        582 B           182 kB
-├ ○ /documentation/components/card                            576 B           182 kB
-├ ○ /documentation/components/checkbox                        606 B           182 kB
-├ ○ /documentation/components/collapsible                     583 B           182 kB
-├ ○ /documentation/components/combobox                        593 B           182 kB
-├ ○ /documentation/components/command                         578 B           182 kB
-├ ○ /documentation/components/context-menu                    616 B           182 kB
-├ ○ /documentation/components/date-picker                     600 B           182 kB
-├ ○ /documentation/components/dialog                          608 B           182 kB
-├ ○ /documentation/components/dropdown-menu                   620 B           182 kB
-├ ○ /documentation/components/form                            568 B           182 kB
-├ ○ /documentation/components/hover-card                      597 B           182 kB
-├ ○ /documentation/components/icon                            590 B           182 kB
-├ ○ /documentation/components/input                           587 B           182 kB
-├ ○ /documentation/components/label                           581 B           182 kB
-├ ○ /documentation/components/menubar                         625 B           182 kB
-├ ○ /documentation/components/navigation-menu                 587 B           182 kB
-├ ○ /documentation/components/popover                         586 B           182 kB
-├ ○ /documentation/components/progress                        607 B           182 kB
-├ ○ /documentation/components/radio-group                     627 B           182 kB
-├ ○ /documentation/components/scroll-area                     599 B           182 kB
-├ ○ /documentation/components/select                          604 B           182 kB
-├ ○ /documentation/components/separator                       575 B           182 kB
-├ ○ /documentation/components/sheet                           596 B           182 kB
-├ ○ /documentation/components/skeleton                        579 B           182 kB
-├ ○ /documentation/components/slider                          593 B           182 kB
-├ ○ /documentation/components/switch                          595 B           182 kB
-├ ○ /documentation/components/table                           561 B           182 kB
-├ ○ /documentation/components/tabs                            607 B           182 kB
-├ ○ /documentation/components/tag                             576 B           182 kB
-├ ○ /documentation/components/textarea                        596 B           182 kB
-├ ○ /documentation/components/toast                           580 B           182 kB
-├ ○ /documentation/components/toggle                          581 B           182 kB
-├ ○ /documentation/components/tooltip                         605 B           182 kB
-├ ○ /documentation/content                                    882 B           182 kB
-├ ○ /documentation/content/brand-vocabulary                   634 B           182 kB
-├ ○ /documentation/content/content-accessibility              4.77 kB         186 kB
-├ ○ /documentation/content/grammar-and-style                  765 B           182 kB
-├ ○ /documentation/content/inclusive-language                 838 B           182 kB
-├ ○ /documentation/content/tone-of-voice                      677 B           182 kB
-├ ○ /documentation/content/writing-guidelines-for-components  696 B           182 kB
-├ ○ /documentation/foundations                                832 B           182 kB
-├ ○ /documentation/foundations/accessibility                  629 B           182 kB
-├ ○ /documentation/foundations/color                          2.74 kB         191 kB
-├ ○ /documentation/foundations/design-tokens                  2.79 kB         184 kB
-├ ○ /documentation/foundations/iconography                    634 B           182 kB
-├ ○ /documentation/foundations/scale                          1.3 kB          189 kB
-├ ○ /documentation/foundations/typography                     648 B           182 kB
-├ ○ /documentation/get-started                                751 B           182 kB
-├ ○ /documentation/get-started/content                        1.6 kB          183 kB
-├ ○ /documentation/get-started/design                         1.74 kB         183 kB
-├ ○ /documentation/get-started/develop                        1.73 kB         183 kB
-├ ○ /documentation/resources                                  660 B           182 kB
-├ ○ /documentation/resources/fonts                            614 B           182 kB
-├ ○ /documentation/tokens                                     717 B           182 kB
-├ ○ /documentation/tokens/border                              1.02 kB         197 kB
-├ ○ /documentation/tokens/breakpoints                         1.05 kB         197 kB
-├ ○ /documentation/tokens/color                               2.62 kB         198 kB
-├ ○ /documentation/tokens/size                                1.08 kB         197 kB
-├ ○ /documentation/tokens/spacing                             1.03 kB         197 kB
-└ ○ /documentation/welcome                                    2 kB            183 kB
-+ First Load JS shared by all                                 195 kB
-  ├ chunks/framework-3d19f84d256cc7ee.js                      45.2 kB
-  ├ chunks/main-731f25b360c9170e.js                           36.2 kB
-  ├ chunks/pages/_app-641c3e795b4b9738.js                     95 kB
-  ├ chunks/webpack-d91a8bf45cb20e46.js                        1.03 kB
-  └ css/1d4dca84ac208a29.css                                  17.2 kB
+  13 | 
+  14 |     .alert-dialog-overlay {
+> 15 |     @apply fixed inset-0 z-50 bg-color-bg-mask backdrop-blur-sm data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0;
+     |     ^
+  16 |     }
+  17 | 
 
-○  (Static)  automatically rendered as static HTML (uses no initial props)
+    at tryRunOrWebpackError (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:311563)
+    at __webpack_require_module__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131195)
+    at __nested_webpack_require_153754__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130634)
+    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131487
+    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+    at done (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
+    at Hook.eval [as callAsync] (eval at create (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:26021)
+    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130354
+    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
+-- inner error --
+Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/alert-dialog/alert-dialog.css The `data-[state=open]:animate-in` class does not exist. If `data-[state=open]:animate-in` is a custom class, make sure it is defined within a `@layer` directive. (15:5)
 
+  13 | 
+  14 |     .alert-dialog-overlay {
+> 15 |     @apply fixed inset-0 z-50 bg-color-bg-mask backdrop-blur-sm data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0;
+     |     ^
+  16 |     }
+  17 | 
+
+    at Object.<anonymous> (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[11].use[1]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[11].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/alert-dialog/alert-dialog.css:1:7)
+    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:915116
+    at Hook.eval [as call] (eval at create (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:28645), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as _call] (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:25915)
+    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131228
+    at tryRunOrWebpackError (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:311517)
+    at __webpack_require_module__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131195)
+    at __nested_webpack_require_153754__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130634)
+    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131487
+    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
+
+Generated code for /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[11].use[1]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[11].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/alert-dialog/alert-dialog.css
+
+Import trace for requested module:
+../design-system/components/alert-dialog/alert-dialog.css
+../design-system/components/alert-dialog/index.tsx
+
+
+> Build failed because of webpack errors
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: documentation@1.0.1 
+npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/documentation 

@@ -18,7 +18,7 @@ const meta: Meta<typeof Accordion> = {
       options: ['single', 'multiple'],
       control: { type: 'select' },
       description:
-        'Set the type prop to multiple to enable opening multiple items at once',
+        'Set the type property between single and multiple to enable one or more items to open at the same time',
     },
     collapsible: {
       description: 'Use the collapsible prop to allow all items to close',
@@ -78,6 +78,14 @@ export const Single: Story = {
     type: 'single',
     collapsible: true,
     defaultValue: undefined,
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Set the type property to single to enable only one item to open at a time.',
+      },
+    },
   },
 };
 

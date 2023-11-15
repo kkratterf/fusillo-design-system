@@ -1,14 +1,13 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
+// Import third parts
 import { Settings2 } from 'lucide-react';
-
+// Import customs
 import { Button } from '../button';
 import { Input } from '../input';
 import { Label } from '../label';
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from './';
+import { Popover, PopoverContent, PopoverTrigger } from './';
+
 
 const meta: Meta<typeof Popover> = {
   title: 'Components/Popover',

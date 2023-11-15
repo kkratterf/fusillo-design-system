@@ -1,34 +1,241 @@
-import { Steps } from 'nextra/components';
+import { Tabs, Cards, Card } from 'nextra/components';
+import Preview from '../../../components/preview';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from 'design-system/components/alert-dialog';
+import {
+  Button
+} from 'design-system/components/button';
 
 # ❖ Alert Dialog
 
 A modal dialog that interrupts the user with important content and expects a response.
 
-## Installation
-<Steps>
+<br/>
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+      <AlertDialog>
+        <AlertDialogTrigger asChild>
+         <Button variant="secondary">Show Dialog</Button>
+        </AlertDialogTrigger>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+            <AlertDialogDescription>
+              This action cannot be undone. This will permanently delete your account and remove your data from our servers.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction>Continue</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+  ```js copy 
+  import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/alert-dialog"
+  import { Button } from "@/components/button"
+ 
+  export function AlertDialogDemo() {
+    return (
+      <AlertDialog>
+        <AlertDialogTrigger asChild>
+          <Button variant="secondary">Show Dialog</Button>
+        </AlertDialogTrigger>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+            <AlertDialogDescription>
+              This action cannot be undone. This will permanently delete your
+              account and remove your data from our servers.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction>Continue</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    )
+  }
+  ```
+  </Tabs.Tab>
+</Tabs>
+<br/>
 
-### Import the necessary modules
+## Usage
+The AlertDialog component is a modal dialog that interrupts the current task to convey critical information or require confirmation to the user. 
 
-```js copy
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/accordion';
-```
+It's crucial to use AlertDialogs sparingly to avoid disrupting the user's workflow. When an AlertDialog appears, it takes focus away from the main content and pauses task progression until the user responds to it.
 
-### Import component parts
+### When to use
+- **For critical information**: Use AlertDialogs for urgent information that users must acknowledge before proceeding, such as errors or warnings that prevent the current process from continuing.
+- **For confirmation of actions**: Employ AlertDialogs when you need the user to confirm or reject a significant action, especially one that is irreversible or has substantial impact, like removing a user account or overwriting data.
+- **For session timeouts**: In cases where a user's session is about to expire or has expired, an AlertDialog can be used to warn the user and offer options to either extend the session or log out.
 
-```js copy
-<Accordion type="single" collapsible className="w-full">
-  <AccordionItem value="item-1">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
-    </AccordionContent>
-  </AccordionItem>
-</Accordion>
-```
+Remember to avoid using AlertDialogs for non-essential information that does not require immediate action or decision, as they can be disruptive and may negatively affect the user's experience if overused.
 
-</Steps>
+
+## Examples
+
+### Default
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+      <AlertDialog>
+        <AlertDialogTrigger asChild>
+         <Button variant="secondary">Show Dialog</Button>
+        </AlertDialogTrigger>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+            <AlertDialogDescription>
+              This action cannot be undone. This will permanently delete your account and remove your data from our servers.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction>Continue</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+  ```js copy 
+  import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/alert-dialog"
+  import { Button } from "@/components/button"
+ 
+  export function AlertDialogDemo() {
+    return (
+      <AlertDialog>
+        <AlertDialogTrigger asChild>
+          <Button variant="secondary">Show Dialog</Button>
+        </AlertDialogTrigger>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+            <AlertDialogDescription>
+              This action cannot be undone. This will permanently delete your
+              account and remove your data from our servers.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction>Continue</AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    )
+  }
+  ```
+  </Tabs.Tab>
+</Tabs>
+
+
+## Useful links
+
+Documentation on Storybook for developers and on Figma for Designers.
+
+<br />
+<Cards>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-alertdialog--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=482%3A9166&mode=design&t=F5zgbD2phu8xvUpj-1"
+  />
+</Cards>  
+<br />
+
+
+## Accessibility
+
+Adheres to the [Alert and Message Dialogs WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/).
+
+### Keyboard interactions
+
+<br />
+{
+  <table className="w-full">
+    <thead className="w-full">
+      <tr className="border-0">
+        <th className="border-t-0 border-x-0 p-2" align="left">
+          Key
+        </th>
+        <th className="border-t-0 border-x-0 p-2" align="left">
+          Description
+        </th>
+      </tr>
+    </thead>
+    <tbody className="w-full">
+      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+        <td className=" order-t-0 border-x-0 p-2">
+          <div className="w-28 font-medium">
+            <code>Space</code>
+          </div>
+        </td>
+        <td className="w-full border-t-0 border-x-0 p-2">
+          Opens/closes the dialog.
+        </td>
+      </tr>
+      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+        <td className=" order-t-0 border-x-0 p-2">
+          <div className="w-28 font-medium">
+            <code>Enter</code>
+          </div>
+        </td>
+        <td className="w-full border-t-0 border-x-0 p-2">
+          Opens/closes the dialog.
+        </td>
+      </tr>
+      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+        <td className=" order-t-0 border-x-0 p-2">
+          <div className="w-28 font-medium">
+            <code>Tab</code>
+          </div>
+        </td>
+        <td className="w-full border-t-0 border-x-0 p-2">
+          Moves focus to the next focusable element.
+        </td>
+      </tr>
+      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+        <td className=" order-t-0 border-x-0 p-2">
+          <div className="w-28 font-medium">
+            <code>Shit+Tab</code>
+          </div>
+        </td>
+        <td className="w-full border-t-0 border-x-0 p-2">
+          Moves focus to the previous focusable element.
+        </td>
+      </tr>
+      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+        <td className=" order-t-0 border-x-0 p-2">
+          <div className="w-28 font-medium">
+            <code>Esc</code>
+          </div>
+        </td>
+        <td className="w-full border-t-0 border-x-0 p-2">
+          Closes the dialog and moves focus to
+          <code className="font-medium opacity-70">AlertDialogTrigger</code>,
+        </td>
+      </tr>
+    </tbody>
+  </table>
+}
+<br />
+
+

@@ -1,8 +1,11 @@
+// Import core
 import { Meta, StoryObj } from '@storybook/react';
-
+// Import third parts
+// Import customs
 import { Button } from '../button';
 import { Input } from './';
 import { Label } from '../label';
+
 
 const meta: Meta<typeof Input> = {
   title: 'Components/Input',

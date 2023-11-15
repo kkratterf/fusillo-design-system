@@ -8,6 +8,12 @@ body {
   @apply font-sans
 }
 
+/*
+h2 {
+  margin-top: 4rem !important;
+}
+*/
+
 .nx-px-2 {
   @apply py-1.5 px-4;
 }

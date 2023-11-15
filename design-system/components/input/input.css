@@ -1,0 +1,18 @@
+/* Import style */
+@import '../../style/global.css';
+@import '../../style/foundations.css';
+@import '../../style/tokens.css';
+
+/* Import tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind layer */
+@layer components {
+
+    .input-component {
+        @apply flex h-9 w-full rounded-radius border border-color-border-primary bg-color-bg-container px-3 py-1 body-base ring-offset-color-bg-layout file:border-0 file:py-[2px] file:bg-transparent file:body-base-medium file:text-color-text placeholder:text-color-text-placeholder focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+    }
+
+}

@@ -569,12 +569,21 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      width: {
+        64: '16rem',
+        72: '18rem',
+        max: 'max-content',
+        auto: 'auto',
+      },
       minHeight: {
         2: 'var(--space-2)',
       },
       maxHeight: {
-        96:	'24rem',
-      }
+        96: '24rem',
+      },
+      transformOrigin: {
+        'top-center': 'top center',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],

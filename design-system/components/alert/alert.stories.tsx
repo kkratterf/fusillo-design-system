@@ -13,8 +13,7 @@ const meta: Meta<typeof Alert> = {
     status: {
       options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
       control: { type: 'select' },
-      description:
-        'There are 6 types of status: default, danger, warning, success, info, discovery',
+      description: 'There are 6 types of status:',
     },
   },
   parameters: {
@@ -25,7 +24,7 @@ const meta: Meta<typeof Alert> = {
     },
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A751&mode=design&t=MpDMELWReoDbdLIS-1',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A751&mode=design&t=F5zgbD2phu8xvUpj-1',
     },
   },
 };
@@ -66,14 +65,6 @@ export const Danger: Story = {
   args: {
     status: 'danger',
   },
-  parameters: {
-    docs: {
-      description: {
-        story:
-          'Use error banners to inform users something critical has happened and requires immediate attention.',
-      },
-    },
-  },
 };
 
 export const Warning: Story = {
@@ -90,14 +81,6 @@ export const Warning: Story = {
   ),
   args: {
     status: 'warning',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story:
-          'Use warning banners when you want the user to take a specific action or to warn them that something is about to go wrong.',
-      },
-    },
   },
 };
 

@@ -6,6 +6,9 @@ const withNextra = require('nextra')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ['design-system'],
+  images: {
+    domains: ['images.unsplash.com'],
+  },
 };
 
 module.exports = withNextra(nextConfig);

@@ -12,6 +12,7 @@ import {
 
 A vertically stacked set of interactive headings that each reveal a section of content.
 
+<br/>
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
     <Preview>
@@ -40,36 +41,40 @@ A vertically stacked set of interactive headings that each reveal a section of c
     </Preview>
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
-    import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
+  ```js copy 
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
-    export function AccordionDemo() {
-     return (
-        <Accordion type="single" collapsible className="w-full">
+export function AccordionDemo() {
+    return (
+      <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent>
+          <AccordionTrigger>
+            Is it accessible?
+          </AccordionTrigger>
+          <AccordionContent>
             Yes. It adheres to the WAI-ARIA design pattern.
-            </AccordionContent>
+          </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-            <AccordionTrigger>Is it styled?</AccordionTrigger>
-            <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
-            </AccordionContent>
+          <AccordionTrigger>
+            Is it styled?
+          </AccordionTrigger>
+          <AccordionContent>
+            Yes. It comes with default styles that matches the other components&apos; aesthetic.
+          </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
-            </AccordionContent>
+          <AccordionTrigger>
+            Is it animated?
+          </AccordionTrigger>
+          <AccordionContent>
+            Yes. It&apos;s animated by default, but you can disable it if you prefer.
+          </AccordionContent>
         </AccordionItem>
-        </Accordion>
-     )
-    }
-    ```
+      </Accordion>
+    )
+}
+```
   </Tabs.Tab>
 </Tabs>
 <br/>
@@ -86,25 +91,10 @@ Accordions enhance information processing and discovery, optimizing effectivenes
 - **Reducing Scrolling on Non-Crucial Content**: Implement accordions to condense pages and minimize scrolling when it's not essential for users to read the entire content.
 - **Limited Space Scenarios**: Deploy accordions in situations where space is limited, and displaying lengthy content all at once is impractical, such as on mobile interfaces or within side panels.
 
-## Documentation
+## Examples
 
-Documentation on Storybook for developers and on Figma for Designers.
-
-<br />
-<Cards>
-  <Card
-    title="🤖 Storybook"
-    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-accordion--documentation"
-  />
-  <Card
-    title="🪄 Figma"
-    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A748&mode=design&t=MpDMELWReoDbdLIS-1"
-  />
-</Cards>
-
-## Example
-
-### Single
+### Single item open at the same time
+Set the `type` property to `single` to enable only one item to open at a time.
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
@@ -138,39 +128,36 @@ Documentation on Storybook for developers and on Figma for Designers.
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
-     return (
-        <Accordion type="single" collapsible className="w-full">
-        <AccordionItem value="item-1">
+      return (
+        <Accordion type="single" collapsible>
+          <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+              Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-2">
+          </AccordionItem>
+          <AccordionItem value="item-2">
             <AccordionTrigger>Is it styled?</AccordionTrigger>
             <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
+              Yes. It comes with default styles that matches the other components&apos; aesthetic.
             </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-3">
+          </AccordionItem>
+          <AccordionItem value="item-3">
             <AccordionTrigger>Is it animated?</AccordionTrigger>
             <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
+              Yes. It&apos;s animated by default, but you can disable it if you prefer.
             </AccordionContent>
-        </AccordionItem>
+          </AccordionItem>
         </Accordion>
-     )
+      )
     }
     ```
   </Tabs.Tab>
 </Tabs>
-<br/>
 
-### Multiple
+### Multiple items open at the same time
 
-Set the `type` prop to multiple to enable opening multiple items at once.
+Set the `type` prop to `multiple` to enable opening multiple items at once.
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
@@ -204,37 +191,34 @@ Set the `type` prop to multiple to enable opening multiple items at once.
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
-     return (
-        <Accordion type="multiple" className="w-full">
-        <AccordionItem value="item-1">
+      return (
+        <Accordion type="multiple">
+          <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+              Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-2">
+          </AccordionItem>
+          <AccordionItem value="item-2">
             <AccordionTrigger>Is it styled?</AccordionTrigger>
             <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
+              Yes. It comes with default styles that matches the other components&apos; aesthetic.
             </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-3">
+          </AccordionItem>
+          <AccordionItem value="item-3">
             <AccordionTrigger>Is it animated?</AccordionTrigger>
             <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
+              Yes. It&apos;s animated by default, but you can disable it if you prefer.
             </AccordionContent>
-        </AccordionItem>
+          </AccordionItem>
         </Accordion>
-     )
+      )
     }
     ```
   </Tabs.Tab>
 </Tabs>
-<br/>
 
-### Default Value
+### Default value
 
 Use the `defaultValue` prop to define the open item by default.
 
@@ -270,43 +254,57 @@ Use the `defaultValue` prop to define the open item by default.
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
-     return (
-        <Accordion type="single" collapsible defaultValue="item-2" className="w-full">
-        <AccordionItem value="item-1">
+      return (
+        <Accordion type="single" collapsible defaultValue="item-2">
+          <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+              Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-2">
+          </AccordionItem>
+          <AccordionItem value="item-2">
             <AccordionTrigger>Is it styled?</AccordionTrigger>
             <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
+              Yes. It comes with default styles that matches the other components&apos; aesthetic.
             </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-3">
+          </AccordionItem>
+          <AccordionItem value="item-3">
             <AccordionTrigger>Is it animated?</AccordionTrigger>
             <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
+              Yes. It&apos;s animated by default, but you can disable it if you prefer.
             </AccordionContent>
-        </AccordionItem>
+          </AccordionItem>
         </Accordion>
-     )
+      )
     }
     ```
   </Tabs.Tab>
 </Tabs>
-<br/>
 
-## API
+
+## Useful links
+
+Documentation on Storybook for developers and on Figma for Designers.
+
+<br />
+<Cards>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-accordion--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A748&mode=design&t=MpDMELWReoDbdLIS-1"
+  />
+</Cards>  
+<br />
+
 
 ## Accessibility
 
 Adheres to the [Accordion WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/#accordion).
 
-### Keyboard Interactions
+### Keyboard interactions
 
 <br />
 {
@@ -412,203 +410,6 @@ Adheres to the [Accordion WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/a
           <code className="font-medium opacity-70">AccordionTrigger</code>,
           moves focus to the last{' '}
           <code className="font-medium opacity-70">AccordionTrigger</code>.
-        </td>
-      </tr>
-    </tbody>
-  </table>
-}
-<br />
-
-## Tokens
-
-To see all the tokens and their uses, consult the [design tokens documentation](/documentation/tokens).
-
-<br />
-{
-  <table className="w-full">
-    <thead className="w-full">
-      <tr className="border-0">
-        <th className="border-t-0 border-x-0 p-2" align="left">
-          Token name
-        </th>
-        <th className="border-t-0 border-x-0 p-2" align="left">
-          Type
-        </th>
-        <th className="border-t-0 border-x-0 p-2" align="left">
-          Light mode
-        </th>
-        <th className="border-t-0 border-x-0 p-2" align="left">
-          Dark mode
-        </th>
-      </tr>
-    </thead>
-    <tbody className="w-full">
-      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-        <td className="w-full order-t-0 border-x-0 p-2">
-          <div className="font-medium">
-            <code>color-border-primary</code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].type}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Dark.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-      </tr>
-      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-        <td className="w-full order-t-0 border-x-0 p-2">
-          <div className="font-medium">
-            <code>color-text</code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].type}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Dark.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-      </tr>
-      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-        <td className="w-full order-t-0 border-x-0 p-2">
-          <div className="font-medium">
-            <code>color-icon</code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].type}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Dark.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-      </tr>
-      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-        <td className="w-full order-t-0 border-x-0 p-2">
-          <div className="font-medium">
-            <code>color-bg-interactive</code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].type}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Dark.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-      </tr>
-      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-        <td className="w-full order-t-0 border-x-0 p-2">
-          <div className="font-medium">
-            <code>color-bg-interactive-hover</code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].type}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Dark.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-      </tr>
-      <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-        <td className="w-full order-t-0 border-x-0 p-2">
-          <div className="font-medium">
-            <code>color-bg-container-subtle</code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].type}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Light.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
-        </td>
-        <td className="order-t-0 border-x-0 p-2">
-          <div className="w-28 font-medium opacity-70">
-            <code>
-              {tokens.Tokens.Dark.Color.Border.Neutral['border-primary'].value}
-            </code>
-          </div>
         </td>
       </tr>
     </tbody>
