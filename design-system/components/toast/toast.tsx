@@ -26,21 +26,24 @@ const ToastViewport = React.forwardRef<
 ));
 ToastViewport.displayName = ToastPrimitives.Viewport.displayName;
 
-const toastVariants = cva('toast-component group', {
-  variants: {
-    status: {
-      default: 'toast-component-default',
-      danger: 'toast-component-danger',
-      warning: 'toast-component-warning',
-      success: 'toast-component-success',
-      info: 'toast-component-info',
-      discovery: 'toast-component-discovery',
+const toastVariants = cva(
+  'toast-component group data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-top-full data-[state=open]:sm:slide-in-from-bottom-full',
+  {
+    variants: {
+      status: {
+        default: 'toast-component-default',
+        danger: 'toast-component-danger',
+        warning: 'toast-component-warning',
+        success: 'toast-component-success',
+        info: 'toast-component-info',
+        discovery: 'toast-component-discovery',
+      },
     },
-  },
-  defaultVariants: {
-    status: 'default',
-  },
-});
+    defaultVariants: {
+      status: 'default',
+    },
+  }
+);
 
 const Toast = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Root>,

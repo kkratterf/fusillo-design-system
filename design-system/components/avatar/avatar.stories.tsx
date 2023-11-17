@@ -15,7 +15,7 @@ const meta: Meta<typeof Avatar> = {
     size: {
       options: ['xs', 'sm', 'md', 'lg', 'xl'],
       control: { type: 'select' },
-      description: 'Size of avatar',
+      description: 'There are 5 size available:',
     },
     asChild: { table: { disable: true } },
   },
@@ -28,7 +28,7 @@ const meta: Meta<typeof Avatar> = {
     },
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=164%3A293&mode=design&t=MpDMELWReoDbdLIS-1',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=164%3A293&mode=design&t=ADS6PLdzJ7eQkKd7-1',
     },
   },
 };
@@ -40,7 +40,7 @@ type Story = StoryObj<typeof Avatar>;
 export const ExtraSmall: Story = {
   render: (args) => (
     <Avatar {...args}>
-      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
@@ -52,7 +52,7 @@ export const ExtraSmall: Story = {
 export const Small: Story = {
   render: (args) => (
     <Avatar {...args}>
-      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
@@ -64,7 +64,7 @@ export const Small: Story = {
 export const Medium: Story = {
   render: (args) => (
     <Avatar {...args}>
-      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
@@ -76,7 +76,7 @@ export const Medium: Story = {
 export const Large: Story = {
   render: (args) => (
     <Avatar {...args}>
-      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
@@ -88,11 +88,20 @@ export const Large: Story = {
 export const ExtraLarge: Story = {
   render: (args) => (
     <Avatar {...args}>
-      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
   args: {
     size: 'xl',
   },
+};
+
+export const Fallback: Story = {
+  render: (args) => (
+    <Avatar {...args}>
+      <AvatarImage src="" alt="@shadcn" />
+      <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
+  ),
 };

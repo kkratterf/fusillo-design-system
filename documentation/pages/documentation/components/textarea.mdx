@@ -1,3 +1,214 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import Preview from '../../../components/preview';
+import { Textarea } from "design-system/components/textarea"
+import { Label } from "design-system/components/label"
+import { TextareaFormDemo } from "../../../components/textarea-form.tsx"
+
 # ❖ Textarea
 
 A text area lets users enter long form text which spans over multiple lines.
+
+<br/>
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+      <Textarea placeholder="Type your message here." />
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+```js copy 
+import { Textarea } from "@/components/textarea"
+ 
+export function TextareaDemo() {
+  return <Textarea placeholder="Type your message here." />
+}
+```
+  </Tabs.Tab>
+</Tabs>
+<br/>
+
+
+## Usage
+
+The TextArea component allows users to enter long-form text that spans multiple lines. It is typically used in forms where more extensive user input is required, such as for feedback, comments, or any other situation where a single-line text field is insufficient.
+
+It should be clearly labeled with an accessible name and, if necessary, include a description to guide users on the expected input. Consider the default size and whether it should reflect the average length of the content expected to be entered by users.
+
+### When to use
+- **For lengthy input**: Use a TextArea for inputs where the user is expected to write more than a single line of text, such as a comment box or a feedback form.
+- **When formatting is secondary**: Employ a TextArea when the format of the text is not the primary concern, and the user's focus is on entering plain text.
+- **In dynamic forms**: Utilize TextAreas in forms that might require the user to provide detailed information, such as a registration form or a support ticket submission.
+- **For content creation**: TextAreas are essential for content creation features where users might draft messages, articles, or any content that requires more space and visibility.
+
+Avoid using TextAreas for inputs that should be concise or restricted to one line, such as usernames or email addresses. Similarly, they should not be used when the user input needs to be formatted in real-time, like in a rich text editor. 
+
+Ensure that TextAreas are not so large as to be overwhelming, or so small as to be restrictive for the user.
+
+
+## Examples
+
+### Default
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+      <Textarea placeholder="Type your message here." />
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+```js copy 
+import { Textarea } from "@/components/textarea"
+ 
+export function TextareaDemo() {
+  return <Textarea placeholder="Type your message here." />
+}
+```
+  </Tabs.Tab>
+</Tabs>
+
+### Disabled
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+      <Textarea placeholder="Type your message here." disabled />
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+```js copy 
+import { Textarea } from "@/components/textarea"
+ 
+export function TextareaDemo() {
+  return <Textarea placeholder="Type your message here." disabled />
+}
+```
+  </Tabs.Tab>
+</Tabs>
+
+### With text
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+        <div className="grid w-full gap-3">
+            <Label htmlFor="message-2">Your Message</Label>
+            <Textarea placeholder="Type your message here." id="message-2" />
+            <span className="body-base text-color-text-description">
+                Your message will be copied to the support team.
+            </span>
+        </div>
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+```js copy 
+import { Textarea } from "@/components/textarea"
+import { Label } from "@/components/label"
+ 
+export function TextareaDemo() {
+  return (
+    <div>
+      <Label htmlFor="message-2">Your Message</Label>
+      <Textarea placeholder="Type your message here." id="message-2" />
+      <p>
+        Your message will be copied to the support team.
+      </p>
+    </div>
+  )
+}
+```
+  </Tabs.Tab>
+</Tabs>
+
+### With form
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <Preview>
+      <TextareaFormDemo />
+    </Preview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+```js copy 
+"use client"
+
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import { Textarea } from "@/components/textarea"
+import { Button } from "@/components/button"
+import { toast } from "@/components/use-toast"
+
+import { zodResolver } from "@hookform/resolvers/zod"
+import { useForm } from "react-hook-form"
+import * as z from "zod"
+ 
+const FormSchema = z.object({
+  bio: z
+    .string()
+    .min(10, {
+      message: "Bio must be at least 10 characters.",
+    })
+    .max(160, {
+      message: "Bio must not be longer than 30 characters.",
+    }),
+})
+ 
+export function TextareaForm() {
+  const form = useForm<z.infer<typeof FormSchema>>({
+    resolver: zodResolver(FormSchema),
+  })
+ 
+  function onSubmit(data: z.infer<typeof FormSchema>) {
+    toast({
+      title: "You submitted the following values:",
+      description: (
+        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
+          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+        </pre>
+      ),
+    })
+  }
+ 
+  return (
+    <Form {...form}>
+      <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
+        <FormField
+          control={form.control}
+          name="bio"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Bio</FormLabel>
+              <FormControl>
+                <Textarea
+                  placeholder="Tell us a little bit about yourself"
+                  className="resize-none"
+                  {...field}
+                />
+              </FormControl>
+              <FormDescription>
+                You can <span>@mention</span> other users and organizations.
+              </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+        <Button type="submit">Submit</Button>
+      </form>
+    </Form>
+  )
+}
+```
+  </Tabs.Tab>
+</Tabs>
+
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<br />
+<Cards>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-textarea--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8883&mode=design&t=ADS6PLdzJ7eQkKd7-1"
+  />
+</Cards>  
+<br />

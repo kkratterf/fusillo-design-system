@@ -20,7 +20,29 @@
     }
 
     .avatar-fallback {
-        @apply flex h-full w-full items-center justify-center rounded-radius-full bg-color-bg-container-subtlest;
+        @apply flex h-full w-full items-center justify-center rounded-radius-full bg-color-bg-container-subtlest text-color-text;
+    }
+
+    .avatar-xs {
+        @apply h-4 w-4;
+        font-size: 0.5rem;
+        line-height: 0.75rem;
+    }
+
+    .avatar-sm {
+        @apply h-6 w-6 body-small;
+    }
+
+    .avatar-md {
+        @apply h-8 w-8 body-base;
+    }
+
+    .avatar-lg {
+        @apply h-9 w-9 body-base;
+    }
+
+    .avatar-xl {
+        @apply h-10 w-10 body-large;
     }
     
 }
