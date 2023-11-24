@@ -13,11 +13,11 @@ body {
 }
 
 .nx-rounded {
-  @apply rounded-radius;
+  @apply rounded-radius !important;
 }
 
 .nx-rounded-lg {
-  @apply rounded-radius;
+  @apply rounded-radius-lg !important;
 }
 
 .docs_logo {
