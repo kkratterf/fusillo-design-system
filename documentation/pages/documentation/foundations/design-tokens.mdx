@@ -1,6 +1,9 @@
+import { Callout } from 'nextra/components'
+
 # 🔗 Design Tokens
 
-Design tokens are the single source of truth to name and store design decisions.
+Design tokens are the single source of truth for naming, managing and preserving design decisions.
+
 
 ## What are design tokens?
 
@@ -8,11 +11,13 @@ Design tokens are name and value pairings that represent small, repeatable desig
 
 For example, instead of choosing one of many shades of green for an icon, we can apply a design token that is consistent with all similar usages across our products: color.icon.success.
 
+
 ## What are themes?
 
 A theme is a collection of token values designed to achieve a certain look or style. Themes are how we switch color schemes and styles everywhere using a single set of tokens.
 
 Light mode, dark mode, and high-contrast mode are all examples of theming. Non-color themes are also possible: think cozy/comfortable/compact views, reduced motion, or custom typography styles.
+
 
 ## Why use design tokens?
 
@@ -25,6 +30,7 @@ As Atlassian's visual language evolves, changes can be made once across the syst
 We have automated tooling to help designers and developers start using tokens faster.
 
 Tokens are how we'll implement our newest visual foundations. This will deliver visual consistency and other improvements to Atlassian UI.
+
 
 ## How to read design token names
 
@@ -40,25 +46,33 @@ Modifier: Additional details about the token’s purpose, such as its color role
 
 Note that token names might look different in different environments and tools:
 
+
 ## Find and use tokens
 
 Find all of our available design tokens and their usage descriptions in all tokens.
 
 Search and filter the token list, or use our token picker for extra help.
 
+
 ### Best practices
 
 Choose tokens based on meaning where applicable, not specific values. 
 
-DO
-Use design tokens with names and descriptions that fit your specific situation.
-
-DON'T
-Don't use a token just because the colors appear to match. This can break the experience in other themes.
+<div className="callout-grid">
+    <Callout type="info" emoji="💚">
+        **DO**  
+        Use design tokens with names and descriptions that fit your specific situation.
+    </Callout>
+    <Callout type="error" emoji="💔">
+        **DON'T**  
+        Don't use a token just because the colors appear to match. This can break the experience in other themes.
+    </Callout>
+</div>
 
 ## Design token examples
 
 Use these examples to get a better understanding of how different tokens work. 
+
 
 ### Color tokens
 
@@ -68,11 +82,13 @@ There are dedicated color tokens for text, links, icons, backgrounds, borders, b
 
 For more on color token usage, see our color foundation.
 
+
 ### Elevation tokens
 
 Elevation tokens apply to the perceived surface level and shadow. 
 
 For more on how and when to apply elevations, see our elevation foundation.
+
 
 ### Space tokens
 

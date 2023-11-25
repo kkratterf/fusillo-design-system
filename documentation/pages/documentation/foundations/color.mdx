@@ -1,511 +1,75 @@
+import { FoundationsColor } from '../../../components/foundations-color.mdx'
 import colors from '../../../tokens/foundations.js';
 
 
 # 🎨 Color
 
-Color distinguishes our brand and helps us create consistent experiences across products.
+Color not only defines our brand but is also crucial in creating consistent experiences across our products.
+
 
 ## Color anatomy
 
-### Brand color
-Brand color makes the experience across different screens, products and services recognisable, coherent and consistent.
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Preview</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Brand).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+Color anatomy dissects the essential roles and psychological impacts of different hues within our design language. Vibrant colors breathe life into the interface, signaling important actions and guiding users with visual cues. On the other hand, neutral tones provide a subtle backdrop, ensuring content readability and conveying operational states without unnecessary distraction.  
 
-### Saturated colors
-Saturated colors can infuse meaning to an experience, highlight UI, or create associations with similar colored UI.
+Each color is carefully selected not just for aesthetic appeal, but for its ability to enhance and clarify the user journey.
 
-#### Red
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Red).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
 
-#### Orange
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Orange).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Brand
+<FoundationsColor color="Brand" />
 
-#### Amber
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Amber).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Red
+<FoundationsColor color="Red" />
 
-#### Yellow
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Yellow).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Orange
+<FoundationsColor color="Orange" />
 
-#### Lime
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Lime).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Amber
+<FoundationsColor color="Amber" />
 
-#### Green
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Green).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Yellow
+<FoundationsColor color="Yellow" />
 
-#### Emerald
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Emerald).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Lime
+<FoundationsColor color="Lime" />
 
-#### Teal
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Teal).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Green
+<FoundationsColor color="Green" />
 
-#### Cyan
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Cyan).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Emerald
+<FoundationsColor color="Emerald" />
 
-#### Sky
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Sky).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Teal
+<FoundationsColor color="Teal" />
 
-#### Blue
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Blue).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Cyan
+<FoundationsColor color="Cyan" />
 
-#### Indigo
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Indigo).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Sky
+<FoundationsColor color="Sky" />
 
-#### Violet
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Violet).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Blue
+<FoundationsColor color="Blue" />
 
-#### Purple
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Purple).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Indigo
+<FoundationsColor color="Indigo" />
 
-#### Fuchsia
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Fuchsia).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Violet
+<FoundationsColor color="Violet" />
 
-#### Pink
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Pink).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Purple
+<FoundationsColor color="Purple" />
 
-#### Rose
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Rose).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+### Fuchsia
+<FoundationsColor color="Fuchsia" />
 
+### Pink
+<FoundationsColor color="Pink" />
+
+### Rose
+<FoundationsColor color="Rose" />
 
 ### Neutral color
-Neutral color apply to most backgrounds, text, and shapes in our experiences. It don’t typically have a meaning associated with them, though it can imply things like disabled states.
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Value</th>
-      <th className="border-t-0 border-x-0 p-1.5 hidden md:table-cell" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Color</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(colors.Foundations.Color.Neutral).map(([colorName, colorInfo]) => (
-  <tr key={colorName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">{colorName}</td>
-    <td className="border-t-0 border-x-0 p-1.5"><div className="w-28 opacity-70 font-mono uppercase text-sm">{colorInfo.value}</div></td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5 hidden md:table-cell"><div className="w-44"><code>color-{colorName}</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius" style={{ backgroundColor: colorInfo.value }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+<FoundationsColor color="Neutral" />
 
 
 ## Color roles

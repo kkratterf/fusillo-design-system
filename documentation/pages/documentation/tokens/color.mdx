@@ -2,6 +2,49 @@ import tokens from '../../../tokens/tokens.js';
 
 # 🎨 Color
 
+#### Test
+<br/>
+{ <table className="w-full">
+  <thead className="w-full">
+    <tr className="border-0">
+      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
+      <th className="border-t-0 border-x-0 p-1.5" align="left">Preview</th>
+    </tr>
+  </thead>
+  <tbody className="w-full">
+    {Object.entries(tokens.Tokens.Light.Color.Background.Neutral).map(([tokenName, lightTokenInfo]) => {
+      // Ottieni il corrispondente token dark
+      const darkTokenInfo = tokens.Tokens.Dark.Color.Background.Neutral[tokenName];
+      return (
+      <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+        <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3">
+          <code>color-{tokenName}</code>
+          <div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{lightTokenInfo.description}</div>
+        </td>
+        <td className="border-t-0 border-x-0 p-1.5">
+          <div className="flex justify-between items-center">
+            <div className="w-40 opacity-70 font-medium font-mono text-sm">
+              <code>{`light: color-${lightTokenInfo.original.value.split('.').pop().slice(0, -1)}`}</code>
+            </div>
+            <div className="w-40 opacity-70 font-medium font-mono text-sm">
+              <code>{`dark: color-${darkTokenInfo.original.value.split('.').pop().slice(0, -1)}`}</code>
+            </div>
+          </div>
+        </td>
+        <td className="border-t-0 border-x-0 p-1.5">
+          <div className="flex justify-between items-center space-x-2">
+            <div className="w-16 h-12 rounded-radius" style={{ backgroundColor: lightTokenInfo.value }}></div>
+            <div className="w-16 h-12 rounded-radius" style={{ backgroundColor: darkTokenInfo.value }}></div>
+          </div>
+        </td>
+      </tr>
+  );
+})}
+  </tbody>
+</table> }
+<br/>
+
 ## Light Mode
 
 ### Background

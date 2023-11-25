@@ -500,9 +500,8 @@ module.exports = {
         'serif',
       ],
       mono: [
-        'Geist Mono',
-        'ui-monospace',
         'SFMono-Regular',
+        'ui-monospace',
         'Menlo',
         'Monaco',
         'Consolas',
