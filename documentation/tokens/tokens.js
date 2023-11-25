@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 21 Nov 2023 21:02:36 GMT
+ * Generated on Sat, 25 Nov 2023 20:07:09 GMT
  */
 
 module.exports = {
@@ -4973,7 +4973,7 @@ module.exports = {
           "width-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XXS component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:75:68"
             },
@@ -4982,7 +4982,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.4}",
-              "description": "XXS component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:75:68"
               }
@@ -5006,7 +5006,7 @@ module.exports = {
           "width-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "XS component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:110"
             },
@@ -5015,7 +5015,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.6}",
-              "description": "XS component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:110"
               }
@@ -5039,7 +5039,7 @@ module.exports = {
           "width-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "SM component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:111"
             },
@@ -5048,7 +5048,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.8}",
-              "description": "SM component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:111"
               }
@@ -5105,7 +5105,7 @@ module.exports = {
           "width-0": {
             "type": "dimension",
             "value": "0px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:621:1420"
             },
@@ -5114,7 +5114,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.0}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:621:1420"
               }
@@ -5138,7 +5138,7 @@ module.exports = {
           "width-10": {
             "type": "dimension",
             "value": "40px",
-            "description": "LG component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:722:12316"
             },
@@ -5147,7 +5147,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.10}",
-              "description": "LG component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:722:12316"
               }
@@ -5171,7 +5171,7 @@ module.exports = {
           "width-2": {
             "type": "dimension",
             "value": "8px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:746:4411"
             },
@@ -5180,7 +5180,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.2}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:746:4411"
               }
@@ -5204,7 +5204,7 @@ module.exports = {
           "width-12": {
             "type": "dimension",
             "value": "48px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4439"
             },
@@ -5213,7 +5213,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.12}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4439"
               }
@@ -5237,7 +5237,7 @@ module.exports = {
           "width-16": {
             "type": "dimension",
             "value": "64px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4440"
             },
@@ -5246,7 +5246,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.16}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4440"
               }
@@ -5270,7 +5270,7 @@ module.exports = {
           "width-20": {
             "type": "dimension",
             "value": "80px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:767:5829"
             },
@@ -5279,7 +5279,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.20}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:767:5829"
               }
@@ -5305,7 +5305,7 @@ module.exports = {
           "height-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "SM component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:75:73"
             },
@@ -5314,7 +5314,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.8}",
-              "description": "SM component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:75:73"
               }
@@ -5338,7 +5338,7 @@ module.exports = {
           "height-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "XS component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:107"
             },
@@ -5347,7 +5347,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.6}",
-              "description": "XS component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:107"
               }
@@ -5371,7 +5371,7 @@ module.exports = {
           "height-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XXS component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:108"
             },
@@ -5380,7 +5380,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.4}",
-              "description": "XXS component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:108"
               }
@@ -5437,7 +5437,7 @@ module.exports = {
           "height-0": {
             "type": "dimension",
             "value": "0px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:621:1421"
             },
@@ -5446,7 +5446,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.0}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:621:1421"
               }
@@ -5470,7 +5470,7 @@ module.exports = {
           "height-10": {
             "type": "dimension",
             "value": "40px",
-            "description": "LG component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:722:12317"
             },
@@ -5479,7 +5479,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.10}",
-              "description": "LG component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:722:12317"
               }
@@ -5503,7 +5503,7 @@ module.exports = {
           "height-2": {
             "type": "dimension",
             "value": "8px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4436"
             },
@@ -5512,7 +5512,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.2}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4436"
               }
@@ -5536,7 +5536,7 @@ module.exports = {
           "height-12": {
             "type": "dimension",
             "value": "48px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4437"
             },
@@ -5545,7 +5545,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.12}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4437"
               }
@@ -5569,7 +5569,7 @@ module.exports = {
           "height-16": {
             "type": "dimension",
             "value": "64px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4438"
             },
@@ -5578,7 +5578,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.16}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4438"
               }
@@ -5602,7 +5602,7 @@ module.exports = {
           "height-20": {
             "type": "dimension",
             "value": "80px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:767:5830"
             },
@@ -5611,7 +5611,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.20}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:767:5830"
               }
@@ -5669,7 +5669,7 @@ module.exports = {
         "radius-sm": {
           "type": "dimension",
           "value": "4px",
-          "description": "SM size border radius, used in small size components, such as Button, Input, Select and other input components in small size.",
+          "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
           "$extensions": {
             "variableId": "VariableID:91:102"
           },
@@ -5678,7 +5678,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "4px",
-            "description": "SM size border radius, used in small size components, such as Button, Input, Select and other input components in small size.",
+            "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
             "$extensions": {
               "variableId": "VariableID:91:102"
             }
@@ -5700,7 +5700,7 @@ module.exports = {
         "radius-lg": {
           "type": "dimension",
           "value": "8px",
-          "description": "LG size border radius, used in some large border radius components, such as Card, Modal and other components.",
+          "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
           "$extensions": {
             "variableId": "VariableID:91:103"
           },
@@ -5709,7 +5709,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "8px",
-            "description": "LG size border radius, used in some large border radius components, such as Card, Modal and other components.",
+            "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
             "$extensions": {
               "variableId": "VariableID:91:103"
             }
@@ -5888,7 +5888,7 @@ module.exports = {
         "space-3": {
           "type": "dimension",
           "value": "12px",
-          "description": "Use for larger and less dense pieces of UI.",
+          "description": "Use for small and compact pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:297"
           },
@@ -5897,7 +5897,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.3}",
-            "description": "Use for larger and less dense pieces of UI.",
+            "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:297"
             }
@@ -6012,7 +6012,7 @@ module.exports = {
         "space-8": {
           "type": "dimension",
           "value": "32px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:303"
           },
@@ -6021,7 +6021,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.8}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:303"
             }
@@ -6043,7 +6043,7 @@ module.exports = {
         "space-10": {
           "type": "dimension",
           "value": "40px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:305"
           },
@@ -6052,7 +6052,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.10}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:305"
             }
@@ -6074,7 +6074,7 @@ module.exports = {
         "space-12": {
           "type": "dimension",
           "value": "48px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:307"
           },
@@ -6083,7 +6083,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.12}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:307"
             }
@@ -6105,7 +6105,7 @@ module.exports = {
         "space-16": {
           "type": "dimension",
           "value": "64px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:309"
           },
@@ -6114,7 +6114,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.16}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:309"
             }
@@ -6324,7 +6324,7 @@ module.exports = {
         "breakpoints-xs": {
           "type": "dimension",
           "value": "390px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
           "$extensions": {
             "variableId": "VariableID:233:721"
           },
@@ -6333,7 +6333,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "390px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
             "$extensions": {
               "variableId": "VariableID:233:721"
             }
@@ -6355,7 +6355,7 @@ module.exports = {
         "breakpoints-sm": {
           "type": "dimension",
           "value": "640px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
           "$extensions": {
             "variableId": "VariableID:233:730"
           },
@@ -6364,7 +6364,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "640px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
             "$extensions": {
               "variableId": "VariableID:233:730"
             }
@@ -6386,7 +6386,7 @@ module.exports = {
         "breakpoints-md": {
           "type": "dimension",
           "value": "768px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
           "$extensions": {
             "variableId": "VariableID:233:731"
           },
@@ -6395,7 +6395,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "768px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
             "$extensions": {
               "variableId": "VariableID:233:731"
             }
@@ -6417,7 +6417,7 @@ module.exports = {
         "breakpoints-lg": {
           "type": "dimension",
           "value": "1024px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
           "$extensions": {
             "variableId": "VariableID:233:732"
           },
@@ -6426,7 +6426,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "1024px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
             "$extensions": {
               "variableId": "VariableID:233:732"
             }
@@ -6448,7 +6448,7 @@ module.exports = {
         "breakpoints-xl": {
           "type": "dimension",
           "value": "1280px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
           "$extensions": {
             "variableId": "VariableID:233:733"
           },
@@ -6457,7 +6457,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "1280px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
             "$extensions": {
               "variableId": "VariableID:233:733"
             }
@@ -6479,7 +6479,7 @@ module.exports = {
         "breakpoints-xxl": {
           "type": "dimension",
           "value": "1536px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
           "$extensions": {
             "variableId": "VariableID:233:735"
           },
@@ -6488,7 +6488,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "1536px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
             "$extensions": {
               "variableId": "VariableID:233:735"
             }
@@ -11477,7 +11477,7 @@ module.exports = {
           "width-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XXS component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:75:68"
             },
@@ -11486,7 +11486,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.4}",
-              "description": "XXS component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:75:68"
               }
@@ -11510,7 +11510,7 @@ module.exports = {
           "width-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "XS component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:110"
             },
@@ -11519,7 +11519,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.6}",
-              "description": "XS component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:110"
               }
@@ -11543,7 +11543,7 @@ module.exports = {
           "width-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "SM component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:111"
             },
@@ -11552,7 +11552,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.8}",
-              "description": "SM component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:111"
               }
@@ -11609,7 +11609,7 @@ module.exports = {
           "width-0": {
             "type": "dimension",
             "value": "0px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:621:1420"
             },
@@ -11618,7 +11618,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.0}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:621:1420"
               }
@@ -11642,7 +11642,7 @@ module.exports = {
           "width-10": {
             "type": "dimension",
             "value": "40px",
-            "description": "LG component width.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:722:12316"
             },
@@ -11651,7 +11651,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.10}",
-              "description": "LG component width.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:722:12316"
               }
@@ -11675,7 +11675,7 @@ module.exports = {
           "width-2": {
             "type": "dimension",
             "value": "8px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:746:4411"
             },
@@ -11684,7 +11684,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.2}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:746:4411"
               }
@@ -11708,7 +11708,7 @@ module.exports = {
           "width-12": {
             "type": "dimension",
             "value": "48px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4439"
             },
@@ -11717,7 +11717,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.12}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4439"
               }
@@ -11741,7 +11741,7 @@ module.exports = {
           "width-16": {
             "type": "dimension",
             "value": "64px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4440"
             },
@@ -11750,7 +11750,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.16}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4440"
               }
@@ -11774,7 +11774,7 @@ module.exports = {
           "width-20": {
             "type": "dimension",
             "value": "80px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:767:5829"
             },
@@ -11783,7 +11783,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.20}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:767:5829"
               }
@@ -11809,7 +11809,7 @@ module.exports = {
           "height-8": {
             "type": "dimension",
             "value": "32px",
-            "description": "SM component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:75:73"
             },
@@ -11818,7 +11818,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.8}",
-              "description": "SM component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:75:73"
               }
@@ -11842,7 +11842,7 @@ module.exports = {
           "height-6": {
             "type": "dimension",
             "value": "24px",
-            "description": "XS component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:107"
             },
@@ -11851,7 +11851,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.6}",
-              "description": "XS component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:107"
               }
@@ -11875,7 +11875,7 @@ module.exports = {
           "height-4": {
             "type": "dimension",
             "value": "16px",
-            "description": "XXS component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:91:108"
             },
@@ -11884,7 +11884,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.4}",
-              "description": "XXS component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:91:108"
               }
@@ -11941,7 +11941,7 @@ module.exports = {
           "height-0": {
             "type": "dimension",
             "value": "0px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:621:1421"
             },
@@ -11950,7 +11950,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.0}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:621:1421"
               }
@@ -11974,7 +11974,7 @@ module.exports = {
           "height-10": {
             "type": "dimension",
             "value": "40px",
-            "description": "LG component height.",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:722:12317"
             },
@@ -11983,7 +11983,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.10}",
-              "description": "LG component height.",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:722:12317"
               }
@@ -12007,7 +12007,7 @@ module.exports = {
           "height-2": {
             "type": "dimension",
             "value": "8px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4436"
             },
@@ -12016,7 +12016,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.2}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4436"
               }
@@ -12040,7 +12040,7 @@ module.exports = {
           "height-12": {
             "type": "dimension",
             "value": "48px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4437"
             },
@@ -12049,7 +12049,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.12}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4437"
               }
@@ -12073,7 +12073,7 @@ module.exports = {
           "height-16": {
             "type": "dimension",
             "value": "64px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:750:4438"
             },
@@ -12082,7 +12082,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.16}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:750:4438"
               }
@@ -12106,7 +12106,7 @@ module.exports = {
           "height-20": {
             "type": "dimension",
             "value": "80px",
-            "description": "",
+            "description": "//",
             "$extensions": {
               "variableId": "VariableID:767:5830"
             },
@@ -12115,7 +12115,7 @@ module.exports = {
             "original": {
               "type": "dimension",
               "value": "{Foundations.Scale.20}",
-              "description": "",
+              "description": "//",
               "$extensions": {
                 "variableId": "VariableID:767:5830"
               }
@@ -12173,7 +12173,7 @@ module.exports = {
         "radius-sm": {
           "type": "dimension",
           "value": "4px",
-          "description": "SM size border radius, used in small size components, such as Button, Input, Select and other input components in small size.",
+          "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
           "$extensions": {
             "variableId": "VariableID:91:102"
           },
@@ -12182,7 +12182,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "4px",
-            "description": "SM size border radius, used in small size components, such as Button, Input, Select and other input components in small size.",
+            "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
             "$extensions": {
               "variableId": "VariableID:91:102"
             }
@@ -12204,7 +12204,7 @@ module.exports = {
         "radius-lg": {
           "type": "dimension",
           "value": "8px",
-          "description": "LG size border radius, used in some large border radius components, such as Card, Modal and other components.",
+          "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
           "$extensions": {
             "variableId": "VariableID:91:103"
           },
@@ -12213,7 +12213,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "8px",
-            "description": "LG size border radius, used in some large border radius components, such as Card, Modal and other components.",
+            "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
             "$extensions": {
               "variableId": "VariableID:91:103"
             }
@@ -12392,7 +12392,7 @@ module.exports = {
         "space-3": {
           "type": "dimension",
           "value": "12px",
-          "description": "Use for larger and less dense pieces of UI.",
+          "description": "Use for small and compact pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:297"
           },
@@ -12401,7 +12401,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.3}",
-            "description": "Use for larger and less dense pieces of UI.",
+            "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:297"
             }
@@ -12516,7 +12516,7 @@ module.exports = {
         "space-8": {
           "type": "dimension",
           "value": "32px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:303"
           },
@@ -12525,7 +12525,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.8}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:303"
             }
@@ -12547,7 +12547,7 @@ module.exports = {
         "space-10": {
           "type": "dimension",
           "value": "40px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:305"
           },
@@ -12556,7 +12556,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.10}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:305"
             }
@@ -12578,7 +12578,7 @@ module.exports = {
         "space-12": {
           "type": "dimension",
           "value": "48px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:307"
           },
@@ -12587,7 +12587,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.12}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:307"
             }
@@ -12609,7 +12609,7 @@ module.exports = {
         "space-16": {
           "type": "dimension",
           "value": "64px",
-          "description": "Use for the largest pieces of UI and for layout elements.",
+          "description": "Use for larger and less dense pieces of UI.",
           "$extensions": {
             "variableId": "VariableID:125:309"
           },
@@ -12618,7 +12618,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "{Foundations.Scale.16}",
-            "description": "Use for the largest pieces of UI and for layout elements.",
+            "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:309"
             }
@@ -12828,7 +12828,7 @@ module.exports = {
         "breakpoints-xs": {
           "type": "dimension",
           "value": "390px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
           "$extensions": {
             "variableId": "VariableID:233:721"
           },
@@ -12837,7 +12837,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "390px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
             "$extensions": {
               "variableId": "VariableID:233:721"
             }
@@ -12859,7 +12859,7 @@ module.exports = {
         "breakpoints-sm": {
           "type": "dimension",
           "value": "640px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
           "$extensions": {
             "variableId": "VariableID:233:730"
           },
@@ -12868,7 +12868,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "640px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Mobile.",
             "$extensions": {
               "variableId": "VariableID:233:730"
             }
@@ -12890,7 +12890,7 @@ module.exports = {
         "breakpoints-md": {
           "type": "dimension",
           "value": "768px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
           "$extensions": {
             "variableId": "VariableID:233:731"
           },
@@ -12899,7 +12899,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "768px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
             "$extensions": {
               "variableId": "VariableID:233:731"
             }
@@ -12921,7 +12921,7 @@ module.exports = {
         "breakpoints-lg": {
           "type": "dimension",
           "value": "1024px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
           "$extensions": {
             "variableId": "VariableID:233:732"
           },
@@ -12930,7 +12930,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "1024px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Tablet.",
             "$extensions": {
               "variableId": "VariableID:233:732"
             }
@@ -12952,7 +12952,7 @@ module.exports = {
         "breakpoints-xl": {
           "type": "dimension",
           "value": "1280px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
           "$extensions": {
             "variableId": "VariableID:233:733"
           },
@@ -12961,7 +12961,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "1280px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
             "$extensions": {
               "variableId": "VariableID:233:733"
             }
@@ -12983,7 +12983,7 @@ module.exports = {
         "breakpoints-xxl": {
           "type": "dimension",
           "value": "1536px",
-          "description": "",
+          "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
           "$extensions": {
             "variableId": "VariableID:233:735"
           },
@@ -12992,7 +12992,7 @@ module.exports = {
           "original": {
             "type": "dimension",
             "value": "1536px",
-            "description": "",
+            "description": "Commonly used for sizing containers (e.g. max-width) on Desktop.",
             "$extensions": {
               "variableId": "VariableID:233:735"
             }
