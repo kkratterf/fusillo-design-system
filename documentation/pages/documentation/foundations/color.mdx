@@ -1,5 +1,17 @@
-import { FoundationsColor } from '../../../components/foundations-color.mdx'
-import colors from '../../../tokens/foundations.js';
+import {
+  FoundationsColor,
+  ColorRoles,
+} from '../../../components/foundations-color.mdx';
+
+export const colorRolesData = [
+  { name: 'Brand', token: 'color-brand-[]', previewClass: '--color-bg-brand' },
+  { name: 'Neutral', token: 'color-neutral-[]', previewClass: '--color-bg-container-inverse' },
+  { name: 'Danger', token: 'color-red-[]', previewClass: '--color-bg-danger' },
+  { name: 'Warning', token: 'color-amber-[]', previewClass: '--color-bg-warning' },
+  { name: 'Success', token: 'color-green-[]', previewClass: '--color-bg-success' },
+  { name: 'Information', token: 'color-blue-[]', previewClass: '--color-bg-info' },
+  { name: 'Discovery', token: 'color-violet-[]', previewClass: '--color-bg-discovery' },
+];
 
 
 # 🎨 Color
@@ -9,7 +21,7 @@ Color not only defines our brand but is also crucial in creating consistent expe
 
 ## Color anatomy
 
-Color anatomy dissects the essential roles and psychological impacts of different hues within our design language. Vibrant colors breathe life into the interface, signaling important actions and guiding users with visual cues. On the other hand, neutral tones provide a subtle backdrop, ensuring content readability and conveying operational states without unnecessary distraction.  
+Color anatomy dissects the essential roles and psychological impacts of different hues within our design language. Vibrant colors breathe life into the interface, signaling important actions and guiding users with visual cues. On the other hand, neutral tones provide a subtle backdrop, ensuring content readability and conveying operational states without unnecessary distraction.
 
 Each color is carefully selected not just for aesthetic appeal, but for its ability to enhance and clarify the user journey.
 
@@ -46,7 +58,6 @@ Each color is carefully selected not just for aesthetic appeal, but for its abil
 
 ### Sky
 <FoundationsColor color="Sky" />
-
 ### Blue
 <FoundationsColor color="Blue" />
 
@@ -73,72 +84,15 @@ Each color is carefully selected not just for aesthetic appeal, but for its abil
 
 
 ## Color roles
-Color roles describe the intention behind the color. They are constructed using some colors from the palette and are applied using [design tokens](/documentation/tokens).
+
+Color roles describe the intention behind the color. They are constructed using some colors from the palette and are applied using [design tokens](/documentation/tokens/color).
 This means rather than choosing a certain shade or value, you'll choose a design token to apply colors.
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-1.5 pr-6" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Token</th>
-      <th className="border-t-0 border-x-0 p-1.5" align="left">Preview</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Brand</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-brand-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-brand"></div>
-    </td>
-  </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Neutral</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-neutral-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-container-inverse"></div>
-    </td>
-  </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Danger</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-red-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-danger"></div>
-    </td>
-  </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Warning</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-amber-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-warning"></div>
-    </td>
-  </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Success</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-green-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-success"></div>
-    </td>
-  </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Information</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-blue-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-info"></div>
-    </td>
-  </tr>
-  <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-1.5">Discovery</td>
-    <td className="font-medium font-mono border-t-0 border-x-0 p-1.5"><div className="w-44"><code>color-violet-[]</code></div></td>
-    <td className="border-t-0 border-x-0 p-1.5">
-      <div className="w-32 h-8 rounded-radius bg-color-bg-discovery"></div>
-    </td>
-  </tr>
-  </tbody>
-</table> }
-<br/>
+
+<ColorRoles colorRoles={colorRolesData} />
+
 
 ### Brand
+
 Brand is used to pull additional focus on main actions in the UI. This role is used across the admin to guide merchants to the most intended interactions when many options are available.
 
 ### Neutral

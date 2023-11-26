@@ -41,3 +41,37 @@ export const FoundationsColor = ({ color }) => (
     }
   </>
 );
+
+export const ColorRoles = ({ colorRoles }) => (
+  <>
+    {
+      <table>
+        <thead>
+          <tr>
+            <th align="left">Name</th>
+            <th align="left">Token</th>
+            <th align="left">Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          {colorRoles.map((role, index) => (
+            <tr key={index}>
+              <td className="cell-title">{role.name}</td>
+              <td>
+                <div className="cell-token">
+                  <code>{role.token}</code>
+                </div>
+              </td>
+              <td>
+                <div
+                  className="cell-preview"
+                  style={{ backgroundColor: `var(${role.previewClass})` }}
+                ></div>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    }
+  </>
+);

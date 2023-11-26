@@ -3,7 +3,7 @@
 @import './brand.css';
 @import './tokens.css';
 
-
+/* GLOBAL */
 body {
   @apply font-sans
 }
@@ -37,6 +37,7 @@ tr:is(html[class~=dark] .even\:dark\:nx-bg-gray-600\/20):nth-child(2n) {
   background-color: transparent !important;
 }
 
+/* TABLES */
 table {
   @apply w-full my-6 !important;
 }
@@ -75,4 +76,32 @@ td {
 
 .cell-preview {
   @apply w-32 h-8 rounded-radius;
+}
+
+.cell-value-scale {
+  @apply w-28 opacity-70 font-mono text-sm pr-4;
+}
+
+.cell-preview-scale {
+  @apply h-6 rounded-radius-sm bg-color-bg-brand;
+}
+
+.cell-preview-tokens {
+  @apply w-40 h-8 rounded-radius;
+}
+
+.cell-token-tokens {
+  @apply w-40 text-sm opacity-80;
+}
+
+.cell-description-tokens {
+  @apply text-sm opacity-80 pl-0.5 pt-2;
+}
+
+.cell-tokens {
+  @apply grid gap-2;
+}
+
+.cell-tokens-name {
+  @apply pr-4 py-2;
 }

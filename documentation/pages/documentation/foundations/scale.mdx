@@ -1,36 +1,19 @@
-import scale from '../../../tokens/foundations.js';
+import { FoundationsScale } from '../../../components/foundations-scale.mdx'
+
 
 # 🪜 Scale
 
 A spacing scale system streamlines the design of page layouts and user interfaces.
 
+
 ## 4 pixel base unit
+
 Our spacing system is built around a base unit of 4 pixels. This base unit determines the spacing scale and ensures visual consistency across products.
 
+
 ## Scale
+
 Building off of the 4px base unit, the main foundation of our spacing system is the spacing scale. This scale is a limited set of space values that can be used to lay out UI elements in a consistent way.
 
 Each scale value is a multiple of the base unit and ranges from 0px to 384px to allow for flexibility while still maintaining consistency across different layouts. 
-
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 p-2" align="left">Name</th>
-      <th className="border-t-0 border-x-0 p-2 pr-8" align="right">Value</th>
-      <th className="border-t-0 border-x-0 p-2 hidden sm:table-cell" align="left">Preview</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-  {Object.entries(scale.Foundations.Scale).map(([tokenName, tokenInfo]) => (
-  <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full capitalize font-medium border-t-0 border-x-0 p-2">Space-{tokenName}</td>
-    <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{tokenInfo.value}</div></td>
-    <td className="border-t-0 border-x-0 p-2 hidden sm:table-cell">
-      <div className="w-32 h-6 rounded-radius-sm bg-color-bg-brand" style={{ width: tokenInfo.value  }}></div>
-    </td>
-  </tr>
-  ))}
-  </tbody>
-</table> }
-<br/>
+<FoundationsScale />
