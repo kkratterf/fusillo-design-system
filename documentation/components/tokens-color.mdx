@@ -16,7 +16,7 @@ export const TokensColor = ({ type, color }) => (
             const tokenDarkInfo = tokens.Tokens.Dark.Color[type][color][tokenName];
               return (
                 <tr key={tokenName}>
-                  <td>
+                  <td className='w-full'>
                     <div className="cell-tokens-name">
                       <code className='font-medium'>color-{tokenName}</code>
                       <div className="cell-description-tokens">{tokenLightInfo.description}</div>
