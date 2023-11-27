@@ -1,51 +1,9 @@
-import tokens from '../../../tokens/tokens.js';
+import { TokensSize } from '../../../components/tokens-size.mdx'
 
 # 💪 Size
 
 ## Height
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
-      <th className="border-t-0 border-x-0 p-2 pr-8" align="right">Value</th>
-      <th className="border-t-0 border-x-0 p-2 hidden sm:table-cell" align="left">Preview</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(tokens.Tokens.Light.Size.Height).map(([tokenName, tokenInfo]) => (
-      <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
-    <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{tokenInfo.value}</div></td>
-    <td className="border-t-0 border-x-0 p-2 hidden sm:table-cell">
-      <div className="w-32 h-6 rounded-radius-sm bg-color-bg-brand" style={{ width: tokenInfo.value  }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+<TokensSize size="Height" />
 
-## Witdh
-<br/>
-{ <table className="w-full">
-  <thead className="w-full">
-    <tr className="border-0">
-      <th className="border-t-0 border-x-0 px-2 py-1.5" align="left">Name and description</th>
-      <th className="border-t-0 border-x-0 p-2 pr-8" align="right">Value</th>
-      <th className="border-t-0 border-x-0 p-2 hidden sm:table-cell" align="left">Visual</th>
-    </tr>
-  </thead>
-  <tbody className="w-full">
-    {Object.entries(tokens.Tokens.Light.Size.Width).map(([tokenName, tokenInfo]) => (
-      <tr key={tokenName} className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-    <td className="w-full font-mono font-medium border-t-0 border-x-0 pl-2 pr-3 py-3"><code>{tokenName}</code><div className="text-sm opacity-70 font-normal font-sans pl-0.5 pt-1.5">{tokenInfo.description}</div></td>
-    <td className="border-t-0 border-x-0 p-2 pr-8" align="right"><div className="w-16 opacity-70 font-mono text-sm">{tokenInfo.value}</div></td>
-    <td className="border-t-0 border-x-0 p-2 hidden sm:table-cell">
-      <div className="w-32 h-6 rounded-radius-sm bg-color-bg-brand" style={{ width: tokenInfo.value  }}></div>
-    </td>
-  </tr>
-))}
-  </tbody>
-</table> }
-<br/>
+## Width
+<TokensSize size="Width" />

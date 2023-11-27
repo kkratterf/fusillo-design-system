@@ -1,0 +1,50 @@
+import tokens from '../tokens/tokens.js';
+
+export const TokensSize = ({ size }) => (
+  <>
+    {
+      <table>
+        <thead>
+          <tr>
+            <th align="left">Token and description</th>
+            <th align="right">
+              <span className="pr-4">Value</span>
+            </th>
+            <th className="hidden sm:table-cell" align="left">
+              Preview
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.entries(tokens.Tokens.Light.Size[size]).map(
+            ([tokenName, tokenInfo]) => (
+              <tr key={tokenName}>
+                <td className="w-full">
+                  <div className="cell-tokens-name">
+                    <code className="font-medium">{tokenName}</code>
+                    <div className="cell-description-tokens">
+                      {tokenInfo.description}
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div className="cell-value-scale" align="right">
+                    {tokenInfo.value}
+                  </div>
+                </td>
+                <td className="hidden sm:table-cell">
+                  <div className='w-24'>
+                    <div
+                      className="cell-preview-size"
+                      style={{ [size.toLowerCase()]: tokenInfo.value }}
+                    ></div>
+                  </div>
+                </td>
+              </tr>
+            )
+          )}
+        </tbody>
+      </table>
+    }
+  </>
+);

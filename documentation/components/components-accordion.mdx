@@ -1,0 +1,233 @@
+import Preview from './preview.tsx';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from 'design-system/components/accordion';
+
+export const AccordionPreview = () => (
+  <Preview>
+    <Accordion type="single" collapsible className="w-full">
+      <AccordionItem value="item-1">
+        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It&apos;s animated by default, but you can disable it if you
+          prefer.
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  </Preview>
+);
+
+export const AccordionSingle = () => (
+  <Preview>
+    <Accordion type="single" collapsible className="w-full">
+      <AccordionItem value="item-1">
+        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It&apos;s animated by default, but you can disable it if you
+          prefer.
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  </Preview>
+);
+
+export const AccordionMultiple = () => (
+  <Preview>
+    <Accordion type="multiple" className="w-full">
+      <AccordionItem value="item-1">
+        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It&apos;s animated by default, but you can disable it if you
+          prefer.
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  </Preview>
+);
+
+export const AccordionDefaultValue = () => (
+  <Preview>
+    <Accordion
+      type="single"
+      collapsible
+      defaultValue="item-2"
+      className="w-full"
+    >
+      <AccordionItem value="item-1">
+        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It&apos;s animated by default, but you can disable it if you
+          prefer.
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  </Preview>
+);
+
+export const AccordionAccessibility = () => (
+  <>
+    {
+      <table>
+        <thead>
+          <tr>
+            <th className="border-t-0 border-x-0 p-2" align="left">
+              Key
+            </th>
+            <th className="border-t-0 border-x-0 p-2" align="left">
+              Description
+            </th>
+          </tr>
+        </thead>
+        <tbody className="w-full">
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>Space</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              When focus is on an{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>{' '}
+              of a collapsed section, expands the section.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>Enter</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              When focus is on an{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>{' '}
+              of a collapsed section, expands the section.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>Tab</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              Moves focus to the next focusable element.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>Shit+Tab</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              Moves focus to the previous focusable element.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>ArrowDown</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              Moves focus to the next{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>ArrowUp</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              Moves focus to the previous{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>Home</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              When focus is on an{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>,
+              moves focus to the first{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>.
+            </td>
+          </tr>
+          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
+            <td className=" order-t-0 border-x-0 p-2">
+              <div className="w-28 font-medium">
+                <code>End</code>
+              </div>
+            </td>
+            <td className="w-full border-t-0 border-x-0 p-2">
+              When focus is on an{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>,
+              moves focus to the last{' '}
+              <code className="font-medium opacity-70">AccordionTrigger</code>.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    }
+  </>
+);

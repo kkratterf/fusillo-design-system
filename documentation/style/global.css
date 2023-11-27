@@ -8,10 +8,6 @@ body {
   @apply font-sans
 }
 
-*, ::before, ::after {
-  @apply border-border !important;
-}
-
 .nx-px-2 {
   @apply py-1.5 px-4;
 }
@@ -104,4 +100,20 @@ td {
 
 .cell-tokens-name {
   @apply pr-4 py-2;
+}
+
+.cell-preview-space {
+  @apply h-8 rounded-radius-sm bg-color-bg-brand;
+}
+
+.cell-preview-size {
+  @apply h-8 w-8 rounded-radius-sm bg-color-bg-brand;
+}
+
+.cell-preview-border {
+  @apply h-8 w-24 bg-color-bg-brand;
+}
+
+.cell-preview-breakpoints {
+  @apply h-8 rounded-radius-sm bg-color-bg-brand;
 }
