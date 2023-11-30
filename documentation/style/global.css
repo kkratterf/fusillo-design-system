@@ -5,11 +5,11 @@
 
 /* GLOBAL */
 html {
-  font-family: 'Inter' !important;
+  @apply font-sans !important;
 }
 
 body {
-  font-family: 'Inter' !important;
+  @apply font-sans !important;
 }
 
 .nx-px-2 {

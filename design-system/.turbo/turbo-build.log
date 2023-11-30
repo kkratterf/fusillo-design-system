@@ -23,7 +23,7 @@ Route (app)                              Size     First Load JS
   ├ chunks/267-82389d20407c1fc4.js       26.5 kB
   ├ chunks/618f8807-a3ec0260ea419ea3.js  50.8 kB
   ├ chunks/main-app-ca2e47076db02757.js  220 B
-  └ chunks/webpack-71864689f4cd3acf.js   1.68 kB
+  └ chunks/webpack-ea6a40a0c87b1880.js   1.67 kB
 
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
