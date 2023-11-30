@@ -4,9 +4,8 @@
 @import './tokens.css';
 
 /* GLOBAL */
-
-body {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+html {
+  font-family: 'Inter', sans-serif !important;
 }
 
 .nx-px-2 {
