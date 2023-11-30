@@ -5,9 +5,10 @@
 
 /* GLOBAL */
 body {
-  @apply font-sans;
-  font-size: 1rem;
-  font-weight: 400;
+  @apply font-sans !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  letter-spacing:normal !important;
 }
 
 .nx-px-2 {
