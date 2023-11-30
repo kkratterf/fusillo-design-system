@@ -8,6 +8,10 @@ html {
   font-family: 'Inter', sans-serif !important;
 }
 
+.body-base, body {
+  font-family: 'Inter', sans-serif !important;
+}
+
 .nx-px-2 {
   @apply py-1.5 px-4;
 }
