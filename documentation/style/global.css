@@ -6,7 +6,6 @@
 /* GLOBAL */
 body {
   @apply font-sans;
-  font-family: 'Inter' !important;
 }
 
 .nx-px-2 {

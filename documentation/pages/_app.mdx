@@ -1,11 +1,14 @@
 import { Analytics } from '@vercel/analytics/react';
 import { Toaster } from 'design-system/components/toast';
+import { Inter } from 'next/font/google';
 import '../style/global.css';
 import '../style/tokens.css';
 
+const inter = Inter({ subsets: ['latin'] })
+
 export default function App({ Component, pageProps }) {
   return (
-    <main>
+    <main className={inter.className}>
       <Component {...pageProps} />
       <Toaster />
       <Analytics />
