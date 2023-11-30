@@ -5,10 +5,8 @@
 
 /* GLOBAL */
 body {
-  @apply font-sans !important;
-  font-size: 1rem !important;
-  font-weight: 400 !important;
-  letter-spacing:normal !important;
+  @apply font-sans;
+  font-family: 'Inter' !important;
 }
 
 .nx-px-2 {
