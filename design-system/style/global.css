@@ -69,9 +69,11 @@
 }
 
 @layer base {
+  
   * {
     @apply border-border;
   }
+
   body {
     @apply font-sans bg-color-bg-layout text-color-text;
   }
