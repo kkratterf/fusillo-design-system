@@ -4,12 +4,9 @@
 @import './tokens.css';
 
 /* GLOBAL */
-html {
-  @apply font-sans !important;
-}
 
 body {
-  @apply font-sans !important;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .nx-px-2 {
