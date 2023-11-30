@@ -75,6 +75,7 @@
   body {
     @apply font-sans bg-color-bg-layout text-color-text;
     font-size: 1rem;
+    font-weight: 400;
   }
   
   /* TYPOGRAPHY - DA SPOSTARE IN TOKENS E CONFIG APPENA FIGMA AGGIORNA */

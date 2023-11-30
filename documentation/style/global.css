@@ -7,6 +7,7 @@
 body {
   @apply font-sans;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .nx-px-2 {
