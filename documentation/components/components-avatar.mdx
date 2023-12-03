@@ -1,0 +1,51 @@
+import Preview from './preview.tsx';
+import {
+  Avatar,
+  AvatarImage,
+  AvatarFallback,
+} from 'design-system/components/avatar';
+
+export const AvatarPreview = () => (
+  <Preview>
+    <Avatar>
+      <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+      <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
+  </Preview>
+);
+
+export const AvatarSize = () => (
+  <Preview>
+    <div className="flex items-center space-x-3">
+      <Avatar size="xs">
+        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+        <AvatarFallback>CN</AvatarFallback>
+      </Avatar>
+      <Avatar size="sm">
+        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+        <AvatarFallback>CN</AvatarFallback>
+      </Avatar>
+      <Avatar size="md">
+        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+        <AvatarFallback>CN</AvatarFallback>
+      </Avatar>
+      <Avatar size="lg">
+        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+        <AvatarFallback>CN</AvatarFallback>
+      </Avatar>
+      <Avatar size="xl">
+        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+        <AvatarFallback>CN</AvatarFallback>
+      </Avatar>
+    </div>
+  </Preview>
+);
+
+export const AvatarExampleFallback = () => (
+  <Preview>
+    <Avatar>
+      <AvatarImage src="" alt="@shadcn" />
+      <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
+  </Preview>
+);

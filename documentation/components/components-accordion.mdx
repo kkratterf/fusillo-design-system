@@ -1,3 +1,4 @@
+import { AccessibilityTable } from './accessibility-table.mdx';
 import Preview from './preview.tsx';
 import {
   Accordion,
@@ -119,115 +120,81 @@ export const AccordionDefaultValue = () => (
   </Preview>
 );
 
-export const AccordionAccessibility = () => (
-  <>
+
+export const AccordionAccessibility = () => {
+  const accordionAccessibilityData = [
     {
-      <table>
-        <thead>
-          <tr>
-            <th className="border-t-0 border-x-0 p-2" align="left">
-              Key
-            </th>
-            <th className="border-t-0 border-x-0 p-2" align="left">
-              Description
-            </th>
-          </tr>
-        </thead>
-        <tbody className="w-full">
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>Space</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              When focus is on an{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>{' '}
-              of a collapsed section, expands the section.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>Enter</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              When focus is on an{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>{' '}
-              of a collapsed section, expands the section.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>Tab</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              Moves focus to the next focusable element.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>Shit+Tab</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              Moves focus to the previous focusable element.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>ArrowDown</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              Moves focus to the next{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>ArrowUp</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              Moves focus to the previous{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>Home</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              When focus is on an{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>,
-              moves focus to the first{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>.
-            </td>
-          </tr>
-          <tr className="w-full bg-transparent dark:bg-transparent even:bg-transparent even:dark:bg-transparent border-0">
-            <td className=" order-t-0 border-x-0 p-2">
-              <div className="w-28 font-medium">
-                <code>End</code>
-              </div>
-            </td>
-            <td className="w-full border-t-0 border-x-0 p-2">
-              When focus is on an{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>,
-              moves focus to the last{' '}
-              <code className="font-medium opacity-70">AccordionTrigger</code>.
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    }
-  </>
-);
+      key: 'Space',
+      description:
+      (
+        <>
+          When focus is on an{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>{' '}
+          of a collapsed section, expands the section.
+        </>
+      ),
+    },
+    {
+      key: 'Enter',
+      description:
+      (
+        <>
+          When focus is on an{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>{' '}
+          of a collapsed section, expands the section.
+        </>
+      ),
+    },
+    {
+      key: 'Tab',
+      description: 'Moves focus to the next focusable element.',
+    },
+    {
+      key: 'Shift+Tab',
+      description: 'Moves focus to the previous focusable element.',
+    },
+    {
+      key: 'ArrowDown',
+      description: 
+      (
+        <>
+          Moves focus to the next{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>
+        </>
+      ),
+    },
+    {
+      key: 'ArrowUp',
+      description: 
+      (
+        <>
+          Moves focus to the previous{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>
+        </>
+      ),
+    },
+    {
+      key: 'Home',
+      description:
+      (
+        <>
+          When focus is on an{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>, moves focus to the first{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>
+        </>
+      ),
+    },
+    {
+      key: 'End',
+      description:
+      (
+        <>
+          When focus is on an{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>, moves focus to the last{' '}
+          <code className="cell-accessibility-code">AccordionTrigger</code>
+        </>
+      ),
+    },
+  ];
+  return <AccessibilityTable rows={accordionAccessibilityData} />;
+};

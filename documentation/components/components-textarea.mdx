@@ -1,0 +1,40 @@
+import Preview from './preview.tsx';
+import { Textarea } from 'design-system/components/textarea';
+import { Label } from 'design-system/components/label';
+import { TextareaFormDemo } from './textarea-form.tsx';
+
+export const TextareaPreview = () => (
+  <Preview>
+    <Textarea placeholder="Type your message here." />
+  </Preview>
+);
+
+export const TextareaDefault = () => (
+  <Preview>
+    <Textarea placeholder="Type your message here." />
+  </Preview>
+);
+
+export const TextareaDisabled = () => (
+  <Preview>
+    <Textarea placeholder="Type your message here." disabled />
+  </Preview>
+);
+
+export const TextareaWithText = () => (
+  <Preview>
+    <div className="grid w-full gap-3">
+      <Label htmlFor="message-2">Your Message</Label>
+      <Textarea placeholder="Type your message here." id="message-2" />
+      <span className="body-base text-color-text-description">
+        Your message will be copied to the support team.
+      </span>
+    </div>
+  </Preview>
+);
+
+export const TextareaWithForm = () => (
+  <Preview>
+    <TextareaFormDemo />
+  </Preview>
+);

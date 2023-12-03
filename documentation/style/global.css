@@ -3,9 +3,8 @@
 @import './brand.css';
 @import './tokens.css';
 
-/* GLOBAL */
-html {
-  font-family: 'Inter', sans-serif !important;
+body {
+  @apply font-sans;
 }
 
 .nx-px-2 {
@@ -116,4 +115,16 @@ td {
 
 .cell-preview-breakpoints {
   @apply h-8 rounded-radius-sm bg-color-bg-brand;
+}
+
+.cell-accessibility-key {
+  @apply w-32 font-medium;
+}
+
+.cell-accessibility-description {
+  @apply w-full;
+}
+
+.cell-accessibility-code {
+  @apply opacity-80;
 }

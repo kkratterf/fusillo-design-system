@@ -1,46 +1,34 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import Preview from '../../../components/preview';
-import { AspectRatio } from "design-system/components/aspect-ratio"
-import Image from "next/image"
+import { AspectRatioPreview, AspectRatio16x9, AspectRatio4x3, AspectRatio3x2 } from '../../../components/components-aspect-ratio.mdx'
+
 
 # ❖ Aspect Ratio
 
 Displays content within a desired ratio.
 
-<br/>
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <Preview>
-      <AspectRatio ratio={16 / 9}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-        className="rounded-radius object-cover"
-      />
-    </AspectRatio>
-    </Preview>
+    <AspectRatioPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-```js copy 
-import { AspectRatio } from "@/components/aspect-ratio"
-import Image from "next/image"
- 
-export function AspectRatioDemo() {
-  return (
-    <AspectRatio ratio={16 / 9}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-      />
-    </AspectRatio>
-  )
-}
-```
+    ```js copy 
+    import { AspectRatio } from "@/components/aspect-ratio"
+    import Image from "next/image"
+    
+    export function AspectRatioDemo() {
+      return (
+        <AspectRatio ratio={16 / 9}>
+          <Image
+            src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
+            alt="Photo by Alvaro Pinot"
+            fill
+          />
+        </AspectRatio>
+      )
+    }
+    ```
   </Tabs.Tab>
 </Tabs>
-<br/>
 
 
 ## Usage
@@ -64,102 +52,75 @@ Avoid using the Aspect Ratio component for content that needs to dynamically fil
 ### Ratio 16/9
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <Preview>
-      <AspectRatio ratio={16 / 9}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-        className="rounded-radius object-cover"
-      />
-    </AspectRatio>
-    </Preview>
+    <AspectRatio16x9 />
   </Tabs.Tab>
   <Tabs.Tab>
-```js copy 
-import { AspectRatio } from "@/components/aspect-ratio"
-import Image from "next/image"
- 
-export function AspectRatioDemo() {
-  return (
-    <AspectRatio ratio={16 / 9}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-      />
-    </AspectRatio>
-  )
-}
-```
+    ```js copy 
+    import { AspectRatio } from "@/components/aspect-ratio"
+    import Image from "next/image"
+    
+    export function AspectRatioDemo() {
+      return (
+        <AspectRatio ratio={16 / 9}>
+          <Image
+            src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
+            alt="Photo by Alvaro Pinot"
+            fill
+          />
+        </AspectRatio>
+      )
+    }
+    ```
   </Tabs.Tab>
 </Tabs>
 
 ### Ratio 4/3
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <Preview>
-      <AspectRatio ratio={4 / 3}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-        className="rounded-radius object-cover"
-      />
-    </AspectRatio>
-    </Preview>
+    <AspectRatio4x3 />
   </Tabs.Tab>
   <Tabs.Tab>
-```js copy 
-import { AspectRatio } from "@/components/aspect-ratio"
-import Image from "next/image"
- 
-export function AspectRatioDemo() {
-  return (
-    <AspectRatio ratio={4 / 3}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-      />
-    </AspectRatio>
-  )
-}
-```
+    ```js copy 
+    import { AspectRatio } from "@/components/aspect-ratio"
+    import Image from "next/image"
+    
+    export function AspectRatioDemo() {
+      return (
+        <AspectRatio ratio={4 / 3}>
+          <Image
+            src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
+            alt="Photo by Alvaro Pinot"
+            fill
+          />
+        </AspectRatio>
+      )
+    }
+    ```
   </Tabs.Tab>
 </Tabs>
 
 ### Ratio 3/2
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <Preview>
-      <AspectRatio ratio={3 / 2}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-        className="rounded-radius object-cover"
-      />
-    </AspectRatio>
-    </Preview>
+    <AspectRatio3x2 />
   </Tabs.Tab>
   <Tabs.Tab>
-```js copy 
-import { AspectRatio } from "@/components/aspect-ratio"
-import Image from "next/image"
- 
-export function AspectRatioDemo() {
-  return (
-    <AspectRatio ratio={3 / 2}>
-      <Image
-        src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
-        alt="Photo by Alvaro Pinot"
-        fill
-      />
-    </AspectRatio>
-  )
-}
-```
+    ```js copy 
+    import { AspectRatio } from "@/components/aspect-ratio"
+    import Image from "next/image"
+    
+    export function AspectRatioDemo() {
+      return (
+        <AspectRatio ratio={3 / 2}>
+          <Image
+            src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
+            alt="Photo by Alvaro Pinot"
+            fill
+          />
+        </AspectRatio>
+      )
+    }
+    ```
   </Tabs.Tab>
 </Tabs>
 
@@ -168,8 +129,7 @@ export function AspectRatioDemo() {
 
 **Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
 
-<br />
-<Cards>
+<Cards className='mt-8'>
   <Card
     title="🤖 Storybook"
     href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-aspectratio--documentation"
@@ -178,5 +138,4 @@ export function AspectRatioDemo() {
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=164%3A294&mode=design&t=F5zgbD2phu8xvUpj-1"
   />
-</Cards>  
-<br />
+</Cards>
