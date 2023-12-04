@@ -8,7 +8,7 @@ export const FoundationsScale = () => (
           <tr>
             <th align="left">Name</th>
             <th align="right"><span className='pr-4'>Value</span></th>
-            <th className="hidden sm:table-cell" align="left">
+            <th className="hidden sm:table-cell md:hidden lg:table-cell" align="left">
               Preview
             </th>
           </tr>
@@ -23,7 +23,7 @@ export const FoundationsScale = () => (
                 <td>
                   <div className="cell-value-scale" align="right">{tokenInfo.value}</div>
                 </td>
-                <td className="hidden sm:table-cell">
+                <td className="hidden sm:table-cell md:hidden lg:table-cell">
                   <div
                     className="cell-preview-scale"
                     style={{ width: tokenInfo.value }}

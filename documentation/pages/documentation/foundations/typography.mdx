@@ -1,3 +1,57 @@
+import { FoundationsTypography, FoundationsInter } from '../../../components/foundations-typography.mdx'
+
 # 🖋️ Typography
 
 Typography is the suite of fonts we use to guide our users with the right tone through every step of their experience.
+
+## Font
+
+Our design system utilizes the [Inter font](https://fonts.google.com/specimen/Inter), an open-source variable font that offers adjustable knobs for fine-tuning font weight and slant.
+
+For languages where Inter doesn’t offer a complete set of glyphs, employs the system font to ensure proper rendering and compatibility.
+
+`font-family: “Inter”, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";`
+
+<FoundationsInter />
+
+## Font Mono
+
+In our products, we primarily utilize sans serif typefaces for typography, reserving monospace fonts exclusively for instances where code needs to be displayed.
+
+`font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;`
+
+## Font Stack
+
+### Sans serif
+
+<FoundationsTypography fonts={fontsSansSerif} />
+
+### Monospaced
+
+<FoundationsTypography fonts={fontsMono} />
+
+export const fontsSansSerif = [
+    { os: 'All', fontFamily: 'Inter' },
+    { os: 'All', fontFamily: 'Helvetica Neue (fallback)' },
+    { os: 'All', fontFamily: 'Arial (fallback)' },
+    { os: 'All', fontFamily: 'sans-serif (fallback)' },
+    { os: 'All', fontFamily: 'Noto Color Emoji (fallback)' },
+    { os: 'macOS & iOS', fontFamily: '-apple-system' },
+    { os: 'macOS & iOS', fontFamily: 'BlinkMacSystemFont (fallback)' },
+    { os: 'macOS & iOS', fontFamily: 'Apple Color Emoji' },
+    { os: 'Windows', fontFamily: 'Segoe UI' },
+    { os: 'Windows', fontFamily: 'Segoe UI Emoji' },
+    { os: 'Windows', fontFamily: 'Segoe UI Symbol' },
+    { os: 'Android & Chrome OS', fontFamily: 'Roboto' },
+    { os: 'Android & Chrome OS', fontFamily: 'Noto Sans (fallback)' },
+];
+
+export const fontsMono = [
+    { os: 'All', fontFamily: 'monospace' },
+    { os: 'macOS & iOS', fontFamily: 'SFMono-Regular' },
+    { os: 'macOS & iOS', fontFamily: 'Menlo (fallback)' },
+    { os: 'macOS & iOS', fontFamily: 'Monaco (fallback)' },
+    { os: 'Windows', fontFamily: 'Consolas' },
+    { os: 'Windows', fontFamily: 'Courier New (fallback)' },
+    { os: 'Linux', fontFamily: 'Liberation Mono' },
+];

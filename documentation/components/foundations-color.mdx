@@ -8,7 +8,7 @@ export const FoundationsColor = ({ color }) => (
           <tr>
             <th align="left">Name</th>
             <th align="left">Value</th>
-            <th className="hidden md:table-cell" align="left">
+            <th className="hidden lg:table-cell" align="left">
               Token
             </th>
             <th align="left">Preview</th>
@@ -22,7 +22,7 @@ export const FoundationsColor = ({ color }) => (
                 <td>
                   <div className="cell-value">{colorInfo.value}</div>
                 </td>
-                <td className="hidden md:table-cell">
+                <td className="hidden lg:table-cell">
                   <div className="cell-token">
                     <code>color-{colorName}</code>
                   </div>
@@ -50,7 +50,7 @@ export const ColorRoles = ({ colorRoles }) => (
           <tr>
             <th align="left">Name</th>
             <th align="left">Token</th>
-            <th align="left">Preview</th>
+            <th className="hidden sm:table-cell" align="left">Preview</th>
           </tr>
         </thead>
         <tbody>
@@ -62,7 +62,7 @@ export const ColorRoles = ({ colorRoles }) => (
                   <code>{role.token}</code>
                 </div>
               </td>
-              <td>
+              <td className="hidden sm:table-cell">
                 <div
                   className="cell-preview"
                   style={{ backgroundColor: `var(${role.previewClass})` }}

@@ -62,7 +62,7 @@ td {
 }
 
 .cell-value {
-  @apply w-28 opacity-70 font-mono uppercase text-sm;
+  @apply w-16 sm:w-28 opacity-70 font-mono uppercase text-sm;
 }
 
 .cell-token {
@@ -70,11 +70,11 @@ td {
 }
 
 .cell-preview {
-  @apply w-32 h-8 rounded-radius;
+  @apply w-16 sm:w-32 h-8 rounded-radius;
 }
 
 .cell-value-scale {
-  @apply w-28 opacity-70 font-mono text-sm pr-4;
+  @apply w-24 opacity-70 font-mono text-sm pr-4;
 }
 
 .cell-preview-scale {
@@ -131,4 +131,8 @@ td {
 
 .cell-accessibility-contrast {
   @apply w-40 lg:w-80 opacity-80 font-mono uppercase;
+}
+
+.cell-typography {
+  @apply w-40 sm:w-64 lg:w-96 font-mono opacity-80;
 }
