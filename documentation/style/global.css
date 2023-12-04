@@ -128,3 +128,7 @@ td {
 .cell-accessibility-code {
   @apply opacity-80;
 }
+
+.cell-accessibility-contrast {
+  @apply w-40 lg:w-80 opacity-80 font-mono uppercase;
+}
