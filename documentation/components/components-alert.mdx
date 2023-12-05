@@ -5,17 +5,17 @@ import {
   AlertDescription,
   AlertTitle,
 } from 'design-system/components/alert';
-import { Terminal } from 'lucide-react';
+import { AlertTriangle, BrainCircuit, CheckCircle, Info, Megaphone,  XCircle } from 'lucide-react';
 
 export const AlertPreview = () => (
   <Preview>
     <Alert>
       <AlertIcon>
-        <Terminal />
+        <Megaphone />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Notice</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        This is a general notification for your attention. It provides neutral information or basic reminders for everyday tasks.
       </AlertDescription>
     </Alert>
   </Preview>
@@ -25,11 +25,11 @@ export const AlertDefault = () => (
   <Preview>
     <Alert>
       <AlertIcon>
-        <Terminal />
+        <Megaphone />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Notice</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        This is a general notification for your attention. It provides neutral information or basic reminders for everyday tasks.
       </AlertDescription>
     </Alert>
   </Preview>
@@ -39,11 +39,11 @@ export const AlertDanger = () => (
   <Preview>
     <Alert status="danger">
       <AlertIcon>
-        <Terminal />
+        <XCircle />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Error Detected!</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        Critical issue encountered! Please address this error immediately to prevent system failure or data loss.
       </AlertDescription>
     </Alert>
   </Preview>
@@ -53,11 +53,11 @@ export const AlertWarning = () => (
   <Preview>
     <Alert status="warning">
       <AlertIcon>
-        <Terminal />
+        <AlertTriangle />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Caution Advised</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        Be cautious! There are certain risks associated with this action. Review and proceed with care.
       </AlertDescription>
     </Alert>
   </Preview>
@@ -67,11 +67,11 @@ export const AlertSuccess = () => (
   <Preview>
     <Alert status="success">
       <AlertIcon>
-        <Terminal />
+        <CheckCircle />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Operation Successful</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        The action was completed successfully! Your changes have been saved or the process has finished without issues.
       </AlertDescription>
     </Alert>
   </Preview>
@@ -81,11 +81,11 @@ export const AlertInfo = () => (
   <Preview>
     <Alert status="info">
       <AlertIcon>
-        <Terminal />
+        <Info />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Did You Know?</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        Here's some useful information or context about the current process or section that might be helpful to you.
       </AlertDescription>
     </Alert>
   </Preview>
@@ -95,11 +95,11 @@ export const AlertDiscovery = () => (
   <Preview>
     <Alert status="discovery">
       <AlertIcon>
-        <Terminal />
+        <BrainCircuit />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Discover More</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        Explore this feature! There are additional options and functionalities waiting to be uncovered that could enhance your experience.
       </AlertDescription>
     </Alert>
   </Preview>

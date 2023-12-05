@@ -3,6 +3,7 @@ import {
   AccordionPreview,
   AccordionSingle,
   AccordionMultiple,
+  AccordionCollapsible,
   AccordionDefaultValue,
   AccordionAccessibility
 } from '../../../components/components-accordion.mdx';
@@ -43,7 +44,7 @@ A vertically stacked set of interactive headings that each reveal a section of c
                 Is it animated?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. It&apos;s animated by default, but you can disable it if you prefer.
+                Yes. It&apos;s animated by default.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -76,12 +77,12 @@ Set the `type` property to `single` to enable only one item to open at a time.
     <AccordionSingle />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {5} /single/
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
       return (
-        <Accordion type="single" collapsible>
+        <Accordion type="single">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
@@ -97,7 +98,7 @@ Set the `type` property to `single` to enable only one item to open at a time.
           <AccordionItem value="item-3">
             <AccordionTrigger>Is it animated?</AccordionTrigger>
             <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you prefer.
+              Yes. It&apos;s animated by default.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -116,7 +117,7 @@ Set the `type` prop to `multiple` to enable opening multiple items at once.
     <AccordionMultiple />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {5} /multiple/
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
@@ -137,7 +138,47 @@ Set the `type` prop to `multiple` to enable opening multiple items at once.
           <AccordionItem value="item-3">
             <AccordionTrigger>Is it animated?</AccordionTrigger>
             <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you prefer.
+              Yes. It&apos;s animated by default.
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Allow collapsing all items
+
+Use the `collapsible` prop to allow all items to close.
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <AccordionCollapsible />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {5} /collapsible/
+    import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
+ 
+    export function AccordionDemo() {
+      return (
+        <Accordion type="single" collapsible>
+          <AccordionItem value="item-1">
+            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It adheres to the WAI-ARIA design pattern.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2">
+            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It comes with default styles that matches the other components&apos; aesthetic.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3">
+            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionContent>
+              Yes. It&apos;s animated by default.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -156,7 +197,7 @@ Use the `defaultValue` prop to define the open item by default.
     <AccordionDefaultValue />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {5} /defaultValue/
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
@@ -177,7 +218,7 @@ Use the `defaultValue` prop to define the open item by default.
           <AccordionItem value="item-3">
             <AccordionTrigger>Is it animated?</AccordionTrigger>
             <AccordionContent>
-              Yes. It&apos;s animated by default, but you can disable it if you prefer.
+              Yes. It&apos;s animated by default.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

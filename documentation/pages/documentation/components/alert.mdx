@@ -12,17 +12,17 @@ Displays a callout for user attention.
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { Megaphone } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert>
           <AlertIcon>
-            <Terminal />
+            <Megaphone />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Notice </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            This is a general notification for your attention. It provides neutral information or basic reminders for everyday tasks.
           </AlertDescription>
         </Alert>
       )
@@ -56,17 +56,17 @@ Avoid overusing alerts for information that is not crucial or does not require i
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { Megaphone } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert>
           <AlertIcon>
-            <Terminal />
+            <Megaphone />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Notice </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            This is a general notification for your attention. It provides neutral information or basic reminders for everyday tasks.
           </AlertDescription>
         </Alert>
       )
@@ -83,17 +83,17 @@ Avoid overusing alerts for information that is not crucial or does not require i
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { XCircle } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert status="danger">
           <AlertIcon>
-            <Terminal />
+            <XCircle />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Error Detected! </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            Critical issue encountered! Please address this error immediately to prevent system failure or data loss.
           </AlertDescription>
         </Alert>
       )
@@ -102,7 +102,7 @@ Avoid overusing alerts for information that is not crucial or does not require i
   </Tabs.Tab>
 </Tabs>
 
-### Warnings
+### Warning
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
     <AlertWarning />
@@ -110,17 +110,17 @@ Avoid overusing alerts for information that is not crucial or does not require i
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { AlertTriangle } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert status="warning">
           <AlertIcon>
-            <Terminal />
+            <AlertTriangle />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Caution Advised </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            Be cautious! There are certain risks associated with this action. Review and proceed with care.
           </AlertDescription>
         </Alert>
       )
@@ -137,17 +137,17 @@ Avoid overusing alerts for information that is not crucial or does not require i
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { CheckCircle } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert status="success">
           <AlertIcon>
-            <Terminal />
+            <CheckCircle />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Operation Successful </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            The action was completed successfully! Your changes have been saved or the process has finished without issues.
           </AlertDescription>
         </Alert>
       )
@@ -164,17 +164,17 @@ Avoid overusing alerts for information that is not crucial or does not require i
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { Info } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert status="info">
           <AlertIcon>
-            <Terminal />
+            <Info />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Did You Know? </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            Here's some useful information or context about the current process or section that might be helpful to you.
           </AlertDescription>
         </Alert>
       )
@@ -191,17 +191,17 @@ Avoid overusing alerts for information that is not crucial or does not require i
   <Tabs.Tab>
     ```js copy 
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Terminal } from "lucide-react" 
+    import { BrainCircuit } from "lucide-react" 
 
     export function AlertDemo() {
       return (
         <Alert status="discovery">
           <AlertIcon>
-            <Terminal />
+            <BrainCircuit />
           </AlertIcon>
-          <AlertTitle> Heads up! </AlertTitle>
+          <AlertTitle> Discover More </AlertTitle>
           <AlertDescription>
-            You can add components to your app using the cli.
+            Explore this feature! There are additional options and functionalities waiting to be uncovered that could enhance your experience.
           </AlertDescription>
         </Alert>
       )

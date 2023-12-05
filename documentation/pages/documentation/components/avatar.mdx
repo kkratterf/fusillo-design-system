@@ -16,8 +16,8 @@ Visual representation of a user or entity.
     export function AvatarDemo() {
       return (
         <Avatar>
-          <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-          <AvatarFallback>CN</AvatarFallback>
+          <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
+          <AvatarFallback>FK</AvatarFallback>
         </Avatar>
       )
     }
@@ -52,31 +52,31 @@ There are 5 standard `size` available for the avatar component:
     <AvatarSize />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6,10,14,18,22} /size/
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     
     export function AvatarDemo() {
       return (
         <div>
           <Avatar size="xs">
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
+            <AvatarFallback>FK</AvatarFallback>
           </Avatar>
           <Avatar size="sm">
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
+            <AvatarFallback>FK</AvatarFallback>
           </Avatar>
           <Avatar size="md">
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
+            <AvatarFallback>FK</AvatarFallback>
           </Avatar>
           <Avatar size="lg">
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
+            <AvatarFallback>FK</AvatarFallback>
           </Avatar>
           <Avatar size="xl">
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
+            <AvatarFallback>FK</AvatarFallback>
           </Avatar>
         </div>
       )
@@ -95,14 +95,14 @@ The `AvatarFallback` is an element that renders when the image hasn't loaded.
     <AvatarExampleFallback />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {1,7} /AvatarFallback/
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     
     export function AvatarDemo() {
       return (
         <Avatar>
-          <AvatarImage src="" alt="@shadcn" />
-          <AvatarFallback>CN</AvatarFallback>
+          <AvatarImage src="" alt="@kkratterf" />
+          <AvatarFallback>FK</AvatarFallback>
         </Avatar>
       )
     }

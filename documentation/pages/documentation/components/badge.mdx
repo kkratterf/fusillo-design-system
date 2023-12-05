@@ -1,7 +1,30 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { BadgePreview, BadgeDefault, BadgeDanger, BadgeWarning, BadgeSuccess, BadgeInfo, BadgeDiscovery } from '../../../components/components-badge.mdx'
+
 # ❖ Badge
 
 Visual indicator for states or numeric values such as tallies and scores.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgePreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Badge } from "@/components/badge"
+    import { Activity } from "lucide-react" 
+
+    export function BadgeDemo() {
+      return (
+        <Badge>
+            <Activity />
+            Active
+        </Badge>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -16,3 +39,224 @@ Badges should be clear and legible, providing immediate understanding of the inf
 - **Quantitative counts**: Utilize Badges to display counts for items like emails, errors, or shopping cart items.
 
 Avoid using Badges for detailed information that requires more context; instead, use a tooltip or another method that allows for more explanation. Do not overuse Badges, as too many can clutter the interface and dilute their impact.
+
+## Examples
+
+### Default
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeDefault />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /default/
+    import { Badge } from "@/components/badge"
+    import { Activity } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div>
+                <Badge status="default">
+                    <Activity />
+                    Active
+                </Badge>
+                <Badge status="default">
+                    Active
+                </Badge>
+                <Badge status="default">
+                    <Activity />
+                </Badge>
+                <Badge status="default">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Danger
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeDanger />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /danger/
+    import { Badge } from "@/components/badge"
+    import { XCircle } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div>
+                <Badge status="danger">
+                    <XCircle />
+                    Active
+                </Badge>
+                <Badge status="danger">
+                    Active
+                </Badge>
+                <Badge status="danger">
+                    <XCircle />
+                </Badge>
+                <Badge status="danger">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Warning
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeWarning />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /warning/
+    import { Badge } from "@/components/badge"
+    import { AlertTriangle } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div>
+                <Badge status="warning">
+                    <AlertTriangle />
+                    Active
+                </Badge>
+                <Badge status="warning">
+                    Active
+                </Badge>
+                <Badge status="warning">
+                    <AlertTriangle />
+                </Badge>
+                <Badge status="warning">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Success
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeSuccess />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /success/
+    import { Badge } from "@/components/badge"
+    import { CheckCircle } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div>
+                <Badge status="success">
+                    <CheckCircle />
+                    Active
+                </Badge>
+                <Badge status="success">
+                    Active
+                </Badge>
+                <Badge status="success">
+                    <CheckCircle />
+                </Badge>
+                <Badge status="success">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Information
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeInfo />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /info/
+    import { Badge } from "@/components/badge"
+    import { Info } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div>
+                <Badge status="info">
+                    <Info />
+                    Active
+                </Badge>
+                <Badge status="info">
+                    Active
+                </Badge>
+                <Badge status="info">
+                    <Info />
+                </Badge>
+                <Badge status="info">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Discovery
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeDiscovery />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /discovery/
+    import { Badge } from "@/components/badge"
+    import { BrainCircuit } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div>
+                <Badge status="discovery">
+                    <BrainCircuit />
+                    Active
+                </Badge>
+                <Badge status="discovery">
+                    Active
+                </Badge>
+                <Badge status="discovery">
+                    <BrainCircuit />
+                </Badge>
+                <Badge status="discovery">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-badge--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A749&mode=design&t=lGPUywRZbGwWv1PD-1"
+  />
+</Cards>  
