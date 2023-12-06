@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Nov 2023 19:59:02 GMT
+ * Generated on Wed, 06 Dec 2023 09:12:10 GMT
  */
 
 module.exports = {
@@ -12,7 +12,15 @@ module.exports = {
           "value": "#eff6ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:22"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:22",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -21,7 +29,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-50}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:22"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:22",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand50",
@@ -43,7 +59,15 @@ module.exports = {
           "value": "#dbeafe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:44"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:44",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -52,7 +76,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-100}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:44"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:44",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand100",
@@ -74,7 +106,15 @@ module.exports = {
           "value": "#bfdbfe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:45"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:45",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -83,7 +123,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-200}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:45"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:45",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand200",
@@ -105,7 +153,15 @@ module.exports = {
           "value": "#93c5fd",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:46"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:46",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -114,7 +170,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-300}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:46"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:46",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand300",
@@ -136,7 +200,15 @@ module.exports = {
           "value": "#60a5fa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:47"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:47",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -145,7 +217,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-400}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:47"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:47",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand400",
@@ -167,7 +247,15 @@ module.exports = {
           "value": "#3b82f6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:48"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:48",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -176,7 +264,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-500}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:48"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:48",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand500",
@@ -198,7 +294,15 @@ module.exports = {
           "value": "#2563eb",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:49"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:49",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -207,7 +311,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-600}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:49"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:49",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand600",
@@ -229,7 +341,15 @@ module.exports = {
           "value": "#1d4ed8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:50"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:50",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -238,7 +358,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-700}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:50"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:50",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand700",
@@ -260,7 +388,15 @@ module.exports = {
           "value": "#1e40af",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:51"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:51",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -269,7 +405,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-800}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:51"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:51",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand800",
@@ -291,7 +435,15 @@ module.exports = {
           "value": "#1e3a8a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:52"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:52",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -300,7 +452,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-900}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:52"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:52",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand900",
@@ -322,7 +482,15 @@ module.exports = {
           "value": "#172554",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:53"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:53",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -331,7 +499,15 @@ module.exports = {
             "value": "{Foundations.Color.Blue.blue-950}",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:53"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:53",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBrandBrand950",
@@ -355,7 +531,15 @@ module.exports = {
           "value": "#fef2f2",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:26"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:26",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -364,7 +548,15 @@ module.exports = {
             "value": "#fef2f2",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:26"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:26",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed50",
@@ -386,7 +578,15 @@ module.exports = {
           "value": "#fee2e2",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:94"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:94",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -395,7 +595,15 @@ module.exports = {
             "value": "#fee2e2",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:94"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:94",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed100",
@@ -417,7 +625,15 @@ module.exports = {
           "value": "#fecaca",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:95"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:95",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -426,7 +642,15 @@ module.exports = {
             "value": "#fecaca",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:95"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:95",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed200",
@@ -448,7 +672,15 @@ module.exports = {
           "value": "#fca5a5",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:96"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:96",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -457,7 +689,15 @@ module.exports = {
             "value": "#fca5a5",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:96"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:96",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed300",
@@ -479,7 +719,15 @@ module.exports = {
           "value": "#f87171",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:97"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:97",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -488,7 +736,15 @@ module.exports = {
             "value": "#f87171",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:97"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:97",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed400",
@@ -510,7 +766,15 @@ module.exports = {
           "value": "#ef4444",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:98"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:98",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -519,7 +783,15 @@ module.exports = {
             "value": "#ef4444",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:98"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:98",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed500",
@@ -541,7 +813,15 @@ module.exports = {
           "value": "#dc2626",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:99"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:99",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -550,7 +830,15 @@ module.exports = {
             "value": "#dc2626",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:99"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:99",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed600",
@@ -572,7 +860,15 @@ module.exports = {
           "value": "#b91c1c",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:100"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:100",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -581,7 +877,15 @@ module.exports = {
             "value": "#b91c1c",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:100"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:100",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed700",
@@ -603,7 +907,15 @@ module.exports = {
           "value": "#991b1b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:101"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:101",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -612,7 +924,15 @@ module.exports = {
             "value": "#991b1b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:101"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:101",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed800",
@@ -634,7 +954,15 @@ module.exports = {
           "value": "#7f1d1d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:102"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:102",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -643,7 +971,15 @@ module.exports = {
             "value": "#7f1d1d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:102"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:102",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed900",
@@ -665,7 +1001,15 @@ module.exports = {
           "value": "#450a0a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:103"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:103",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -674,7 +1018,15 @@ module.exports = {
             "value": "#450a0a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:103"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:103",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRedRed950",
@@ -698,7 +1050,15 @@ module.exports = {
           "value": "#fff7ed",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:27"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:27",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -707,7 +1067,15 @@ module.exports = {
             "value": "#fff7ed",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:27"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:27",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange50",
@@ -729,7 +1097,15 @@ module.exports = {
           "value": "#ffedd5",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:104"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:104",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -738,7 +1114,15 @@ module.exports = {
             "value": "#ffedd5",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:104"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:104",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange100",
@@ -760,7 +1144,15 @@ module.exports = {
           "value": "#fed7aa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:105"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:105",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -769,7 +1161,15 @@ module.exports = {
             "value": "#fed7aa",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:105"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:105",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange200",
@@ -791,7 +1191,15 @@ module.exports = {
           "value": "#fdba74",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:106"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:106",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -800,7 +1208,15 @@ module.exports = {
             "value": "#fdba74",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:106"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:106",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange300",
@@ -822,7 +1238,15 @@ module.exports = {
           "value": "#fb923c",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:107"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:107",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -831,7 +1255,15 @@ module.exports = {
             "value": "#fb923c",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:107"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:107",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange400",
@@ -853,7 +1285,15 @@ module.exports = {
           "value": "#f97316",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:108"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:108",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -862,7 +1302,15 @@ module.exports = {
             "value": "#f97316",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:108"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:108",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange500",
@@ -884,7 +1332,15 @@ module.exports = {
           "value": "#ea580c",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:109"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:109",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -893,7 +1349,15 @@ module.exports = {
             "value": "#ea580c",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:109"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:109",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange600",
@@ -915,7 +1379,15 @@ module.exports = {
           "value": "#c2410c",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:110"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:110",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -924,7 +1396,15 @@ module.exports = {
             "value": "#c2410c",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:110"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:110",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange700",
@@ -946,7 +1426,15 @@ module.exports = {
           "value": "#9a3412",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:111"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:111",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -955,7 +1443,15 @@ module.exports = {
             "value": "#9a3412",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:111"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:111",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange800",
@@ -977,7 +1473,15 @@ module.exports = {
           "value": "#7c2d12",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:112"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:112",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -986,7 +1490,15 @@ module.exports = {
             "value": "#7c2d12",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:112"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:112",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange900",
@@ -1008,7 +1520,15 @@ module.exports = {
           "value": "#431407",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:3:113"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:3:113",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1017,7 +1537,15 @@ module.exports = {
             "value": "#431407",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:3:113"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:3:113",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorOrangeOrange950",
@@ -1041,7 +1569,15 @@ module.exports = {
           "value": "#fffbeb",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:28"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:28",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1050,7 +1586,15 @@ module.exports = {
             "value": "#fffbeb",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:28"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:28",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber50",
@@ -1072,7 +1616,15 @@ module.exports = {
           "value": "#fef3c7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:114"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:114",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1081,7 +1633,15 @@ module.exports = {
             "value": "#fef3c7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:114"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:114",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber100",
@@ -1103,7 +1663,15 @@ module.exports = {
           "value": "#fde68a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:115"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:115",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1112,7 +1680,15 @@ module.exports = {
             "value": "#fde68a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:115"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:115",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber200",
@@ -1134,7 +1710,15 @@ module.exports = {
           "value": "#fcd34d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:116"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:116",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1143,7 +1727,15 @@ module.exports = {
             "value": "#fcd34d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:116"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:116",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber300",
@@ -1165,7 +1757,15 @@ module.exports = {
           "value": "#fbbf24",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:117"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:117",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1174,7 +1774,15 @@ module.exports = {
             "value": "#fbbf24",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:117"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:117",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber400",
@@ -1196,7 +1804,15 @@ module.exports = {
           "value": "#f59e0b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:118"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:118",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1205,7 +1821,15 @@ module.exports = {
             "value": "#f59e0b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:118"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:118",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber500",
@@ -1227,7 +1851,15 @@ module.exports = {
           "value": "#d97706",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:119"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:119",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1236,7 +1868,15 @@ module.exports = {
             "value": "#d97706",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:119"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:119",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber600",
@@ -1258,7 +1898,15 @@ module.exports = {
           "value": "#b45309",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:120"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:120",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1267,7 +1915,15 @@ module.exports = {
             "value": "#b45309",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:120"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:120",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber700",
@@ -1289,7 +1945,15 @@ module.exports = {
           "value": "#92400e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:123"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:123",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1298,7 +1962,15 @@ module.exports = {
             "value": "#92400e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:123"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:123",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber800",
@@ -1320,7 +1992,15 @@ module.exports = {
           "value": "#78350f",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:124"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:124",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1329,7 +2009,15 @@ module.exports = {
             "value": "#78350f",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:124"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:124",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber900",
@@ -1351,7 +2039,15 @@ module.exports = {
           "value": "#451a03",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:125"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:125",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1360,7 +2056,15 @@ module.exports = {
             "value": "#451a03",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:125"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:125",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorAmberAmber950",
@@ -1384,7 +2088,15 @@ module.exports = {
           "value": "#fefce8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:29"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:29",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1393,7 +2105,15 @@ module.exports = {
             "value": "#fefce8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:29"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:29",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow50",
@@ -1415,7 +2135,15 @@ module.exports = {
           "value": "#fef9c3",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:127"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:127",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1424,7 +2152,15 @@ module.exports = {
             "value": "#fef9c3",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:127"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:127",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow100",
@@ -1446,7 +2182,15 @@ module.exports = {
           "value": "#fef08a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:128"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:128",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1455,7 +2199,15 @@ module.exports = {
             "value": "#fef08a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:128"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:128",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow200",
@@ -1477,7 +2229,15 @@ module.exports = {
           "value": "#fde047",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:129"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:129",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1486,7 +2246,15 @@ module.exports = {
             "value": "#fde047",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:129"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:129",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow300",
@@ -1508,7 +2276,15 @@ module.exports = {
           "value": "#facc15",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:130"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:130",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1517,7 +2293,15 @@ module.exports = {
             "value": "#facc15",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:130"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:130",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow400",
@@ -1539,7 +2323,15 @@ module.exports = {
           "value": "#eab308",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:131"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:131",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1548,7 +2340,15 @@ module.exports = {
             "value": "#eab308",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:131"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:131",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow500",
@@ -1570,7 +2370,15 @@ module.exports = {
           "value": "#ca8a04",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:132"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:132",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1579,7 +2387,15 @@ module.exports = {
             "value": "#ca8a04",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:132"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:132",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow600",
@@ -1601,7 +2417,15 @@ module.exports = {
           "value": "#a16207",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:133"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:133",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1610,7 +2434,15 @@ module.exports = {
             "value": "#a16207",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:133"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:133",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow700",
@@ -1632,7 +2464,15 @@ module.exports = {
           "value": "#854d0e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:134"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:134",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1641,7 +2481,15 @@ module.exports = {
             "value": "#854d0e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:134"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:134",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow800",
@@ -1663,7 +2511,15 @@ module.exports = {
           "value": "#713f12",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:135"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:135",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1672,7 +2528,15 @@ module.exports = {
             "value": "#713f12",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:135"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:135",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow900",
@@ -1694,7 +2558,15 @@ module.exports = {
           "value": "#422006",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:136"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:136",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1703,7 +2575,15 @@ module.exports = {
             "value": "#422006",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:136"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:136",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorYellowYellow950",
@@ -1727,7 +2607,15 @@ module.exports = {
           "value": "#f7fee7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:30"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:30",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1736,7 +2624,15 @@ module.exports = {
             "value": "#f7fee7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:30"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:30",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime50",
@@ -1758,7 +2654,15 @@ module.exports = {
           "value": "#ecfccb",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:138"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:138",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1767,7 +2671,15 @@ module.exports = {
             "value": "#ecfccb",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:138"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:138",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime100",
@@ -1789,7 +2701,15 @@ module.exports = {
           "value": "#d9f99d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:139"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:139",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1798,7 +2718,15 @@ module.exports = {
             "value": "#d9f99d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:139"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:139",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime200",
@@ -1820,7 +2748,15 @@ module.exports = {
           "value": "#bef264",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:140"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:140",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1829,7 +2765,15 @@ module.exports = {
             "value": "#bef264",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:140"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:140",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime300",
@@ -1851,7 +2795,15 @@ module.exports = {
           "value": "#a3e635",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:141"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:141",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1860,7 +2812,15 @@ module.exports = {
             "value": "#a3e635",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:141"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:141",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime400",
@@ -1882,7 +2842,15 @@ module.exports = {
           "value": "#84cc16",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:142"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:142",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1891,7 +2859,15 @@ module.exports = {
             "value": "#84cc16",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:142"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:142",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime500",
@@ -1913,7 +2889,15 @@ module.exports = {
           "value": "#65a30d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:143"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:143",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1922,7 +2906,15 @@ module.exports = {
             "value": "#65a30d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:143"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:143",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime600",
@@ -1944,7 +2936,15 @@ module.exports = {
           "value": "#4d7c0f",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:144"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:144",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1953,7 +2953,15 @@ module.exports = {
             "value": "#4d7c0f",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:144"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:144",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime700",
@@ -1975,7 +2983,15 @@ module.exports = {
           "value": "#3f6212",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:145"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:145",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -1984,7 +3000,15 @@ module.exports = {
             "value": "#3f6212",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:145"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:145",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime800",
@@ -2006,7 +3030,15 @@ module.exports = {
           "value": "#365314",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:146"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:146",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2015,7 +3047,15 @@ module.exports = {
             "value": "#365314",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:146"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:146",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime900",
@@ -2037,7 +3077,15 @@ module.exports = {
           "value": "#1a2e05",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:4:147"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:4:147",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2046,7 +3094,15 @@ module.exports = {
             "value": "#1a2e05",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:4:147"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:4:147",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorLimeLime950",
@@ -2070,7 +3126,15 @@ module.exports = {
           "value": "#f0fdf4",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:31"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:31",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2079,7 +3143,15 @@ module.exports = {
             "value": "#f0fdf4",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:31"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:31",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen50",
@@ -2101,7 +3173,15 @@ module.exports = {
           "value": "#dcfce7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:148"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:148",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2110,7 +3190,15 @@ module.exports = {
             "value": "#dcfce7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:148"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:148",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen100",
@@ -2132,7 +3220,15 @@ module.exports = {
           "value": "#bbf7d0",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:149"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:149",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2141,7 +3237,15 @@ module.exports = {
             "value": "#bbf7d0",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:149"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:149",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen200",
@@ -2163,7 +3267,15 @@ module.exports = {
           "value": "#86efac",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:150"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:150",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2172,7 +3284,15 @@ module.exports = {
             "value": "#86efac",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:150"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:150",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen300",
@@ -2194,7 +3314,15 @@ module.exports = {
           "value": "#4ade80",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:151"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:151",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2203,7 +3331,15 @@ module.exports = {
             "value": "#4ade80",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:151"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:151",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen400",
@@ -2225,7 +3361,15 @@ module.exports = {
           "value": "#22c55e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:152"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:152",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2234,7 +3378,15 @@ module.exports = {
             "value": "#22c55e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:152"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:152",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen500",
@@ -2256,7 +3408,15 @@ module.exports = {
           "value": "#16a34a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:153"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:153",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2265,7 +3425,15 @@ module.exports = {
             "value": "#16a34a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:153"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:153",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen600",
@@ -2287,7 +3455,15 @@ module.exports = {
           "value": "#15803d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:154"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:154",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2296,7 +3472,15 @@ module.exports = {
             "value": "#15803d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:154"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:154",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen700",
@@ -2318,7 +3502,15 @@ module.exports = {
           "value": "#166534",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:155"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:155",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2327,7 +3519,15 @@ module.exports = {
             "value": "#166534",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:155"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:155",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen800",
@@ -2349,7 +3549,15 @@ module.exports = {
           "value": "#14532d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:156"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:156",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2358,7 +3566,15 @@ module.exports = {
             "value": "#14532d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:156"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:156",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen900",
@@ -2380,7 +3596,15 @@ module.exports = {
           "value": "#052e16",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:157"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:157",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2389,7 +3613,15 @@ module.exports = {
             "value": "#052e16",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:157"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:157",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorGreenGreen950",
@@ -2413,7 +3645,15 @@ module.exports = {
           "value": "#ecfdf5",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:32"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:32",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2422,7 +3662,15 @@ module.exports = {
             "value": "#ecfdf5",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:32"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:32",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald50",
@@ -2444,7 +3692,15 @@ module.exports = {
           "value": "#d1fae5",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:158"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:158",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2453,7 +3709,15 @@ module.exports = {
             "value": "#d1fae5",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:158"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:158",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald100",
@@ -2475,7 +3739,15 @@ module.exports = {
           "value": "#a7f3d0",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:159"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:159",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2484,7 +3756,15 @@ module.exports = {
             "value": "#a7f3d0",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:159"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:159",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald200",
@@ -2506,7 +3786,15 @@ module.exports = {
           "value": "#6ee7b7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:160"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:160",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2515,7 +3803,15 @@ module.exports = {
             "value": "#6ee7b7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:160"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:160",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald300",
@@ -2537,7 +3833,15 @@ module.exports = {
           "value": "#34d399",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:161"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:161",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2546,7 +3850,15 @@ module.exports = {
             "value": "#34d399",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:161"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:161",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald400",
@@ -2568,7 +3880,15 @@ module.exports = {
           "value": "#10b981",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:162"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:162",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2577,7 +3897,15 @@ module.exports = {
             "value": "#10b981",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:162"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:162",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald500",
@@ -2599,7 +3927,15 @@ module.exports = {
           "value": "#059669",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:163"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:163",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2608,7 +3944,15 @@ module.exports = {
             "value": "#059669",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:163"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:163",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald600",
@@ -2630,7 +3974,15 @@ module.exports = {
           "value": "#047857",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:164"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:164",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2639,7 +3991,15 @@ module.exports = {
             "value": "#047857",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:164"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:164",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald700",
@@ -2661,7 +4021,15 @@ module.exports = {
           "value": "#065f46",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:165"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:165",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2670,7 +4038,15 @@ module.exports = {
             "value": "#065f46",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:165"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:165",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald800",
@@ -2692,7 +4068,15 @@ module.exports = {
           "value": "#064e3b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:166"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:166",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2701,7 +4085,15 @@ module.exports = {
             "value": "#064e3b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:166"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:166",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald900",
@@ -2723,7 +4115,15 @@ module.exports = {
           "value": "#022c22",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:167"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:167",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2732,7 +4132,15 @@ module.exports = {
             "value": "#022c22",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:167"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:167",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorEmeraldEmerald950",
@@ -2756,7 +4164,15 @@ module.exports = {
           "value": "#f0fdfa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:33"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:33",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2765,7 +4181,15 @@ module.exports = {
             "value": "#f0fdfa",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:33"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:33",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal50",
@@ -2787,7 +4211,15 @@ module.exports = {
           "value": "#ccfbf1",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:168"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:168",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2796,7 +4228,15 @@ module.exports = {
             "value": "#ccfbf1",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:168"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:168",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal100",
@@ -2818,7 +4258,15 @@ module.exports = {
           "value": "#99f6e4",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:169"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:169",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2827,7 +4275,15 @@ module.exports = {
             "value": "#99f6e4",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:169"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:169",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal200",
@@ -2849,7 +4305,15 @@ module.exports = {
           "value": "#5eead4",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:170"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:170",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2858,7 +4322,15 @@ module.exports = {
             "value": "#5eead4",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:170"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:170",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal300",
@@ -2880,7 +4352,15 @@ module.exports = {
           "value": "#2dd4bf",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:171"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:171",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2889,7 +4369,15 @@ module.exports = {
             "value": "#2dd4bf",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:171"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:171",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal400",
@@ -2911,7 +4399,15 @@ module.exports = {
           "value": "#14b8a6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:172"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:172",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2920,7 +4416,15 @@ module.exports = {
             "value": "#14b8a6",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:172"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:172",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal500",
@@ -2942,7 +4446,15 @@ module.exports = {
           "value": "#0d9488",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:173"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:173",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2951,7 +4463,15 @@ module.exports = {
             "value": "#0d9488",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:173"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:173",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal600",
@@ -2973,7 +4493,15 @@ module.exports = {
           "value": "#0f766e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:174"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:174",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -2982,7 +4510,15 @@ module.exports = {
             "value": "#0f766e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:174"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:174",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal700",
@@ -3004,7 +4540,15 @@ module.exports = {
           "value": "#115e59",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:175"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:175",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3013,7 +4557,15 @@ module.exports = {
             "value": "#115e59",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:175"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:175",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal800",
@@ -3035,7 +4587,15 @@ module.exports = {
           "value": "#134e4a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:177"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:177",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3044,7 +4604,15 @@ module.exports = {
             "value": "#134e4a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:177"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:177",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal900",
@@ -3066,7 +4634,15 @@ module.exports = {
           "value": "#042f2e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:178"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:178",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3075,7 +4651,15 @@ module.exports = {
             "value": "#042f2e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:178"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:178",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorTealTeal950",
@@ -3099,7 +4683,15 @@ module.exports = {
           "value": "#ecfeff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:34"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:34",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3108,7 +4700,15 @@ module.exports = {
             "value": "#ecfeff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:34"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:34",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan50",
@@ -3130,7 +4730,15 @@ module.exports = {
           "value": "#cffafe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:179"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:179",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3139,7 +4747,15 @@ module.exports = {
             "value": "#cffafe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:179"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:179",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan100",
@@ -3161,7 +4777,15 @@ module.exports = {
           "value": "#a5f3fc",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:180"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:180",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3170,7 +4794,15 @@ module.exports = {
             "value": "#a5f3fc",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:180"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:180",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan200",
@@ -3192,7 +4824,15 @@ module.exports = {
           "value": "#67e8f9",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:181"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:181",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3201,7 +4841,15 @@ module.exports = {
             "value": "#67e8f9",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:181"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:181",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan300",
@@ -3223,7 +4871,15 @@ module.exports = {
           "value": "#22d3ee",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:182"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:182",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3232,7 +4888,15 @@ module.exports = {
             "value": "#22d3ee",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:182"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:182",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan400",
@@ -3254,7 +4918,15 @@ module.exports = {
           "value": "#06b6d4",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:183"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:183",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3263,7 +4935,15 @@ module.exports = {
             "value": "#06b6d4",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:183"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:183",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan500",
@@ -3285,7 +4965,15 @@ module.exports = {
           "value": "#0891b2",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:184"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:184",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3294,7 +4982,15 @@ module.exports = {
             "value": "#0891b2",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:184"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:184",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan600",
@@ -3316,7 +5012,15 @@ module.exports = {
           "value": "#0e7490",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:185"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:185",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3325,7 +5029,15 @@ module.exports = {
             "value": "#0e7490",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:185"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:185",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan700",
@@ -3347,7 +5059,15 @@ module.exports = {
           "value": "#155e75",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:186"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:186",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3356,7 +5076,15 @@ module.exports = {
             "value": "#155e75",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:186"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:186",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan800",
@@ -3378,7 +5106,15 @@ module.exports = {
           "value": "#164e63",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:187"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:187",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3387,7 +5123,15 @@ module.exports = {
             "value": "#164e63",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:187"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:187",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan900",
@@ -3409,7 +5153,15 @@ module.exports = {
           "value": "#083344",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:188"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:188",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3418,7 +5170,15 @@ module.exports = {
             "value": "#083344",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:188"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:188",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorCyanCyan950",
@@ -3442,7 +5202,15 @@ module.exports = {
           "value": "#f0f9ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:35"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:35",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3451,7 +5219,15 @@ module.exports = {
             "value": "#f0f9ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:35"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:35",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky50",
@@ -3473,7 +5249,15 @@ module.exports = {
           "value": "#e0f2fe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:189"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:189",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3482,7 +5266,15 @@ module.exports = {
             "value": "#e0f2fe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:189"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:189",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky100",
@@ -3504,7 +5296,15 @@ module.exports = {
           "value": "#bae6fd",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:190"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:190",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3513,7 +5313,15 @@ module.exports = {
             "value": "#bae6fd",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:190"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:190",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky200",
@@ -3535,7 +5343,15 @@ module.exports = {
           "value": "#7dd3fc",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:191"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:191",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3544,7 +5360,15 @@ module.exports = {
             "value": "#7dd3fc",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:191"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:191",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky300",
@@ -3566,7 +5390,15 @@ module.exports = {
           "value": "#38bdf8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:192"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:192",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3575,7 +5407,15 @@ module.exports = {
             "value": "#38bdf8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:192"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:192",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky400",
@@ -3597,7 +5437,15 @@ module.exports = {
           "value": "#0ea5e9",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:193"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:193",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3606,7 +5454,15 @@ module.exports = {
             "value": "#0ea5e9",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:193"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:193",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky500",
@@ -3628,7 +5484,15 @@ module.exports = {
           "value": "#0284c7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:194"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:194",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3637,7 +5501,15 @@ module.exports = {
             "value": "#0284c7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:194"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:194",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky600",
@@ -3659,7 +5531,15 @@ module.exports = {
           "value": "#0369a1",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:195"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:195",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3668,7 +5548,15 @@ module.exports = {
             "value": "#0369a1",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:195"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:195",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky700",
@@ -3690,7 +5578,15 @@ module.exports = {
           "value": "#075985",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:196"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:196",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3699,7 +5595,15 @@ module.exports = {
             "value": "#075985",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:196"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:196",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky800",
@@ -3721,7 +5625,15 @@ module.exports = {
           "value": "#0c4a6e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:197"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:197",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3730,7 +5642,15 @@ module.exports = {
             "value": "#0c4a6e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:197"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:197",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky900",
@@ -3752,7 +5672,15 @@ module.exports = {
           "value": "#082f49",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:6:198"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:6:198",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3761,7 +5689,15 @@ module.exports = {
             "value": "#082f49",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:6:198"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:6:198",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorSkySky950",
@@ -3785,7 +5721,15 @@ module.exports = {
           "value": "#eff6ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:36"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:36",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3794,7 +5738,15 @@ module.exports = {
             "value": "#eff6ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:36"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:36",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue50",
@@ -3816,7 +5768,15 @@ module.exports = {
           "value": "#dbeafe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:199"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:199",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3825,7 +5785,15 @@ module.exports = {
             "value": "#dbeafe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:199"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:199",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue100",
@@ -3847,7 +5815,15 @@ module.exports = {
           "value": "#bfdbfe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:200"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:200",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3856,7 +5832,15 @@ module.exports = {
             "value": "#bfdbfe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:200"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:200",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue200",
@@ -3878,7 +5862,15 @@ module.exports = {
           "value": "#93c5fd",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:201"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:201",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3887,7 +5879,15 @@ module.exports = {
             "value": "#93c5fd",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:201"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:201",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue300",
@@ -3909,7 +5909,15 @@ module.exports = {
           "value": "#60a5fa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:202"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:202",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3918,7 +5926,15 @@ module.exports = {
             "value": "#60a5fa",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:202"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:202",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue400",
@@ -3940,7 +5956,15 @@ module.exports = {
           "value": "#3b82f6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:203"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:203",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3949,7 +5973,15 @@ module.exports = {
             "value": "#3b82f6",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:203"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:203",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue500",
@@ -3971,7 +6003,15 @@ module.exports = {
           "value": "#2563eb",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:204"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:204",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -3980,7 +6020,15 @@ module.exports = {
             "value": "#2563eb",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:204"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:204",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue600",
@@ -4002,7 +6050,15 @@ module.exports = {
           "value": "#1d4ed8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:205"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:205",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4011,7 +6067,15 @@ module.exports = {
             "value": "#1d4ed8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:205"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:205",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue700",
@@ -4033,7 +6097,15 @@ module.exports = {
           "value": "#1e40af",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:206"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:206",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4042,7 +6114,15 @@ module.exports = {
             "value": "#1e40af",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:206"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:206",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue800",
@@ -4064,7 +6144,15 @@ module.exports = {
           "value": "#1e3a8a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:207"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:207",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4073,7 +6161,15 @@ module.exports = {
             "value": "#1e3a8a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:207"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:207",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue900",
@@ -4095,7 +6191,15 @@ module.exports = {
           "value": "#172554",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:208"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:208",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4104,7 +6208,15 @@ module.exports = {
             "value": "#172554",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:208"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:208",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorBlueBlue950",
@@ -4128,7 +6240,15 @@ module.exports = {
           "value": "#eef2ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:37"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:37",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4137,7 +6257,15 @@ module.exports = {
             "value": "#eef2ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:37"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:37",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo50",
@@ -4159,7 +6287,15 @@ module.exports = {
           "value": "#e0e7ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:209"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:209",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4168,7 +6304,15 @@ module.exports = {
             "value": "#e0e7ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:209"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:209",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo100",
@@ -4190,7 +6334,15 @@ module.exports = {
           "value": "#c7d2fe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:210"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:210",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4199,7 +6351,15 @@ module.exports = {
             "value": "#c7d2fe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:210"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:210",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo200",
@@ -4221,7 +6381,15 @@ module.exports = {
           "value": "#a5b4fc",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:211"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:211",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4230,7 +6398,15 @@ module.exports = {
             "value": "#a5b4fc",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:211"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:211",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo300",
@@ -4252,7 +6428,15 @@ module.exports = {
           "value": "#818cf8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:212"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:212",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4261,7 +6445,15 @@ module.exports = {
             "value": "#818cf8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:212"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:212",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo400",
@@ -4283,7 +6475,15 @@ module.exports = {
           "value": "#6366f1",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:213"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:213",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4292,7 +6492,15 @@ module.exports = {
             "value": "#6366f1",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:213"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:213",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo500",
@@ -4314,7 +6522,15 @@ module.exports = {
           "value": "#4f46e5",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:214"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:214",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4323,7 +6539,15 @@ module.exports = {
             "value": "#4f46e5",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:214"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:214",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo600",
@@ -4345,7 +6569,15 @@ module.exports = {
           "value": "#4338ca",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:215"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:215",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4354,7 +6586,15 @@ module.exports = {
             "value": "#4338ca",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:215"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:215",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo700",
@@ -4376,7 +6616,15 @@ module.exports = {
           "value": "#3730a3",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:216"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:216",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4385,7 +6633,15 @@ module.exports = {
             "value": "#3730a3",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:216"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:216",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo800",
@@ -4407,7 +6663,15 @@ module.exports = {
           "value": "#312e81",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:217"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:217",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4416,7 +6680,15 @@ module.exports = {
             "value": "#312e81",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:217"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:217",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo900",
@@ -4438,7 +6710,15 @@ module.exports = {
           "value": "#1e1b4b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:218"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:218",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4447,7 +6727,15 @@ module.exports = {
             "value": "#1e1b4b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:218"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:218",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorIndigoIndigo950",
@@ -4471,7 +6759,15 @@ module.exports = {
           "value": "#f5f3ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:38"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:38",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4480,7 +6776,15 @@ module.exports = {
             "value": "#f5f3ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:38"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:38",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet50",
@@ -4502,7 +6806,15 @@ module.exports = {
           "value": "#ede9fe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:219"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:219",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4511,7 +6823,15 @@ module.exports = {
             "value": "#ede9fe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:219"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:219",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet100",
@@ -4533,7 +6853,15 @@ module.exports = {
           "value": "#ddd6fe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:220"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:220",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4542,7 +6870,15 @@ module.exports = {
             "value": "#ddd6fe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:220"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:220",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet200",
@@ -4564,7 +6900,15 @@ module.exports = {
           "value": "#c4b5fd",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:221"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:221",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4573,7 +6917,15 @@ module.exports = {
             "value": "#c4b5fd",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:221"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:221",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet300",
@@ -4595,7 +6947,15 @@ module.exports = {
           "value": "#a78bfa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:222"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:222",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4604,7 +6964,15 @@ module.exports = {
             "value": "#a78bfa",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:222"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:222",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet400",
@@ -4626,7 +6994,15 @@ module.exports = {
           "value": "#8b5cf6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:223"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:223",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4635,7 +7011,15 @@ module.exports = {
             "value": "#8b5cf6",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:223"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:223",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet500",
@@ -4657,7 +7041,15 @@ module.exports = {
           "value": "#7c3aed",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:224"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:224",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4666,7 +7058,15 @@ module.exports = {
             "value": "#7c3aed",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:224"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:224",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet600",
@@ -4688,7 +7088,15 @@ module.exports = {
           "value": "#6d28d9",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:225"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:225",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4697,7 +7105,15 @@ module.exports = {
             "value": "#6d28d9",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:225"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:225",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet700",
@@ -4719,7 +7135,15 @@ module.exports = {
           "value": "#5b21b6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:226"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:226",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4728,7 +7152,15 @@ module.exports = {
             "value": "#5b21b6",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:226"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:226",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet800",
@@ -4750,7 +7182,15 @@ module.exports = {
           "value": "#4c1d95",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:227"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:227",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4759,7 +7199,15 @@ module.exports = {
             "value": "#4c1d95",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:227"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:227",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet900",
@@ -4781,7 +7229,15 @@ module.exports = {
           "value": "#2e1065",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:10:228"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:10:228",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4790,7 +7246,15 @@ module.exports = {
             "value": "#2e1065",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:10:228"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:10:228",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorVioletViolet950",
@@ -4814,7 +7278,15 @@ module.exports = {
           "value": "#faf5ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:39"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:39",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4823,7 +7295,15 @@ module.exports = {
             "value": "#faf5ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:39"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:39",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple50",
@@ -4845,7 +7325,15 @@ module.exports = {
           "value": "#f3e8ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:230"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:230",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4854,7 +7342,15 @@ module.exports = {
             "value": "#f3e8ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:230"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:230",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple100",
@@ -4876,7 +7372,15 @@ module.exports = {
           "value": "#e9d5ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:231"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:231",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4885,7 +7389,15 @@ module.exports = {
             "value": "#e9d5ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:231"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:231",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple200",
@@ -4907,7 +7419,15 @@ module.exports = {
           "value": "#d8b4fe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:232"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:232",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4916,7 +7436,15 @@ module.exports = {
             "value": "#d8b4fe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:232"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:232",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple300",
@@ -4938,7 +7466,15 @@ module.exports = {
           "value": "#c084fc",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:233"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:233",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4947,7 +7483,15 @@ module.exports = {
             "value": "#c084fc",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:233"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:233",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple400",
@@ -4969,7 +7513,15 @@ module.exports = {
           "value": "#a855f7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:234"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:234",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -4978,7 +7530,15 @@ module.exports = {
             "value": "#a855f7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:234"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:234",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple500",
@@ -5000,7 +7560,15 @@ module.exports = {
           "value": "#9333ea",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:235"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:235",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5009,7 +7577,15 @@ module.exports = {
             "value": "#9333ea",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:235"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:235",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple600",
@@ -5031,7 +7607,15 @@ module.exports = {
           "value": "#7e22ce",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:236"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:236",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5040,7 +7624,15 @@ module.exports = {
             "value": "#7e22ce",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:236"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:236",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple700",
@@ -5062,7 +7654,15 @@ module.exports = {
           "value": "#6b21a8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:237"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:237",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5071,7 +7671,15 @@ module.exports = {
             "value": "#6b21a8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:237"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:237",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple800",
@@ -5093,7 +7701,15 @@ module.exports = {
           "value": "#581c87",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:238"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:238",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5102,7 +7718,15 @@ module.exports = {
             "value": "#581c87",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:238"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:238",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple900",
@@ -5124,7 +7748,15 @@ module.exports = {
           "value": "#3b0764",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:239"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:239",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5133,7 +7765,15 @@ module.exports = {
             "value": "#3b0764",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:239"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:239",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPurplePurple950",
@@ -5157,7 +7797,15 @@ module.exports = {
           "value": "#fdf4ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:40"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:40",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5166,7 +7814,15 @@ module.exports = {
             "value": "#fdf4ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:40"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:40",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia50",
@@ -5188,7 +7844,15 @@ module.exports = {
           "value": "#fae8ff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:240"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:240",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5197,7 +7861,15 @@ module.exports = {
             "value": "#fae8ff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:240"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:240",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia100",
@@ -5219,7 +7891,15 @@ module.exports = {
           "value": "#f5d0fe",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:241"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:241",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5228,7 +7908,15 @@ module.exports = {
             "value": "#f5d0fe",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:241"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:241",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia200",
@@ -5250,7 +7938,15 @@ module.exports = {
           "value": "#f0abfc",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:242"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:242",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5259,7 +7955,15 @@ module.exports = {
             "value": "#f0abfc",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:242"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:242",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia300",
@@ -5281,7 +7985,15 @@ module.exports = {
           "value": "#e879f9",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:243"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:243",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5290,7 +8002,15 @@ module.exports = {
             "value": "#e879f9",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:243"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:243",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia400",
@@ -5312,7 +8032,15 @@ module.exports = {
           "value": "#d946ef",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:244"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:244",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5321,7 +8049,15 @@ module.exports = {
             "value": "#d946ef",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:244"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:244",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia500",
@@ -5343,7 +8079,15 @@ module.exports = {
           "value": "#c026d3",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:245"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:245",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5352,7 +8096,15 @@ module.exports = {
             "value": "#c026d3",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:245"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:245",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia600",
@@ -5374,7 +8126,15 @@ module.exports = {
           "value": "#a21caf",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:246"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:246",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5383,7 +8143,15 @@ module.exports = {
             "value": "#a21caf",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:246"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:246",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia700",
@@ -5405,7 +8173,15 @@ module.exports = {
           "value": "#86198f",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:247"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:247",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5414,7 +8190,15 @@ module.exports = {
             "value": "#86198f",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:247"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:247",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia800",
@@ -5436,7 +8220,15 @@ module.exports = {
           "value": "#701a75",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:248"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:248",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5445,7 +8237,15 @@ module.exports = {
             "value": "#701a75",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:248"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:248",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia900",
@@ -5467,7 +8267,15 @@ module.exports = {
           "value": "#4a044e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:249"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:249",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5476,7 +8284,15 @@ module.exports = {
             "value": "#4a044e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:249"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:249",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorFuchsiaFuchsia950",
@@ -5500,7 +8316,15 @@ module.exports = {
           "value": "#fdf2f8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:41"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:41",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5509,7 +8333,15 @@ module.exports = {
             "value": "#fdf2f8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:41"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:41",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink50",
@@ -5531,7 +8363,15 @@ module.exports = {
           "value": "#fce7f3",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:250"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:250",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5540,7 +8380,15 @@ module.exports = {
             "value": "#fce7f3",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:250"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:250",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink100",
@@ -5562,7 +8410,15 @@ module.exports = {
           "value": "#fbcfe8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:251"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:251",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5571,7 +8427,15 @@ module.exports = {
             "value": "#fbcfe8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:251"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:251",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink200",
@@ -5593,7 +8457,15 @@ module.exports = {
           "value": "#f9a8d4",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:252"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:252",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5602,7 +8474,15 @@ module.exports = {
             "value": "#f9a8d4",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:252"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:252",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink300",
@@ -5624,7 +8504,15 @@ module.exports = {
           "value": "#f472b6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:253"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:253",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5633,7 +8521,15 @@ module.exports = {
             "value": "#f472b6",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:253"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:253",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink400",
@@ -5655,7 +8551,15 @@ module.exports = {
           "value": "#ec4899",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:254"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:254",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5664,7 +8568,15 @@ module.exports = {
             "value": "#ec4899",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:254"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:254",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink500",
@@ -5686,7 +8598,15 @@ module.exports = {
           "value": "#db2777",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:256"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:256",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5695,7 +8615,15 @@ module.exports = {
             "value": "#db2777",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:256"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:256",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink600",
@@ -5717,7 +8645,15 @@ module.exports = {
           "value": "#be185d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:257"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:257",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5726,7 +8662,15 @@ module.exports = {
             "value": "#be185d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:257"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:257",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink700",
@@ -5748,7 +8692,15 @@ module.exports = {
           "value": "#9d174d",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:259"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:259",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5757,7 +8709,15 @@ module.exports = {
             "value": "#9d174d",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:259"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:259",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink800",
@@ -5779,7 +8739,15 @@ module.exports = {
           "value": "#831843",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:260"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:260",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5788,7 +8756,15 @@ module.exports = {
             "value": "#831843",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:260"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:260",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink900",
@@ -5810,7 +8786,15 @@ module.exports = {
           "value": "#500724",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:261"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:261",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5819,7 +8803,15 @@ module.exports = {
             "value": "#500724",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:261"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:261",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorPinkPink950",
@@ -5843,7 +8835,15 @@ module.exports = {
           "value": "#fff1f2",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:2:43"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:2:43",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5852,7 +8852,15 @@ module.exports = {
             "value": "#fff1f2",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:2:43"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:2:43",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose50",
@@ -5874,7 +8882,15 @@ module.exports = {
           "value": "#ffe4e6",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:262"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:262",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5883,7 +8899,15 @@ module.exports = {
             "value": "#ffe4e6",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:262"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:262",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose100",
@@ -5905,7 +8929,15 @@ module.exports = {
           "value": "#fecdd3",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:263"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:263",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5914,7 +8946,15 @@ module.exports = {
             "value": "#fecdd3",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:263"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:263",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose200",
@@ -5936,7 +8976,15 @@ module.exports = {
           "value": "#fda4af",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:264"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:264",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5945,7 +8993,15 @@ module.exports = {
             "value": "#fda4af",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:264"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:264",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose300",
@@ -5967,7 +9023,15 @@ module.exports = {
           "value": "#fb7185",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:265"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:265",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -5976,7 +9040,15 @@ module.exports = {
             "value": "#fb7185",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:265"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:265",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose400",
@@ -5998,7 +9070,15 @@ module.exports = {
           "value": "#f43f5e",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:266"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:266",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6007,7 +9087,15 @@ module.exports = {
             "value": "#f43f5e",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:266"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:266",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose500",
@@ -6029,7 +9117,15 @@ module.exports = {
           "value": "#e11d48",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:267"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:267",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6038,7 +9134,15 @@ module.exports = {
             "value": "#e11d48",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:267"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:267",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose600",
@@ -6060,7 +9164,15 @@ module.exports = {
           "value": "#be123c",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:268"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:268",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6069,7 +9181,15 @@ module.exports = {
             "value": "#be123c",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:268"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:268",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose700",
@@ -6091,7 +9211,15 @@ module.exports = {
           "value": "#9f1239",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:269"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:269",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6100,7 +9228,15 @@ module.exports = {
             "value": "#9f1239",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:269"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:269",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose800",
@@ -6122,7 +9258,15 @@ module.exports = {
           "value": "#881337",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:270"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:270",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6131,7 +9275,15 @@ module.exports = {
             "value": "#881337",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:270"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:270",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose900",
@@ -6153,7 +9305,15 @@ module.exports = {
           "value": "#4c0519",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:11:271"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:271",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6162,7 +9322,15 @@ module.exports = {
             "value": "#4c0519",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:11:271"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:11:271",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorRoseRose950",
@@ -6186,7 +9354,15 @@ module.exports = {
           "value": "#ffffff",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2200"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2200",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6195,7 +9371,15 @@ module.exports = {
             "value": "#ffffff",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2200"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2200",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral0",
@@ -6217,7 +9401,15 @@ module.exports = {
           "value": "#fafafa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2201"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2201",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6226,7 +9418,15 @@ module.exports = {
             "value": "#fafafa",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2201"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2201",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral50",
@@ -6248,7 +9448,15 @@ module.exports = {
           "value": "#f4f4f5",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2202"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2202",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6257,7 +9465,15 @@ module.exports = {
             "value": "#f4f4f5",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2202"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2202",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral100",
@@ -6279,7 +9495,15 @@ module.exports = {
           "value": "#e4e4e7",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2203"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2203",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6288,7 +9512,15 @@ module.exports = {
             "value": "#e4e4e7",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2203"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2203",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral200",
@@ -6310,7 +9542,15 @@ module.exports = {
           "value": "#d4d4d8",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2204"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2204",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6319,7 +9559,15 @@ module.exports = {
             "value": "#d4d4d8",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2204"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2204",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral300",
@@ -6341,7 +9589,15 @@ module.exports = {
           "value": "#a1a1aa",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2205"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2205",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6350,7 +9606,15 @@ module.exports = {
             "value": "#a1a1aa",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2205"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2205",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral400",
@@ -6372,7 +9636,15 @@ module.exports = {
           "value": "#71717a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2206"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2206",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6381,7 +9653,15 @@ module.exports = {
             "value": "#71717a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2206"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2206",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral500",
@@ -6403,7 +9683,15 @@ module.exports = {
           "value": "#52525b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2207"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2207",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6412,7 +9700,15 @@ module.exports = {
             "value": "#52525b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2207"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2207",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral600",
@@ -6434,7 +9730,15 @@ module.exports = {
           "value": "#3f3f46",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2208"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2208",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6443,7 +9747,15 @@ module.exports = {
             "value": "#3f3f46",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2208"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2208",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral700",
@@ -6465,7 +9777,15 @@ module.exports = {
           "value": "#27272a",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2209"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2209",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6474,7 +9794,15 @@ module.exports = {
             "value": "#27272a",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2209"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2209",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral800",
@@ -6496,7 +9824,15 @@ module.exports = {
           "value": "#18181b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2210"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2210",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6505,7 +9841,15 @@ module.exports = {
             "value": "#18181b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2210"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2210",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral900",
@@ -6527,7 +9871,15 @@ module.exports = {
           "value": "#09090b",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2211"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2211",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6536,7 +9888,15 @@ module.exports = {
             "value": "#09090b",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2211"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2211",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral950",
@@ -6558,7 +9918,15 @@ module.exports = {
           "value": "#000000",
           "description": "",
           "$extensions": {
-            "variableId": "VariableID:693:2212"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:693:2212",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           },
           "filePath": "tokens/tokens.json",
           "isSource": true,
@@ -6567,7 +9935,15 @@ module.exports = {
             "value": "#000000",
             "description": "",
             "$extensions": {
-              "variableId": "VariableID:693:2212"
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:693:2212",
+                "collection": {
+                  "id": "VariableCollectionId:2:2",
+                  "name": "Foundations",
+                  "defaultModeId": "2:0"
+                }
+              }
             }
           },
           "name": "FoundationsColorNeutralNeutral1000",
@@ -6592,7 +9968,15 @@ module.exports = {
         "value": "0px",
         "description": "0px | 0px",
         "$extensions": {
-          "variableId": "VariableID:12:348"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:348",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6601,7 +9985,15 @@ module.exports = {
           "value": "0px",
           "description": "0px | 0px",
           "$extensions": {
-            "variableId": "VariableID:12:348"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:348",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale0",
@@ -6621,7 +10013,15 @@ module.exports = {
         "value": "4px",
         "description": "0.25rem | 4px",
         "$extensions": {
-          "variableId": "VariableID:11:278"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:278",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6630,7 +10030,15 @@ module.exports = {
           "value": "4px",
           "description": "0.25rem | 4px",
           "$extensions": {
-            "variableId": "VariableID:11:278"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:278",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale1",
@@ -6650,7 +10058,15 @@ module.exports = {
         "value": "8px",
         "description": "0.5rem | 8px",
         "$extensions": {
-          "variableId": "VariableID:11:280"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:280",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6659,7 +10075,15 @@ module.exports = {
           "value": "8px",
           "description": "0.5rem | 8px",
           "$extensions": {
-            "variableId": "VariableID:11:280"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:280",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale2",
@@ -6679,7 +10103,15 @@ module.exports = {
         "value": "12px",
         "description": "0.75rem | 12px",
         "$extensions": {
-          "variableId": "VariableID:11:282"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:282",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6688,7 +10120,15 @@ module.exports = {
           "value": "12px",
           "description": "0.75rem | 12px",
           "$extensions": {
-            "variableId": "VariableID:11:282"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:282",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale3",
@@ -6708,7 +10148,15 @@ module.exports = {
         "value": "16px",
         "description": "1rem | 16px",
         "$extensions": {
-          "variableId": "VariableID:11:284"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:284",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6717,7 +10165,15 @@ module.exports = {
           "value": "16px",
           "description": "1rem | 16px",
           "$extensions": {
-            "variableId": "VariableID:11:284"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:284",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale4",
@@ -6737,7 +10193,15 @@ module.exports = {
         "value": "20px",
         "description": "1.25rem | 20px",
         "$extensions": {
-          "variableId": "VariableID:11:285"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:285",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6746,7 +10210,15 @@ module.exports = {
           "value": "20px",
           "description": "1.25rem | 20px",
           "$extensions": {
-            "variableId": "VariableID:11:285"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:285",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale5",
@@ -6766,7 +10238,15 @@ module.exports = {
         "value": "24px",
         "description": "1.5rem | 24px",
         "$extensions": {
-          "variableId": "VariableID:11:286"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:286",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6775,7 +10255,15 @@ module.exports = {
           "value": "24px",
           "description": "1.5rem | 24px",
           "$extensions": {
-            "variableId": "VariableID:11:286"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:286",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale6",
@@ -6795,7 +10283,15 @@ module.exports = {
         "value": "28px",
         "description": "1.75rem | 28px",
         "$extensions": {
-          "variableId": "VariableID:11:287"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:287",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6804,7 +10300,15 @@ module.exports = {
           "value": "28px",
           "description": "1.75rem | 28px",
           "$extensions": {
-            "variableId": "VariableID:11:287"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:287",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale7",
@@ -6824,7 +10328,15 @@ module.exports = {
         "value": "32px",
         "description": "2rem | 32px",
         "$extensions": {
-          "variableId": "VariableID:11:288"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:288",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6833,7 +10345,15 @@ module.exports = {
           "value": "32px",
           "description": "2rem | 32px",
           "$extensions": {
-            "variableId": "VariableID:11:288"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:288",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale8",
@@ -6853,7 +10373,15 @@ module.exports = {
         "value": "36px",
         "description": "2.25rem | 36px",
         "$extensions": {
-          "variableId": "VariableID:11:289"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:289",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6862,7 +10390,15 @@ module.exports = {
           "value": "36px",
           "description": "2.25rem | 36px",
           "$extensions": {
-            "variableId": "VariableID:11:289"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:289",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale9",
@@ -6882,7 +10418,15 @@ module.exports = {
         "value": "40px",
         "description": "2.5rem | 40px",
         "$extensions": {
-          "variableId": "VariableID:11:290"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:290",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6891,7 +10435,15 @@ module.exports = {
           "value": "40px",
           "description": "2.5rem | 40px",
           "$extensions": {
-            "variableId": "VariableID:11:290"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:290",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale10",
@@ -6911,7 +10463,15 @@ module.exports = {
         "value": "44px",
         "description": "2.75rem | 44px",
         "$extensions": {
-          "variableId": "VariableID:11:291"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:291",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6920,7 +10480,15 @@ module.exports = {
           "value": "44px",
           "description": "2.75rem | 44px",
           "$extensions": {
-            "variableId": "VariableID:11:291"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:291",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale11",
@@ -6940,7 +10508,15 @@ module.exports = {
         "value": "48px",
         "description": "3rem | 48px",
         "$extensions": {
-          "variableId": "VariableID:11:292"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:292",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6949,7 +10525,15 @@ module.exports = {
           "value": "48px",
           "description": "3rem | 48px",
           "$extensions": {
-            "variableId": "VariableID:11:292"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:292",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale12",
@@ -6969,7 +10553,15 @@ module.exports = {
         "value": "56px",
         "description": "3.5rem | 56px",
         "$extensions": {
-          "variableId": "VariableID:11:293"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:293",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -6978,7 +10570,15 @@ module.exports = {
           "value": "56px",
           "description": "3.5rem | 56px",
           "$extensions": {
-            "variableId": "VariableID:11:293"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:293",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale14",
@@ -6998,7 +10598,15 @@ module.exports = {
         "value": "64px",
         "description": "4rem | 64px",
         "$extensions": {
-          "variableId": "VariableID:11:294"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:294",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7007,7 +10615,15 @@ module.exports = {
           "value": "64px",
           "description": "4rem | 64px",
           "$extensions": {
-            "variableId": "VariableID:11:294"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:294",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale16",
@@ -7027,7 +10643,15 @@ module.exports = {
         "value": "80px",
         "description": "5rem | 80px",
         "$extensions": {
-          "variableId": "VariableID:11:295"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:295",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7036,7 +10660,15 @@ module.exports = {
           "value": "80px",
           "description": "5rem | 80px",
           "$extensions": {
-            "variableId": "VariableID:11:295"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:295",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale20",
@@ -7056,7 +10688,15 @@ module.exports = {
         "value": "96px",
         "description": "6rem | 96px",
         "$extensions": {
-          "variableId": "VariableID:11:296"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:296",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7065,7 +10705,15 @@ module.exports = {
           "value": "96px",
           "description": "6rem | 96px",
           "$extensions": {
-            "variableId": "VariableID:11:296"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:296",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale24",
@@ -7085,7 +10733,15 @@ module.exports = {
         "value": "112px",
         "description": "7rem | 112px",
         "$extensions": {
-          "variableId": "VariableID:11:297"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:297",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7094,7 +10750,15 @@ module.exports = {
           "value": "112px",
           "description": "7rem | 112px",
           "$extensions": {
-            "variableId": "VariableID:11:297"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:297",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale28",
@@ -7114,7 +10778,15 @@ module.exports = {
         "value": "128px",
         "description": "8rem | 128px",
         "$extensions": {
-          "variableId": "VariableID:11:298"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:298",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7123,7 +10795,15 @@ module.exports = {
           "value": "128px",
           "description": "8rem | 128px",
           "$extensions": {
-            "variableId": "VariableID:11:298"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:298",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale32",
@@ -7143,7 +10823,15 @@ module.exports = {
         "value": "144px",
         "description": "9rem | 144px",
         "$extensions": {
-          "variableId": "VariableID:11:299"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:299",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7152,7 +10840,15 @@ module.exports = {
           "value": "144px",
           "description": "9rem | 144px",
           "$extensions": {
-            "variableId": "VariableID:11:299"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:299",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale36",
@@ -7172,7 +10868,15 @@ module.exports = {
         "value": "160px",
         "description": "10rem | 160px",
         "$extensions": {
-          "variableId": "VariableID:11:300"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:300",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7181,7 +10885,15 @@ module.exports = {
           "value": "160px",
           "description": "10rem | 160px",
           "$extensions": {
-            "variableId": "VariableID:11:300"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:300",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale40",
@@ -7201,7 +10913,15 @@ module.exports = {
         "value": "176px",
         "description": "11rem | 176px",
         "$extensions": {
-          "variableId": "VariableID:11:301"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:11:301",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7210,7 +10930,15 @@ module.exports = {
           "value": "176px",
           "description": "11rem | 176px",
           "$extensions": {
-            "variableId": "VariableID:11:301"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:301",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale44",
@@ -7230,7 +10958,15 @@ module.exports = {
         "value": "192px",
         "description": "12rem | 192px",
         "$extensions": {
-          "variableId": "VariableID:12:305"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:305",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7239,7 +10975,15 @@ module.exports = {
           "value": "192px",
           "description": "12rem | 192px",
           "$extensions": {
-            "variableId": "VariableID:12:305"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:305",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale48",
@@ -7259,7 +11003,15 @@ module.exports = {
         "value": "208px",
         "description": "13rem | 208px",
         "$extensions": {
-          "variableId": "VariableID:12:306"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:306",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7268,7 +11020,15 @@ module.exports = {
           "value": "208px",
           "description": "13rem | 208px",
           "$extensions": {
-            "variableId": "VariableID:12:306"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:306",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale52",
@@ -7288,7 +11048,15 @@ module.exports = {
         "value": "224px",
         "description": "14rem | 224px",
         "$extensions": {
-          "variableId": "VariableID:12:307"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:307",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7297,7 +11065,15 @@ module.exports = {
           "value": "224px",
           "description": "14rem | 224px",
           "$extensions": {
-            "variableId": "VariableID:12:307"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:307",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale56",
@@ -7317,7 +11093,15 @@ module.exports = {
         "value": "240px",
         "description": "15rem | 240px",
         "$extensions": {
-          "variableId": "VariableID:12:308"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:308",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7326,7 +11110,15 @@ module.exports = {
           "value": "240px",
           "description": "15rem | 240px",
           "$extensions": {
-            "variableId": "VariableID:12:308"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:308",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale60",
@@ -7346,7 +11138,15 @@ module.exports = {
         "value": "256px",
         "description": "16rem | 256px",
         "$extensions": {
-          "variableId": "VariableID:12:309"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:309",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7355,7 +11155,15 @@ module.exports = {
           "value": "256px",
           "description": "16rem | 256px",
           "$extensions": {
-            "variableId": "VariableID:12:309"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:309",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale64",
@@ -7375,7 +11183,15 @@ module.exports = {
         "value": "288px",
         "description": "18rem | 288px",
         "$extensions": {
-          "variableId": "VariableID:12:310"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:310",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7384,7 +11200,15 @@ module.exports = {
           "value": "288px",
           "description": "18rem | 288px",
           "$extensions": {
-            "variableId": "VariableID:12:310"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:310",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale72",
@@ -7404,7 +11228,15 @@ module.exports = {
         "value": "320px",
         "description": "20rem | 320px",
         "$extensions": {
-          "variableId": "VariableID:12:311"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:311",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7413,7 +11245,15 @@ module.exports = {
           "value": "320px",
           "description": "20rem | 320px",
           "$extensions": {
-            "variableId": "VariableID:12:311"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:311",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale80",
@@ -7433,7 +11273,15 @@ module.exports = {
         "value": "384px",
         "description": "24rem | 384px",
         "$extensions": {
-          "variableId": "VariableID:12:312"
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:12:312",
+            "collection": {
+              "id": "VariableCollectionId:2:2",
+              "name": "Foundations",
+              "defaultModeId": "2:0"
+            }
+          }
         },
         "filePath": "tokens/tokens.json",
         "isSource": true,
@@ -7442,7 +11290,15 @@ module.exports = {
           "value": "384px",
           "description": "24rem | 384px",
           "$extensions": {
-            "variableId": "VariableID:12:312"
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:12:312",
+              "collection": {
+                "id": "VariableCollectionId:2:2",
+                "name": "Foundations",
+                "defaultModeId": "2:0"
+              }
+            }
           }
         },
         "name": "FoundationsScale96",
