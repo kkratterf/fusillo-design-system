@@ -1093,7 +1093,7 @@ export default function Home() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger>Prova</TooltipTrigger>
-              <TooltipContent style="outline" side="bottom">
+              <TooltipContent type="outline" side="bottom">
                 <p>Add to library</p>
               </TooltipContent>
             </Tooltip>
@@ -1103,7 +1103,7 @@ export default function Home() {
               <TooltipTrigger asChild>
                 <Button>Prova</Button>
               </TooltipTrigger>
-              <TooltipContent style="fill" side="right">
+              <TooltipContent type="fill" side="right">
                 <p>Add to library</p>
               </TooltipContent>
             </Tooltip>
