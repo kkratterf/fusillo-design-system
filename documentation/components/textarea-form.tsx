@@ -15,6 +15,7 @@ import {
 } from 'design-system/components/form';
 import { Button } from 'design-system/components/button';
 import { Textarea } from 'design-system/components/textarea';
+import { Input } from 'design-system/components/input';
 import { toast } from 'design-system/components/toast/use-toast';
 
 const FormSchema = z.object({
@@ -38,7 +39,9 @@ export function TextareaFormDemo() {
       title: 'You submitted the following values:',
       description: (
         <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">{JSON.stringify(data, null, 2)}</code>
+          <code className="text-color-text">
+            {JSON.stringify(data, null, 2)}
+          </code>
         </pre>
       ),
     });
@@ -50,26 +53,35 @@ export function TextareaFormDemo() {
         onSubmit={form.handleSubmit(onSubmit)}
         className="w-full space-y-10"
       >
-        <FormField
-          control={form.control}
-          name="bio"
-          render={({ field }) => (
-            <FormItem className="space-y-3">
-              <FormLabel>Bio</FormLabel>
-              <FormControl>
-                <Textarea
-                  placeholder="Tell us a little bit about yourself"
-                  className="resize-none"
-                  {...field}
-                />
-              </FormControl>
-              <FormDescription>
-                You can <span>@mention</span> other users and organizations.
-              </FormDescription>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+        <div className="space-y-6">
+          <FormItem className="space-y-2">
+            <FormLabel>Name</FormLabel>
+            <FormControl>
+              <Input value="Michael Scott" />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+          <FormField
+            control={form.control}
+            name="bio"
+            render={({ field }) => (
+              <FormItem className="space-y-2">
+                <FormLabel>Bio</FormLabel>
+                <FormControl>
+                  <Textarea
+                    placeholder="Once upon a time..."
+                    className="resize-none"
+                    {...field}
+                  />
+                </FormControl>
+                <FormDescription>
+                  You can <span>@mention</span> other users and organizations.
+                </FormDescription>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
         <Button type="submit">Submit</Button>
       </form>
     </Form>

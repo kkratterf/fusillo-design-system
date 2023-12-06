@@ -20,7 +20,7 @@ const avatarVariants = cva('avatar-component', {
     },
   },
   defaultVariants: {
-    size: 'md',
+    size: 'lg',
   },
 });
 

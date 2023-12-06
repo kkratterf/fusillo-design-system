@@ -12,7 +12,7 @@ const meta: Meta<typeof AspectRatio> = {
   argTypes: {
     ratio: {
       description:
-        'The ratio between the width and the height of the component.',
+        'Use the `ratio` prop to set the ratio between the width and the height of the component.',
       control: {
         type: 'number',
       },

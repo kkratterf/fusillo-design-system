@@ -18,17 +18,23 @@ const meta: Meta<typeof Accordion> = {
       options: ['single', 'multiple'],
       control: { type: 'select' },
       description:
-        'Set the type property between single and multiple to enable one or more items to open at the same time',
+        'Set the `type` property between `single` and `multiple` to enable one or more items to open at the same time',
+      table: {
+        defaultValue: { summary: 'single' },
+      },
     },
     collapsible: {
-      description: 'Use the collapsible prop to allow all items to close',
+      description: 'Use the `collapsible` prop to allow all items to close',
+      table: {
+        defaultValue: { summary: 'false' },
+      },
     },
     asChild: { table: { disable: true } },
     defaultValue: {
       options: ['item-1', 'item-2', 'item-3'],
       control: { type: 'select' },
       description:
-        'Use the defaultValue prop to define the open item by default',
+        'Use the `defaultValue` prop to define the open item by default',
     },
   },
   parameters: {
@@ -68,22 +74,21 @@ export const Single: Story = {
       <AccordionItem value="item-3">
         <AccordionTrigger>Is it animated?</AccordionTrigger>
         <AccordionContent>
-          Yes. It&apos;s animated by default, but you can disable it if you
-          prefer.
+          Yes. It&apos;s animated by default.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
   ),
   args: {
     type: 'single',
-    collapsible: true,
+    collapsible: false,
     defaultValue: undefined,
   },
   parameters: {
     docs: {
       description: {
         story:
-          'Set the type property to single to enable only one item to open at a time.',
+          'Set the `type` property to `single` to enable only one item to open at a time.',
       },
     },
   },
@@ -108,8 +113,7 @@ export const Multiple: Story = {
       <AccordionItem value="item-3">
         <AccordionTrigger>Is it animated?</AccordionTrigger>
         <AccordionContent>
-          Yes. It&apos;s animated by default, but you can disable it if you
-          prefer.
+          Yes. It&apos;s animated by default.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
@@ -121,7 +125,42 @@ export const Multiple: Story = {
     docs: {
       description: {
         story:
-          'Set the type prop to multiple to enable opening multiple items at once.',
+          'Set the `type` prop to `multiple` to enable opening multiple items at once.',
+      },
+    },
+  },
+};
+
+export const Collapsible: Story = {
+  render: (args) => (
+    <Accordion {...args}>
+      <AccordionItem value="item-1">
+        <AccordionTrigger>Is it accessible?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It adheres to the WAI-ARIA design pattern.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>Is it styled?</AccordionTrigger>
+        <AccordionContent>
+          Yes. It comes with default styles that matches the other
+          components&apos; aesthetic.
+        </AccordionContent>
+      </AccordionItem>
+      <AccordionItem value="item-3">
+        <AccordionTrigger>Is it animated?</AccordionTrigger>
+        <AccordionContent>Yes. It&apos;s animated by default.</AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  ),
+  args: {
+    type: 'single',
+    collapsible: true,
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Use the `collapsible` prop to allow all items to close.',
       },
     },
   },
@@ -146,8 +185,7 @@ export const DefaultValue: Story = {
       <AccordionItem value="item-3">
         <AccordionTrigger>Is it animated?</AccordionTrigger>
         <AccordionContent>
-          Yes. It&apos;s animated by default, but you can disable it if you
-          prefer.
+          Yes. It&apos;s animated by default.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
@@ -160,7 +198,7 @@ export const DefaultValue: Story = {
   parameters: {
     docs: {
       description: {
-        story: 'Use the defaultValue prop to define the open item by default.',
+        story: 'Use the `defaultValue` prop to define the open item by default.',
       },
     },
   },

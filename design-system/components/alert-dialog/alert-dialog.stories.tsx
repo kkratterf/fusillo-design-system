@@ -15,11 +15,6 @@ import {
 } from './';
 import { Button } from '../button';
 
-type AlertDialogStoryProps = {
-  title: string;
-  description: string;
-};
-
 const meta: Meta<typeof AlertDialog> = {
   title: 'Components/AlertDialog',
   component: AlertDialog,
@@ -28,7 +23,8 @@ const meta: Meta<typeof AlertDialog> = {
     layout: 'centered',
     docs: {
       description: {
-        component: 'Displays a callout for user attention.',
+        component:
+          'A modal dialog that interrupts the user with important content and expects a response.',
       },
     },
     design: {
@@ -46,13 +42,14 @@ export const Default: Story = {
   render: (...args) => (
     <AlertDialog {...args}>
       <AlertDialogTrigger asChild>
-        <Button variant="secondary">Open</Button>
+        <Button variant="secondary">Delete account</Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>Are you sure absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
-            This action cannot be undone. This will permanently delete your account and remove your data from our servers.
+            This action cannot be undone. This will permanently delete your
+            account and remove your data from our servers.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -62,4 +59,5 @@ export const Default: Story = {
       </AlertDialogContent>
     </AlertDialog>
   ),
+  args: {},
 };

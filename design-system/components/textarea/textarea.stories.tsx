@@ -10,6 +10,7 @@ import * as z from 'zod';
 import { Button } from '../button';
 import { Label } from '../label';
 import { Textarea } from './';
+import { Input } from '../input';
 import {
   Form,
   FormControl,
@@ -34,7 +35,7 @@ const FormSchema = z.object({
     }),
 });
 
-const  TextareaFormDemo = () => {
+const  TextareaFormDemo = (args: any) => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -58,26 +59,34 @@ const  TextareaFormDemo = () => {
         onSubmit={form.handleSubmit(onSubmit)}
         className="w-full space-y-10"
       >
-        <FormField
-          control={form.control}
-          name="bio"
-          render={({ field }) => (
-            <FormItem className="space-y-3">
-              <FormLabel>Bio</FormLabel>
-              <FormControl>
-                <Textarea
-                  placeholder="Tell us a little bit about yourself"
-                  className="resize-none"
-                  {...field}
-                />
-              </FormControl>
-              <FormDescription>
-                You can <span>@mention</span> other users and organizations.
-              </FormDescription>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+        <div className='space-y-6'>
+              <FormItem className="space-y-3">
+                <FormLabel>Name</FormLabel>
+                <FormControl>
+                  <Input value="Micheal Scott"/>
+                </FormControl>
+              </FormItem>
+          <FormField
+            control={form.control}
+            name="bio"
+            render={({ field }) => (
+              <FormItem className="space-y-3">
+                <FormLabel>Bio</FormLabel>
+                <FormControl>
+                  <Textarea
+                    placeholder={args.placeholder}
+                    className="resize-none"
+                    {...field}
+                  />
+                </FormControl>
+                <FormDescription>
+                  You can <span>@mention</span> other users and organizations.
+                </FormDescription>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
         <Button type="submit">Submit</Button>
       </form>
     </Form>
@@ -89,7 +98,11 @@ const meta: Meta<typeof Textarea> = {
   title: 'Components/Textarea',
   component: Textarea,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {
+    placeholder: {
+      description: 'Set the `placeholder` property to guide users in filling the textarea',
+    },
+  },
   parameters: {
     docs: {
       description: {
@@ -110,7 +123,7 @@ type Story = StoryObj<typeof Textarea>;
 export const Default: Story = {
   render: (args) => <Textarea {...args} />,
   args: {
-    placeholder: 'Type your message here.',
+    placeholder: 'Once upon a time...',
   },
 };
 
@@ -125,10 +138,10 @@ export const Disabled: Story = {
 export const WithText: Story = {
   render: (args) => (
     <div className="grid w-full gap-3">
-      <Label htmlFor="message-2">Your Message</Label>
-      <Textarea {...args} id="message-2" />
+      <Label htmlFor="message">Bio</Label>
+      <Textarea {...args} id="message" />
       <p className="body-base text-color-text-description">
-        Your message will be copied to the support team.
+        You can @mention other users and organizations.
       </p>
     </div>
   ),

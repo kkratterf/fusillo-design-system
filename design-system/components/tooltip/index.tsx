@@ -15,18 +15,19 @@ const tooltipVariants = cva(
   ],
   {
     variants: {
-      style: {
+      type: {
         outline: 'tooltip-content-outline',
         fill: 'tooltip-content-fill',
       },
     },
     defaultVariants: {
-      style: 'outline',
+      type: 'outline',
     },
   }
 );
 
-export interface TooltipProps extends VariantProps<typeof tooltipVariants> {}
+export interface TooltipProps extends VariantProps<typeof tooltipVariants> {
+}
 
 const TooltipProvider = TooltipPrimitive.Provider
 
@@ -39,10 +40,10 @@ const TooltipContent = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Content> & TooltipProps
 >((props, ref) => {
   // Destructure style and className from props
-  const { style, className, sideOffset = 4, avoidCollisions = false, ...otherProps } = props;
+  const { type, className, sideOffset = 4, avoidCollisions = false, ...otherProps } = props;
   // Compute class names
   const classNames =
-    tooltipVariants({ style }) + (className ? ` ${className}` : '');
+    tooltipVariants({ type }) + (className ? ` ${className}` : '');
   return (
     <TooltipPrimitive.Content
       ref={ref}

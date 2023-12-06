@@ -7,15 +7,15 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from 'design-system/components/tooltip';
-import { Plus } from 'lucide-react';
+import { FilePlus } from 'lucide-react';
 
 export const TooltipPreview = () => (
   <Preview>
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <Button variant="secondary">
-            <Plus />
+          <Button variant="secondary" icon={true}>
+            <FilePlus />
           </Button>
         </TooltipTrigger>
         <TooltipContent>
@@ -31,8 +31,8 @@ export const TooltipOutline = () => (
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <Button variant="secondary">
-            <Plus />
+          <Button variant="secondary" icon={true}>
+            <FilePlus />
           </Button>
         </TooltipTrigger>
         <TooltipContent>
@@ -48,11 +48,11 @@ export const TooltipFilled = () => (
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <Button variant="secondary">
-            <Plus />
+          <Button variant="secondary" icon={true}>
+            <FilePlus />
           </Button>
         </TooltipTrigger>
-        <TooltipContent style="fill">
+        <TooltipContent type="fill">
           <p>Add to library</p>
         </TooltipContent>
       </Tooltip>
@@ -62,12 +62,12 @@ export const TooltipFilled = () => (
 
 export const TooltipSide = () => (
   <Preview>
-    <div className="flex gap-4">
+    <div className="grid justify-items-center sm:flex gap-5">
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="secondary">
-              <Plus />
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
             </Button>
           </TooltipTrigger>
           <TooltipContent side="top">
@@ -78,8 +78,8 @@ export const TooltipSide = () => (
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="secondary">
-              <Plus />
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
             </Button>
           </TooltipTrigger>
           <TooltipContent side="bottom">
@@ -90,8 +90,8 @@ export const TooltipSide = () => (
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="secondary">
-              <Plus />
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
             </Button>
           </TooltipTrigger>
           <TooltipContent side="left">
@@ -102,8 +102,8 @@ export const TooltipSide = () => (
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="secondary">
-              <Plus />
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
             </Button>
           </TooltipTrigger>
           <TooltipContent side="right">

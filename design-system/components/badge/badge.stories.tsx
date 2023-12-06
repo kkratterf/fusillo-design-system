@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react';
 // Import third parts
 // Import customs
 import { Badge } from './';
-import { BrainCircuit } from 'lucide-react';
+import { Activity, AlertTriangle, BrainCircuit, CheckCircle, InfoIcon, XCircle } from 'lucide-react';
 
 const meta: Meta<typeof Badge> = {
   title: 'Components/Badge',
@@ -14,8 +14,14 @@ const meta: Meta<typeof Badge> = {
   },
   argTypes: {
     status: {
+      control: 'select',
       options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
-      control: { type: 'select' },
+      description:
+        'Use the `status` prop to define the type of message communicated by the badge',
+      table: {
+        defaultValue: { summary: 'default' },
+        type: { summary: null },
+      },
     },
   },
   parameters: {
@@ -36,41 +42,115 @@ export default meta;
 
 type Story = StoryObj<typeof Badge>;
 
-export const Base: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
-  args: {},
+export const Default: Story = {
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <Activity />
+        Active
+      </Badge>
+      <Badge {...args}>Active</Badge>
+      <Badge {...args}>
+        <Activity />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
+  args: {
+    status: 'default',
+  },
 };
 
 export const Danger: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <XCircle />
+        Error
+      </Badge>
+      <Badge {...args}>Error</Badge>
+      <Badge {...args}>
+        <XCircle />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
   args: {
     status: 'danger',
   },
 };
 
 export const Warning: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <AlertTriangle />
+        Caution
+      </Badge>
+      <Badge {...args}>Caution</Badge>
+      <Badge {...args}>
+        <AlertTriangle />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
   args: {
     status: 'warning',
   },
 };
 
 export const Success: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <CheckCircle />
+        Completed
+      </Badge>
+      <Badge {...args}>Completed</Badge>
+      <Badge {...args}>
+        <CheckCircle />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
   args: {
     status: 'success',
   },
 };
 
 export const Info: Story = {
-  render: (args) => <Badge {...args}>Badge</Badge>,
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <InfoIcon />
+        Information
+      </Badge>
+      <Badge {...args}>Information</Badge>
+      <Badge {...args}>
+        <InfoIcon />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
   args: {
     status: 'info',
   },
 };
 
 export const Discovery: Story = {
-  render: (args) => <Badge {...args}><BrainCircuit />Badge</Badge>,
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <BrainCircuit />
+        Explore
+      </Badge>
+      <Badge {...args}>Explore</Badge>
+      <Badge {...args}>
+        <BrainCircuit />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
   args: {
     status: 'discovery',
   },

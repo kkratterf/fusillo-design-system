@@ -3,9 +3,8 @@ import { Meta, StoryObj } from '@storybook/react';
 // Import third parts
 // Import customs
 import { Button } from '../button';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './';
-import { Plus } from 'lucide-react';
-
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from './';
+import { FilePlus } from 'lucide-react';
 
 const meta: Meta<typeof Tooltip> = {
   title: 'Components/Tooltip',
@@ -27,38 +26,165 @@ const meta: Meta<typeof Tooltip> = {
 };
 export default meta;
 
-type Story = StoryObj<typeof Tooltip>;
+type TooltipCustomProps = {
+  type?: 'outline' | 'fill';
+  side?: 'top' | 'bottom' | 'left' | 'right';
+};
+
+type Story = StoryObj<TooltipCustomProps>;
 
 export const Outline: Story = {
   render: (args) => (
     <TooltipProvider>
-      <Tooltip {...args}>
+      <Tooltip>
         <TooltipTrigger asChild>
-          <Button variant="secondary">
-            <Plus />
-          </Button>
+          <div className="my-6">
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
+            </Button>
+          </div>
         </TooltipTrigger>
-        <TooltipContent side="top">
+        <TooltipContent type={args.type} side={args.side}>
           <p>Add to library</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
   ),
-  args: {},
+  args: {
+    type: 'outline',
+    side: 'top',
+  },
+  argTypes: {
+    type: {
+      control: 'radio',
+      options: ['outline', 'fill'],
+      description:
+        'Use the `type` prop to define the look and feel of the tooltip',
+      table: {
+        defaultValue: { summary: 'outline' },
+        type: { summary: null },
+      },
+    },
+    side: {
+      control: 'select',
+      options: ['top', 'bottom', 'left', 'right'],
+      description:
+        'Use the `side` prop to define the direction in which the tooltip will open',
+      table: {
+        defaultValue: { summary: 'top' },
+        type: { summary: null },
+      },
+    },
+  },
 };
 
 export const Fill: Story = {
   render: (args) => (
     <TooltipProvider>
-      <Tooltip {...args}>
+      <Tooltip>
         <TooltipTrigger asChild>
-          <Button variant="secondary"><Plus/></Button>
+          <div className="my-6">
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
+            </Button>
+          </div>
         </TooltipTrigger>
-        <TooltipContent style="fill" side="top">
+        <TooltipContent type={args.type} side={args.side}>
           <p>Add to library</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
   ),
-  args: {},
+  args: {
+    type: 'fill',
+    side: 'top',
+  },
+  argTypes: {
+    type: {
+      control: 'radio',
+      options: ['outline', 'fill'],
+      table: {
+        defaultValue: { summary: 'outline' },
+        type: { summary: null },
+      },
+    },
+    side: {
+      control: 'select',
+      options: ['top', 'bottom', 'left', 'right'],
+      table: {
+        defaultValue: { summary: 'top' },
+        type: { summary: null },
+      },
+    },
+  },
+};
+
+
+export const Side: Story = {
+  render: (args) => (
+    <div className="my-6 grid justify-items-center gap-6 sm:flex">
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent side="top">
+            <p>Add to library</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent side="bottom">
+            <p>Add to library</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent side="left">
+            <p>Add to library</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Button variant="secondary" icon={true}>
+              <FilePlus />
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent side="right">
+            <p>Add to library</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+    </div>
+  ),
+  args: {
+    type: 'outline',
+  },
+  argTypes: {
+    type: {
+      control: 'radio',
+      options: ['outline', 'fill'],
+      table: {
+        defaultValue: { summary: 'outline' },
+        type: { summary: null },
+      },
+    },
+    side: { table: { disable: true } },
+  },
 };

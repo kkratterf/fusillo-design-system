@@ -13,14 +13,14 @@ A floating, non-actionable label used to explain a user interface element or fea
     ```js copy 
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
-    import { Plus } from "lucide-react" 
+    import { FilePlus } from "lucide-react" 
     
     export function TooltipDemo() {
       return (
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button variant="secondary"><Plus /></Button>
+              <Button variant="secondary" icon={true}><FilePlus /></Button>
             </TooltipTrigger>
             <TooltipContent>
               <p>Add to library</p>
@@ -63,48 +63,48 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
     <TooltipOutline />
   </Tabs.Tab>
   <Tabs.Tab>
-```js copy 
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
-import { Button } from "@/components/button"
-import { Plus } from "lucide-react" 
- 
-export function TooltipDemo() {
-  return (
-    <TooltipProvider>
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <Button variant="secondary"><Plus /></Button>
-        </TooltipTrigger>
-        <TooltipContent>
-          <p>Add to library</p>
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
-  )
-}
-```
-  </Tabs.Tab>
-</Tabs>
-
-### Filled
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <TooltipFilled />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy 
+    ```js copy {12} /type="outline"/
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
-    import { Plus } from "lucide-react" 
+    import { FilePlus } from "lucide-react" 
     
     export function TooltipDemo() {
       return (
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button variant="secondary"><Plus /></Button>
+              <Button variant="secondary" icon={true}><FilePlus /></Button>
             </TooltipTrigger>
-            <TooltipContent style="fill">
+            <TooltipContent type="outline">
+              <p>Add to library</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Fill
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TooltipFilled />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {12} /type="fill"/
+    import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
+    import { Button } from "@/components/button"
+    import { FilePlus } from "lucide-react" 
+    
+    export function TooltipDemo() {
+      return (
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button variant="secondary" icon={true}><FilePlus /></Button>
+            </TooltipTrigger>
+            <TooltipContent type="fill">
               <p>Add to library</p>
             </TooltipContent>
           </Tooltip>
@@ -121,10 +121,10 @@ export function TooltipDemo() {
     <TooltipSide />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {13, 23, 33, 43} /side/
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
-    import { Plus } from "lucide-react" 
+    import { FilePlus } from "lucide-react" 
     
     export function TooltipDemo() {
       return (
@@ -132,7 +132,7 @@ export function TooltipDemo() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="secondary"><Plus /></Button>
+                <Button variant="secondary" icon={true}><FilePlus /></Button>
               </TooltipTrigger>
               <TooltipContent side="top">
                 <p>Add to library</p>
@@ -142,7 +142,7 @@ export function TooltipDemo() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="secondary"><Plus /></Button>
+                <Button variant="secondary" icon={true}><FilePlus /></Button>
               </TooltipTrigger>
               <TooltipContent side="bottom">
                 <p>Add to library</p>
@@ -152,7 +152,7 @@ export function TooltipDemo() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="secondary"><Plus /></Button>
+                <Button variant="secondary" icon={true}><FilePlus /></Button>
               </TooltipTrigger>
               <TooltipContent side="left">
                 <p>Add to library</p>
@@ -162,7 +162,7 @@ export function TooltipDemo() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="secondary"><Plus /></Button>
+                <Button variant="secondary" icon={true}><FilePlus /></Button>
               </TooltipTrigger>
               <TooltipContent side="right">
                 <p>Add to library</p>

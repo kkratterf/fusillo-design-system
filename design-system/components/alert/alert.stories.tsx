@@ -1,7 +1,7 @@
 // Import core
 import { Meta, StoryObj } from '@storybook/react';
 // Import third parts
-import { AlertCircle, Terminal } from 'lucide-react';
+import { AlertTriangle, BrainCircuit, CheckCircle, InfoIcon, Megaphone, XCircle } from 'lucide-react';
 // Import customs
 import { Alert, AlertIcon, AlertDescription, AlertTitle } from './';
 
@@ -11,9 +11,14 @@ const meta: Meta<typeof Alert> = {
   tags: ['autodocs'],
   argTypes: {
     status: {
+      control: 'select',
       options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
-      control: { type: 'select' },
-      description: 'There are 6 types of status:',
+      description:
+        'Use the `status` prop to define the type of message communicated by the alert',
+      table: {
+        defaultValue: { summary: 'default' },
+        type: { summary: null },
+      },
     },
   },
   parameters: {
@@ -37,11 +42,12 @@ export const Default: Story = {
   render: (args) => (
     <Alert {...args}>
       <AlertIcon>
-        <Terminal />
+        <Megaphone />
       </AlertIcon>
-      <AlertTitle>Heads up!</AlertTitle>
+      <AlertTitle>Notice</AlertTitle>
       <AlertDescription>
-        You can add components to your app using the cli.
+        This is a general notification for your attention. It provides neutral
+        information or basic reminders for everyday tasks.
       </AlertDescription>
     </Alert>
   ),
@@ -54,11 +60,12 @@ export const Danger: Story = {
   render: (args) => (
     <Alert {...args}>
       <AlertIcon>
-        <AlertCircle />
+        <XCircle />
       </AlertIcon>
-      <AlertTitle>Error</AlertTitle>
+      <AlertTitle>Error Detected!</AlertTitle>
       <AlertDescription>
-        Your session has expired. Please log in again.
+        Critical issue encountered! Please address this error immediately to
+        prevent system failure or data loss.
       </AlertDescription>
     </Alert>
   ),
@@ -71,11 +78,12 @@ export const Warning: Story = {
   render: (args) => (
     <Alert {...args}>
       <AlertIcon>
-        <AlertCircle />
+        <AlertTriangle />
       </AlertIcon>
-      <AlertTitle>Error</AlertTitle>
+      <AlertTitle>Caution Advised</AlertTitle>
       <AlertDescription>
-        Your session has expired. Please log in again.
+        Be cautious! There are certain risks associated with this action. Review
+        and proceed with care.
       </AlertDescription>
     </Alert>
   ),
@@ -88,11 +96,12 @@ export const Success: Story = {
   render: (args) => (
     <Alert {...args}>
       <AlertIcon>
-        <AlertCircle />
+        <CheckCircle />
       </AlertIcon>
-      <AlertTitle>Error</AlertTitle>
+      <AlertTitle>Operation Successful</AlertTitle>
       <AlertDescription>
-        Your session has expired. Please log in again.
+        The action was completed successfully! Your changes have been saved or
+        the process has finished without issues.
       </AlertDescription>
     </Alert>
   ),
@@ -105,11 +114,12 @@ export const Info: Story = {
   render: (args) => (
     <Alert {...args}>
       <AlertIcon>
-        <AlertCircle />
+        <InfoIcon />
       </AlertIcon>
-      <AlertTitle>Error</AlertTitle>
+      <AlertTitle>Did You Know?</AlertTitle>
       <AlertDescription>
-        Your session has expired. Please log in again.
+        Here&apos;s some useful information or context about the current process or
+        section that might be helpful to you.
       </AlertDescription>
     </Alert>
   ),
@@ -122,11 +132,12 @@ export const Discovery: Story = {
   render: (args) => (
     <Alert {...args}>
       <AlertIcon>
-        <AlertCircle />
+        <BrainCircuit />
       </AlertIcon>
-      <AlertTitle>Error</AlertTitle>
+      <AlertTitle>Discover More</AlertTitle>
       <AlertDescription>
-        Your session has expired. Please log in again.
+        Explore this feature! There are additional options and functionalities
+        waiting to be uncovered that could enhance your experience.
       </AlertDescription>
     </Alert>
   ),

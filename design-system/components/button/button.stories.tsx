@@ -3,16 +3,37 @@ import type { Meta, StoryObj } from '@storybook/react';
 // Import third parts
 // Import customs
 import { Button } from './';
+import { Download, Search } from 'lucide-react';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
   component: Button,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {
+    title: {
+      description: 'Use the `title`prop to specify the text label displayed on the button.',
+      table: {
+        type: { summary: null },
+      },
+    },
+    variant: {
+      control: 'select',
+      options: ['primary', 'secondary', 'text', 'link', 'danger'],
+      description:
+        'Use the `variant` prop to define the priority of the button',
+      table: {
+        defaultValue: { summary: 'primary' },
+        type: { summary: null },
+      },
+    },
+    icon: { table: { disable: true } },
+    asChild: { table: { disable: true } },
+  },
   args: {
     title: 'Button',
-    variant: 'danger',
+    variant: 'primary',
+    icon: false,
     asChild: false,
   },
   parameters: {
@@ -35,8 +56,8 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
-  render: (args) => <Button {...args}>Button</Button>,
   args: {
+    title: 'Primary',
     variant: 'primary',
   },
   parameters: {
@@ -50,6 +71,7 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
+    title: 'Secondary',
     variant: 'secondary',
   },
   parameters: {
@@ -63,6 +85,7 @@ export const Secondary: Story = {
 
 export const Text: Story = {
   args: {
+    title: 'Text',
     variant: 'text',
   },
   parameters: {
@@ -76,6 +99,7 @@ export const Text: Story = {
 
 export const Link: Story = {
   args: {
+    title: 'Link',
     variant: 'link',
   },
   parameters: {
@@ -89,12 +113,50 @@ export const Link: Story = {
 
 export const Danger: Story = {
   args: {
+    title: 'Danger',
     variant: 'danger',
   },
   parameters: {
     docs: {
       description: {
         story: 'Cool description bro',
+      },
+    },
+  },
+};
+
+export const WithIcon: Story = {
+  render: (args) => (
+    <Button variant={args.variant}>
+      <Download />
+      Download
+    </Button>
+  ),
+  args: {
+    variant: 'primary',
+  },
+  argTypes: {
+    title: { table: { disable: true } },
+  },
+};
+
+export const Icon: Story = {
+  render: (args) => (
+    <Button {...args} icon={true}>
+      <Search />
+    </Button>
+  ),
+  args: {
+    title: undefined,
+    variant: 'secondary',
+  },
+  argTypes: {
+    title: { table: { disable: true } },
+  },
+  parameters: {
+    docs: {
+      description: {
+        story: 'Set the `icon` prop to `true` to display an icon button',
       },
     },
   },

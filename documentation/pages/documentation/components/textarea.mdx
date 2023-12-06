@@ -46,7 +46,7 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     <TextareaDefault />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy
     import { Textarea } from "@/components/textarea"
     
     export function TextareaDemo() {
@@ -62,7 +62,7 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     <TextareaDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {4} /disabled/
     import { Textarea } from "@/components/textarea"
     
     export function TextareaDemo() {
@@ -78,7 +78,7 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     <TextareaWithText />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {7,9}
     import { Textarea } from "@/components/textarea"
     import { Label } from "@/components/label"
     
@@ -142,16 +142,22 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     
       return (
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
+          <form onSubmit={form.handleSubmit(onSubmit)}>
+            <FormItem className="space-y-2">
+              <FormLabel>Name</FormLabel>
+              <FormControl>
+                <Input value="Michael Scott" />
+              </FormControl>
+            </FormItem>
             <FormField
               control={form.control}
               name="bio"
               render={({ field }) => (
-                <FormItem>
+                <FormItem className="space-y-2">
                   <FormLabel>Bio</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Tell us a little bit about yourself"
+                      placeholder="Once upon a time..."
                       className="resize-none"
                       {...field}
                     />
@@ -166,7 +172,7 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
             <Button type="submit">Submit</Button>
           </form>
         </Form>
-      )
+      );
     }
     ```
   </Tabs.Tab>

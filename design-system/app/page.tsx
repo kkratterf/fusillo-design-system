@@ -268,17 +268,19 @@ export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
-        <div className='flex items-center justify-center h-16 bg-red-300'>
+        <div className="flex items-center justify-center h-16 bg-red-300">
           <HoverCard>
             <HoverCardTrigger asChild>
               <Button variant="link">@nextjs</Button>
             </HoverCardTrigger>
-            <HoverCardContent className="w-80">
-              Hello
-            </HoverCardContent>
+            <HoverCardContent className="w-80">Hello</HoverCardContent>
           </HoverCard>
         </div>
-        <Button><Download/>Download</Button>
+        <Button>
+          <Download />
+          Download
+        </Button>
+        <Button title='Download' />
         <Menubar>
           <MenubarMenu>
             <MenubarTrigger>File</MenubarTrigger>

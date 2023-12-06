@@ -8,16 +8,21 @@ const meta: Meta<typeof Avatar> = {
   title: 'Components/Avatar',
   component: Avatar,
   tags: ['autodocs'],
-  args: {
-    size: 'lg',
-  },
   argTypes: {
     size: {
+      control: 'select',
       options: ['xs', 'sm', 'md', 'lg', 'xl'],
-      control: { type: 'select' },
-      description: 'There are 5 size available:',
+      description:
+        'Use the `size` prop to define the dimention of the avatar',
+      table: {
+        defaultValue: { summary: 'lg' },
+        type: { summary: null },
+      },
     },
     asChild: { table: { disable: true } },
+  },
+  args: {
+    size: 'lg',
   },
   parameters: {
     layout: 'centered',
@@ -104,4 +109,12 @@ export const Fallback: Story = {
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'The `AvatarFallback` is an element that renders when the image hasn&apos;t loaded.',
+      },
+    },
+  },
 };

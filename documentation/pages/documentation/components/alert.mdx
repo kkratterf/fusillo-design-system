@@ -54,13 +54,13 @@ Avoid overusing alerts for information that is not crucial or does not require i
     <AlertDefault />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6} /status="default"/
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
     import { Megaphone } from "lucide-react" 
 
     export function AlertDemo() {
       return (
-        <Alert>
+        <Alert status="default">
           <AlertIcon>
             <Megaphone />
           </AlertIcon>
@@ -81,7 +81,7 @@ Avoid overusing alerts for information that is not crucial or does not require i
     <AlertDanger />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6} /status="danger"/
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
     import { XCircle } from "lucide-react" 
 
@@ -108,7 +108,7 @@ Avoid overusing alerts for information that is not crucial or does not require i
     <AlertWarning />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6} /status="warning"/
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
     import { AlertTriangle } from "lucide-react" 
 
@@ -135,7 +135,7 @@ Avoid overusing alerts for information that is not crucial or does not require i
     <AlertSuccess />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6} /status="success"/
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
     import { CheckCircle } from "lucide-react" 
 
@@ -162,7 +162,7 @@ Avoid overusing alerts for information that is not crucial or does not require i
     <AlertInfo />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6} /status="info"/
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
     import { Info } from "lucide-react" 
 
@@ -189,7 +189,7 @@ Avoid overusing alerts for information that is not crucial or does not require i
     <AlertDiscovery />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {6} /status="discovery"/
     import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
     import { BrainCircuit } from "lucide-react" 
 
