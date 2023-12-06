@@ -26,6 +26,7 @@ import {
   UserPlus,
   Users,
   CalendarDays,
+  Download,
 } from 'lucide-react';
 import {
   Sheet,
@@ -277,6 +278,7 @@ export default function Home() {
             </HoverCardContent>
           </HoverCard>
         </div>
+        <Button><Download/>Download</Button>
         <Menubar>
           <MenubarMenu>
             <MenubarTrigger>File</MenubarTrigger>

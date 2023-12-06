@@ -21,9 +21,14 @@ const buttonVariants = cva(
         link: 'button-link',
         danger: 'button-danger',
       },
+      icon: {
+        false: '',
+        true: 'icon-button',
+      }
     },
     defaultVariants: {
       variant: 'primary',
+      icon: false,
     },
   }
 );
@@ -37,7 +42,7 @@ export interface ButtonProps
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
-    { className, variant, asChild = false, title, ...props },
+    { className, variant, icon, asChild = false, title, ...props },
     ref
   ) => {
     const Comp = asChild ? Slot : 'button';
@@ -45,7 +50,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     return (
       <Comp
-        className={cn(buttonVariants({ variant, className }))}
+        className={cn(buttonVariants({ variant, icon, className }))}
         ref={ref}
         {...props}
       >
