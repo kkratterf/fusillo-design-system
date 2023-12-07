@@ -1,0 +1,53 @@
+import Preview from './preview.tsx';
+import { Input } from 'design-system/components/input';
+import { Label } from 'design-system/components/label';
+import { Button } from 'design-system/components/button';
+import { InputFormDemo } from './input-form.tsx'
+
+export const InputPreview = () => (
+  <Preview>
+    <Input type="email" placeholder="Email" />
+  </Preview>
+);
+
+export const InputDefault = () => (
+  <Preview>
+    <Input type="email" placeholder="Email" />
+  </Preview>
+);
+
+export const InputFile = () => (
+  <Preview>
+    <Input type="file" />
+  </Preview>
+);
+
+export const InputDisabled = () => (
+  <Preview>
+    <Input placeholder="Email" disabled/>
+  </Preview>
+);
+
+export const InputWithLabel = () => (
+  <Preview>
+    <div className="grid w-full max-w-sm items-center gap-3">
+      <Label htmlFor="email">Email</Label>
+      <Input type="email" id="email" placeholder="Email" />
+    </div>
+  </Preview>
+);
+
+export const InputWithButton = () => (
+  <Preview>
+    <div className="flex w-full max-w-sm items-center space-x-2">
+      <Input type="email" placeholder="Email" />
+      <Button type="submit">Subscribe</Button>
+    </div>
+  </Preview>
+);
+
+export const InputWithForm = () => (
+  <Preview>
+    <InputFormDemo />
+  </Preview>
+);

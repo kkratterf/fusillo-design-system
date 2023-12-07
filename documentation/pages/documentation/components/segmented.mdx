@@ -1,7 +1,18 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+
 # ❖ Segmented
 
 Used to organize content by grouping similar information on the same area.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -14,3 +25,27 @@ This component is often used to switch between different views, filters, or mode
 - **Filtering content**: Employ Segmented Controls to filter content on a page, such as sorting items by price or date.
 
 Avoid using Segmented Controls when the options represent a workflow or a process with sequential steps; in such cases, a stepper or progress indicator might be more appropriate.
+
+
+
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-tabs--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8882&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+</Cards>  
+
+## Accessibility
+
+### Keyboard interactions
+
+<TabsAccessibility />
