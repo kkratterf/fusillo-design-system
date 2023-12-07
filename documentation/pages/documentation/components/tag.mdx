@@ -1,7 +1,29 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { TagPreview, TagDefault, TagBrand, TagDanger, TagWarning, TagSuccess, TagInfo, TagDiscovery  } from '../../../components/components-tag.mdx'
+
 # ❖ Tag
 
 Displays an element for categorizing or markup.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Tag } from "@/components/tag";
+    import { Umbrella } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag>
+                <Umbrella /> Umbrella
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 The Tag component is a small label used to categorize or mark items with key information that enables quick recognition and navigation. 
@@ -16,3 +38,174 @@ Tags can encapsulate short pieces of text, such as keywords, statuses, or descri
 - **Status indication**: Tags are effective for showing the status of items, like 'Completed', 'Pending', or 'New', providing a quick visual reference.
 
 Avoid using Tags for long or complex information that would be better served by a different UI element like a Tooltip or a dedicated text field. Tags should be concise to improve legibility and usability.
+
+## Examples
+
+### Default
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagDefault />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="default"/
+    import { Tag } from "@/components/tag";
+    import { Umbrella } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="default">
+                <Umbrella /> Umbrella
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Brand
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagBrand />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="brand"/ 
+    import { Tag } from "@/components/tag";
+    import { Heart } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="brand">
+                <Heart /> Favourite
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Danger
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagDanger />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="danger"/ 
+    import { Tag } from "@/components/tag";
+    import { XCircle } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="danger">
+                <XCircle /> Failer
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Warning
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagWarning />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="warning"/ 
+    import { Tag } from "@/components/tag";
+    import { AlertTriangle } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="warning">
+                <AlertTriangle /> Caution
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Success
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagSuccess />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="success"/ 
+    import { Tag } from "@/components/tag";
+    import { CheckCircle } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="success">
+                <CheckCircle /> Completed
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Information
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagInfo />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="info"/ 
+    import { Tag } from "@/components/tag";
+    import { Loader } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="info">
+                <Loader /> Process
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Discovery
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagDiscovery />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="discovery"/ 
+    import { Tag } from "@/components/tag";
+    import { BrainCircuit } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag status="discovery">
+                <BrainCircuit /> New feature
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-tag--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=635%3A3323&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+</Cards>  

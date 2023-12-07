@@ -35,7 +35,7 @@ const FormSchema = z.object({
     }),
 });
 
-const  TextareaFormDemo = (args: any) => {
+const TextareaFormDemo = (args: any) => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -100,7 +100,17 @@ const meta: Meta<typeof Textarea> = {
   tags: ['autodocs'],
   argTypes: {
     placeholder: {
-      description: 'Set the `placeholder` property to guide users in filling the textarea',
+      description:
+        'Set the `placeholder` property to guide users in filling the textarea',
+    },
+    disabled: {
+      control: 'boolean',
+      description:
+        'Use the `disabled`props to prevent user actions when certain conditions are not met.',
+      table: {
+        defaultValue: { summary: 'false' },
+        type: { summary: null },
+      },
     },
   },
   parameters: {
@@ -124,6 +134,7 @@ export const Default: Story = {
   render: (args) => <Textarea {...args} />,
   args: {
     placeholder: 'Once upon a time...',
+    disabled: false,
   },
 };
 

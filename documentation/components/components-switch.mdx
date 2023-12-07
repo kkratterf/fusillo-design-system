@@ -1,0 +1,52 @@
+import { AccessibilityTable } from './accessibility-table.mdx';
+import { SwitchFormDemo } from './switch-form.tsx';
+import Preview from './preview.tsx';
+import { Switch } from 'design-system/components/switch';
+import { Label } from 'design-system/components/label';
+
+export const SwitchPreview = () => (
+  <Preview>
+    <Switch />
+  </Preview>
+);
+
+export const SwitchDefault = () => (
+  <Preview>
+    <Switch />
+  </Preview>
+);
+
+export const SwitchWithLabel = () => (
+  <Preview>
+    <div className="flex items-center space-x-2">
+      <Switch id="airplane-mode" />
+      <Label htmlFor="airplane-mode">Airplane Mode</Label>
+    </div>
+  </Preview>
+);
+
+export const SwitchDisabled = () => (
+  <Preview>
+    <Switch disabled/>
+  </Preview>
+);
+
+export const SwitchWithForm = () => (
+  <Preview>
+    <SwitchFormDemo />
+  </Preview>
+);
+
+export const SwitchAccessibility = () => {
+  const switchAccessibilityData = [
+    {
+      key: 'Space',
+      description: "Toggles the component's state.",
+    },
+    {
+      key: 'Enter',
+      description: "Toggles the component's state.",
+    },
+  ];
+  return <AccessibilityTable rows={switchAccessibilityData} />;
+};

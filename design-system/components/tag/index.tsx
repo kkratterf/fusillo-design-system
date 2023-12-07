@@ -10,6 +10,7 @@ const tagVariants = cva('tag-component', {
   variants: {
     status: {
       default: 'tag-default',
+      brand: 'tag-brand',
       danger: 'tag-danger',
       warning: 'tag-warning',
       success: 'tag-success',

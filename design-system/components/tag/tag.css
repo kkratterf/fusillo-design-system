@@ -20,6 +20,10 @@
         @apply bg-color-bg-container-subtle text-color-text stroke-color-icon-active;
     }
 
+    .tag-brand {
+        @apply bg-color-bg-brand-subtle text-color-text-brand-strong stroke-color-icon-brand-strong;
+    }
+
     .tag-danger {
         @apply bg-color-bg-danger-subtle text-color-text-danger-strong stroke-color-icon-danger-strong;
     }

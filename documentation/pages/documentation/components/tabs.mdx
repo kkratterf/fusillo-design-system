@@ -1,7 +1,82 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { TabsPreview, TabsDefault, TabsDefaultValue, TabsDisabled, TabsWithIcon, TabsWithCard, TabsAccessibility } from '../../../components/components-tabs.mdx'
+
 # ❖ Tabs
 
 A set of layered sections of content—known as tab panels—that are displayed one at a time.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TabsPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Button } from "@/components/button"
+    import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/card"
+    import { Input } from "@/components/input"
+    import { Label } from "@/components/label"
+    import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+ 
+    export function TabsDemo() {
+      return (
+        <Tabs defaultValue="account" className="max-w-[400px]">
+          <TabsList className="w-full">
+            <TabsTrigger value="account">Account</TabsTrigger>
+            <TabsTrigger value="password">Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">
+            <div>
+              <div>
+                <p>Account</p>
+                <p>
+                  Make changes to your account here. Click save when you&apos;re
+                  done.
+                </p>
+              </div>
+              <div>
+                <div>
+                  <Label htmlFor="name">Name</Label>
+                  <Input id="name" defaultValue="Michael Scott" />
+                </div>
+                <div>
+                  <Label htmlFor="username">Username</Label>
+                  <Input id="username" defaultValue="@mscott" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <Button>Save</Button>
+            </div>
+          </TabsContent>
+          <TabsContent value="password">
+            <div>
+              <div>
+                <p>Password</p>
+                <p>
+                  Change your password here. After saving, you'll be logged out.
+                </p>
+              </div>
+              <div>
+                <div>
+                  <Label htmlFor="current">Current password</Label>
+                  <Input id="current" type="password" />
+                </div>
+                <div>
+                  <Label htmlFor="new">New password</Label>
+                  <Input id="new" type="password" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <Button>Save</Button>
+            </div>
+          </TabsContent>
+        </Tabs>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -16,3 +91,205 @@ Each tab is typically associated with a pane of content and when a user selects 
 - **Feature or Data Segmentation**: Use Tabs to segregate different features, options, or datasets that users can navigate between without leaving the page.
 
 Avoid using Tabs for unrelated content that doesn’t require a clear separation within the same context. Tabs should not be used for primary navigation within an application where a more persistent form of navigation is needed. Additionally, avoid using Tabs when the content within each tab panel is too vast or complex, as this can lead to a cumbersome user experience.
+
+## Examples
+
+### Default
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TabsDefault />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+ 
+    export function TabsDemo() {
+      return (
+        <Tabs defaultValue="account">
+          <TabsList>
+            <TabsTrigger value="account">Account</TabsTrigger>
+            <TabsTrigger value="password">Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">Make changes to your account here.</TabsContent>
+          <TabsContent value="password">Change your password here.</TabsContent>
+        </Tabs>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Default value
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TabsDefaultValue />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {5} /defaultValue="password"/
+    import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+ 
+    export function TabsDemo() {
+      return (
+        <Tabs defaultValue="password">
+          <TabsList>
+            <TabsTrigger value="account">Account</TabsTrigger>
+            <TabsTrigger value="password">Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">Make changes to your account here.</TabsContent>
+          <TabsContent value="password">Change your password here.</TabsContent>
+        </Tabs>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Disabled
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TabsDisabled />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {8} /disabled/
+    import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+ 
+    export function TabsDemo() {
+      return (
+        <Tabs defaultValue="account">
+          <TabsList>
+            <TabsTrigger value="account">Account</TabsTrigger>
+            <TabsTrigger value="password" disabled>Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">Make changes to your account here.</TabsContent>
+          <TabsContent value="password">Change your password here.</TabsContent>
+        </Tabs>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### With icon
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TabsWithIcon />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {2,8,9} /User/ /Lock/
+    import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+    import { User, Lock } from 'lucide-react';
+ 
+    export function TabsDemo() {
+      return (
+        <Tabs defaultValue="account">
+          <TabsList>
+            <TabsTrigger value="account"><User />Account</TabsTrigger>
+            <TabsTrigger value="password"><Lock />Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">Make changes to your account here.</TabsContent>
+          <TabsContent value="password">Change your password here.</TabsContent>
+        </Tabs>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### With card
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TabsWithCard />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Button } from "@/components/button"
+    import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/card"
+    import { Input } from "@/components/input"
+    import { Label } from "@/components/label"
+    import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
+ 
+    export function TabsDemo() {
+      return (
+        <Tabs defaultValue="account">
+          <TabsList>
+            <TabsTrigger value="account">Account</TabsTrigger>
+            <TabsTrigger value="password">Password</TabsTrigger>
+          </TabsList>
+          <TabsContent value="account">
+            <Card>
+              <CardHeader>
+                <CardTitle>Account</CardTitle>
+                <CardDescription>
+                  Make changes to your account here. Click save when you're done.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div>
+                  <Label htmlFor="name">Name</Label>
+                  <Input id="name" defaultValue="Michael Scott" />
+                </div>
+                <div>
+                  <Label htmlFor="username">Username</Label>
+                  <Input id="username" defaultValue="@mscott" />
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Button>Save</Button>
+              </CardFooter>
+            </Card>
+          </TabsContent>
+          <TabsContent value="password">
+            <Card>
+              <CardHeader>
+                <CardTitle>Password</CardTitle>
+                <CardDescription>
+                  Change your password here. After saving, you'll be logged out.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div>
+                  <Label htmlFor="current">Current password</Label>
+                  <Input id="current" type="password" />
+                </div>
+                <div>
+                  <Label htmlFor="new">New password</Label>
+                  <Input id="new" type="password" />
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Button>Save</Button>
+              </CardFooter>
+            </Card>
+          </TabsContent>
+        </Tabs>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-tabs--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8882&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+</Cards>  
+
+## Accessibility
+
+### Keyboard interactions
+
+<TabsAccessibility />

@@ -1,12 +1,6 @@
-// Import core
-import { Meta, StoryObj } from '@storybook/react';
-// Import third parts
-import { User, Lock } from 'lucide-react';
-// Import customs
-import { Button } from '../button';
-import { Input } from '../input';
-import { Label } from '../label';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './';
+import { AccessibilityTable } from './accessibility-table.mdx';
+import Preview from './preview.tsx';
+import { Button } from 'design-system/components/button';
 import {
   Card,
   CardContent,
@@ -14,54 +8,23 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '../card';
+} from 'design-system/components/card';
+import { Input } from 'design-system/components/input';
+import { Label } from 'design-system/components/label';
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from 'design-system/components/tabs';
+import { User, Lock } from 'lucide-react';
 
-
-const meta: Meta<typeof Tabs> = {
-  title: 'Components/Tabs',
-  component: Tabs,
-  tags: ['autodocs'],
-  argTypes: {
-    defaultValue: {
-      control: 'radio',
-      options: ['account', 'password'],
-      description:
-        'Use the `defaultValue` prop to define the tab opened by default',
-      table: {
-        type: { summary: null },
-      },
-    },
-    asChild: { table: { disable: true } },
-  },
-  parameters: {
-    layout: 'centered',
-    docs: {
-      description: {
-        component:
-          'A set of layered sections of content—known as tab panels—that are displayed one at a time.',
-      },
-    },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8882&mode=design&t=7r34RfU06jHXNJDx-1',
-    },
-  },
-};
-export default meta;
-
-type TabsCustomProps = {
-  defaultValue?: string;
-  disabled?: boolean;
-};
-
-type Story = StoryObj<TabsCustomProps>;
-
-export const Default: Story = {
-  render: (args) => (
-    <Tabs defaultValue={args.defaultValue} className="max-w-[400px]">
+export const TabsPreview = () => (
+  <Preview>
+    <Tabs defaultValue="account" className="max-w-[400px]">
       <TabsList className="w-full">
         <TabsTrigger value="account">Account</TabsTrigger>
-        <TabsTrigger value="password" disabled={args.disabled}>Password</TabsTrigger>
+        <TabsTrigger value="password">Password</TabsTrigger>
       </TabsList>
       <TabsContent value="account" className="w-full space-y-4">
         <div className='space-y-2 mt-2'>
@@ -92,7 +55,7 @@ export const Default: Story = {
           <div className="space-y-2">
             <p className="title-subsection">Password</p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              Change your password here. After saving, you&apos;ll be logged out.
+              Change your password here. After saving, you'll be logged out.
             </p>
           </div>
           <div className="grid gap-2 py-4">
@@ -111,30 +74,45 @@ export const Default: Story = {
         </div>
       </TabsContent>
     </Tabs>
-  ),
-  args: {
-    defaultValue: 'account',
-    disabled: false,
-  },
-  argTypes: {
-    disabled: {
-      control: 'boolean',
-      description:
-        'Use the `disabled`props to prevent user actions when certain conditions are not met.',
-      table: {
-        defaultValue: { summary: 'false' },
-        type: { summary: null },
-      },
-    },
-  },
-};
+  </Preview>
+);
 
-export const DefaultValue: Story = {
-  render: (args) => (
-    <Tabs defaultValue={args.defaultValue} className="w-[400px]">
+export const TabsDefault = () => (
+  <Preview>
+    <Tabs defaultValue="account" className="w-[400px]">
       <TabsList>
         <TabsTrigger value="account">Account</TabsTrigger>
-        <TabsTrigger value="password" disabled={args.disabled}>
+        <TabsTrigger value="password">Password</TabsTrigger>
+      </TabsList>
+      <TabsContent value="account">
+        Make changes to your account here.
+      </TabsContent>
+      <TabsContent value="password">Change your password here.</TabsContent>
+    </Tabs>
+  </Preview>
+);
+
+export const TabsDefaultValue = () => (
+  <Preview>
+    <Tabs defaultValue="password" className="w-[400px]">
+      <TabsList>
+        <TabsTrigger value="account">Account</TabsTrigger>
+        <TabsTrigger value="password">Password</TabsTrigger>
+      </TabsList>
+      <TabsContent value="account">
+        Make changes to your account here.
+      </TabsContent>
+      <TabsContent value="password">Change your password here.</TabsContent>
+    </Tabs>
+  </Preview>
+);
+
+export const TabsDisabled = () => (
+  <Preview>
+    <Tabs defaultValue="account" className="w-[400px]">
+      <TabsList>
+        <TabsTrigger value="account">Account</TabsTrigger>
+        <TabsTrigger value="password" disabled>
           Password
         </TabsTrigger>
       </TabsList>
@@ -143,43 +121,18 @@ export const DefaultValue: Story = {
       </TabsContent>
       <TabsContent value="password">Change your password here.</TabsContent>
     </Tabs>
-  ),
-  args: {
-    defaultValue: 'password',
-    disabled: false,
-  },
-};
+  </Preview>
+);
 
-export const Disabled: Story = {
-  render: (args) => (
-    <Tabs defaultValue={args.defaultValue} className="w-[400px]">
-      <TabsList>
-        <TabsTrigger value="account">Account</TabsTrigger>
-        <TabsTrigger value="password" disabled={args.disabled}>
-          Password
-        </TabsTrigger>
-      </TabsList>
-      <TabsContent value="account">
-        Make changes to your account here.
-      </TabsContent>
-      <TabsContent value="password">Change your password here.</TabsContent>
-    </Tabs>
-  ),
-  args: {
-    defaultValue: 'account',
-    disabled: true,
-  },
-};
-
-export const WithIcon: Story = {
-  render: (args) => (
-    <Tabs defaultValue={args.defaultValue} className="w-[400px]">
+export const TabsWithIcon = () => (
+  <Preview>
+    <Tabs defaultValue="account" className="w-[400px]">
       <TabsList>
         <TabsTrigger value="account">
           <User />
           Account
         </TabsTrigger>
-        <TabsTrigger value="password" disabled={args.disabled}>
+        <TabsTrigger value="password">
           <Lock />
           Password
         </TabsTrigger>
@@ -189,15 +142,11 @@ export const WithIcon: Story = {
       </TabsContent>
       <TabsContent value="password">Change your password here.</TabsContent>
     </Tabs>
-  ),
-  args: {
-    defaultValue: 'account',
-    disabled: false,
-  },
-};
+  </Preview>
+);
 
-export const WithCard: Story = {
-  render: (args) => (
+export const TabsWithCard = () => (
+  <Preview>
     <Tabs defaultValue="account" className="w-[400px]">
       <TabsList className="w-full">
         <TabsTrigger value="account">Account</TabsTrigger>
@@ -208,7 +157,7 @@ export const WithCard: Story = {
           <CardHeader>
             <CardTitle>Account</CardTitle>
             <CardDescription>
-              Make changes to your account here. Click save when you&apos;re done.
+              Make changes to your account here. Click save when you're done.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
@@ -231,7 +180,7 @@ export const WithCard: Story = {
           <CardHeader>
             <CardTitle>Password</CardTitle>
             <CardDescription>
-              Change your password here. After saving, you&apos;ll be logged out.
+              Change your password here. After saving, you'll be logged out.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
@@ -250,8 +199,36 @@ export const WithCard: Story = {
         </Card>
       </TabsContent>
     </Tabs>
-  ),
-  args: {
-    defaultValue: 'account',
-  },
+  </Preview>
+);
+
+export const TabsAccessibility = () => {
+  const tabsAccessibilityData = [
+    {
+      key: 'Tab',
+      description:
+        'When focus moves onto the tabs, focuses the active trigger. When a trigger is focused, moves focus to the active content.',
+    },
+    {
+      key: 'ArrowRight',
+      description:
+        'Moves focus to the next trigger and activates its associated content.',
+    },
+    {
+      key: 'ArrowLeft',
+      description:
+        'Moves focus to the previous trigger and activates its associated content.',
+    },
+    {
+      key: 'Home',
+      description:
+        'Moves focus to the first trigger and activates its associated content.',
+    },
+    {
+      key: 'End',
+      description:
+        'Moves focus to the last trigger and activates its associated content.',
+    },
+  ];
+  return <AccessibilityTable rows={tabsAccessibilityData} />;
 };

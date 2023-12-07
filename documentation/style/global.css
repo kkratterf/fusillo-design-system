@@ -118,7 +118,7 @@ td {
 }
 
 .cell-accessibility-key {
-  @apply w-32 font-medium;
+  @apply w-40 font-medium;
 }
 
 .cell-accessibility-description {

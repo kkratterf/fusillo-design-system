@@ -1,7 +1,30 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { SliderPreview, SliderDefault, SliderRange, SliderStep, SliderOverlap, SliderAccessibility  } from '../../../components/components-slider.mdx'
+
 # ❖ Slider
 
 An input where the user selects a value from within a given range.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <SliderPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Slider } from "@/components/slider"
+ 
+    export function SliderDemo() {
+        return (
+            <Slider
+              defaultValue={[25]}
+              max={100}
+              step={1}
+            />
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -15,3 +38,128 @@ It's a user-friendly alternative to entering a number and is used for settings t
 - **Visual representation of range**: Sliders give a visual representation of the range of possible values and the current position within that range, making them useful for filters like price ranges on e-commerce sites.
 
 Avoid using Sliders for binary inputs, precise value entry (where a text box or a spin button would be more appropriate), or very large ranges where a Slider would be too sensitive to practical adjustments. Additionally, it's not ideal for situations where the exact value needs to be known or entered, as the thumb position might not provide sufficient precision.
+
+## Examples
+
+### Default
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <SliderDefault />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Slider } from "@/components/slider"
+ 
+    export function SliderDemo() {
+        return (
+            <Slider
+              defaultValue={[25]}
+              max={100}
+              step={1}
+            />
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Range
+
+Add multiple `values` to create a range slider.
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <SliderRange />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /[25, 75]/
+    import { Slider } from "@/components/slider"
+ 
+    export function SliderDemo() {
+        return (
+            <Slider
+              defaultValue={[25, 75]}
+              max={100}
+              step={1}
+            />
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Step size
+
+Use the `step` prop to increase the stepping interval.
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <SliderStep />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {8} /step/
+    import { Slider } from "@/components/slider"
+ 
+    export function SliderDemo() {
+        return (
+            <Slider
+              defaultValue={[50]}
+              max={100}
+              step={10}
+            />
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Prevent thumb overlap
+
+Use `minStepsBetweenThumbs` to avoid thumbs with equal values.
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <SliderOverlap />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {9} /minStepsBetweenThumbs/
+    import { Slider } from "@/components/slider"
+ 
+    export function SliderDemo() {
+        return (
+            <Slider
+              defaultValue={[25, 75]}
+              step={10}
+              max={100}
+              minStepsBetweenThumbs={1}
+            />
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-slider--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8879&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+</Cards>  
+
+## Accessibility
+
+Adheres to the `slider` [WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/).
+
+### Keyboard interactions
+
+<SliderAccessibility />

@@ -16,7 +16,7 @@
     }
 
     .tabs-trigger {
-        @apply inline-flex items-center border-b-2 border-transparent justify-center whitespace-nowrap px-3 py-1 h-9 body-base-medium ring-offset-color-bg-layout transition-all focus-visible:outline-none focus-visible:rounded-radius focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:border-b-2 data-[state=active]:border-color-border-brand data-[state=active]:text-color-text-brand data-[state=active]:focus-visible:border-0;
+        @apply inline-flex items-center border-b-2 gap-2 border-transparent justify-center whitespace-nowrap px-3 py-1 h-9 body-base-medium ring-offset-color-bg-layout transition-all focus-visible:outline-none focus-visible:rounded-radius focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:border-b-2 data-[state=active]:border-color-border-brand data-[state=active]:text-color-text-brand data-[state=active]:focus-visible:border-0 [&>svg]:w-4 [&>svg]:h-4;
     }
 
     .tabs-content {
