@@ -7,7 +7,7 @@ import { DialogProps } from '@radix-ui/react-dialog';
 import { Command as CommandPrimitive } from 'cmdk';
 import { Search } from 'lucide-react';
 // Import customs
-import { cn } from "../../lib/utils"
+import { cn } from "../../lib/twMerge"
 import { Dialog, DialogContent } from "../dialog"
 import './command.css'
 

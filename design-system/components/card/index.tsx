@@ -2,7 +2,7 @@
 import * as React from 'react';
 // Import third parts
 // Import customs
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 import './card.css';
 
 const Card = React.forwardRef<

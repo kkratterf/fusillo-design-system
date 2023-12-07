@@ -4,7 +4,7 @@
 import * as React from 'react';
 // Import third parts
 // Import customs
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 import './textarea.css';
 
 export interface TextareaProps

@@ -6,7 +6,7 @@ import * as React from 'react';
 import { format } from 'date-fns';
 import { Calendar as CalendarIcon } from 'lucide-react';
 // Import customs
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 import { Button } from '@/components/button';
 import { Calendar } from '@/components/calendar';
 import {

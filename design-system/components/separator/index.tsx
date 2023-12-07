@@ -5,7 +5,7 @@ import * as React from 'react';
 // Import third parts
 import * as SeparatorPrimitive from '@radix-ui/react-separator';
 // Import customs
-import { cn } from "../../lib/utils"
+import { cn } from "../../lib/twMerge"
 import './separator.css'
 
 

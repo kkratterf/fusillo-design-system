@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 // Import third parts
 import { BellRing, Check } from 'lucide-react';
 // Import customs
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 import { Button } from '../button';
 import {
   Card,

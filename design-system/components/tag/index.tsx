@@ -3,7 +3,7 @@ import * as React from 'react';
 // Import third parts
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 import './tag.css';
 
 const tagVariants = cva('tag-component', {

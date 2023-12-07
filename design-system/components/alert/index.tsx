@@ -6,7 +6,7 @@ import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
 import './alert.css';
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 
 
 const alertVariants = cva('alert-component', {

@@ -5,7 +5,7 @@ import * as React from 'react';
 // Import third parts
 import * as HoverCardPrimitive from '@radix-ui/react-hover-card';
 // Import customs
-import { cn } from "../../lib/utils"
+import { cn } from "../../lib/twMerge"
 import './hover-card.css'
 
 

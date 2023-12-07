@@ -11,6 +11,7 @@
   },
   "aliases": {
     "components": "@/components",
-    "utils": "@/lib/utils"
+    "data-visualization": "@/data-visualization",
+    "utils": "@/lib/twMerge"
   }
 }

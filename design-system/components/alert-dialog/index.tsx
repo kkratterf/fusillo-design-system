@@ -5,7 +5,7 @@ import * as React from 'react';
 // Import third parts
 import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog';
 // Import customs
-import { cn } from "../../lib/utils"
+import { cn } from "../../lib/twMerge"
 import { buttonVariants } from "../button"
 import './alert-dialog.css';
 

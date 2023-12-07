@@ -12,7 +12,7 @@ import {
   useFormContext,
 } from 'react-hook-form';
 // Import customs
-import { cn } from '../../lib/utils';
+import { cn } from '../../lib/twMerge';
 import { Label } from '../label';
 import './form.css'
 

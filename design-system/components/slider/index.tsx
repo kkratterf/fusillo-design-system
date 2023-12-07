@@ -5,7 +5,7 @@ import * as React from 'react';
 // Import third parts
 import * as SliderPrimitive from '@radix-ui/react-slider';
 // Import customs
-import { cn } from "../../lib/utils"
+import { cn } from "../../lib/twMerge"
 import './slider.css'
 
 
