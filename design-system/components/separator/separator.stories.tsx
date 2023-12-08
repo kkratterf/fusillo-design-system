@@ -43,13 +43,13 @@ export const Default: Story = {
   render: (args) => (
     <div>
       <div className="space-y-1">
-        <h4 className="text-md font-bold">{logo.ConfigName}</h4>
-        <p className="text-sm text-slate-500 dark:text-slate-400">
+        <h4 className="body-large-semibold">{logo.ConfigName}</h4>
+        <p className="body-base text-color-text-description">
           Crafting inclusive experiences for everyone
         </p>
       </div>
       <Separator {...args} orientation="horizontal" className="my-4" />
-      <div className="flex h-5 items-center space-x-4 text-sm">
+      <div className="flex h-6 items-center space-x-4 body-base">
         <div>Blog</div>
         <Separator {...args} orientation="vertical" />
         <div>Docs</div>
@@ -66,9 +66,9 @@ export const Default: Story = {
 export const Horizontal: Story = {
   render: (args) => (
     <div>
-      <h4 className="text-md font-bold">{logo.ConfigName}</h4>
+      <h4 className="body-large-semibold">{logo.ConfigName}</h4>
       <Separator {...args} className="my-4" />
-      <p className="text-sm text-slate-500 dark:text-slate-400">
+      <p className="body-base text-color-text-description">
         Crafting inclusive experiences for everyone
       </p>
     </div>
@@ -83,7 +83,7 @@ export const Horizontal: Story = {
 
 export const Vertical: Story = {
   render: (args) => (
-    <div className="flex h-5 items-center space-x-4 text-sm">
+    <div className="flex h-6 items-center space-x-4 body-base">
       <div>Blog</div>
       <Separator {...args} orientation="vertical" />
       <div>Docs</div>

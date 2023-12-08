@@ -79,11 +79,11 @@ const works: Artwork[] = [
 
 export const Horizontal: Story = {
   render: (args) => (
-    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded-md border">
+    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded-radius border border-color-border-primary">
       <div className="flex w-max space-x-4 p-4">
         {works.map((artwork) => (
           <figure key={artwork.artist} className="shrink-0">
-            <div className="overflow-hidden rounded-md">
+            <div className="overflow-hidden rounded-radius">
               <Image
                 src={artwork.art}
                 alt={`Photo by ${artwork.artist}`}
@@ -92,9 +92,9 @@ export const Horizontal: Story = {
                 height={400}
               />
             </div>
-            <figcaption className="pt-2 text-xs text-muted-foreground">
+            <figcaption className="pt-2 body-small text-color-text-description">
               Photo by{' '}
-              <span className="font-semibold text-foreground">
+              <span className="font-semibold text-color-text">
                 {artwork.artist}
               </span>
             </figcaption>

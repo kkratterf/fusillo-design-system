@@ -67,7 +67,7 @@ export const Default: Story = {
         <div className='space-y-2 mt-2'>
           <div className="space-y-2">
             <p className="title-subsection">Account</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="body-base text-color-text-description">
               Make changes to your account here. Click save when you&apos;re
               done.
             </p>
@@ -91,7 +91,7 @@ export const Default: Story = {
         <div className='space-y-2 mt-2'>
           <div className="space-y-2">
             <p className="title-subsection">Password</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="body-base text-color-text-description">
               Change your password here. After saving, you&apos;ll be logged out.
             </p>
           </div>
