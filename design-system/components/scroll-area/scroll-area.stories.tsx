@@ -1,9 +1,10 @@
 // Import core
 import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
+import Image from 'next/image';
 // Import third parts
 // Import customs
-import { ScrollArea } from './';
+import { ScrollArea, ScrollBar } from './';
 import { Separator } from '../separator';
 
 
@@ -11,31 +12,96 @@ const meta: Meta<typeof ScrollArea> = {
   title: 'Components/ScrollArea',
   component: ScrollArea,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {
+    asChild: { table: { disable: true } },
+  },
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component:
+          'Augments native scroll functionality for custom, cross-browser styling.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8874&mode=design&t=BNqih1pZMuav038B-1',
+    },
+  },
 };
 export default meta;
 
 type Story = StoryObj<typeof ScrollArea>;
 
-export const Base: Story = {
+export const Default: Story = {
   render: (args) => (
     <ScrollArea
       {...args}
-      className="h-20 w-48 rounded-md border border-slate-100 dark:border-slate-700"
+      className="h-40 w-48 rounded-radius border border-color-border-primary"
     >
       <div className="p-4">
-        <h4 className="mb-4 text-sm font-medium leading-none">Tags</h4>
+        <h4 className="mb-4 body-base-medium leading-none">Tags</h4>
         {Array.from({ length: 50 })
           .map((_, i, a) => `v1.2.0-beta.${a.length - i}`)
           .map((tag) => (
             <React.Fragment key={tag}>
-              <div className="text-sm" key={tag}>
+              <div className="body-base" key={tag}>
                 {tag}
               </div>
               <Separator className="my-2" />
             </React.Fragment>
           ))}
       </div>
+    </ScrollArea>
+  ),
+  args: {},
+};
+
+export interface Artwork {
+  artist: string;
+  art: string;
+}
+
+const works: Artwork[] = [
+  {
+    artist: 'Ornella Binni',
+    art: 'https://images.unsplash.com/photo-1465869185982-5a1a7522cbcb?auto=format&fit=crop&w=300&q=80',
+  },
+  {
+    artist: 'Tom Byrom',
+    art: 'https://images.unsplash.com/photo-1548516173-3cabfa4607e9?auto=format&fit=crop&w=300&q=80',
+  },
+  {
+    artist: 'Vladimir Malyavko',
+    art: 'https://images.unsplash.com/photo-1494337480532-3725c85fd2ab?auto=format&fit=crop&w=300&q=80',
+  },
+];
+
+export const Horizontal: Story = {
+  render: (args) => (
+    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded-md border">
+      <div className="flex w-max space-x-4 p-4">
+        {works.map((artwork) => (
+          <figure key={artwork.artist} className="shrink-0">
+            <div className="overflow-hidden rounded-md">
+              <Image
+                src={artwork.art}
+                alt={`Photo by ${artwork.artist}`}
+                className="aspect-[3/4] h-fit w-fit object-cover"
+                width={300}
+                height={400}
+              />
+            </div>
+            <figcaption className="pt-2 text-xs text-muted-foreground">
+              Photo by{' '}
+              <span className="font-semibold text-foreground">
+                {artwork.artist}
+              </span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+      <ScrollBar orientation="horizontal" />
     </ScrollArea>
   ),
   args: {},

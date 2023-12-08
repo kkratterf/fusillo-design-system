@@ -1,7 +1,62 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { DialogPreview, DialogAccessibility } from '../../../components/components-dialog.mdx'
+
 # ❖ Dialog
 
 A window overlaid on either the primary window or another dialog window, rendering the content underneath inert.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <DialogPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Button } from "@/components/button"
+    import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/dialog"
+    import { Input } from "@/components/input"
+    import { Label } from "@/components/label"
+    
+    export function DialogDemo() {
+        return (
+            <Dialog>
+                <DialogTrigger asChild>
+                    <Button variant="secondary">Edit Profile</Button>
+                </DialogTrigger>
+                <DialogContent>
+                    <DialogHeader>
+                    <DialogTitle>Edit profile</DialogTitle>
+                    <DialogDescription>
+                        Make changes to your profile here. Click save when you're done.
+                    </DialogDescription>
+                    </DialogHeader>
+                    <div>
+                        <div>
+                            <Label htmlFor="name">
+                            Name
+                            </Label>
+                            <Input
+                            id="name"
+                            defaultValue="Michael Scott"
+                            />
+                        </div>
+                        <div>
+                            <Label htmlFor="username">Username</Label>
+                            <Input
+                            id="username"
+                            defaultValue="@mscott"
+                            />
+                        </div>
+                    </div>
+                    <DialogFooter>
+                        <Button type="submit">Save changes</Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -15,3 +70,117 @@ These dialogs disable interaction with the underlying content until the overlay 
 - **Focused tasks**: Utilize Dialogs to create a focused environment for the user to perform a specific task without distractions, such as filling out a form or configuring settings.
 
 Avoid using Dialogs for non-critical information that could be presented less intrusively. Do not overuse Dialogs, as they can be disruptive and frustrating if not used sparingly and appropriately.
+
+## Examples
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <DialogPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Button } from "@/components/button"
+    import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/dialog"
+    import { Input } from "@/components/input"
+    import { Label } from "@/components/label"
+    
+    export function DialogDemo() {
+        return (
+            <Dialog>
+                <DialogTrigger asChild>
+                    <Button variant="secondary">Edit Profile</Button>
+                </DialogTrigger>
+                <DialogContent>
+                    <DialogHeader>
+                    <DialogTitle>Edit profile</DialogTitle>
+                    <DialogDescription>
+                        Make changes to your profile here. Click save when you're done.
+                    </DialogDescription>
+                    </DialogHeader>
+                    <div>
+                        <div>
+                            <Label htmlFor="name">
+                            Name
+                            </Label>
+                            <Input
+                            id="name"
+                            defaultValue="Michael Scott"
+                            />
+                        </div>
+                        <div>
+                            <Label htmlFor="username">Username</Label>
+                            <Input
+                            id="username"
+                            defaultValue="@mscott"
+                            />
+                        </div>
+                    </div>
+                    <DialogFooter>
+                        <Button type="submit">Save changes</Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Default
+
+
+## Notes
+
+To activate the `Dialog` component from within a `Context Menu` or `Dropdown Menu`, you must encase the `Context Menu` or `Dropdown Menu` component in the `Dialog` component.
+
+```js copy {14-25}
+<Dialog>
+  <ContextMenu>
+    <ContextMenuTrigger>Right click</ContextMenuTrigger>
+    <ContextMenuContent>
+      <ContextMenuItem>Open</ContextMenuItem>
+      <ContextMenuItem>Download</ContextMenuItem>
+      <DialogTrigger asChild>
+        <ContextMenuItem>
+          <span>Delete</span>
+        </ContextMenuItem>
+      </DialogTrigger>
+    </ContextMenuContent>
+  </ContextMenu>
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle>Are you sure absolutely sure?</DialogTitle>
+      <DialogDescription>
+        This action cannot be undone. Are you sure you want to permanently
+        delete this file from our servers?
+      </DialogDescription>
+    </DialogHeader>
+    <DialogFooter>
+      <Button type="submit">Confirm</Button>
+    </DialogFooter>
+  </DialogContent>
+</Dialog> 
+```
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-dialog--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8863&mode=design&t=BNqih1pZMuav038B-1"
+  />
+</Cards>
+
+## Accessibility
+
+Adheres to the `Dialog` [WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/).
+
+### Keyboard interactions
+
+<DialogAccessibility />

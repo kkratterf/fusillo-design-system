@@ -1,15 +1,10 @@
 'use client';
 
-// Import core
-import { Meta, StoryObj } from '@storybook/react';
-// Import third parts
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
-// Import customs
-import { Label } from '../label';
-import { RadioGroup, RadioGroupItem } from './';
-import { Button } from '../button';
+
+import { Button } from 'design-system/components/button';
 import {
   Form,
   FormControl,
@@ -17,9 +12,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '../form';
-import { toast } from '../toast/use-toast';
-import { Toaster } from '../toast';
+} from 'design-system/components/form';
+import { RadioGroup, RadioGroupItem } from 'design-system/components/radio-group';
+import { toast } from 'design-system/components/toast/use-toast';
 
 const FormSchema = z.object({
   type: z.enum(['all', 'mentions', 'none'], {
@@ -27,7 +22,7 @@ const FormSchema = z.object({
   }),
 });
 
-const RadioGroupFormDemo = () => {
+export function RadioGroupForm() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -90,73 +85,4 @@ const RadioGroupFormDemo = () => {
       </form>
     </Form>
   );
-};
-
-const meta: Meta<typeof RadioGroup> = {
-  title: 'Components/RadioGroup',
-  component: RadioGroup,
-  tags: ['autodocs'],
-  argTypes: {
-    defaultValue: {
-      control: 'select',
-      options: ['default', 'comfortable', 'compact'],
-      description:
-        'The value of the radio item that should be checked when initially rendered.',
-      table: {
-        type: { summary: null },
-      },
-    },
-    asChild: { table: { disable: true } },
-  },
-  parameters: {
-    layout: 'centered',
-    docs: {
-      description: {
-        component:
-          'A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.',
-      },
-    },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8873&mode=design&t=BNqih1pZMuav038B-1',
-    },
-  },
-};
-export default meta;
-
-type Story = StoryObj<typeof RadioGroup>;
-
-export const Default: Story = {
-  render: (args) => (
-    <RadioGroup {...args}>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="default" id="r1" />
-        <Label htmlFor="r1">Default</Label>
-      </div>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="comfortable" id="r2" />
-        <Label htmlFor="r2">Comfortable</Label>
-      </div>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="compact" id="r3" />
-        <Label htmlFor="r3">Compact</Label>
-      </div>
-    </RadioGroup>
-  ),
-  args: {
-    defaultValue: 'comfortable',
-  },
-};
-
-export const WithForm: Story = {
-  render: (args) => (
-    <div className="grid w-full gap-3">
-      <RadioGroupFormDemo {...args} />
-      <Toaster />
-    </div>
-  ),
-  args: {},
-  argTypes: {
-    defaultValue: { table: { disable: true } },
-  },
-};
+}

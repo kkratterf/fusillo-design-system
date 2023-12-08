@@ -568,10 +568,20 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       width: {
+        40: '10rem',
         64: '16rem',
         72: '18rem',
+        80: '20rem',
+        96: '24rem',
         max: 'max-content',
         auto: 'auto',
+      },
+      height: {
+        24: '6rem',
+        40: '10rem',
+        72: '18rem',
+        80: '20rem',
+        96: '24rem',
       },
       minHeight: {
         2: 'var(--space-2)',

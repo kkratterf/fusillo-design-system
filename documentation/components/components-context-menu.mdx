@@ -1,7 +1,5 @@
-// Import core
-import type { Meta, StoryObj } from '@storybook/react';
-// Import third parts
-// Import customs
+import { AccessibilityTable } from './accessibility-table.mdx';
+import Preview from './preview.tsx';
 import {
   ContextMenu,
   ContextMenuCheckboxItem,
@@ -16,36 +14,12 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from './';
+} from "design-system/components/context-menu"
 
-
-const meta: Meta<typeof ContextMenu> = {
-  title: 'Components/ContextMenu',
-  component: ContextMenu,
-  tags: ['autodocs'],
-  argTypes: {},
-  parameters: {
-    layout: 'centered',
-    docs: {
-      description: {
-        component:
-          'Displays a menu to the user — such as a set of actions or functions — triggered by a button.',
-      },
-    },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A757&mode=design&t=BNqih1pZMuav038B-1',
-    },
-  },
-};
-export default meta;
-
-type Story = StoryObj<typeof ContextMenu>;
-
-export const Default: Story = {
-  render: (args) => (
-    <ContextMenu {...args}>
-      <ContextMenuTrigger className="flex h-[160px] w-[320px] items-center justify-center rounded-radius border border-dashed border-color-border-primary body-base">
+export const ContextMenuPreview = () => (
+  <Preview>
+    <ContextMenu>
+      <ContextMenuTrigger className="flex h-[150px] w-[300px] items-center justify-center rounded-radius border border-dashed body-base">
         Right click here
       </ContextMenuTrigger>
       <ContextMenuContent className="w-64">
@@ -83,6 +57,7 @@ export const Default: Story = {
         <ContextMenuSeparator />
         <ContextMenuRadioGroup value="michael">
           <ContextMenuLabel inset>People</ContextMenuLabel>
+          <ContextMenuSeparator />
           <ContextMenuRadioItem value="michael">
             Michael Scott
           </ContextMenuRadioItem>
@@ -90,6 +65,60 @@ export const Default: Story = {
         </ContextMenuRadioGroup>
       </ContextMenuContent>
     </ContextMenu>
-  ),
-  args: {},
+  </Preview>
+);
+
+export const ContextMenuAccessibility = () => {
+  const contextMenuAccessibilityData = [
+    {
+      key: 'Space',
+      description:
+        'Activates the focused item.',
+    },
+    {
+      key: 'Enter',
+      description:
+        'Activates the focused item.',
+    },
+    {
+      key: 'ArrowDown',
+      description:
+        'Moves focus to the next item.',
+    },
+    {
+      key: 'ArrowUp',
+      description:
+        'Moves focus to the previous item.',
+    },
+    {
+      key: 'ArrowRight',
+      description: (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">
+            ContextMenuSubTrigger
+          </code>
+          , opens the submenu.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowLeft',
+      description: (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">
+            ContextMenuSubTrigger
+          </code>
+          , closes the submenu.
+        </>
+      ),
+    },
+    {
+      key: 'Esc',
+      description:
+        'Closes the context menu',
+    },
+  ];
+  return <AccessibilityTable rows={contextMenuAccessibilityData} />;
 };
