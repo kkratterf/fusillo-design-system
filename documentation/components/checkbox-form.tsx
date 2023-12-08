@@ -1,16 +1,12 @@
-'use client'; 
+'use client';
 
-// Import core
-import type { Meta, StoryObj } from '@storybook/react';
 import Link from 'next/link';
-// Import third parts
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
-// Import customs
-import { Checkbox } from './';
-import { Label } from '../label';
+
 import { Button } from 'design-system/components/button';
+import { Checkbox } from 'design-system/components/checkbox';
 import {
   Form,
   FormControl,
@@ -21,7 +17,6 @@ import {
   FormMessage,
 } from 'design-system/components/form';
 import { toast } from 'design-system/components/toast/use-toast';
-import { Toaster } from '../toast';
 
 const items = [
   {
@@ -54,7 +49,7 @@ const FormSchema = z.object({
   mobile: z.boolean().default(false).optional(),
 });
 
-const CheckboxReactHookFormSingle = () => {
+export function CheckboxReactHookFormSingle() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -67,9 +62,7 @@ const CheckboxReactHookFormSingle = () => {
       title: 'You submitted the following values:',
       description: (
         <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">
-            {JSON.stringify(data, null, 2)}
-          </code>
+          <code className="text-color-text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
     });
@@ -113,7 +106,7 @@ const FormSchemaMultiple = z.object({
   }),
 });
 
-const CheckboxReactHookFormMultiple = () => {
+export function CheckboxReactHookFormMultiple() {
   const form = useForm<z.infer<typeof FormSchemaMultiple>>({
     resolver: zodResolver(FormSchemaMultiple),
     defaultValues: {
@@ -126,9 +119,7 @@ const CheckboxReactHookFormMultiple = () => {
       title: 'You submitted the following values:',
       description: (
         <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">
-            {JSON.stringify(data, null, 2)}
-          </code>
+          <code className="text-color-text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
     });
@@ -143,9 +134,7 @@ const CheckboxReactHookFormMultiple = () => {
           render={() => (
             <FormItem>
               <div className="mb-4">
-                <FormLabel className="body-large-medium text-color-text">
-                  Sidebar
-                </FormLabel>
+                <FormLabel className="body-large-medium text-color-text">Sidebar</FormLabel>
                 <FormDescription>
                   Select the items you want to display in the sidebar.
                 </FormDescription>
@@ -192,98 +181,3 @@ const CheckboxReactHookFormMultiple = () => {
     </Form>
   );
 }
-
-const meta: Meta<typeof Checkbox> = {
-  title: 'Components/Checkbox',
-  component: Checkbox,
-  tags: ['autodocs'],
-  argTypes: {
-    checked: {
-      control: 'boolean',
-      description: 'The controlled checked state of the checkbox.',
-      table: {
-        type: { summary: null },
-      },
-    },
-    disabled: {
-      control: 'boolean',
-      description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met.',
-      table: {
-        defaultValue: { summary: 'false' },
-        type: { summary: null },
-      },
-    },
-    asChild: { table: { disable: true } },
-  },
-  parameters: {
-    layout: 'centered',
-    docs: {
-      description: {
-        component:
-          'A control that allows a user to select one or more options from a number of choices.',
-      },
-    },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A753&mode=design&t=BNqih1pZMuav038B-1',
-    },
-  },
-};
-export default meta;
-
-type Story = StoryObj<typeof Checkbox>;
-
-export const Default: Story = {
-  render: (args) => <Checkbox id="terms-default" {...args} />,
-  args: {
-    disabled: false,
-  },
-};
-
-export const Disabled: Story = {
-  render: (args) => <Checkbox id="terms-disabled" {...args} />,
-  args: {
-    disabled: true,
-  },
-};
-
-export const WithLabel: Story = {
-  render: (args) => (
-    <div className="flex items-center space-x-2">
-      <Checkbox {...args} id="terms-label" />
-      <Label htmlFor="terms-label">Accept terms and conditions</Label>
-    </div>
-  ),
-  args: {
-    disabled: false,
-  },
-};
-
-export const WithFormSingle: Story = {
-  render: (args) => (
-    <div className="grid w-full gap-3">
-      <CheckboxReactHookFormSingle {...args} />
-      <Toaster />
-    </div>
-  ),
-  args: {},
-  argTypes: {
-    checked: { table: { disable: true } },
-    disabled: { table: { disable: true } },
-  },
-};
-
-export const WithFormMultiple: Story = {
-  render: (args) => (
-    <div className="grid w-full gap-3">
-      <CheckboxReactHookFormMultiple {...args} />
-      <Toaster />
-    </div>
-  ),
-  args: {},
-  argTypes: {
-    checked: { table: { disable: true } },
-    disabled: { table: { disable: true } },
-  },
-};

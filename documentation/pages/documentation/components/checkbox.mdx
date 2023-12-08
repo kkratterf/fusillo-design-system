@@ -1,7 +1,24 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { CheckboxPreview, CheckboxDefault, CheckboxDisabled, CheckboxWithLabel, CheckboxWithFormSingle, CheckboxWithFormMultiple, CheckboxAccessibility } from '../../../components/components-checkbox.mdx'
+
 # ❖ Checkbox
 
 A control that allows a user to select one or more options from a number of choices.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CheckboxPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Checkbox } from "@/components/checkbox"
+    
+    export function CheckboxDemo() {
+        return <Checkbox id="terms" />
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -16,3 +33,292 @@ Checkboxes are a staple in forms where users need to provide answers to yes/no q
 - **List filtering**: Checkboxes are useful in filter menus for selecting or removing multiple criteria in a search or list.
 
 Avoid using Checkboxes for actions that have an immediate effect, as users might expect to be able to undo the selection. Do not use them when only one selection is allowed from a list; in such cases, use radio buttons instead. Ensure that the Checkbox component is accessible, with labels that are programmatically associated with the checkbox inputs for screen readers.
+
+## Examples
+
+### Default
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CheckboxDefault />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Checkbox } from "@/components/checkbox"
+    
+    export function CheckboxDemo() {
+        return <Checkbox id="terms" />
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Disabled
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CheckboxDisabled />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6,7,8,9} /disabled/
+    import { Checkbox } from "@/components/checkbox"
+    
+    export function CheckboxDemo() {
+        return (
+            <div>
+                <Checkbox id="terms-1" checked />
+                <Checkbox id="terms-2" checked disabled />
+                <Checkbox id="terms-3" />
+                <Checkbox id="terms-4" disabled/>
+            </div>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### With label
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CheckboxWithLabel />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {8} /Label/
+    import { Checkbox } from "@/components/checkbox"
+    import { Label } from "@/components/label"
+    
+    export function CheckboxDemo() {
+        return (
+            <div>
+                <Checkbox id="terms" />
+                <Label htmlFor="terms">Accept terms and conditions</Label>
+            </div>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### With form
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CheckboxWithFormSingle />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    "use client"
+ 
+    import Link from "next/link"
+    import { zodResolver } from "@hookform/resolvers/zod"
+    import { useForm } from "react-hook-form"
+    import * as z from "zod"
+    
+    import { Button } from "@/components/button"
+    import { Checkbox } from "@/components/checkbox"
+    import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel } from "@/components/form"
+    import { toast } from "@/components/toast/use-toast"
+    
+    const FormSchema = z.object({
+    mobile: z.boolean().default(false).optional(),
+    })
+    
+    export function CheckboxReactHookFormSingle() {
+        const form = useForm<z.infer<typeof FormSchema>>({
+            resolver: zodResolver(FormSchema),
+            defaultValues: {
+            mobile: true,
+            },
+        })
+        
+        function onSubmit(data: z.infer<typeof FormSchema>) {
+            toast({
+                title: "You submitted the following values:",
+                description: (
+                    <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                ),
+            })
+        }
+    
+    return (
+        <Form {...form}>
+            <form onSubmit={form.handleSubmit(onSubmit)}>
+                <FormField
+                control={form.control}
+                name="mobile"
+                render={({ field }) => (
+                    <FormItem>
+                        <FormControl>
+                            <Checkbox
+                            checked={field.value}
+                            onCheckedChange={field.onChange}
+                            />
+                        </FormControl>
+                        <div>
+                            <FormLabel>
+                                Use different settings for my mobile devices
+                            </FormLabel>
+                            <FormDescription>
+                                You can manage your mobile notifications in the{" "}
+                                <Link href="/examples/forms">mobile settings</Link> page.
+                            </FormDescription>
+                        </div>
+                    </FormItem>
+                )}
+                />
+                <Button type="submit">Submit</Button>
+            </form>
+        </Form>
+    )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CheckboxWithFormMultiple />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    "use client"
+ 
+    import { zodResolver } from "@hookform/resolvers/zod"
+    import { useForm } from "react-hook-form"
+    import * as z from "zod"
+    
+    import { Button } from "@/components/button"
+    import { Checkbox } from "@/components/checkbox"
+    import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/form"
+    import { toast } from "@/components/toast/use-toast"
+    
+    const items = [
+    {
+        id: "recents",
+        label: "Recents",
+    },
+    {
+        id: "home",
+        label: "Home",
+    },
+    {
+        id: "applications",
+        label: "Applications",
+    },
+    {
+        id: "desktop",
+        label: "Desktop",
+    },
+    {
+        id: "downloads",
+        label: "Downloads",
+    },
+    {
+        id: "documents",
+        label: "Documents",
+    },
+    ] as const
+    
+    const FormSchema = z.object({
+    items: z.array(z.string()).refine((value) => value.some((item) => item), {
+        message: "You have to select at least one item.",
+    }),
+    })
+    
+    export function CheckboxReactHookFormMultiple() {
+        const form = useForm<z.infer<typeof FormSchema>>({
+            resolver: zodResolver(FormSchema),
+            defaultValues: {
+            items: ["recents", "home"],
+            },
+        })
+        
+        function onSubmit(data: z.infer<typeof FormSchema>) {
+            toast({
+                title: "You submitted the following values:",
+                description: (
+                    <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                ),
+            })
+        }
+    
+        return (
+            <Form {...form}>
+                <form onSubmit={form.handleSubmit(onSubmit)}>
+                    <FormField
+                    control={form.control}
+                    name="items"
+                    render={() => (
+                        <FormItem>
+                            <div>
+                                <FormLabel>Sidebar</FormLabel>
+                                <FormDescription>
+                                    Select the items you want to display in the sidebar.
+                                </FormDescription>
+                            </div>
+                            {items.map((item) => (
+                                <FormField
+                                key={item.id}
+                                control={form.control}
+                                name="items"
+                                render={({ field }) => {
+                                    return (
+                                    <FormItem key={item.id}>
+                                        <FormControl>
+                                            <Checkbox
+                                                checked={field.value?.includes(item.id)}
+                                                onCheckedChange={(checked) => {
+                                                return checked
+                                                    ? field.onChange([...field.value, item.id])
+                                                    : field.onChange(
+                                                        field.value?.filter(
+                                                        (value) => value !== item.id
+                                                        )
+                                                    )
+                                                }}
+                                            />
+                                        </FormControl>
+                                        <FormLabel>
+                                            {item.label}
+                                        </FormLabel>
+                                    </FormItem>
+                                    )
+                                }}
+                                />
+                            ))}
+                            <FormMessage />
+                        </FormItem>
+                    )}
+                    />
+                    <Button type="submit">Submit</Button>
+                </form>
+            </Form>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-checkbox--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A753&mode=design&t=BNqih1pZMuav038B-1"
+  />
+</Cards>  
+
+## Accessibility
+
+Adheres to the [tri-state Checkbox WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/).
+
+### Keyboard interactions
+
+<CheckboxAccessibility />

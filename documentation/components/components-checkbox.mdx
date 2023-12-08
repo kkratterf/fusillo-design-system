@@ -1,0 +1,59 @@
+import { AccessibilityTable } from './accessibility-table.mdx';
+import Preview from './preview.tsx';
+import { Checkbox } from 'design-system/components/checkbox';
+import { Label } from 'design-system/components/label';
+import { CheckboxReactHookFormSingle, CheckboxReactHookFormMultiple } from './checkbox-form.tsx'
+
+export const CheckboxPreview = () => (
+  <Preview>
+      <Checkbox id="terms-preview" />
+  </Preview>
+);
+
+export const CheckboxDefault = () => (
+  <Preview>
+      <Checkbox id="terms-default" />
+  </Preview>
+);
+
+export const CheckboxDisabled = () => (
+  <Preview>
+    <div className="flex items-center space-x-3">
+      <Checkbox id="terms-1" checked />
+      <Checkbox id="terms-2" checked disabled />
+      <Checkbox id="terms-3" />
+      <Checkbox id="terms-4" disabled/>
+    </div>
+  </Preview>
+);
+
+export const CheckboxWithLabel = () => (
+  <Preview>
+    <div className="flex items-center space-x-2">
+      <Checkbox id="terms-label" />
+      <Label htmlFor="terms-label">Accept terms and conditions</Label>
+    </div>
+  </Preview>
+);
+
+export const CheckboxWithFormSingle = () => (
+  <Preview>
+    <CheckboxReactHookFormSingle />
+  </Preview>
+);
+
+export const CheckboxWithFormMultiple = () => (
+  <Preview>
+    <CheckboxReactHookFormMultiple />
+  </Preview>
+);
+
+export const CheckboxAccessibility = () => {
+  const checkboxAccessibilityData = [
+    {
+      key: 'Space',
+      description: 'Checks/unchecks the checkbox.',
+    },
+  ];
+  return <AccessibilityTable rows={checkboxAccessibilityData} />;
+};

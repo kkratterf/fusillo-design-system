@@ -1,0 +1,64 @@
+import * as React from 'react';
+import { ChevronsUpDown } from 'lucide-react';
+import { AccessibilityTable } from './accessibility-table.mdx';
+import Preview from './preview.tsx';
+import { Button } from 'design-system/components/button';
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from 'design-system/components/collapsible';
+
+export const CollapsiblePreview = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  return (
+    <Preview>
+      <Collapsible
+        open={isOpen}
+        onOpenChange={setIsOpen}
+        className="w-[340px] space-y-2"
+      >
+        <div className="flex items-center justify-between space-x-4 px-4">
+          <p className="body-base-semibold">
+            @kkratter starred 3 repositories
+          </p>
+          <CollapsibleTrigger asChild>
+            <Button variant="text" icon={true}>
+              <ChevronsUpDown />
+              <span className="sr-only">Toggle</span>
+            </Button>
+          </CollapsibleTrigger>
+        </div>
+        <div className="rounded-radius border px-4 py-3 font-mono body-base">
+          @design-system/foundations
+        </div>
+        <CollapsibleContent className="space-y-2">
+          <div className="rounded-radius border px-4 py-3 font-mono body-base">
+           @design-system/tokens
+          </div>
+          <div className="rounded-radius border px-4 py-3 font-mono body-base">
+            @design-system/components
+          </div>
+          <div className="rounded-radius border px-4 py-3 font-mono body-base">
+            @design-system/data-visualization
+          </div>
+        </CollapsibleContent>
+      </Collapsible>
+    </Preview>
+  );
+};
+
+export const CollapsibleAccessibility = () => {
+  const collapsibleAccessibilityData = [
+    {
+      key: 'Space',
+      description: 'Opens/closes the collapsible.',
+    },
+    {
+      key: 'Enter',
+      description: 'Opens/closes the collapsible.',
+    },
+  ];
+  return <AccessibilityTable rows={collapsibleAccessibilityData} />;
+};
