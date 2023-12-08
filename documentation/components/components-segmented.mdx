@@ -1,203 +1,88 @@
 import { AccessibilityTable } from './accessibility-table.mdx';
 import Preview from './preview.tsx';
-import { Button } from 'design-system/components/button';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from 'design-system/components/card';
-import { Input } from 'design-system/components/input';
-import { Label } from 'design-system/components/label';
 import {
   Segmented,
   SegmentedContent,
   SegmentedList,
   SegmentedTrigger,
 } from 'design-system/components/segmented';
-import { User, Lock } from 'lucide-react';
+import { Grid, List } from 'lucide-react';
 
 export const SegmentedPreview = () => (
   <Preview>
-    <Segmented defaultValue="account" className="max-w-[400px]">
-      <SegmentedList className="w-full">
-        <SegmentedTrigger value="account">Account</SegmentedTrigger>
-        <SegmentedTrigger value="password">Password</SegmentedTrigger>
+    <Segmented defaultValue="grid">
+      <SegmentedList>
+        <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
+        <SegmentedTrigger value="list">List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="account" className="w-full space-y-4">
-        <div className='space-y-2 mt-2'>
-          <div className="space-y-2">
-            <p className="title-subsection">Account</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              Make changes to your account here. Click save when you&apos;re
-              done.
-            </p>
-          </div>
-          <div className="grid gap-2 py-4">
-            <div className="space-y-1">
-              <Label htmlFor="name">Name</Label>
-              <Input id="name" defaultValue="Michael Scott" />
-            </div>
-            <div className="space-y-1">
-              <Label htmlFor="username">Username</Label>
-              <Input id="username" defaultValue="@mscott" />
-            </div>
-          </div>
-        </div>
-        <div className="flex">
-          <Button>Save</Button>
-        </div>
+      <SegmentedContent value="grid">
+        Grid view.
       </SegmentedContent>
-      <SegmentedContent value="password" className="w-full space-y-4">
-        <div className='space-y-2 mt-2'>
-          <div className="space-y-2">
-            <p className="title-subsection">Password</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              Change your password here. After saving, you'll be logged out.
-            </p>
-          </div>
-          <div className="grid gap-2 py-4">
-            <div className="space-y-1">
-              <Label htmlFor="current">Current password</Label>
-              <Input id="current" type="password" />
-            </div>
-            <div className="space-y-1">
-              <Label htmlFor="new">New password</Label>
-              <Input id="new" type="password" />
-            </div>
-          </div>
-        </div>
-        <div className="flex">
-          <Button>Save</Button>
-        </div>
-      </SegmentedContent>
+      <SegmentedContent value="list">List view.</SegmentedContent>
     </Segmented>
   </Preview>
 );
 
 export const SegmentedDefault = () => (
   <Preview>
-    <Segmented defaultValue="account" className="w-[400px]">
+    <Segmented defaultValue="grid">
       <SegmentedList>
-        <SegmentedTrigger value="account">Account</SegmentedTrigger>
-        <SegmentedTrigger value="password">Password</SegmentedTrigger>
+        <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
+        <SegmentedTrigger value="list">List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="account">
-        Make changes to your account here.
+      <SegmentedContent value="grid">
+        Grid view.
       </SegmentedContent>
-      <SegmentedContent value="password">Change your password here.</SegmentedContent>
+      <SegmentedContent value="list">List view.</SegmentedContent>
     </Segmented>
   </Preview>
 );
 
 export const SegmentedDefaultValue = () => (
   <Preview>
-    <Segmented defaultValue="password" className="w-[400px]">
+    <Segmented defaultValue="list">
       <SegmentedList>
-        <SegmentedTrigger value="account">Account</SegmentedTrigger>
-        <SegmentedTrigger value="password">Password</SegmentedTrigger>
+        <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
+        <SegmentedTrigger value="list">List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="account">
-        Make changes to your account here.
+      <SegmentedContent value="grid">
+        Grid view.
       </SegmentedContent>
-      <SegmentedContent value="password">Change your password here.</SegmentedContent>
+      <SegmentedContent value="list">List view.</SegmentedContent>
     </Segmented>
   </Preview>
 );
 
 export const SegmentedDisabled = () => (
   <Preview>
-    <Segmented defaultValue="account" className="w-[400px]">
+    <Segmented defaultValue="grid">
       <SegmentedList>
-        <SegmentedTrigger value="account">Account</SegmentedTrigger>
-        <SegmentedTrigger value="password" disabled>
-          Password
-        </SegmentedTrigger>
+        <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
+        <SegmentedTrigger value="list" disabled>List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="account">
-        Make changes to your account here.
+      <SegmentedContent value="grid">
+        Grid view.
       </SegmentedContent>
-      <SegmentedContent value="password">Change your password here.</SegmentedContent>
+      <SegmentedContent value="list">List view.</SegmentedContent>
     </Segmented>
   </Preview>
 );
 
 export const SegmentedWithIcon = () => (
   <Preview>
-    <Segmented defaultValue="account" className="w-[400px]">
+    <Segmented defaultValue="grid">
       <SegmentedList>
-        <SegmentedTrigger value="account">
-          <User />
-          Account
+        <SegmentedTrigger value="grid">
+          <Grid />
         </SegmentedTrigger>
-        <SegmentedTrigger value="password">
-          <Lock />
-          Password
+        <SegmentedTrigger value="list">
+          <List />
         </SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="account">
-        Make changes to your account here.
+      <SegmentedContent value="grid">
+        Grid view.
       </SegmentedContent>
-      <SegmentedContent value="password">Change your password here.</SegmentedContent>
-    </Segmented>
-  </Preview>
-);
-
-export const SegmentedWithCard = () => (
-  <Preview>
-    <Segmented defaultValue="account" className="w-[400px]">
-      <SegmentedList className="w-full">
-        <SegmentedTrigger value="account">Account</SegmentedTrigger>
-        <SegmentedTrigger value="password">Password</SegmentedTrigger>
-      </SegmentedList>
-      <SegmentedContent value="account">
-        <Card>
-          <CardHeader>
-            <CardTitle>Account</CardTitle>
-            <CardDescription>
-              Make changes to your account here. Click save when you're done.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-2">
-            <div className="space-y-1">
-              <Label htmlFor="name">Name</Label>
-              <Input id="name" defaultValue="Michael Scott" />
-            </div>
-            <div className="space-y-1">
-              <Label htmlFor="username">Username</Label>
-              <Input id="username" defaultValue="@mscott" />
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Button>Save</Button>
-          </CardFooter>
-        </Card>
-      </SegmentedContent>
-      <SegmentedContent value="password">
-        <Card>
-          <CardHeader>
-            <CardTitle>Password</CardTitle>
-            <CardDescription>
-              Change your password here. After saving, you'll be logged out.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-2">
-            <div className="space-y-1">
-              <Label htmlFor="current">Current password</Label>
-              <Input id="current" type="password" />
-            </div>
-            <div className="space-y-1">
-              <Label htmlFor="new">New password</Label>
-              <Input id="new" type="password" />
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Button>Save</Button>
-          </CardFooter>
-        </Card>
-      </SegmentedContent>
+      <SegmentedContent value="list">List view.</SegmentedContent>
     </Segmented>
   </Preview>
 );
