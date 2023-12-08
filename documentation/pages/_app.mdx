@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Toaster } from 'design-system/components/toast';
 import Main from "../components/main";
@@ -11,7 +10,6 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <Toaster />
       <SpeedInsights/>
-      <Analytics />
     </Main>
   );
 }

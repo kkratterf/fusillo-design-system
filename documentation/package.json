@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
-    "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.0",
     "autoprefixer": "^10.4.16",
     "design-system": "*",
