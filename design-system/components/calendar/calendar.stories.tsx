@@ -44,7 +44,7 @@ const FormSchema = z.object({
 export const Base: Story = {
   args: {
     mode: 'single',
-    className: 'rounded-md border w-fit',
+    className: 'rounded-radius border w-fit',
   },
 };
 
@@ -89,7 +89,7 @@ const ExampleCalendarForm = (args: Story['args']) => {
                         variant={'secondary'}
                         className={cn(
                           'w-[240px] pl-3 text-left font-normal',
-                          !field.value && 'text-muted-foreground'
+                          !field.value && 'text-color-text-description'
                         )}
                       >
                         {field.value ? (

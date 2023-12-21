@@ -105,9 +105,9 @@ const CommandDialogDemo = (args: Story['args']) => {
 
   return (
     <>
-      <p className="text-sm text-muted-foreground">
+      <p className="text-sm text-color-text-description">
         Press{' '}
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-visible">
+        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded-radius border px-1.5 font-mono text-[10px] font-medium text-color-text-description opacity-visible">
           <span className="text-xs">⌘</span>J
         </kbd>
       </p>

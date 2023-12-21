@@ -36,7 +36,7 @@
     }
     /* TOLTO ORIGIN */
     .navigation-menu-viewport {
-        @apply relative mt-1 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)];
+        @apply relative mt-1 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-radius border bg-color-bg-elevated text-color-text shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)];
     }
 
     .navigation-menu-indicator {
