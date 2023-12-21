@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Dec 2023 16:55:00 GMT
+ * Generated on Thu, 21 Dec 2023 16:58:25 GMT
  */
 
 @tailwind base;
@@ -210,7 +210,7 @@
   --opacity-hover: 0.8;
   --opacity-disabled: 0.5;
   --opacity-invisible: 0.0;
-  }
+  } 
 
  .dark {
   --color-bg-layout: #09090b;
