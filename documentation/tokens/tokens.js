@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Dec 2023 19:51:25 GMT
+ * Generated on Thu, 21 Dec 2023 16:10:10 GMT
  */
 
 module.exports = {
@@ -5635,160 +5635,306 @@ module.exports = {
         }
       },
       "Border": {
-        "radius": {
-          "type": "dimension",
-          "value": "6px",
-          "description": "Border radius of base components like buttons and inputs.",
-          "$extensions": {
-            "variableId": "VariableID:75:70"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+        "Radius": {
+          "radius": {
             "type": "dimension",
             "value": "6px",
             "description": "Border radius of base components like buttons and inputs.",
             "$extensions": {
               "variableId": "VariableID:75:70"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "6px",
+              "description": "Border radius of base components like buttons and inputs.",
+              "$extensions": {
+                "variableId": "VariableID:75:70"
+              }
+            },
+            "name": "TokensLightBorderRadiusRadius",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Radius",
+              "radius"
+            ]
           },
-          "name": "TokensLightBorderRadius",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Light",
-            "item": "Border",
-            "subitem": "radius"
-          },
-          "path": [
-            "Tokens",
-            "Light",
-            "Border",
-            "radius"
-          ]
-        },
-        "radius-sm": {
-          "type": "dimension",
-          "value": "4px",
-          "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
-          "$extensions": {
-            "variableId": "VariableID:91:102"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-sm": {
             "type": "dimension",
             "value": "4px",
             "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
             "$extensions": {
               "variableId": "VariableID:91:102"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "4px",
+              "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
+              "$extensions": {
+                "variableId": "VariableID:91:102"
+              }
+            },
+            "name": "TokensLightBorderRadiusRadiusSm",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-sm"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Radius",
+              "radius-sm"
+            ]
           },
-          "name": "TokensLightBorderRadiusSm",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Light",
-            "item": "Border",
-            "subitem": "radius-sm"
-          },
-          "path": [
-            "Tokens",
-            "Light",
-            "Border",
-            "radius-sm"
-          ]
-        },
-        "radius-lg": {
-          "type": "dimension",
-          "value": "8px",
-          "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
-          "$extensions": {
-            "variableId": "VariableID:91:103"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-lg": {
             "type": "dimension",
             "value": "8px",
             "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
             "$extensions": {
               "variableId": "VariableID:91:103"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "8px",
+              "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
+              "$extensions": {
+                "variableId": "VariableID:91:103"
+              }
+            },
+            "name": "TokensLightBorderRadiusRadiusLg",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-lg"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Radius",
+              "radius-lg"
+            ]
           },
-          "name": "TokensLightBorderRadiusLg",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Light",
-            "item": "Border",
-            "subitem": "radius-lg"
-          },
-          "path": [
-            "Tokens",
-            "Light",
-            "Border",
-            "radius-lg"
-          ]
-        },
-        "radius-full": {
-          "type": "dimension",
-          "value": "9999px",
-          "description": "Use for having the maximum possible border radius.",
-          "$extensions": {
-            "variableId": "VariableID:91:104"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-full": {
             "type": "dimension",
             "value": "9999px",
             "description": "Use for having the maximum possible border radius.",
             "$extensions": {
               "variableId": "VariableID:91:104"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "9999px",
+              "description": "Use for having the maximum possible border radius.",
+              "$extensions": {
+                "variableId": "VariableID:91:104"
+              }
+            },
+            "name": "TokensLightBorderRadiusRadiusFull",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-full"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Radius",
+              "radius-full"
+            ]
           },
-          "name": "TokensLightBorderRadiusFull",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Light",
-            "item": "Border",
-            "subitem": "radius-full"
-          },
-          "path": [
-            "Tokens",
-            "Light",
-            "Border",
-            "radius-full"
-          ]
-        },
-        "radius-none": {
-          "type": "dimension",
-          "value": "0px",
-          "description": "Equates to `0`. Use for resetting default border radius styles.",
-          "$extensions": {
-            "variableId": "VariableID:91:105"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-none": {
             "type": "dimension",
             "value": "0px",
             "description": "Equates to `0`. Use for resetting default border radius styles.",
             "$extensions": {
               "variableId": "VariableID:91:105"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "0px",
+              "description": "Equates to `0`. Use for resetting default border radius styles.",
+              "$extensions": {
+                "variableId": "VariableID:91:105"
+              }
+            },
+            "name": "TokensLightBorderRadiusRadiusNone",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-none"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Radius",
+              "radius-none"
+            ]
+          }
+        },
+        "Width": {
+          "border-0": {
+            "type": "dimension",
+            "value": "0px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:10647"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "0px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:10647"
+              }
+            },
+            "name": "TokensLightBorderWidthBorder0",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-0"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Width",
+              "border-0"
+            ]
           },
-          "name": "TokensLightBorderRadiusNone",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Light",
-            "item": "Border",
-            "subitem": "radius-none"
+          "border-1": {
+            "type": "dimension",
+            "value": "1px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:13570"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "1px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:13570"
+              }
+            },
+            "name": "TokensLightBorderWidthBorder1",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-1"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Width",
+              "border-1"
+            ]
           },
-          "path": [
-            "Tokens",
-            "Light",
-            "Border",
-            "radius-none"
-          ]
+          "border-2": {
+            "type": "dimension",
+            "value": "2px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:13571"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "2px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:13571"
+              }
+            },
+            "name": "TokensLightBorderWidthBorder2",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-2"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Width",
+              "border-2"
+            ]
+          },
+          "border-4": {
+            "type": "dimension",
+            "value": "4px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:13572"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "4px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:13572"
+              }
+            },
+            "name": "TokensLightBorderWidthBorder4",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-4"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "Border",
+              "Width",
+              "border-4"
+            ]
+          }
         }
       },
       "Spacing": {
@@ -6505,6 +6651,132 @@ module.exports = {
             "Light",
             "Breakpoints",
             "breakpoints-xxl"
+          ]
+        }
+      },
+      "Opacity": {
+        "opacity-visible": {
+          "type": "dimension",
+          "value": "100px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1708:14183"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "100px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1708:14183"
+            }
+          },
+          "name": "TokensLightOpacityOpacityVisible",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "Opacity",
+            "subitem": "opacity-visible"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "Opacity",
+            "opacity-visible"
+          ]
+        },
+        "opacity-hover": {
+          "type": "dimension",
+          "value": "80px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1708:14184"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "80px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1708:14184"
+            }
+          },
+          "name": "TokensLightOpacityOpacityHover",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "Opacity",
+            "subitem": "opacity-hover"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "Opacity",
+            "opacity-hover"
+          ]
+        },
+        "opacity-disabled": {
+          "type": "dimension",
+          "value": "50px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1708:14185"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "50px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1708:14185"
+            }
+          },
+          "name": "TokensLightOpacityOpacityDisabled",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "Opacity",
+            "subitem": "opacity-disabled"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "Opacity",
+            "opacity-disabled"
+          ]
+        },
+        "opacity-invisible": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1711:14848"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1711:14848"
+            }
+          },
+          "name": "TokensLightOpacityOpacityInvisible",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "Opacity",
+            "subitem": "opacity-invisible"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "Opacity",
+            "opacity-invisible"
           ]
         }
       }
@@ -12139,160 +12411,306 @@ module.exports = {
         }
       },
       "Border": {
-        "radius": {
-          "type": "dimension",
-          "value": "6px",
-          "description": "Border radius of base components like buttons and inputs.",
-          "$extensions": {
-            "variableId": "VariableID:75:70"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+        "Radius": {
+          "radius": {
             "type": "dimension",
             "value": "6px",
             "description": "Border radius of base components like buttons and inputs.",
             "$extensions": {
               "variableId": "VariableID:75:70"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "6px",
+              "description": "Border radius of base components like buttons and inputs.",
+              "$extensions": {
+                "variableId": "VariableID:75:70"
+              }
+            },
+            "name": "TokensDarkBorderRadiusRadius",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Radius",
+              "radius"
+            ]
           },
-          "name": "TokensDarkBorderRadius",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Dark",
-            "item": "Border",
-            "subitem": "radius"
-          },
-          "path": [
-            "Tokens",
-            "Dark",
-            "Border",
-            "radius"
-          ]
-        },
-        "radius-sm": {
-          "type": "dimension",
-          "value": "4px",
-          "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
-          "$extensions": {
-            "variableId": "VariableID:91:102"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-sm": {
             "type": "dimension",
             "value": "4px",
             "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
             "$extensions": {
               "variableId": "VariableID:91:102"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "4px",
+              "description": "Small size border radius, used in small size components, such as Checkbox and Segmented.",
+              "$extensions": {
+                "variableId": "VariableID:91:102"
+              }
+            },
+            "name": "TokensDarkBorderRadiusRadiusSm",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-sm"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Radius",
+              "radius-sm"
+            ]
           },
-          "name": "TokensDarkBorderRadiusSm",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Dark",
-            "item": "Border",
-            "subitem": "radius-sm"
-          },
-          "path": [
-            "Tokens",
-            "Dark",
-            "Border",
-            "radius-sm"
-          ]
-        },
-        "radius-lg": {
-          "type": "dimension",
-          "value": "8px",
-          "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
-          "$extensions": {
-            "variableId": "VariableID:91:103"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-lg": {
             "type": "dimension",
             "value": "8px",
             "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
             "$extensions": {
               "variableId": "VariableID:91:103"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "8px",
+              "description": "Large size border radius, used in some large components, such as Card, Modal and other components.",
+              "$extensions": {
+                "variableId": "VariableID:91:103"
+              }
+            },
+            "name": "TokensDarkBorderRadiusRadiusLg",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-lg"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Radius",
+              "radius-lg"
+            ]
           },
-          "name": "TokensDarkBorderRadiusLg",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Dark",
-            "item": "Border",
-            "subitem": "radius-lg"
-          },
-          "path": [
-            "Tokens",
-            "Dark",
-            "Border",
-            "radius-lg"
-          ]
-        },
-        "radius-full": {
-          "type": "dimension",
-          "value": "9999px",
-          "description": "Use for having the maximum possible border radius.",
-          "$extensions": {
-            "variableId": "VariableID:91:104"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-full": {
             "type": "dimension",
             "value": "9999px",
             "description": "Use for having the maximum possible border radius.",
             "$extensions": {
               "variableId": "VariableID:91:104"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "9999px",
+              "description": "Use for having the maximum possible border radius.",
+              "$extensions": {
+                "variableId": "VariableID:91:104"
+              }
+            },
+            "name": "TokensDarkBorderRadiusRadiusFull",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-full"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Radius",
+              "radius-full"
+            ]
           },
-          "name": "TokensDarkBorderRadiusFull",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Dark",
-            "item": "Border",
-            "subitem": "radius-full"
-          },
-          "path": [
-            "Tokens",
-            "Dark",
-            "Border",
-            "radius-full"
-          ]
-        },
-        "radius-none": {
-          "type": "dimension",
-          "value": "0px",
-          "description": "Equates to `0`. Use for resetting default border radius styles.",
-          "$extensions": {
-            "variableId": "VariableID:91:105"
-          },
-          "filePath": "tokens/tokens.json",
-          "isSource": true,
-          "original": {
+          "radius-none": {
             "type": "dimension",
             "value": "0px",
             "description": "Equates to `0`. Use for resetting default border radius styles.",
             "$extensions": {
               "variableId": "VariableID:91:105"
-            }
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "0px",
+              "description": "Equates to `0`. Use for resetting default border radius styles.",
+              "$extensions": {
+                "variableId": "VariableID:91:105"
+              }
+            },
+            "name": "TokensDarkBorderRadiusRadiusNone",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Radius",
+              "state": "radius-none"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Radius",
+              "radius-none"
+            ]
+          }
+        },
+        "Width": {
+          "border-0": {
+            "type": "dimension",
+            "value": "0px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:10647"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "0px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:10647"
+              }
+            },
+            "name": "TokensDarkBorderWidthBorder0",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-0"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Width",
+              "border-0"
+            ]
           },
-          "name": "TokensDarkBorderRadiusNone",
-          "attributes": {
-            "category": "Tokens",
-            "type": "Dark",
-            "item": "Border",
-            "subitem": "radius-none"
+          "border-1": {
+            "type": "dimension",
+            "value": "1px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:13570"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "1px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:13570"
+              }
+            },
+            "name": "TokensDarkBorderWidthBorder1",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-1"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Width",
+              "border-1"
+            ]
           },
-          "path": [
-            "Tokens",
-            "Dark",
-            "Border",
-            "radius-none"
-          ]
+          "border-2": {
+            "type": "dimension",
+            "value": "2px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:13571"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "2px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:13571"
+              }
+            },
+            "name": "TokensDarkBorderWidthBorder2",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-2"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Width",
+              "border-2"
+            ]
+          },
+          "border-4": {
+            "type": "dimension",
+            "value": "4px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1703:13572"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "dimension",
+              "value": "4px",
+              "description": "//",
+              "$extensions": {
+                "variableId": "VariableID:1703:13572"
+              }
+            },
+            "name": "TokensDarkBorderWidthBorder4",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "Border",
+              "subitem": "Width",
+              "state": "border-4"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "Border",
+              "Width",
+              "border-4"
+            ]
+          }
         }
       },
       "Spacing": {
@@ -13009,6 +13427,132 @@ module.exports = {
             "Dark",
             "Breakpoints",
             "breakpoints-xxl"
+          ]
+        }
+      },
+      "Opacity": {
+        "opacity-visible": {
+          "type": "dimension",
+          "value": "100px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1708:14183"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "100px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1708:14183"
+            }
+          },
+          "name": "TokensDarkOpacityOpacityVisible",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "Opacity",
+            "subitem": "opacity-visible"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "Opacity",
+            "opacity-visible"
+          ]
+        },
+        "opacity-hover": {
+          "type": "dimension",
+          "value": "80px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1708:14184"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "80px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1708:14184"
+            }
+          },
+          "name": "TokensDarkOpacityOpacityHover",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "Opacity",
+            "subitem": "opacity-hover"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "Opacity",
+            "opacity-hover"
+          ]
+        },
+        "opacity-disabled": {
+          "type": "dimension",
+          "value": "50px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1708:14185"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "50px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1708:14185"
+            }
+          },
+          "name": "TokensDarkOpacityOpacityDisabled",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "Opacity",
+            "subitem": "opacity-disabled"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "Opacity",
+            "opacity-disabled"
+          ]
+        },
+        "opacity-invisible": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "//",
+          "$extensions": {
+            "variableId": "VariableID:1711:14848"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "dimension",
+            "value": "0px",
+            "description": "//",
+            "$extensions": {
+              "variableId": "VariableID:1711:14848"
+            }
+          },
+          "name": "TokensDarkOpacityOpacityInvisible",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "Opacity",
+            "subitem": "opacity-invisible"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "Opacity",
+            "opacity-invisible"
           ]
         }
       }
