@@ -20,7 +20,7 @@
     }
 
     .navigation-menu-trigger-style {
-        @apply relative inline-flex h-9 w-max items-center justify-center rounded-radius bg-color-bg-interactive text-color-text px-4 py-2 body-base-medium transition-colors hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50;
+        @apply relative inline-flex h-9 w-max items-center justify-center rounded-radius bg-color-bg-interactive text-color-text px-4 py-2 body-base-medium transition-colors hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-accent/50 data-[state=open]:bg-accent/50;
     }
 
     .navigation-menu-trigger-icon {

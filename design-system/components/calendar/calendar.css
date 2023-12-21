@@ -36,7 +36,7 @@
   }
 
   .calendar-nav-button {
-    @apply h-8 w-8 p-0 opacity-50 hover:opacity-100;
+    @apply h-8 w-8 p-0 opacity-disabled hover:opacity-visible;
   }
 
   .calendar-nav-button-previus {
@@ -68,7 +68,7 @@
   }
 
   .calendar-day {
-    @apply h-9 w-9 p-0 body-base aria-selected:opacity-100;
+    @apply h-9 w-9 p-0 body-base aria-selected:opacity-visible;
   }
 
   .calendar-day-selected {
@@ -80,11 +80,11 @@
   }
 
   .calendar-day-outside {
-    @apply text-color-text-description opacity-50;
+    @apply text-color-text-description opacity-disabled;
   }
 
   .calendar-day-disabled {
-    @apply text-color-text-description opacity-50;
+    @apply text-color-text-description opacity-disabled;
   }
 
   .calendar-day-range-middle {

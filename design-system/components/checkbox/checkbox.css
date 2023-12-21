@@ -12,7 +12,7 @@
 @layer components {
 
   .checkbox-component {
-    @apply h-4 w-4 overflow-hidden bg-color-bg-container shrink-0 rounded-radius-sm border border-color-border-brand ring-offset-color-bg-layout focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-color-bg-brand;
+    @apply h-4 w-4 overflow-hidden bg-color-bg-container shrink-0 rounded-radius-sm border border-color-border-brand ring-offset-color-bg-layout focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-disabled data-[state=checked]:bg-color-bg-brand;
   }
 
   .checkbox-indicator {

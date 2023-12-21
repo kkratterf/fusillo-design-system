@@ -49,7 +49,7 @@ const LegendItem = ({ name, color, onClick, activeLegend }: LegendItemProps) => 
           sizing.xs.height,
           sizing.xs.width,
           spacing.xs.marginRight,
-          activeLegend && activeLegend !== name ? "opacity-40" : "opacity-100",
+          activeLegend && activeLegend !== name ? "opacity-disabled" : "opacity-visible",
         )}
         fill="currentColor"
         viewBox="0 0 8 8"
@@ -65,7 +65,7 @@ const LegendItem = ({ name, color, onClick, activeLegend }: LegendItemProps) => 
           hasOnValueChange ? "group-hover:text-tremor-content-emphasis" : "",
           // dark
           "dark:text-dark-tremor-content",
-          activeLegend && activeLegend !== name ? "opacity-40" : "opacity-100",
+          activeLegend && activeLegend !== name ? "opacity-disabled" : "opacity-invisible",
           hasOnValueChange ? "dark:group-hover:text-dark-tremor-content-emphasis" : "",
         )}
       >

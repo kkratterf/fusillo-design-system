@@ -45,7 +45,7 @@
   }
 
   .toast-action {
-    @apply inline-flex h-9 shrink-0 items-center justify-center rounded-radius px-3 body-base-medium transition-colors disabled:pointer-events-none focus-visible:outline-none disabled:opacity-50;
+    @apply inline-flex h-9 shrink-0 items-center justify-center rounded-radius px-3 body-base-medium transition-colors disabled:pointer-events-none focus-visible:outline-none disabled:opacity-disabled;
     &[data-variant='default'] { @apply border border-color-border-primary bg-transparent ring-offset-color-bg-elevated focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover focus:ring-color-border-brand; }
     &[data-variant='danger'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-danger focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-danger-subtlest; }
     &[data-variant='warning'] { @apply border border-color-border-primary bg-color-bg-interactive text-color-text ring-offset-color-bg-warning focus:ring-2 focus:ring-offset-2 hover:bg-color-bg-interactive-hover active:bg-color-bg-interactive-selected focus:ring-color-border-warning-subtlest; }
@@ -57,11 +57,11 @@
   .toast-close {
     @apply absolute right-2 top-2 rounded-radius-sm p-1 transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2 [&>svg]:w-4 [&>svg]:h-4;
     &[data-variant='default'] { @apply [&>svg]:stroke-color-icon [&>svg]:hover:stroke-color-icon-hover ring-offset-color-bg-elevated focus:ring-color-border-brand; }
-    &[data-variant='danger'] { @apply [&>svg]:stroke-color-icon-danger-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-danger focus:ring-color-border-danger-subtlest; }
-    &[data-variant='warning'] { @apply [&>svg]:stroke-color-icon-warning-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-warning focus:ring-color-border-warning-subtlest; }
-    &[data-variant='success'] { @apply [&>svg]:stroke-color-icon-success-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-success focus:ring-color-border-success-subtlest; }
-    &[data-variant='info'] { @apply [&>svg]:stroke-color-icon-info-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-info focus:ring-color-border-info-subtlest; }
-    &[data-variant='discovery'] { @apply [&>svg]:stroke-color-icon-discovery-inverse [&>svg]:hover:opacity-80 ring-offset-color-bg-discovery focus:ring-color-border-discovery-subtlest; }
+    &[data-variant='danger'] { @apply [&>svg]:stroke-color-icon-danger-inverse [&>svg]:hover:opacity-hover ring-offset-color-bg-danger focus:ring-color-border-danger-subtlest; }
+    &[data-variant='warning'] { @apply [&>svg]:stroke-color-icon-warning-inverse [&>svg]:hover:opacity-hover ring-offset-color-bg-warning focus:ring-color-border-warning-subtlest; }
+    &[data-variant='success'] { @apply [&>svg]:stroke-color-icon-success-inverse [&>svg]:hover:opacity-hover ring-offset-color-bg-success focus:ring-color-border-success-subtlest; }
+    &[data-variant='info'] { @apply [&>svg]:stroke-color-icon-info-inverse [&>svg]:hover:opacity-hover ring-offset-color-bg-info focus:ring-color-border-info-subtlest; }
+    &[data-variant='discovery'] { @apply [&>svg]:stroke-color-icon-discovery-inverse [&>svg]:hover:opacity-hover ring-offset-color-bg-discovery focus:ring-color-border-discovery-subtlest; }
   }
 
   .toast-title {

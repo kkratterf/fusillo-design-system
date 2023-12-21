@@ -32,7 +32,7 @@
   }
 
   .command-input {
-    @apply flex h-9 w-full rounded-radius bg-color-bg-elevated py-3 body-base outline-none placeholder:text-color-text-placeholder disabled:cursor-not-allowed disabled:opacity-50;
+    @apply flex h-9 w-full rounded-radius bg-color-bg-elevated py-3 body-base outline-none placeholder:text-color-text-placeholder disabled:cursor-not-allowed disabled:opacity-disabled;
   }
 
   .command-list {
@@ -52,7 +52,7 @@
   }
 
   .command-item {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-9 body-base outline-none aria-selected:bg-color-bg-interactive-selected aria-selected:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-9 body-base outline-none aria-selected:bg-color-bg-interactive-selected aria-selected:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .command-shortcut {

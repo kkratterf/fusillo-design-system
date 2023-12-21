@@ -465,6 +465,12 @@ module.exports = {
       'radius-lg': 'var(--border-radius-lg)',
       'radius-full': 'var(--border-radius-full)',
     },
+    borderWidth: {
+      0: 'var(--border-width-0)',
+      DEFAULT: 'var(--border-width-1)',
+      2: 'var(--border-width-2)',
+      4: 'var(--border-width-4)',
+    },
     screens: {
       xs: '390px',
       sm: '640px',
@@ -566,6 +572,12 @@ module.exports = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+      },
+      opacity: {
+        visible: 'var(--opacity-visible)',
+        hover: 'var(--opacity-hover)',
+        disabled: 'var(--opacity-disabled)',
+        invisible: 'var(--opacity-invisible)',
       },
       width: {
         40: '10rem',

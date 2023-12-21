@@ -28,11 +28,11 @@
   }
 
   .context-menu-item {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .context-menu-checkbox {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .context-menu-checkbox-span {
@@ -44,7 +44,7 @@
   }
 
   .context-menu-radio {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-50;
+    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .context-menu-radio-span {

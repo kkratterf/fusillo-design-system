@@ -88,7 +88,7 @@ const ToastClose = React.forwardRef<
     ref={ref}
     data-variant={status}
     className={cn(
-      'toast-close opacity-0 group-hover:opacity-100',
+      'toast-close opacity-invisible group-hover:opacity-visible',
       className
     )}
     toast-close=""

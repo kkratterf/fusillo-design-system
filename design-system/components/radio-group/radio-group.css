@@ -16,7 +16,7 @@
     }
 
     .radio-group-item {
-        @apply aspect-square h-4 w-4 rounded-radius-full border border-color-border-brand ring-offset-color-bg-layout focus:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+        @apply aspect-square h-4 w-4 rounded-radius-full border border-color-border-brand ring-offset-color-bg-layout focus:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-disabled;
     }
 
     .radio-group-item-indicator {

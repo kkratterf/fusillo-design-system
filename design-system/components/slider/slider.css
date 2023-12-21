@@ -24,7 +24,7 @@
     }
 
     .slider-thumb {
-        @apply block h-[20px] w-[20px] cursor-grab rounded-radius-full border-2 border-color-border-brand bg-color-bg-container ring-offset-color-bg-layout transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+        @apply block h-[20px] w-[20px] cursor-grab rounded-radius-full border-2 border-color-border-brand bg-color-bg-container ring-offset-color-bg-layout transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled;
     }
 
 }
