@@ -50,7 +50,7 @@ export function SwitchFormDemo() {
               control={form.control}
               name="marketing_emails"
               render={({ field }) => (
-                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-4 gap-4">
+                <FormItem className="flex flex-row items-center justify-between rounded-radius-lg border p-4 gap-4">
                   <div className="space-y-0.5">
                     <FormLabel className="text-base">
                       Marketing emails
@@ -72,7 +72,7 @@ export function SwitchFormDemo() {
               control={form.control}
               name="security_emails"
               render={({ field }) => (
-                <FormItem className="flex flex-row items-center justify-between rounded-lg border p-4">
+                <FormItem className="flex flex-row items-center justify-between rounded-radius-lg border p-4">
                   <div className="space-y-0.5">
                     <FormLabel className="text-base">Security emails</FormLabel>
                     <FormDescription>

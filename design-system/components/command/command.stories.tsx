@@ -37,7 +37,7 @@ type Story = StoryObj<typeof Command>;
 
 export const Base: Story = {
   args: {
-    className: 'rounded-lg border shadow-md',
+    className: 'rounded-radius-lg border shadow-md',
   },
   render: (args) => (
     <Command {...args}>
@@ -83,7 +83,7 @@ export const Base: Story = {
 
 export const Dialog: Story = {
   args: {
-    className: 'rounded-lg border shadow-md',
+    className: 'rounded-radius-lg border shadow-md',
   },
   render: (args) => <CommandDialogDemo {...args} />,
 };

@@ -26,68 +26,68 @@ Route (pages)                                                 Size     First Loa
 ├ ○ /documentation/brand/vision                               576 B           199 kB
 ├ ○ /documentation/components                                 1.12 kB         200 kB
 ├ ○ /documentation/components/accordion                       7.18 kB         206 kB
-├   └ css/d52debb7b2019eed.css                                8.12 kB
+├   └ css/3114a0d38ec5a42d.css                                8.26 kB
 ├ ○ /documentation/components/alert                           4.83 kB         203 kB
-├   └ css/197f00862bb3f223.css                                7.96 kB
+├   └ css/850b3e3c1105668b.css                                8.12 kB
 ├ ○ /documentation/components/alert-dialog                    4.57 kB         211 kB
-├   └ css/52bfaf1bf755fd28.css                                8.01 kB
+├   └ css/8ae5dd6190cdcdc4.css                                8.15 kB
 ├ ○ /documentation/components/aspect-ratio                    3.12 kB         202 kB
 ├ ○ /documentation/components/avatar                          3.78 kB         202 kB
 ├ ○ /documentation/components/badge                           4.23 kB         203 kB
-├   └ css/f5ba329ff8b702a7.css                                7.87 kB
+├   └ css/26c10ce2a4ce5d1d.css                                8.02 kB
 ├ ○ /documentation/components/button                          3.46 kB         202 kB
 ├ ○ /documentation/components/calendar                        1.25 kB         200 kB
-├ ○ /documentation/components/card (314 ms)                   13.3 kB         227 kB
-├   └ css/d49dba0e75f6b614.css                                8.28 kB
+├ ○ /documentation/components/card (308 ms)                   13.3 kB         227 kB
+├   └ css/7c0b3b9ae2223441.css                                8.48 kB
 ├ ○ /documentation/components/checkbox                        9.12 kB         217 kB
 ├ ○ /documentation/components/collapsible                     5.03 kB         204 kB
 ├ ○ /documentation/components/combobox                        1.37 kB         200 kB
 ├ ○ /documentation/components/command                         1.4 kB          200 kB
-├ ○ /documentation/components/context-menu                    6.29 kB         226 kB
-├   └ css/fc24756ddb0e0885.css                                8.17 kB
+├ ○ /documentation/components/context-menu (306 ms)           6.29 kB         226 kB
+├   └ css/bb64e29606496a87.css                                8.31 kB
 ├ ○ /documentation/components/data-table                      592 B           199 kB
 ├ ○ /documentation/components/date-picker                     1.31 kB         200 kB
 ├ ○ /documentation/components/dialog                          5.28 kB         211 kB
-├   └ css/b99bfc43aa5d6586.css                                8.18 kB
-├ ○ /documentation/components/dropdown-menu (325 ms)          10.3 kB         230 kB
-├   └ css/043b07acc55d7e34.css                                8.24 kB
+├   └ css/69d3a64ae5dafc55.css                                8.34 kB
+├ ○ /documentation/components/dropdown-menu (341 ms)          10.3 kB         230 kB
+├   └ css/206266704eafd7e2.css                                8.39 kB
 ├ ○ /documentation/components/form                            1.3 kB          200 kB
 ├ ○ /documentation/components/hover-card                      6.01 kB         214 kB
-├   └ css/ede3b9632f537df9.css                                7.75 kB
-├ ○ /documentation/components/icon (879 ms)                   114 kB          313 kB
+├   └ css/6e527e70efca952e.css                                7.89 kB
+├ ○ /documentation/components/icon (696 ms)                   114 kB          313 kB
 ├ ○ /documentation/components/input                           5.7 kB          213 kB
 ├ ○ /documentation/components/label                           5.09 kB         204 kB
 ├ ○ /documentation/components/menubar                         1.41 kB         200 kB
 ├ ○ /documentation/components/navigation-menu                 1.31 kB         200 kB
 ├ ○ /documentation/components/popover                         1.39 kB         200 kB
 ├ ○ /documentation/components/progress                        3.9 kB          202 kB
-├   └ css/8ecffe2994e7a184.css                                7.89 kB
+├   └ css/c3581d80bf23dcae.css                                8.05 kB
 ├ ○ /documentation/components/radio-group                     9.6 kB          217 kB
-├   └ css/dbc072c4eddaf864.css                                7.91 kB
+├   └ css/1966bf3436980899.css                                8.05 kB
 ├ ○ /documentation/components/scroll-area                     8.87 kB         207 kB
-├   └ css/e4f6c31f84edafd5.css                                7.84 kB
+├   └ css/4825a1926702be41.css                                7.98 kB
 ├ ○ /documentation/components/segmented                       3.84 kB         205 kB
-├   └ css/a5e8a4b051c00213.css                                7.98 kB
+├   └ css/fbffd9226953679e.css                                8.12 kB
 ├ ○ /documentation/components/select                          1.4 kB          200 kB
 ├ ○ /documentation/components/separator                       3.52 kB         202 kB
 ├ ○ /documentation/components/sheet                           1.46 kB         200 kB
 ├ ○ /documentation/components/skeleton                        3.38 kB         202 kB
-├   └ css/f8ce903e63ea28b2.css                                7.77 kB
+├   └ css/cc7e0b33d6bc51b2.css                                7.92 kB
 ├ ○ /documentation/components/slider                          7.03 kB         206 kB
-├   └ css/f32c0d0c722af732.css                                7.91 kB
+├   └ css/687b511dd0657d5e.css                                8.06 kB
 ├ ○ /documentation/components/switch                          7.23 kB         215 kB
 ├ ○ /documentation/components/table                           1.26 kB         200 kB
 ├ ○ /documentation/components/tabs                            6.45 kB         207 kB
-├   └ css/f9687b93a2d5699b.css                                7.98 kB
+├   └ css/0c6f85d3087995db.css                                8.13 kB
 ├ ○ /documentation/components/tag                             4.23 kB         203 kB
-├   └ css/69058dbdb303c708.css                                7.89 kB
+├   └ css/6bb53381532114b8.css                                8.04 kB
 ├ ○ /documentation/components/textarea                        5.78 kB         213 kB
 ├ ○ /documentation/components/toast                           1.33 kB         200 kB
 ├ ○ /documentation/components/toggle                          3.53 kB         202 kB
-├   └ css/daf0e49777ef61a4.css                                7.94 kB
+├   └ css/c3ad2fbc34319278.css                                8.1 kB
 ├ ○ /documentation/components/toggle-group                    1.18 kB         200 kB
 ├ ○ /documentation/components/tooltip                         7.55 kB         216 kB
-├   └ css/0581e9a7795aa134.css                                7.77 kB
+├   └ css/c614a008e8ce7d2b.css                                7.91 kB
 ├ ○ /documentation/content                                    947 B           200 kB
 ├ ○ /documentation/content/brand-vocabulary                   634 B           199 kB
 ├ ○ /documentation/content/content-accessibility              7.11 kB         206 kB
@@ -119,8 +119,8 @@ Route (pages)                                                 Size     First Loa
   ├ chunks/framework-3d19f84d256cc7ee.js                      45.2 kB
   ├ chunks/main-731f25b360c9170e.js                           36.2 kB
   ├ chunks/pages/_app-30d45db2bf0f1539.js                     112 kB
-  ├ chunks/webpack-b9170058de2d159e.js                        1.09 kB
-  └ css/b74be4cf3a591fc2.css                                  20.9 kB
+  ├ chunks/webpack-55c9dc305dd093db.js                        1.09 kB
+  └ css/228470c8dfac2232.css                                  21 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 

@@ -36,7 +36,7 @@
     }
 
     .alert-component {
-    @apply relative w-full rounded-lg border p-4;
+    @apply relative w-full rounded-radius-lg border p-4;
     }
 
     .alert-icon {

@@ -28,7 +28,10 @@ styleFoundations.registerFilter({
   name: 'foundationsFilter',
   matcher: function (token) {
     // Filter tokens that include 'Foundations' and 'Color' in their path
-    return token.path.includes('Foundations') && token.path.includes('Color');
+    return (
+      token.path.includes('Foundations') &&
+      (token.path.includes('Color') || token.path.includes('Scale'))
+    );
   },
 });
 
@@ -192,10 +195,8 @@ styleTokens.registerFormat({
         /-icon-(brand|danger|warning|success|info|discovery)-icon-\1/g,
         '-icon-$1'
       )
-      .replace(
-        /(width|height|spacing|radius|breakpoints|opacity)-(?:\1|space|border)/g,
-        '$1'
-      )
+      .replace(/(width|height|radius|breakpoints|opacity)-(?:\1|border)/g, '$1')
+      .replace(/(spacing)-(space)/g, '$2')
       .replace(/(opacity-[^:]+:\s*)(\d+)px/g, function (match, p1, p2) {
         // Convert pixel values to opacity percentage
         var opacityValue = parseInt(p2, 10) / 100;

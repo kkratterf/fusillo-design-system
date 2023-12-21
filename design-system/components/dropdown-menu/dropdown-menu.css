@@ -24,7 +24,7 @@
   }
 
   .dropdown-menu-content {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-popover p-1 text-popover-foreground shadow-md;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text shadow-md;
   }
 
   .dropdown-menu-item {
