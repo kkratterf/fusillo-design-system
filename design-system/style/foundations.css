@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 21 Dec 2023 16:58:25 GMT
+ * Generated on Thu, 21 Dec 2023 20:09:58 GMT
  */
 
 @tailwind base;
@@ -220,5 +220,35 @@
   --color-neutral-900: #18181b;
   --color-neutral-950: #09090b;
   --color-neutral-1000: #000000;
+  --scale-0: 0px;
+  --scale-1: 4px;
+  --scale-2: 8px;
+  --scale-3: 12px;
+  --scale-4: 16px;
+  --scale-5: 20px;
+  --scale-6: 24px;
+  --scale-7: 28px;
+  --scale-8: 32px;
+  --scale-9: 36px;
+  --scale-10: 40px;
+  --scale-11: 44px;
+  --scale-12: 48px;
+  --scale-14: 56px;
+  --scale-16: 64px;
+  --scale-20: 80px;
+  --scale-24: 96px;
+  --scale-28: 112px;
+  --scale-32: 128px;
+  --scale-36: 144px;
+  --scale-40: 160px;
+  --scale-44: 176px;
+  --scale-48: 192px;
+  --scale-52: 208px;
+  --scale-56: 224px;
+  --scale-60: 240px;
+  --scale-64: 256px;
+  --scale-72: 288px;
+  --scale-80: 320px;
+  --scale-96: 384px;
   }
 }
