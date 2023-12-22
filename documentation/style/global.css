@@ -109,8 +109,16 @@ td {
   @apply h-8 w-8 rounded-radius-sm bg-color-bg-brand;
 }
 
-.cell-preview-border {
+.cell-preview-border-radius {
   @apply h-8 w-24 bg-color-bg-brand;
+}
+
+.cell-preview-border-width {
+  @apply h-8 w-24 bg-transparent border-color-border-brand rounded-radius;
+}
+
+.cell-preview-opacity {
+  @apply h-8 w-24 bg-color-bg-brand rounded-radius;
 }
 
 .cell-preview-breakpoints {

@@ -1,6 +1,6 @@
 import tokens from '../tokens/tokens.js';
 
-export const TokensBorder = ({ type }) => (
+export const TokensOpacity = () => (
   <>
     {
       <table>
@@ -16,12 +16,14 @@ export const TokensBorder = ({ type }) => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tokens.Tokens.Light.Border[type]).map(
-            ([tokenName, tokenInfo]) => (
+          {Object.entries(tokens.Tokens.Light.Opacity).map(
+            ([tokenName, tokenInfo]) => {
+              const opacityValue = parseInt(tokenInfo.value.replace('px', ''), 10) / 100;
+              return (
               <tr key={tokenName}>
                 <td className="w-full">
                   <div className="cell-tokens-name">
-                    <code className="font-medium">border-{tokenName}</code>
+                    <code className="font-medium">{tokenName}</code>
                     <div className="cell-description-tokens">
                       {tokenInfo.description}
                     </div>
@@ -29,27 +31,18 @@ export const TokensBorder = ({ type }) => (
                 </td>
                 <td>
                   <div className="cell-value-scale" align="right">
-                    {tokenInfo.value}
+                    {opacityValue.toFixed(1)}
                   </div>
                 </td>
                 <td className="hidden sm:table-cell">
                   <div
-                    className={type === 'Radius'
-                      ? 'cell-preview-border-radius'
-                      : type === 'Width'
-                      ? 'cell-preview-border-width'
-                      : {}}
-                    style={
-                      type === 'Radius'
-                      ? { borderRadius: tokenInfo.value }
-                      : type === 'Width'
-                      ? { borderWidth: tokenInfo.value, }
-                      : {}
-                    }
+                    className="cell-preview-opacity"
+                    style={{ opacity: opacityValue }}
                   ></div>
                 </td>
               </tr>
-            )
+              )
+            }
           )}
         </tbody>
       </table>
