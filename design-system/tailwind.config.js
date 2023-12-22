@@ -295,12 +295,12 @@ module.exports = {
       96: 'var(--scale-96)',
     },
     screens: {
-      xs: 'var(--breakpoints-xs)',
-      sm: 'var(--breakpoints-sm)',
-      md: 'var(--breakpoints-md)',
-      lg: 'var(--breakpoints-lg)',
-      xl: 'var(--breakpoints-xl)',
-      '2xl': 'var(--breakpoints-xxl)',
+      xs: '390px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
     },
     fontFamily: {
       sans: [
