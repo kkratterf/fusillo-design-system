@@ -11,7 +11,31 @@ const meta: Meta<typeof Toast> = {
   title: 'Components/Toast',
   component: Toast,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {
+    status: {
+      control: 'select',
+      options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
+      description:
+        'Determines whether a `single` or `multiple` items can be pressed at a time',
+      table: {
+        defaultValue: { summary: 'default' },
+        type: { summary: null },
+      },
+    },
+    asChild: { table: { disable: true } },
+  },
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component: 'A succinct message that is displayed temporarily.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8884&mode=design&t=Aq9znIDZ1U4lgvQV-1',
+    },
+  },
 };
 export default meta;
 
@@ -80,5 +104,45 @@ export const Danger: Story = {
     description: 'There was a problem with your request.',
     action: 'Try again',
     status: 'danger',
+  },
+};
+
+export const Warning: Story = {
+  render: (args) => <ToastExample {...args} />,
+  args: {
+    title: 'Uh oh! Something went wrong.',
+    description: 'There was a problem with your request.',
+    action: 'Try again',
+    status: 'warning',
+  },
+};
+
+export const Success: Story = {
+  render: (args) => <ToastExample {...args} />,
+  args: {
+    title: 'Uh oh! Something went wrong.',
+    description: 'There was a problem with your request.',
+    action: 'Try again',
+    status: 'success',
+  },
+};
+
+export const Information: Story = {
+  render: (args) => <ToastExample {...args} />,
+  args: {
+    title: 'Uh oh! Something went wrong.',
+    description: 'There was a problem with your request.',
+    action: 'Try again',
+    status: 'info',
+  },
+};
+
+export const Discovery: Story = {
+  render: (args) => <ToastExample {...args} />,
+  args: {
+    title: 'Uh oh! Something went wrong.',
+    description: 'There was a problem with your request.',
+    action: 'Try again',
+    status: 'discovery',
   },
 };

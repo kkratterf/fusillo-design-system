@@ -30,33 +30,33 @@ const SheetOverlay = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <SheetPrimitive.Overlay
     className={cn(
-      "sheet-overlay",
+      'sheet-overlay data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0',
       className
     )}
     {...props}
     ref={ref}
   />
-))
+));
 SheetOverlay.displayName = SheetPrimitive.Overlay.displayName
 
 const sheetVariants = cva(
-  "sheet-component",
+  'sheet-component data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500',
   {
     variants: {
       side: {
-        top: "sheet-top",
+        top: 'sheet-top data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top',
         bottom:
-          "sheet-bottom",
-        left: "sheet-left",
+          'sheet-bottom data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom',
+        left: 'sheet-left data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm',
         right:
-          "sheet-right",
+          'sheet-right data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm',
       },
     },
     defaultVariants: {
-      side: "right",
+      side: 'right',
     },
   }
-)
+);
 
 interface SheetContentProps
   extends React.ComponentPropsWithoutRef<typeof SheetPrimitive.Content>,

@@ -302,43 +302,6 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
-    fontFamily: {
-      sans: [
-        'Inter',
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        'Segoe UI',
-        'Roboto',
-        'Helvetica Neue',
-        'Arial',
-        'Noto Sans',
-        'sans-serif',
-        'Apple Color Emoji',
-        'Segoe UI Emoji',
-        'Segoe UI Symbol',
-        'Noto Color Emoji',
-      ],
-      serif: [
-        'ui-serif',
-        'Georgia',
-        'Cambria',
-        'Times New Roman',
-        'Times',
-        'serif',
-      ],
-      mono: [
-        'SFMono-Regular',
-        'ui-monospace',
-        'Menlo',
-        'Monaco',
-        'Consolas',
-        'Liberation Mono',
-        'Courier New',
-        'monospace',
-      ],
-    },
     extend: {
       colors: {
         color: {
@@ -492,6 +455,9 @@ module.exports = {
           'icon-discovery-strong': 'var(--color-icon-discovery-strong)',
           'icon-discovery-inverse': 'var(--color-icon-discovery-inverse)',
         },
+      },
+      fontFamily: {
+        sans: [ 'Inter' ]
       },
       spacing: {
         0: 'var(--space-0)',

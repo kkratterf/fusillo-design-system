@@ -18,8 +18,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from 'design-system/components/form';
-import { toast } from 'design-system/components/toast/use-toast';
+} from '../form';
+import { toast } from '../toast/use-toast';
 import { Toaster } from '../toast';
 
 const FormSchema = z.object({

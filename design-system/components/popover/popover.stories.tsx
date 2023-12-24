@@ -1,7 +1,6 @@
 // Import core
 import { Meta, StoryObj } from '@storybook/react';
 // Import third parts
-import { Settings2 } from 'lucide-react';
 // Import customs
 import { Button } from '../button';
 import { Input } from '../input';
@@ -14,25 +13,34 @@ const meta: Meta<typeof Popover> = {
   component: Popover,
   tags: ['autodocs'],
   argTypes: {},
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component: 'Displays rich content in a portal, triggered by a button.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8871&mode=design&t=h85Ey3chnxVlElkp-1',
+    },
+  },
 };
 export default meta;
 
 type Story = StoryObj<typeof Popover>;
 
-export const Base: Story = {
+export const Default: Story = {
   render: (args) => (
     <Popover {...args}>
       <PopoverTrigger asChild>
-        <Button variant="secondary" className="w-10 rounded-full p-0">
-          <Settings2 className="h-4 w-4" />
-          <span className="sr-only">Open popover</span>
-        </Button>
+        <Button variant="secondary">Open popover</Button>
       </PopoverTrigger>
       <PopoverContent className="w-80">
         <div className="grid gap-4">
           <div className="space-y-2">
             <h4 className="font-medium leading-none">Dimensions</h4>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="text-sm text-muted-foreground">
               Set the dimensions for the layer.
             </p>
           </div>

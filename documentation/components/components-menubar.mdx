@@ -1,7 +1,5 @@
-// Import core
-import { Meta, StoryObj } from '@storybook/react';
-// Import third parts
-// Import customs
+import { AccessibilityTable } from './accessibility-table.mdx';
+import Preview from './preview.tsx';
 import {
   Menubar,
   MenubarCheckboxItem,
@@ -16,37 +14,11 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from './';
+} from "design-system/components/menubar"
 
-
-const meta: Meta<typeof Menubar> = {
-  title: 'Components/Menubar',
-  component: Menubar,
-  tags: ['autodocs'],
-  argTypes: {
-    asChild: { table: { disable: true } },
-  },
-  parameters: {
-    layout: 'centered',
-    docs: {
-      description: {
-        component:
-          'A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.',
-      },
-    },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8869&mode=design&t=h85Ey3chnxVlElkp-1',
-    },
-  },
-};
-export default meta;
-
-type Story = StoryObj<typeof Menubar>;
-
-export const Default: Story = {
-  render: (args) => (
-    <Menubar {...args}>
+export const MenubarPreview = () => (
+  <Preview>
+    <Menubar>
       <MenubarMenu>
         <MenubarTrigger>File</MenubarTrigger>
         <MenubarContent>
@@ -133,6 +105,88 @@ export const Default: Story = {
         </MenubarContent>
       </MenubarMenu>
     </Menubar>
-  ),
-  args: {},
+  </Preview>
+);
+
+export const MenubarAccessibility = () => {
+  const menubarAccessibilityData = [
+    {
+      key: 'Space',
+      description:
+      (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">MenubarTrigger</code>,{' '}
+          opens the menubar and focuses the first item. When focus is on an item, activates the focused item.
+        </>
+      ),
+    },
+    {
+      key: 'Enter',
+      description:
+      (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">MenubarTrigger</code>,{' '}
+          opens the associated menu. When focus is on an item, activates the focused item.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowDown',
+      description:
+      (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">MenubarTrigger</code>,{' '}
+          opens the associated menu. When focus is on an item, moves focus to the next item.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowUp',
+      description: 'When focus is on an item, moves focus to the previous item.'
+    },
+    {
+      key: 'ArrowRight',
+      description:
+      (
+        <>
+          When focus is on a{' '}
+          <code className="cell-accessibility-code">MenubarTrigger</code>,{' '}
+          moves focus to the next item. When focus is on a{' '}
+          <code className="cell-accessibility-code">MenubarSubTrigger</code>,{' '}
+          opens or closes the submenu depending on reading direction. When focus is within a{' '}
+          <code className="cell-accessibility-code">MenubarContent</code>,{' '}
+          opens the next menu in the menubar.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowLeft',
+      description:
+      (
+        <>
+          When focus is on a{' '}
+          <code className="cell-accessibility-code">MenubarTrigger</code>,{' '}
+          moves focus to the previous item. When focus is on a{' '}
+          <code className="cell-accessibility-code">MenubarSubTrigger</code>,{' '}
+          opens or closes the submenu depending on reading direction. When focus is within a{' '}
+          <code className="cell-accessibility-code">MenubarContent</code>,{' '}
+          opens the next menu in the menubar.
+        </>
+      ),
+    },
+    {
+      key: 'Esc',
+      description:
+      (
+        <>
+          Closes the currently open menu and moves focus to its{' '}
+          <code className="cell-accessibility-code">MenubarTrigger</code>.
+        </>
+      ),
+    },
+  ];
+  return <AccessibilityTable rows={menubarAccessibilityData} />;
 };

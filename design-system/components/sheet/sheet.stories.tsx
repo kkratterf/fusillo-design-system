@@ -4,6 +4,7 @@ import { Meta, StoryObj } from '@storybook/react';
 // Import customs
 import { Button } from '../button';
 import { Label } from '../label';
+import { Input } from '../input';
 import {
   Sheet,
   SheetClose,
@@ -20,19 +21,35 @@ const meta: Meta<typeof Sheet> = {
   title: 'Components/Sheet',
   component: Sheet,
   tags: ['autodocs'],
-  argTypes: {},
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component:
+          'Extends the Dialog component to display content that complements the main content of the screen.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8877&mode=design&t=h85Ey3chnxVlElkp-1',
+    },
+  },
 };
 export default meta;
 
-type Story = StoryObj<typeof Sheet>;
+type SheetCustomProps = {
+  side?: 'top' | 'bottom' | 'left' | 'right';
+};
 
-export const Base: Story = {
+type Story = StoryObj<SheetCustomProps>;
+
+export const Default: Story = {
   render: (args) => (
-    <Sheet {...args}>
+    <Sheet>
       <SheetTrigger asChild>
         <Button variant="secondary">Open</Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent side={args.side}>
         <SheetHeader>
           <SheetTitle>Edit profile</SheetTitle>
           <SheetDescription>
@@ -44,13 +61,13 @@ export const Base: Story = {
             <Label htmlFor="name" className="text-right">
               Name
             </Label>
-            <input id="name" value="Pedro Duarte" className="col-span-3" />
+            <Input id="name" value="Michael Scott" className="col-span-3" />
           </div>
           <div className="grid grid-cols-4 items-center gap-4">
             <Label htmlFor="username" className="text-right">
               Username
             </Label>
-            <input id="username" value="@peduarte" className="col-span-3" />
+            <Input id="username" value="@mscott" className="col-span-3" />
           </div>
         </div>
         <SheetFooter>
@@ -61,5 +78,19 @@ export const Base: Story = {
       </SheetContent>
     </Sheet>
   ),
-  args: {},
+  args: {
+    side: 'right',
+  },
+  argTypes: {
+    side: {
+      control: 'select',
+      options: ['top', 'bottom', 'left', 'right'],
+      description:
+        'Use the `side` prop to define the direction in which the sheet will open',
+      table: {
+        defaultValue: { summary: 'right' },
+        type: { summary: null },
+      },
+    },
+  },
 };

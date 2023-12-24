@@ -282,6 +282,34 @@ export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button variant="secondary">Open</Button>
+          </SheetTrigger>
+          <SheetContent>
+            <SheetHeader>
+              <SheetTitle>Edit profile</SheetTitle>
+              <SheetDescription>
+                Make changes to your profile here. Click save when you re done.
+              </SheetDescription>
+            </SheetHeader>
+            <div>
+              <div>
+                <Label htmlFor="name">Name</Label>
+                <Input id="name" value="Michael Scott" />
+              </div>
+              <div>
+                <Label htmlFor="username">Username</Label>
+                <Input id="username" value="@mscott" />
+              </div>
+            </div>
+            <SheetFooter>
+              <SheetClose asChild>
+                <Button type="submit">Save changes</Button>
+              </SheetClose>
+            </SheetFooter>
+          </SheetContent>
+        </Sheet>
         <Dialog>
           <DialogTrigger asChild>
             <Button variant="secondary">Edit Profile</Button>
