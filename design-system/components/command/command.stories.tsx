@@ -23,24 +23,31 @@ import {
   CommandShortcut,
 } from './';
 
-
 const meta: Meta<typeof Command> = {
   title: 'Components/Command',
   component: Command,
   tags: ['autodocs'],
   argTypes: {},
+  parameters: {
+    docs: {
+      description: {
+        component: 'Fast, composable, unstyled command menu for React.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=233%3A756&mode=design&t=WFdj0huEcHgBPdYp-1',
+    },
+  },
 };
 
 export default meta;
 
 type Story = StoryObj<typeof Command>;
 
-export const Base: Story = {
-  args: {
-    className: 'rounded-radius-lg border shadow-md',
-  },
-  render: (args) => (
-    <Command {...args}>
+export const Default: Story = {
+  render: () => (
+    <Command className="rounded-radius-lg border shadow-md">
       <CommandInput placeholder="Type a command or search..." />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
@@ -82,13 +89,13 @@ export const Base: Story = {
 };
 
 export const Dialog: Story = {
-  args: {
-    className: 'rounded-radius-lg border shadow-md',
+  render: () => <CommandDialogDemo />,
+  parameters: {
+    layout: 'centered',
   },
-  render: (args) => <CommandDialogDemo {...args} />,
 };
 
-const CommandDialogDemo = (args: Story['args']) => {
+const CommandDialogDemo = () => {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -111,7 +118,10 @@ const CommandDialogDemo = (args: Story['args']) => {
           <span className="text-xs">⌘</span>J
         </kbd>
       </p>
-      <CommandDialog {...args} open={open} onOpenChange={setOpen}>
+      <CommandDialog
+        open={open}
+        onOpenChange={setOpen}
+      >
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>

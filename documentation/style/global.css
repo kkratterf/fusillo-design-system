@@ -144,3 +144,11 @@ td {
 .cell-typography {
   @apply w-40 sm:w-64 lg:w-96 font-mono opacity-80;
 }
+
+.calendar-fix td {
+  @apply p-0 !important;
+}
+
+.calendar-fix table {
+  @apply mt-4 mb-0 !important;
+}

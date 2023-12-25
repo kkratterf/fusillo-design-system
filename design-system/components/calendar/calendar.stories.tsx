@@ -28,7 +28,20 @@ const meta: Meta<typeof Calendar> = {
   title: 'Components/Calendar',
   component: Calendar,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {
+  },
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component: 'An interactive calendar for date selection experiences.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=233%3A750&mode=design&t=WFdj0huEcHgBPdYp-1',
+    },
+  },
 };
 
 export default meta;
@@ -41,18 +54,11 @@ const FormSchema = z.object({
   }),
 });
 
-export const Base: Story = {
-  args: {
-    mode: 'single',
-    className: 'rounded-radius border w-fit',
-  },
+export const Default: Story = {
 };
 
 export const CalendarForm: Story = {
-  args: {
-    mode: 'single',
-  },
-  render: (args) => <ExampleCalendarForm {...args} />,
+  render: () => <ExampleCalendarForm />,
 };
 
 const ExampleCalendarForm = (args: Story['args']) => {
@@ -65,8 +71,10 @@ const ExampleCalendarForm = (args: Story['args']) => {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+        <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
+          <code className="text-color-text">
+            {JSON.stringify(data, null, 2)}
+          </code>
         </pre>
       ),
     });

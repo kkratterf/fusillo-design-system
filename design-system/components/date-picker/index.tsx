@@ -7,15 +7,15 @@ import { format } from 'date-fns';
 import { Calendar as CalendarIcon } from 'lucide-react';
 // Import customs
 import { cn } from '../../lib/twMerge';
-import { Button } from '@/components/button';
-import { Calendar } from '@/components/calendar';
+import { Button } from '../button';
+import { Calendar } from '../calendar';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/components/popover';
+} from '../popover';
 
-export function DatePickerDemo() {
+export function DatePicker() {
   const [date, setDate] = React.useState<Date>();
 
   return (
@@ -43,3 +43,4 @@ export function DatePickerDemo() {
     </Popover>
   );
 }
+DatePicker.displayName = 'DatePicker';

@@ -1,24 +1,22 @@
 'use client';
 
-// Import core
 import * as React from 'react';
-// Import third parts
 import { Check, ChevronsUpDown } from 'lucide-react';
-// Import customs
-import { cn } from '../../lib/twMerge';
-import { Button } from '../button';
+
+import { cn } from 'design-system/lib/twMerge';
+import { Button } from 'design-system/components/button';
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from '../command';
+} from 'design-system/components/command';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '../popover';
+} from 'design-system/components/popover';
 
 const frameworks = [
   {
@@ -43,7 +41,7 @@ const frameworks = [
   },
 ];
 
-export function Combobox() {
+export function ComboboxDemo() {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState('');
 
@@ -54,15 +52,15 @@ export function Combobox() {
           variant="secondary"
           role="combobox"
           aria-expanded={open}
-          className="w-[200px] justify-between"
+          className="w-[240px] justify-between"
         >
           {value
             ? frameworks.find((framework) => framework.value === value)?.label
             : 'Select framework...'}
-          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-disabled" />
+          <ChevronsUpDown />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[200px] p-0">
+      <PopoverContent className="w-[240px] p-0">
         <Command>
           <CommandInput placeholder="Search framework..." />
           <CommandEmpty>No framework found.</CommandEmpty>
@@ -70,6 +68,7 @@ export function Combobox() {
             {frameworks.map((framework) => (
               <CommandItem
                 key={framework.value}
+                value={framework.value}
                 onSelect={(currentValue) => {
                   setValue(currentValue === value ? '' : currentValue);
                   setOpen(false);
@@ -78,7 +77,7 @@ export function Combobox() {
                 <Check
                   className={cn(
                     'mr-2 h-4 w-4',
-                    value === framework.value ? 'opacity-visible' : 'opacity-invisible'
+                    value === framework.value ? 'opacity-100' : 'opacity-0'
                   )}
                 />
                 {framework.label}
@@ -90,4 +89,3 @@ export function Combobox() {
     </Popover>
   );
 }
-Combobox.displayName = 'Combobox';

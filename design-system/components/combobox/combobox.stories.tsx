@@ -2,6 +2,7 @@
 
 // Import core
 import * as React from 'react';
+import type { Meta, StoryObj } from '@storybook/react';
 // Import third parts
 import { Check, ChevronsUpDown } from 'lucide-react';
 // Import customs
@@ -19,6 +20,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '../popover';
+import { Combobox } from './';
 
 const frameworks = [
   {
@@ -43,7 +45,7 @@ const frameworks = [
   },
 ];
 
-export function Combobox() {
+const ComboboxDemo = () => {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState('');
 
@@ -54,15 +56,15 @@ export function Combobox() {
           variant="secondary"
           role="combobox"
           aria-expanded={open}
-          className="w-[200px] justify-between"
+          className="w-[240px] justify-between"
         >
           {value
             ? frameworks.find((framework) => framework.value === value)?.label
             : 'Select framework...'}
-          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-disabled" />
+          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[200px] p-0">
+      <PopoverContent className="w-[240px] p-0">
         <Command>
           <CommandInput placeholder="Search framework..." />
           <CommandEmpty>No framework found.</CommandEmpty>
@@ -70,6 +72,7 @@ export function Combobox() {
             {frameworks.map((framework) => (
               <CommandItem
                 key={framework.value}
+                value={framework.value}
                 onSelect={(currentValue) => {
                   setValue(currentValue === value ? '' : currentValue);
                   setOpen(false);
@@ -78,7 +81,7 @@ export function Combobox() {
                 <Check
                   className={cn(
                     'mr-2 h-4 w-4',
-                    value === framework.value ? 'opacity-visible' : 'opacity-invisible'
+                    value === framework.value ? 'opacity-100' : 'opacity-0'
                   )}
                 />
                 {framework.label}
@@ -90,4 +93,31 @@ export function Combobox() {
     </Popover>
   );
 }
-Combobox.displayName = 'Combobox';
+
+const meta: Meta<typeof Combobox> = {
+  title: 'Components/Combobox',
+  component: Combobox,
+  tags: ['autodocs'],
+  argTypes: {},
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component:
+          'Autocomplete input and command palette with a list of suggestions.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=233%3A755&mode=design&t=WFdj0huEcHgBPdYp-1',
+    },
+  },
+};
+export default meta;
+
+type Story = StoryObj<typeof Combobox>;
+
+export const Default: Story = {
+  render: () => <ComboboxDemo />,
+  args: {},
+};

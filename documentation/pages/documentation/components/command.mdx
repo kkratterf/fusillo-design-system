@@ -1,7 +1,64 @@
+import { Tabs, Cards, Card } from 'nextra/components';
+import { CommandPreview, CommandDialog } from '../../../components/components-command.mdx'
+
 # 💠 Command
 
 Fast, composable, unstyled command menu for React.
 
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CommandPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    import { Calculator, Calendar, CreditCard, Settings, Smile, User } from "lucide-react"
+    import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut } from "@/components/command"
+    
+    export function CommandDemo() {
+        return (
+            <Command>
+            <CommandInput placeholder="Type a command or search..." />
+            <CommandList>
+                <CommandEmpty>No results found.</CommandEmpty>
+                <CommandGroup heading="Suggestions">
+                <CommandItem>
+                    <Calendar/>
+                    <span>Calendar</span>
+                </CommandItem>
+                <CommandItem>
+                    <Smile/>
+                    <span>Search Emoji</span>
+                </CommandItem>
+                <CommandItem>
+                    <Calculator/>
+                    <span>Calculator</span>
+                </CommandItem>
+                </CommandGroup>
+                <CommandSeparator />
+                <CommandGroup heading="Settings">
+                <CommandItem>
+                    <User/>
+                    <span>Profile</span>
+                    <CommandShortcut>⌘P</CommandShortcut>
+                </CommandItem>
+                <CommandItem>
+                    <CreditCard/>
+                    <span>Billing</span>
+                    <CommandShortcut>⌘B</CommandShortcut>
+                </CommandItem>
+                <CommandItem>
+                    <Settings/>
+                    <span>Settings</span>
+                    <CommandShortcut>⌘S</CommandShortcut>
+                </CommandItem>
+                </CommandGroup>
+            </CommandList>
+            </Command>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 ## Usage
 
@@ -16,3 +73,114 @@ It's inspired by the command palettes found in many development environments and
 - **Accessibility improvement**: A well-designed Command Menu can also serve as an accessibility feature, helping users who prefer or require keyboard-only navigation.
 
 Avoid using a Command Menu for actions that require more context or where a visual interface is necessary for clarity. Do not overcrowd the Command Menu with too many commands or options, as this can make it difficult for users to find what they need quickly. Ensure the Command Menu does not become a crutch for poor UI design elsewhere in the application; it should complement and enhance the existing user interface, not replace it.
+
+## About
+
+The `<Command />` component uses the [cmdk](https://cmdk.paco.me/) component by [pacocoursey](https://twitter.com/pacocoursey).
+
+## Examples 
+
+### Default
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CommandPreview />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Dialog
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <CommandDialog />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy 
+    "use client"
+ 
+    import * as React from "react"
+    import { Calculator, Calendar, CreditCard, Settings, Smile, User } from "lucide-react"
+    import { CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut } from "@/components/command"
+    
+    export function CommandDialogDemo() {
+    const [open, setOpen] = React.useState(false)
+    
+    React.useEffect(() => {
+        const down = (e: KeyboardEvent) => {
+        if (e.key === "j" && (e.metaKey || e.ctrlKey)) {
+            e.preventDefault()
+            setOpen((open) => !open)
+        }
+        }
+    
+        document.addEventListener("keydown", down)
+        return () => document.removeEventListener("keydown", down)
+    }, [])
+    
+    return (
+        <>
+        <p>Press{" "}<kbd><span>⌘</span>J</kbd></p>
+        <CommandDialog open={open} onOpenChange={setOpen}>
+            <CommandInput placeholder="Type a command or search..." />
+            <CommandList>
+            <CommandEmpty>No results found.</CommandEmpty>
+            <CommandGroup heading="Suggestions">
+                <CommandItem>
+                <Calendar/>
+                <span>Calendar</span>
+                </CommandItem>
+                <CommandItem>
+                <Smile/>
+                <span>Search Emoji</span>
+                </CommandItem>
+                <CommandItem>
+                <Calculator/>
+                <span>Calculator</span>
+                </CommandItem>
+            </CommandGroup>
+            <CommandSeparator />
+            <CommandGroup heading="Settings">
+                <CommandItem>
+                <User/>
+                <span>Profile</span>
+                <CommandShortcut>⌘P</CommandShortcut>
+                </CommandItem>
+                <CommandItem>
+                <CreditCard/>
+                <span>Billing</span>
+                <CommandShortcut>⌘B</CommandShortcut>
+                </CommandItem>
+                <CommandItem>
+                <Settings/>
+                <span>Settings</span>
+                <CommandShortcut>⌘S</CommandShortcut>
+                </CommandItem>
+            </CommandGroup>
+            </CommandList>
+        </CommandDialog>
+        </>
+    )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Useful links
+
+**Here you go!** Here are all the resources you might need if you are a designer, a developer or a content manager:
+
+<Cards className='mt-8'>
+  <Card
+    title="🤖 Storybook"
+    href="https://main--653e613f4feb85c1b6467ba7.chromatic.com/?path=/docs/components-combobox--documentation"
+  />
+  <Card
+    title="🪄 Figma"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=233%3A755&mode=design&t=wga0nlDwi7on1yVl-1"
+  />
+</Cards>  
