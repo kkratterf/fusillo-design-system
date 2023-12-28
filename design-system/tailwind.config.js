@@ -434,6 +434,48 @@ module.exports = {
         sans: ['var(--geist-sans)', ...fontFamily.sans],
         mono: ['var(--geist-mono)', ...fontFamily.mono],
       },
+      fontSize: {
+        'title-screen': [
+          '2.25rem',
+          {
+            lineHeight: '2.5rem',
+            letterSpacing: '-2.5%',
+            fontWeight: '600',
+          },
+        ],
+        'title-section': [
+          '1.875rem',
+          {
+            lineHeight: '2.25rem',
+            letterSpacing: '-1.5%',
+            fontWeight: '600',
+          },
+        ],
+        'title-subsection': [
+          '1.875rem',
+          {
+            lineHeight: '2.25rem',
+            letterSpacing: '-0.02em',
+            fontWeight: '700',
+          },
+        ],
+        'title-body': [
+          '1.875rem',
+          {
+            lineHeight: '2.25rem',
+            letterSpacing: '-0.02em',
+            fontWeight: '700',
+          },
+        ],
+        'title-group': [
+          '1.875rem',
+          {
+            lineHeight: '2.25rem',
+            letterSpacing: '-0.02em',
+            fontWeight: '700',
+          },
+        ],
+      },
       width: {
         0: 'var(--w-0)',
         1: 'var(--w-1)',

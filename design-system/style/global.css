@@ -16,11 +16,6 @@
     text-rendering: optimizeLegibility;
   }
 
-  /* TYPOGRAPHY - DA SPOSTARE IN TOKENS E CONFIG APPENA FIGMA AGGIORNA */
-  .title-screen {
-    @apply font-sans font-semibold text-4xl;
-  }
-
   .title-section {
     @apply font-sans font-semibold text-3xl;
   }

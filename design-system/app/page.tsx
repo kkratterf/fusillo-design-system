@@ -282,6 +282,8 @@ export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
+        <div className="text-title-screen">Teeeeeeest</div>
+        <div className="text-title-section">Other test</div>
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="secondary">Open</Button>
@@ -750,9 +752,6 @@ export default function Home() {
           </AlertDescription>
         </Alert>
 
-
-
-
         <AlertDialog>
           <AlertDialogTrigger asChild>
             <Button variant="secondary">Show Dialog</Button>
@@ -1142,19 +1141,7 @@ export default function Home() {
         >
           Show Toast
         </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'success',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: 'prova',
-            });
-          }}
-        >
-          Show Toast
-        </Button>
+
         <Button
           variant="secondary"
           onClick={() => {
@@ -1168,32 +1155,7 @@ export default function Home() {
         >
           Show Toast
         </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'discovery',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: 'prova',
-            });
-          }}
-        >
-          Show Toast
-        </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'info',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: 'prova',
-            });
-          }}
-        >
-          Show Toast
-        </Button>
+
         <Textarea placeholder="Type your message here." />
         <div className="flex items-center space-x-2">
           <Tag status="default">Label</Tag>
@@ -1208,16 +1170,9 @@ export default function Home() {
             Warning
           </Tag>
           <Separator orientation="vertical" />
-          <Tag status="success">
-            <CheckCircle />
-          </Tag>
           <Separator orientation="vertical" />
-          <Tag status="info">
-            <Loader />
-            Loading
-          </Tag>
+
           <Separator orientation="vertical" />
-          <Tag status="discovery">Discovery</Tag>
         </div>
         <Tabs defaultValue="account" className="w-full">
           <TabsList>
