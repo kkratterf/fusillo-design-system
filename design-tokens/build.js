@@ -197,8 +197,7 @@ styleTokens.registerFormat({
         /-icon-(brand|danger|warning|success|info|discovery|utility)-icon-\1/g,
         '-icon-$1'
       )
-      .replace(/border-border-radius-/g, '')
-      .replace(/-border-border-width/g, '')
+      .replace(/(border-radius-|-border-width)/g, '')
       .replace(/size-(height|width)-/g, '')
       .replace(/(space|breakpoints)-/g, '')
       .replace(/opacity-opacity/g, 'opacity')

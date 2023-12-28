@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Dec 2023 12:53:04 GMT
+ * Generated on Thu, 28 Dec 2023 16:45:04 GMT
  */
 
 module.exports = {
@@ -2913,7 +2913,7 @@ module.exports = {
         }
       },
       "Border": {
-        "Border Radius": {
+        "Radius": {
           "rounded-none": {
             "type": "dimension",
             "value": "0px",
@@ -2931,19 +2931,19 @@ module.exports = {
                 "variableId": "VariableID:91:105"
               }
             },
-            "name": "TokensLightBorderBorderRadiusRoundedNone",
+            "name": "TokensLightBorderRadiusRoundedNone",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-none"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-none"
             ]
           },
@@ -2964,19 +2964,19 @@ module.exports = {
                 "variableId": "VariableID:1830:17744"
               }
             },
-            "name": "TokensLightBorderBorderRadiusRoundedSm",
+            "name": "TokensLightBorderRadiusRoundedSm",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-sm"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-sm"
             ]
           },
@@ -2997,19 +2997,19 @@ module.exports = {
                 "variableId": "VariableID:1830:17745"
               }
             },
-            "name": "TokensLightBorderBorderRadiusRounded",
+            "name": "TokensLightBorderRadiusRounded",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded"
             ]
           },
@@ -3030,19 +3030,19 @@ module.exports = {
                 "variableId": "VariableID:1830:17746"
               }
             },
-            "name": "TokensLightBorderBorderRadiusRoundedLg",
+            "name": "TokensLightBorderRadiusRoundedLg",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-lg"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-lg"
             ]
           },
@@ -3063,24 +3063,24 @@ module.exports = {
                 "variableId": "VariableID:1830:17747"
               }
             },
-            "name": "TokensLightBorderBorderRadiusRoundedFull",
+            "name": "TokensLightBorderRadiusRoundedFull",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-full"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-full"
             ]
           }
         },
-        "Border Width": {
+        "Width": {
           "border-0": {
             "type": "dimension",
             "value": "0px",
@@ -3098,19 +3098,19 @@ module.exports = {
                 "variableId": "VariableID:1703:10647"
               }
             },
-            "name": "TokensLightBorderBorderWidthBorder0",
+            "name": "TokensLightBorderWidthBorder0",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Width",
+              "subitem": "Width",
               "state": "border-0"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Width",
+              "Width",
               "border-0"
             ]
           },
@@ -3131,19 +3131,19 @@ module.exports = {
                 "variableId": "VariableID:1703:13570"
               }
             },
-            "name": "TokensLightBorderBorderWidthBorder",
+            "name": "TokensLightBorderWidthBorder",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Width",
+              "subitem": "Width",
               "state": "border"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Width",
+              "Width",
               "border"
             ]
           },
@@ -3164,19 +3164,19 @@ module.exports = {
                 "variableId": "VariableID:1703:13571"
               }
             },
-            "name": "TokensLightBorderBorderWidthBorder2",
+            "name": "TokensLightBorderWidthBorder2",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
               "item": "Border",
-              "subitem": "Border Width",
+              "subitem": "Width",
               "state": "border-2"
             },
             "path": [
               "Tokens",
               "Light",
               "Border",
-              "Border Width",
+              "Width",
               "border-2"
             ]
           }
@@ -9354,7 +9354,7 @@ module.exports = {
         }
       },
       "Border": {
-        "Border Radius": {
+        "Radius": {
           "rounded-none": {
             "type": "dimension",
             "value": "0px",
@@ -9372,19 +9372,19 @@ module.exports = {
                 "variableId": "VariableID:91:105"
               }
             },
-            "name": "TokensDarkBorderBorderRadiusRoundedNone",
+            "name": "TokensDarkBorderRadiusRoundedNone",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-none"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-none"
             ]
           },
@@ -9405,19 +9405,19 @@ module.exports = {
                 "variableId": "VariableID:1830:17744"
               }
             },
-            "name": "TokensDarkBorderBorderRadiusRoundedSm",
+            "name": "TokensDarkBorderRadiusRoundedSm",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-sm"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-sm"
             ]
           },
@@ -9438,19 +9438,19 @@ module.exports = {
                 "variableId": "VariableID:1830:17745"
               }
             },
-            "name": "TokensDarkBorderBorderRadiusRounded",
+            "name": "TokensDarkBorderRadiusRounded",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded"
             ]
           },
@@ -9471,19 +9471,19 @@ module.exports = {
                 "variableId": "VariableID:1830:17746"
               }
             },
-            "name": "TokensDarkBorderBorderRadiusRoundedLg",
+            "name": "TokensDarkBorderRadiusRoundedLg",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-lg"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-lg"
             ]
           },
@@ -9504,24 +9504,24 @@ module.exports = {
                 "variableId": "VariableID:1830:17747"
               }
             },
-            "name": "TokensDarkBorderBorderRadiusRoundedFull",
+            "name": "TokensDarkBorderRadiusRoundedFull",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Radius",
+              "subitem": "Radius",
               "state": "rounded-full"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Radius",
+              "Radius",
               "rounded-full"
             ]
           }
         },
-        "Border Width": {
+        "Width": {
           "border-0": {
             "type": "dimension",
             "value": "0px",
@@ -9539,19 +9539,19 @@ module.exports = {
                 "variableId": "VariableID:1703:10647"
               }
             },
-            "name": "TokensDarkBorderBorderWidthBorder0",
+            "name": "TokensDarkBorderWidthBorder0",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Width",
+              "subitem": "Width",
               "state": "border-0"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Width",
+              "Width",
               "border-0"
             ]
           },
@@ -9572,19 +9572,19 @@ module.exports = {
                 "variableId": "VariableID:1703:13570"
               }
             },
-            "name": "TokensDarkBorderBorderWidthBorder",
+            "name": "TokensDarkBorderWidthBorder",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Width",
+              "subitem": "Width",
               "state": "border"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Width",
+              "Width",
               "border"
             ]
           },
@@ -9605,19 +9605,19 @@ module.exports = {
                 "variableId": "VariableID:1703:13571"
               }
             },
-            "name": "TokensDarkBorderBorderWidthBorder2",
+            "name": "TokensDarkBorderWidthBorder2",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
               "item": "Border",
-              "subitem": "Border Width",
+              "subitem": "Width",
               "state": "border-2"
             },
             "path": [
               "Tokens",
               "Dark",
               "Border",
-              "Border Width",
+              "Width",
               "border-2"
             ]
           }
