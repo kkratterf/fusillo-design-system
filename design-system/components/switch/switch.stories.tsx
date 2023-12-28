@@ -51,15 +51,15 @@ const SwitchFormDemo = () => {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="w-full space-y-6">
         <div>
-          <h3 className="mb-4 title-body">Email Notifications</h3>
+          <h3 className="mb-4 text-title-body">Email Notifications</h3>
           <div className="space-y-4">
             <FormField
               control={form.control}
               name="marketing_emails"
               render={({ field }) => (
-                <FormItem className="flex flex-row items-center justify-between rounded-lg border border p-4 gap-4">
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border border-border p-4 gap-4">
                   <div className="space-y-0.5">
-                    <FormLabel className="body-large">
+                    <FormLabel className="text-lg">
                       Marketing emails
                     </FormLabel>
                     <FormDescription>
@@ -81,7 +81,7 @@ const SwitchFormDemo = () => {
               render={({ field }) => (
                 <FormItem className="flex flex-row items-center justify-between rounded-lg border border p-4 gap-4">
                   <div className="space-y-0.5">
-                    <FormLabel className="body-large">Security emails</FormLabel>
+                    <FormLabel className="text-lg">Security emails</FormLabel>
                     <FormDescription>
                       Receive emails about your account security.
                     </FormDescription>

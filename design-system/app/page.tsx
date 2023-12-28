@@ -283,7 +283,8 @@ export default function Home() {
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
         <div className="text-title-screen">Teeeeeeest</div>
-        <div className="text-title-section">Other test</div>
+        <div className="text-semibold">Other test</div>
+        <div className="text">Other test</div>
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="secondary">Open</Button>

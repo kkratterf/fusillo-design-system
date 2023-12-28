@@ -20,11 +20,11 @@
   }
 
   .card-title {
-    @apply title-subsection tracking-tight;
+    @apply text-title-subsection tracking-tight;
   }
 
   .card-description {
-    @apply body-base text-description;
+    @apply text-md text-description;
   }
 
   .card-content {

@@ -32,7 +32,7 @@
     }
 
     .alert-title {
-        @apply body-large-medium mb-1 pl-8;
+        @apply text-lg-medium mb-1 pl-8;
     }
 
     .alert-component:not(:has(> .alert-icon)) .alert-title
@@ -41,7 +41,7 @@
     }
 
     .alert-description {
-        @apply body-base text pl-8;
+        @apply text-md text pl-8;
     }
 
     .alert-component:not(:has(> .alert-icon)) .alert-description

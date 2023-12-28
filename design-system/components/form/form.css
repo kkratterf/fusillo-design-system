@@ -16,11 +16,11 @@
     }
 
     .form-description {
-        @apply body-base text-description;
+        @apply text-md text-description;
     }
 
     .form-message {
-        @apply body-base-medium text-danger;
+        @apply text-md-medium text-danger;
     }
 
 }

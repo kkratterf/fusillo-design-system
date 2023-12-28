@@ -32,7 +32,7 @@
   }
 
   .command-input {
-    @apply flex h-9 w-full rounded bg-elevated py-3 body-base outline-none placeholder:text-placeholder disabled:cursor-not-allowed disabled:opacity-disabled;
+    @apply flex h-9 w-full rounded bg-elevated py-3 text-md outline-none placeholder:text-placeholder disabled:cursor-not-allowed disabled:opacity-disabled;
   }
 
   .command-list {
@@ -40,11 +40,11 @@
   }
 
   .command-empty {
-    @apply py-6 text-center body-base text-description;
+    @apply py-6 text-center text-md text-description;
   }
 
   .command-group {
-    @apply overflow-hidden p-1 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-2 [&_[cmdk-group-heading]]:title-group [&_[cmdk-group-heading]]:text-description;
+    @apply overflow-hidden p-1 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-2 [&_[cmdk-group-heading]]:text-title-group [&_[cmdk-group-heading]]:text-description;
   }
 
   .command-separator {
@@ -52,11 +52,11 @@
   }
 
   .command-item {
-    @apply relative flex cursor-default select-none items-center rounded-sm px-2 py-1 h-9 body-base outline-none aria-selected:bg-item-selected aria-selected:text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+    @apply relative flex cursor-default select-none items-center rounded-sm px-2 py-1 h-9 text-md outline-none aria-selected:bg-item-selected aria-selected:text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .command-shortcut {
-    @apply ml-auto pl-1 body-small tracking-widest text-description;
+    @apply ml-auto pl-1 text-sm tracking-widest text-description;
   }
 }
 

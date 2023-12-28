@@ -20,7 +20,7 @@
     }
 
     .navigation-menu-trigger-style {
-        @apply relative inline-flex h-9 w-max items-center justify-center rounded bg-item text px-4 py-2 body-base-medium transition-colors hover:bg-item-hover focus:bg-item-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-item-hover data-[state=open]:bg-item-hover;
+        @apply relative inline-flex h-9 w-max items-center justify-center rounded bg-item text px-4 py-2 text-md-medium transition-colors hover:bg-item-hover focus:bg-item-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-item-hover data-[state=open]:bg-item-hover;
     }
 
     .navigation-menu-trigger-icon {

@@ -30,19 +30,19 @@
     }
 
     .avatar-sm {
-        @apply h-6 w-6 body-small;
+        @apply h-6 w-6 text-sm;
     }
 
     .avatar-md {
-        @apply h-8 w-8 body-base;
+        @apply h-8 w-8 text-md;
     }
 
     .avatar-lg {
-        @apply h-9 w-9 body-base;
+        @apply h-9 w-9 text-md;
     }
 
     .avatar-xl {
-        @apply h-10 w-10 body-large;
+        @apply h-10 w-10 text-lg;
     }
     
 }

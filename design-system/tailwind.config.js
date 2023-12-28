@@ -452,27 +452,89 @@ module.exports = {
           },
         ],
         'title-subsection': [
-          '1.875rem',
+          '1.5rem',
           {
-            lineHeight: '2.25rem',
-            letterSpacing: '-0.02em',
-            fontWeight: '700',
+            lineHeight: '2rem',
+            letterSpacing: '-1.5%',
+            fontWeight: '600',
           },
         ],
         'title-body': [
-          '1.875rem',
+          '1.125rem',
           {
-            lineHeight: '2.25rem',
-            letterSpacing: '-0.02em',
-            fontWeight: '700',
+            lineHeight: '1.75rem',
+            letterSpacing: '-1%',
+            fontWeight: '600',
           },
         ],
         'title-group': [
-          '1.875rem',
+          '0.875rem',
           {
-            lineHeight: '2.25rem',
-            letterSpacing: '-0.02em',
-            fontWeight: '700',
+            lineHeight: '1.25rem',
+            letterSpacing: '1.5%',
+            fontWeight: '500',
+          },
+        ],
+        'md-semibold': [
+          '0.875rem',
+          {
+            lineHeight: '1.375rem',
+            letterSpacing: '1.25%',
+            fontWeight: '600',
+          },
+        ],
+        'md-medium': [
+          '0.875rem',
+          {
+            lineHeight: '1.375rem',
+            letterSpacing: '1.25%',
+            fontWeight: '500',
+          },
+        ],
+        md: [
+          '0.875rem',
+          {
+            lineHeight: '1.375rem',
+            letterSpacing: '1%',
+            fontWeight: '400',
+          },
+        ],
+        'lg-semibold': [
+          '1rem',
+          {
+            lineHeight: '1.5rem',
+            letterSpacing: '0.5%',
+            fontWeight: '600',
+          },
+        ],
+        'lg-medium': [
+          '1rem',
+          {
+            lineHeight: '1.5rem',
+            letterSpacing: '0.5%',
+            fontWeight: '500',
+          },
+        ],
+        lg: [
+          '1rem',
+          {
+            lineHeight: '1.5rem',
+            letterSpacing: '-0.5%',
+            fontWeight: '400',
+          },
+        ],
+        'sm-medium': [
+          '0.75rem',
+          {
+            lineHeight: '1rem',
+            fontWeight: '500',
+          },
+        ],
+        sm: [
+          '0.75rem',
+          {
+            lineHeight: '1rem',
+            fontWeight: '400',
           },
         ],
       },

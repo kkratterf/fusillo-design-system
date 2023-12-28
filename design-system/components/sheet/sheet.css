@@ -48,11 +48,11 @@
     }
 
     .sheet-title {
-        @apply title-body text;
+        @apply text-title-body text;
     }
 
     .sheet-description {
-        @apply body-base text-description;
+        @apply text-md text-description;
     }
 
 }

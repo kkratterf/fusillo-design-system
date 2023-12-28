@@ -12,7 +12,7 @@
 @layer components {
 
   .tooltip-content {
-    @apply z-50 overflow-hidden rounded px-3 py-[6px] body-base shadow-md;
+    @apply z-50 overflow-hidden rounded px-3 py-[6px] text-md shadow-md;
   }
 
   .tooltip-content-outline {

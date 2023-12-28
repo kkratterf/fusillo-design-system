@@ -32,10 +32,10 @@ export const ScrollAreaPreview = () => (
   <Preview>
     <ScrollArea className="h-72 w-48 rounded border">
       <div className="p-4">
-        <h4 className="mb-4 body-base-medium leading-none">Tags</h4>
+        <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
         {tags.map((tag) => (
           <>
-            <div key={tag} className="body-base">
+            <div key={tag} className="text-md">
               {tag}
             </div>
             <Separator className="my-2" />
@@ -61,7 +61,7 @@ export const ScrollAreaHorizontal = () => (
                 height={400}
               />
             </div>
-            <figcaption className="pt-2 body-small text-description">
+            <figcaption className="pt-2 text-sm text-description">
               Photo by{' '}
               <span className="font-semibold text">
                 {artwork.artist}

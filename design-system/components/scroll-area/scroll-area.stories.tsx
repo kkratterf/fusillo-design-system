@@ -40,12 +40,12 @@ export const Default: Story = {
       className="h-40 w-48 rounded border border"
     >
       <div className="p-4">
-        <h4 className="mb-4 body-base-medium leading-none">Tags</h4>
+        <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
         {Array.from({ length: 50 })
           .map((_, i, a) => `v1.2.0-beta.${a.length - i}`)
           .map((tag) => (
             <React.Fragment key={tag}>
-              <div className="body-base" key={tag}>
+              <div className="text-md" key={tag}>
                 {tag}
               </div>
               <Separator className="my-2" />
@@ -92,7 +92,7 @@ export const Horizontal: Story = {
                 height={400}
               />
             </div>
-            <figcaption className="pt-2 body-small text-description">
+            <figcaption className="pt-2 text-sm text-description">
               Photo by{' '}
               <span className="font-semibold text">
                 {artwork.artist}

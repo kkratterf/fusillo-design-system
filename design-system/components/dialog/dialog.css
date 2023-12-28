@@ -32,11 +32,11 @@
   }
 
   .dialog-title {
-    @apply title-body leading-none tracking-tight;
+    @apply text-title-body leading-none tracking-tight;
   }
 
   .dialog-description {
-    @apply body-base text-description;
+    @apply text-md text-description;
   }
 
 }

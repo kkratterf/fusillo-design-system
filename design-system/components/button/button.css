@@ -12,7 +12,7 @@
 @layer components {
 
   .button-component {
-    @apply h-9 rounded px-3 gap-2 inline-flex items-center justify-center body-base-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled [&>svg]:w-4 [&>svg]:h-4;
+    @apply h-9 rounded px-3 gap-2 inline-flex items-center justify-center text-md-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled [&>svg]:w-4 [&>svg]:h-4;
   }
 
   .icon-button {

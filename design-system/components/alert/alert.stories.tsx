@@ -56,6 +56,24 @@ export const Default: Story = {
   },
 };
 
+export const Brand: Story = {
+  render: (args) => (
+    <Alert {...args}>
+      <AlertIcon>
+        <XCircle />
+      </AlertIcon>
+      <AlertTitle>Error Detected!</AlertTitle>
+      <AlertDescription>
+        Critical issue encountered! Please address this error immediately to
+        prevent system failure or data loss.
+      </AlertDescription>
+    </Alert>
+  ),
+  args: {
+    status: 'danger',
+  },
+};
+
 export const Danger: Story = {
   render: (args) => (
     <Alert {...args}>
@@ -89,59 +107,5 @@ export const Warning: Story = {
   ),
   args: {
     status: 'warning',
-  },
-};
-
-export const Success: Story = {
-  render: (args) => (
-    <Alert {...args}>
-      <AlertIcon>
-        <CheckCircle />
-      </AlertIcon>
-      <AlertTitle>Operation Successful</AlertTitle>
-      <AlertDescription>
-        The action was completed successfully! Your changes have been saved or
-        the process has finished without issues.
-      </AlertDescription>
-    </Alert>
-  ),
-  args: {
-    status: 'success',
-  },
-};
-
-export const Info: Story = {
-  render: (args) => (
-    <Alert {...args}>
-      <AlertIcon>
-        <InfoIcon />
-      </AlertIcon>
-      <AlertTitle>Did You Know?</AlertTitle>
-      <AlertDescription>
-        Here&apos;s some useful information or context about the current process or
-        section that might be helpful to you.
-      </AlertDescription>
-    </Alert>
-  ),
-  args: {
-    status: 'info',
-  },
-};
-
-export const Discovery: Story = {
-  render: (args) => (
-    <Alert {...args}>
-      <AlertIcon>
-        <BrainCircuit />
-      </AlertIcon>
-      <AlertTitle>Discover More</AlertTitle>
-      <AlertDescription>
-        Explore this feature! There are additional options and functionalities
-        waiting to be uncovered that could enhance your experience.
-      </AlertDescription>
-    </Alert>
-  ),
-  args: {
-    status: 'discovery',
   },
 };

@@ -28,11 +28,11 @@
     }
 
     .alert-dialog-title {
-        @apply title-body;
+        @apply text-title-body;
     }
 
     .alert-dialog-description {
-        @apply body-base text-description;
+        @apply text-md text-description;
     }
 
     .alert-dialog-cancel {

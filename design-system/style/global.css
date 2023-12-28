@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import './foundations.css';
 @import './tokens.css';
 
@@ -7,72 +6,23 @@
 @tailwind utilities;
 
 @layer base {
+
   * {
     @apply border-border;
   }
+
   body {
     @apply font-sans bg-background text;
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
   }
 
-  .title-section {
-    @apply font-sans font-semibold text-3xl;
-  }
-
-  .title-subsection {
-    @apply font-sans font-semibold text-2xl;
-  }
-
-  .title-body {
-    @apply font-sans font-semibold text-lg;
-  }
-
-  .title-group {
-    @apply font-sans font-medium text-sm;
-  }
-
-  .body-large-semibold {
-    @apply font-sans font-semibold text-base;
-  }
-
-  .body-large-medium {
-    @apply font-sans font-medium text-base;
-  }
-
-  .body-large {
-    @apply font-sans font-normal text-base;
-  }
-
-  .body-base-semibold {
-    @apply font-sans font-semibold text-sm;
-  }
-
-  .body-base-medium {
-    @apply font-sans font-medium text-sm;
-  }
-
-  .body-base {
-    @apply font-sans font-normal text-sm;
-  }
-
-  .body-small-medium {
-    @apply font-sans font-medium text-xs;
-  }
-
-  .body-small {
-    @apply font-sans font-normal text-xs;
-  }
-
-  .link-large {
-    @apply font-sans font-semibold text-base underline-offset-1 text-brand;
-  }
-
-  .link-base {
-    @apply font-sans font-semibold text-sm underline-offset-1 text-brand;
+  .link {
+    @apply underline-offset-1 text-brand;
   }
 
   .code {
     @apply font-mono;
   }
+  
 }

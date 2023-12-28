@@ -151,7 +151,7 @@ export const WithText: Story = {
     <div className="grid w-full gap-3">
       <Label htmlFor="message">Bio</Label>
       <Textarea {...args} id="message" />
-      <p className="body-base text-description">
+      <p className="text-md text-description">
         You can @mention other users and organizations.
       </p>
     </div>

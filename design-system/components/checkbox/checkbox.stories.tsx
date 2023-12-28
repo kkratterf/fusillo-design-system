@@ -143,7 +143,7 @@ const CheckboxReactHookFormMultiple = () => {
           render={() => (
             <FormItem>
               <div className="mb-4">
-                <FormLabel className="body-large-medium text">
+                <FormLabel className="text-lg-medium text">
                   Sidebar
                 </FormLabel>
                 <FormDescription>

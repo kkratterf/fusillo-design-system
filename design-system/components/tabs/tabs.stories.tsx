@@ -66,8 +66,8 @@ export const Default: Story = {
       <TabsContent value="account" className="w-full space-y-4">
         <div className='space-y-2 mt-2'>
           <div className="space-y-2">
-            <p className="title-subsection">Account</p>
-            <p className="body-base text-description">
+            <p className="text-title-subsection">Account</p>
+            <p className="text-md text-description">
               Make changes to your account here. Click save when you&apos;re
               done.
             </p>
@@ -90,8 +90,8 @@ export const Default: Story = {
       <TabsContent value="password" className="w-full space-y-4">
         <div className='space-y-2 mt-2'>
           <div className="space-y-2">
-            <p className="title-subsection">Password</p>
-            <p className="body-base text-description">
+            <p className="text-title-subsection">Password</p>
+            <p className="text-md text-description">
               Change your password here. After saving, you&apos;ll be logged out.
             </p>
           </div>
