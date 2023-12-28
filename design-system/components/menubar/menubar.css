@@ -12,31 +12,31 @@
 @layer components {
 
     .menubar-component {
-        @apply flex h-10 items-center space-x-1 rounded-radius border border-color-border-primary bg-color-bg-container p-1;
+        @apply flex h-10 items-center space-x-1 rounded border border bg-card p-1;
     }
 
     .menubar-trigger {
-        @apply flex cursor-default select-none items-center rounded-radius-sm px-3 py-1 h-8 body-base-medium outline-none bg-color-bg-interactive hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected data-[state=open]:bg-color-bg-interactive-selected;
+        @apply flex cursor-default select-none items-center rounded-sm px-3 py-1 h-8 body-base-medium outline-none bg-item hover:bg-item-hover focus:bg-item-selected data-[state=open]:bg-item-selected;
     }
 
     .menubar-subtrigger {
-        @apply flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover data-[state=open]:bg-color-bg-interactive-hover [&>svg]:w-4 [&>svg]:h-4 [&>svg]:ml-auto;
+        @apply flex cursor-default select-none items-center rounded-sm px-2 py-1 h-8 body-base outline-none focus:bg-item-hover data-[state=open]:bg-item-hover [&>svg]:w-4 [&>svg]:h-4 [&>svg]:ml-auto;
     }
 
     .menubar-subcontent {
-        @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text;
+        @apply z-50 min-w-[8rem] overflow-hidden rounded border border bg-elevated p-1 text;
     }
 
     .menubar-content {
-        @apply z-50 min-w-[12rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text shadow-md;
+        @apply z-50 min-w-[12rem] overflow-hidden rounded border border bg-elevated p-1 text shadow-md;
     }
 
     .menubar-item {
-        @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+        @apply relative flex cursor-default select-none items-center rounded-sm px-2 py-1 h-8 body-base outline-none focus:bg-item-hover data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
     }
 
     .menubar-checkbox-item {
-        @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 pl-8 pr-2 h-8 body-base outline-none focus:bg-color-bg-interactive-hover data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+        @apply relative flex cursor-default select-none items-center rounded-sm py-1 pl-8 pr-2 h-8 body-base outline-none focus:bg-item-hover data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
     }
 
     .menubar-checkbox-item-span {
@@ -44,11 +44,11 @@
     }
 
     .menubar-checkbox-item-icon {
-        @apply h-4 w-4 stroke-color-icon-active;
+        @apply h-4 w-4 stroke-icon-active;
     }
 
     .menubar-radio-item {
-        @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 pl-8 pr-2 h-8 body-base outline-none focus:bg-color-bg-interactive-hover data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+        @apply relative flex cursor-default select-none items-center rounded-sm py-1 pl-8 pr-2 h-8 body-base outline-none focus:bg-item-hover data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
     }
 
     .menubar-radio-item-span {
@@ -56,7 +56,7 @@
     }
 
     .menubar-radio-item-icon {
-        @apply h-2 w-2 stroke-color-icon-active;
+        @apply h-2 w-2 stroke-icon-active;
     }
 
     .menubar-label {
@@ -64,11 +64,11 @@
     }
 
     .menubar-separator {
-        @apply -mx-1 my-1 h-[1px] bg-color-border-primary;
+        @apply -mx-1 my-1 h-[1px] bg-border;
     }
 
     .menubar-shortcut {
-        @apply ml-auto body-small tracking-widest text-color-text-description;
+        @apply ml-auto body-small tracking-widest text-description;
     }
 
 }

@@ -12,7 +12,7 @@
 @layer components {
 
     .label-component {
-        @apply body-base-medium text-color-text-description leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-disabled;
+        @apply body-base-medium text-description leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-disabled;
     }
 
 }

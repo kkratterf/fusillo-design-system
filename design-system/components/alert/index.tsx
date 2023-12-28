@@ -15,9 +15,6 @@ const alertVariants = cva('alert-component', {
       default: 'alert-default',
       danger: 'alert-danger',
       warning: 'alert-warning',
-      success: 'alert-success',
-      info: 'alert-info',
-      discovery: 'alert-discovery',
     },
   },
   defaultVariants: {

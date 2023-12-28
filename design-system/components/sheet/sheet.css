@@ -12,31 +12,31 @@
 @layer components {
 
     .sheet-overlay {
-        @apply fixed inset-0 z-50 bg-color-bg-mask backdrop-blur-sm;
+        @apply fixed inset-0 z-50 bg-mask backdrop-blur-sm;
     }
 
     .sheet-component {
-        @apply fixed z-50 gap-4 bg-color-bg-elevated p-6 shadow-lg transition ease-in-out;
+        @apply fixed z-50 gap-4 bg-elevated p-6 shadow-lg transition ease-in-out;
     }
 
     .sheet-top {
-        @apply inset-x-0 top-0 border-b border-color-border-primary;
+        @apply inset-x-0 top-0 border-b border;
     }
 
     .sheet-bottom {
-        @apply inset-x-0 bottom-0 border-t border-color-border-primary;
+        @apply inset-x-0 bottom-0 border-t border;
     }
 
     .sheet-left {
-        @apply inset-y-0 left-0 h-full border-r border-color-border-primary;
+        @apply inset-y-0 left-0 h-full border-r border;
     }
 
     .sheet-right {
-        @apply inset-y-0 right-0 h-full  border-l border-color-border-primary;
+        @apply inset-y-0 right-0 h-full  border-l border;
     }
 
     .sheet-close {
-        @apply absolute right-4 top-4 rounded-radius-sm ring-offset-color-bg-layout transition-colors focus:outline-none focus:ring-2 focus:ring-color-border-brand focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-color-bg-interactive [&>svg]:w-4 [&>svg]:h-4 [&>svg]:stroke-color-icon [&>svg]:hover:stroke-color-icon-hover;
+        @apply absolute right-4 top-4 rounded-sm ring-offset-background transition-colors focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-item [&>svg]:w-4 [&>svg]:h-4 [&>svg]:stroke-icon [&>svg]:hover:stroke-icon-hover;
     }
 
     .sheet-header {
@@ -48,11 +48,11 @@
     }
 
     .sheet-title {
-        @apply title-body text-color-text;
+        @apply title-body text;
     }
 
     .sheet-description {
-        @apply body-base text-color-text-description;
+        @apply body-base text-description;
     }
 
 }

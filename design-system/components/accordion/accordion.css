@@ -12,23 +12,23 @@
 @layer components {
 
   .accordion-root {
-    @apply bg-color-bg-layout
+    @apply bg-background
   }
 
   .accordion-item {
-    @apply border-b border-b-color-border-primary last:border-none;
+    @apply border-b border-b-border last:border-none;
   }
   
   .accordion-trigger {
-    @apply flex flex-1 items-center body-large-medium text-color-text justify-between p-4 transition-all bg-color-bg-interactive hover:bg-color-bg-interactive-hover [&[data-state=open]>svg]:rotate-180 ring-offset-color-bg-layout focus-visible:outline-none focus-visible:z-50 focus-visible:rounded-radius focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2;
+    @apply flex flex-1 items-center body-large-medium text justify-between p-4 transition-all bg-item hover:bg-item-hover [&[data-state=open]>svg]:rotate-180 ring-offset-background focus-visible:outline-none focus-visible:z-50 focus-visible:rounded focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2;
   }
 
   .accordion-content {
-    @apply overflow-hidden bg-color-bg-container-subtle border-t border-t-color-border-primary transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
+    @apply overflow-hidden bg-subtle border-t border-t-border transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
   }
 
   .accordion-content-children {
-    @apply p-4 body-base text-color-text;
+    @apply p-4 body-base text;
   }
 
   .accordion-header {
@@ -36,7 +36,7 @@
   }
 
   .accordion-icon {
-    @apply h-4 w-4 shrink-0 stroke-color-icon transition-transform duration-200;
+    @apply h-4 w-4 shrink-0 stroke-icon transition-transform duration-200;
   }
 
 }

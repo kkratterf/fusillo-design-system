@@ -12,7 +12,7 @@
 @layer components {
 
   .command-component {
-    @apply flex h-full w-full flex-col overflow-hidden rounded-radius-lg bg-color-bg-elevated text-color-text;
+    @apply flex h-full w-full flex-col overflow-hidden rounded-lg bg-elevated text;
   }
 
   .command-dialog-content {
@@ -20,19 +20,19 @@
   }
   
   .command-dialog {
-    @apply [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-color-text-description [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-group]]:px-2 [&_[cmdk-input-wrapper]_svg]:h-6 [&_[cmdk-input-wrapper]_svg]:w-6 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-6 [&_[cmdk-item]_svg]:w-6;
+    @apply [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-description [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-group]]:px-2 [&_[cmdk-input-wrapper]_svg]:h-6 [&_[cmdk-input-wrapper]_svg]:w-6 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-6 [&_[cmdk-item]_svg]:w-6;
   }
 
   .command-input-container {
-    @apply flex items-center border-b border-color-border-primary px-3;
+    @apply flex items-center border-b border px-3;
   }
 
   .command-input-search {
-    @apply mr-2 h-4 w-4 shrink-0 stroke-2 stroke-color-icon;
+    @apply mr-2 h-4 w-4 shrink-0 stroke-2 stroke-icon;
   }
 
   .command-input {
-    @apply flex h-9 w-full rounded-radius bg-color-bg-elevated py-3 body-base outline-none placeholder:text-color-text-placeholder disabled:cursor-not-allowed disabled:opacity-disabled;
+    @apply flex h-9 w-full rounded bg-elevated py-3 body-base outline-none placeholder:text-placeholder disabled:cursor-not-allowed disabled:opacity-disabled;
   }
 
   .command-list {
@@ -40,23 +40,23 @@
   }
 
   .command-empty {
-    @apply py-6 text-center body-base text-color-text-description;
+    @apply py-6 text-center body-base text-description;
   }
 
   .command-group {
-    @apply overflow-hidden p-1 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-2 [&_[cmdk-group-heading]]:title-group [&_[cmdk-group-heading]]:text-color-text-description;
+    @apply overflow-hidden p-1 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-2 [&_[cmdk-group-heading]]:title-group [&_[cmdk-group-heading]]:text-description;
   }
 
   .command-separator {
-    @apply -mx-1 h-[1px] bg-color-border-primary;
+    @apply -mx-1 h-[1px] bg-border;
   }
 
   .command-item {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-9 body-base outline-none aria-selected:bg-color-bg-interactive-selected aria-selected:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+    @apply relative flex cursor-default select-none items-center rounded-sm px-2 py-1 h-9 body-base outline-none aria-selected:bg-item-selected aria-selected:text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .command-shortcut {
-    @apply ml-auto pl-1 body-small tracking-widest text-color-text-description;
+    @apply ml-auto pl-1 body-small tracking-widest text-description;
   }
 }
 

@@ -11,61 +11,24 @@
 /* Tailwind layer */
 @layer components {
 
-    /* BADGE */
     .badge-component {
-        @apply inline-flex items-center gap-1 rounded-radius-full px-2 py-1 h-6 body-base [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
+        @apply inline-flex items-center gap-1 rounded-full px-2 py-1 h-6 body-base [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
     }
 
     .badge-default {
-        @apply bg-color-bg-container-inverse text-color-text-inverse stroke-color-icon-inverse;
+        @apply bg-inverse text-inverse stroke-icon-inverse;
+    }
+
+    .badge-brand {
+        @apply bg-brand text-brand-inverse stroke-icon-brand-inverse;
     }
 
     .badge-danger {
-        @apply bg-color-bg-danger text-color-text-danger-inverse stroke-color-icon-danger-inverse;
+        @apply bg-danger text-danger-inverse stroke-icon-danger-inverse;
     }
 
     .badge-warning {
-        @apply bg-color-bg-warning text-color-text-warning-inverse stroke-color-icon-warning-inverse;
+        @apply bg-warning text-warning-inverse stroke-icon-warning-inverse;
     }
 
-    .badge-success {
-        @apply bg-color-bg-success text-color-text-success-inverse stroke-color-icon-success-inverse;
-    }
-    
-    .badge-info {
-        @apply bg-color-bg-info text-color-text-info-inverse stroke-color-icon-info-inverse;
-    }
-
-    .badge-discovery {
-        @apply bg-color-bg-discovery text-color-text-discovery-inverse stroke-color-icon-discovery-inverse;
-    }
-
-    /* BADGE STATUS */
-    .badge-status-component {
-        @apply inline-flex items-center gap-1 h-6 body-base text-color-text;
-    }
-
-    .badge-status-default {
-        @apply h-[8px] w-[8px] bg-color-bg-container-inverse;
-    }
-
-    .badge-status-danger {
-        @apply h-[8px] w-[8px] rounded-radius-full bg-color-bg-danger;
-    }
-
-    .badge-status-warning {
-        @apply h-[8px] w-[8px] rounded-radius-full bg-color-bg-warning;
-    }
-
-    .badge-status-success {
-        @apply h-[8px] w-[8px] rounded-radius-full bg-color-bg-success;
-    }
-    
-    .badge-status-info {
-        @apply h-[8px] w-[8px] rounded-radius-full bg-color-bg-info;
-    }
-
-    .badge-status-discovery {
-        @apply h-[8px] w-[8px] rounded-radius-full bg-color-bg-discovery;
-    }
 }

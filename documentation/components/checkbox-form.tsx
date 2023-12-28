@@ -61,8 +61,8 @@ export function CheckboxReactHookFormSingle() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">{JSON.stringify(data, null, 2)}</code>
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+          <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
     });
@@ -75,7 +75,7 @@ export function CheckboxReactHookFormSingle() {
           control={form.control}
           name="mobile"
           render={({ field }) => (
-            <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-radius border p-4">
+            <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded border p-4">
               <FormControl>
                 <Checkbox
                   checked={field.value}
@@ -118,8 +118,8 @@ export function CheckboxReactHookFormMultiple() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">{JSON.stringify(data, null, 2)}</code>
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+          <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
     });
@@ -134,7 +134,7 @@ export function CheckboxReactHookFormMultiple() {
           render={() => (
             <FormItem>
               <div className="mb-4">
-                <FormLabel className="body-large-medium text-color-text">Sidebar</FormLabel>
+                <FormLabel className="body-large-medium text">Sidebar</FormLabel>
                 <FormDescription>
                   Select the items you want to display in the sidebar.
                 </FormDescription>

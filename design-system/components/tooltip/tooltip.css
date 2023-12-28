@@ -12,15 +12,15 @@
 @layer components {
 
   .tooltip-content {
-    @apply z-50 overflow-hidden rounded-radius px-3 py-[6px] body-base shadow-md;
+    @apply z-50 overflow-hidden rounded px-3 py-[6px] body-base shadow-md;
   }
 
   .tooltip-content-outline {
-    @apply border border-color-border-primary bg-color-bg-elevated text-color-text;
+    @apply border border bg-elevated text;
   }
 
   .tooltip-content-fill {
-    @apply bg-color-bg-container-inverse text-color-text-inverse;
+    @apply bg-inverse text-inverse;
   }
 
 }

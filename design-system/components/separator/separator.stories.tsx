@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react';
 // Import third parts
 // Import customs
 import { Separator } from './';
-import * as logo from '../../../documentation/tokens/config';
+import * as ds from '../../../documentation/tokens/config';
 
 const meta: Meta<typeof Separator> = {
   title: 'Components/Separator',
@@ -43,8 +43,8 @@ export const Default: Story = {
   render: (args) => (
     <div>
       <div className="space-y-1">
-        <h4 className="body-large-semibold">{logo.ConfigName}</h4>
-        <p className="body-base text-color-text-description">
+        <h4 className="body-large-semibold">{ds.ConfigName}</h4>
+        <p className="body-base text-description">
           Crafting inclusive experiences for everyone
         </p>
       </div>
@@ -66,9 +66,9 @@ export const Default: Story = {
 export const Horizontal: Story = {
   render: (args) => (
     <div>
-      <h4 className="body-large-semibold">{logo.ConfigName}</h4>
+      <h4 className="body-large-semibold">{ds.ConfigName}</h4>
       <Separator {...args} className="my-4" />
-      <p className="body-base text-color-text-description">
+      <p className="body-base text-description">
         Crafting inclusive experiences for everyone
       </p>
     </div>

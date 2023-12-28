@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './foundations.css';
+@import './tokens.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  
   * {
-    @apply border-color-border-primary;
+    @apply border-border;
   }
-
   body {
-    @apply font-sans bg-color-bg-layout text-color-text;
+    @apply font-sans bg-background text;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
   }
 
   /* TYPOGRAPHY - DA SPOSTARE IN TOKENS E CONFIG APPENA FIGMA AGGIORNA */
@@ -68,11 +70,11 @@
   }
 
   .link-large {
-    @apply font-sans font-semibold text-base underline-offset-1 text-color-text-brand;
+    @apply font-sans font-semibold text-base underline-offset-1 text-brand;
   }
 
   .link-base {
-    @apply font-sans font-semibold text-sm underline-offset-1 text-color-text-brand;
+    @apply font-sans font-semibold text-sm underline-offset-1 text-brand;
   }
 
   .code {

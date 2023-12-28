@@ -12,7 +12,7 @@
 @layer components {
 
   .context-menu-subtrigger {
-    @apply flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[state=open]:bg-color-bg-interactive-hover data-[state=open]:text-color-text;
+    @apply flex cursor-default select-none items-center rounded-sm px-2 py-1 h-8 body-base outline-none focus:bg-item-hover focus:text data-[state=open]:bg-item-hover data-[state=open]:text;
   }
 
   .context-menu-subtrigger-icon {
@@ -20,19 +20,19 @@
   }
 
   .context-menu-subcontent {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text shadow-md;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded border border bg-elevated p-1 text shadow-md;
   }
 
   .context-menu-content {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded-radius border border-color-border-primary bg-color-bg-elevated p-1 text-color-text shadow-md;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded border border bg-elevated p-1 text shadow-md;
   }
 
   .context-menu-item {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm px-2 py-1 h-8 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+    @apply relative flex cursor-default select-none items-center rounded-sm px-2 py-1 h-8 body-base outline-none focus:bg-item-hover focus:text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .context-menu-checkbox {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+    @apply relative flex cursor-default select-none items-center rounded-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-item-hover focus:text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .context-menu-checkbox-span {
@@ -44,7 +44,7 @@
   }
 
   .context-menu-radio {
-    @apply relative flex cursor-default select-none items-center rounded-radius-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-color-bg-interactive-hover focus:text-color-text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
+    @apply relative flex cursor-default select-none items-center rounded-sm py-1 h-8 pl-8 pr-2 body-base outline-none focus:bg-item-hover focus:text data-[disabled]:pointer-events-none data-[disabled]:opacity-disabled;
   }
 
   .context-menu-radio-span {
@@ -56,15 +56,15 @@
   }
 
   .context-menu-label {
-    @apply relative flex items-center px-2 py-1 h-8 title-group text-color-text-description;
+    @apply relative flex items-center px-2 py-1 h-8 title-group text-description;
   }
 
   .context-menu-separator {
-    @apply -mx-1 my-1 h-[1px] bg-color-border-primary;
+    @apply -mx-1 my-1 h-[1px] bg-border;
   }
 
   .context-menu-shortcut {
-    @apply ml-auto pl-1 body-small tracking-widest text-color-text-description;
+    @apply ml-auto pl-1 body-small tracking-widest text-description;
   }
 
 }

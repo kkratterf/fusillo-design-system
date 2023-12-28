@@ -13,9 +13,6 @@ const tagVariants = cva('tag-component', {
       brand: 'tag-brand',
       danger: 'tag-danger',
       warning: 'tag-warning',
-      success: 'tag-success',
-      info: 'tag-info',
-      discovery: 'tag-discovery',
     },
   },
   defaultVariants: {

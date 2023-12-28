@@ -47,7 +47,7 @@ export const Base: Story = {
                 The React Framework – created and maintained by @vercel.
               </p>
               <div className="flex items-center pt-2">
-                <span className="body-small text-color-text-description">
+                <span className="body-small text-description">
                   Joined December 2021
                 </span>
               </div>

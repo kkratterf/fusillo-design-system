@@ -1,15 +1,17 @@
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 import { Toaster } from 'design-system/components/toast';
-import Main from "../components/main";
+import { fontSans, fontMono } from 'design-system/lib/fonts'
 import '../style/tokens.css';
 import '../style/global.css';
 
 export default function App({ Component, pageProps }) {
   return (
-    <Main>
+    <main className={`${fontSans.variable} ${fontMono.variable} font-sans`}>
       <Component {...pageProps} />
       <Toaster />
       <SpeedInsights/>
-    </Main>
+      <Analytics />
+    </main>
   );
 }

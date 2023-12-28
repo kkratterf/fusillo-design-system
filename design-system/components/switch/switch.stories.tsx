@@ -38,8 +38,8 @@ const SwitchFormDemo = () => {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+          <code className="text">
             {JSON.stringify(data, null, 2)}
           </code>
         </pre>
@@ -57,7 +57,7 @@ const SwitchFormDemo = () => {
               control={form.control}
               name="marketing_emails"
               render={({ field }) => (
-                <FormItem className="flex flex-row items-center justify-between rounded-radius-lg border border-color-border-primary p-4 gap-4">
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border border p-4 gap-4">
                   <div className="space-y-0.5">
                     <FormLabel className="body-large">
                       Marketing emails
@@ -79,7 +79,7 @@ const SwitchFormDemo = () => {
               control={form.control}
               name="security_emails"
               render={({ field }) => (
-                <FormItem className="flex flex-row items-center justify-between rounded-radius-lg border border-color-border-primary p-4 gap-4">
+                <FormItem className="flex flex-row items-center justify-between rounded-lg border border p-4 gap-4">
                   <div className="space-y-0.5">
                     <FormLabel className="body-large">Security emails</FormLabel>
                     <FormDescription>

@@ -32,7 +32,7 @@
     }
 
     .scroll-area-thumb {
-        @apply relative rounded-radius-full bg-color-border-primary hover:bg-color-border-primary-hover transition-colors duration-300;
+        @apply relative rounded-full bg-border hover:bg-border-hover transition-colors duration-300;
     }
 
 }

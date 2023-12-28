@@ -16,9 +16,6 @@ const progressVariants = cva(['progress-component'], {
       brand: 'progress-component-brand',
       danger: 'progress-component-danger',
       warning: 'progress-component-warning',
-      success: 'progress-component-success',
-      info: 'progress-component-info',
-      discovery: 'progress-component-discovery',
     },
   },
   defaultVariants: {

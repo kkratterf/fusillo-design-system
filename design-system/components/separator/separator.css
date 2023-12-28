@@ -12,7 +12,7 @@
 @layer components {
 
     .separator-component {
-        @apply shrink-0 bg-color-border-primary;
+        @apply shrink-0 bg-border;
     }
 
     .separator-horizontal {

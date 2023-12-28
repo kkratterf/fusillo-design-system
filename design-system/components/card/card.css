@@ -12,7 +12,7 @@
 @layer components {
 
   .card-component {
-    @apply rounded-radius-lg border border-color-border-primary bg-color-bg-container text-color-text shadow-sm;
+    @apply rounded-lg border border bg-card text shadow-sm;
   }
 
   .card-header {
@@ -24,7 +24,7 @@
   }
 
   .card-description {
-    @apply body-base text-color-text-description;
+    @apply body-base text-description;
   }
 
   .card-content {

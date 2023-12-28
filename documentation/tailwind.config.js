@@ -1,5 +1,7 @@
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
-const designSystemConfig = require('../design-system/tailwind.config');
+const designSystemConfig = require('design-system/tailwind.config');
 module.exports = {
   darkMode: ['class', '[data-mode="dark"]'],
   content: [
@@ -12,10 +14,14 @@ module.exports = {
     ...designSystemConfig.theme,
     extend: {
       ...designSystemConfig.theme.extend,
+      spacing: {
+        0.5: '2px',
+        1.5: '6px',
+        2.5: '10px',
+      },
       fontFamily: {
-        sans: [
-          'Inter',
-        ],
+        sans: ['var(--geist-sans)', ...fontFamily.sans],
+        mono: ['var(--geist-mono)', ...fontFamily.mono],
       },
     },
   },

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 22 Dec 2023 16:09:22 GMT
+ * Generated on Thu, 28 Dec 2023 12:53:04 GMT
  */
 
 module.exports = {
@@ -6587,39 +6587,10 @@ module.exports = {
       }
     },
     "Scale": {
-      "0": {
-        "type": "dimension",
-        "value": "0px",
-        "description": "0px | 0px",
-        "$extensions": {
-          "variableId": "VariableID:12:348"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "0px",
-          "description": "0px | 0px",
-          "$extensions": {
-            "variableId": "VariableID:12:348"
-          }
-        },
-        "name": "FoundationsScale0",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "0"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "0"
-        ]
-      },
-      "1": {
+      "scale-1": {
         "type": "dimension",
         "value": "4px",
-        "description": "0.25rem | 4px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:278"
         },
@@ -6628,27 +6599,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "4px",
-          "description": "0.25rem | 4px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:278"
           }
         },
-        "name": "FoundationsScale1",
+        "name": "FoundationsScaleScale1",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "1"
+          "item": "scale-1"
         },
         "path": [
           "Foundations",
           "Scale",
-          "1"
+          "scale-1"
         ]
       },
-      "2": {
+      "scale-2": {
         "type": "dimension",
         "value": "8px",
-        "description": "0.5rem | 8px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:280"
         },
@@ -6657,27 +6628,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "8px",
-          "description": "0.5rem | 8px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:280"
           }
         },
-        "name": "FoundationsScale2",
+        "name": "FoundationsScaleScale2",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "2"
+          "item": "scale-2"
         },
         "path": [
           "Foundations",
           "Scale",
-          "2"
+          "scale-2"
         ]
       },
-      "3": {
+      "scale-3": {
         "type": "dimension",
         "value": "12px",
-        "description": "0.75rem | 12px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:282"
         },
@@ -6686,27 +6657,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "12px",
-          "description": "0.75rem | 12px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:282"
           }
         },
-        "name": "FoundationsScale3",
+        "name": "FoundationsScaleScale3",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "3"
+          "item": "scale-3"
         },
         "path": [
           "Foundations",
           "Scale",
-          "3"
+          "scale-3"
         ]
       },
-      "4": {
+      "scale-4": {
         "type": "dimension",
         "value": "16px",
-        "description": "1rem | 16px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:284"
         },
@@ -6715,27 +6686,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "16px",
-          "description": "1rem | 16px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:284"
           }
         },
-        "name": "FoundationsScale4",
+        "name": "FoundationsScaleScale4",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "4"
+          "item": "scale-4"
         },
         "path": [
           "Foundations",
           "Scale",
-          "4"
+          "scale-4"
         ]
       },
-      "5": {
+      "scale-5": {
         "type": "dimension",
         "value": "20px",
-        "description": "1.25rem | 20px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:285"
         },
@@ -6744,27 +6715,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "20px",
-          "description": "1.25rem | 20px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:285"
           }
         },
-        "name": "FoundationsScale5",
+        "name": "FoundationsScaleScale5",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "5"
+          "item": "scale-5"
         },
         "path": [
           "Foundations",
           "Scale",
-          "5"
+          "scale-5"
         ]
       },
-      "6": {
+      "scale-6": {
         "type": "dimension",
         "value": "24px",
-        "description": "1.5rem | 24px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:286"
         },
@@ -6773,27 +6744,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "24px",
-          "description": "1.5rem | 24px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:286"
           }
         },
-        "name": "FoundationsScale6",
+        "name": "FoundationsScaleScale6",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "6"
+          "item": "scale-6"
         },
         "path": [
           "Foundations",
           "Scale",
-          "6"
+          "scale-6"
         ]
       },
-      "7": {
+      "scale-7": {
         "type": "dimension",
         "value": "28px",
-        "description": "1.75rem | 28px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:287"
         },
@@ -6802,27 +6773,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "28px",
-          "description": "1.75rem | 28px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:287"
           }
         },
-        "name": "FoundationsScale7",
+        "name": "FoundationsScaleScale7",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "7"
+          "item": "scale-7"
         },
         "path": [
           "Foundations",
           "Scale",
-          "7"
+          "scale-7"
         ]
       },
-      "8": {
+      "scale-8": {
         "type": "dimension",
         "value": "32px",
-        "description": "2rem | 32px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:288"
         },
@@ -6831,27 +6802,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "32px",
-          "description": "2rem | 32px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:288"
           }
         },
-        "name": "FoundationsScale8",
+        "name": "FoundationsScaleScale8",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "8"
+          "item": "scale-8"
         },
         "path": [
           "Foundations",
           "Scale",
-          "8"
+          "scale-8"
         ]
       },
-      "9": {
+      "scale-9": {
         "type": "dimension",
         "value": "36px",
-        "description": "2.25rem | 36px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:289"
         },
@@ -6860,27 +6831,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "36px",
-          "description": "2.25rem | 36px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:289"
           }
         },
-        "name": "FoundationsScale9",
+        "name": "FoundationsScaleScale9",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "9"
+          "item": "scale-9"
         },
         "path": [
           "Foundations",
           "Scale",
-          "9"
+          "scale-9"
         ]
       },
-      "10": {
+      "scale-10": {
         "type": "dimension",
         "value": "40px",
-        "description": "2.5rem | 40px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:290"
         },
@@ -6889,27 +6860,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "40px",
-          "description": "2.5rem | 40px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:290"
           }
         },
-        "name": "FoundationsScale10",
+        "name": "FoundationsScaleScale10",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "10"
+          "item": "scale-10"
         },
         "path": [
           "Foundations",
           "Scale",
-          "10"
+          "scale-10"
         ]
       },
-      "11": {
+      "scale-11": {
         "type": "dimension",
         "value": "44px",
-        "description": "2.75rem | 44px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:291"
         },
@@ -6918,27 +6889,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "44px",
-          "description": "2.75rem | 44px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:291"
           }
         },
-        "name": "FoundationsScale11",
+        "name": "FoundationsScaleScale11",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "11"
+          "item": "scale-11"
         },
         "path": [
           "Foundations",
           "Scale",
-          "11"
+          "scale-11"
         ]
       },
-      "12": {
+      "scale-12": {
         "type": "dimension",
         "value": "48px",
-        "description": "3rem | 48px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:292"
         },
@@ -6947,27 +6918,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "48px",
-          "description": "3rem | 48px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:292"
           }
         },
-        "name": "FoundationsScale12",
+        "name": "FoundationsScaleScale12",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "12"
+          "item": "scale-12"
         },
         "path": [
           "Foundations",
           "Scale",
-          "12"
+          "scale-12"
         ]
       },
-      "14": {
+      "scale-14": {
         "type": "dimension",
         "value": "56px",
-        "description": "3.5rem | 56px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:293"
         },
@@ -6976,27 +6947,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "56px",
-          "description": "3.5rem | 56px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:293"
           }
         },
-        "name": "FoundationsScale14",
+        "name": "FoundationsScaleScale14",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "14"
+          "item": "scale-14"
         },
         "path": [
           "Foundations",
           "Scale",
-          "14"
+          "scale-14"
         ]
       },
-      "16": {
+      "scale-16": {
         "type": "dimension",
         "value": "64px",
-        "description": "4rem | 64px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:294"
         },
@@ -7005,27 +6976,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "64px",
-          "description": "4rem | 64px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:294"
           }
         },
-        "name": "FoundationsScale16",
+        "name": "FoundationsScaleScale16",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "16"
+          "item": "scale-16"
         },
         "path": [
           "Foundations",
           "Scale",
-          "16"
+          "scale-16"
         ]
       },
-      "20": {
+      "scale-20": {
         "type": "dimension",
         "value": "80px",
-        "description": "5rem | 80px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:295"
         },
@@ -7034,27 +7005,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "80px",
-          "description": "5rem | 80px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:295"
           }
         },
-        "name": "FoundationsScale20",
+        "name": "FoundationsScaleScale20",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "20"
+          "item": "scale-20"
         },
         "path": [
           "Foundations",
           "Scale",
-          "20"
+          "scale-20"
         ]
       },
-      "24": {
+      "scale-24": {
         "type": "dimension",
         "value": "96px",
-        "description": "6rem | 96px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:296"
         },
@@ -7063,27 +7034,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "96px",
-          "description": "6rem | 96px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:296"
           }
         },
-        "name": "FoundationsScale24",
+        "name": "FoundationsScaleScale24",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "24"
+          "item": "scale-24"
         },
         "path": [
           "Foundations",
           "Scale",
-          "24"
+          "scale-24"
         ]
       },
-      "28": {
+      "scale-28": {
         "type": "dimension",
         "value": "112px",
-        "description": "7rem | 112px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:297"
         },
@@ -7092,27 +7063,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "112px",
-          "description": "7rem | 112px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:297"
           }
         },
-        "name": "FoundationsScale28",
+        "name": "FoundationsScaleScale28",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "28"
+          "item": "scale-28"
         },
         "path": [
           "Foundations",
           "Scale",
-          "28"
+          "scale-28"
         ]
       },
-      "32": {
+      "scale-32": {
         "type": "dimension",
         "value": "128px",
-        "description": "8rem | 128px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:298"
         },
@@ -7121,27 +7092,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "128px",
-          "description": "8rem | 128px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:298"
           }
         },
-        "name": "FoundationsScale32",
+        "name": "FoundationsScaleScale32",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "32"
+          "item": "scale-32"
         },
         "path": [
           "Foundations",
           "Scale",
-          "32"
+          "scale-32"
         ]
       },
-      "36": {
+      "scale-36": {
         "type": "dimension",
         "value": "144px",
-        "description": "9rem | 144px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:299"
         },
@@ -7150,27 +7121,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "144px",
-          "description": "9rem | 144px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:299"
           }
         },
-        "name": "FoundationsScale36",
+        "name": "FoundationsScaleScale36",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "36"
+          "item": "scale-36"
         },
         "path": [
           "Foundations",
           "Scale",
-          "36"
+          "scale-36"
         ]
       },
-      "40": {
+      "scale-40": {
         "type": "dimension",
         "value": "160px",
-        "description": "10rem | 160px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:300"
         },
@@ -7179,27 +7150,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "160px",
-          "description": "10rem | 160px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:300"
           }
         },
-        "name": "FoundationsScale40",
+        "name": "FoundationsScaleScale40",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "40"
+          "item": "scale-40"
         },
         "path": [
           "Foundations",
           "Scale",
-          "40"
+          "scale-40"
         ]
       },
-      "44": {
+      "scale-44": {
         "type": "dimension",
         "value": "176px",
-        "description": "11rem | 176px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:11:301"
         },
@@ -7208,27 +7179,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "176px",
-          "description": "11rem | 176px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:11:301"
           }
         },
-        "name": "FoundationsScale44",
+        "name": "FoundationsScaleScale44",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "44"
+          "item": "scale-44"
         },
         "path": [
           "Foundations",
           "Scale",
-          "44"
+          "scale-44"
         ]
       },
-      "48": {
+      "scale-48": {
         "type": "dimension",
         "value": "192px",
-        "description": "12rem | 192px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:305"
         },
@@ -7237,27 +7208,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "192px",
-          "description": "12rem | 192px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:305"
           }
         },
-        "name": "FoundationsScale48",
+        "name": "FoundationsScaleScale48",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "48"
+          "item": "scale-48"
         },
         "path": [
           "Foundations",
           "Scale",
-          "48"
+          "scale-48"
         ]
       },
-      "52": {
+      "scale-52": {
         "type": "dimension",
         "value": "208px",
-        "description": "13rem | 208px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:306"
         },
@@ -7266,27 +7237,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "208px",
-          "description": "13rem | 208px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:306"
           }
         },
-        "name": "FoundationsScale52",
+        "name": "FoundationsScaleScale52",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "52"
+          "item": "scale-52"
         },
         "path": [
           "Foundations",
           "Scale",
-          "52"
+          "scale-52"
         ]
       },
-      "56": {
+      "scale-56": {
         "type": "dimension",
         "value": "224px",
-        "description": "14rem | 224px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:307"
         },
@@ -7295,27 +7266,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "224px",
-          "description": "14rem | 224px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:307"
           }
         },
-        "name": "FoundationsScale56",
+        "name": "FoundationsScaleScale56",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "56"
+          "item": "scale-56"
         },
         "path": [
           "Foundations",
           "Scale",
-          "56"
+          "scale-56"
         ]
       },
-      "60": {
+      "scale-60": {
         "type": "dimension",
         "value": "240px",
-        "description": "15rem | 240px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:308"
         },
@@ -7324,27 +7295,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "240px",
-          "description": "15rem | 240px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:308"
           }
         },
-        "name": "FoundationsScale60",
+        "name": "FoundationsScaleScale60",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "60"
+          "item": "scale-60"
         },
         "path": [
           "Foundations",
           "Scale",
-          "60"
+          "scale-60"
         ]
       },
-      "64": {
+      "scale-64": {
         "type": "dimension",
         "value": "256px",
-        "description": "16rem | 256px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:309"
         },
@@ -7353,27 +7324,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "256px",
-          "description": "16rem | 256px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:309"
           }
         },
-        "name": "FoundationsScale64",
+        "name": "FoundationsScaleScale64",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "64"
+          "item": "scale-64"
         },
         "path": [
           "Foundations",
           "Scale",
-          "64"
+          "scale-64"
         ]
       },
-      "72": {
+      "scale-72": {
         "type": "dimension",
         "value": "288px",
-        "description": "18rem | 288px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:310"
         },
@@ -7382,27 +7353,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "288px",
-          "description": "18rem | 288px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:310"
           }
         },
-        "name": "FoundationsScale72",
+        "name": "FoundationsScaleScale72",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "72"
+          "item": "scale-72"
         },
         "path": [
           "Foundations",
           "Scale",
-          "72"
+          "scale-72"
         ]
       },
-      "80": {
+      "scale-80": {
         "type": "dimension",
         "value": "320px",
-        "description": "20rem | 320px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:311"
         },
@@ -7411,27 +7382,27 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "320px",
-          "description": "20rem | 320px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:311"
           }
         },
-        "name": "FoundationsScale80",
+        "name": "FoundationsScaleScale80",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "80"
+          "item": "scale-80"
         },
         "path": [
           "Foundations",
           "Scale",
-          "80"
+          "scale-80"
         ]
       },
-      "96": {
+      "scale-96": {
         "type": "dimension",
         "value": "384px",
-        "description": "24rem | 384px",
+        "description": "",
         "$extensions": {
           "variableId": "VariableID:12:312"
         },
@@ -7440,21 +7411,50 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "384px",
-          "description": "24rem | 384px",
+          "description": "",
           "$extensions": {
             "variableId": "VariableID:12:312"
           }
         },
-        "name": "FoundationsScale96",
+        "name": "FoundationsScaleScale96",
         "attributes": {
           "category": "Foundations",
           "type": "Scale",
-          "item": "96"
+          "item": "scale-96"
         },
         "path": [
           "Foundations",
           "Scale",
-          "96"
+          "scale-96"
+        ]
+      },
+      "scale-0": {
+        "type": "dimension",
+        "value": "0px",
+        "description": "",
+        "$extensions": {
+          "variableId": "VariableID:12:348"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "",
+          "$extensions": {
+            "variableId": "VariableID:12:348"
+          }
+        },
+        "name": "FoundationsScaleScale0",
+        "attributes": {
+          "category": "Foundations",
+          "type": "Scale",
+          "item": "scale-0"
+        },
+        "path": [
+          "Foundations",
+          "Scale",
+          "scale-0"
         ]
       }
     }

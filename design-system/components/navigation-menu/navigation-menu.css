@@ -20,7 +20,7 @@
     }
 
     .navigation-menu-trigger-style {
-        @apply relative inline-flex h-9 w-max items-center justify-center rounded-radius bg-color-bg-interactive text-color-text px-4 py-2 body-base-medium transition-colors hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-color-bg-interactive-hover data-[state=open]:bg-color-bg-interactive-hover;
+        @apply relative inline-flex h-9 w-max items-center justify-center rounded bg-item text px-4 py-2 body-base-medium transition-colors hover:bg-item-hover focus:bg-item-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-item-hover data-[state=open]:bg-item-hover;
     }
 
     .navigation-menu-trigger-icon {
@@ -36,7 +36,7 @@
     }
     /* TOLTO ORIGIN */
     .navigation-menu-viewport {
-        @apply relative mt-1 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded-radius border bg-color-bg-elevated text-color-text shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)];
+        @apply relative mt-1 h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden rounded border bg-elevated text shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 md:w-[var(--radix-navigation-menu-viewport-width)];
     }
 
     .navigation-menu-indicator {
@@ -44,7 +44,7 @@
     }
 
     .navigation-menu-indicator-container {
-        @apply relative top-[60%] h-2 w-2 rotate-45 rounded-tl-radius-sm bg-color-border-primary shadow-md;
+        @apply relative top-[60%] h-2 w-2 rotate-45 rounded-tl-sm bg-border shadow-md;
     }
 
 }

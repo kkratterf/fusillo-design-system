@@ -89,27 +89,3 @@ export const Warning: Story = {
     value: 33,
   },
 };
-
-export const Success: Story = {
-  render: (args) => <Progress {...args} className="w-[400px]" />,
-  args: {
-    status: 'success',
-    value: 33,
-  },
-};
-
-export const Info: Story = {
-  render: (args) => <Progress {...args} className="w-[400px]" />,
-  args: {
-    status: 'info',
-    value: 33,
-  },
-};
-
-export const Discovery: Story = {
-  render: (args) => <Progress {...args} className="w-[400px]" />,
-  args: {
-    status: 'discovery',
-    value: 33,
-  },
-};

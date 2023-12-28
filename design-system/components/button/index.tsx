@@ -15,7 +15,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: 'button-primary bg-color-bg-brand',
+        primary: 'button-primary bg-brand',
         secondary: 'button-secondary',
         text: 'button-text',
         link: 'button-link',

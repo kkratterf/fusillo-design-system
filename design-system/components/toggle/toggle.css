@@ -12,11 +12,11 @@
 @layer components {
 
   .toggle-component {
-    @apply inline-flex gap-1 items-center h-9 min-w-[36px] px-2 justify-center rounded-radius body-base ring-offset-color-bg-layout transition-colors hover:bg-color-bg-interactive-hover hover:text-color-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled data-[state=on]:bg-color-bg-brand-subtle data-[state=on]:text-color-text-brand [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
+    @apply inline-flex gap-1 items-center h-9 min-w-[36px] px-2 justify-center rounded body-base ring-offset-background transition-colors hover:bg-item-hover hover:text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled data-[state=on]:bg-brand-subtle data-[state=on]:text-brand [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
   }
 
   .toggle-component-outline {
-    @apply border border-color-border-primary bg-color-bg-interactive hover:bg-color-bg-interactive-hover data-[state=on]:border-color-border-brand;
+    @apply border border bg-item hover:bg-item-hover data-[state=on]:border-brand;
   }
 
 }

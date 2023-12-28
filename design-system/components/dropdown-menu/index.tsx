@@ -31,7 +31,7 @@ const DropdownMenuSubTrigger = React.forwardRef<
   <DropdownMenuPrimitive.SubTrigger
     ref={ref}
     className={cn(
-      'dropdown-menu-subtrigger data-[state=open]:bg-color-bg-interactive-hover',
+      'dropdown-menu-subtrigger data-[state=open]:bg-item-hover',
       inset && 'pl-8',
       className
     )}
