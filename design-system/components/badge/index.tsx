@@ -11,11 +11,9 @@ const badgeVariants = cva('badge-component', {
   variants: {
     status: {
       default: 'badge-default',
+      brand: 'badge-brand',
       danger: 'badge-danger',
       warning: 'badge-warning',
-      success: 'badge-success',
-      info: 'badge-info',
-      discovery: 'badge-discovery'
     },
   },
   defaultVariants: {

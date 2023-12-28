@@ -12,11 +12,11 @@
 @layer components {
 
     .alert-dialog-overlay {
-        @apply fixed inset-0 z-50 bg-color-bg-mask backdrop-blur-sm;
+        @apply fixed inset-0 z-50 bg-mask backdrop-blur-sm;
     }
 
     .alert-dialog-content {
-        @apply fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border border-color-border-primary bg-color-bg-elevated p-6 shadow-md duration-200 sm:rounded-radius-lg md:w-full;
+        @apply fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border border bg-elevated p-6 shadow-md duration-200 sm:rounded-lg md:w-full;
     }
 
     .alert-dialog-header {
@@ -28,11 +28,11 @@
     }
 
     .alert-dialog-title {
-        @apply title-body;
+        @apply text-title-body;
     }
 
     .alert-dialog-description {
-        @apply body-base text-color-text-description;
+        @apply text-md text-description;
     }
 
     .alert-dialog-cancel {

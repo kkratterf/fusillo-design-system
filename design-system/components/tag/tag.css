@@ -13,35 +13,23 @@
 
     /* tag */
     .tag-component {
-        @apply inline-flex items-center gap-1 rounded-radius-full px-2 py-1 h-6 body-base [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
+        @apply inline-flex items-center gap-1 rounded-full px-2 py-1 h-6 text-md [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
     }
 
     .tag-default {
-        @apply bg-color-bg-container-subtle text-color-text stroke-color-icon-active;
+        @apply bg-subtle text stroke-icon-active;
     }
 
     .tag-brand {
-        @apply bg-color-bg-brand-subtle text-color-text-brand-strong stroke-color-icon-brand-strong;
+        @apply bg-brand-subtle text-brand-strong stroke-icon-brand-strong;
     }
 
     .tag-danger {
-        @apply bg-color-bg-danger-subtle text-color-text-danger-strong stroke-color-icon-danger-strong;
+        @apply bg-danger-subtle text-danger-strong stroke-icon-danger-strong;
     }
 
     .tag-warning {
-        @apply bg-color-bg-warning-subtle text-color-text-warning-strong stroke-color-icon-warning-strong;
-    }
-
-    .tag-success {
-        @apply bg-color-bg-success-subtle text-color-text-success-strong stroke-color-icon-success-strong;
-    }
-    
-    .tag-info {
-        @apply bg-color-bg-info-subtle text-color-text-info-strong stroke-color-icon-info-strong;
-    }
-
-    .tag-discovery {
-        @apply bg-color-bg-discovery-subtle text-color-text-discovery-strong stroke-color-icon-discovery-strong;
+        @apply bg-warning-subtle text-warning-strong stroke-icon-warning-strong;
     }
 
 }

@@ -43,7 +43,7 @@ export const Ratio16x9: Story = {
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
         fill
-        className="rounded-radius object-cover"
+        className="rounded object-cover"
       />
     </AspectRatio>
   ),
@@ -59,7 +59,7 @@ export const Ratio4x3: Story = {
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
         fill
-        className="rounded-radius object-cover"
+        className="rounded object-cover"
       />
     </AspectRatio>
   ),
@@ -75,7 +75,7 @@ export const Ratio3x2: Story = {
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
         fill
-        className="rounded-radius object-cover"
+        className="rounded object-cover"
       />
     </AspectRatio>
   ),

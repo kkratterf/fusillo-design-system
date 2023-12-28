@@ -1,4 +1,4 @@
-import * as logo from '../../../tokens/config.js';
+import * as ds from '../../../tokens/config.js';
 import { FoundationsAccessibility } from '../../../components/foundations-accessibility.mdx';
 
 # ♿️ Accessibility
@@ -15,9 +15,9 @@ By adhering to established guidelines such as the [WCAG](https://www.w3.org/WAI/
 
 ## WAI-ARIA
 
-[WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/), developed and upheld by the W3C, outlines the essential semantics for numerous familiar UI patterns featured in **{logo.ConfigName}**. This framework is crafted to imbue non-standard browser elements with meaningful functionalities. For instance, transforming a `div` into a functional `button` requires adding specific attributes to inform screen readers or voice recognition systems of its intended role as a `button`.
+[WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/), developed and upheld by the W3C, outlines the essential semantics for numerous familiar UI patterns featured in **{ds.ConfigName}**. This framework is crafted to imbue non-standard browser elements with meaningful functionalities. For instance, transforming a `div` into a functional `button` requires adding specific attributes to inform screen readers or voice recognition systems of its intended role as a `button`.
 
-Moreover, WAI-ARIA goes beyond mere semantics to define the expected behaviors of different component types. For example, a standard `button` element naturally reacts differently to user interactions compared to a `div` element. It falls upon the developer's shoulders to replicate these interactive behaviors using JavaScript. [WAI-ARIA's authoring practices](https://www.w3.org/WAI/ARIA/apg/) serve as a comprehensive guide for programming these interactive features into the varied controls found within **{logo.ConfigName}**.
+Moreover, WAI-ARIA goes beyond mere semantics to define the expected behaviors of different component types. For example, a standard `button` element naturally reacts differently to user interactions compared to a `div` element. It falls upon the developer's shoulders to replicate these interactive behaviors using JavaScript. [WAI-ARIA's authoring practices](https://www.w3.org/WAI/ARIA/apg/) serve as a comprehensive guide for programming these interactive features into the varied controls found within **{ds.ConfigName}**.
 
 ## Accessible Labels
 
@@ -27,13 +27,13 @@ Accessible Labels play a crucial role in enhancing the usability of form control
 
 Keyboard Navigation is an integral aspect of user interaction, especially for complex components such as `Tabs` and `Dialogs`. Users often expect to be able to navigate through these components using a keyboard or alternative input methods that don't involve a mouse.
 
-In alignment with this expectation, **{logo.ConfigName}** is equipped with fundamental keyboard navigation capabilities. These capabilities are developed following the guidelines of the [WAI-ARIA authoring practices](https://www.w3.org/WAI/ARIA/apg/), ensuring that users can interact with these components efficiently using keyboard-based inputs. This approach enhances the accessibility and usability of these components, making them more inclusive and user-friendly.
+In alignment with this expectation, **{ds.ConfigName}** is equipped with fundamental keyboard navigation capabilities. These capabilities are developed following the guidelines of the [WAI-ARIA authoring practices](https://www.w3.org/WAI/ARIA/apg/), ensuring that users can interact with these components efficiently using keyboard-based inputs. This approach enhances the accessibility and usability of these components, making them more inclusive and user-friendly.
 
 ## Focus Management
 
 Focus Management is a key component in ensuring seamless keyboard navigation and effective labeling. It involves dynamically adjusting the focus in response to user interactions. When a user engages with an element causing a change, adjusting the focus accordingly helps maintain a logical flow of navigation within the application's updated context. This is particularly vital for users of screen readers, as shifting focus can trigger announcements that describe the new context, depending heavily on accurate labeling.
 
-In the context of **{logo.ConfigName}**, focus management is tailored to the typical interactions a user would have with a specific component. For instance, in the `AlertDialog` component, when the modal opens, the focus is automatically shifted to the `Cancel` button. This proactive focus shift is designed to intuitively guide the user's next action in response to the prompt, showing an understanding of user interaction patterns and enhancing the overall user experience.
+In the context of **{ds.ConfigName}**, focus management is tailored to the typical interactions a user would have with a specific component. For instance, in the `AlertDialog` component, when the modal opens, the focus is automatically shifted to the `Cancel` button. This proactive focus shift is designed to intuitively guide the user's next action in response to the prompt, showing an understanding of user interaction patterns and enhancing the overall user experience.
 
 ## Contrast Ratio
 

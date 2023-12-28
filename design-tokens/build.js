@@ -20,6 +20,17 @@ const styleFoundations = StyleDictionary.extend({
         },
       ],
     },
+    css_foundations_documentation: {
+      transformGroup: 'css', // CSS transformations for documentation
+      buildPath: '../documentation/style/', // Output directory for documentation CSS
+      files: [
+        {
+          destination: 'foundations.css', // Output file name
+          filter: 'foundationsFilter', // Filter to select specific tokens
+          format: 'foundationsFormat', // Custom format for output
+        },
+      ],
+    },
   },
 });
 
@@ -30,7 +41,7 @@ styleFoundations.registerFilter({
     // Filter tokens that include 'Foundations' and 'Color' in their path
     return (
       token.path.includes('Foundations') &&
-      (token.path.includes('Color') || token.path.includes('Scale'))
+      (token.path.includes('Color'))
     );
   },
 });
@@ -54,7 +65,7 @@ styleFoundations.registerFormat({
 
     // Additional custom processing of tokens
     const modifiedTokens = formattedTokens
-      .replace(/foundations-/g, '') // Remove 'foundations-' prefix
+      .replace(/foundations-color-/g, '') // Remove 'foundations-' and 'color-' prefix
       .replace(
         /(brand|neutral|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose)-\1/g,
         '$1'
@@ -170,33 +181,27 @@ styleTokens.registerFormat({
     // Combine and format light and dark theme tokens
     const result = `${fileHeader({
       file,
-    })}@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n\n  :root {\n${lightTokens}\n  } \n\n .dark {\n${darkTokens}\n  }\n\n}`;
+    })}@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n  :root {\n${lightTokens}\n  } \n .dark {\n${darkTokens}\n  }\n}`;
 
     // Additional custom processing of tokens
     const modifiedTokens = result
-      .replace(/tokens-|light-|dark-/g, '') // Remove prefixes
+      .replace(/tokens-|light-|dark-|color-/g, '') // Remove prefixes
       // Simplify naming for various token types
+      .replace(/background-(neutral|brand|danger|warning|utility)-/g, '')
+      .replace(/border-(neutral|utility)-/g, '')
+      .replace(/-border-(brand|danger|warning)-border-\1/g, '-border-$1')
+      .replace(/text-(neutral|utility)-/g, '')
+      .replace(/-text-(brand|danger|warning)-text-\1/g, '-text-$1')
+      .replace(/-icon-(neutral|utility)-icon/g, '-icon')
       .replace(
-        /background-(neutral|brand|danger|warning|success|info|discovery)-/g,
-        ''
-      )
-      .replace(/border-neutral-/g, '')
-      .replace(
-        /-border-(brand|danger|warning|success|info|discovery)-border-\1/g,
-        '-border-$1'
-      )
-      .replace(/text-neutral-/g, '')
-      .replace(
-        /-text-(brand|danger|warning|success|info|discovery)-text-\1/g,
-        '-text-$1'
-      )
-      .replace(/-icon-neutral-icon/g, '-icon')
-      .replace(
-        /-icon-(brand|danger|warning|success|info|discovery)-icon-\1/g,
+        /-icon-(brand|danger|warning|success|info|discovery|utility)-icon-\1/g,
         '-icon-$1'
       )
-      .replace(/(width|height|radius|breakpoints|opacity)-(?:\1|border)/g, '$1')
-      .replace(/(spacing)-(space)/g, '$2')
+      .replace(/(border-radius-|-border-width)/g, '')
+      .replace(/size-(height|width)-/g, '')
+      .replace(/(space|breakpoints)-/g, '')
+      .replace(/opacity-opacity/g, 'opacity')
+      //.replace(/(width|height|radius|breakpoints|opacity)-(?:\1|border)/g, '$1')
       .replace(/(opacity-[^:]+:\s*)(\d+)px/g, function (match, p1, p2) {
         // Convert pixel values to opacity percentage
         var opacityValue = parseInt(p2, 10) / 100;

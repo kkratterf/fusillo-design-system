@@ -97,6 +97,16 @@ export const WithAction: Story = {
   },
 };
 
+export const Brand: Story = {
+  render: (args) => <ToastExample {...args} />,
+  args: {
+    title: 'Uh oh! Something went wrong.',
+    description: 'There was a problem with your request.',
+    action: 'Try again',
+    status: 'brand',
+  },
+};
+
 export const Danger: Story = {
   render: (args) => <ToastExample {...args} />,
   args: {
@@ -114,35 +124,5 @@ export const Warning: Story = {
     description: 'There was a problem with your request.',
     action: 'Try again',
     status: 'warning',
-  },
-};
-
-export const Success: Story = {
-  render: (args) => <ToastExample {...args} />,
-  args: {
-    title: 'Uh oh! Something went wrong.',
-    description: 'There was a problem with your request.',
-    action: 'Try again',
-    status: 'success',
-  },
-};
-
-export const Information: Story = {
-  render: (args) => <ToastExample {...args} />,
-  args: {
-    title: 'Uh oh! Something went wrong.',
-    description: 'There was a problem with your request.',
-    action: 'Try again',
-    status: 'info',
-  },
-};
-
-export const Discovery: Story = {
-  render: (args) => <ToastExample {...args} />,
-  args: {
-    title: 'Uh oh! Something went wrong.',
-    description: 'There was a problem with your request.',
-    action: 'Try again',
-    status: 'discovery',
   },
 };

@@ -12,7 +12,7 @@
 @layer components {
 
     .skeleton-component {
-        @apply animate-pulse rounded-radius-full bg-color-bg-container-subtlest;
+        @apply animate-pulse rounded-full bg-muted;
     }
 
     .skeleton-line {

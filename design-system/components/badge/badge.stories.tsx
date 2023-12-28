@@ -61,6 +61,25 @@ export const Default: Story = {
   },
 };
 
+export const Brand: Story = {
+  render: (args) => (
+    <div className="grid justify-items-center gap-3 sm:flex">
+      <Badge {...args}>
+        <XCircle />
+        Error
+      </Badge>
+      <Badge {...args}>Error</Badge>
+      <Badge {...args}>
+        <XCircle />
+      </Badge>
+      <Badge {...args}>7</Badge>
+    </div>
+  ),
+  args: {
+    status: 'brand',
+  },
+};
+
 export const Danger: Story = {
   render: (args) => (
     <div className="grid justify-items-center gap-3 sm:flex">
@@ -96,62 +115,5 @@ export const Warning: Story = {
   ),
   args: {
     status: 'warning',
-  },
-};
-
-export const Success: Story = {
-  render: (args) => (
-    <div className="grid justify-items-center gap-3 sm:flex">
-      <Badge {...args}>
-        <CheckCircle />
-        Completed
-      </Badge>
-      <Badge {...args}>Completed</Badge>
-      <Badge {...args}>
-        <CheckCircle />
-      </Badge>
-      <Badge {...args}>7</Badge>
-    </div>
-  ),
-  args: {
-    status: 'success',
-  },
-};
-
-export const Info: Story = {
-  render: (args) => (
-    <div className="grid justify-items-center gap-3 sm:flex">
-      <Badge {...args}>
-        <InfoIcon />
-        Information
-      </Badge>
-      <Badge {...args}>Information</Badge>
-      <Badge {...args}>
-        <InfoIcon />
-      </Badge>
-      <Badge {...args}>7</Badge>
-    </div>
-  ),
-  args: {
-    status: 'info',
-  },
-};
-
-export const Discovery: Story = {
-  render: (args) => (
-    <div className="grid justify-items-center gap-3 sm:flex">
-      <Badge {...args}>
-        <BrainCircuit />
-        Explore
-      </Badge>
-      <Badge {...args}>Explore</Badge>
-      <Badge {...args}>
-        <BrainCircuit />
-      </Badge>
-      <Badge {...args}>7</Badge>
-    </div>
-  ),
-  args: {
-    status: 'discovery',
   },
 };

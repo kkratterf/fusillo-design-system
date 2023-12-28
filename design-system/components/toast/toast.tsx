@@ -32,11 +32,9 @@ const toastVariants = cva(
     variants: {
       status: {
         default: 'toast-component-default',
+        brand: 'toast-component-brand',
         danger: 'toast-component-danger',
         warning: 'toast-component-warning',
-        success: 'toast-component-success',
-        info: 'toast-component-info',
-        discovery: 'toast-component-discovery',
       },
     },
     defaultVariants: {

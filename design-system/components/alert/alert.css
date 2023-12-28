@@ -12,31 +12,19 @@
 @layer components {
 
     .alert-default {
-    @apply bg-color-bg-container border-color-border-primary text-color-text stroke-color-icon-active;
+    @apply bg-card border text stroke-icon-active;
     }
 
     .alert-danger {
-    @apply bg-color-bg-danger-subtlest border-color-border-danger-subtlest text-color-text-danger-strong stroke-color-icon-danger-strong;
+    @apply bg-danger-subtlest border-danger-subtlest text-danger-strong stroke-icon-danger-strong;
     }
 
     .alert-warning {
-    @apply bg-color-bg-warning-subtlest border-color-border-warning-subtlest text-color-text-warning-strong stroke-color-icon-warning-strong;
-    }
-
-    .alert-success {
-    @apply bg-color-bg-success-subtlest border-color-border-success-subtlest text-color-text-success-strong stroke-color-icon-success-strong;
-    }
-
-    .alert-info {
-    @apply bg-color-bg-info-subtlest border-color-border-info-subtlest text-color-text-info-strong stroke-color-icon-info-strong;
-    }
-
-    .alert-discovery {
-    @apply bg-color-bg-discovery-subtlest border-color-border-discovery-subtlest text-color-text-discovery-strong stroke-color-icon-discovery-strong;
+    @apply bg-warning-subtlest border-warning-subtlest text-warning-strong stroke-icon-warning-strong;
     }
 
     .alert-component {
-    @apply relative w-full rounded-radius-lg border p-4;
+    @apply relative w-full rounded-lg border p-4;
     }
 
     .alert-icon {
@@ -44,7 +32,7 @@
     }
 
     .alert-title {
-        @apply body-large-medium mb-1 pl-8;
+        @apply text-lg-medium mb-1 pl-8;
     }
 
     .alert-component:not(:has(> .alert-icon)) .alert-title
@@ -53,7 +41,7 @@
     }
 
     .alert-description {
-        @apply body-base text-color-text pl-8;
+        @apply text-md text pl-8;
     }
 
     .alert-component:not(:has(> .alert-icon)) .alert-description

@@ -28,7 +28,7 @@
   }
 
   .calendar-caption-label {
-    @apply body-base-medium;
+    @apply text-md-medium;
   }
 
   .calendar-nav {
@@ -56,7 +56,7 @@
   }
 
   .calendar-header-cell {
-    @apply text-color-text-description rounded-radius w-9 body-base;
+    @apply text-description rounded w-9 text-md;
   }
   
   .calendar-row {
@@ -64,31 +64,31 @@
   }
 
   .calendar-cell {
-    @apply text-center body-small p-0 relative [&:has([aria-selected])]:bg-color-bg-interactive-hover first:[&:has([aria-selected])]:rounded-l-radius last:[&:has([aria-selected])]:rounded-r-radius focus-within:relative focus-within:z-20;
+    @apply text-center text-sm p-0 relative [&:has([aria-selected])]:bg-item-hover first:[&:has([aria-selected])]:rounded-l last:[&:has([aria-selected])]:rounded-r focus-within:relative focus-within:z-20;
   }
 
   .calendar-day {
-    @apply h-9 w-9 p-0 body-base aria-selected:opacity-visible;
+    @apply h-9 w-9 p-0 text-md aria-selected:opacity-visible;
   }
 
   .calendar-day-selected {
-    @apply bg-color-bg-brand text-color-text-brand-inverse hover:bg-color-bg-brand-hover focus:bg-color-bg-brand focus:text-color-text-brand-inverse
+    @apply bg-brand text-brand-inverse hover:bg-brand-hover focus:bg-brand focus:text-brand-inverse
   }
 
   .calendar-day-today {
-    @apply bg-color-bg-interactive-hover text-color-text;
+    @apply bg-item-hover text;
   }
 
   .calendar-day-outside {
-    @apply text-color-text-description opacity-disabled;
+    @apply text-description opacity-disabled;
   }
 
   .calendar-day-disabled {
-    @apply text-color-text-description opacity-disabled;
+    @apply text-description opacity-disabled;
   }
 
   .calendar-day-range-middle {
-    @apply aria-selected:bg-color-bg-interactive-hover aria-selected:rounded-radius-none aria-selected:text-color-text;
+    @apply aria-selected:bg-item-hover aria-selected:rounded-none aria-selected:text;
   }
 
   .calendar-day-hidden {

@@ -18,7 +18,7 @@ export const TokensColor = ({ type, color }) => (
                 <tr key={tokenName}>
                   <td className='w-full'>
                     <div className="cell-tokens-name">
-                      <code className='font-medium'>color-{tokenName}</code>
+                      <code className='font-medium'>{tokenName}</code>
                       <div className="cell-description-tokens">{tokenLightInfo.description}</div>
                     </div>
                   </td>
@@ -26,7 +26,7 @@ export const TokensColor = ({ type, color }) => (
                     <div className="cell-tokens">
                     <div className="cell-preview-tokens nx-border nx-border-gray-300 dark:nx-border-gray-600" style={{ backgroundColor: tokenLightInfo.value }}></div>
                       <div className="cell-token-tokens">
-                        <code>{`color-${tokenLightInfo.original.value.split('.').pop().slice(0, -1)}`}</code>
+                        <code>{`${tokenLightInfo.original.value.split('.').pop().slice(0, -1)}`}</code>
                       </div> 
                     </div>
                   </td>
@@ -34,7 +34,7 @@ export const TokensColor = ({ type, color }) => (
                     <div className="cell-tokens">
                       <div className="cell-preview-tokens nx-border nx-border-gray-300 dark:nx-border-gray-600" style={{ backgroundColor: tokenDarkInfo.value }}></div>
                       <div className="cell-token-tokens">
-                        <code>{`color-${tokenDarkInfo.original.value.split('.').pop().slice(0, -1)}`}</code>
+                        <code>{`${tokenDarkInfo.original.value.split('.').pop().slice(0, -1)}`}</code>
                       </div>
                     </div>
                   </td>

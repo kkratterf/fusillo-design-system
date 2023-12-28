@@ -85,24 +85,3 @@ export const Warning: Story = {
     status: 'warning',
   },
 };
-
-export const Success: Story = {
-  render: (args) => <Tag {...args}><CheckCircle />Completed</Tag>,
-  args: {
-    status: 'success',
-  },
-};
-
-export const Info: Story = {
-  render: (args) => <Tag {...args}><Loader />Process</Tag>,
-  args: {
-    status: 'info',
-  },
-};
-
-export const Discovery: Story = {
-  render: (args) => <Tag {...args}><BrainCircuit />New feature</Tag>,
-  args: {
-    status: 'discovery',
-  },
-};

@@ -12,15 +12,15 @@
 @layer components {
 
     .segmented-list {
-        @apply inline-flex h-9 p-1 items-center justify-center rounded-radius bg-color-bg-container-subtlest text-color-text-description;
+        @apply inline-flex h-9 p-1 items-center justify-center rounded bg-muted text-description;
     }
 
     .segmented-trigger {
-        @apply inline-flex items-center justify-center rounded-radius-sm whitespace-nowrap px-3 py-1 h-full body-base-medium ring-offset-color-bg-layout transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled data-[state=active]:bg-color-bg-container data-[state=active]:text-color-text data-[state=active]:shadow-sm [&>svg]:w-4 [&>svg]:h-4;
+        @apply inline-flex items-center justify-center rounded-sm whitespace-nowrap px-3 py-1 h-full text-md-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-disabled data-[state=active]:bg-card data-[state=active]:text data-[state=active]:shadow-sm [&>svg]:w-4 [&>svg]:h-4;
     }
 
     .segmented-content {
-        @apply mt-2 ring-offset-color-bg-layout focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2;
+        @apply mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2;
     }
                                                                   
 }

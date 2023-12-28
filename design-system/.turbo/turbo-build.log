@@ -3,131 +3,28 @@
 > next build
 
    Creating an optimized production build...
-<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/navigation-menu/navigation-menu.css': No serializer registered for PostCSSSyntaxError
-<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
-<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/separator/separator.css': No serializer registered for PostCSSSyntaxError
-<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
-Failed to compile.
+ ✓ Compiled successfully
+   Linting and checking validity of types...
+   Collecting page data...
+   Generating static pages (0/4)...
+   Generating static pages (1/4)
 
-./components/navigation-menu/navigation-menu.css:23:9
-Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/navigation-menu/navigation-menu.css The `data-[active]:bg-accent/50` class does not exist. If `data-[active]:bg-accent/50` is a custom class, make sure it is defined within a `@layer` directive.
+   Generating static pages (2/4)
 
-  21 | 
-  22 |     .navigation-menu-trigger-style {
-> 23 |         @apply relative inline-flex h-9 w-max items-center justify-center rounded-radius bg-color-bg-interactive text-color-text px-4 py-2 body-base-medium transition-colors hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-accent/50 data-[state=open]:bg-accent/50;
-     |         ^
-  24 |     }
-  25 |
+   Generating static pages (3/4)
 
-./components/separator/separator.css:23:9
-Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/separator/separator.css The `min-h-2` class does not exist. If `min-h-2` is a custom class, make sure it is defined within a `@layer` directive.
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization...
 
-  21 | 
-  22 |     .separator-vertical {
-> 23 |         @apply h-full min-h-2 w-[1px];
-     |         ^
-  24 |     }
-  25 |
-
-./components/navigation-menu/navigation-menu.css
-Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/navigation-menu/navigation-menu.css The `data-[active]:bg-accent/50` class does not exist. If `data-[active]:bg-accent/50` is a custom class, make sure it is defined within a `@layer` directive. (23:9)
-
-  21 | 
-  22 |     .navigation-menu-trigger-style {
-> 23 |         @apply relative inline-flex h-9 w-max items-center justify-center rounded-radius bg-color-bg-interactive text-color-text px-4 py-2 body-base-medium transition-colors hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-accent/50 data-[state=open]:bg-accent/50;
-     |         ^
-  24 |     }
-  25 | 
-
-    at tryRunOrWebpackError (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:311563)
-    at __webpack_require_module__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131195)
-    at __nested_webpack_require_153754__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130634)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131487
-    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-    at done (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
-    at Hook.eval [as callAsync] (eval at create (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:15:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:26021)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130354
-    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
--- inner error --
-Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/navigation-menu/navigation-menu.css The `data-[active]:bg-accent/50` class does not exist. If `data-[active]:bg-accent/50` is a custom class, make sure it is defined within a `@layer` directive. (23:9)
-
-  21 | 
-  22 |     .navigation-menu-trigger-style {
-> 23 |         @apply relative inline-flex h-9 w-max items-center justify-center rounded-radius bg-color-bg-interactive text-color-text px-4 py-2 body-base-medium transition-colors hover:bg-color-bg-interactive-hover focus:bg-color-bg-interactive-selected focus:outline-none disabled:pointer-events-none disabled:opacity-disabled data-[active]:bg-accent/50 data-[state=open]:bg-accent/50;
-     |         ^
-  24 |     }
-  25 | 
-
-    at Object.<anonymous> (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/navigation-menu/navigation-menu.css:1:7)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:915116
-    at Hook.eval [as call] (eval at create (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:28645), <anonymous>:7:1)
-    at Hook.CALL_DELEGATE [as _call] (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:25915)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131228
-    at tryRunOrWebpackError (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:311517)
-    at __webpack_require_module__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131195)
-    at __nested_webpack_require_153754__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130634)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131487
-    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-
-Generated code for /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/navigation-menu/navigation-menu.css
-
-Import trace for requested module:
-./components/navigation-menu/navigation-menu.css
-./components/navigation-menu/index.tsx
-./app/page.tsx
-
-./components/separator/separator.css
-Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/separator/separator.css The `min-h-2` class does not exist. If `min-h-2` is a custom class, make sure it is defined within a `@layer` directive. (23:9)
-
-  21 | 
-  22 |     .separator-vertical {
-> 23 |         @apply h-full min-h-2 w-[1px];
-     |         ^
-  24 |     }
-  25 | 
-
-    at tryRunOrWebpackError (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:311563)
-    at __webpack_require_module__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131195)
-    at __nested_webpack_require_153754__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130634)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131487
-    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-    at done (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
-    at Hook.eval [as callAsync] (eval at create (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:15:1)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130354
-    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14402)
-    at timesSync (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:5027)
--- inner error --
-Syntax error: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/separator/separator.css The `min-h-2` class does not exist. If `min-h-2` is a custom class, make sure it is defined within a `@layer` directive. (23:9)
-
-  21 | 
-  22 |     .separator-vertical {
-> 23 |         @apply h-full min-h-2 w-[1px];
-     |         ^
-  24 |     }
-  25 | 
-
-    at Object.<anonymous> (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/separator/separator.css:1:7)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:915116
-    at Hook.eval [as call] (eval at create (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:13:28645), <anonymous>:7:1)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131228
-    at tryRunOrWebpackError (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:311517)
-    at __webpack_require_module__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131195)
-    at __nested_webpack_require_153754__ (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:130634)
-    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/webpack/bundle5.js:28:131487
-    at symbolIterator (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14444)
-    at done (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/compiled/neo-async/async.js:1:14824)
-
-Generated code for /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/components/separator/separator.css
-
-Import trace for requested module:
-./components/separator/separator.css
-./components/separator/index.tsx
-./app/page.tsx
+Route (app)                              Size     First Load JS
+┌ ○ /                                    182 kB          273 kB
+└ ○ /_not-found                          875 B          80.4 kB
++ First Load JS shared by all            79.5 kB
+  ├ chunks/267-2c1cfeae28376161.js       26.6 kB
+  ├ chunks/618f8807-55a2a56ebd555ed4.js  50.9 kB
+  ├ chunks/main-app-3d7402c53925dbbb.js  223 B
+  └ chunks/webpack-d9f9a6d270a4854c.js   1.82 kB
 
 
-> Build failed because of webpack errors
-npm ERR! Lifecycle script `build` failed with error: 
-npm ERR! Error: command failed 
-npm ERR!   in workspace: design-system@1.0.1 
-npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system 
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

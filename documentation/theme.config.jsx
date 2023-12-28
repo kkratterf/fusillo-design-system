@@ -1,13 +1,13 @@
-import * as logo from './tokens/config.js';
+import * as ds from './tokens/config.js';
 
 export default {
-  logo: <span className="docs_logo">{logo.ConfigName}</span>,
+  logo: <span className="docs_logo">{ds.ConfigName}</span>,
   project: {
     link: 'https://github.com/shuding/nextra',
   },
   useNextSeoProps() {
     return {
-      titleTemplate: `%s – ${logo.ConfigName}`,
+      titleTemplate: `%s – ${ds.ConfigName}`,
     };
   },
   footer: {
@@ -25,5 +25,4 @@ export default {
   sidebar: {
     defaultMenuCollapseLevel: 1,
   },
-  gitTimestamp: false
 };

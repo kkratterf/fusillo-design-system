@@ -44,8 +44,8 @@ const TextareaFormDemo = (args: any) => {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded-radius bg-color-bg-container-subtle border border-color-border-primary p-4">
-          <code className="text-color-text">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+          <code className="text">
             {JSON.stringify(data, null, 2)}
           </code>
         </pre>
@@ -151,7 +151,7 @@ export const WithText: Story = {
     <div className="grid w-full gap-3">
       <Label htmlFor="message">Bio</Label>
       <Textarea {...args} id="message" />
-      <p className="body-base text-color-text-description">
+      <p className="text-md text-description">
         You can @mention other users and organizations.
       </p>
     </div>

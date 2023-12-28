@@ -8,15 +8,15 @@ body {
 }
 
 .nx-px-2 {
-  @apply py-1.5 px-4;
+  @apply py-1.5 px-4 !important;
 }
 
 .nx-rounded {
-  @apply rounded-radius !important;
+  @apply rounded !important;
 }
 
 .nx-rounded-lg {
-  @apply rounded-radius-lg !important;
+  @apply rounded-lg !important;
 }
 
 .docs_logo {
@@ -70,7 +70,7 @@ td {
 }
 
 .cell-preview {
-  @apply w-16 sm:w-32 h-8 rounded-radius;
+  @apply w-16 sm:w-32 h-8 rounded;
 }
 
 .cell-value-scale {
@@ -78,11 +78,11 @@ td {
 }
 
 .cell-preview-scale {
-  @apply h-6 rounded-radius-sm bg-color-bg-brand;
+  @apply h-6 rounded-sm bg-brand;
 }
 
 .cell-preview-tokens {
-  @apply w-40 h-8 rounded-radius;
+  @apply w-40 h-8 rounded;
 }
 
 .cell-token-tokens {
@@ -102,27 +102,27 @@ td {
 }
 
 .cell-preview-space {
-  @apply h-8 rounded-radius-sm bg-color-bg-brand;
+  @apply h-8 rounded-sm bg-brand;
 }
 
 .cell-preview-size {
-  @apply h-8 w-8 rounded-radius-sm bg-color-bg-brand;
+  @apply h-8 w-8 rounded-sm bg-brand;
 }
 
 .cell-preview-border-radius {
-  @apply h-8 w-24 bg-color-bg-brand;
+  @apply h-8 w-24 bg-brand;
 }
 
 .cell-preview-border-width {
-  @apply h-8 w-24 bg-transparent border-color-border-brand rounded-radius;
+  @apply h-8 w-24 bg-transparent border-brand rounded;
 }
 
 .cell-preview-opacity {
-  @apply h-8 w-24 bg-color-bg-brand rounded-radius;
+  @apply h-8 w-24 bg-brand rounded;
 }
 
 .cell-preview-breakpoints {
-  @apply h-8 rounded-radius-sm bg-color-bg-brand;
+  @apply h-8 rounded-sm bg-brand;
 }
 
 .cell-accessibility-key {

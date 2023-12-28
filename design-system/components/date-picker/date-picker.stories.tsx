@@ -26,7 +26,7 @@ const DatePickerDemo = () => {
           variant={'secondary'}
           className={cn(
             'w-[320px] justify-start text-left font-normal',
-            !date && 'text-color-text-description'
+            !date && 'text-description'
           )}
         >
           <CalendarIcon />
@@ -62,7 +62,7 @@ const DatePickerWithRange = ({
             variant={'secondary'}
             className={cn(
               'w-[320px] justify-start text-left font-normal',
-              !date && 'text-color-text-description'
+              !date && 'text-description'
             )}
           >
             <CalendarIcon/>

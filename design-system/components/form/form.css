@@ -12,15 +12,15 @@
 @layer components {
 
     .form-label {
-        @apply text-color-text-danger;
+        @apply text-danger;
     }
 
     .form-description {
-        @apply body-base text-color-text-description;
+        @apply text-md text-description;
     }
 
     .form-message {
-        @apply body-base-medium text-color-text-danger;
+        @apply text-md-medium text-danger;
     }
 
 }

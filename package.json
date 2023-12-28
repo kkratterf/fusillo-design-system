@@ -5,7 +5,8 @@
   "workspaces": [
     "design-system",
     "design-tokens",
-    "documentation"
+    "documentation",
+    "figma-plugin"
   ],
   "scripts": {
     "dev": "turbo run dev",

@@ -37,15 +37,15 @@ export const Default: Story = {
   render: (args) => (
     <ScrollArea
       {...args}
-      className="h-40 w-48 rounded-radius border border-color-border-primary"
+      className="h-40 w-48 rounded border border"
     >
       <div className="p-4">
-        <h4 className="mb-4 body-base-medium leading-none">Tags</h4>
+        <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
         {Array.from({ length: 50 })
           .map((_, i, a) => `v1.2.0-beta.${a.length - i}`)
           .map((tag) => (
             <React.Fragment key={tag}>
-              <div className="body-base" key={tag}>
+              <div className="text-md" key={tag}>
                 {tag}
               </div>
               <Separator className="my-2" />
@@ -79,11 +79,11 @@ const works: Artwork[] = [
 
 export const Horizontal: Story = {
   render: (args) => (
-    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded-radius border border-color-border-primary">
+    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded border border">
       <div className="flex w-max space-x-4 p-4">
         {works.map((artwork) => (
           <figure key={artwork.artist} className="shrink-0">
-            <div className="overflow-hidden rounded-radius">
+            <div className="overflow-hidden rounded">
               <Image
                 src={artwork.art}
                 alt={`Photo by ${artwork.artist}`}
@@ -92,9 +92,9 @@ export const Horizontal: Story = {
                 height={400}
               />
             </div>
-            <figcaption className="pt-2 body-small text-color-text-description">
+            <figcaption className="pt-2 text-sm text-description">
               Photo by{' '}
-              <span className="font-semibold text-color-text">
+              <span className="font-semibold text">
                 {artwork.artist}
               </span>
             </figcaption>

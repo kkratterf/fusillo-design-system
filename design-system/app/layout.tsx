@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { fontSans, fontMono } from '@/lib/fonts';
+// import { cn } from '@/lib/twMerge';
 import { Toaster } from '@/components/toast';
 
 import '../style/global.css';
@@ -14,11 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="dark">
+    <html lang="en" className={`${fontSans.variable} ${fontMono.variable}`}>
+      <body className='dark font-sans antialiased'>
         {children}
         <Toaster />
       </body>
     </html>
   );
 }
+
+// className={cn('dark font-sans antialiased', fontSans.className)}

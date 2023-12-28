@@ -282,6 +282,9 @@ export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
       <div className="bg-color-bg-layout space-y-4 z-10 max-w-5xl w-full items-center justify-between text-sm">
+        <div className="text-title-screen">Teeeeeeest</div>
+        <div className="text-semibold">Other test</div>
+        <div className="text">Other test</div>
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="secondary">Open</Button>
@@ -553,9 +556,6 @@ export default function Home() {
         <Progress value={33} className="w-[60%]" status="brand" />
         <Progress value={33} className="w-[60%]" status="danger" />
         <Progress value={33} className="w-[60%]" status="warning" />
-        <Progress value={100} className="w-[60%]" status="success" />
-        <Progress value={33} className="w-[60%]" status="info" />
-        <Progress value={33} className="w-[60%]" status="discovery" />
         <RadioGroup defaultValue="comfortable">
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="default" id="r1" />
@@ -752,27 +752,6 @@ export default function Home() {
             You can add components and dependencies to your app using the cli.
           </AlertDescription>
         </Alert>
-        <Alert status="success">
-          <AlertIcon>
-            <Accessibility />
-          </AlertIcon>
-          <AlertTitle>Heads up!</AlertTitle>
-          <AlertDescription>
-            You can add components and dependencies to your app using the cli.
-          </AlertDescription>
-        </Alert>
-        <Alert status="info">
-          <AlertTitle>Heads up!</AlertTitle>
-          <AlertDescription>
-            You can add components and dependencies to your app using the cli.
-          </AlertDescription>
-        </Alert>
-        <Alert status="discovery">
-          <AlertTitle>Heads up!</AlertTitle>
-          <AlertDescription>
-            Dai su diomerda perchè non funziona
-          </AlertDescription>
-        </Alert>
 
         <AlertDialog>
           <AlertDialogTrigger asChild>
@@ -809,14 +788,6 @@ export default function Home() {
           <AlertTriangle />
           Warning
         </Badge>
-        <Badge status="success">
-          <CheckCircle />
-        </Badge>
-        <Badge status="info">
-          <Loader />
-          Loading
-        </Badge>
-        <Badge status="discovery">Discovery</Badge>
         <Card>
           <CardHeader>
             <CardTitle>Notifications</CardTitle>
@@ -1171,19 +1142,7 @@ export default function Home() {
         >
           Show Toast
         </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'success',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: 'prova',
-            });
-          }}
-        >
-          Show Toast
-        </Button>
+
         <Button
           variant="secondary"
           onClick={() => {
@@ -1197,32 +1156,7 @@ export default function Home() {
         >
           Show Toast
         </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'discovery',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: 'prova',
-            });
-          }}
-        >
-          Show Toast
-        </Button>
-        <Button
-          variant="secondary"
-          onClick={() => {
-            toast({
-              status: 'info',
-              title: 'Uh oh! Something went wrong.',
-              description: 'There was a problem with your request.',
-              action: 'prova',
-            });
-          }}
-        >
-          Show Toast
-        </Button>
+
         <Textarea placeholder="Type your message here." />
         <div className="flex items-center space-x-2">
           <Tag status="default">Label</Tag>
@@ -1237,16 +1171,9 @@ export default function Home() {
             Warning
           </Tag>
           <Separator orientation="vertical" />
-          <Tag status="success">
-            <CheckCircle />
-          </Tag>
           <Separator orientation="vertical" />
-          <Tag status="info">
-            <Loader />
-            Loading
-          </Tag>
+
           <Separator orientation="vertical" />
-          <Tag status="discovery">Discovery</Tag>
         </div>
         <Tabs defaultValue="account" className="w-full">
           <TabsList>

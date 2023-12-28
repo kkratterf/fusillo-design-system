@@ -39,7 +39,7 @@ const CollapsibleDemo = ({
       {...restArgs}
     >
       <div className="flex items-center justify-between space-x-4 px-4">
-        <p className="body-base-semibold">@kkratter starred 3 repositories</p>
+        <p className="text-md-semibold">@kkratter starred 3 repositories</p>
         <CollapsibleTrigger asChild>
           <Button variant="text" icon={true}>
             <ChevronsUpDown />
@@ -47,17 +47,17 @@ const CollapsibleDemo = ({
           </Button>
         </CollapsibleTrigger>
       </div>
-      <div className="rounded-radius border px-4 py-3 font-mono body-base">
+      <div className="rounded border px-4 py-3 font-mono text-md">
         @design-system/foundations
       </div>
       <CollapsibleContent className="space-y-2">
-        <div className="rounded-radius border px-4 py-3 font-mono body-base">
+        <div className="rounded border px-4 py-3 font-mono text-md">
           @design-system/tokens
         </div>
-        <div className="rounded-radius border px-4 py-3 font-mono body-base">
+        <div className="rounded border px-4 py-3 font-mono text-md">
           @design-system/components
         </div>
-        <div className="rounded-radius border px-4 py-3 font-mono body-base">
+        <div className="rounded border px-4 py-3 font-mono text-md">
           @design-system/data-visualization
         </div>
       </CollapsibleContent>

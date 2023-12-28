@@ -16,11 +16,11 @@
     }
 
     .radio-group-item {
-        @apply aspect-square h-4 w-4 rounded-radius-full border border-color-border-brand ring-offset-color-bg-layout focus:outline-none focus-visible:ring-2 focus-visible:ring-color-border-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-disabled;
+        @apply aspect-square h-4 w-4 rounded-full border border-brand ring-offset-background focus:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-disabled;
     }
 
     .radio-group-item-indicator {
-        @apply flex items-center justify-center [&>svg]:w-[10px] [&>svg]:h-[10px] [&>svg]:fill-color-bg-brand [&>svg]:stroke-color-border-brand;
+        @apply flex items-center justify-center [&>svg]:w-[10px] [&>svg]:h-[10px] [&>svg]:fill-icon-brand [&>svg]:stroke-icon-brand;
     }
 
 }
