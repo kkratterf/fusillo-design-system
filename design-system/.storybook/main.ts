@@ -25,7 +25,11 @@ const config: StorybookConfig = {
   ],
   framework: {
     name: getAbsolutePath('@storybook/nextjs'),
-    options: {},
+    options: {
+      builder: {
+        useSWC: true, // Enables SWC support
+      },
+    },
   },
   docs: {
     autodocs: 'tag',

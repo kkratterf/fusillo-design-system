@@ -1,8 +1,6 @@
 import type { Preview, Renderer } from "@storybook/react";
 import { withThemeByClassName } from "@storybook/addon-themes";
-import '../style/foundations.css';
 import '../style/global.css';
-import '../style/tokens.css';
 
 const preview: Preview = {
   decorators: [
@@ -21,10 +19,14 @@ const preview: Preview = {
     nextjs: {
       appDirectory: true,
     },
-    docs: { 
+    docs: {
       source: {
-         type: 'code' 
-        } 
+        type: 'code',
+      },
+      themes: {
+        Light: '',
+        Dark: 'dark',
+      },
     },
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {

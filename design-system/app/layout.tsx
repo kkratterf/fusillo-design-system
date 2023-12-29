@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import { fontSans, fontMono } from '@/lib/fonts';
-// import { cn } from '@/lib/twMerge';
 import { Toaster } from '@/components/toast';
-
 import '../style/global.css';
 
 export const metadata: Metadata = {
@@ -24,5 +22,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// className={cn('dark font-sans antialiased', fontSans.className)}

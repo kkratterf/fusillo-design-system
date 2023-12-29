@@ -1,5 +1,7 @@
 @import './foundations.css';
 @import './tokens.css';
+@import '../fonts/GeistSans.css';
+@import '../fonts/GeistMono.css';
 
 @tailwind base;
 @tailwind components;
@@ -13,6 +15,7 @@
 
   body {
     @apply font-sans bg-background text;
+    font-family: 'GeistSans';
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
   }
@@ -23,6 +26,7 @@
 
   .code {
     @apply font-mono;
+    font-family: 'GeistMono';
   }
   
 }
