@@ -20,17 +20,6 @@ const styleFoundations = StyleDictionary.extend({
         },
       ],
     },
-    css_foundations_documentation: {
-      transformGroup: 'css', // CSS transformations for documentation
-      buildPath: '../documentation/style/', // Output directory for documentation CSS
-      files: [
-        {
-          destination: 'foundations.css', // Output file name
-          filter: 'foundationsFilter', // Filter to select specific tokens
-          format: 'foundationsFormat', // Custom format for output
-        },
-      ],
-    },
   },
 });
 
@@ -85,7 +74,18 @@ styleFoundations.buildAllPlatforms();
 const styleFoundationsJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'], // Specify the source JSON token files
   platforms: {
-    js_foundations: {
+    js_foundations_design_system: {
+      transformGroup: 'js', // Apply JavaScript-specific transformations
+      buildPath: '../design-system/tokens/', // Directory for the generated JS file
+      files: [
+        {
+          format: 'javascript/module', // Output format as a JavaScript module
+          destination: 'foundations.js', // Output file name
+          filter: 'foundationsJsFilter', // Apply a custom filter
+        },
+      ],
+    },
+    js_foundations_documentation: {
       transformGroup: 'js', // Apply JavaScript-specific transformations
       buildPath: '../documentation/tokens/', // Directory for the generated JS file
       files: [
@@ -125,17 +125,6 @@ const styleTokens = StyleDictionary.extend({
           destination: 'tokens.css', // CSS output file name
           filter: 'tokensFilter', // Custom filter for tokens
           format: 'tokensFormat', // Custom format for tokens
-        },
-      ],
-    },
-    css_tokens_documentation: {
-      transformGroup: 'css', // CSS transformations for documentation
-      buildPath: '../documentation/style/', // Output directory for documentation CSS
-      files: [
-        {
-          destination: 'tokens.css', // Documentation CSS output file
-          filter: 'tokensFilter', // Use the same custom filter
-          format: 'tokensFormat', // Use the same custom format
         },
       ],
     },
@@ -221,7 +210,18 @@ styleTokens.buildAllPlatforms();
 const styleTokensJs = StyleDictionary.extend({
   source: ['tokens/**/*.json'], // Source JSON token files
   platforms: {
-    js_tokens: {
+    js_tokens_design_system: {
+      transformGroup: 'js', // JavaScript transformations
+      buildPath: '../design-system/tokens/', // Output directory for JS tokens
+      files: [
+        {
+          format: 'javascript/module', // Output format as JavaScript module
+          destination: 'tokens.js', // JS output file name
+          filter: 'tokensJsFilter', // Custom filter for JS tokens
+        },
+      ],
+    },
+    js_tokens_documentation: {
       transformGroup: 'js', // JavaScript transformations
       buildPath: '../documentation/tokens/', // Output directory for JS tokens
       files: [
@@ -253,7 +253,18 @@ styleTokensJs.buildAllPlatforms();
 const styleConfig = StyleDictionary.extend({
   source: ['tokens/**/*.json'], // Source JSON token files
   platforms: {
-    js_config: {
+    js_config_design_system: {
+      transformGroup: 'js', // JavaScript transformations
+      buildPath: '../design-system/tokens/', // Output directory for configuration tokens
+      files: [
+        {
+          destination: 'config.js', // Configuration JS output file name
+          filter: 'configFilter', // Custom filter for configuration tokens
+          format: 'javascript/module-flat', // Output format as a flat JavaScript module
+        },
+      ],
+    },
+    js_config_documentation: {
       transformGroup: 'js', // JavaScript transformations
       buildPath: '../documentation/tokens/', // Output directory for configuration tokens
       files: [

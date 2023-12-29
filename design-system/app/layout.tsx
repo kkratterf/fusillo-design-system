@@ -1,7 +1,11 @@
+// Import core
 import type { Metadata } from 'next';
+// Import customs
 import { fontSans, fontMono } from '@/lib/fonts';
 import { Toaster } from '@/components/toast';
 import '../style/global.css';
+import '../style/foundations.css';
+import '../style/tokens.css';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${fontSans.variable} ${fontMono.variable}`}>
-      <body className='dark font-sans antialiased'>
+      <body className="dark font-sans antialiased">
         {children}
         <Toaster />
       </body>

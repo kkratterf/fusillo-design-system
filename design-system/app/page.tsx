@@ -1,6 +1,8 @@
 'use client';
 
+// Import core
 import React from 'react';
+// Import customs
 import {
   Accessibility,
   CheckCircle,

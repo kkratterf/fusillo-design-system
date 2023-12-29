@@ -38,10 +38,10 @@
 
   .toast-action {
     @apply inline-flex h-9 shrink-0 items-center justify-center rounded px-3 text-md-medium transition-colors disabled:pointer-events-none focus-visible:outline-none disabled:opacity-disabled;
-    &[data-variant='default'] { @apply border border-border bg-transparent ring-offset-elevated focus:ring-2 focus:ring-offset-2 hover:bg-item-hover focus:ring-brand; }
-    &[data-variant='brand'] { @apply border border-border bg-item text ring-offset-brand focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-brand-subtlest; }
-    &[data-variant='danger'] { @apply border border-border bg-item text ring-offset-danger focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-danger-subtlest; }
-    &[data-variant='warning'] { @apply border border-border bg-item text ring-offset-warning focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-warning-subtlest; }
+    &[data-variant='default'] { @apply border bg-transparent ring-offset-elevated focus:ring-2 focus:ring-offset-2 hover:bg-item-hover focus:ring-brand; }
+    &[data-variant='brand'] { @apply border bg-item text ring-offset-brand focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-brand-subtlest; }
+    &[data-variant='danger'] { @apply border bg-item text ring-offset-danger focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-danger-subtlest; }
+    &[data-variant='warning'] { @apply border bg-item text ring-offset-warning focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-warning-subtlest; }
   }
 
   .toast-close {

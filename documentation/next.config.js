@@ -5,6 +5,8 @@ const withNextra = require('nextra')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
   transpilePackages: ['design-system'],
   images: {
     domains: ['images.unsplash.com'],

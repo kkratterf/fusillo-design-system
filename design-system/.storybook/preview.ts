@@ -1,5 +1,7 @@
-import type { Preview, Renderer } from "@storybook/react";
-import { withThemeByClassName } from "@storybook/addon-themes";
+// Import core
+import type { Preview, Renderer } from '@storybook/react';
+import { withThemeByClassName } from '@storybook/addon-themes';
+// Import customs
 import '../style/global.css';
 
 const preview: Preview = {
