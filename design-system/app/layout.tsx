@@ -1,11 +1,9 @@
 // Import core
 import type { Metadata } from 'next';
 // Import customs
+import '@/style/global.css';
 import { fontSans, fontMono } from '@/lib/fonts';
 import { Toaster } from '@/components/toast';
-import '../style/global.css';
-import '../style/foundations.css';
-import '../style/tokens.css';
 
 export const metadata: Metadata = {
   title: 'Create Next App',

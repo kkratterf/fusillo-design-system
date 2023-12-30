@@ -13,6 +13,7 @@ const alertVariants = cva('alert-component', {
   variants: {
     status: {
       default: 'alert-default',
+      brand: 'alert-brand',
       danger: 'alert-danger',
       warning: 'alert-warning',
     },

@@ -1,0 +1,10 @@
+{
+  "eslint.workingDirectories": [
+    { "pattern": "design-system/*/" },
+    { "pattern": "documentation/*/" }
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
+}

@@ -15,6 +15,10 @@
     @apply bg-card border text stroke-icon-active;
     }
 
+    .alert-brand {
+    @apply bg-brand-subtlest border-brand-subtlest text-brand-strong stroke-icon-brand-strong;
+    }
+
     .alert-danger {
     @apply bg-danger-subtlest border-danger-subtlest text-danger-strong stroke-icon-danger-strong;
     }

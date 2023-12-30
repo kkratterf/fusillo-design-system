@@ -6,32 +6,27 @@ import * as React from 'react';
 import { Slot } from '@radix-ui/react-slot';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import './button.css';
-import { cn } from "../../lib/twMerge"
+import { cn } from "@/lib/twMerge";
 
-
-const buttonVariants = cva(
-  'button-component',
-  {
-    variants: {
-      variant: {
-        primary: 'button-primary bg-brand',
-        secondary: 'button-secondary',
-        text: 'button-text',
-        link: 'button-link',
-        danger: 'button-danger',
-      },
-      icon: {
-        false: '',
-        true: 'icon-button',
-      }
+const buttonVariants = cva('button-component', {
+  variants: {
+    variant: {
+      primary: 'button-primary bg-brand',
+      secondary: 'button-secondary',
+      text: 'button-text',
+      link: 'button-link',
+      danger: 'button-danger',
     },
-    defaultVariants: {
-      variant: 'primary',
-      icon: false,
+    icon: {
+      false: '',
+      true: 'icon-button',
     },
-  }
-);
+  },
+  defaultVariants: {
+    variant: 'primary',
+    icon: false,
+  },
+});
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,

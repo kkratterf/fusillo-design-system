@@ -1,7 +1,8 @@
-@import './foundations.css';
-@import './tokens.css';
-@import '../fonts/GeistSans.css';
-@import '../fonts/GeistMono.css';
+@import '@/style/foundations.css';
+@import '@/style/tokens.css';
+@import '@/style/components.css';
+@import '@/fonts/GeistSans.css';
+@import '@/fonts/GeistMono.css';
 
 @tailwind base;
 @tailwind components;

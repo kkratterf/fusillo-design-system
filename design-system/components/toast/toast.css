@@ -1,14 +1,5 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
-@tailwind base;
+/* Import tailwind & Tailwind layer */
 @tailwind components;
-@tailwind utilities;
-
-/* Tailwind layer */
 @layer components {
 
   .toast-viewport {
