@@ -1,6 +1,8 @@
+// Import core
 import * as React from 'react';
 import Image from 'next/image';
-import Preview from './preview';
+// Import customs
+import Preview from '@/docs/components/preview';
 import { ScrollArea, ScrollBar } from 'design-system/components/scroll-area';
 import { Separator } from 'design-system/components/separator';
 
@@ -63,9 +65,7 @@ export const ScrollAreaHorizontal = () => (
             </div>
             <figcaption className="pt-2 text-sm text-description">
               Photo by{' '}
-              <span className="font-semibold text">
-                {artwork.artist}
-              </span>
+              <span className="font-semibold text">{artwork.artist}</span>
             </figcaption>
           </figure>
         ))}

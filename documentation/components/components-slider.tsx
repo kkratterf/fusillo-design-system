@@ -1,0 +1,126 @@
+// Import core
+// Import customs
+import { AccessibilityTable } from '@/docs/components/accessibility-table';
+import Preview from '@/docs/components/preview';
+import { Slider } from 'design-system/components/slider';
+
+export const SliderPreview = () => (
+  <Preview>
+    <Slider defaultValue={[25]} max={100} step={1} />
+  </Preview>
+);
+
+export const SliderDefault = () => (
+  <Preview>
+    <Slider defaultValue={[25]} max={100} step={1} />
+  </Preview>
+);
+
+export const SliderRange = () => (
+  <Preview>
+    <Slider defaultValue={[25, 75]} max={100} step={1} />
+  </Preview>
+);
+
+export const SliderStep = () => (
+  <Preview>
+    <Slider defaultValue={[50]} step={10} max={100} />
+  </Preview>
+);
+
+export const SliderOverlap = () => (
+  <Preview>
+    <Slider
+      defaultValue={[25, 75]}
+      step={10}
+      max={100}
+      minStepsBetweenThumbs={1}
+    />
+  </Preview>
+);
+
+export const SliderAccessibility = () => {
+  const sliderAccessibilityData = [
+    {
+      key: 'ArrowRight',
+      description: (
+        <>
+          Increments by the step{' '}
+          <code className="cell-accessibility-code">step</code> value
+        </>
+      ),
+    },
+    {
+      key: 'ArrowLeft',
+      description: (
+        <>
+          Decrements by the step{' '}
+          <code className="cell-accessibility-code">step</code> value.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowUp',
+      description: (
+        <>
+          Increases the value by the{' '}
+          <code className="cell-accessibility-code">step</code> amount.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowDown',
+      description: (
+        <>
+          Decreases the value by the{' '}
+          <code className="cell-accessibility-code">step</code> amount.
+        </>
+      ),
+    },
+    {
+      key: 'PageUp',
+      description: (
+        <>
+          Increases the value by a larger{' '}
+          <code className="cell-accessibility-code">step</code>.
+        </>
+      ),
+    },
+    {
+      key: 'PageDown',
+      description: (
+        <>
+          Decreases the value by a larger{' '}
+          <code className="cell-accessibility-code">step</code>.
+        </>
+      ),
+    },
+    {
+      key: 'Shift+ArrrowUp',
+      description: (
+        <>
+          Increases the value by a larger{' '}
+          <code className="cell-accessibility-code">step</code>.
+        </>
+      ),
+    },
+    {
+      key: 'Shift+ArrrowDown',
+      description: (
+        <>
+          Decreases the value by a larger{' '}
+          <code className="cell-accessibility-code">step</code>.
+        </>
+      ),
+    },
+    {
+      key: 'Home',
+      description: 'Sets the value to its minimum.',
+    },
+    {
+      key: 'End',
+      description: 'Sets the value to its maximum.',
+    },
+  ];
+  return <AccessibilityTable rows={sliderAccessibilityData} />;
+};

@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${fontSans.variable} ${fontMono.variable}`}>
-      <body className="dark font-sans antialiased">
+      <body className="dark">
         {children}
         <Toaster />
       </body>

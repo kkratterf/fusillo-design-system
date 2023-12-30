@@ -1,13 +1,18 @@
+/* Import css files */
 @import '@/style/foundations.css';
 @import '@/style/tokens.css';
 @import '@/style/components.css';
 @import '@/fonts/GeistSans.css';
 @import '@/fonts/GeistMono.css';
 
+
+/* Import tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+/* Tailwind layer */
 @layer base {
 
   * {
@@ -15,7 +20,7 @@
   }
 
   body {
-    @apply font-sans bg-background text;
+    @apply font-sans bg-background text antialiased;
     font-family: 'GeistSans';
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;

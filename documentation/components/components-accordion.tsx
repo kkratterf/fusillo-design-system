@@ -1,6 +1,6 @@
 // Import core
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
+import { AccessibilityTable } from '@/docs/components/accessibility-table.mdx';
 import Preview from '@/docs/components/preview';
 import {
   Accordion,

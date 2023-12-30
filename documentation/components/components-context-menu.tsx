@@ -1,0 +1,119 @@
+// Import core
+// Import customs
+import { AccessibilityTable } from '@/docs/components/accessibility-table';
+import Preview from '@/docs/components/preview';
+import {
+  ContextMenu,
+  ContextMenuCheckboxItem,
+  ContextMenuContent,
+  ContextMenuItem,
+  ContextMenuLabel,
+  ContextMenuRadioGroup,
+  ContextMenuRadioItem,
+  ContextMenuSeparator,
+  ContextMenuShortcut,
+  ContextMenuSub,
+  ContextMenuSubContent,
+  ContextMenuSubTrigger,
+  ContextMenuTrigger,
+} from 'design-system/components/context-menu';
+
+export const ContextMenuPreview = () => (
+  <Preview>
+    <ContextMenu>
+      <ContextMenuTrigger className="flex h-[150px] w-[300px] items-center justify-center rounded border border-dashed text-md">
+        Right click here
+      </ContextMenuTrigger>
+      <ContextMenuContent className="w-64">
+        <ContextMenuItem inset>
+          Back
+          <ContextMenuShortcut>⌘[</ContextMenuShortcut>
+        </ContextMenuItem>
+        <ContextMenuItem inset disabled>
+          Forward
+          <ContextMenuShortcut>⌘]</ContextMenuShortcut>
+        </ContextMenuItem>
+        <ContextMenuItem inset>
+          Reload
+          <ContextMenuShortcut>⌘R</ContextMenuShortcut>
+        </ContextMenuItem>
+        <ContextMenuSub>
+          <ContextMenuSubTrigger inset>More Tools</ContextMenuSubTrigger>
+          <ContextMenuSubContent className="w-48">
+            <ContextMenuItem>
+              Save Page As...
+              <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
+            </ContextMenuItem>
+            <ContextMenuItem>Create Shortcut...</ContextMenuItem>
+            <ContextMenuItem>Name Window...</ContextMenuItem>
+            <ContextMenuSeparator />
+            <ContextMenuItem>Developer Tools</ContextMenuItem>
+          </ContextMenuSubContent>
+        </ContextMenuSub>
+        <ContextMenuSeparator />
+        <ContextMenuCheckboxItem checked>
+          Show Bookmarks Bar
+          <ContextMenuShortcut>⌘⇧B</ContextMenuShortcut>
+        </ContextMenuCheckboxItem>
+        <ContextMenuCheckboxItem>Show Full URLs</ContextMenuCheckboxItem>
+        <ContextMenuSeparator />
+        <ContextMenuRadioGroup value="michael">
+          <ContextMenuLabel inset>People</ContextMenuLabel>
+          <ContextMenuSeparator />
+          <ContextMenuRadioItem value="michael">
+            Michael Scott
+          </ContextMenuRadioItem>
+          <ContextMenuRadioItem value="dwight">
+            Dwight Schrute
+          </ContextMenuRadioItem>
+        </ContextMenuRadioGroup>
+      </ContextMenuContent>
+    </ContextMenu>
+  </Preview>
+);
+
+export const ContextMenuAccessibility = () => {
+  const contextMenuAccessibilityData = [
+    {
+      key: 'Space',
+      description: 'Activates the focused item.',
+    },
+    {
+      key: 'Enter',
+      description: 'Activates the focused item.',
+    },
+    {
+      key: 'ArrowDown',
+      description: 'Moves focus to the next item.',
+    },
+    {
+      key: 'ArrowUp',
+      description: 'Moves focus to the previous item.',
+    },
+    {
+      key: 'ArrowRight',
+      description: (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">ContextMenuSubTrigger</code>
+          , opens the submenu.
+        </>
+      ),
+    },
+    {
+      key: 'ArrowLeft',
+      description: (
+        <>
+          When focus is on{' '}
+          <code className="cell-accessibility-code">ContextMenuSubTrigger</code>
+          , closes the submenu.
+        </>
+      ),
+    },
+    {
+      key: 'Esc',
+      description: 'Closes the context menu',
+    },
+  ];
+  return <AccessibilityTable rows={contextMenuAccessibilityData} />;
+};

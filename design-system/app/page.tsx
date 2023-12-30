@@ -4,10 +4,12 @@
 import React from 'react';
 // Import customs
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
+import { Button } from '@/components/button';
 
 export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
+      <Button variant="primary">test</Button>
       <div>
         <Avatar size="xs">
           <AvatarImage

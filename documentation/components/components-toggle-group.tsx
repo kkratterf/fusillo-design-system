@@ -1,0 +1,132 @@
+// Import core
+import { Bold, Italic, Underline } from 'lucide-react';
+// Import customs
+import { AccessibilityTable } from '@/docs/components/accessibility-table';
+import Preview from '@/docs/components/preview';
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from 'design-system/components/toggle-group';
+
+export const ToggleGroupPreview = () => (
+  <Preview>
+    <ToggleGroup type="multiple">
+      <ToggleGroupItem value="bold" aria-label="Toggle bold">
+        <Bold />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="italic" aria-label="Toggle italic">
+        <Italic />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="strikethrough" aria-label="Toggle strikethrough">
+        <Underline />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  </Preview>
+);
+
+export const ToggleGroupDefault = () => (
+  <Preview>
+    <ToggleGroup type="multiple">
+      <ToggleGroupItem value="bold" aria-label="Toggle bold">
+        <Bold />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="italic" aria-label="Toggle italic">
+        <Italic />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="strikethrough" aria-label="Toggle strikethrough">
+        <Underline />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  </Preview>
+);
+
+export const ToggleGroupOutlined = () => (
+  <Preview>
+    <ToggleGroup variant="outline" type="multiple">
+      <ToggleGroupItem value="bold" aria-label="Toggle bold">
+        <Bold />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="italic" aria-label="Toggle italic">
+        <Italic />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="strikethrough" aria-label="Toggle strikethrough">
+        <Underline />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  </Preview>
+);
+
+export const ToggleGroupSingle = () => (
+  <Preview>
+    <ToggleGroup type="single">
+      <ToggleGroupItem value="bold" aria-label="Toggle bold">
+        <Bold />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="italic" aria-label="Toggle italic">
+        <Italic />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="strikethrough" aria-label="Toggle strikethrough">
+        <Underline />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  </Preview>
+);
+
+export const ToggleGroupDisabled = () => (
+  <Preview>
+    <ToggleGroup disabled type="single">
+      <ToggleGroupItem value="bold" aria-label="Toggle bold">
+        <Bold />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="italic" aria-label="Toggle italic">
+        <Italic />
+      </ToggleGroupItem>
+      <ToggleGroupItem value="strikethrough" aria-label="Toggle strikethrough">
+        <Underline />
+      </ToggleGroupItem>
+    </ToggleGroup>
+  </Preview>
+);
+
+export const ToggleGroupAccessibility = () => {
+  const toggleGroupAccessibilityData = [
+    {
+      key: 'Tab',
+      description:
+        'Moves focus to either the pressed item or the first item in the group.',
+    },
+    {
+      key: 'Space',
+      description: 'Activates/deactivates the item.',
+    },
+    {
+      key: 'Enter',
+      description: 'Activates/deactivates the item.',
+    },
+    {
+      key: 'ArrowDown',
+      description: 'Moves focus to the next item in the group.',
+    },
+    {
+      key: 'ArrowRight',
+      description: 'Moves focus to the next item in the group.',
+    },
+    {
+      key: 'ArrowUp',
+      description: 'Moves focus to the previous item in the group.',
+    },
+    {
+      key: 'ArrowLeft',
+      description: 'Moves focus to the previous item in the group.',
+    },
+    {
+      key: 'Home',
+      description: 'Moves focus to the first item.',
+    },
+    {
+      key: 'End',
+      description: 'Moves focus to the last item.',
+    },
+  ];
+  return <AccessibilityTable rows={toggleGroupAccessibilityData} />;
+};

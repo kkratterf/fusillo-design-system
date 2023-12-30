@@ -1,17 +1,19 @@
+/* Import css files */
+@import '@/docs/style/brand.css';
 @import 'design-system/style/global.css';
-@import './brand.css';
-@import '@/fonts/GeistSans.css';
-@import '@/fonts/GeistMono.css';
+@import 'design-system/fonts/GeistSans.css';
+@import 'design-system/fonts/GeistMono.css';
 
 body {
-    @apply font-sans bg-background text;
-    font-family: 'GeistSans';
-    font-synthesis-weight: none;
-    text-rendering: optimizeLegibility;
+  @apply font-sans bg-background text;
+  font-family: 'GeistSans';
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
 }
 
+/* Fix Nextra */
 .nx-px-2 {
-  @apply py-1.5 px-4 !important;
+  @apply px-4 !important;
 }
 
 .nx-rounded {
@@ -35,7 +37,7 @@ tr:is(html[class~=dark] .even\:dark\:nx-bg-gray-600\/20):nth-child(2n) {
   background-color: transparent !important;
 }
 
-/* TABLES */
+/* Tables css */
 table {
   @apply w-full my-6 !important;
 }
@@ -136,8 +138,12 @@ td {
   @apply w-full;
 }
 
+code {
+  @apply border-[#000000] border-opacity-[0.04] bg-opacity-[0.03] bg-[#000000] break-words rounded-sm border py-0.5 px-[.25em] text-[.9em] dark:border-[#ffffff]/30 dark:border-opacity-[0.04] dark:bg-[#ffffff] dark:bg-opacity-[0.03] opacity-80;
+}
+
 .cell-accessibility-code {
-  @apply opacity-80;
+  @apply border-[#000000] border-opacity-[0.04] bg-opacity-[0.03] bg-[#000000] break-words rounded-sm border py-0.5 px-[.25em] text-[.9em] dark:border-[#ffffff]/10 dark:bg-[#ffffff]/10 opacity-80;
 }
 
 .cell-accessibility-contrast {
