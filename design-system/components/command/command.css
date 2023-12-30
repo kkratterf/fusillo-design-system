@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
   .command-component {
@@ -24,7 +18,7 @@
   }
 
   .command-input-container {
-    @apply flex items-center border-b border px-3;
+    @apply flex items-center border-b border-border px-3;
   }
 
   .command-input-search {

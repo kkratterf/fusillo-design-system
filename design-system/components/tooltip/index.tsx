@@ -2,12 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as TooltipPrimitive from '@radix-ui/react-tooltip';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './tooltip.css'
+import { cn } from "@/lib/twMerge"
 
 const tooltipVariants = cva(
   [

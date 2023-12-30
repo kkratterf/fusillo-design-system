@@ -2,7 +2,6 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import { Slot } from '@radix-ui/react-slot';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs

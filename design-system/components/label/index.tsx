@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as LabelPrimitive from '@radix-ui/react-label';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './label.css'
-
+import { cn } from "@/lib/twMerge"
 
 const labelVariants = cva(
   "label-component"

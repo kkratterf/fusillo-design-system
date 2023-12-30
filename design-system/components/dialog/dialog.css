@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
   .dialog-overlay {
@@ -16,7 +10,7 @@
   }
 
   .dialog-content {
-    @apply fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border border bg-elevated p-6 shadow-lg duration-200 sm:rounded-lg md:w-full;
+    @apply fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border border-border bg-elevated p-6 shadow-lg duration-200 sm:rounded-lg md:w-full;
   }
 
   .dialog-close {

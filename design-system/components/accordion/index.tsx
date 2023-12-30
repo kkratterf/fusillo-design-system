@@ -2,12 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as AccordionPrimitive from '@radix-ui/react-accordion';
 // Import customs
 import { ChevronDown } from 'lucide-react';
-import './accordion.css';
-import { cn } from '../../lib/twMerge';
+import { cn } from '@/lib/twMerge';
 
 const Accordion = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Root>,

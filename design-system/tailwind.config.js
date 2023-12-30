@@ -536,6 +536,13 @@ module.exports = {
             fontWeight: '400',
           },
         ],
+        xs: [
+          '0.5rem',
+          {
+            lineHeight: '0.75rem',
+            fontWeight: '400',
+          },
+        ],
       },
       width: {
         0: 'var(--w-0)',

@@ -1,9 +1,7 @@
 // Import core
 import * as React from 'react';
-// Import third parts
 // Import customs
-import { cn } from '../../lib/twMerge';
-import './input.css'
+import { cn } from '@/lib/twMerge';
 
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}

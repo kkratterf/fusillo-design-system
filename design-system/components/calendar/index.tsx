@@ -2,14 +2,11 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { DayPicker } from 'react-day-picker';
 // Import customs
-import { cn } from '../../lib/twMerge';
-import { buttonVariants } from '../button';
-import './calendar.css'
-
+import { cn } from '@/lib/twMerge';
+import { buttonVariants } from '@/components/button';
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>
 

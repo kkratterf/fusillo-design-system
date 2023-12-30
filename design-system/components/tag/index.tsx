@@ -1,10 +1,8 @@
 // Import core
 import * as React from 'react';
-// Import third parts
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import { cn } from '../../lib/twMerge';
-import './tag.css';
+import { cn } from '@/lib/twMerge';
 
 const tagVariants = cva('tag-component', {
   variants: {

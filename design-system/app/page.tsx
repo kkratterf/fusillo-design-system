@@ -3,37 +3,48 @@
 // Import core
 import React from 'react';
 // Import customs
-import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/alert-dialog"
-import { Button } from '@/components/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/avatar';
 
 export default function Home() {
   return (
     <main className="bg-color-bg-layout flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex space-x-3">
-        <Button variant="primary">Vamos pedro</Button>
-        <Button variant="secondary">Vamos pedro</Button>
-        <Button variant="text">Vamos pedro</Button>
-        <Button variant="link">Vamos pedro</Button>
-        <Button variant="danger">Vamos pedro</Button>
+      <div>
+        <Avatar size="xs">
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4"
+            alt="@kkratterf"
+          />
+          <AvatarFallback>FK</AvatarFallback>
+        </Avatar>
+        <Avatar size="sm">
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4"
+            alt="@kkratterf"
+          />
+          <AvatarFallback>FK</AvatarFallback>
+        </Avatar>
+        <Avatar size="md">
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4"
+            alt="@kkratterf"
+          />
+          <AvatarFallback>FK</AvatarFallback>
+        </Avatar>
+        <Avatar size="lg">
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4"
+            alt="@kkratterf"
+          />
+          <AvatarFallback>FK</AvatarFallback>
+        </Avatar>
+        <Avatar size="xl">
+          <AvatarImage
+            src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4"
+            alt="@kkratterf"
+          />
+          <AvatarFallback>FK</AvatarFallback>
+        </Avatar>
       </div>
-      <AlertDialog>
-        <AlertDialogTrigger asChild>
-          <Button variant="secondary">Delete account</Button>
-        </AlertDialogTrigger>
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-            <AlertDialogDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel>Cancel</AlertDialogCancel>
-            <AlertDialogAction>Continue</AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
     </main>
   );
 }

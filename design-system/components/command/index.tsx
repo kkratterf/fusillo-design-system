@@ -2,15 +2,12 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import { DialogProps } from '@radix-ui/react-dialog';
 import { Command as CommandPrimitive } from 'cmdk';
 import { Search } from 'lucide-react';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import { Dialog, DialogContent } from "../dialog"
-import './command.css'
-
+import { cn } from "@/lib/twMerge"
+import { Dialog, DialogContent } from "@/components/dialog"
 
 const Command = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive>,

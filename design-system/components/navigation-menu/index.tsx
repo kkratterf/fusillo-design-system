@@ -1,13 +1,10 @@
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu';
 import { cva } from 'class-variance-authority';
 import { ChevronDown } from 'lucide-react';
 // Import customs
-import { cn } from '../../lib/twMerge';
-import './navigation-menu.css'
-
+import { cn } from '@/lib/twMerge';
 
 const NavigationMenu = React.forwardRef<
   React.ElementRef<typeof NavigationMenuPrimitive.Root>,
@@ -84,7 +81,10 @@ const NavigationMenuViewport = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div className={cn('navigation-menu-viewport-container')}>
     <NavigationMenuPrimitive.Viewport
-      className={cn('navigation-menu-viewport origin-top-center', className)}
+      className={cn(
+        'navigation-menu-viewport data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-90 origin-top-center',
+        className
+      )}
       ref={ref}
       {...props}
     />
@@ -100,7 +100,7 @@ const NavigationMenuIndicator = React.forwardRef<
   <NavigationMenuPrimitive.Indicator
     ref={ref}
     className={cn(
-      'navigation-menu-indicator',
+      'navigation-menu-indicator data-[state=visible]:animate-in data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:fade-in',
       className
     )}
     {...props}

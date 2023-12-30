@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
     .sheet-overlay {
@@ -20,19 +14,19 @@
     }
 
     .sheet-top {
-        @apply inset-x-0 top-0 border-b border;
+        @apply inset-x-0 top-0 border-b border-b-border;
     }
 
     .sheet-bottom {
-        @apply inset-x-0 bottom-0 border-t border;
+        @apply inset-x-0 bottom-0 border-t border-t-border;
     }
 
     .sheet-left {
-        @apply inset-y-0 left-0 h-full border-r border;
+        @apply inset-y-0 left-0 h-full border-r border-r-border;
     }
 
     .sheet-right {
-        @apply inset-y-0 right-0 h-full  border-l border;
+        @apply inset-y-0 right-0 h-full  border-l border-l-border;
     }
 
     .sheet-close {

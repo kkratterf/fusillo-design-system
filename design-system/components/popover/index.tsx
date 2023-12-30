@@ -2,12 +2,9 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as PopoverPrimitive from '@radix-ui/react-popover';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './popover.css'
-
+import { cn } from "@/lib/twMerge"
 
 const Popover = PopoverPrimitive.Root
 

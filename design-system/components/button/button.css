@@ -1,5 +1,8 @@
-/* Import tailwind & Tailwind layer */
+/* Import tailwind & tailwind layer */
+@tailwind base;
 @tailwind components;
+@tailwind utilities;
+
 @layer components {
 
   .button-component {

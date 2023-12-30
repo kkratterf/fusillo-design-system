@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as MenubarPrimitive from '@radix-ui/react-menubar';
 import { Check, ChevronRight, Circle } from 'lucide-react';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './menubar.css'
-
+import { cn } from "@/lib/twMerge"
 
 const MenubarMenu = MenubarPrimitive.Menu
 

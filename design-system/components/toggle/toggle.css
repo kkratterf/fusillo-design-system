@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
   .toggle-component {
@@ -16,7 +10,7 @@
   }
 
   .toggle-component-outline {
-    @apply border border bg-item hover:bg-item-hover data-[state=on]:border-brand;
+    @apply border border-border bg-item hover:bg-item-hover data-[state=on]:border-brand;
   }
 
 }

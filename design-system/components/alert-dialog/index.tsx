@@ -8,7 +8,6 @@ import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog';
 import { cn } from "@/lib/twMerge"
 import { buttonVariants } from "@/components/button"
 
-
 const AlertDialog = AlertDialogPrimitive.Root
 
 const AlertDialogTrigger = AlertDialogPrimitive.Trigger

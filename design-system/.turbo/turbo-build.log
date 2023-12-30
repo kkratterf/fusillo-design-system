@@ -2,29 +2,30 @@
 > design-system@1.0.1 build
 > next build
 
-   Creating an optimized production build...
+   ▲ Next.js 14.0.4
+
+   Creating an optimized production build ...
  ✓ Compiled successfully
-   Linting and checking validity of types...
-   Collecting page data...
-   Generating static pages (0/4)...
-   Generating static pages (1/4)
-
-   Generating static pages (2/4)
-
-   Generating static pages (3/4)
-
- ✓ Generating static pages (4/4)
-   Finalizing page optimization...
+   Linting and checking validity of types ...
+ ⨯ ESLint: Failed to load config "turbo" to extend from. Referenced from: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/.eslintrc.json
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4) 
+   Finalizing page optimization ...
+   Collecting build traces ...
 
 Route (app)                              Size     First Load JS
-┌ ○ /                                    182 kB          273 kB
-└ ○ /_not-found                          875 B          80.4 kB
-+ First Load JS shared by all            79.5 kB
-  ├ chunks/267-2c1cfeae28376161.js       26.6 kB
-  ├ chunks/618f8807-55a2a56ebd555ed4.js  50.9 kB
-  ├ chunks/main-app-3d7402c53925dbbb.js  223 B
-  └ chunks/webpack-d9f9a6d270a4854c.js   1.82 kB
+┌ ○ /                                    1.23 kB        91.6 kB
+└ ○ /_not-found                          870 B          82.7 kB
++ First Load JS shared by all            81.8 kB
+  ├ chunks/938-35bc17b2f64c35b0.js       26.7 kB
+  ├ chunks/fd9d1056-7fda3e9b28bca7f7.js  53.3 kB
+  ├ chunks/main-app-68dd021c35de49fe.js  220 B
+  └ chunks/webpack-2ac460e55462862d.js   1.65 kB
 
 
-○  (Static)  automatically rendered as static HTML (uses no initial props)
+○  (Static)  prerendered as static content
 

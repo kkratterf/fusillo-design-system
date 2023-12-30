@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
     .avatar-component {
@@ -24,9 +18,7 @@
     }
 
     .avatar-xs {
-        @apply h-4 w-4;
-        font-size: 0.5rem;
-        line-height: 0.75rem;
+        @apply h-4 w-4 text-xs;
     }
 
     .avatar-sm {

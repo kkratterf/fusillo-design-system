@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as SelectPrimitive from '@radix-ui/react-select';
 import { Check, ChevronDown, ChevronUp } from 'lucide-react';
 // Import customs
-import { cn } from '../../lib/twMerge';
-import './select.css';
-
+import { cn } from '@/lib/twMerge';
 
 const Select = SelectPrimitive.Root;
 

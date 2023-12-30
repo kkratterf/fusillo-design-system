@@ -2,12 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import { cva, type VariantProps } from 'class-variance-authority';
 import * as AvatarPrimitive from '@radix-ui/react-avatar';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './avatar.css';
+import { cn } from "@/lib/twMerge"
 
 const avatarVariants = cva('avatar-component', {
   variants: {
