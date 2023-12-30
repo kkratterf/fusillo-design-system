@@ -1,8 +1,6 @@
-// Import core
-// Import customs
 import tokens from '@/docs/tokens/tokens.js';
 
-export const TokensSize = ({ size }) => (
+export const TokensBreakpoints = () => (
   <>
     {
       <table>
@@ -18,7 +16,7 @@ export const TokensSize = ({ size }) => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tokens.Tokens.Light.Size[size]).map(
+          {Object.entries(tokens.Tokens.Light.Breakpoints).map(
             ([tokenName, tokenInfo]) => (
               <tr key={tokenName}>
                 <td className="w-full">
@@ -35,12 +33,10 @@ export const TokensSize = ({ size }) => (
                   </div>
                 </td>
                 <td className="hidden sm:table-cell">
-                  <div className='w-24'>
-                    <div
-                      className="cell-preview-size"
-                      style={{ [size.toLowerCase()]: tokenInfo.value }}
-                    ></div>
-                  </div>
+                  <div
+                    className="cell-preview-breakpoints"
+                    style={{ width: `${parseInt(tokenInfo.value) / 4}px` }}
+                  ></div>
                 </td>
               </tr>
             )

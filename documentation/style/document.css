@@ -138,12 +138,8 @@ td {
   @apply w-full;
 }
 
-code {
-  @apply border-[#000000] border-opacity-[0.04] bg-opacity-[0.03] bg-[#000000] break-words rounded-sm border py-0.5 px-[.25em] text-[.9em] dark:border-[#ffffff]/30 dark:border-opacity-[0.04] dark:bg-[#ffffff] dark:bg-opacity-[0.03] opacity-80;
-}
-
 .cell-accessibility-code {
-  @apply border-[#000000] border-opacity-[0.04] bg-opacity-[0.03] bg-[#000000] break-words rounded-sm border py-0.5 px-[.25em] text-[.9em] dark:border-[#ffffff]/10 dark:bg-[#ffffff]/10 opacity-80;
+  @apply bg-brand-subtlest border border-brand-subtlest text-brand-strong text-md-medium rounded py-0.5 px-1 font-mono opacity-80;
 }
 
 .cell-accessibility-contrast {

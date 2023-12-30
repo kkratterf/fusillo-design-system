@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { AlertPreview, AlertDefault, AlertDanger, AlertWarning, AlertSuccess, AlertInfo, AlertDiscovery } from '@/docs/components/components-alert.tsx'
+import { AlertPreview, AlertDefault, AlertBrand, AlertDanger, AlertWarning } from '@/docs/components/components-alert.tsx'
 
 # 💠 Alert
 
@@ -75,6 +75,33 @@ Avoid overusing alerts for information that is not crucial or does not require i
   </Tabs.Tab>
 </Tabs>
 
+### Brand
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <AlertDanger />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /status="brand"/
+    import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
+    import { XCircle } from "lucide-react" 
+
+    export function AlertDemo() {
+      return (
+        <Alert status="brand">
+          <AlertIcon>
+            <XCircle />
+          </AlertIcon>
+          <AlertTitle> Error Detected! </AlertTitle>
+          <AlertDescription>
+            Critical issue encountered! Please address this error immediately to prevent system failure or data loss.
+          </AlertDescription>
+        </Alert>
+      )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
 ### Danger
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
@@ -121,87 +148,6 @@ Avoid overusing alerts for information that is not crucial or does not require i
           <AlertTitle> Caution Advised </AlertTitle>
           <AlertDescription>
             Be cautious! There are certain risks associated with this action. Review and proceed with care.
-          </AlertDescription>
-        </Alert>
-      )
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Success
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <AlertSuccess />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {6} /status="success"/
-    import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { CheckCircle } from "lucide-react" 
-
-    export function AlertDemo() {
-      return (
-        <Alert status="success">
-          <AlertIcon>
-            <CheckCircle />
-          </AlertIcon>
-          <AlertTitle> Operation Successful </AlertTitle>
-          <AlertDescription>
-            The action was completed successfully! Your changes have been saved or the process has finished without issues.
-          </AlertDescription>
-        </Alert>
-      )
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Information
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <AlertInfo />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {6} /status="info"/
-    import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { Info } from "lucide-react" 
-
-    export function AlertDemo() {
-      return (
-        <Alert status="info">
-          <AlertIcon>
-            <Info />
-          </AlertIcon>
-          <AlertTitle> Did You Know? </AlertTitle>
-          <AlertDescription>
-            Here's some useful information or context about the current process or section that might be helpful to you.
-          </AlertDescription>
-        </Alert>
-      )
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Discovery
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <AlertDiscovery />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {6} /status="discovery"/
-    import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@/components/alert"
-    import { BrainCircuit } from "lucide-react" 
-
-    export function AlertDemo() {
-      return (
-        <Alert status="discovery">
-          <AlertIcon>
-            <BrainCircuit />
-          </AlertIcon>
-          <AlertTitle> Discover More </AlertTitle>
-          <AlertDescription>
-            Explore this feature! There are additional options and functionalities waiting to be uncovered that could enhance your experience.
           </AlertDescription>
         </Alert>
       )

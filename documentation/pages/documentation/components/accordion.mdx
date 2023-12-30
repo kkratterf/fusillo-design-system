@@ -1,11 +1,12 @@
 import { Tabs, Cards, Card } from 'nextra/components';
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { accordionAccessibilityData } from '@/docs/components/accessibility/accordion.mdx';
 import {
   AccordionPreview,
   AccordionSingle,
   AccordionMultiple,
   AccordionCollapsible,
   AccordionDefaultValue,
-  AccordionAccessibility
 } from '@/docs/components/components-accordion.tsx';
 
 # 💠 Accordion
@@ -249,5 +250,7 @@ Adheres to the [Accordion WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/a
 
 ### Keyboard interactions
 
-<AccordionAccessibility />
+<AccessibilityTable rows={accordionAccessibilityData} />
+
+
 
