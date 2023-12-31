@@ -58,7 +58,7 @@
   }
 
   .calendar-cell {
-    @apply text-center text-sm p-0 relative [&:has([aria-selected])]:bg-item-hover first:[&:has([aria-selected])]:rounded-l last:[&:has([aria-selected])]:rounded-r focus-within:relative focus-within:z-20;
+    @apply text-center text-sm p-0 relative [&:has([aria-selected])]:bg-item-hover [&:has([aria-selected])]:rounded first:[&:has([aria-selected])]:rounded-l last:[&:has([aria-selected])]:rounded-r focus-within:relative focus-within:z-20;
   }
 
   .calendar-day {

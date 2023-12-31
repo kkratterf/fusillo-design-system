@@ -1,6 +1,8 @@
 import { Tabs, Cards, Card } from 'nextra/components';
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { selectAccessibilityData } from '@/docs/components/accessibility/select.mdx';
 import {
-  SelectPreview, SelectScrollable, SelectWithForm, SelectAccessibility
+  SelectPreview, SelectScrollable, SelectWithForm
 } from '@/docs/components/components-select.tsx';
 
 # 💠 Select
@@ -270,7 +272,7 @@ See the W3C [Select-Only Combobox](https://www.w3.org/WAI/ARIA/apg/patterns/comb
 
 ### Keyboard interactions
 
-<SelectAccessibility />
+<AccessibilityTable rows={selectAccessibilityData} />
 
 ### Labelling
 

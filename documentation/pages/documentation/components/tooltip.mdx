@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { TooltipPreview, TooltipOutline, TooltipFilled, TooltipSide, TooltipAccessibility } from '@/docs/components/components-tooltip.tsx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { tooltipAccessibilityData } from '@/docs/components/accessibility/tooltip.mdx';
+import { TooltipPreview, TooltipOutline, TooltipFilled, TooltipSide } from '@/docs/components/components-tooltip.tsx'
 
 # 💠 Tooltip
 
@@ -197,4 +199,4 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
 
 ### Keyboard interactions
 
-<TooltipAccessibility />
+<AccessibilityTable rows={tooltipAccessibilityData} />

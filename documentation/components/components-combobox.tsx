@@ -1,21 +1,10 @@
-// Import core
-// Import customs
-import Preview from '@/docs/components/preview';
-
-export const ComboboxPreview = () => (
-  <Preview>
-    <ComboboxDemo />
-  </Preview>
-);
-
-
-
-
 'use client';
 
+// Import core
 import * as React from 'react';
 import { Check, ChevronsUpDown } from 'lucide-react';
-
+// Import customs
+import Preview from '@/docs/components/preview';
 import { cn } from 'design-system/lib/twMerge';
 import { Button } from 'design-system/components/button';
 import {
@@ -30,6 +19,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from 'design-system/components/popover';
+
 
 const frameworks = [
   {
@@ -54,7 +44,7 @@ const frameworks = [
   },
 ];
 
-export function ComboboxDemo() {
+const ComboboxDemo = () => {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState('');
 
@@ -89,7 +79,7 @@ export function ComboboxDemo() {
               >
                 <Check
                   className={cn(
-                    'mr-2 h-4 w-4',
+                    'mr-2',
                     value === framework.value ? 'opacity-100' : 'opacity-0'
                   )}
                 />
@@ -101,5 +91,11 @@ export function ComboboxDemo() {
       </PopoverContent>
     </Popover>
   );
-}
+};
 
+
+export const ComboboxPreview = () => (
+  <Preview>
+    <ComboboxDemo />
+  </Preview>
+);

@@ -1,3 +1,5 @@
+'use client';
+
 // Import core
 // Import customs
 import Preview from '@/docs/components/preview';
@@ -52,10 +54,6 @@ export const InputWithForm = () => (
     <InputFormDemo />
   </Preview>
 );
-
-
-
-'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';

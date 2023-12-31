@@ -2,40 +2,14 @@
 
 // Import core
 import * as React from 'react';
-// Import customs
-import Preview from '@/docs/components/preview';
-import { Calendar } from "design-system/components/calendar"
-
-export const CalendarPreview = () => {
-  const [date, setDate] = React.useState(new Date());
-  return (
-  <Preview>
-    <Calendar
-      mode="single"
-      selected={date}
-      onSelect={setDate}
-      className="rounded border calendar-fix"
-    />
-  </Preview>
-  );
-};
-
-export const CalendarWithForm = () => (
-  <Preview>
-    <CalendarForm />
-  </Preview>
-);
-
-
-
-'use client';
-
 import { zodResolver } from '@hookform/resolvers/zod';
 import { format } from 'date-fns';
 import { CalendarIcon } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
-
+// Import customs
+import Preview from '@/docs/components/preview';
+import { Calendar } from "design-system/components/calendar"
 import { cn } from 'design-system/lib/twMerge';
 import { Button } from 'design-system/components/button';
 import {
@@ -60,7 +34,7 @@ const FormSchema = z.object({
   }),
 });
 
-export function CalendarForm() {
+const CalendarForm = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -69,7 +43,7 @@ export function CalendarForm() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -91,8 +65,8 @@ export function CalendarForm() {
                     <Button
                       variant={'secondary'}
                       className={cn(
-                        'w-[240px] pl-3 text-left font-normal',
-                        !field.value && 'text-secondary'
+                        'w-60 pl-3 text-left font-normal',
+                        !field.value && 'text-placeholder'
                       )}
                     >
                       {field.value ? (
@@ -100,7 +74,7 @@ export function CalendarForm() {
                       ) : (
                         <span>Pick a date</span>
                       )}
-                      <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                      <CalendarIcon className="ml-auto h-4 w-4 opacity-disabled" />
                     </Button>
                   </FormControl>
                 </PopoverTrigger>
@@ -129,3 +103,23 @@ export function CalendarForm() {
     </Form>
   );
 }
+
+export const CalendarPreview = () => {
+  const [date, setDate] = React.useState<Date | undefined>(new Date());
+  return (
+  <Preview>
+    <Calendar
+      mode="single"
+      selected={date}
+      onSelect={setDate}
+      className="rounded border calendar-fix"
+    />
+  </Preview>
+  );
+};
+
+export const CalendarWithForm = () => (
+  <Preview>
+    <CalendarForm />
+  </Preview>
+);

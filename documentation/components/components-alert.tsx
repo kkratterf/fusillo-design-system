@@ -24,31 +24,16 @@ export const AlertPreview = () => (
   </Preview>
 );
 
-export const AlertDefault = () => (
-  <Preview>
-    <Alert>
-      <AlertIcon>
-        <Megaphone />
-      </AlertIcon>
-      <AlertTitle>Notice</AlertTitle>
-      <AlertDescription>
-        This is a general notification for your attention. It provides neutral
-        information or basic reminders for everyday tasks.
-      </AlertDescription>
-    </Alert>
-  </Preview>
-);
-
 export const AlertBrand = () => (
   <Preview>
     <Alert status="brand">
       <AlertIcon>
-        <Megaphone />
+        <Info />
       </AlertIcon>
-      <AlertTitle>Notice</AlertTitle>
+      <AlertTitle>Did you know?</AlertTitle>
       <AlertDescription>
-        This is a general notification for your attention. It provides neutral
-        information or basic reminders for everyday tasks.
+        Here's some useful information or context about the current process or
+        section that might be helpful to you.
       </AlertDescription>
     </Alert>
   </Preview>

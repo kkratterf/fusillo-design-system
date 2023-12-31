@@ -10,7 +10,7 @@ An interactive calendar for date selection experiences.
     <CalendarPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="calendar.tsx"
     "use client"
  
     import * as React from "react"
@@ -21,9 +21,10 @@ An interactive calendar for date selection experiences.
  
         return (
             <Calendar
-            mode="single"
-            selected={date}
-            onSelect={setDate}
+              mode="single"
+              selected={date}
+              onSelect={setDate}
+              className="rounded border"
             />
         )
     }
@@ -46,9 +47,9 @@ Avoid using a Calendar for simple date entry that can be handled with a basic in
 
 ## About
 
-The `Calendar` component is built on top of [React DayPicker](https://react-day-picker.js.org/).
+The `<Calendar />` component is built on top of [React DayPicker](https://react-day-picker.js.org/).
 
-See the React DayPicker documentation for more information.
+You can use the `<Calendar />` component to build a date picker. See the [DayPicker documentation](/documentation/components/date-picker) for more information.
 
 ## Example
 
@@ -58,7 +59,7 @@ See the React DayPicker documentation for more information.
     <CalendarPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="calendar.tsx"
     "use client"
  
     import * as React from "react"
@@ -72,6 +73,7 @@ See the React DayPicker documentation for more information.
             mode="single"
             selected={date}
             onSelect={setDate}
+            className="rounded border"
             />
         )
     }
@@ -85,7 +87,7 @@ See the React DayPicker documentation for more information.
     <CalendarWithForm />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="calendar.tsx"
     "use client"
  
     import { zodResolver } from "@hookform/resolvers/zod"
@@ -114,55 +116,64 @@ See the React DayPicker documentation for more information.
     
         function onSubmit(data: z.infer<typeof FormSchema>) {
             toast({
-            title: "You submitted the following values:",
-            description: (
-                <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
-            ),
+              title: "You submitted the following values:",
+              description: (
+                  <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+                    <code className="text">{JSON.stringify(data, null, 2)}</code>
+                  </pre>
+              ),
             })
         }
     
         return (
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)}>
-                    <FormField
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                  <FormField
                     control={form.control}
                     name="dob"
                     render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Date of birth</FormLabel>
-                            <Popover>
-                                <PopoverTrigger asChild>
-                                    <FormControl>
-                                        <Button variant={"secondary"}>
-                                            {field.value ? (
-                                                format(field.value, "PPP")
-                                            ) : (
-                                                <span>Pick a date</span>
-                                            )}
-                                            <CalendarIcon />
-                                        </Button>
-                                    </FormControl>
-                                </PopoverTrigger>
-                                <PopoverContent>
-                                    <Calendar
-                                        mode="single"
-                                        selected={field.value}
-                                        onSelect={field.onChange}
-                                        disabled={(date) =>
-                                        date > new Date() || date < new Date("1900-01-01")
-                                        }
-                                        initialFocus
-                                    />
-                                </PopoverContent>
-                            </Popover>
-                            <FormDescription>
-                                Your date of birth is used to calculate your age.
-                            </FormDescription>
-                            <FormMessage />
-                        </FormItem>
+                      <FormItem className="flex flex-col">
+                        <FormLabel>Date of birth</FormLabel>
+                        <Popover>
+                          <PopoverTrigger asChild>
+                            <FormControl>
+                              <Button
+                                variant={'secondary'}
+                                className={cn(
+                                  'w-60 pl-3 text-left font-normal',
+                                  !field.value && 'text-placeholder'
+                                )}
+                              >
+                                {field.value ? (
+                                  format(field.value, 'PPP')
+                                ) : (
+                                  <span>Pick a date</span>
+                                )}
+                                <CalendarIcon className="ml-auto h-4 w-4 opacity-disabled" />
+                              </Button>
+                            </FormControl>
+                          </PopoverTrigger>
+                          <PopoverContent className="w-auto p-0" align="start">
+                            <Calendar
+                              mode="single"
+                              selected={field.value}
+                              onSelect={field.onChange}
+                              disabled={(date) =>
+                                date > new Date() || date < new Date('1900-01-01')
+                              }
+                              initialFocus
+                              className="calendar-fix"
+                            />
+                          </PopoverContent>
+                        </Popover>
+                        <FormDescription>
+                          Your date of birth is used to calculate your age.
+                        </FormDescription>
+                        <FormMessage />
+                      </FormItem>
                     )}
-                    />
-                    <Button type="submit">Submit</Button>
+                  />
+                  <Button type="submit">Submit</Button>
                 </form>
             </Form>
         )
@@ -184,4 +195,8 @@ See the React DayPicker documentation for more information.
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=233%3A750&mode=design&t=WFdj0huEcHgBPdYp-1"
   />
-</Cards>  
+  <Card
+    title="📄 React DayPicker Docs"
+    href="https://react-day-picker.js.org/"
+  />
+</Cards>

@@ -2,7 +2,6 @@
 import * as React from 'react';
 import { ChevronsUpDown } from 'lucide-react';
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Button } from 'design-system/components/button';
 import {
@@ -47,18 +46,4 @@ export const CollapsiblePreview = () => {
       </Collapsible>
     </Preview>
   );
-};
-
-export const CollapsibleAccessibility = () => {
-  const collapsibleAccessibilityData = [
-    {
-      key: 'Space',
-      description: 'Opens/closes the collapsible.',
-    },
-    {
-      key: 'Enter',
-      description: 'Opens/closes the collapsible.',
-    },
-  ];
-  return <AccessibilityTable rows={collapsibleAccessibilityData} />;
 };

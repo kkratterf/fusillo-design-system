@@ -1,4 +1,8 @@
+'use client';
+
 // Import core
+import * as React from 'react';
+import { DropdownMenuCheckboxItemProps } from '@radix-ui/react-dropdown-menu';
 import {
   Cloud,
   CreditCard,
@@ -16,7 +20,6 @@ import {
   Users,
 } from 'lucide-react';
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Button } from 'design-system/components/button';
 import {
@@ -37,199 +40,10 @@ import {
   DropdownMenuRadioItem,
 } from 'design-system/components/dropdown-menu';
 
-export const DropdownMenuPreview = () => (
-  <Preview>
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="secondary">Open</Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56">
-        <DropdownMenuLabel>My Account</DropdownMenuLabel>
-        <DropdownMenuSeparator />
-        <DropdownMenuGroup>
-          <DropdownMenuItem>
-            <User className="mr-2 h-4 w-4" />
-            <span>Profile</span>
-            <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <CreditCard className="mr-2 h-4 w-4" />
-            <span>Billing</span>
-            <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Settings className="mr-2 h-4 w-4" />
-            <span>Settings</span>
-            <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Keyboard className="mr-2 h-4 w-4" />
-            <span>Keyboard shortcuts</span>
-            <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
-          </DropdownMenuItem>
-        </DropdownMenuGroup>
-        <DropdownMenuSeparator />
-        <DropdownMenuGroup>
-          <DropdownMenuItem>
-            <Users className="mr-2 h-4 w-4" />
-            <span>Team</span>
-          </DropdownMenuItem>
-          <DropdownMenuSub>
-            <DropdownMenuSubTrigger>
-              <UserPlus className="mr-2 h-4 w-4" />
-              <span>Invite users</span>
-            </DropdownMenuSubTrigger>
-            <DropdownMenuPortal>
-              <DropdownMenuSubContent>
-                <DropdownMenuItem>
-                  <Mail className="mr-2 h-4 w-4" />
-                  <span>Email</span>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <MessageSquare className="mr-2 h-4 w-4" />
-                  <span>Message</span>
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>
-                  <PlusCircle className="mr-2 h-4 w-4" />
-                  <span>More...</span>
-                </DropdownMenuItem>
-              </DropdownMenuSubContent>
-            </DropdownMenuPortal>
-          </DropdownMenuSub>
-          <DropdownMenuItem>
-            <Plus className="mr-2 h-4 w-4" />
-            <span>New Team</span>
-            <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
-          </DropdownMenuItem>
-        </DropdownMenuGroup>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem>
-          <Github className="mr-2 h-4 w-4" />
-          <span>GitHub</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <LifeBuoy className="mr-2 h-4 w-4" />
-          <span>Support</span>
-        </DropdownMenuItem>
-        <DropdownMenuItem disabled>
-          <Cloud className="mr-2 h-4 w-4" />
-          <span>API</span>
-        </DropdownMenuItem>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem>
-          <LogOut className="mr-2 h-4 w-4" />
-          <span>Log out</span>
-          <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
-  </Preview>
-);
-
-export const DropdownMenuCheckboxes = () => (
-  <Preview>
-    <DropdownMenuCheckboxesDemo />
-  </Preview>
-);
-
-export const DropdownMenuRadioGroup = () => (
-  <Preview>
-    <DropdownMenuRadioGroupDemo />
-  </Preview>
-);
-
-export const DropdownMenuAccessibility = () => {
-  const dropdownMenuAccessibilityData = [
-    {
-      key: 'Space',
-      description: (
-        <>
-          When focus is on{' '}
-          <code className="cell-accessibility-code">DropdownMenuTrigger</code>,{' '}
-          opens the dropdown menu and focuses the first item. When focus is on
-          an item, activates the focused item.
-        </>
-      ),
-    },
-    {
-      key: 'Enter',
-      description: (
-        <>
-          When focus is on{' '}
-          <code className="cell-accessibility-code">DropdownMenuTrigger</code>,{' '}
-          opens the dropdown menu and focuses the first item. When focus is on
-          an item, activates the focused item.
-        </>
-      ),
-    },
-    {
-      key: 'ArrowDown',
-      description: (
-        <>
-          When focus is on{' '}
-          <code className="cell-accessibility-code">DropdownMenuTrigger</code>,{' '}
-          opens the dropdown menu. When focus is on an item, moves focus to the
-          next item.
-        </>
-      ),
-    },
-    {
-      key: 'ArrowUp',
-      description:
-        'When focus is on an item, moves focus to the previous item.',
-    },
-    {
-      key: 'ArrowRight',
-      description: (
-        <>
-          When focus is on{' '}
-          <code className="cell-accessibility-code">
-            DropdownMenuSubTrigger
-          </code>
-          , opens the submenu.
-        </>
-      ),
-    },
-    {
-      key: 'ArrowLeft',
-      description: (
-        <>
-          When focus is on{' '}
-          <code className="cell-accessibility-code">
-            DropdownMenuSubTrigger
-          </code>
-          , closes the submenu.
-        </>
-      ),
-    },
-    {
-      key: 'Esc',
-      description: (
-        <>
-          Closes the dropdown menu and moves focus to{' '}
-          <code className="cell-accessibility-code">DropdownMenuTrigger</code>.
-        </>
-      ),
-    },
-  ];
-  return <AccessibilityTable rows={dropdownMenuAccessibilityData} />;
-};
-
-
-
-
-
-
-
-'use client';
-
-import * as React from 'react';
-import { DropdownMenuCheckboxItemProps } from '@radix-ui/react-dropdown-menu';
 
 type Checked = DropdownMenuCheckboxItemProps['checked'];
 
-export function DropdownMenuCheckboxesDemo() {
+const DropdownMenuCheckboxesDemo = () => {
   const [showStatusBar, setShowStatusBar] = React.useState<Checked>(true);
   const [showActivityBar, setShowActivityBar] = React.useState<Checked>(false);
   const [showPanel, setShowPanel] = React.useState<Checked>(false);
@@ -266,7 +80,7 @@ export function DropdownMenuCheckboxesDemo() {
   );
 }
 
-export function DropdownMenuRadioGroupDemo() {
+const DropdownMenuRadioGroupDemo = () => {
   const [position, setPosition] = React.useState('bottom');
 
   return (
@@ -286,3 +100,106 @@ export function DropdownMenuRadioGroupDemo() {
     </DropdownMenu>
   );
 }
+
+
+export const DropdownMenuPreview = () => (
+  <Preview>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="secondary">Open</Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent className="w-56">
+        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+        <DropdownMenuSeparator />
+        <DropdownMenuGroup>
+          <DropdownMenuItem>
+            <User />
+            <span>Profile</span>
+            <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <CreditCard />
+            <span>Billing</span>
+            <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <Settings />
+            <span>Settings</span>
+            <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+            <Keyboard />
+            <span>Keyboard shortcuts</span>
+            <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
+          </DropdownMenuItem>
+        </DropdownMenuGroup>
+        <DropdownMenuSeparator />
+        <DropdownMenuGroup>
+          <DropdownMenuItem>
+            <Users />
+            <span>Team</span>
+          </DropdownMenuItem>
+          <DropdownMenuSub>
+            <DropdownMenuSubTrigger>
+              <UserPlus />
+              <span>Invite users</span>
+            </DropdownMenuSubTrigger>
+            <DropdownMenuPortal>
+              <DropdownMenuSubContent>
+                <DropdownMenuItem>
+                  <Mail />
+                  <span>Email</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <MessageSquare />
+                  <span>Message</span>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem>
+                  <PlusCircle />
+                  <span>More...</span>
+                </DropdownMenuItem>
+              </DropdownMenuSubContent>
+            </DropdownMenuPortal>
+          </DropdownMenuSub>
+          <DropdownMenuItem>
+            <Plus />
+            <span>New Team</span>
+            <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
+          </DropdownMenuItem>
+        </DropdownMenuGroup>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem>
+          <Github />
+          <span>GitHub</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem>
+          <LifeBuoy />
+          <span>Support</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem disabled>
+          <Cloud />
+          <span>API</span>
+        </DropdownMenuItem>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem>
+          <LogOut />
+          <span>Log out</span>
+          <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  </Preview>
+);
+
+export const DropdownMenuWithCheckboxes = () => (
+  <Preview>
+    <DropdownMenuCheckboxesDemo />
+  </Preview>
+);
+
+export const DropdownMenuWithRadioGroup = () => (
+  <Preview>
+    <DropdownMenuRadioGroupDemo />
+  </Preview>
+);

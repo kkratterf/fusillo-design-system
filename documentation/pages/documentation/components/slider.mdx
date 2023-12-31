@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { SliderPreview, SliderDefault, SliderRange, SliderStep, SliderOverlap, SliderAccessibility  } from '@/docs/components/components-slider.tsx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { sliderAccessibilityData } from '@/docs/components/accessibility/slider.mdx';
+import { SliderPreview, SliderDefault, SliderRange, SliderStep, SliderOverlap  } from '@/docs/components/components-slider.tsx'
 
 # 💠 Slider
 
@@ -162,4 +164,4 @@ Adheres to the `slider` [WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/ap
 
 ### Keyboard interactions
 
-<SliderAccessibility />
+<AccessibilityTable rows={sliderAccessibilityData} />

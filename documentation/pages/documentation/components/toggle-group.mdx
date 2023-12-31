@@ -1,11 +1,12 @@
 import { Tabs, Cards, Card } from 'nextra/components';
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { toggleGroupAccessibilityData } from '@/docs/components/accessibility/toggle-group.mdx';
 import {
   ToggleGroupPreview,
   ToggleGroupDefault,
   ToggleGroupOutlined,
   ToggleGroupSingle,
   ToggleGroupDisabled,
-  ToggleGroupAccessibility,
 } from '@/docs/components/components-toggle-group.tsx';
 
 # 💠 Toggle Group
@@ -177,4 +178,4 @@ Using [roving tabindex](https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/
 
 ### Keyboard interactions
 
-<ToggleGroupAccessibility />
+<AccessibilityTable rows={toggleGroupAccessibilityData} />

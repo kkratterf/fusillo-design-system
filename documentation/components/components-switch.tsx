@@ -2,7 +2,6 @@
 
 // Import core
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Switch } from 'design-system/components/switch';
 import { Label } from 'design-system/components/label';
@@ -40,19 +39,6 @@ export const SwitchWithForm = () => (
   </Preview>
 );
 
-export const SwitchAccessibility = () => {
-  const switchAccessibilityData = [
-    {
-      key: 'Space',
-      description: "Toggles the component's state.",
-    },
-    {
-      key: 'Enter',
-      description: "Toggles the component's state.",
-    },
-  ];
-  return <AccessibilityTable rows={switchAccessibilityData} />;
-};
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';

@@ -37,6 +37,10 @@ tr:is(html[class~=dark] .even\:dark\:nx-bg-gray-600\/20):nth-child(2n) {
   background-color: transparent !important;
 }
 
+input:focus-visible {
+  @apply ring-offset-background !important
+}
+
 /* Tables css */
 table {
   @apply w-full my-6 !important;

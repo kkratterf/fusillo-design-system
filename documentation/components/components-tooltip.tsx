@@ -1,7 +1,6 @@
 // Import core
 import { FilePlus } from 'lucide-react';
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Button } from 'design-system/components/button';
 import {
@@ -116,25 +115,3 @@ export const TooltipSide = () => (
     </div>
   </Preview>
 );
-
-export const TooltipAccessibility = () => {
-  const tooltipAccessibilityData = [
-    {
-      key: 'Space',
-      description: 'If open, closes the tooltip without delay.',
-    },
-    {
-      key: 'Enter',
-      description: 'If open, closes the tooltip without delay.',
-    },
-    {
-      key: 'Tab',
-      description: 'Opens/closes the tooltip without delay.',
-    },
-    {
-      key: 'Esc',
-      description: 'If open, closes the tooltip without delay.',
-    },
-  ];
-  return <AccessibilityTable rows={tooltipAccessibilityData} />;
-};

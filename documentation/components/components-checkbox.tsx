@@ -1,76 +1,14 @@
-// Import core
-// Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
-import Preview from '@/docs/components/preview';
-import { Checkbox } from 'design-system/components/checkbox';
-import { Label } from 'design-system/components/label';
-
-export const CheckboxPreview = () => (
-  <Preview>
-    <Checkbox id="terms-preview" />
-  </Preview>
-);
-
-export const CheckboxDefault = () => (
-  <Preview>
-    <Checkbox id="terms-default" />
-  </Preview>
-);
-
-export const CheckboxDisabled = () => (
-  <Preview>
-    <div className="flex items-center space-x-3">
-      <Checkbox id="terms-1" checked />
-      <Checkbox id="terms-2" checked disabled />
-      <Checkbox id="terms-3" />
-      <Checkbox id="terms-4" disabled />
-    </div>
-  </Preview>
-);
-
-export const CheckboxWithLabel = () => (
-  <Preview>
-    <div className="flex items-center space-x-2">
-      <Checkbox id="terms-label" />
-      <Label htmlFor="terms-label">Accept terms and conditions</Label>
-    </div>
-  </Preview>
-);
-
-export const CheckboxWithFormSingle = () => (
-  <Preview>
-    <CheckboxReactHookFormSingle />
-  </Preview>
-);
-
-export const CheckboxWithFormMultiple = () => (
-  <Preview>
-    <CheckboxReactHookFormMultiple />
-  </Preview>
-);
-
-export const CheckboxAccessibility = () => {
-  const checkboxAccessibilityData = [
-    {
-      key: 'Space',
-      description: 'Checks/unchecks the checkbox.',
-    },
-  ];
-  return <AccessibilityTable rows={checkboxAccessibilityData} />;
-};
-
-
-
-
-
-
 'use client';
 
+// Import core
 import Link from 'next/link';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
-
+// Import customs
+import Preview from '@/docs/components/preview';
+import { Checkbox } from 'design-system/components/checkbox';
+import { Label } from 'design-system/components/label';
 import { Button } from 'design-system/components/button';
 import {
   Form,
@@ -82,6 +20,7 @@ import {
   FormMessage,
 } from 'design-system/components/form';
 import { toast } from 'design-system/components/toast/use-toast';
+
 
 const items = [
   {
@@ -114,7 +53,7 @@ const FormSchema = z.object({
   mobile: z.boolean().default(false).optional(),
 });
 
-export function CheckboxReactHookFormSingle() {
+const CheckboxReactHookFormSingle = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -126,7 +65,7 @@ export function CheckboxReactHookFormSingle() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -140,7 +79,7 @@ export function CheckboxReactHookFormSingle() {
           control={form.control}
           name="mobile"
           render={({ field }) => (
-            <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded border p-4">
+            <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded border border-border p-4">
               <FormControl>
                 <Checkbox
                   checked={field.value}
@@ -171,7 +110,7 @@ const FormSchemaMultiple = z.object({
   }),
 });
 
-export function CheckboxReactHookFormMultiple() {
+const CheckboxReactHookFormMultiple = () => {
   const form = useForm<z.infer<typeof FormSchemaMultiple>>({
     resolver: zodResolver(FormSchemaMultiple),
     defaultValues: {
@@ -183,7 +122,7 @@ export function CheckboxReactHookFormMultiple() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -246,3 +185,42 @@ export function CheckboxReactHookFormMultiple() {
     </Form>
   );
 }
+
+
+export const CheckboxPreview = () => (
+  <Preview>
+    <Checkbox id="terms-preview" />
+  </Preview>
+);
+
+export const CheckboxDisabled = () => (
+  <Preview>
+    <div className="flex items-center space-x-3">
+      <Checkbox id="terms-1" checked />
+      <Checkbox id="terms-2" checked disabled />
+      <Checkbox id="terms-3" />
+      <Checkbox id="terms-4" disabled />
+    </div>
+  </Preview>
+);
+
+export const CheckboxWithLabel = () => (
+  <Preview>
+    <div className="flex items-center space-x-2">
+      <Checkbox id="terms-label" />
+      <Label htmlFor="terms-label">Accept terms and conditions</Label>
+    </div>
+  </Preview>
+);
+
+export const CheckboxWithFormSingle = () => (
+  <Preview>
+    <CheckboxReactHookFormSingle />
+  </Preview>
+);
+
+export const CheckboxWithFormMultiple = () => (
+  <Preview>
+    <CheckboxReactHookFormMultiple />
+  </Preview>
+);

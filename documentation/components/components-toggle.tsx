@@ -1,7 +1,6 @@
 // Import core
 import { Bold } from 'lucide-react';
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Toggle } from 'design-system/components/toggle';
 
@@ -44,17 +43,3 @@ export const ToggleDisabled = () => (
     </Toggle>
   </Preview>
 );
-
-export const ToggleAccessibility = () => {
-  const toggleAccessibilityData = [
-    {
-      key: 'Space',
-      description: 'Activates/deactivates the toggle.',
-    },
-    {
-      key: 'Enter',
-      description: 'Activates/deactivates the toggle.',
-    },
-  ];
-  return <AccessibilityTable rows={toggleAccessibilityData} />;
-};

@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { ButtonPreview, ButtonPrimary, ButtonSecondary, ButtonText, ButtonLink, ButtonDanger, ButtonWithIcon, ButtonIcon } from '@/docs/components/components-button.tsx'
+import { ButtonPreview, ButtonPrimary, ButtonSecondary, ButtonText, ButtonLink, ButtonDanger, ButtonWithIcon, ButtonIcon, ButtonAsChild } from '@/docs/components/components-button.tsx'
 
 # 💠 Button
 
@@ -10,7 +10,7 @@ Triggers an event or action. They let users know what will happen next.
     <ButtonPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="button.tsx"
     import { Button } from "@/components/button"
  
     export function ButtonDemo() {
@@ -44,7 +44,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonPrimary />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /variant="primary"/
+    ```js copy {4} /variant="primary"/ filename="button.tsx"
     import { Button } from "@/components/button"
  
     export function ButtonDemo() {
@@ -60,7 +60,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonSecondary />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /variant="secondary"/
+    ```js copy {4} /variant="secondary"/ filename="button.tsx"
     import { Button } from "@/components/button"
  
     export function ButtonDemo() {
@@ -76,7 +76,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonText />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /variant="text"/
+    ```js copy {4} /variant="text"/ filename="button.tsx"
     import { Button } from "@/components/button"
  
     export function ButtonDemo() {
@@ -92,7 +92,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonLink />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /variant="link"/
+    ```js copy {4} /variant="link"/ filename="button.tsx"
     import { Button } from "@/components/button"
  
     export function ButtonDemo() {
@@ -108,7 +108,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonDanger />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /variant="danger"/
+    ```js copy {4} /variant="danger"/ filename="button.tsx"
     import { Button } from "@/components/button"
  
     export function ButtonDemo() {
@@ -124,7 +124,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonWithIcon />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {2,7} /Download/
+    ```js copy {2,7} /Download/ filename="button.tsx"
     import { Button } from "@/components/button"
     import { Download } from 'lucide-react';
  
@@ -146,7 +146,7 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
     <ButtonIcon />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /icon={true}/
+    ```js copy {6} /icon={true}/ filename="button.tsx"
     import { Button } from "@/components/button"
     import { Search } from 'lucide-react';
  
@@ -154,6 +154,27 @@ Avoid using Buttons for non-interactive elements, such as status indicators or b
         return (
           <Button variant="secondary" icon={true}>
             <Search/>
+          </Button>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### As child
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <ButtonAsChild />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /asChild/ filename="button.tsx"
+    import { Button } from "@/components/button"
+    import Link from "next/link"
+ 
+    export function ButtonDemo() {
+        return (
+          <Button variant="secondary" asChild>
+            <Link href="/login">Login</Link>
           </Button>
         );
     }

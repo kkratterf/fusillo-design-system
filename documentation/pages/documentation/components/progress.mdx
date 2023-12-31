@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { ProgressPreview, ProgressDefault, ProgressBrand, ProgressDanger, ProgressWarning, ProgressSuccess, ProgressInfo, ProgressDiscovery } from '@/docs/components/components-progress.tsx'
+import { ProgressPreview, ProgressDefault, ProgressBrand, ProgressDanger, ProgressWarning } from '@/docs/components/components-progress.tsx'
 
 # 💠 Progress
 
@@ -99,57 +99,6 @@ Avoid using Progress components for indeterminate processes where the time to co
 
     export function ProgressDemo() { 
         return <Progress status="warning" value={33} />
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Success
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <ProgressSuccess />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {4} /status="success"/
-    import { Progress } from "@/components/progress"
-
-    export function ProgressDemo() { 
-        return <Progress status="success" value={33} />
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Information
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <ProgressInfo />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {4} /status="info"/
-    import { Progress } from "@/components/progress"
-
-    export function ProgressDemo() { 
-        return <Progress status="info" value={33} />
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Discovery
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <ProgressDiscovery />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {4} /status="discovery"/
-    import { Progress } from "@/components/progress"
-
-    export function ProgressDemo() { 
-        return <Progress status="discovery" value={33} />
     }
     ```
   </Tabs.Tab>

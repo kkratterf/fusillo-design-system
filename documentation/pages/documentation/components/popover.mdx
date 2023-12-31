@@ -1,7 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import {
-  PopoverPreview, PopoverAccessibility
-} from '@/docs/components/components-popover.tsx';
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { popoverAccessibilityData } from '@/docs/components/accessibility/popover.mdx';
+import { PopoverPreview } from '@/docs/components/components-popover.tsx';
 
 # 💠 Popover
 
@@ -134,4 +134,4 @@ Adheres to the [Dialog WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/
 
 ### Keyboard interactions
 
-<PopoverAccessibility />
+<AccessibilityTable rows={popoverAccessibilityData} />

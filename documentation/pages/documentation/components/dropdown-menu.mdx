@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { DropdownMenuPreview, DropdownMenuCheckboxes, DropdownMenuRadioGroup, DropdownMenuAccessibility } from '@/docs/components/components-dropdown-menu.tsx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { dropdownMenuAccessibilityData } from '@/docs/components/accessibility/dropdown-menu.mdx';
+import { DropdownMenuPreview, DropdownMenuWithCheckboxes, DropdownMenuWithRadioGroup } from '@/docs/components/components-dropdown-menu.tsx'
 
 # 💠 Dropdown Menu
 
@@ -10,10 +12,10 @@ Displays a menu to the user — such as a set of actions or functions — trigge
     <DropdownMenuPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="dropdown-menu.tsx"
     import { Cloud, CreditCard, Github, Keyboard, LifeBuoy, LogOut, Mail, MessageSquare, Plus, PlusCircle, Settings, User, UserPlus, Users } from "lucide-react"
     import { Button } from "@/components/button"
-    import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+    import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger } from "@/components/dropdown-menu"
     
     export function DropdownMenuDemo() {
         return (
@@ -21,7 +23,7 @@ Displays a menu to the user — such as a set of actions or functions — trigge
                 <DropdownMenuTrigger asChild>
                     <Button variant="secondary">Open</Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent>
+                <DropdownMenuContent className="w-56">
                     <DropdownMenuLabel>My Account</DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuGroup>
@@ -87,16 +89,16 @@ Displays a menu to the user — such as a set of actions or functions — trigge
                         <span>GitHub</span>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        <LifeBuoy className="mr-2 h-4 w-4" />
+                        <LifeBuoy />
                         <span>Support</span>
                     </DropdownMenuItem>
                     <DropdownMenuItem disabled>
-                        <Cloud className="mr-2 h-4 w-4" />
+                        <Cloud />
                         <span>API</span>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <LogOut className="mr-2 h-4 w-4" />
+                        <LogOut />
                         <span>Log out</span>
                         <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                     </DropdownMenuItem>
@@ -130,10 +132,10 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
     <DropdownMenuPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="dropdown-menu.tsx"
     import { Cloud, CreditCard, Github, Keyboard, LifeBuoy, LogOut, Mail, MessageSquare, Plus, PlusCircle, Settings, User, UserPlus, Users } from "lucide-react"
     import { Button } from "@/components/button"
-    import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+    import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger } from "@/components/dropdown-menu"
     
     export function DropdownMenuDemo() {
         return (
@@ -141,7 +143,7 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
                 <DropdownMenuTrigger asChild>
                     <Button variant="secondary">Open</Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent>
+                <DropdownMenuContent className="w-56">
                     <DropdownMenuLabel>My Account</DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuGroup>
@@ -207,16 +209,16 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
                         <span>GitHub</span>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        <LifeBuoy className="mr-2 h-4 w-4" />
+                        <LifeBuoy />
                         <span>Support</span>
                     </DropdownMenuItem>
                     <DropdownMenuItem disabled>
-                        <Cloud className="mr-2 h-4 w-4" />
+                        <Cloud />
                         <span>API</span>
                     </DropdownMenuItem>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <LogOut className="mr-2 h-4 w-4" />
+                        <LogOut />
                         <span>Log out</span>
                         <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
                     </DropdownMenuItem>
@@ -232,10 +234,10 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <DropdownMenuCheckboxes />
+    <DropdownMenuWithCheckboxes />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="dropdown-menu.tsx"
     "use client"
  
     import * as React from "react"
@@ -256,27 +258,27 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
                 <DropdownMenuTrigger asChild>
                     <Button variant="secondary">Open</Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent>
+                <DropdownMenuContent className="w-56">
                     <DropdownMenuLabel>Appearance</DropdownMenuLabel>
                     <DropdownMenuSeparator />
                     <DropdownMenuCheckboxItem
                     checked={showStatusBar}
                     onCheckedChange={setShowStatusBar}
                     >
-                    Status Bar
+                        Status Bar
                     </DropdownMenuCheckboxItem>
                     <DropdownMenuCheckboxItem
                     checked={showActivityBar}
                     onCheckedChange={setShowActivityBar}
                     disabled
                     >
-                    Activity Bar
+                        Activity Bar
                     </DropdownMenuCheckboxItem>
                     <DropdownMenuCheckboxItem
                     checked={showPanel}
                     onCheckedChange={setShowPanel}
                     >
-                    Panel
+                        Panel
                     </DropdownMenuCheckboxItem>
                 </DropdownMenuContent>
             </DropdownMenu>
@@ -290,34 +292,34 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <DropdownMenuRadioGroup />
+    <DropdownMenuWithRadioGroup />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy
+    ```js copy filename="dropdown-menu.tsx"
     "use client"
  
     import * as React from "react"
     
     import { Button } from "@/components/button"
-    import { DropdownMenu, DropdownMenuContent, DropdownMenuLabel, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+    import { DropdownMenu, DropdownMenuContent, DropdownMenuLabel, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/dropdown-menu"
     
     export function DropdownMenuRadioGroupDemo() {
         const [position, setPosition] = React.useState("bottom")
     
         return (
             <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-                <Button variant="secondary">Open</Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-                <DropdownMenuLabel>Panel Position</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
-                <DropdownMenuRadioItem value="top">Top</DropdownMenuRadioItem>
-                <DropdownMenuRadioItem value="bottom">Bottom</DropdownMenuRadioItem>
-                <DropdownMenuRadioItem value="right">Right</DropdownMenuRadioItem>
-                </DropdownMenuRadioGroup>
-            </DropdownMenuContent>
+                <DropdownMenuTrigger asChild>
+                    <Button variant="secondary">Open</Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-56">
+                    <DropdownMenuLabel>Panel Position</DropdownMenuLabel>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
+                    <DropdownMenuRadioItem value="top">Top</DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="bottom">Bottom</DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="right">Right</DropdownMenuRadioItem>
+                    </DropdownMenuRadioGroup>
+                </DropdownMenuContent>
             </DropdownMenu>
         )
     } 
@@ -338,6 +340,10 @@ Avoid using Dropdown Menus for critical actions that users need to access freque
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8864&mode=design&t=BNqih1pZMuav038B-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/dropdown-menu#api-reference"
+  />
 </Cards>
 
 ## Accessibility
@@ -346,4 +352,4 @@ Adheres to the `Menu Button` [WAI-ARIA design pattern](https://www.w3.org/WAI/AR
 
 ### Keyboard interactions
 
-<DropdownMenuAccessibility />
+<AccessibilityTable rows={dropdownMenuAccessibilityData} />

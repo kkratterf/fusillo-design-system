@@ -1,6 +1,7 @@
+'use client';
+
 // Import core
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Label } from 'design-system/components/label';
 import {
@@ -51,44 +52,6 @@ export const RadioGroupWithForm = () => (
     <RadioGroupForm />
   </Preview>
 );
-
-export const RadioGroupAccessibility = () => {
-  const radioGroupAccessibilityData = [
-    {
-      key: 'Tab',
-      description:
-        'Moves focus to either the checked radio item or the first radio item in the group.',
-    },
-    {
-      key: 'Space',
-      description: 'When focus is on an unchecked radio item, checks it.',
-    },
-    {
-      key: 'ArrowDown',
-      description: 'Moves focus and checks the next radio item in the group.',
-    },
-    {
-      key: 'ArrowRight',
-      description: 'Moves focus and checks the next radio item in the group.',
-    },
-    {
-      key: 'ArrowUp',
-      description: 'Moves focus to the previous radio item in the group.',
-    },
-    {
-      key: 'ArrowLeft',
-      description: 'Moves focus to the previous radio item in the group.',
-    },
-  ];
-  return <AccessibilityTable rows={radioGroupAccessibilityData} />;
-};
-
-
-
-
-
-
-'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';

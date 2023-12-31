@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { SegmentedPreview, SegmentedDefault, SegmentedDefaultValue, SegmentedDisabled, SegmentedWithIcon, SegmentedAccessibility } from '@/docs/components/components-segmented.tsx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { segmentedAccessibilityData } from '@/docs/components/accessibility/segmented.mdx';
+import { SegmentedPreview, SegmentedDefault, SegmentedDefaultValue, SegmentedDisabled, SegmentedWithIcon } from '@/docs/components/components-segmented.tsx'
 
 # 💠 Segmented
 
@@ -169,4 +171,4 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
 
 ### Keyboard interactions
 
-<SegmentedAccessibility />
+<AccessibilityTable rows={segmentedAccessibilityData} />

@@ -6,7 +6,7 @@
 @layer components {
 
     .badge-component {
-        @apply inline-flex items-center gap-1 rounded-full px-2 py-1 h-6 text-md [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
+        @apply inline-flex items-center gap-1 rounded-full px-2 py-1 h-6 text-md-medium [&>svg]:stroke-2 [&>svg]:w-4 [&>svg]:h-4;
     }
 
     .badge-default {

@@ -15,7 +15,6 @@ import {
   CommandItem,
 } from '@/components/command';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/popover';
-import { Combobox } from '@/components/combobox';
 
 const frameworks = [
   {
@@ -40,7 +39,7 @@ const frameworks = [
   },
 ];
 
-const ComboboxDemo = () => {
+const Combobox = () => {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState('');
 
@@ -113,6 +112,6 @@ export default meta;
 type Story = StoryObj<typeof Combobox>;
 
 export const Default: Story = {
-  render: () => <ComboboxDemo />,
+  render: () => <Combobox />,
   args: {},
 };

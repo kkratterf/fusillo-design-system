@@ -1,7 +1,6 @@
 // Import core
 import { User, Lock } from 'lucide-react';
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Button } from 'design-system/components/button';
 import {
@@ -203,34 +202,3 @@ export const TabsWithCard = () => (
     </Tabs>
   </Preview>
 );
-
-export const TabsAccessibility = () => {
-  const tabsAccessibilityData = [
-    {
-      key: 'Tab',
-      description:
-        'When focus moves onto the tabs, focuses the active trigger. When a trigger is focused, moves focus to the active content.',
-    },
-    {
-      key: 'ArrowRight',
-      description:
-        'Moves focus to the next trigger and activates its associated content.',
-    },
-    {
-      key: 'ArrowLeft',
-      description:
-        'Moves focus to the previous trigger and activates its associated content.',
-    },
-    {
-      key: 'Home',
-      description:
-        'Moves focus to the first trigger and activates its associated content.',
-    },
-    {
-      key: 'End',
-      description:
-        'Moves focus to the last trigger and activates its associated content.',
-    },
-  ];
-  return <AccessibilityTable rows={tabsAccessibilityData} />;
-};

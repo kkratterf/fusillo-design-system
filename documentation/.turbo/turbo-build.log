@@ -4,51 +4,107 @@
 
    Linting and checking validity of types...
    Creating an optimized production build...
-Failed to compile.
+ ✓ Compiled successfully
+   Collecting page data...
+   Generating static pages (0/82)...
+   Generating static pages (20/82)
 
-./components/components-checkbox.mdx
-Module not found: Can't resolve './accessibility-table.mdx'
+   Generating static pages (40/82)
 
-https://nextjs.org/docs/messages/module-not-found
+   Generating static pages (61/82)
 
-Import trace for requested module:
-./pages/documentation/components/checkbox.mdx
+ ✓ Generating static pages (82/82)
+   Finalizing page optimization...
 
-./components/components-collapsible.mdx
-Module not found: Can't resolve './accessibility-table.mdx'
+Route (pages)                                                 Size     First Load JS
+┌ ○ /                                                         648 B           201 kB
+├   /_app                                                     0 B             196 kB
+├ ○ /404                                                      184 B           196 kB
+├ ○ /documentation/brand                                      726 B           201 kB
+├ ○ /documentation/brand/mission                              582 B           201 kB
+├ ○ /documentation/brand/values                               647 B           201 kB
+├ ○ /documentation/brand/vision                               581 B           201 kB
+├ ○ /documentation/components                                 1.13 kB         201 kB
+├ ○ /documentation/components/accordion                       7.37 kB         207 kB
+├ ○ /documentation/components/alert                           4.07 kB         204 kB
+├ ○ /documentation/components/alert-dialog                    4.6 kB          212 kB
+├ ○ /documentation/components/aspect-ratio                    3.24 kB         203 kB
+├ ○ /documentation/components/avatar                          3.84 kB         204 kB
+├ ○ /documentation/components/badge                           3.7 kB          204 kB
+├ ○ /documentation/components/button                          3.73 kB         204 kB
+├ ○ /documentation/components/calendar (582 ms)               6.6 kB          250 kB
+├ ○ /documentation/components/card                            7.5 kB          230 kB
+├ ○ /documentation/components/carousel                        555 B           201 kB
+├ ○ /documentation/components/checkbox                        9.43 kB         219 kB
+├ ○ /documentation/components/collapsible                     5.36 kB         205 kB
+├ ○ /documentation/components/combobox                        6.59 kB         236 kB
+├ ○ /documentation/components/command                         6.78 kB         225 kB
+├ ○ /documentation/components/context-menu                    6.37 kB         228 kB
+├ ○ /documentation/components/data-table                      599 B           201 kB
+├ ○ /documentation/components/date-picker                     5.3 kB          240 kB
+├ ○ /documentation/components/dialog                          5.79 kB         214 kB
+├ ○ /documentation/components/drawer                          554 B           201 kB
+├ ○ /documentation/components/dropdown-menu                   10.5 kB         232 kB
+├ ○ /documentation/components/form                            1.3 kB          201 kB
+├ ○ /documentation/components/hover-card                      6.19 kB         216 kB
+├ ○ /documentation/components/icon (626 ms)                   142 kB          342 kB
+├ ○ /documentation/components/input                           5.61 kB         215 kB
+├ ○ /documentation/components/label                           5.13 kB         205 kB
+├ ○ /documentation/components/menubar                         8.54 kB         230 kB
+├ ○ /documentation/components/navigation-menu                 1.31 kB         201 kB
+├ ○ /documentation/components/popover                         4.57 kB         222 kB
+├ ○ /documentation/components/progress                        3.67 kB         204 kB
+├ ○ /documentation/components/radio-group                     9.66 kB         219 kB
+├ ○ /documentation/components/scroll-area                     8.84 kB         209 kB
+├ ○ /documentation/components/segmented                       3.95 kB         206 kB
+├ ○ /documentation/components/select                          8.6 kB          240 kB
+├ ○ /documentation/components/separator                       3.47 kB         204 kB
+├ ○ /documentation/components/sheet                           5.2 kB          213 kB
+├ ○ /documentation/components/skeleton                        3.35 kB         203 kB
+├ ○ /documentation/components/slider                          7.01 kB         207 kB
+├ ○ /documentation/components/switch                          7.13 kB         216 kB
+├ ○ /documentation/components/table                           2.83 kB         203 kB
+├ ○ /documentation/components/tabs                            6.51 kB         209 kB
+├ ○ /documentation/components/tag                             3.48 kB         204 kB
+├ ○ /documentation/components/textarea                        5.67 kB         215 kB
+├ ○ /documentation/components/toast                           5.07 kB         205 kB
+├ ○ /documentation/components/toggle                          3.67 kB         204 kB
+├ ○ /documentation/components/toggle-group                    6.95 kB         207 kB
+├ ○ /documentation/components/tooltip                         7.64 kB         217 kB
+├ ○ /documentation/content                                    956 B           201 kB
+├ ○ /documentation/content/brand-vocabulary                   636 B           201 kB
+├ ○ /documentation/content/content-accessibility              7.08 kB         207 kB
+├ ○ /documentation/content/grammar-and-style                  771 B           201 kB
+├ ○ /documentation/content/inclusive-language                 840 B           201 kB
+├ ○ /documentation/content/tone-of-voice                      682 B           201 kB
+├ ○ /documentation/content/writing-guidelines-for-components  702 B           201 kB
+├ ○ /documentation/foundations                                812 B           201 kB
+├ ○ /documentation/foundations/accessibility                  4.15 kB         204 kB
+├ ○ /documentation/foundations/color                          2.29 kB         209 kB
+├ ○ /documentation/foundations/design-tokens                  1.84 kB         202 kB
+├ ○ /documentation/foundations/iconography                    3.34 kB         203 kB
+├ ○ /documentation/foundations/scale                          1.27 kB         208 kB
+├ ○ /documentation/foundations/typography                     1.94 kB         202 kB
+├ ○ /documentation/get-started                                701 B           201 kB
+├ ○ /documentation/get-started/content                        1.6 kB          202 kB
+├ ○ /documentation/get-started/design                         1.73 kB         202 kB
+├ ○ /documentation/get-started/develop                        1.72 kB         202 kB
+├ ○ /documentation/resources                                  700 B           201 kB
+├ ○ /documentation/resources/fonts                            617 B           201 kB
+├ ○ /documentation/tokens                                     740 B           201 kB
+├ ○ /documentation/tokens/border                              1.02 kB         215 kB
+├ ○ /documentation/tokens/breakpoints                         992 B           215 kB
+├ ○ /documentation/tokens/color                               1.41 kB         216 kB
+├ ○ /documentation/tokens/opacity                             973 B           215 kB
+├ ○ /documentation/tokens/size                                1 kB            215 kB
+├ ○ /documentation/tokens/space                               937 B           215 kB
+└ ○ /documentation/welcome                                    1.74 kB         202 kB
++ First Load JS shared by all                                 736 kB
+  ├ chunks/framework-729922d678744751.js                      45.2 kB
+  ├ chunks/main-52c20b02eb7db31d.js                           36.4 kB
+  ├ chunks/pages/_app-584963aed7fa3d60.js                     114 kB
+  ├ chunks/webpack-1ade288b913f8614.js                        1.05 kB
+  └ css/b4bef8f2169e7b78.css                                  540 kB
 
-https://nextjs.org/docs/messages/module-not-found
+○  (Static)  automatically rendered as static HTML (uses no initial props)
 
-Import trace for requested module:
-./pages/documentation/components/collapsible.mdx
-
-./components/components-context-menu.mdx
-Module not found: Can't resolve './accessibility-table.mdx'
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/documentation/components/context-menu.mdx
-
-./components/components-dialog.mdx
-Module not found: Can't resolve './accessibility-table.mdx'
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/documentation/components/dialog.mdx
-
-./components/components-dropdown-menu.mdx
-Module not found: Can't resolve './accessibility-table.mdx'
-
-https://nextjs.org/docs/messages/module-not-found
-
-Import trace for requested module:
-./pages/documentation/components/dropdown-menu.mdx
-
-
-> Build failed because of webpack errors
-npm ERR! Lifecycle script `build` failed with error: 
-npm ERR! Error: command failed 
-npm ERR!   in workspace: documentation@1.0.1 
-npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/documentation 

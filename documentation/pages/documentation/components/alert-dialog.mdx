@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { AlertDialogPreview, AlertDialogDefault, AlertDialogAccessibility } from '@/docs/components/components-alert-dialog.tsx';
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { alertDialogAccessibilityData } from '@/docs/components/accessibility/alert-dialog.mdx';
+import { AlertDialogPreview } from '@/docs/components/components-alert-dialog.tsx';
 
 # 💠 Alert Dialog
 
@@ -10,7 +12,7 @@ A modal dialog that interrupts the user with important content and expects a res
     <AlertDialogPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="alert-dialog.tsx"
     import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/alert-dialog"
     import { Button } from "@/components/button"
   
@@ -61,10 +63,10 @@ Remember to avoid using AlertDialogs for non-essential information that does not
 ### Default
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <AlertDialogDefault />
+    <AlertDialogPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="alert-dialog.tsx"
     import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/alert-dialog"
     import { Button } from "@/components/button"
   
@@ -108,6 +110,10 @@ Remember to avoid using AlertDialogs for non-essential information that does not
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=482%3A9166&mode=design&t=F5zgbD2phu8xvUpj-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/alert-dialog#api-reference"
+  />
 </Cards>  
 
 
@@ -117,5 +123,5 @@ Adheres to the [Alert and Message Dialogs WAI-ARIA design pattern](https://www.w
 
 ### Keyboard interactions
 
-<AlertDialogAccessibility />
+<AccessibilityTable rows={alertDialogAccessibilityData} />
 

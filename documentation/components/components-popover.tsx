@@ -1,6 +1,5 @@
 // Import core
 // Import customs
-import { AccessibilityTable } from '@/docs/components/accessibility-table';
 import Preview from '@/docs/components/preview';
 import { Button } from 'design-system/components/button';
 import { Input } from 'design-system/components/input';
@@ -50,34 +49,3 @@ export const PopoverPreview = () => (
     </Popover>
   </Preview>
 );
-
-export const PopoverAccessibility = () => {
-  const popoverAccessibilityData = [
-    {
-      key: 'Space',
-      description: 'Opens/closes the popover.',
-    },
-    {
-      key: 'Enter',
-      description: 'Opens/closes the popover.',
-    },
-    {
-      key: 'Tab',
-      description: 'Moves focus to the next focusable element',
-    },
-    {
-      key: 'Shift+Tab',
-      description: 'Moves focus to the previous focusable element',
-    },
-    {
-      key: 'Esc',
-      description: (
-        <>
-          Closes the popover and moves focus to{' '}
-          <code className="cell-accessibility-code">PopoverTrigger</code>.
-        </>
-      ),
-    },
-  ];
-  return <AccessibilityTable rows={popoverAccessibilityData} />;
-};

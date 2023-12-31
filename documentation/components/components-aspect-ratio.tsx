@@ -6,7 +6,7 @@ import { AspectRatio } from 'design-system/components/aspect-ratio';
 
 export const AspectRatioPreview = () => (
   <Preview>
-    <AspectRatio ratio={16 / 9}>
+    <AspectRatio ratio={16 / 9} className='bg-muted'>
       <Image
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
@@ -19,7 +19,7 @@ export const AspectRatioPreview = () => (
 
 export const AspectRatio16x9 = () => (
   <Preview>
-    <AspectRatio ratio={16 / 9}>
+    <AspectRatio ratio={16 / 9} className="bg-muted">
       <Image
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
@@ -32,7 +32,7 @@ export const AspectRatio16x9 = () => (
 
 export const AspectRatio4x3 = () => (
   <Preview>
-    <AspectRatio ratio={4 / 3}>
+    <AspectRatio ratio={4 / 3} className="bg-muted">
       <Image
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
@@ -45,7 +45,7 @@ export const AspectRatio4x3 = () => (
 
 export const AspectRatio3x2 = () => (
   <Preview>
-    <AspectRatio ratio={3 / 2}>
+    <AspectRatio ratio={3 / 2} className="bg-muted">
       <Image
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"

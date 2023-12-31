@@ -1,5 +1,6 @@
 // Import core
 import { Download, Search } from 'lucide-react';
+import Link from 'next/link';
 // Import customs
 import Preview from '@/docs/components/preview';
 import { Button } from 'design-system/components/button';
@@ -56,3 +57,13 @@ export const ButtonIcon = () => (
     </Button>
   </Preview>
 );
+
+export const ButtonAsChild = () => (
+  <Preview>
+    <Button variant="secondary" asChild>
+      <Link href="/login">Login</Link>
+    </Button>
+  </Preview>
+);
+
+

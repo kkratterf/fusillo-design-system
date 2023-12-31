@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { TabsPreview, TabsDefault, TabsDefaultValue, TabsDisabled, TabsWithIcon, TabsWithCard, TabsAccessibility } from '@/docs/components/components-tabs.tsx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { tabsAccessibilityData } from '@/docs/components/accessibility/tabs.mdx';
+import { TabsPreview, TabsDefault, TabsDefaultValue, TabsDisabled, TabsWithIcon, TabsWithCard } from '@/docs/components/components-tabs.tsx'
 
 # 💠 Tabs
 
@@ -292,4 +294,4 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
 
 ### Keyboard interactions
 
-<TabsAccessibility />
+<AccessibilityTable rows={tabsAccessibilityData} />
