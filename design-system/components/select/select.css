@@ -1,18 +1,12 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
     .select-trigger {
-        @apply flex h-9 w-full items-center justify-between rounded border border bg-card px-3 py-1 text-md ring-offset-background placeholder:text-placeholder focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-disabled;
+        @apply flex h-9 w-full items-center justify-between rounded border border-border bg-card px-3 py-1 text-md ring-offset-background placeholder:text-placeholder focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-disabled;
     }
 
     .select-trigger-icon {
@@ -28,7 +22,7 @@
     }
 
     .select-content {
-        @apply relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded border border bg-elevated text shadow-md;
+        @apply relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded border border-border bg-elevated text shadow-md;
     }
 
     .select-content-popper {

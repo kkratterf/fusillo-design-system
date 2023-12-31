@@ -1,5 +1,8 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { DialogPreview, DialogAccessibility } from '../../../components/components-dialog.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { dialogAccessibilityData } from '@/docs/components/accessibility/dialog.mdx';
+import { DialogPreview, DialogCustomClose } from '@/docs/components/components-dialog.tsx'
+
 
 # 💠 Dialog
 
@@ -10,7 +13,7 @@ A window overlaid on either the primary window or another dialog window, renderi
     <DialogPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="dialog.tsx"
     import { Button } from "@/components/button"
     import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/dialog"
     import { Input } from "@/components/input"
@@ -19,38 +22,42 @@ A window overlaid on either the primary window or another dialog window, renderi
     export function DialogDemo() {
         return (
             <Dialog>
-                <DialogTrigger asChild>
-                    <Button variant="secondary">Edit Profile</Button>
-                </DialogTrigger>
-                <DialogContent>
-                    <DialogHeader>
-                    <DialogTitle>Edit profile</DialogTitle>
-                    <DialogDescription>
-                        Make changes to your profile here. Click save when you're done.
-                    </DialogDescription>
-                    </DialogHeader>
-                    <div>
-                        <div>
-                            <Label htmlFor="name">
-                            Name
-                            </Label>
-                            <Input
-                            id="name"
-                            defaultValue="Michael Scott"
-                            />
-                        </div>
-                        <div>
-                            <Label htmlFor="username">Username</Label>
-                            <Input
-                            id="username"
-                            defaultValue="@mscott"
-                            />
-                        </div>
-                    </div>
-                    <DialogFooter>
-                        <Button type="submit">Save changes</Button>
-                    </DialogFooter>
-                </DialogContent>
+              <DialogTrigger asChild>
+                <Button variant="secondary">Edit Profile</Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px]">
+                <DialogHeader>
+                  <DialogTitle>Edit profile</DialogTitle>
+                  <DialogDescription>
+                    Make changes to your profile here. Click save when you're done.
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="grid gap-4 py-4">
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="name" className="text-right">
+                      Name
+                    </Label>
+                    <Input
+                      id="name"
+                      defaultValue="Michael Scott"
+                      className="col-span-3"
+                    />
+                  </div>
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="username" className="text-right">
+                      Username
+                    </Label>
+                    <Input
+                      id="username"
+                      defaultValue="@mscott"
+                      className="col-span-3"
+                    />
+                  </div>
+                </div>
+                <DialogFooter>
+                  <Button type="submit">Save changes</Button>
+                </DialogFooter>
+              </DialogContent>
             </Dialog>
         )
     }
@@ -73,12 +80,14 @@ Avoid using Dialogs for non-critical information that could be presented less in
 
 ## Examples
 
+### Default
+
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
     <DialogPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="dialog.tsx"
     import { Button } from "@/components/button"
     import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/dialog"
     import { Input } from "@/components/input"
@@ -87,38 +96,42 @@ Avoid using Dialogs for non-critical information that could be presented less in
     export function DialogDemo() {
         return (
             <Dialog>
-                <DialogTrigger asChild>
-                    <Button variant="secondary">Edit Profile</Button>
-                </DialogTrigger>
-                <DialogContent>
-                    <DialogHeader>
-                    <DialogTitle>Edit profile</DialogTitle>
-                    <DialogDescription>
-                        Make changes to your profile here. Click save when you're done.
-                    </DialogDescription>
-                    </DialogHeader>
-                    <div>
-                        <div>
-                            <Label htmlFor="name">
-                            Name
-                            </Label>
-                            <Input
-                            id="name"
-                            defaultValue="Michael Scott"
-                            />
-                        </div>
-                        <div>
-                            <Label htmlFor="username">Username</Label>
-                            <Input
-                            id="username"
-                            defaultValue="@mscott"
-                            />
-                        </div>
-                    </div>
-                    <DialogFooter>
-                        <Button type="submit">Save changes</Button>
-                    </DialogFooter>
-                </DialogContent>
+              <DialogTrigger asChild>
+                <Button variant="secondary">Edit Profile</Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px]">
+                <DialogHeader>
+                  <DialogTitle>Edit profile</DialogTitle>
+                  <DialogDescription>
+                    Make changes to your profile here. Click save when you're done.
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="grid gap-4 py-4">
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="name" className="text-right">
+                      Name
+                    </Label>
+                    <Input
+                      id="name"
+                      defaultValue="Michael Scott"
+                      className="col-span-3"
+                    />
+                  </div>
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="username" className="text-right">
+                      Username
+                    </Label>
+                    <Input
+                      id="username"
+                      defaultValue="@mscott"
+                      className="col-span-3"
+                    />
+                  </div>
+                </div>
+                <DialogFooter>
+                  <Button type="submit">Save changes</Button>
+                </DialogFooter>
+              </DialogContent>
             </Dialog>
         )
     }
@@ -126,7 +139,69 @@ Avoid using Dialogs for non-critical information that could be presented less in
   </Tabs.Tab>
 </Tabs>
 
-### Default
+### Custom close button
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <DialogCustomClose />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {42-46} /DialogClose/ filename="dialog.tsx"
+    import { Button } from "@/components/button"
+    import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DialogClose } from "@/components/dialog"
+    import { Input } from "@/components/input"
+    import { Label } from "@/components/label"
+    
+    export function DialogDemo() {
+        return (
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="secondary">Edit Profile</Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px]">
+                <DialogHeader>
+                  <DialogTitle>Edit profile</DialogTitle>
+                  <DialogDescription>
+                    Make changes to your profile here. Click save when you're done.
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="grid gap-4 py-4">
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="name" className="text-right">
+                      Name
+                    </Label>
+                    <Input
+                      id="name"
+                      defaultValue="Michael Scott"
+                      className="col-span-3"
+                    />
+                  </div>
+                  <div className="grid grid-cols-4 items-center gap-4">
+                    <Label htmlFor="username" className="text-right">
+                      Username
+                    </Label>
+                    <Input
+                      id="username"
+                      defaultValue="@mscott"
+                      className="col-span-3"
+                    />
+                  </div>
+                </div>
+                <DialogFooter>
+                  <DialogClose asChild>
+                    <Button type="button" variant="secondary">
+                      Cancel
+                    </Button>
+                  </DialogClose>
+                  <Button type="submit">Save changes</Button>
+                </DialogFooter>
+              </DialogContent>
+            </Dialog>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
 
 
 ## Notes
@@ -175,6 +250,10 @@ To activate the `Dialog` component from within a `Context Menu` or `Dropdown Men
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8863&mode=design&t=BNqih1pZMuav038B-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/dialog#api-reference"
+  />
 </Cards>
 
 ## Accessibility
@@ -183,4 +262,4 @@ Adheres to the `Dialog` [WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/ap
 
 ### Keyboard interactions
 
-<DialogAccessibility />
+<AccessibilityTable rows={dialogAccessibilityData} />

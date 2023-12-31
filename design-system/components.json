@@ -5,13 +5,12 @@
   "tsx": true,
   "tailwind": {
     "config": "tailwind.config.js",
-    "css": "style/global.css",
+    "css": "style/globals.css",
     "baseColor": "zinc",
     "cssVariables": true
   },
   "aliases": {
     "components": "@/components",
-    "data-visualization": "@/data-visualization",
     "utils": "@/lib/twMerge"
   }
 }

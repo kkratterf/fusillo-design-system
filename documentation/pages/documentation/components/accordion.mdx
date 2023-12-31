@@ -1,12 +1,13 @@
 import { Tabs, Cards, Card } from 'nextra/components';
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { accordionAccessibilityData } from '@/docs/components/accessibility/accordion.mdx';
 import {
   AccordionPreview,
   AccordionSingle,
   AccordionMultiple,
   AccordionCollapsible,
   AccordionDefaultValue,
-  AccordionAccessibility
-} from '../../../components/components-accordion.mdx';
+} from '@/docs/components/components-accordion.tsx';
 
 # 💠 Accordion
 
@@ -17,12 +18,12 @@ A vertically stacked set of interactive headings that each reveal a section of c
     <AccordionPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="accordion.tsx"
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
   
     export function AccordionDemo() {
         return (
-          <Accordion type="single" collapsible>
+          <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger>
                 Is it accessible?
@@ -77,12 +78,12 @@ Set the `type` property to `single` to enable only one item to open at a time.
     <AccordionSingle />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {5} /single/
+    ```js copy {5} /single/ filename="accordion.tsx"
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
       return (
-        <Accordion type="single">
+        <Accordion type="single" className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
@@ -117,12 +118,12 @@ Set the `type` prop to `multiple` to enable opening multiple items at once.
     <AccordionMultiple />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {5} /multiple/
+    ```js copy {5} /multiple/ filename="accordion.tsx"
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
       return (
-        <Accordion type="multiple">
+        <Accordion type="multiple" className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
@@ -157,12 +158,12 @@ Use the `collapsible` prop to allow all items to close.
     <AccordionCollapsible />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {5} /collapsible/
+    ```js copy {5} /collapsible/ filename="accordion.tsx"
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
       return (
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
@@ -197,12 +198,12 @@ Use the `defaultValue` prop to define the open item by default.
     <AccordionDefaultValue />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {5} /defaultValue/
+    ```js copy {5} /defaultValue/ filename="accordion.tsx"
     import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/accordion"
  
     export function AccordionDemo() {
       return (
-        <Accordion type="single" collapsible defaultValue="item-2">
+        <Accordion type="single" collapsible className="w-full" defaultValue="item-2">
           <AccordionItem value="item-1">
             <AccordionTrigger>Is it accessible?</AccordionTrigger>
             <AccordionContent>
@@ -241,6 +242,10 @@ Use the `defaultValue` prop to define the open item by default.
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A748&mode=design&t=MpDMELWReoDbdLIS-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/accordion#api-reference"
+  />
 </Cards>
 
 ## Accessibility
@@ -249,5 +254,4 @@ Adheres to the [Accordion WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/a
 
 ### Keyboard interactions
 
-<AccordionAccessibility />
-
+<AccessibilityTable rows={accordionAccessibilityData} />

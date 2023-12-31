@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { AvatarPreview, AvatarSize, AvatarExampleFallback } from '../../../components/components-avatar.mdx'
+import { AvatarPreview, AvatarSize, AvatarExampleFallback } from '@/docs/components/components-avatar.tsx'
 
 # 💠 Avatar
 
@@ -10,7 +10,7 @@ Visual representation of a user or entity.
     <AvatarPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="avatar.tsx"
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     
     export function AvatarDemo() {
@@ -46,18 +46,18 @@ Avoid using Avatars for decorative purposes that do not enhance user understandi
 ## Examples
 
 ### Size
-There are 5 standard `size` available for the avatar component:
+There are 5 standard `size` available for the avatar component: xs, sm, md, lg, xl.
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
     <AvatarSize />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6,10,14,18,22} /size/
+    ```js copy {6,10,14,18,22} /size/ filename="avatar.tsx"
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     
     export function AvatarDemo() {
       return (
-        <div>
+        <div className="flex items-center space-x-3">
           <Avatar size="xs">
             <AvatarImage src="https://avatars.githubusercontent.com/u/70836137?s=400&v=4" alt="@kkratterf" />
             <AvatarFallback>FK</AvatarFallback>
@@ -95,7 +95,7 @@ The `AvatarFallback` is an element that renders when the image hasn't loaded.
     <AvatarExampleFallback />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {1,7} /AvatarFallback/
+    ```js copy {1,7} /AvatarFallback/ filename="avatar.tsx"
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     
     export function AvatarDemo() {
@@ -123,5 +123,9 @@ The `AvatarFallback` is an element that renders when the image hasn't loaded.
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=164%3A293&mode=design&t=ADS6PLdzJ7eQkKd7-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/avatar#api-reference"
   />
 </Cards>  

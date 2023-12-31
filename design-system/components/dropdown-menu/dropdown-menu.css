@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
   .dropdown-menu-subtrigger {
@@ -20,11 +14,11 @@
   }
 
   .dropdown-menu-subcontent {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded border border bg-elevated p-1 text shadow-lg;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded border border-border bg-elevated p-1 text shadow-lg;
   }
 
   .dropdown-menu-content {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded border border bg-elevated p-1 text shadow-md;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded border border-border bg-elevated p-1 text shadow-md;
   }
 
   .dropdown-menu-item {

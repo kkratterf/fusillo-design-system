@@ -2,7 +2,6 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 // Import customs
 import {
   Toast,
@@ -12,9 +11,8 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "./toast"
-import { useToast } from "./use-toast"
-
+} from "@/components/toast/toast"
+import { useToast } from "@/components/toast/use-toast"
 
 export function Toaster() {
   const { toasts } = useToast()

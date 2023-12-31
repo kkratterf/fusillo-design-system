@@ -2,9 +2,8 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 // Import customs
-import type { ToastProps } from './toast';
+import type { ToastProps } from '@/components/toast/toast';
 
 
 const TOAST_LIMIT = 1;

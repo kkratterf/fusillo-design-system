@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as RadioGroupPrimitive from '@radix-ui/react-radio-group';
 import { Circle } from 'lucide-react';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './radio-group.css'
-
+import { cn } from "@/lib/twMerge"
 
 const RadioGroup = React.forwardRef<
   React.ElementRef<typeof RadioGroupPrimitive.Root>,

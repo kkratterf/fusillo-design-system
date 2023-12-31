@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { CollapsiblePreview, CollapsibleAccessibility } from '../../../components/components-collapsible.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { collapsibleAccessibilityData } from '@/docs/components/accessibility/collapsible.mdx';
+import { CollapsiblePreview } from '@/docs/components/components-collapsible.tsx'
 
 # 💠 Collapsible
 
@@ -10,7 +12,7 @@ An interactive component which expands/collapses a panel.
     <CollapsiblePreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="collapsible.tsx"
     import * as React from 'react';
     import { ChevronsUpDown } from 'lucide-react';
     import { Button } from '@/components/button';
@@ -21,24 +23,33 @@ An interactive component which expands/collapses a panel.
 
         return (
             <Collapsible
-                open={isOpen}
-                onOpenChange={setIsOpen}
+              open={isOpen}
+              onOpenChange={setIsOpen}
+              className="w-[340px] space-y-2"
             >
-                <div>
-                    <p>@kkratter starred 3 repositories</p>
-                    <CollapsibleTrigger asChild>
-                        <Button variant="text" icon={true}>
-                            <ChevronsUpDown />
-                            <span className="sr-only">Toggle</span>
-                        </Button>
-                    </CollapsibleTrigger>
+              <div className="flex items-center justify-between space-x-4 px-4">
+                <p className="text-md-semibold">@kkratter starred 3 repositories</p>
+                <CollapsibleTrigger asChild>
+                  <Button variant="text" icon={true}>
+                    <ChevronsUpDown />
+                    <span className="sr-only">Toggle</span>
+                  </Button>
+                </CollapsibleTrigger>
+              </div>
+              <div className="rounded border px-4 py-3 font-mono text-md">
+                @design-system/foundations
+              </div>
+              <CollapsibleContent className="space-y-2">
+                <div className="rounded border px-4 py-3 font-mono text-md">
+                  @design-system/tokens
                 </div>
-                <div>@design-system/foundations</div>
-                <CollapsibleContent>
-                    <div>@design-system/tokens</div>
-                    <div>@design-system/components</div>
-                    <div>@design-system/data-visualization</div>
-                </CollapsibleContent>
+                <div className="rounded border px-4 py-3 font-mono text-md">
+                  @design-system/components
+                </div>
+                <div className="rounded border px-4 py-3 font-mono text-md">
+                  @design-system/data-visualization
+                </div>
+              </CollapsibleContent>
             </Collapsible>
         );
     };
@@ -69,7 +80,7 @@ Avoid using Collapsible components for critical information that users must see.
     <CollapsiblePreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="collapsible.tsx"
     import * as React from 'react';
     import { ChevronsUpDown } from 'lucide-react';
     import { Button } from '@/components/button';
@@ -80,24 +91,33 @@ Avoid using Collapsible components for critical information that users must see.
 
         return (
             <Collapsible
-                open={isOpen}
-                onOpenChange={setIsOpen}
+              open={isOpen}
+              onOpenChange={setIsOpen}
+              className="w-[340px] space-y-2"
             >
-                <div>
-                    <p>@kkratter starred 3 repositories</p>
-                    <CollapsibleTrigger asChild>
-                        <Button variant="text" icon={true}>
-                            <ChevronsUpDown />
-                            <span className="sr-only">Toggle</span>
-                        </Button>
-                    </CollapsibleTrigger>
+              <div className="flex items-center justify-between space-x-4 px-4">
+                <p className="text-md-semibold">@kkratter starred 3 repositories</p>
+                <CollapsibleTrigger asChild>
+                  <Button variant="text" icon={true}>
+                    <ChevronsUpDown />
+                    <span className="sr-only">Toggle</span>
+                  </Button>
+                </CollapsibleTrigger>
+              </div>
+              <div className="rounded border px-4 py-3 font-mono text-md">
+                @design-system/foundations
+              </div>
+              <CollapsibleContent className="space-y-2">
+                <div className="rounded border px-4 py-3 font-mono text-md">
+                  @design-system/tokens
                 </div>
-                <div>@design-system/foundations</div>
-                <CollapsibleContent>
-                    <div>@design-system/tokens</div>
-                    <div>@design-system/components</div>
-                    <div>@design-system/data-visualization</div>
-                </CollapsibleContent>
+                <div className="rounded border px-4 py-3 font-mono text-md">
+                  @design-system/components
+                </div>
+                <div className="rounded border px-4 py-3 font-mono text-md">
+                  @design-system/data-visualization
+                </div>
+              </CollapsibleContent>
             </Collapsible>
         );
     };
@@ -118,6 +138,10 @@ Avoid using Collapsible components for critical information that users must see.
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=550%3A41441&mode=design&t=BNqih1pZMuav038B-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/collapsible#api-reference"
+  />
 </Cards>  
 
 ## Accessibility
@@ -126,4 +150,4 @@ Adheres to the [Disclosure WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/
 
 ### Keyboard interactions
 
-<CollapsibleAccessibility />
+<AccessibilityTable rows={collapsibleAccessibilityData} />

@@ -18,6 +18,7 @@ module.exports = {
         0.5: '2px',
         1.5: '6px',
         2.5: '10px',
+        3.5: '14px',
       },
       fontFamily: {
         sans: ['var(--geist-sans)', ...fontFamily.sans],

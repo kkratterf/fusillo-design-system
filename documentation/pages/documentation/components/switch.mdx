@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { SwitchPreview, SwitchDefault, SwitchWithLabel, SwitchDisabled, SwitchWithForm, SwitchAccessibility  } from '../../../components/components-switch.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { switchAccessibilityData } from '@/docs/components/accessibility/switch.mdx';
+import { SwitchPreview, SwitchDefault, SwitchWithLabel, SwitchDisabled, SwitchWithForm  } from '@/docs/components/components-switch.tsx'
 
 # 💠 Switch
 
@@ -218,4 +220,4 @@ Adheres to the `switch` [role requirements](https://www.w3.org/WAI/ARIA/apg/patt
 
 ### Keyboard interactions
 
-<SwitchAccessibility />
+<AccessibilityTable rows={switchAccessibilityData} />

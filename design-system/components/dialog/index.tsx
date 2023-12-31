@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { X } from 'lucide-react';
 // Import customs
-import { cn } from "../../lib/twMerge";
-import './dialog.css';
-
+import { cn } from "@/lib/twMerge";
 
 const Dialog = DialogPrimitive.Root
 

@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { CardPreview, CardWithForm, CardWithMapping } from '../../../components/components-card.mdx'
+import { CardPreview, CardWithMapping } from '@/docs/components/components-card.tsx'
 
 # 💠 Card
 
@@ -10,7 +10,7 @@ Displays a card with header, content, and footer.
     <CardPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="card.tsx"
     import * as React from "react"
  
     import { Button } from "@/components/button"
@@ -21,19 +21,19 @@ Displays a card with header, content, and footer.
     
     export function CardDemo() {
         return (
-            <Card>
+            <Card className="w-96">
                 <CardHeader>
                     <CardTitle>Create project</CardTitle>
                     <CardDescription>Deploy your new project in one-click.</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <form>
-                        <div>
-                            <div>
+                        <div className="grid w-full items-center gap-4">
+                            <div className="flex flex-col space-y-3">
                                 <Label htmlFor="name">Name</Label>
                                 <Input id="name" placeholder="Name of your project" />
                             </div>
-                            <div>
+                            <div className="flex flex-col space-y-3">
                                 <Label htmlFor="framework">Framework</Label>
                                 <Select>
                                     <SelectTrigger id="framework">
@@ -50,8 +50,8 @@ Displays a card with header, content, and footer.
                         </div>
                     </form>
                 </CardContent>
-                <CardFooter>
-                    <Button variant="outline">Cancel</Button>
+                <CardFooter className="flex justify-between">
+                    <Button variant="secondary">Cancel</Button>
                     <Button>Deploy</Button>
                 </CardFooter>
             </Card>
@@ -78,14 +78,14 @@ Avoid using Cards to contain a single piece of information with no contextual re
 ## Examples
 
 
-### With form
+### Default
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <CardWithForm />
+    <CardPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="card.tsx"
     import * as React from "react"
  
     import { Button } from "@/components/button"
@@ -96,19 +96,19 @@ Avoid using Cards to contain a single piece of information with no contextual re
     
     export function CardDemo() {
         return (
-            <Card>
+            <Card className="w-96">
                 <CardHeader>
                     <CardTitle>Create project</CardTitle>
                     <CardDescription>Deploy your new project in one-click.</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <form>
-                        <div>
-                            <div>
+                        <div className="grid w-full items-center gap-4">
+                            <div className="flex flex-col space-y-3">
                                 <Label htmlFor="name">Name</Label>
                                 <Input id="name" placeholder="Name of your project" />
                             </div>
-                            <div>
+                            <div className="flex flex-col space-y-3">
                                 <Label htmlFor="framework">Framework</Label>
                                 <Select>
                                     <SelectTrigger id="framework">
@@ -125,8 +125,8 @@ Avoid using Cards to contain a single piece of information with no contextual re
                         </div>
                     </form>
                 </CardContent>
-                <CardFooter>
-                    <Button variant="outline">Cancel</Button>
+                <CardFooter className="flex justify-between">
+                    <Button variant="secondary">Cancel</Button>
                     <Button>Deploy</Button>
                 </CardFooter>
             </Card>
@@ -146,64 +146,66 @@ Avoid using Cards to contain a single piece of information with no contextual re
     ```js copy 
     import { BellRing, Check } from "lucide-react"
     import { Button } from "@/components/button"
-    import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-    } from "@/components/card"
+    import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/card"
     import { Switch } from "@/components/switch"
     
     const notifications = [
-    {
-        title: "Your call has been confirmed.",
-        description: "1 hour ago",
-    },
-    {
-        title: "You have a new message!",
-        description: "1 hour ago",
-    },
-    {
-        title: "Your subscription is expiring soon!",
-        description: "2 hours ago",
-    },
+        {
+            title: "Your call has been confirmed.",
+            description: "1 hour ago",
+        },
+        {
+            title: "You have a new message!",
+            description: "1 hour ago",
+        },
+        {
+            title: "Your subscription is expiring soon!",
+            description: "2 hours ago",
+        },
     ]
     
     type CardProps = React.ComponentProps<typeof Card>
     
     export function CardDemo({ className, ...props }: CardProps) {
         return (
-            <Card {...props}>
+            <Card className={cn('w-[460px]', className)} {...props}>
                 <CardHeader>
                     <CardTitle>Notifications</CardTitle>
                     <CardDescription>You have 3 unread messages.</CardDescription>
                 </CardHeader>
-                <CardContent>
-                    <div>
+                <CardContent className="grid gap-4">
+                    <div className=" flex items-center space-x-4 rounded border p-4">
                         <BellRing />
-                        <div>
-                            <p>Push Notifications</p>
-                            <p>Send notifications to device.</p>
+                        <div className="flex-1 space-y-1">
+                            <p className="text-md-medium leading-none">Push Notifications</p>
+                            <p className="text-md text-description">
+                                Send notifications to device.
+                            </p>
                         </div>
                         <Switch />
                     </div>
-                    <div>
-                        {notifications.map((notification, index) => (
-                            <div key={index} >
-                            <span/>
-                            <div>
-                                <p>{notification.title}</p>
-                                <p>{notification.description}</p>
+                    <div className="p-4">
+                    {notifications.map((notification, index) => (
+                        <div
+                            key={index}
+                            className="mb-2 grid grid-cols-[25px_1fr] items-start pb-4 last:mb-0 last:pb-0"
+                        >
+                            <span className="flex h-2 w-2 translate-y-1 rounded-full bg-brand" />
+                            <div className="space-y-1">
+                                <p className="text-md-medium leading-none">
+                                    {notification.title}
+                                </p>
+                                <p className="text-md text-description">
+                                    {notification.description}
+                                </p>
                             </div>
-                            </div>
-                        ))}
+                        </div>
+                    ))}
                     </div>
                 </CardContent>
                 <CardFooter>
-                    <Button>
-                    <Check/> Mark all as read
+                    <Button className="w-full">
+                        <Check /> Mark all as read
                     </Button>
                 </CardFooter>
             </Card>

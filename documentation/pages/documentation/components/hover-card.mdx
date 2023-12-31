@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { HoverCardPreview } from '../../../components/components-hover-card.mdx'
+import { HoverCardPreview } from '@/docs/components/components-hover-card.tsx'
 
 # 💠 Hover Card
 
@@ -10,7 +10,7 @@ For sighted users to preview content available behind a link.
     <HoverCardPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="hover-card.tsx"
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     import { Button } from "@/components/button"
     import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/hover-card"
@@ -18,22 +18,28 @@ For sighted users to preview content available behind a link.
     export function HoverCardDemo() {
         return (
             <HoverCard>
-                <HoverCardTrigger asChild>
-                    <Button variant="link">@nextjs</Button>
-                </HoverCardTrigger>
-                <HoverCardContent>
-                    <div>
-                        <Avatar>
-                            <AvatarImage src="https://github.com/vercel.png" />
-                            <AvatarFallback>VC</AvatarFallback>
-                        </Avatar>
-                        <div>
-                            <h4>@nextjs</h4>
-                            <p>The React Framework – created and maintained by @vercel.</p>
-                            <div><span>Joined December 2021</span></div>
-                        </div>
+              <HoverCardTrigger asChild>
+                <Button variant="link">@nextjs</Button>
+              </HoverCardTrigger>
+              <HoverCardContent className="w-80">
+                <div className="flex justify-between space-x-4">
+                  <Avatar>
+                    <AvatarImage src="https://github.com/vercel.png" />
+                    <AvatarFallback>VC</AvatarFallback>
+                  </Avatar>
+                  <div className="space-y-1">
+                    <p className="text-md-semibold">@nextjs</p>
+                    <p className="text-md">
+                      The React Framework – created and maintained by @vercel.
+                    </p>
+                    <div className="flex items-center pt-2">
+                      <span className="text-sm text-description">
+                        Joined December 2021
+                      </span>
                     </div>
-                </HoverCardContent>
+                  </div>
+                </div>
+              </HoverCardContent>
             </HoverCard>
         )
     }
@@ -64,7 +70,7 @@ Avoid using Hover Cards for critical information that users must see, as they ar
     <HoverCardPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="hover-card.tsx"
     import { Avatar, AvatarFallback, AvatarImage } from "@/components/avatar"
     import { Button } from "@/components/button"
     import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/hover-card"
@@ -72,22 +78,28 @@ Avoid using Hover Cards for critical information that users must see, as they ar
     export function HoverCardDemo() {
         return (
             <HoverCard>
-                <HoverCardTrigger asChild>
-                    <Button variant="link">@nextjs</Button>
-                </HoverCardTrigger>
-                <HoverCardContent>
-                    <div>
-                        <Avatar>
-                            <AvatarImage src="https://github.com/vercel.png" />
-                            <AvatarFallback>VC</AvatarFallback>
-                        </Avatar>
-                        <div>
-                            <h4>@nextjs</h4>
-                            <p>The React Framework – created and maintained by @vercel.</p>
-                            <div><span>Joined December 2021</span></div>
-                        </div>
+              <HoverCardTrigger asChild>
+                <Button variant="link">@nextjs</Button>
+              </HoverCardTrigger>
+              <HoverCardContent className="w-80">
+                <div className="flex justify-between space-x-4">
+                  <Avatar>
+                    <AvatarImage src="https://github.com/vercel.png" />
+                    <AvatarFallback>VC</AvatarFallback>
+                  </Avatar>
+                  <div className="space-y-1">
+                    <p className="text-md-semibold">@nextjs</p>
+                    <p className="text-md">
+                      The React Framework – created and maintained by @vercel.
+                    </p>
+                    <div className="flex items-center pt-2">
+                      <span className="text-sm text-description">
+                        Joined December 2021
+                      </span>
                     </div>
-                </HoverCardContent>
+                  </div>
+                </div>
+              </HoverCardContent>
             </HoverCard>
         )
     }
@@ -107,6 +119,10 @@ Avoid using Hover Cards for critical information that users must see, as they ar
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8866&mode=design&t=BNqih1pZMuav038B-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/hover-card#api-reference"
   />
 </Cards>  
 

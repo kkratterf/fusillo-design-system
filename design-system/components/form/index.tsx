@@ -1,6 +1,5 @@
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as LabelPrimitive from '@radix-ui/react-label';
 import { Slot } from '@radix-ui/react-slot';
 import {
@@ -12,9 +11,8 @@ import {
   useFormContext,
 } from 'react-hook-form';
 // Import customs
-import { cn } from '../../lib/twMerge';
-import { Label } from '../label';
-import './form.css'
+import { cn } from '@/lib/twMerge';
+import { Label } from '@/components/label';
 
 
 const Form = FormProvider;
@@ -82,7 +80,7 @@ const FormItem = React.forwardRef<
 
   return (
     <FormItemContext.Provider value={{ id }}>
-      <div ref={ref} className={cn('space-y-2', className)} {...props} />
+      <div ref={ref} className={cn('space-y-3', className)} {...props} />
     </FormItemContext.Provider>
   );
 });

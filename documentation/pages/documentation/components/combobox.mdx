@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { ComboboxPreview } from '../../../components/components-combobox.mdx'
+import { ComboboxPreview } from '@/docs/components/components-combobox.tsx'
 
 # 💠 Combobox
 
@@ -10,7 +10,7 @@ Autocomplete input and command palette with a list of suggestions.
     <ComboboxPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="combobox.tsx"
     "use client"
  
     import * as React from "react"
@@ -53,14 +53,15 @@ Autocomplete input and command palette with a list of suggestions.
               variant="secondary"
               role="combobox"
               aria-expanded={open}
+              className="w-[240px] justify-between"
             >
               {value
                 ? frameworks.find((framework) => framework.value === value)?.label
-                : "Select framework..."}
+                : 'Select framework...'}
               <ChevronsUpDown />
             </Button>
           </PopoverTrigger>
-          <PopoverContent>
+          <PopoverContent className="w-[240px] p-0">
             <Command>
               <CommandInput placeholder="Search framework..." />
               <CommandEmpty>No framework found.</CommandEmpty>
@@ -70,11 +71,16 @@ Autocomplete input and command palette with a list of suggestions.
                     key={framework.value}
                     value={framework.value}
                     onSelect={(currentValue) => {
-                      setValue(currentValue === value ? "" : currentValue)
-                      setOpen(false)
+                      setValue(currentValue === value ? '' : currentValue);
+                      setOpen(false);
                     }}
                   >
-                    <Check />
+                    <Check
+                      className={cn(
+                        'mr-2',
+                        value === framework.value ? 'opacity-visible' : 'opacity-invisible'
+                      )}
+                    />
                     {framework.label}
                   </CommandItem>
                 ))}
@@ -104,6 +110,12 @@ This component is ideal for fields that require precise input and also benefit f
 
 Avoid using a Combobox for simple binary choices or when only a handful of options are available; simpler form elements like radio buttons or toggles may be more appropriate. Ensure that the Combobox doesn't overwhelm users with too many suggestions at once, as this can make the interface cluttered and the user experience confusing.
 
+## About
+
+The Combobox is built using a composition of the `<Popover />` and the `<Command />` components.
+
+See installation instructions for the [Popover](/documentation/components/popover) and the [Command](/documentation/components/command) components.
+
 ## Examples 
 
 ### Default
@@ -113,7 +125,7 @@ Avoid using a Combobox for simple binary choices or when only a handful of optio
     <ComboboxPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="combobox.tsx"
     "use client"
  
     import * as React from "react"
@@ -156,14 +168,15 @@ Avoid using a Combobox for simple binary choices or when only a handful of optio
               variant="secondary"
               role="combobox"
               aria-expanded={open}
+              className="w-[240px] justify-between"
             >
               {value
                 ? frameworks.find((framework) => framework.value === value)?.label
-                : "Select framework..."}
+                : 'Select framework...'}
               <ChevronsUpDown />
             </Button>
           </PopoverTrigger>
-          <PopoverContent>
+          <PopoverContent className="w-[240px] p-0">
             <Command>
               <CommandInput placeholder="Search framework..." />
               <CommandEmpty>No framework found.</CommandEmpty>
@@ -173,11 +186,16 @@ Avoid using a Combobox for simple binary choices or when only a handful of optio
                     key={framework.value}
                     value={framework.value}
                     onSelect={(currentValue) => {
-                      setValue(currentValue === value ? "" : currentValue)
-                      setOpen(false)
+                      setValue(currentValue === value ? '' : currentValue);
+                      setOpen(false);
                     }}
                   >
-                    <Check />
+                    <Check
+                      className={cn(
+                        'mr-2',
+                        value === framework.value ? 'opacity-visible' : 'opacity-invisible'
+                      )}
+                    />
                     {framework.label}
                   </CommandItem>
                 ))}

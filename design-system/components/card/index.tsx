@@ -1,9 +1,7 @@
 // Import core
 import * as React from 'react';
-// Import third parts
 // Import customs
-import { cn } from '../../lib/twMerge';
-import './card.css';
+import { cn } from '@/lib/twMerge';
 
 const Card = React.forwardRef<
   HTMLDivElement,

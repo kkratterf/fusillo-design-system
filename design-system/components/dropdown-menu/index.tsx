@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu';
 import { Check, ChevronRight, Circle } from 'lucide-react';
 // Import customs
-import { cn } from "../../lib/twMerge";
-import './dropdown-menu.css'
-
+import { cn } from "@/lib/twMerge";
 
 const DropdownMenu = DropdownMenuPrimitive.Root
 

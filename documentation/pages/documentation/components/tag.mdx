@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { TagPreview, TagDefault, TagBrand, TagDanger, TagWarning, TagSuccess, TagInfo, TagDiscovery  } from '../../../components/components-tag.mdx'
+import { TagPreview, TagDefault, TagBrand, TagDanger, TagWarning  } from '@/docs/components/components-tag.tsx'
 
 # 💠 Tag
 
@@ -122,72 +122,6 @@ Avoid using Tags for long or complex information that would be better served by 
         return (
             <Tag status="warning">
                 <AlertTriangle /> Caution
-            </Tag>
-        );
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Success
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <TagSuccess />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {6} /status="success"/ 
-    import { Tag } from "@/components/tag";
-    import { CheckCircle } from 'lucide-react';
- 
-    export function TagDemo() {
-        return (
-            <Tag status="success">
-                <CheckCircle /> Completed
-            </Tag>
-        );
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Information
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <TagInfo />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {6} /status="info"/ 
-    import { Tag } from "@/components/tag";
-    import { Loader } from 'lucide-react';
- 
-    export function TagDemo() {
-        return (
-            <Tag status="info">
-                <Loader /> Process
-            </Tag>
-        );
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Discovery
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <TagDiscovery />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {6} /status="discovery"/ 
-    import { Tag } from "@/components/tag";
-    import { BrainCircuit } from 'lucide-react';
- 
-    export function TagDemo() {
-        return (
-            <Tag status="discovery">
-                <BrainCircuit /> New feature
             </Tag>
         );
     }

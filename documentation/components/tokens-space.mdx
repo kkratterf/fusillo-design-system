@@ -7,7 +7,9 @@ export const TokensSpace = () => (
         <thead>
           <tr>
             <th align="left">Token and description</th>
-            <th align="right"><span className='pr-4'>Value</span></th>
+            <th align="right">
+              <span className="pr-4">Value</span>
+            </th>
             <th className="hidden sm:table-cell" align="left">
               Preview
             </th>
@@ -25,8 +27,8 @@ export const TokensSpace = () => (
                     </div>
                   </div>
                 </td>
-                <td>
-                  <div className="cell-value-scale" align="right">{tokenInfo.value}</div>
+                <td align="right">
+                  <div className="cell-value-scale">{tokenInfo.value}</div>
                 </td>
                 <td className="hidden sm:table-cell">
                   <div
@@ -42,5 +44,3 @@ export const TokensSpace = () => (
     }
   </>
 );
-
-

@@ -1,18 +1,12 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
     .menubar-component {
-        @apply flex h-10 items-center space-x-1 rounded border border bg-card p-1;
+        @apply flex h-10 items-center space-x-1 rounded border border-border bg-card p-1;
     }
 
     .menubar-trigger {
@@ -24,11 +18,11 @@
     }
 
     .menubar-subcontent {
-        @apply z-50 min-w-[8rem] overflow-hidden rounded border border bg-elevated p-1 text;
+        @apply z-50 min-w-[8rem] overflow-hidden rounded border border-border bg-elevated p-1 text;
     }
 
     .menubar-content {
-        @apply z-50 min-w-[12rem] overflow-hidden rounded border border bg-elevated p-1 text shadow-md;
+        @apply z-50 min-w-[12rem] overflow-hidden rounded border border-border bg-elevated p-1 text shadow-md;
     }
 
     .menubar-item {

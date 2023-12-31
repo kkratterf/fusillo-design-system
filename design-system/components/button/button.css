@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
   .button-component {
@@ -24,7 +18,7 @@
   }
 
   .button-secondary {
-    @apply bg-item text border border hover:bg-item-hover active:bg-item-selected;
+    @apply bg-item text border border-border hover:bg-item-hover active:bg-item-selected;
   }
 
   .button-text {

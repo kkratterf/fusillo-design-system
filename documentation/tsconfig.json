@@ -13,17 +13,20 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
-  },
-  "paths": {
-    "@/*": ["./*"]
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/docs/*": ["./*"],
+      "@/*": ["../design-system/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.mdx",
     "pages/_app.mdx",
-    "middleware.ts",
+    "middleware.ts"
   ],
   "exclude": ["node_modules"]
 }

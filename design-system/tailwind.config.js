@@ -8,7 +8,6 @@ module.exports = {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
   ],
   theme: {
     colors: {
@@ -534,6 +533,13 @@ module.exports = {
           '0.75rem',
           {
             lineHeight: '1rem',
+            fontWeight: '400',
+          },
+        ],
+        xs: [
+          '0.5rem',
+          {
+            lineHeight: '0.75rem',
             fontWeight: '400',
           },
         ],

@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { ContextMenuPreview, ContextMenuAccessibility } from '../../../components/components-context-menu.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { contextMenuAccessibilityData } from '@/docs/components/accessibility/context-menu.mdx';
+import { ContextMenuPreview } from '@/docs/components/components-context-menu.tsx'
 
 # 💠 Context Menu
 
@@ -10,16 +12,16 @@ Displays a menu to the user — such as a set of actions or functions — trigge
     <ContextMenuPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
-    import { ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuItem, ContextMenuLabel, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger } from "@/components/ui/context-menu"
+    ```js copy filename="context-menu.tsx"
+    import { ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuItem, ContextMenuLabel, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger } from "@/components/context-menu"
  
     export function ContextMenuDemo() {
         return (
             <ContextMenu>
-                <ContextMenuTrigger>
+                <ContextMenuTrigger className="flex h-40 w-80 items-center justify-center rounded border border-dashed text-md">
                     Right click here
                 </ContextMenuTrigger>
-                <ContextMenuContent>
+                <ContextMenuContent className="w-64">
                     <ContextMenuItem inset>
                         Back
                         <ContextMenuShortcut>⌘[</ContextMenuShortcut>
@@ -36,8 +38,8 @@ Displays a menu to the user — such as a set of actions or functions — trigge
                         <ContextMenuSubTrigger inset>More Tools</ContextMenuSubTrigger>
                         <ContextMenuSubContent className="w-48">
                             <ContextMenuItem>
-                                Save Page As...
-                                <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
+                            Save Page As...
+                            <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
                             </ContextMenuItem>
                             <ContextMenuItem>Create Shortcut...</ContextMenuItem>
                             <ContextMenuItem>Name Window...</ContextMenuItem>
@@ -58,8 +60,10 @@ Displays a menu to the user — such as a set of actions or functions — trigge
                         <ContextMenuRadioItem value="michael">
                             Michael Scott
                         </ContextMenuRadioItem>
-                        <ContextMenuRadioItem value="dwight">Dwight Schrute</ContextMenuRadioItem>
-                    </ContextMenuRadioGroup>
+                        <ContextMenuRadioItem value="dwight">
+                            Dwight Schrute
+                        </ContextMenuRadioItem>
+                        </ContextMenuRadioGroup>
                 </ContextMenuContent>
             </ContextMenu>
         )
@@ -91,16 +95,16 @@ Avoid using Context Menus as the only means of performing important actions, as 
     <ContextMenuPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
-    import { ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuItem, ContextMenuLabel, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger } from "@/components/ui/context-menu"
+    ```js copy filename="context-menu.tsx"
+    import { ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuItem, ContextMenuLabel, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger } from "@/components/context-menu"
  
     export function ContextMenuDemo() {
         return (
             <ContextMenu>
-                <ContextMenuTrigger>
+                <ContextMenuTrigger className="flex h-40 w-80 items-center justify-center rounded border border-dashed text-md">
                     Right click here
                 </ContextMenuTrigger>
-                <ContextMenuContent>
+                <ContextMenuContent className="w-64">
                     <ContextMenuItem inset>
                         Back
                         <ContextMenuShortcut>⌘[</ContextMenuShortcut>
@@ -117,8 +121,8 @@ Avoid using Context Menus as the only means of performing important actions, as 
                         <ContextMenuSubTrigger inset>More Tools</ContextMenuSubTrigger>
                         <ContextMenuSubContent className="w-48">
                             <ContextMenuItem>
-                                Save Page As...
-                                <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
+                            Save Page As...
+                            <ContextMenuShortcut>⇧⌘S</ContextMenuShortcut>
                             </ContextMenuItem>
                             <ContextMenuItem>Create Shortcut...</ContextMenuItem>
                             <ContextMenuItem>Name Window...</ContextMenuItem>
@@ -139,8 +143,10 @@ Avoid using Context Menus as the only means of performing important actions, as 
                         <ContextMenuRadioItem value="michael">
                             Michael Scott
                         </ContextMenuRadioItem>
-                        <ContextMenuRadioItem value="dwight">Dwight Schrute</ContextMenuRadioItem>
-                    </ContextMenuRadioGroup>
+                        <ContextMenuRadioItem value="dwight">
+                            Dwight Schrute
+                        </ContextMenuRadioItem>
+                        </ContextMenuRadioGroup>
                 </ContextMenuContent>
             </ContextMenu>
         )
@@ -162,6 +168,10 @@ Avoid using Context Menus as the only means of performing important actions, as 
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A757&mode=design&t=BNqih1pZMuav038B-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/context-menu#api-reference"
+  />
 </Cards>
 
 ## Accessibility
@@ -170,4 +180,4 @@ Uses [roving tabindex](https://www.w3.org/WAI/ARIA/apg/patterns/kbd_roving_tabin
 
 ### Keyboard interactions
 
-<ContextMenuAccessibility />
+<AccessibilityTable rows={contextMenuAccessibilityData} />

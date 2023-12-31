@@ -1,13 +1,10 @@
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as ToastPrimitives from '@radix-ui/react-toast';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { X } from 'lucide-react';
 // Import customs
-import { cn } from '../../lib/twMerge';
-import './toast.css'
-
+import { cn } from '@/lib/twMerge';
 
 const ToastProvider = ToastPrimitives.Provider;
 

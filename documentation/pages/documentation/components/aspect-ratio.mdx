@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { AspectRatioPreview, AspectRatio16x9, AspectRatio4x3, AspectRatio3x2 } from '../../../components/components-aspect-ratio.mdx'
+import { AspectRatioPreview, AspectRatio16x9, AspectRatio4x3, AspectRatio3x2 } from '@/docs/components/components-aspect-ratio.tsx'
 
 
 # 💠 Aspect Ratio
@@ -11,17 +11,18 @@ Displays content within a desired ratio.
     <AspectRatioPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="aspect-ratio.tsx"
     import { AspectRatio } from "@/components/aspect-ratio"
     import Image from "next/image"
     
     export function AspectRatioDemo() {
       return (
-        <AspectRatio ratio={16 / 9}>
+        <AspectRatio ratio={16 / 9} className="bg-muted">
           <Image
             src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
             alt="Photo by Alvaro Pinot"
             fill
+            className="rounded object-cover"
           />
         </AspectRatio>
       )
@@ -55,17 +56,18 @@ Avoid using the Aspect Ratio component for content that needs to dynamically fil
     <AspectRatio16x9 />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /ratio/
+    ```js copy {6} /ratio/ filename="aspect-ratio.tsx"
     import { AspectRatio } from "@/components/aspect-ratio"
     import Image from "next/image"
     
     export function AspectRatioDemo() {
       return (
-        <AspectRatio ratio={16 / 9}>
+        <AspectRatio ratio={16 / 9} className="bg-muted">
           <Image
             src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
             alt="Photo by Alvaro Pinot"
             fill
+            className="rounded object-cover"
           />
         </AspectRatio>
       )
@@ -80,17 +82,18 @@ Avoid using the Aspect Ratio component for content that needs to dynamically fil
     <AspectRatio4x3 />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /ratio/
+    ```js copy {6} /ratio/ filename="aspect-ratio.tsx"
     import { AspectRatio } from "@/components/aspect-ratio"
     import Image from "next/image"
     
     export function AspectRatioDemo() {
       return (
-        <AspectRatio ratio={4 / 3}>
+        <AspectRatio ratio={4 / 3} className="bg-muted">
           <Image
             src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
             alt="Photo by Alvaro Pinot"
             fill
+            className="rounded object-cover"
           />
         </AspectRatio>
       )
@@ -105,17 +108,18 @@ Avoid using the Aspect Ratio component for content that needs to dynamically fil
     <AspectRatio3x2 />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /ratio/
+    ```js copy {6} /ratio/ filename="aspect-ratio.tsx"
     import { AspectRatio } from "@/components/aspect-ratio"
     import Image from "next/image"
     
     export function AspectRatioDemo() {
       return (
-        <AspectRatio ratio={3 / 2}>
+        <AspectRatio ratio={3 / 2} className="bg-muted">
           <Image
             src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
             alt="Photo by Alvaro Pinot"
             fill
+            className="rounded object-cover"
           />
         </AspectRatio>
       )
@@ -137,5 +141,9 @@ Avoid using the Aspect Ratio component for content that needs to dynamically fil
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=164%3A294&mode=design&t=F5zgbD2phu8xvUpj-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/aspect-ratio#api-reference"
   />
 </Cards>

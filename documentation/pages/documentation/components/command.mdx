@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { CommandPreview, CommandDialog } from '../../../components/components-command.mdx'
+import { CommandPreview, CommandWithDialog } from '@/docs/components/components-command.tsx'
 
 # 💠 Command
 
@@ -10,49 +10,49 @@ Fast, composable, unstyled command menu for React.
     <CommandPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="command.tsx"
     import { Calculator, Calendar, CreditCard, Settings, Smile, User } from "lucide-react"
     import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut } from "@/components/command"
     
     export function CommandDemo() {
         return (
-            <Command>
-            <CommandInput placeholder="Type a command or search..." />
-            <CommandList>
+            <Command className="rounded-lg border border-border shadow-md">
+              <CommandInput placeholder="Type a command or search..." />
+              <CommandList>
                 <CommandEmpty>No results found.</CommandEmpty>
                 <CommandGroup heading="Suggestions">
-                <CommandItem>
-                    <Calendar/>
+                  <CommandItem>
+                    <Calendar className="mr-2" />
                     <span>Calendar</span>
-                </CommandItem>
-                <CommandItem>
-                    <Smile/>
+                  </CommandItem>
+                  <CommandItem>
+                    <Smile className="mr-2" />
                     <span>Search Emoji</span>
-                </CommandItem>
-                <CommandItem>
-                    <Calculator/>
+                  </CommandItem>
+                  <CommandItem>
+                    <Calculator className="mr-2" />
                     <span>Calculator</span>
-                </CommandItem>
+                  </CommandItem>
                 </CommandGroup>
                 <CommandSeparator />
                 <CommandGroup heading="Settings">
-                <CommandItem>
-                    <User/>
+                  <CommandItem>
+                    <User className="mr-2" />
                     <span>Profile</span>
                     <CommandShortcut>⌘P</CommandShortcut>
-                </CommandItem>
-                <CommandItem>
-                    <CreditCard/>
+                  </CommandItem>
+                  <CommandItem>
+                    <CreditCard className="mr-2" />
                     <span>Billing</span>
                     <CommandShortcut>⌘B</CommandShortcut>
-                </CommandItem>
-                <CommandItem>
-                    <Settings/>
+                  </CommandItem>
+                  <CommandItem>
+                    <Settings className="mr-2" />
                     <span>Settings</span>
                     <CommandShortcut>⌘S</CommandShortcut>
-                </CommandItem>
+                  </CommandItem>
                 </CommandGroup>
-            </CommandList>
+              </CommandList>
             </Command>
         )
     }
@@ -87,8 +87,52 @@ The `<Command />` component uses the [cmdk](https://cmdk.paco.me/) component by 
     <CommandPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="command.tsx"
+    import { Calculator, Calendar, CreditCard, Settings, Smile, User } from "lucide-react"
+    import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut } from "@/components/command"
     
+    export function CommandDemo() {
+        return (
+            <Command className="rounded-lg border border-border shadow-md">
+              <CommandInput placeholder="Type a command or search..." />
+              <CommandList>
+                <CommandEmpty>No results found.</CommandEmpty>
+                <CommandGroup heading="Suggestions">
+                  <CommandItem>
+                    <Calendar className="mr-2" />
+                    <span>Calendar</span>
+                  </CommandItem>
+                  <CommandItem>
+                    <Smile className="mr-2" />
+                    <span>Search Emoji</span>
+                  </CommandItem>
+                  <CommandItem>
+                    <Calculator className="mr-2" />
+                    <span>Calculator</span>
+                  </CommandItem>
+                </CommandGroup>
+                <CommandSeparator />
+                <CommandGroup heading="Settings">
+                  <CommandItem>
+                    <User className="mr-2" />
+                    <span>Profile</span>
+                    <CommandShortcut>⌘P</CommandShortcut>
+                  </CommandItem>
+                  <CommandItem>
+                    <CreditCard className="mr-2" />
+                    <span>Billing</span>
+                    <CommandShortcut>⌘B</CommandShortcut>
+                  </CommandItem>
+                  <CommandItem>
+                    <Settings className="mr-2" />
+                    <span>Settings</span>
+                    <CommandShortcut>⌘S</CommandShortcut>
+                  </CommandItem>
+                </CommandGroup>
+              </CommandList>
+            </Command>
+        )
+    }
     ```
   </Tabs.Tab>
 </Tabs>
@@ -97,10 +141,10 @@ The `<Command />` component uses the [cmdk](https://cmdk.paco.me/) component by 
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <CommandDialog />
+    <CommandWithDialog />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy {5,30,67} /CommandDialog/ filename="command.tsx"
     "use client"
  
     import * as React from "react"
@@ -112,7 +156,7 @@ The `<Command />` component uses the [cmdk](https://cmdk.paco.me/) component by 
     
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
-        if (e.key === "j" && (e.metaKey || e.ctrlKey)) {
+        if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
             e.preventDefault()
             setOpen((open) => !open)
         }
@@ -124,51 +168,58 @@ The `<Command />` component uses the [cmdk](https://cmdk.paco.me/) component by 
     
     return (
         <>
-        <p>Press{" "}<kbd><span>⌘</span>J</kbd></p>
-        <CommandDialog open={open} onOpenChange={setOpen}>
+          <p className="text-sm text-description">
+            Press{' '}
+            <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium text-description opacity-visible">
+              <span className="text-sm">⌘</span>K
+            </kbd>
+          </p>
+          <CommandDialog open={open} onOpenChange={setOpen}>
             <CommandInput placeholder="Type a command or search..." />
             <CommandList>
-            <CommandEmpty>No results found.</CommandEmpty>
-            <CommandGroup heading="Suggestions">
+              <CommandEmpty>No results found.</CommandEmpty>
+              <CommandGroup heading="Suggestions">
                 <CommandItem>
-                <Calendar/>
-                <span>Calendar</span>
+                  <Calendar className="mr-2" />
+                  <span>Calendar</span>
                 </CommandItem>
                 <CommandItem>
-                <Smile/>
-                <span>Search Emoji</span>
+                  <Smile className="mr-2" />
+                  <span>Search Emoji</span>
                 </CommandItem>
                 <CommandItem>
-                <Calculator/>
-                <span>Calculator</span>
+                  <Calculator className="mr-2" />
+                  <span>Calculator</span>
                 </CommandItem>
-            </CommandGroup>
-            <CommandSeparator />
-            <CommandGroup heading="Settings">
+              </CommandGroup>
+              <CommandSeparator />
+              <CommandGroup heading="Settings">
                 <CommandItem>
-                <User/>
-                <span>Profile</span>
-                <CommandShortcut>⌘P</CommandShortcut>
-                </CommandItem>
-                <CommandItem>
-                <CreditCard/>
-                <span>Billing</span>
-                <CommandShortcut>⌘B</CommandShortcut>
+                  <User className="mr-2" />
+                  <span>Profile</span>
+                  <CommandShortcut>⌘P</CommandShortcut>
                 </CommandItem>
                 <CommandItem>
-                <Settings/>
-                <span>Settings</span>
-                <CommandShortcut>⌘S</CommandShortcut>
+                  <CreditCard className="mr-2" />
+                  <span>Billing</span>
+                  <CommandShortcut>⌘B</CommandShortcut>
                 </CommandItem>
-            </CommandGroup>
+                <CommandItem>
+                  <Settings className="mr-2" />
+                  <span>Settings</span>
+                  <CommandShortcut>⌘S</CommandShortcut>
+                </CommandItem>
+              </CommandGroup>
             </CommandList>
-        </CommandDialog>
+          </CommandDialog>
         </>
     )
     }
     ```
   </Tabs.Tab>
 </Tabs>
+
+To show the command menu in a dialog, use the `<CommandDialog />` component.
 
 ## Useful links
 
@@ -183,4 +234,9 @@ The `<Command />` component uses the [cmdk](https://cmdk.paco.me/) component by 
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=233%3A755&mode=design&t=wga0nlDwi7on1yVl-1"
   />
+  <Card
+    title="📄 Cmdk Docs"
+    href="https://cmdk.paco.me/"
+  />
 </Cards>  
+

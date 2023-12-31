@@ -2,17 +2,16 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import './alert.css';
-import { cn } from '../../lib/twMerge';
+import { cn } from '@/lib/twMerge';
 
 
 const alertVariants = cva('alert-component', {
   variants: {
     status: {
       default: 'alert-default',
+      brand: 'alert-brand',
       danger: 'alert-danger',
       warning: 'alert-warning',
     },

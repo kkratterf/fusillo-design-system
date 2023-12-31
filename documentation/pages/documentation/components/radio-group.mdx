@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { RadioGroupPreview, RadioGroupDefault, RadioGroupWithForm,  RadioGroupAccessibility } from '../../../components/components-radio-group.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { radioGroupAccessibilityData } from '@/docs/components/accessibility/radio-group.mdx';
+import { RadioGroupPreview, RadioGroupDefault, RadioGroupWithForm } from '@/docs/components/components-radio-group.tsx'
 
 # 💠 Radio Group
 
@@ -192,5 +194,5 @@ Adheres to the `Radio Group` [WAI-ARIA design pattern](https://www.w3.org/WAI/AR
 
 ### Keyboard interactions
 
-<RadioGroupAccessibility />
+<AccessibilityTable rows={radioGroupAccessibilityData} />
 

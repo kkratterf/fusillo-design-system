@@ -2,13 +2,10 @@
 
 // Import core
 import * as React from 'react';
-// Import third parts
 import * as TogglePrimitive from '@radix-ui/react-toggle';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
-import { cn } from "../../lib/twMerge"
-import './toggle.css'
-
+import { cn } from "@/lib/twMerge"
 
 const toggleVariants = cva(
   "toggle-component",

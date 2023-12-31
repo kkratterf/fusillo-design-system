@@ -1,14 +1,8 @@
-/* Import style */
-@import '../../style/global.css';
-@import '../../style/foundations.css';
-@import '../../style/tokens.css';
-
-/* Import tailwind */
+/* Import tailwind & tailwind layer */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind layer */
 @layer components {
 
   .toast-viewport {
@@ -21,7 +15,7 @@
   }
 
   .toast-component-default {
-    @apply border border bg-elevated text;
+    @apply border border-border bg-elevated text;
   }
 
   .toast-component-brand {
@@ -37,11 +31,11 @@
   }
 
   .toast-action {
-    @apply inline-flex h-9 shrink-0 items-center justify-center rounded px-3 text-md-medium transition-colors disabled:pointer-events-none focus-visible:outline-none disabled:opacity-disabled;
-    &[data-variant='default'] { @apply border border-border bg-transparent ring-offset-elevated focus:ring-2 focus:ring-offset-2 hover:bg-item-hover focus:ring-brand; }
-    &[data-variant='brand'] { @apply border border-border bg-item text ring-offset-brand focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-brand-subtlest; }
-    &[data-variant='danger'] { @apply border border-border bg-item text ring-offset-danger focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-danger-subtlest; }
-    &[data-variant='warning'] { @apply border border-border bg-item text ring-offset-warning focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-warning-subtlest; }
+    @apply inline-flex h-9 shrink-0 items-center border border-border justify-center rounded px-3 text-md-medium transition-colors disabled:pointer-events-none focus-visible:outline-none disabled:opacity-disabled;
+    &[data-variant='default'] { @apply bg-transparent ring-offset-elevated focus:ring-2 focus:ring-offset-2 hover:bg-item-hover focus:ring-brand; }
+    &[data-variant='brand'] { @apply bg-item text ring-offset-brand focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-brand-subtlest; }
+    &[data-variant='danger'] { @apply bg-item text ring-offset-danger focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-danger-subtlest; }
+    &[data-variant='warning'] { @apply bg-item text ring-offset-warning focus:ring-2 focus:ring-offset-2 hover:bg-item-hover active:bg-item-selected focus:ring-warning-subtlest; }
   }
 
   .toast-close {

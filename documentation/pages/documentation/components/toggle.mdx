@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { TogglePreview, ToggleDefault, ToggleOutline, ToggleWithText, ToggleDisabled, ToggleAccessibility } from '../../../components/components-toggle.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { toggleAccessibilityData } from '@/docs/components/accessibility/toggle.mdx';
+import { TogglePreview, ToggleDefault, ToggleOutline, ToggleWithText, ToggleDisabled } from '@/docs/components/components-toggle.tsx'
 
 # 💠 Toggle
 
@@ -148,4 +150,4 @@ Avoid using Toggles for actions that require more deliberate consideration or ha
 
 ### Keyboard interactions
 
-<ToggleAccessibility />
+<AccessibilityTable rows={toggleAccessibilityData} />

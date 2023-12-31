@@ -1,5 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { CheckboxPreview, CheckboxDefault, CheckboxDisabled, CheckboxWithLabel, CheckboxWithFormSingle, CheckboxWithFormMultiple, CheckboxAccessibility } from '../../../components/components-checkbox.mdx'
+import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
+import { checkboxAccessibilityData } from '@/docs/components/accessibility/checkbox.mdx';
+import { CheckboxPreview, CheckboxDisabled, CheckboxWithLabel, CheckboxWithFormSingle, CheckboxWithFormMultiple } from '@/docs/components/components-checkbox.tsx'
 
 # 💠 Checkbox
 
@@ -10,7 +12,7 @@ A control that allows a user to select one or more options from a number of choi
     <CheckboxPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="checkbox.tsx"
     import { Checkbox } from "@/components/checkbox"
     
     export function CheckboxDemo() {
@@ -40,10 +42,10 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <CheckboxDefault />
+    <CheckboxPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="checkbox.tsx"
     import { Checkbox } from "@/components/checkbox"
     
     export function CheckboxDemo() {
@@ -60,16 +62,16 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
     <CheckboxDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6,7,8,9} /disabled/
+    ```js copy {6,7,8,9} /disabled/ filename="checkbox.tsx"
     import { Checkbox } from "@/components/checkbox"
     
     export function CheckboxDemo() {
         return (
-            <div>
+            <div className="flex items-center space-x-3">
                 <Checkbox id="terms-1" checked />
                 <Checkbox id="terms-2" checked disabled />
                 <Checkbox id="terms-3" />
-                <Checkbox id="terms-4" disabled/>
+                <Checkbox id="terms-4" disabled />
             </div>
         );
     }
@@ -84,15 +86,15 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
     <CheckboxWithLabel />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {8} /Label/
+    ```js copy {8} /Label/ filename="checkbox.tsx"
     import { Checkbox } from "@/components/checkbox"
     import { Label } from "@/components/label"
     
     export function CheckboxDemo() {
         return (
-            <div>
-                <Checkbox id="terms" />
-                <Label htmlFor="terms">Accept terms and conditions</Label>
+            <div className="flex items-center space-x-2">
+                <Checkbox id="terms-label" />
+                <Label htmlFor="terms-label">Accept terms and conditions</Label>
             </div>
         );
     }
@@ -107,7 +109,7 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
     <CheckboxWithFormSingle />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="checkbox.tsx"
     "use client"
  
     import Link from "next/link"
@@ -136,36 +138,38 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
             toast({
                 title: "You submitted the following values:",
                 description: (
-                    <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                    <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+                        <code className="text">{JSON.stringify(data, null, 2)}</code>
+                    </pre>
                 ),
             })
         }
     
     return (
         <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)}>
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                 <FormField
-                control={form.control}
-                name="mobile"
-                render={({ field }) => (
-                    <FormItem>
-                        <FormControl>
-                            <Checkbox
-                            checked={field.value}
-                            onCheckedChange={field.onChange}
-                            />
-                        </FormControl>
-                        <div>
-                            <FormLabel>
+                    control={form.control}
+                    name="mobile"
+                    render={({ field }) => (
+                        <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded border border-border p-4">
+                            <FormControl>
+                                <Checkbox
+                                checked={field.value}
+                                onCheckedChange={field.onChange}
+                                />
+                            </FormControl>
+                            <div className="space-y-1 leading-none">
+                                <FormLabel>
                                 Use different settings for my mobile devices
-                            </FormLabel>
-                            <FormDescription>
-                                You can manage your mobile notifications in the{" "}
+                                </FormLabel>
+                                <FormDescription>
+                                You can manage your mobile notifications in the{' '}
                                 <Link href="/examples/forms">mobile settings</Link> page.
-                            </FormDescription>
-                        </div>
-                    </FormItem>
-                )}
+                                </FormDescription>
+                            </div>
+                        </FormItem>
+                    )}
                 />
                 <Button type="submit">Submit</Button>
             </form>
@@ -181,7 +185,7 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
     <CheckboxWithFormMultiple />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="checkbox.tsx"
     "use client"
  
     import { zodResolver } from "@hookform/resolvers/zod"
@@ -238,56 +242,61 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
             toast({
                 title: "You submitted the following values:",
                 description: (
-                    <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                    <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+                        <code className="text">{JSON.stringify(data, null, 2)}</code>
+                    </pre>
                 ),
             })
         }
     
         return (
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)}>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
                     <FormField
                     control={form.control}
                     name="items"
                     render={() => (
                         <FormItem>
-                            <div>
-                                <FormLabel>Sidebar</FormLabel>
-                                <FormDescription>
-                                    Select the items you want to display in the sidebar.
-                                </FormDescription>
-                            </div>
-                            {items.map((item) => (
-                                <FormField
-                                key={item.id}
-                                control={form.control}
-                                name="items"
-                                render={({ field }) => {
-                                    return (
-                                    <FormItem key={item.id}>
-                                        <FormControl>
-                                            <Checkbox
-                                                checked={field.value?.includes(item.id)}
-                                                onCheckedChange={(checked) => {
-                                                return checked
-                                                    ? field.onChange([...field.value, item.id])
-                                                    : field.onChange(
-                                                        field.value?.filter(
-                                                        (value) => value !== item.id
-                                                        )
-                                                    )
-                                                }}
-                                            />
-                                        </FormControl>
-                                        <FormLabel>
-                                            {item.label}
-                                        </FormLabel>
-                                    </FormItem>
-                                    )
-                                }}
-                                />
-                            ))}
-                            <FormMessage />
+                        <div className="mb-4">
+                            <FormLabel className="text-lg-medium text">Sidebar</FormLabel>
+                            <FormDescription>
+                            Select the items you want to display in the sidebar.
+                            </FormDescription>
+                        </div>
+                        {items.map((item) => (
+                            <FormField
+                            key={item.id}
+                            control={form.control}
+                            name="items"
+                            render={({ field }) => {
+                                return (
+                                <FormItem
+                                    key={item.id}
+                                    className="flex flex-row items-start space-x-3 space-y-0"
+                                >
+                                    <FormControl>
+                                    <Checkbox
+                                        checked={field.value?.includes(item.id)}
+                                        onCheckedChange={(checked) => {
+                                        return checked
+                                            ? field.onChange([...field.value, item.id])
+                                            : field.onChange(
+                                                field.value?.filter(
+                                                (value) => value !== item.id
+                                                )
+                                            );
+                                        }}
+                                    />
+                                    </FormControl>
+                                    <FormLabel className="font-normal">
+                                    {item.label}
+                                    </FormLabel>
+                                </FormItem>
+                                );
+                            }}
+                            />
+                        ))}
+                        <FormMessage />
                         </FormItem>
                     )}
                     />
@@ -313,6 +322,10 @@ Avoid using Checkboxes for actions that have an immediate effect, as users might
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=233%3A753&mode=design&t=BNqih1pZMuav038B-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/checkbox#api-reference"
+  />
 </Cards>  
 
 ## Accessibility
@@ -321,4 +334,4 @@ Adheres to the [tri-state Checkbox WAI-ARIA design pattern](https://www.w3.org/W
 
 ### Keyboard interactions
 
-<CheckboxAccessibility />
+<AccessibilityTable rows={checkboxAccessibilityData} />

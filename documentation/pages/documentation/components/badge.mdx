@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { BadgePreview, BadgeDefault, BadgeDanger, BadgeWarning, BadgeSuccess, BadgeInfo, BadgeDiscovery } from '../../../components/components-badge.mdx'
+import { BadgePreview, BadgeDefault, BadgeBrand, BadgeDanger, BadgeWarning } from '@/docs/components/components-badge.tsx'
 
 # 💠 Badge
 
@@ -10,7 +10,7 @@ Visual indicator for states or numeric values such as tallies and scores.
     <BadgePreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="badge.tsx"
     import { Badge } from "@/components/badge"
     import { Activity } from "lucide-react" 
 
@@ -49,13 +49,13 @@ Avoid using Badges for detailed information that requires more context; instead,
     <BadgeDefault />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {7,11,14,17} /default/
+    ```js copy {7,11,14,17} /default/ filename="badge.tsx"
     import { Badge } from "@/components/badge"
     import { Activity } from "lucide-react" 
 
     export function BadgeDemo() {
         return (
-            <div>
+            <div className="grid justify-items-center gap-3 sm:flex">
                 <Badge status="default">
                     <Activity />
                     Active
@@ -76,6 +76,40 @@ Avoid using Badges for detailed information that requires more context; instead,
   </Tabs.Tab>
 </Tabs>
 
+### Brand
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <BadgeBrand />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {7,11,14,17} /info/ filename="badge.tsx"
+    import { Badge } from "@/components/badge"
+    import { Info } from "lucide-react" 
+
+    export function BadgeDemo() {
+        return (
+            <div className="grid justify-items-center gap-3 sm:flex">
+                <Badge status="info">
+                    <Info />
+                    Active
+                </Badge>
+                <Badge status="info">
+                    Active
+                </Badge>
+                <Badge status="info">
+                    <Info />
+                </Badge>
+                <Badge status="info">
+                    7
+                </Badge>
+            </div>
+        )
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
 ### Danger
 
 <Tabs items={['Preview', 'Code']}>
@@ -83,13 +117,13 @@ Avoid using Badges for detailed information that requires more context; instead,
     <BadgeDanger />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {7,11,14,17} /danger/
+    ```js copy {7,11,14,17} /danger/ filename="badge.tsx"
     import { Badge } from "@/components/badge"
     import { XCircle } from "lucide-react" 
 
     export function BadgeDemo() {
         return (
-            <div>
+            <div className="grid justify-items-center gap-3 sm:flex">
                 <Badge status="danger">
                     <XCircle />
                     Active
@@ -117,13 +151,13 @@ Avoid using Badges for detailed information that requires more context; instead,
     <BadgeWarning />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {7,11,14,17} /warning/
+    ```js copy {7,11,14,17} /warning/ filename="badge.tsx"
     import { Badge } from "@/components/badge"
     import { AlertTriangle } from "lucide-react" 
 
     export function BadgeDemo() {
         return (
-            <div>
+            <div className="grid justify-items-center gap-3 sm:flex">
                 <Badge status="warning">
                     <AlertTriangle />
                     Active
@@ -135,108 +169,6 @@ Avoid using Badges for detailed information that requires more context; instead,
                     <AlertTriangle />
                 </Badge>
                 <Badge status="warning">
-                    7
-                </Badge>
-            </div>
-        )
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Success
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <BadgeSuccess />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {7,11,14,17} /success/
-    import { Badge } from "@/components/badge"
-    import { CheckCircle } from "lucide-react" 
-
-    export function BadgeDemo() {
-        return (
-            <div>
-                <Badge status="success">
-                    <CheckCircle />
-                    Active
-                </Badge>
-                <Badge status="success">
-                    Active
-                </Badge>
-                <Badge status="success">
-                    <CheckCircle />
-                </Badge>
-                <Badge status="success">
-                    7
-                </Badge>
-            </div>
-        )
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Information
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <BadgeInfo />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {7,11,14,17} /info/
-    import { Badge } from "@/components/badge"
-    import { Info } from "lucide-react" 
-
-    export function BadgeDemo() {
-        return (
-            <div>
-                <Badge status="info">
-                    <Info />
-                    Active
-                </Badge>
-                <Badge status="info">
-                    Active
-                </Badge>
-                <Badge status="info">
-                    <Info />
-                </Badge>
-                <Badge status="info">
-                    7
-                </Badge>
-            </div>
-        )
-    }
-    ```
-  </Tabs.Tab>
-</Tabs>
-
-### Discovery
-
-<Tabs items={['Preview', 'Code']}>
-  <Tabs.Tab>
-    <BadgeDiscovery />
-  </Tabs.Tab>
-  <Tabs.Tab>
-    ```js copy {7,11,14,17} /discovery/
-    import { Badge } from "@/components/badge"
-    import { BrainCircuit } from "lucide-react" 
-
-    export function BadgeDemo() {
-        return (
-            <div>
-                <Badge status="discovery">
-                    <BrainCircuit />
-                    Active
-                </Badge>
-                <Badge status="discovery">
-                    Active
-                </Badge>
-                <Badge status="discovery">
-                    <BrainCircuit />
-                </Badge>
-                <Badge status="discovery">
                     7
                 </Badge>
             </div>

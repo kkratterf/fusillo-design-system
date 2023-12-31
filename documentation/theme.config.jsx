@@ -1,4 +1,8 @@
-import * as ds from './tokens/config.js';
+import * as ds from '@/docs/tokens/config.js';
+
+const EmptyComponent = () => {
+  return <></>;
+};
 
 export default {
   logo: <span className="docs_logo">{ds.ConfigName}</span>,
@@ -13,16 +17,22 @@ export default {
   footer: {
     component: null,
   },
-  editLink: {
-    text: null,
-  },
-  feedback: {
-    content: null,
-  },
   search: {
     loading: 'Loading...',
   },
   sidebar: {
     defaultMenuCollapseLevel: 1,
+    toggleButton: true,
+    autoCollapse: true,
   },
+  toc: {
+    backToTop: true,
+  },
+  editLink: {
+    component: EmptyComponent,
+  },
+  feedback: {
+    content: null,
+  },
+  gitTimestamp: null,
 };
