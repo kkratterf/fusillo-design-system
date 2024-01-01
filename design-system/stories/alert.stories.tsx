@@ -11,7 +11,7 @@ const meta: Meta<typeof Alert> = {
   argTypes: {
     status: {
       control: 'select',
-      options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
+      options: ['default', 'brand', 'danger', 'warning'],
       description:
         'Use the `status` prop to define the type of message communicated by the alert',
       table: {

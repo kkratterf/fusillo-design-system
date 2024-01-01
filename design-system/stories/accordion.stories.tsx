@@ -17,13 +17,14 @@ const meta: Meta<typeof Accordion> = {
       options: ['single', 'multiple'],
       control: { type: 'select' },
       description:
-        'Set the `type` property between `single` and `multiple` to enable one or more items to open at the same time',
+        'Determines whether one or multiple items can be opened at the same time.',
       table: {
         defaultValue: { summary: 'single' },
       },
     },
     collapsible: {
-      description: 'Use the `collapsible` prop to allow all items to close',
+      description:
+        'When `type` is `single`, allows closing content when clicking trigger for an open item.',
       table: {
         defaultValue: { summary: 'false' },
       },
@@ -33,7 +34,7 @@ const meta: Meta<typeof Accordion> = {
       options: ['item-1', 'item-2', 'item-3'],
       control: { type: 'select' },
       description:
-        'Use the `defaultValue` prop to define the open item by default',
+        'Use the `defaultValue` prop to define the open item or items by default',
     },
   },
   parameters: {
