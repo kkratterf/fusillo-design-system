@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { TextareaPreview, TextareaDefault, TextareaDisabled, TextareaWithText, TextareaWithForm } from '@/docs/components/components-textarea.tsx'
+import { TextareaPreview, TextareaDisabled, TextareaWithText, TextareaWithForm } from '@/docs/components/components-textarea.tsx'
 
 # 💠 Textarea
 
@@ -10,7 +10,7 @@ A text area lets users enter long form text which spans over multiple lines.
     <TextareaPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="textarea.tsx"
     import { Textarea } from "@/components/textarea"
     
     export function TextareaDemo() {
@@ -43,10 +43,10 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
 ### Default
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <TextareaDefault />
+    <TextareaPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy
+    ```js copy filename="textarea.tsx"
     import { Textarea } from "@/components/textarea"
     
     export function TextareaDemo() {
@@ -62,7 +62,7 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     <TextareaDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /disabled/
+    ```js copy {4} /disabled/ filename="textarea.tsx"
     import { Textarea } from "@/components/textarea"
     
     export function TextareaDemo() {
@@ -78,16 +78,18 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     <TextareaWithText />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {7,9}
+    ```js copy {7,9} filename="textarea.tsx"
     import { Textarea } from "@/components/textarea"
     import { Label } from "@/components/label"
     
     export function TextareaDemo() {
       return (
-        <div>
-          <Label htmlFor="message">Your Message</Label>
-          <Textarea placeholder="Type your message here." id="message" />
-          <p>Your message will be copied to the support team.</p>
+        <div className="grid w-full gap-3">
+          <Label htmlFor="message">Bio</Label>
+          <Textarea placeholder="Once upon a time..." id="message" />
+          <span className="text-md text-description">
+            You can @mention other users and organizations.
+          </span>
         </div>
       )
     }
@@ -101,7 +103,7 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     <TextareaWithForm />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="textarea.tsx"
     "use client"
 
     import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/form"
@@ -133,8 +135,8 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
         toast({
           title: "You submitted the following values:",
           description: (
-            <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-              <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+            <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+              <code className="text">{JSON.stringify(data, null, 2)}</code>
             </pre>
           ),
         })
@@ -142,33 +144,39 @@ Ensure that TextAreas are not so large as to be overwhelming, or so small as to 
     
       return (
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)}>
-            <FormItem className="space-y-2">
-              <FormLabel>Name</FormLabel>
-              <FormControl>
-                <Input value="Michael Scott" />
-              </FormControl>
-            </FormItem>
-            <FormField
-              control={form.control}
-              name="bio"
-              render={({ field }) => (
-                <FormItem className="space-y-2">
-                  <FormLabel>Bio</FormLabel>
-                  <FormControl>
-                    <Textarea
-                      placeholder="Once upon a time..."
-                      className="resize-none"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormDescription>
-                    You can <span>@mention</span> other users and organizations.
-                  </FormDescription>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
+            className="w-full space-y-10"
+          >
+            <div className="space-y-6">
+              <FormItem className="space-y-2">
+                <FormLabel>Name</FormLabel>
+                <FormControl>
+                  <Input value="Michael Scott" />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+              <FormField
+                control={form.control}
+                name="bio"
+                render={({ field }) => (
+                  <FormItem className="space-y-2">
+                    <FormLabel>Bio</FormLabel>
+                    <FormControl>
+                      <Textarea
+                        placeholder="Once upon a time..."
+                        className="resize-none"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormDescription>
+                      You can <span>@mention</span> other users and organizations.
+                    </FormDescription>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
             <Button type="submit">Submit</Button>
           </form>
         </Form>

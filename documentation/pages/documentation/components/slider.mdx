@@ -1,7 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
 import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
 import { sliderAccessibilityData } from '@/docs/components/accessibility/slider.mdx';
-import { SliderPreview, SliderDefault, SliderRange, SliderStep, SliderOverlap  } from '@/docs/components/components-slider.tsx'
+import { SliderPreview, SliderRange, SliderStep, SliderOverlap  } from '@/docs/components/components-slider.tsx'
 
 # 💠 Slider
 
@@ -12,7 +12,7 @@ An input where the user selects a value from within a given range.
     <SliderPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="slider.tsx"
     import { Slider } from "@/components/slider"
  
     export function SliderDemo() {
@@ -47,10 +47,10 @@ Avoid using Sliders for binary inputs, precise value entry (where a text box or 
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <SliderDefault />
+    <SliderPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="slider.tsx"
     import { Slider } from "@/components/slider"
  
     export function SliderDemo() {
@@ -75,7 +75,7 @@ Add multiple `values` to create a range slider.
     <SliderRange />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /[25, 75]/
+    ```js copy {6} /[25, 75]/ filename="slider.tsx"
     import { Slider } from "@/components/slider"
  
     export function SliderDemo() {
@@ -100,7 +100,7 @@ Use the `step` prop to increase the stepping interval.
     <SliderStep />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {8} /step/
+    ```js copy {8} /step/ filename="slider.tsx"
     import { Slider } from "@/components/slider"
  
     export function SliderDemo() {
@@ -125,7 +125,7 @@ Use `minStepsBetweenThumbs` to avoid thumbs with equal values.
     <SliderOverlap />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {9} /minStepsBetweenThumbs/
+    ```js copy {9} /minStepsBetweenThumbs/ filename="slider.tsx"
     import { Slider } from "@/components/slider"
  
     export function SliderDemo() {
@@ -155,6 +155,10 @@ Use `minStepsBetweenThumbs` to avoid thumbs with equal values.
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8879&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/slider#api-reference"
   />
 </Cards>  
 

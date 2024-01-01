@@ -10,11 +10,11 @@
     }
 
     .skeleton-line {
-        @apply h-4 w-full 
+        @apply h-4 w-full;
     }
 
     .skeleton-circle {
-        @apply h-12 w-12
+        @apply h-12 w-12;
     }
 
 }

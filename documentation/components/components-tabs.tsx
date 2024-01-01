@@ -22,7 +22,7 @@ import {
 
 export const TabsPreview = () => (
   <Preview>
-    <Tabs defaultValue="account" className="max-w-[400px]">
+    <Tabs defaultValue="account" className="w-96">
       <TabsList className="w-full">
         <TabsTrigger value="account">Account</TabsTrigger>
         <TabsTrigger value="password">Password</TabsTrigger>
@@ -31,7 +31,7 @@ export const TabsPreview = () => (
         <div className="space-y-2 mt-2">
           <div className="space-y-2">
             <p className="text-title-subsection">Account</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="text-md text-description">
               Make changes to your account here. Click save when you&apos;re
               done.
             </p>
@@ -55,7 +55,7 @@ export const TabsPreview = () => (
         <div className="space-y-2 mt-2">
           <div className="space-y-2">
             <p className="text-title-subsection">Password</p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
+            <p className="text-md text-description">
               Change your password here. After saving, you'll be logged out.
             </p>
           </div>
@@ -80,7 +80,7 @@ export const TabsPreview = () => (
 
 export const TabsDefault = () => (
   <Preview>
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="account" className="w-96">
       <TabsList>
         <TabsTrigger value="account">Account</TabsTrigger>
         <TabsTrigger value="password">Password</TabsTrigger>
@@ -95,7 +95,7 @@ export const TabsDefault = () => (
 
 export const TabsDefaultValue = () => (
   <Preview>
-    <Tabs defaultValue="password" className="w-[400px]">
+    <Tabs defaultValue="password" className="w-96">
       <TabsList>
         <TabsTrigger value="account">Account</TabsTrigger>
         <TabsTrigger value="password">Password</TabsTrigger>
@@ -110,7 +110,7 @@ export const TabsDefaultValue = () => (
 
 export const TabsDisabled = () => (
   <Preview>
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="account" className="w-96">
       <TabsList>
         <TabsTrigger value="account">Account</TabsTrigger>
         <TabsTrigger value="password" disabled>
@@ -127,7 +127,7 @@ export const TabsDisabled = () => (
 
 export const TabsWithIcon = () => (
   <Preview>
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="account" className="w-96">
       <TabsList>
         <TabsTrigger value="account">
           <User />
@@ -148,7 +148,7 @@ export const TabsWithIcon = () => (
 
 export const TabsWithCard = () => (
   <Preview>
-    <Tabs defaultValue="account" className="w-[400px]">
+    <Tabs defaultValue="account" className="w-96">
       <TabsList className="w-full">
         <TabsTrigger value="account">Account</TabsTrigger>
         <TabsTrigger value="password">Password</TabsTrigger>

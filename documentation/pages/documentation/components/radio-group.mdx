@@ -12,22 +12,22 @@ A set of checkable buttons—known as radio buttons—where no more than one of 
     <RadioGroupPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="radio-group.tsx"
     import { Label } from "@/components/label"
     import { RadioGroup, RadioGroupItem } from "@/components/radio-group"
     
     export function RadioGroupDemo() {
         return (
             <RadioGroup defaultValue="comfortable">
-                <div>
+                <div className="flex items-center space-x-2">
                     <RadioGroupItem value="default" id="r1" />
                     <Label htmlFor="r1">Default</Label>
                 </div>
-                <div>
+                <div className="flex items-center space-x-2">
                     <RadioGroupItem value="comfortable" id="r2" />
                     <Label htmlFor="r2">Comfortable</Label>
                 </div>
-                <div>
+                <div className="flex items-center space-x-2">
                     <RadioGroupItem value="compact" id="r3" />
                     <Label htmlFor="r3">Compact</Label>
                 </div>
@@ -61,22 +61,22 @@ Avoid using Radio Groups when multiple selections are allowed; checkboxes would 
     <RadioGroupDefault />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="radio-group.tsx"
     import { Label } from "@/components/label"
     import { RadioGroup, RadioGroupItem } from "@/components/radio-group"
     
     export function RadioGroupDemo() {
         return (
             <RadioGroup defaultValue="comfortable">
-                <div>
+                <div className="flex items-center space-x-2">
                     <RadioGroupItem value="default" id="r1" />
                     <Label htmlFor="r1">Default</Label>
                 </div>
-                <div>
+                <div className="flex items-center space-x-2">
                     <RadioGroupItem value="comfortable" id="r2" />
                     <Label htmlFor="r2">Comfortable</Label>
                 </div>
-                <div>
+                <div className="flex items-center space-x-2">
                     <RadioGroupItem value="compact" id="r3" />
                     <Label htmlFor="r3">Compact</Label>
                 </div>
@@ -94,7 +94,7 @@ Avoid using Radio Groups when multiple selections are allowed; checkboxes would 
     <RadioGroupWithForm />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="radio-group.tsx"
     "use client"
  
     import { zodResolver } from "@hookform/resolvers/zod"
@@ -121,46 +121,53 @@ Avoid using Radio Groups when multiple selections are allowed; checkboxes would 
             toast({
                 title: "You submitted the following values:",
                 description: (
-                    <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                    <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+                        <code className="text">{JSON.stringify(data, null, 2)}</code>
+                    </pre>
                 ),
             })
         }
     
         return (
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)}>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
                     <FormField
                     control={form.control}
                     name="type"
                     render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Notify me about...</FormLabel>
-                            <FormControl>
-                                <RadioGroup
-                                onValueChange={field.onChange}
-                                defaultValue={field.value}
-                                >
-                                    <FormItem>
-                                        <FormControl>
-                                            <RadioGroupItem value="all" />
-                                        </FormControl>
-                                        <FormLabel>All new messages</FormLabel>
-                                    </FormItem>
-                                    <FormItem>
-                                        <FormControl>
-                                            <RadioGroupItem value="mentions" />
-                                        </FormControl>
-                                        <FormLabel>Direct messages and mentions</FormLabel>
-                                    </FormItem>
-                                    <FormItem>
-                                        <FormControl>
-                                            <RadioGroupItem value="none" />
-                                        </FormControl>
-                                        <FormLabel>Nothing</FormLabel>
-                                    </FormItem>
-                                </RadioGroup>
-                            </FormControl>
-                            <FormMessage />
+                        <FormItem className="space-y-3">
+                        <FormLabel>Notify me about...</FormLabel>
+                        <FormControl>
+                            <RadioGroup
+                            onValueChange={field.onChange}
+                            defaultValue={field.value}
+                            className="flex flex-col space-y-1"
+                            >
+                            <FormItem className="flex items-center space-x-3 space-y-0">
+                                <FormControl>
+                                <RadioGroupItem value="all" />
+                                </FormControl>
+                                <FormLabel className="font-normal">
+                                All new messages
+                                </FormLabel>
+                            </FormItem>
+                            <FormItem className="flex items-center space-x-3 space-y-0">
+                                <FormControl>
+                                <RadioGroupItem value="mentions" />
+                                </FormControl>
+                                <FormLabel className="font-normal">
+                                Direct messages and mentions
+                                </FormLabel>
+                            </FormItem>
+                            <FormItem className="flex items-center space-x-3 space-y-0">
+                                <FormControl>
+                                <RadioGroupItem value="none" />
+                                </FormControl>
+                                <FormLabel className="font-normal">Nothing</FormLabel>
+                            </FormItem>
+                            </RadioGroup>
+                        </FormControl>
+                        <FormMessage />
                         </FormItem>
                     )}
                     />
@@ -185,6 +192,10 @@ Avoid using Radio Groups when multiple selections are allowed; checkboxes would 
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8873&mode=design&t=BNqih1pZMuav038B-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/radio-group#api-reference"
   />
 </Cards>
 

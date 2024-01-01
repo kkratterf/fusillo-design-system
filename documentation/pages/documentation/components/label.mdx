@@ -10,13 +10,13 @@ Renders an accessible label associated with controls.
     <LabelPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy
+    ```js copy filename="label.tsx"
     import { Checkbox } from "@/components/checkbox"
     import { Label } from "@/components/label"
     
     export function LabelDemo() {
         return (
-            <div>
+            <div className="flex items-center space-x-2">
                 <Checkbox id="terms" />
                 <Label htmlFor="terms">Accept terms and conditions</Label>
             </div>
@@ -49,13 +49,13 @@ Avoid using labels as placeholders within form controls, as this can cause usabi
     <LabelWithCheckbox />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {1,7} /Checkbox/
+    ```js copy {1,7} /Checkbox/ filename="label.tsx"
     import { Checkbox } from "@/components/checkbox"
     import { Label } from "@/components/label"
     
     export function LabelDemo() {
         return (
-            <div>
+            <div className="flex items-center space-x-2">
                 <Checkbox id="terms" />
                 <Label htmlFor="terms">Accept terms and conditions</Label>
             </div>
@@ -72,13 +72,13 @@ Avoid using labels as placeholders within form controls, as this can cause usabi
     <LabelWithInput />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {1,8} /Input/
+    ```js copy {1,8} /Input/ filename="label.tsx"
     import { Input } from "@/components/input"
     import { Label } from "@/components/label"
     
     export function LabelDemo() {
         return (
-            <div>
+            <div className="grid w-full max-w-sm items-center gap-3">
                 <Label htmlFor="email">Email</Label>
                 <Input type="email" id="email" placeholder="Email" />
             </div>
@@ -95,13 +95,13 @@ Avoid using labels as placeholders within form controls, as this can cause usabi
     <LabelWithTextArea />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {1,8} /Textarea/
+    ```js copy {1,8} /Textarea/ filename="label.tsx"
     import { Textarea } from "@/components/textarea"
     import { Label } from "@/components/label"
     
     export function LabelDemo() {
         return (
-            <div>
+            <div className="grid w-full gap-3">
                 <Label htmlFor="message">Your story</Label>
                 <Textarea placeholder="Once upon a time..." id="message" />
             </div>
@@ -123,6 +123,10 @@ Avoid using labels as placeholders within form controls, as this can cause usabi
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8868&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/label#api-reference"
   />
 </Cards>
 

@@ -10,24 +10,26 @@ Visually or semantically separates content.
     <SeparatorPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy
+    ```js copy filename="separator.tsx"
     import { Separator } from "@/components/separator"
  
     export function SeparatorDemo() {
         return (
             <div>
-                <div>
-                    <h4>{logo}</h4>
-                    <p>Crafting inclusive experiences for everyone</p>
-                </div>
-                <Separator/>
-                <div>
-                    <div>Blog</div>
-                    <Separator orientation="vertical" />
-                    <div>Docs</div>
-                    <Separator orientation="vertical" />
-                    <div>Source</div>
-                </div>
+              <div className="space-y-1">
+                <h4 className="text-lg-semibold leading-none">{logo}</h4>
+                <p className="text-md text-description">
+                  Crafting inclusive experiences for everyone
+                </p>
+              </div>
+              <Separator className="my-4" />
+              <div className="flex h-5 items-center space-x-4 text-md">
+                <div>Blog</div>
+                <Separator orientation="vertical" />
+                <div>Docs</div>
+                <Separator orientation="vertical" />
+                <div>Source</div>
+              </div>
             </div>
         )
     }
@@ -58,16 +60,18 @@ Avoid using Separators to decorate the interface or add visual flair; their prim
     <SeparatorHorizontal />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {7} /orientation="horizontal"/
+    ```js copy {7} /orientation="horizontal"/ filename="separator.tsx"
     import { Separator } from "@/components/separator"
  
     export function SeparatorDemo() {
         return (
             <div>
-                <h4>{logo}</h4>
-                <Separator orientation="horizontal"/>
-                <p>Crafting inclusive experiences for everyone</p>
-            </div> 
+                <h4 className="text-lg-semibold leading-none">{logo}</h4>
+                <Separator orientation="horizontal" className="my-4" />
+                <p className="text-md text-description">
+                  Crafting inclusive experiences for everyone
+                </p>
+            </div>
         )
     }
     ```
@@ -81,17 +85,17 @@ Avoid using Separators to decorate the interface or add visual flair; their prim
     <SeparatorVertical />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {7,9} /orientation="vertical"/
+    ```js copy {7,9} /orientation="vertical"/ filename="separator.tsx"
     import { Separator } from "@/components/separator"
  
     export function SeparatorDemo() {
         return (
-            <div>
-                <div>Blog</div>
-                <Separator orientation="vertical" />
-                <div>Docs</div>
-                <Separator orientation="vertical" />
-                <div>Source</div>
+            <div className="flex h-5 items-center space-x-4 text-md">
+              <div>Blog</div>
+              <Separator orientation="vertical" />
+              <div>Docs</div>
+              <Separator orientation="vertical" />
+              <div>Source</div>
             </div>
         )
     }
@@ -111,6 +115,10 @@ Avoid using Separators to decorate the interface or add visual flair; their prim
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8876&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/separator#api-reference"
   />
 </Cards>  
 

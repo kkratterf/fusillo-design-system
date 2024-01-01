@@ -1,7 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
 import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
 import { segmentedAccessibilityData } from '@/docs/components/accessibility/segmented.mdx';
-import { SegmentedPreview, SegmentedDefault, SegmentedDefaultValue, SegmentedDisabled, SegmentedWithIcon } from '@/docs/components/components-segmented.tsx'
+import { SegmentedPreview, SegmentedDefaultValue, SegmentedDisabled, SegmentedWithIcon } from '@/docs/components/components-segmented.tsx'
 
 # 💠 Segmented
 
@@ -12,7 +12,7 @@ Used to organize content by grouping similar information on the same area.
     <SegmentedPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="segmented.tsx"
     import { Segmented, SegmentedContent, SegmentedList, SegmentedTrigger } from "@/components/segmented"
  
     export function SegmentedDemo() {
@@ -22,8 +22,8 @@ Used to organize content by grouping similar information on the same area.
             <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
             <SegmentedTrigger value="list">List</SegmentedTrigger>
           </SegmentedList>
-          <SegmentedContent value="grid">Grid view.</SegmentedContent>
-          <SegmentedContent value="list">List view.</SegmentedContent>
+          <SegmentedContent value="grid">Grid view</SegmentedContent>
+          <SegmentedContent value="list">List view</SegmentedContent>
         </Segmented>
       )
     }
@@ -49,10 +49,10 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <SegmentedDefault />
+    <SegmentedPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="segmented.tsx"
     import { Segmented, SegmentedContent, SegmentedList, SegmentedTrigger } from "@/components/segmented";
  
     export function SegmentedDemo() {
@@ -62,8 +62,8 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
             <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
             <SegmentedTrigger value="list">List</SegmentedTrigger>
           </SegmentedList>
-          <SegmentedContent value="grid">Grid view.</SegmentedContent>
-          <SegmentedContent value="list">List view.</SegmentedContent>
+          <SegmentedContent value="grid">Grid view</SegmentedContent>
+          <SegmentedContent value="list">List view</SegmentedContent>
         </Segmented>
       )
     }
@@ -78,7 +78,7 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
     <SegmentedDefaultValue />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {5} /defaultValue/
+    ```js copy {5} /defaultValue/ filename="segmented.tsx"
     import { Segmented, SegmentedContent, SegmentedList, SegmentedTrigger } from "@/components/segmented";
  
     export function SegmentedDemo() {
@@ -88,8 +88,8 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
             <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
             <SegmentedTrigger value="list">List</SegmentedTrigger>
           </SegmentedList>
-          <SegmentedContent value="grid">Grid view.</SegmentedContent>
-          <SegmentedContent value="list">List view.</SegmentedContent>
+          <SegmentedContent value="grid">Grid view</SegmentedContent>
+          <SegmentedContent value="list">List view</SegmentedContent>
         </Segmented>
       )
     }
@@ -104,7 +104,7 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
     <SegmentedDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {8} /disabled/
+    ```js copy {8} /disabled/ filename="segmented.tsx"
     import { Segmented, SegmentedContent, SegmentedList, SegmentedTrigger } from "@/components/segmented";
  
     export function SegmentedDemo() {
@@ -114,8 +114,8 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
             <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
             <SegmentedTrigger value="list" disabled>List</SegmentedTrigger>
           </SegmentedList>
-          <SegmentedContent value="grid">Grid view.</SegmentedContent>
-          <SegmentedContent value="list">List view.</SegmentedContent>
+          <SegmentedContent value="grid">Grid view</SegmentedContent>
+          <SegmentedContent value="list">List view</SegmentedContent>
         </Segmented>
       )
     }
@@ -130,7 +130,7 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
     <SegmentedWithIcon />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {8,9} 
+    ```js copy {8,9} filename="segmented.tsx"
     import { Segmented, SegmentedContent, SegmentedList, SegmentedTrigger } from "@/components/segmented";
     import { Grid, List } from 'lucide-react';
  
@@ -141,8 +141,8 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
             <SegmentedTrigger value="grid"><Grid /></SegmentedTrigger>
             <SegmentedTrigger value="list"><List /></SegmentedTrigger>
           </SegmentedList>
-          <SegmentedContent value="grid">Grid view.</SegmentedContent>
-          <SegmentedContent value="list">List view.</SegmentedContent>
+          <SegmentedContent value="grid">Grid view</SegmentedContent>
+          <SegmentedContent value="list">List view</SegmentedContent>
         </Segmented>
       )
     }
@@ -165,9 +165,15 @@ Avoid using Segmented Controls when the options represent a workflow or a proces
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=763%3A3968&mode=design&t=BNqih1pZMuav038B-1"
   />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/tabs#api-reference"
+  />
 </Cards>  
 
 ## Accessibility
+
+Adheres to the [Tabs WAI-ARIA design pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/).
 
 ### Keyboard interactions
 

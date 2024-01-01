@@ -12,7 +12,7 @@ A set of layered sections of content—known as tab panels—that are displayed 
     <TabsPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="tabs.tsx"
     import { Button } from "@/components/button"
     import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/card"
     import { Input } from "@/components/input"
@@ -21,7 +21,7 @@ A set of layered sections of content—known as tab panels—that are displayed 
  
     export function TabsDemo() {
       return (
-        <Tabs defaultValue="account" className="max-w-[400px]">
+        <Tabs defaultValue="account" className="w-96">
           <TabsList className="w-full">
             <TabsTrigger value="account">Account</TabsTrigger>
             <TabsTrigger value="password">Password</TabsTrigger>
@@ -103,18 +103,18 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
     <TabsDefault />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="tabs.tsx"
     import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
  
     export function TabsDemo() {
       return (
-        <Tabs defaultValue="account">
+        <Tabs defaultValue="account" className="w-96">
           <TabsList>
             <TabsTrigger value="account">Account</TabsTrigger>
             <TabsTrigger value="password">Password</TabsTrigger>
           </TabsList>
-          <TabsContent value="account">Make changes to your account here.</TabsContent>
-          <TabsContent value="password">Change your password here.</TabsContent>
+          <TabsContent value="account">Make changes to your account here</TabsContent>
+          <TabsContent value="password">Change your password here</TabsContent>
         </Tabs>
       )
     }
@@ -129,18 +129,18 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
     <TabsDefaultValue />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {5} /defaultValue="password"/
+    ```js copy {5} /defaultValue="password"/ filename="tabs.tsx"
     import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
  
     export function TabsDemo() {
       return (
-        <Tabs defaultValue="password">
+        <Tabs defaultValue="password" className="w-96">
           <TabsList>
             <TabsTrigger value="account">Account</TabsTrigger>
             <TabsTrigger value="password">Password</TabsTrigger>
           </TabsList>
-          <TabsContent value="account">Make changes to your account here.</TabsContent>
-          <TabsContent value="password">Change your password here.</TabsContent>
+          <TabsContent value="account">Make changes to your account here</TabsContent>
+          <TabsContent value="password">Change your password here</TabsContent>
         </Tabs>
       )
     }
@@ -155,18 +155,18 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
     <TabsDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {8} /disabled/
+    ```js copy {8} /disabled/ filename="tabs.tsx"
     import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
  
     export function TabsDemo() {
       return (
-        <Tabs defaultValue="account">
+        <Tabs defaultValue="account" className="w-96">
           <TabsList>
             <TabsTrigger value="account">Account</TabsTrigger>
             <TabsTrigger value="password" disabled>Password</TabsTrigger>
           </TabsList>
-          <TabsContent value="account">Make changes to your account here.</TabsContent>
-          <TabsContent value="password">Change your password here.</TabsContent>
+          <TabsContent value="account">Make changes to your account here</TabsContent>
+          <TabsContent value="password">Change your password here</TabsContent>
         </Tabs>
       )
     }
@@ -181,19 +181,19 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
     <TabsWithIcon />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {2,8,9} /User/ /Lock/
+    ```js copy {2,8,9} /User/ /Lock/ filename="tabs.tsx"
     import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tabs"
     import { User, Lock } from 'lucide-react';
  
     export function TabsDemo() {
       return (
-        <Tabs defaultValue="account">
+        <Tabs defaultValue="account" className="w-96">
           <TabsList>
             <TabsTrigger value="account"><User />Account</TabsTrigger>
             <TabsTrigger value="password"><Lock />Password</TabsTrigger>
           </TabsList>
-          <TabsContent value="account">Make changes to your account here.</TabsContent>
-          <TabsContent value="password">Change your password here.</TabsContent>
+          <TabsContent value="account">Make changes to your account here</TabsContent>
+          <TabsContent value="password">Change your password here</TabsContent>
         </Tabs>
       )
     }
@@ -208,7 +208,7 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
     <TabsWithCard />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="tabs.tsx"
     import { Button } from "@/components/button"
     import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/card"
     import { Input } from "@/components/input"
@@ -217,7 +217,7 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
  
     export function TabsDemo() {
       return (
-        <Tabs defaultValue="account">
+        <Tabs defaultValue="account" className="w-96">
           <TabsList>
             <TabsTrigger value="account">Account</TabsTrigger>
             <TabsTrigger value="password">Password</TabsTrigger>
@@ -287,6 +287,10 @@ Avoid using Tabs for unrelated content that doesn’t require a clear separation
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8882&mode=design&t=7r34RfU06jHXNJDx-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/tabs#api-reference"
   />
 </Cards>  
 

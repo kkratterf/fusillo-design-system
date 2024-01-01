@@ -1,51 +1,13 @@
 'use client';
 
 // Import core
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useForm } from 'react-hook-form';
+import * as z from 'zod';
 // Import customs
 import Preview from '@/docs/components/preview';
 import { Textarea } from 'design-system/components/textarea';
 import { Label } from 'design-system/components/label';
-
-export const TextareaPreview = () => (
-  <Preview>
-    <Textarea placeholder="Once upon a time..." />
-  </Preview>
-);
-
-export const TextareaDefault = () => (
-  <Preview>
-    <Textarea placeholder="Once upon a time..." />
-  </Preview>
-);
-
-export const TextareaDisabled = () => (
-  <Preview>
-    <Textarea placeholder="Once upon a time..." disabled />
-  </Preview>
-);
-
-export const TextareaWithText = () => (
-  <Preview>
-    <div className="grid w-full gap-3">
-      <Label htmlFor="message">Bio</Label>
-      <Textarea placeholder="Once upon a time..." id="message" />
-      <span className="text-md text-description">
-        You can @mention other users and organizations.
-      </span>
-    </div>
-  </Preview>
-);
-
-export const TextareaWithForm = () => (
-  <Preview>
-    <TextareaFormDemo />
-  </Preview>
-);
-
-import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm } from 'react-hook-form';
-import * as z from 'zod';
-
 import {
   Form,
   FormControl,
@@ -59,6 +21,7 @@ import { Button } from 'design-system/components/button';
 import { Input } from 'design-system/components/input';
 import { toast } from 'design-system/components/toast/use-toast';
 
+
 const FormSchema = z.object({
   bio: z
     .string()
@@ -70,7 +33,7 @@ const FormSchema = z.object({
     }),
 });
 
-export function TextareaFormDemo() {
+const TextareaFormDemo = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -79,7 +42,7 @@ export function TextareaFormDemo() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -126,3 +89,34 @@ export function TextareaFormDemo() {
     </Form>
   );
 }
+
+
+export const TextareaPreview = () => (
+  <Preview>
+    <Textarea placeholder="Once upon a time..." />
+  </Preview>
+);
+
+export const TextareaDisabled = () => (
+  <Preview>
+    <Textarea placeholder="Once upon a time..." disabled />
+  </Preview>
+);
+
+export const TextareaWithText = () => (
+  <Preview>
+    <div className="grid w-full gap-3">
+      <Label htmlFor="message">Bio</Label>
+      <Textarea placeholder="Once upon a time..." id="message" />
+      <span className="text-md text-description">
+        You can @mention other users and organizations.
+      </span>
+    </div>
+  </Preview>
+);
+
+export const TextareaWithForm = () => (
+  <Preview>
+    <TextareaFormDemo />
+  </Preview>
+);

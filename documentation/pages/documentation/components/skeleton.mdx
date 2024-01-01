@@ -10,17 +10,17 @@ Use to show a placeholder while content is loading.
     <SkeletonPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="skeleton.tsx"
     import { Skeleton } from "@/components/skeleton"
  
     export function SkeletonDemo() {
         return (
-            <div>
-                <Skeleton shape="circle" />
-                <div>
-                    <Skeleton shape="line" />
-                    <Skeleton shape="line" />
-                </div>
+            <div className="flex items-center space-x-4">
+              <Skeleton shape="circle" />
+              <div className="space-y-2">
+                <Skeleton shape="line" className="w-60" />
+                <Skeleton shape="line" className="w-40" />
+              </div>
             </div>
         )
     }
@@ -51,7 +51,7 @@ Avoid using Skeleton screens for content that loads quickly, as their presence m
     <SkeletonCircle />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /shape="circle"/
+    ```js copy {4} /shape="circle"/ filename="skeleton.tsx"
     import { Skeleton } from "@/components/skeleton"
  
     export function SkeletonDemo() {
@@ -68,7 +68,7 @@ Avoid using Skeleton screens for content that loads quickly, as their presence m
     <SkeletonLine />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /shape="line"/
+    ```js copy {4} /shape="line"/ filename="skeleton.tsx"
     import { Skeleton } from "@/components/skeleton"
  
     export function SkeletonDemo() {
@@ -85,19 +85,19 @@ Avoid using Skeleton screens for content that loads quickly, as their presence m
     <SkeletonCard />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {2,6,7,13,14} /Card/ /CardContent/
+    ```js copy {2,6,7,13,14} /Card/ /CardContent/ filename="skeleton.tsx"
     import { Skeleton } from "@/components/skeleton"
     import { Card, CardContent } from "@/components/card"
  
     export function SkeletonDemo() {
         return (
             <Card>
-                <CardContent>
-                    <Skeleton shape="circle" />
-                    <div>
-                        <Skeleton shape="line" />
-                        <Skeleton shape="line" />
-                    </div>
+                <CardContent className="flex items-center space-x-4">
+                  <Skeleton shape="circle" />
+                  <div className="space-y-2">
+                    <Skeleton shape="line" className="w-60" />
+                    <Skeleton shape="line" className="w-40" />
+                  </div>
                 </CardContent>
             </Card>
         )

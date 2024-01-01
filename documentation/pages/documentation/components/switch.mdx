@@ -1,7 +1,7 @@
 import { Tabs, Cards, Card } from 'nextra/components';
 import { AccessibilityTable } from '@/docs/components/accessibility/accessibilityTable.mdx';
 import { switchAccessibilityData } from '@/docs/components/accessibility/switch.mdx';
-import { SwitchPreview, SwitchDefault, SwitchWithLabel, SwitchDisabled, SwitchWithForm  } from '@/docs/components/components-switch.tsx'
+import { SwitchPreview, SwitchWithLabel, SwitchDisabled, SwitchWithForm  } from '@/docs/components/components-switch.tsx'
 
 # 💠 Switch
 
@@ -12,7 +12,7 @@ A control that allows the user to toggle between checked and not checked.
     <SwitchPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="switch.tsx"
     import { Switch } from "@/components/switch"
  
     export function SwitchDemo() {
@@ -42,10 +42,10 @@ Avoid using a Switch when the action requires further confirmation or has signif
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <SwitchDefault />
+    <SwitchPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy
+    ```js copy filename="switch.tsx"
     import { Switch } from "@/components/switch"
  
     export function SwitchDemo() {
@@ -62,13 +62,13 @@ Avoid using a Switch when the action requires further confirmation or has signif
     <SwitchWithLabel />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {1,8} /Label/
+    ```js copy {1,8} /Label/ filename="switch.tsx"
     import { Label } from "@/components/label"
     import { Switch } from "@/components/switch"
  
     export function SwitchDemo() {
       return (
-        <div>
+        <div className="flex items-center space-x-2">
           <Switch id="airplane-mode" />
           <Label htmlFor="airplane-mode">Airplane Mode</Label>
         </div>
@@ -85,7 +85,7 @@ Avoid using a Switch when the action requires further confirmation or has signif
     <SwitchDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy
+    ```js copy filename="switch.tsx"
     import { Switch } from "@/components/switch"
  
     export function SwitchDemo() {
@@ -102,7 +102,7 @@ Avoid using a Switch when the action requires further confirmation or has signif
     <SwitchWithForm />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="switch.tsx"
     'use client';
 
     import { zodResolver } from '@hookform/resolvers/zod';
@@ -131,8 +131,8 @@ Avoid using a Switch when the action requires further confirmation or has signif
         toast({
           title: 'You submitted the following values:',
           description: (
-            <pre>
-              <code>{JSON.stringify(data, null, 2)}</code>
+            <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4 gap-4">
+              <code className="text">{JSON.stringify(data, null, 2)}</code>
             </pre>
           ),
         });
@@ -142,15 +142,15 @@ Avoid using a Switch when the action requires further confirmation or has signif
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="w-full space-y-6">
             <div>
-              <h3>Email Notifications</h3>
-              <div>
+              <h3 className="mb-4 text-lg-medium">Email Notifications</h3>
+              <div className="space-y-4">
                 <FormField
                   control={form.control}
                   name="marketing_emails"
                   render={({ field }) => (
-                    <FormItem>
-                      <div>
-                        <FormLabel>
+                    <FormItem className="flex flex-row items-center justify-between rounded-lg border border-border p-4 gap-4">
+                      <div className="space-y-0.5">
+                        <FormLabel className="text-base">
                           Marketing emails
                         </FormLabel>
                         <FormDescription>
@@ -170,9 +170,9 @@ Avoid using a Switch when the action requires further confirmation or has signif
                   control={form.control}
                   name="security_emails"
                   render={({ field }) => (
-                    <FormItem>
-                      <div>
-                        <FormLabel>Security emails</FormLabel>
+                    <FormItem className="flex flex-row items-center justify-between rounded-lg border border-border p-4">
+                      <div className="space-y-0.5">
+                        <FormLabel className="text-base">Security emails</FormLabel>
                         <FormDescription>
                           Receive emails about your account security.
                         </FormDescription>
@@ -210,7 +210,11 @@ Avoid using a Switch when the action requires further confirmation or has signif
   />
   <Card
     title="🪄 Figma"
-    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8880&mode=design&t=7r34RfU06jHXNJDx-1"
+    href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8880&mode=design&t=0h2A1JcKpKCfEWtt-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/switch#api-reference"
   />
 </Cards>  
 

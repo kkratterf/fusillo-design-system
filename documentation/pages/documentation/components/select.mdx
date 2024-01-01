@@ -14,14 +14,14 @@ Displays a list of options for the user to pick from—triggered by a button.
     <SelectPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy
+  ```js copy filename="select.tsx"
   import * as React from "react"
   import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/select"
  
   export function SelectDemo() {
     return (
         <Select>
-            <SelectTrigger>
+            <SelectTrigger className="w-48">
                 <SelectValue placeholder="Select a fruit" />
             </SelectTrigger>
             <SelectContent>
@@ -64,14 +64,14 @@ Avoid using Select components for very short lists where radio buttons or toggle
     <SelectPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy
+  ```js copy filename="select.tsx"
   import * as React from "react"
   import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/select"
  
   export function SelectDemo() {
     return (
         <Select>
-            <SelectTrigger>
+            <SelectTrigger className="w-48">
                 <SelectValue placeholder="Select a fruit" />
             </SelectTrigger>
             <SelectContent>
@@ -98,14 +98,14 @@ Avoid using Select components for very short lists where radio buttons or toggle
     <SelectScrollable />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy
+  ```js copy filename="select.tsx"
   import * as React from "react"
   import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/select"
  
   export function SelectScrollable() {
     return (
         <Select>
-            <SelectTrigger>
+            <SelectTrigger className="w-96">
                 <SelectValue placeholder="Select a timezone" />
             </SelectTrigger>
             <SelectContent>
@@ -176,7 +176,7 @@ Avoid using Select components for very short lists where radio buttons or toggle
     <SelectWithForm />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy
+  ```js copy filename="select.tsx"
   "use client"
 
   import Link from "next/link"
@@ -206,14 +206,16 @@ Avoid using Select components for very short lists where radio buttons or toggle
         toast({
             title: "You submitted the following values:",
             description: (
-                <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                <pre className="mt-2 w-[340px] bg-subtle rounded p-4 border border-border">
+                  <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+                </pre>
             ),
         })
     }
  
     return (
         <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)}>
+            <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
                 <FormField
                 control={form.control}
                 name="email"
@@ -261,6 +263,10 @@ Avoid using Select components for very short lists where radio buttons or toggle
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8875&mode=design&t=h85Ey3chnxVlElkp-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/select#api-reference"
   />
 </Cards>
 

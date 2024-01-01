@@ -23,22 +23,6 @@ export const ToggleGroupPreview = () => (
   </Preview>
 );
 
-export const ToggleGroupDefault = () => (
-  <Preview>
-    <ToggleGroup type="multiple">
-      <ToggleGroupItem value="bold" aria-label="Toggle bold">
-        <Bold />
-      </ToggleGroupItem>
-      <ToggleGroupItem value="italic" aria-label="Toggle italic">
-        <Italic />
-      </ToggleGroupItem>
-      <ToggleGroupItem value="strikethrough" aria-label="Toggle strikethrough">
-        <Underline />
-      </ToggleGroupItem>
-    </ToggleGroup>
-  </Preview>
-);
-
 export const ToggleGroupOutlined = () => (
   <Preview>
     <ToggleGroup variant="outline" type="multiple">

@@ -1,6 +1,9 @@
 'use client';
 
 // Import core
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useForm } from 'react-hook-form';
+import * as z from 'zod';
 // Import customs
 import Preview from '@/docs/components/preview';
 import { Label } from 'design-system/components/label';
@@ -8,56 +11,8 @@ import {
   RadioGroup,
   RadioGroupItem,
 } from 'design-system/components/radio-group';
-
-export const RadioGroupPreview = () => (
-  <Preview>
-    <RadioGroup defaultValue="comfortable">
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="default" id="r1" />
-        <Label htmlFor="r1">Default</Label>
-      </div>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="comfortable" id="r2" />
-        <Label htmlFor="r2">Comfortable</Label>
-      </div>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="compact" id="r3" />
-        <Label htmlFor="r3">Compact</Label>
-      </div>
-    </RadioGroup>
-  </Preview>
-);
-
-export const RadioGroupDefault = () => (
-  <Preview>
-    <RadioGroup defaultValue="comfortable">
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="default" id="r1" />
-        <Label htmlFor="r1">Default</Label>
-      </div>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="comfortable" id="r2" />
-        <Label htmlFor="r2">Comfortable</Label>
-      </div>
-      <div className="flex items-center space-x-2">
-        <RadioGroupItem value="compact" id="r3" />
-        <Label htmlFor="r3">Compact</Label>
-      </div>
-    </RadioGroup>
-  </Preview>
-);
-
-export const RadioGroupWithForm = () => (
-  <Preview>
-    <RadioGroupForm />
-  </Preview>
-);
-
-import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm } from 'react-hook-form';
-import * as z from 'zod';
-
 import { Button } from 'design-system/components/button';
+import { toast } from 'design-system/components/toast/use-toast';
 import {
   Form,
   FormControl,
@@ -67,7 +22,6 @@ import {
   FormMessage,
 } from 'design-system/components/form';
 
-import { toast } from 'design-system/components/toast/use-toast';
 
 const FormSchema = z.object({
   type: z.enum(['all', 'mentions', 'none'], {
@@ -75,7 +29,7 @@ const FormSchema = z.object({
   }),
 });
 
-export function RadioGroupForm() {
+const RadioGroupForm = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -84,7 +38,7 @@ export function RadioGroupForm() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -138,4 +92,49 @@ export function RadioGroupForm() {
       </form>
     </Form>
   );
-}
+};
+
+
+export const RadioGroupPreview = () => (
+  <Preview>
+    <RadioGroup defaultValue="comfortable">
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="default" id="r1" />
+        <Label htmlFor="r1">Default</Label>
+      </div>
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="comfortable" id="r2" />
+        <Label htmlFor="r2">Comfortable</Label>
+      </div>
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="compact" id="r3" />
+        <Label htmlFor="r3">Compact</Label>
+      </div>
+    </RadioGroup>
+  </Preview>
+);
+
+export const RadioGroupDefault = () => (
+  <Preview>
+    <RadioGroup defaultValue="comfortable">
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="default" id="r4" />
+        <Label htmlFor="r4">Default</Label>
+      </div>
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="comfortable" id="r5" />
+        <Label htmlFor="r5">Comfortable</Label>
+      </div>
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="compact" id="r6" />
+        <Label htmlFor="r6">Compact</Label>
+      </div>
+    </RadioGroup>
+  </Preview>
+);
+
+export const RadioGroupWithForm = () => (
+  <Preview>
+    <RadioGroupForm />
+  </Preview>
+);

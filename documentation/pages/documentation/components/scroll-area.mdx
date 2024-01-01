@@ -10,7 +10,7 @@ Augments native scroll functionality for custom, cross-browser styling.
     <ScrollAreaPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="scroll-area.tsx"
     import * as React from "react"
     import { ScrollArea } from "@/components/scroll-area"
     import { Separator } from "@/components/separator"
@@ -21,14 +21,16 @@ Augments native scroll functionality for custom, cross-browser styling.
     
     export function ScrollAreaDemo() {
         return (
-            <ScrollArea>
-                <div>
-                    <h4>Tags</h4>
+            <ScrollArea className="h-72 w-48 rounded border border-border">
+                <div className="p-4">
+                    <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
                     {tags.map((tag) => (
-                        <>
-                            <div key={tag}>{tag}</div>
-                            <Separator/>
-                        </>
+                    <>
+                        <div key={tag} className="text-md">
+                        {tag}
+                        </div>
+                        <Separator className="my-2" />
+                    </>
                     ))}
                 </div>
             </ScrollArea>
@@ -61,7 +63,7 @@ Avoid using a Scroll Area if it significantly alters the default scrolling behav
     <ScrollAreaPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="scroll-area.tsx"
     import * as React from "react"
     import { ScrollArea } from "@/components/scroll-area"
     import { Separator } from "@/components/separator"
@@ -72,14 +74,16 @@ Avoid using a Scroll Area if it significantly alters the default scrolling behav
     
     export function ScrollAreaDemo() {
         return (
-            <ScrollArea>
-                <div>
-                    <h4>Tags</h4>
+            <ScrollArea className="h-72 w-48 rounded border border-border">
+                <div className="p-4">
+                    <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
                     {tags.map((tag) => (
-                        <>
-                            <div key={tag}>{tag}</div>
-                            <Separator/>
-                        </>
+                    <>
+                        <div key={tag} className="text-md">
+                        {tag}
+                        </div>
+                        <Separator className="my-2" />
+                    </>
                     ))}
                 </div>
             </ScrollArea>
@@ -96,7 +100,7 @@ Avoid using a Scroll Area if it significantly alters the default scrolling behav
     <ScrollAreaHorizontal />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {46} /orientation="horizontal"/
+    ```js copy {46} /orientation="horizontal"/ filename="scroll-area.tsx"
     import * as React from "react"
     import Image from "next/image"
     import { ScrollArea, ScrollBar } from "@/components/scroll-area"
@@ -123,23 +127,24 @@ Avoid using a Scroll Area if it significantly alters the default scrolling behav
     
     export function ScrollAreaHorizontalDemo() {
         return (
-            <ScrollArea>
-                <div>
+            <ScrollArea className="w-96 whitespace-nowrap rounded border border-border">
+                <div className="flex w-max space-x-4 p-4">
                     {works.map((artwork) => (
-                        <figure key={artwork.artist}>
-                            <div>
-                                <Image
-                                    src={artwork.art}
-                                    alt={`Photo by ${artwork.artist}`}
-                                    width={300}
-                                    height={400}
-                                />
-                            </div>
-                            <figcaption>
-                                Photo by{" "}
-                                <span>{artwork.artist}</span>
-                            </figcaption>
-                        </figure>
+                    <figure key={artwork.artist} className="shrink-0">
+                        <div className="overflow-hidden rounded">
+                        <Image
+                            src={artwork.art}
+                            alt={`Photo by ${artwork.artist}`}
+                            className="aspect-[3/4] h-fit w-fit object-cover"
+                            width={300}
+                            height={400}
+                        />
+                        </div>
+                        <figcaption className="pt-2 text-sm text-description">
+                        Photo by{' '}
+                        <span className="font-semibold text">{artwork.artist}</span>
+                        </figcaption>
+                    </figure>
                     ))}
                 </div>
                 <ScrollBar orientation="horizontal" />
@@ -163,6 +168,10 @@ Avoid using a Scroll Area if it significantly alters the default scrolling behav
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8874&mode=design&t=BNqih1pZMuav038B-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/scroll-area#api-reference"
   />
 </Cards>
 

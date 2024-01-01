@@ -12,7 +12,7 @@ A floating, non-actionable label used to explain a user interface element or fea
     <TooltipPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="tooltip.tsx"
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
     import { FilePlus } from "lucide-react" 
@@ -65,7 +65,7 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
     <TooltipOutline />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {12} /type="outline"/
+    ```js copy {12} /type="outline"/ filename="tooltip.tsx"
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
     import { FilePlus } from "lucide-react" 
@@ -94,7 +94,7 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
     <TooltipFilled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {12} /type="fill"/
+    ```js copy {12} /type="fill"/ filename="tooltip.tsx"
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
     import { FilePlus } from "lucide-react" 
@@ -123,14 +123,14 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
     <TooltipSide />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {13, 23, 33, 43} /side/
+    ```js copy {13, 23, 33, 43} /side/ filename="tooltip.tsx"
     import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/tooltip"
     import { Button } from "@/components/button"
     import { FilePlus } from "lucide-react" 
     
     export function TooltipDemo() {
       return (
-        <>
+        <div className="grid justify-items-center sm:flex gap-5">
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -171,7 +171,7 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>
-        </>
+        </div>
       )
     }
     ```
@@ -191,6 +191,10 @@ Additionally, refrain from using Tooltips to provide instructions that are compl
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%94%B5-Fusillo-Design-System?type=design&node-id=540%3A8886&mode=design&t=ADS6PLdzJ7eQkKd7-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/tooltip#api-reference"
   />
 </Cards>  
 

@@ -20,7 +20,7 @@ A succinct message that is displayed temporarily.
     <ToastPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy
+  ```js copy filename="toast.tsx"
   "use client"
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -30,14 +30,14 @@ A succinct message that is displayed temporarily.
     
     return (
         <Button
-            variant="secondary"
-            onClick={() => {
-                toast({
-                    description: "Your message has been sent.",
-                })
-            }}
-            >
-                Show Toast
+          variant="secondary"
+          onClick={() => {
+            toast({
+              description: "Your message has been sent.",
+            })
+          }}
+        >
+          Show Toast
         </Button>
     )
   }
@@ -68,7 +68,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
     <ToastSimple />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy {13} /description/
+  ```js copy {13} /description/ filename="toast.tsx"
   "use client"
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -99,7 +99,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
     <ToastWithTitle/>
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy {13} /title/
+  ```js copy {13} /title/ filename="toast.tsx"
   "use client"
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -131,7 +131,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
     <ToastWithAction />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy {15} /action/
+  ```js copy {15} /action/ filename="toast.tsx"
   "use client" 
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -164,7 +164,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
     <ToastBrand />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy {16} /status: "info"/
+  ```js copy {16} /status: "brand"/ filename="toast.tsx"
   "use client"
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -180,7 +180,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
                     title: "Uh oh! Something went wrong.",
                     description: "There was a problem with your request.",
                     action: "Try again",
-                    status: "info",
+                    status: "brand",
                 })
             }}
             >
@@ -198,7 +198,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
     <ToastDanger />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy {16} /status: "danger"/
+  ```js copy {16} /status: "danger"/ filename="toast.tsx"
   "use client"
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -232,7 +232,7 @@ Avoid using Toasts for critical errors or information that requires immediate ac
     <ToastWarning />
   </Tabs.Tab>
   <Tabs.Tab>
-  ```js copy {16} /status: "warning"/
+  ```js copy {16} /status: "warning"/ filename="toast.tsx"
   "use client"
   import { Button } from "@/components/button"
   import { useToast } from "@/components/toast/use-toast"
@@ -272,6 +272,10 @@ Avoid using Toasts for critical errors or information that requires immediate ac
   <Card
     title="🪄 Figma"
     href="https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%8D%9D-Fusillo-Design-System?type=design&node-id=540%3A8884&mode=design&t=Aq9znIDZ1U4lgvQV-1"
+  />
+  <Card
+    title="🐝 API Reference"
+    href="https://www.radix-ui.com/primitives/docs/components/toast#api-reference"
   />
 </Cards>
 

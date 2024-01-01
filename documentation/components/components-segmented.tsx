@@ -16,21 +16,12 @@ export const SegmentedPreview = () => (
         <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
         <SegmentedTrigger value="list">List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
-    </Segmented>
-  </Preview>
-);
-
-export const SegmentedDefault = () => (
-  <Preview>
-    <Segmented defaultValue="grid">
-      <SegmentedList>
-        <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
-        <SegmentedTrigger value="list">List</SegmentedTrigger>
-      </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   </Preview>
 );
@@ -42,8 +33,12 @@ export const SegmentedDefaultValue = () => (
         <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
         <SegmentedTrigger value="list">List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   </Preview>
 );
@@ -57,8 +52,12 @@ export const SegmentedDisabled = () => (
           List
         </SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   </Preview>
 );
@@ -74,8 +73,12 @@ export const SegmentedWithIcon = () => (
           <List />
         </SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   </Preview>
 );

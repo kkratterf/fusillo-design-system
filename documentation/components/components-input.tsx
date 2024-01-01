@@ -1,64 +1,15 @@
 'use client';
 
 // Import core
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useForm } from 'react-hook-form';
+import * as z from 'zod';
 // Import customs
 import Preview from '@/docs/components/preview';
 import { Input } from 'design-system/components/input';
 import { Label } from 'design-system/components/label';
 import { Button } from 'design-system/components/button';
-
-export const InputPreview = () => (
-  <Preview>
-    <Input type="email" placeholder="Email" />
-  </Preview>
-);
-
-export const InputDefault = () => (
-  <Preview>
-    <Input type="email" placeholder="Email" />
-  </Preview>
-);
-
-export const InputFile = () => (
-  <Preview>
-    <Input type="file" />
-  </Preview>
-);
-
-export const InputDisabled = () => (
-  <Preview>
-    <Input placeholder="Email" disabled />
-  </Preview>
-);
-
-export const InputWithLabel = () => (
-  <Preview>
-    <div className="grid w-full max-w-sm items-center gap-3">
-      <Label htmlFor="email">Email</Label>
-      <Input type="email" id="email" placeholder="Email" />
-    </div>
-  </Preview>
-);
-
-export const InputWithButton = () => (
-  <Preview>
-    <div className="flex w-full max-w-sm items-center space-x-2">
-      <Input type="email" placeholder="Email" />
-      <Button type="submit">Subscribe</Button>
-    </div>
-  </Preview>
-);
-
-export const InputWithForm = () => (
-  <Preview>
-    <InputFormDemo />
-  </Preview>
-);
-
-import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm } from 'react-hook-form';
-import * as z from 'zod';
-
+import { toast } from 'design-system/components/toast/use-toast';
 import {
   Form,
   FormControl,
@@ -69,7 +20,6 @@ import {
   FormMessage,
 } from 'design-system/components/form';
 
-import { toast } from 'design-system/components/toast/use-toast';
 
 const FormSchema = z.object({
   username: z.string().min(2, {
@@ -77,7 +27,7 @@ const FormSchema = z.object({
   }),
 });
 
-export function InputFormDemo() {
+const InputFormDemo = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -89,7 +39,7 @@ export function InputFormDemo() {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -122,4 +72,47 @@ export function InputFormDemo() {
       </form>
     </Form>
   );
-}
+};
+
+
+export const InputPreview = () => (
+  <Preview>
+    <Input type="email" placeholder="Email" className="w-80" />
+  </Preview>
+);
+
+export const InputFile = () => (
+  <Preview>
+    <Input type="file" className="w-80" />
+  </Preview>
+);
+
+export const InputDisabled = () => (
+  <Preview>
+    <Input placeholder="Email" disabled className="w-80" />
+  </Preview>
+);
+
+export const InputWithLabel = () => (
+  <Preview>
+    <div className="grid w-80 max-w-sm items-center gap-3">
+      <Label htmlFor="email">Email</Label>
+      <Input type="email" id="email" placeholder="Email" />
+    </div>
+  </Preview>
+);
+
+export const InputWithButton = () => (
+  <Preview>
+    <div className="flex w-80 max-w-sm items-center space-x-2">
+      <Input type="email" placeholder="Email" />
+      <Button type="submit">Subscribe</Button>
+    </div>
+  </Preview>
+);
+
+export const InputWithForm = () => (
+  <Preview>
+    <InputFormDemo />
+  </Preview>
+);

@@ -9,12 +9,6 @@ export const SliderPreview = () => (
   </Preview>
 );
 
-export const SliderDefault = () => (
-  <Preview>
-    <Slider defaultValue={[25]} max={100} step={1} />
-  </Preview>
-);
-
 export const SliderRange = () => (
   <Preview>
     <Slider defaultValue={[25, 75]} max={100} step={1} />

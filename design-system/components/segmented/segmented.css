@@ -14,7 +14,7 @@
     }
 
     .segmented-content {
-        @apply mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2;
+        @apply mt-2 ring-offset-background text-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2;
     }
                                                                   
 }

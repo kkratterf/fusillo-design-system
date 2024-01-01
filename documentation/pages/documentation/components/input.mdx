@@ -1,5 +1,5 @@
 import { Tabs, Cards, Card } from 'nextra/components';
-import { InputPreview, InputDefault, InputFile, InputDisabled, InputWithLabel, InputWithButton, InputWithForm } from '@/docs/components/components-input.tsx'
+import { InputPreview, InputFile, InputDisabled, InputWithLabel, InputWithButton, InputWithForm } from '@/docs/components/components-input.tsx'
 
 # 💠 Input
 
@@ -10,11 +10,11 @@ A basic widget for getting the user input in a text field.
     <InputPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="input.tsx"
     import { Input } from "@/components/input"
  
     export function InputDemo() {
-        return <Input type="email" placeholder="Email" />
+        return <Input type="email" placeholder="Email" className="w-80"/>
     }
     ```
   </Tabs.Tab>
@@ -42,14 +42,14 @@ Avoid using Input components for non-textual data if more suitable controls exis
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <InputDefault />
+    <InputPreview />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="input.tsx"
     import { Input } from "@/components/input"
  
     export function InputDemo() {
-        return <Input type="email" placeholder="Email" />
+        return <Input type="email" placeholder="Email" className="w-80"/>
     }
     ```
   </Tabs.Tab>
@@ -62,11 +62,11 @@ Avoid using Input components for non-textual data if more suitable controls exis
     <InputFile />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /type="file"/
+    ```js copy {4} /type="file"/ filename="input.tsx"
     import { Input } from "@/components/input"
  
     export function InputDemo() {
-        return <Input type="file" />
+        return <Input type="file" className="w-80"/>
     }
     ```
   </Tabs.Tab>
@@ -79,11 +79,11 @@ Avoid using Input components for non-textual data if more suitable controls exis
     <InputDisabled />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {4} /disabled/
+    ```js copy {4} /disabled/ filename="input.tsx"
     import { Input } from "@/components/input"
  
     export function InputDemo() {
-        return <Input type="email" placeholder="Email" disabled/>
+        return <Input type="email" placeholder="Email" disabled className="w-80"/>
     }
     ```
   </Tabs.Tab>
@@ -96,15 +96,15 @@ Avoid using Input components for non-textual data if more suitable controls exis
     <InputWithLabel />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {2,7} /Label/
+    ```js copy {2,7} /Label/ filename="input.tsx"
     import { Input } from "@/components/input"
     import { Label } from "@/components/label"
     
     export function InputWithLabel() {
         return (
-            <div>
-                <Label htmlFor="email">Email</Label>
-                <Input type="email" id="email" placeholder="Email" />
+            <div className="grid w-80 max-w-sm items-center gap-3">
+              <Label htmlFor="email">Email</Label>
+              <Input type="email" id="email" placeholder="Email" />
             </div>
         )
     }
@@ -119,15 +119,15 @@ Avoid using Input components for non-textual data if more suitable controls exis
     <InputWithButton />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {1,8} /Button/
+    ```js copy {1,8} /Button/ filename="input.tsx"
     import { Button } from "@/components/button"
     import { Input } from "@/components/input"
     
     export function InputWithButton() {
         return (
-            <div>
-                <Input type="email" placeholder="Email" />
-                <Button type="submit">Subscribe</Button>
+            <div className="flex w-80 max-w-sm items-center space-x-2">
+              <Input type="email" placeholder="Email" />
+              <Button type="submit">Subscribe</Button>
             </div>
         )
     }
@@ -142,7 +142,7 @@ Avoid using Input components for non-textual data if more suitable controls exis
     <InputWithForm />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy 
+    ```js copy filename="input.tsx"
     'use client';
 
     import { zodResolver } from '@hookform/resolvers/zod';
@@ -172,14 +172,16 @@ Avoid using Input components for non-textual data if more suitable controls exis
             toast({
             title: 'You submitted the following values:',
             description: (
-                <pre><code>{JSON.stringify(data, null, 2)}</code></pre>
+                <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+                  <code className="text">{JSON.stringify(data, null, 2)}</code>
+                </pre>
             ),
             });
         }
 
         return (
             <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)}>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="w-[340px] space-y-6">
                     <FormField
                     control={form.control}
                     name="username"
