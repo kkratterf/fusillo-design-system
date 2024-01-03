@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Sun, 31 Dec 2023 16:40:46 GMT
+ * Generated on Wed, 03 Jan 2024 16:00:05 GMT
  */
 
 module.exports = {
-  "ConfigName": "Fusillo Design System",
+  "ConfigName": "Test ds",
   "ConfigVersion": "1.0.1",
   "ConfigBrand": "Al dente"
 };
