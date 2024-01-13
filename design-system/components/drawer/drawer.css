@@ -1,0 +1,36 @@
+/* Import tailwind & tailwind layer */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .drawer-overlay {
+    @apply fixed inset-0 z-50 bg-mask;
+  }
+
+  .drawer-content {
+    @apply fixed inset-x-0 bottom-0 z-50 mt-24 flex h-auto flex-col rounded-t-[10px] border bg-background;
+  }
+
+  .drawer-content-div {
+    @apply mx-auto mt-4 h-2 w-[100px] rounded-full bg-muted;
+  }
+
+  .drawer-header {
+    @apply grid gap-1 p-4 text-center sm:text-left;
+  }
+
+  .drawer-footer {
+    @apply mt-auto flex flex-col gap-2 p-4;
+  }
+
+  .drawer-title {
+    @apply text-lg font-semibold leading-none tracking-tight;
+  }
+
+  .drawer-description {
+    @apply text-md text-description;
+  }
+
+}

@@ -7,7 +7,7 @@ const EmptyComponent = () => {
 export default {
   logo: <span className="docs_logo">{ds.ConfigName}</span>,
   project: {
-    link: 'https://github.com/shuding/nextra',
+    link: 'https://github.com/al-dente-studio',
   },
   useNextSeoProps() {
     return {

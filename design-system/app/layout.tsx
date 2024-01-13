@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import '@/style/global.css';
 import { fontSans, fontMono } from '@/lib/fonts';
 import { Toaster } from '@/components/toast';
+import { Sonner } from '@/components/sonner';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className="dark">
         {children}
         <Toaster />
+        <Sonner />
       </body>
     </html>
   );

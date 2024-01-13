@@ -31,6 +31,14 @@ export {
   CardDescription,
   CardContent,
 } from './card';
+export {
+  type CarouselApi,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+} from './carousel';
 export { Checkbox } from './checkbox';
 export { Collapsible, CollapsibleTrigger, CollapsibleContent } from './collapsible';
 export {
@@ -73,6 +81,18 @@ export {
   DialogTitle,
   DialogDescription,
 } from './dialog';
+export {
+  Drawer,
+  DrawerPortal,
+  DrawerOverlay,
+  DrawerTrigger,
+  DrawerClose,
+  DrawerContent,
+  DrawerHeader,
+  DrawerFooter,
+  DrawerTitle,
+  DrawerDescription,
+} from './drawer';
 export {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -132,9 +152,19 @@ export {
   NavigationMenuIndicator,
   NavigationMenuViewport,
 } from './navigation-menu';
+export {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from './pagination';
 export { Popover, PopoverTrigger, PopoverContent } from './popover';
 export { Progress } from './progress';
 export { RadioGroup, RadioGroupItem } from './radio-group';
+export { ResizablePanelGroup, ResizablePanel, ResizableHandle } from './resizable';
 export { ScrollArea, ScrollBar } from './scroll-area';
 export { Segmented, SegmentedList, SegmentedTrigger, SegmentedContent } from './segmented';
 export {
@@ -164,6 +194,7 @@ export {
 } from './sheet';
 export { Skeleton, skeletonVariants } from './skeleton';
 export { Slider } from './slider';
+export { Sonner } from './sonner'
 export { Switch } from './switch';
 export {
   Table,

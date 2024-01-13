@@ -6,12 +6,7 @@ Design tokens are the single source of truth for naming, managing and preserving
 
 Design tokens are essentially pairs of names and values that capture discrete design elements. These elements could range from colors and typography to spacing and animation timing.
 
-For instance, a token might standardize a color used across multiple products, like `--color-bg-brand`.
-
-## What are themes?
-
-Themes in our design system are collections of token values that create a specific visual atmosphere or style. They enable us to seamlessly switch between different color schemes and stylistic elements through a unified set of design tokens.  
-Examples of themes include light and dark mode.
+For instance, a token might standardize a color used across multiple products, like `bg-brand`.
 
 ## Why use design tokens?
 
@@ -26,12 +21,12 @@ Implementing our latest visual guidelines through tokens ensures consistency acr
 Understanding token names is crucial for efficient use of the design system. Each part of a token's name provides insight into its application.  
 Let's take as examples: 
 
-`--color(1)-bg(2)-brand(3)`  
-`--color(1)-bg(2)-brand(3)-hover(3)`
+`bg(1)-brand(2)`  
+`bg(1)-brand(2)-hover(3)`
 
-- **1 - Foundation**: The fundamental visual attribute, like color, typography, or spacing.
-- **2 - Property**: The specific UI element it applies to, such as text, background, or border.
-- **3 - Modifier**: Additional information about the token’s purpose or state, like color roles or interaction states. Not all tokens have modifiers, for example, `--color-text` for the default text color.
+- **1 - Property**: The specific UI element it applies to, such as text, background, border, ecc.
+- **2 - Modifier**: Information about the color roles. Not all tokens have modifiers, for example, `text` and `icon` for the default text and icon color.
+- **3 - State**: Additional information about interaction states.
 
 ## Use design tokens
 

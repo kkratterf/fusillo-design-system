@@ -18,17 +18,8 @@
   },
   "contact": {
     "title": "Contact",
-    "type": "menu",
-    "items": {
-      "about": {
-        "title": "About",
-        "href": "/about"
-      },
-      "linkedin": {
-        "title": "Linkedin ↗",
-        "href": "https://twitter.com/shuding_",
-        "newWindow": true
-      }
-    }
+    "type": "page",
+    "href": "https://www.kkratter.com",
+    "newWindow": true
   }
 }

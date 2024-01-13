@@ -1,7 +1,27 @@
+import { Cards, Card } from 'nextra/components';
+import Link from 'next/link';
 import * as ds from '@/docs/tokens/config.js';
+import { HomepageCard } from '@/docs/components/homepage-card';
+import { Button } from 'design-system/components/button';
 
-# 👋 Fusillo Design System
+<section className='mt-10'>
+    <div className='max-w-screen-md'>
+        # Design. Share. Inspire.
 
-Lorem ipsum dolor sit amet **{ds.ConfigName}**.
+        Welcome to **{ds.ConfigName}**, where creativity and consistency come together to craft exceptional user experiences.
 
-[Get Started](/documentation/welcome)
+        <Button className="mt-10">
+        <Link href="/documentation/welcome">Get started</Link>
+        </Button>
+    </div>
+
+    ---
+
+    <Cards className="mt-10 grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+    <Card  title={<HomepageCard title="🏠 Foundations" description="Foundations provide the essential elements required to build captivating and complete user experiences." link="Explore our foundations" />} href="/documentation/foundations" />
+    <Card  title={<HomepageCard title="🔗 Tokens" description="Design tokens are the single source of truth for naming, managing and preserving design decisions." link="Explore our tokens" />} href="/documentation/tokens" />
+    <Card  title={<HomepageCard title="💠 Components" description="Components are the modular core of our design system, each serving a unique role in the user interface." link="Explore our components" />} href="/documentation/components" />
+    <Card  title={<HomepageCard title="✍️ Content" description="Our content guidelines emphasize our unique style and manner of expression, along with the details of our grammatical and stylistic choices." link="Explore our content" />} href="/documentation/content" />
+    </Cards>
+
+</section>

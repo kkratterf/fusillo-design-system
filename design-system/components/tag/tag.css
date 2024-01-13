@@ -11,7 +11,7 @@
     }
 
     .tag-default {
-        @apply bg-subtle text stroke-icon-active;
+        @apply bg-muted text stroke-icon-active;
     }
 
     .tag-brand {

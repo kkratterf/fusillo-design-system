@@ -42,27 +42,27 @@ input:focus-visible {
 }
 
 /* Tables css */
-table {
-  @apply w-full my-6 !important;
-}
-
-thead {
+.docs table {
   @apply w-full !important;
 }
 
-tr {
+.docs thead {
+  @apply w-full !important;
+}
+
+.docs tr {
   @apply w-full bg-transparent dark:bg-transparent even:bg-transparent border-0 !important;
 }
 
-th {
+.docs th {
   @apply border-t-0 border-x-0 p-1.5 !important;
 }
 
-tbody {
+.docs tbody {
   @apply w-full !important;
 }
 
-td {
+.docs td {
   @apply  border-t-0 border-x-0 p-1.5 !important;
 }
 
@@ -71,7 +71,7 @@ td {
 }
 
 .cell-value {
-  @apply w-16 sm:w-28 opacity-70 font-mono uppercase text-sm;
+  @apply w-16 sm:w-28 opacity-70 font-mono uppercase text-md;
 }
 
 .cell-token {
@@ -83,7 +83,7 @@ td {
 }
 
 .cell-value-scale {
-  @apply w-24 opacity-70 font-mono text-sm pr-4;
+  @apply w-24 opacity-70 font-mono text-md pr-4;
 }
 
 .cell-preview-scale {
@@ -91,15 +91,15 @@ td {
 }
 
 .cell-preview-tokens {
-  @apply w-40 h-8 rounded;
+  @apply w-24 sm:w-40 md:w-24 lg:w-40 h-8 rounded;
 }
 
 .cell-token-tokens {
-  @apply w-40 text-sm opacity-80;
+  @apply w-24 sm:w-40 md:w-24 lg:w-40 text-md opacity-80;
 }
 
 .cell-description-tokens {
-  @apply text-sm opacity-80 pl-0.5 pt-2;
+  @apply text-md opacity-80 pl-0.5 pt-2;
 }
 
 .cell-tokens {

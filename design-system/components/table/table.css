@@ -10,7 +10,7 @@
     }
 
     .table-component {
-        @apply w-full caption-bottom text-sm;
+        @apply w-full caption-bottom text-md;
     }
 
     .table-header {
@@ -38,7 +38,7 @@
     }
 
     .table-caption {
-        @apply mt-4 text-sm text-description;
+        @apply mt-4 text-md text-description;
     }
 
 }
