@@ -6,8 +6,8 @@
     "url": "https://www.kkratter.com/"
   },
   "scripts": {
-    "build figma-plugin": "webpack --mode=production",
-    "figma-plugin": "webpack --mode=development --watch"
+    "build plugin": "webpack --mode=production",
+    "plugin": "webpack --mode=development --watch"
   },
   "dependencies": {
     "@octokit/core": "^5.0.0",
@@ -17,9 +17,9 @@
     "react-figma-ui": "git+https://git@github.com/al-dente-studio/react-figma-ui"
   },
   "devDependencies": {
-    "@figma/plugin-typings": "^1.70.0",
     "@al-dente-studio/token-types": "git+https://github.com/al-dente-studio/token-types.git#1.0.1",
-    "@types/node": "^20.10.5",
+    "@figma/plugin-typings": "^1.84.0",
+    "@types/node": "^20.11.2",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "buffer": "^6.0.3",

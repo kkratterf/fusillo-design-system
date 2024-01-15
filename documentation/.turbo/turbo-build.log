@@ -4,6 +4,34 @@
 
    Linting and checking validity of types...
    Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/plugin.mjs for build dependencies failed at 'import(importPath)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './__temp__' in '/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist'
+<w> while resolving './__temp__' in /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist as file
+<w>  at resolve esm file ./__temp__
+<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
+<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
+<w>  at resolve esm file ./compile.mjs
+<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
+<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
+<w>  at resolve esm file ./dist/loader.mjs
+<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
+<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
+<w>  at resolve commonjs /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/plugin.mjs for build dependencies failed at 'import(importPath)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './__temp__' in '/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist'
+<w> while resolving './__temp__' in /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist as file
+<w>  at resolve esm file ./__temp__
+<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
+<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
+<w>  at resolve esm file ./compile.mjs
+<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
+<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
+<w>  at resolve esm file ./dist/loader.mjs
+<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
+<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
+<w>  at resolve commonjs /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
  ✓ Compiled successfully
    Collecting page data...
    Generating static pages (0/75)...
@@ -28,20 +56,20 @@ Route (pages)                                                 Size     First Loa
 ├ ○ /documentation/components/avatar                          3.85 kB         204 kB
 ├ ○ /documentation/components/badge                           3.7 kB          204 kB
 ├ ○ /documentation/components/button                          3.73 kB         204 kB
-├ ○ /documentation/components/calendar (692 ms)               6.6 kB          250 kB
+├ ○ /documentation/components/calendar                        6.6 kB          250 kB
 ├ ○ /documentation/components/card                            7.5 kB          230 kB
 ├ ○ /documentation/components/checkbox                        9.46 kB         218 kB
 ├ ○ /documentation/components/collapsible                     5.37 kB         205 kB
 ├ ○ /documentation/components/combobox                        6.59 kB         236 kB
 ├ ○ /documentation/components/command                         6.78 kB         225 kB
 ├ ○ /documentation/components/context-menu                    6.38 kB         228 kB
-├ ○ /documentation/components/data-table (561 ms)             35.5 kB         258 kB
-├ ○ /documentation/components/date-picker (661 ms)            5.3 kB          240 kB
+├ ○ /documentation/components/data-table (434 ms)             35.5 kB         258 kB
+├ ○ /documentation/components/date-picker (572 ms)            5.3 kB          240 kB
 ├ ○ /documentation/components/dialog                          5.8 kB          213 kB
-├ ○ /documentation/components/dropdown-menu (353 ms)          9.22 kB         232 kB
+├ ○ /documentation/components/dropdown-menu                   9.22 kB         232 kB
 ├ ○ /documentation/components/form                            7.26 kB         216 kB
 ├ ○ /documentation/components/hover-card                      6.19 kB         216 kB
-├ ○ /documentation/components/icon (648 ms)                   143 kB          343 kB
+├ ○ /documentation/components/icon (802 ms)                   143 kB          343 kB
 ├ ○ /documentation/components/input                           5.74 kB         215 kB
 ├ ○ /documentation/components/label                           5.24 kB         205 kB
 ├ ○ /documentation/components/menubar                         8.61 kB         230 kB

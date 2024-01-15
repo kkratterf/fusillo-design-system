@@ -11,10 +11,6 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@figma",
-      "./node_modules/@al-dente-studio"
-    ]
+    "types": ["@figma/plugin-typings", "node", "@al-dente-studio/token-types"]
   }
 }
