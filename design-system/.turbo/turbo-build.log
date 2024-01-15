@@ -2,30 +2,15 @@
 > design-system@1.0.1 build
 > next build
 
-   ▲ Next.js 14.0.4
 
-   Creating an optimized production build ...
- ✓ Compiled successfully
-   Linting and checking validity of types ...
- ⨯ ESLint: Failed to load config "turbo" to extend from. Referenced from: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/.eslintrc.json
-   Collecting page data ...
-   Generating static pages (0/4) ...
-   Generating static pages (1/4) 
-   Generating static pages (2/4) 
-   Generating static pages (3/4) 
- ✓ Generating static pages (4/4) 
-   Finalizing page optimization ...
-   Collecting build traces ...
-
-Route (app)                              Size     First Load JS
-┌ ○ /                                    781 B          97.8 kB
-└ ○ /_not-found                          870 B          82.7 kB
-+ First Load JS shared by all            81.8 kB
-  ├ chunks/938-35bc17b2f64c35b0.js       26.7 kB
-  ├ chunks/fd9d1056-7fda3e9b28bca7f7.js  53.3 kB
-  ├ chunks/main-app-68dd021c35de49fe.js  220 B
-  └ chunks/webpack-8b161749a42b44a6.js   1.65 kB
-
-
-○  (Static)  prerendered as static content
-
+> Build error occurred
+Error: > Couldn't find any `pages` or `app` directory. Please create one under the project root
+    at findPagesDir (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/node_modules/next/dist/lib/find-pages-dir.js:42:15)
+    at /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/node_modules/next/dist/build/index.js:237:73
+    at async Span.traceAsyncFn (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/node_modules/next/dist/trace/trace.js:147:20)
+    at async build (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/node_modules/next/dist/build/index.js:187:29)
+    at async main (/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system/node_modules/next/dist/bin/next:157:5)
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: design-system@1.0.1 
+npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/design-system 

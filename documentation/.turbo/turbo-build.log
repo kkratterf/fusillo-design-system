@@ -17,53 +17,53 @@
    Finalizing page optimization...
 
 Route (pages)                                                 Size     First Load JS
-┌ ○ /                                                         1.53 kB         202 kB
+┌ ○ /                                                         1.56 kB         201 kB
 ├   /_app                                                     0 B             196 kB
 ├ ○ /404                                                      184 B           196 kB
 ├ ○ /documentation/components                                 1.11 kB         201 kB
-├ ○ /documentation/components/accordion                       7.37 kB         207 kB
+├ ○ /documentation/components/accordion                       7.38 kB         207 kB
 ├ ○ /documentation/components/alert                           4.07 kB         204 kB
-├ ○ /documentation/components/alert-dialog                    4.6 kB          212 kB
+├ ○ /documentation/components/alert-dialog                    4.62 kB         212 kB
 ├ ○ /documentation/components/aspect-ratio                    3.24 kB         203 kB
-├ ○ /documentation/components/avatar                          3.84 kB         204 kB
+├ ○ /documentation/components/avatar                          3.85 kB         204 kB
 ├ ○ /documentation/components/badge                           3.7 kB          204 kB
 ├ ○ /documentation/components/button                          3.73 kB         204 kB
-├ ○ /documentation/components/calendar (764 ms)               6.6 kB          250 kB
+├ ○ /documentation/components/calendar (692 ms)               6.6 kB          250 kB
 ├ ○ /documentation/components/card                            7.5 kB          230 kB
-├ ○ /documentation/components/checkbox                        9.45 kB         219 kB
-├ ○ /documentation/components/collapsible                     5.36 kB         205 kB
+├ ○ /documentation/components/checkbox                        9.46 kB         218 kB
+├ ○ /documentation/components/collapsible                     5.37 kB         205 kB
 ├ ○ /documentation/components/combobox                        6.59 kB         236 kB
 ├ ○ /documentation/components/command                         6.78 kB         225 kB
-├ ○ /documentation/components/context-menu                    6.37 kB         228 kB
-├ ○ /documentation/components/data-table                      35.5 kB         258 kB
-├ ○ /documentation/components/date-picker (742 ms)            5.3 kB          240 kB
-├ ○ /documentation/components/dialog                          5.79 kB         214 kB
-├ ○ /documentation/components/dropdown-menu                   9.21 kB         232 kB
+├ ○ /documentation/components/context-menu                    6.38 kB         228 kB
+├ ○ /documentation/components/data-table (561 ms)             35.5 kB         258 kB
+├ ○ /documentation/components/date-picker (661 ms)            5.3 kB          240 kB
+├ ○ /documentation/components/dialog                          5.8 kB          213 kB
+├ ○ /documentation/components/dropdown-menu (353 ms)          9.22 kB         232 kB
 ├ ○ /documentation/components/form                            7.26 kB         216 kB
 ├ ○ /documentation/components/hover-card                      6.19 kB         216 kB
-├ ○ /documentation/components/icon (703 ms)                   143 kB          343 kB
+├ ○ /documentation/components/icon (648 ms)                   143 kB          343 kB
 ├ ○ /documentation/components/input                           5.74 kB         215 kB
 ├ ○ /documentation/components/label                           5.24 kB         205 kB
-├ ○ /documentation/components/menubar                         8.6 kB          230 kB
-├ ○ /documentation/components/popover                         4.78 kB         222 kB
+├ ○ /documentation/components/menubar                         8.61 kB         230 kB
+├ ○ /documentation/components/popover                         4.79 kB         222 kB
 ├ ○ /documentation/components/progress                        3.73 kB         204 kB
-├ ○ /documentation/components/radio-group                     9.89 kB         219 kB
+├ ○ /documentation/components/radio-group                     9.9 kB          219 kB
 ├ ○ /documentation/components/scroll-area                     9.26 kB         209 kB
-├ ○ /documentation/components/segmented                       4.08 kB         207 kB
-├ ○ /documentation/components/select                          8.83 kB         240 kB
+├ ○ /documentation/components/segmented                       4.1 kB          206 kB
+├ ○ /documentation/components/select                          8.84 kB         240 kB
 ├ ○ /documentation/components/separator                       3.61 kB         204 kB
-├ ○ /documentation/components/sheet                           6.18 kB         214 kB
-├ ○ /documentation/components/skeleton                        3.42 kB         204 kB
-├ ○ /documentation/components/slider                          7.06 kB         207 kB
-├ ○ /documentation/components/switch                          7.3 kB          217 kB
+├ ○ /documentation/components/sheet                           6.19 kB         214 kB
+├ ○ /documentation/components/skeleton                        3.42 kB         203 kB
+├ ○ /documentation/components/slider                          7.07 kB         207 kB
+├ ○ /documentation/components/switch                          7.3 kB          216 kB
 ├ ○ /documentation/components/table                           4.75 kB         205 kB
-├ ○ /documentation/components/tabs                            6.56 kB         209 kB
-├ ○ /documentation/components/tag                             3.49 kB         204 kB
+├ ○ /documentation/components/tabs                            6.57 kB         209 kB
+├ ○ /documentation/components/tag                             3.49 kB         203 kB
 ├ ○ /documentation/components/textarea                        5.68 kB         215 kB
-├ ○ /documentation/components/toast                           5.14 kB         205 kB
-├ ○ /documentation/components/toggle                          3.73 kB         204 kB
-├ ○ /documentation/components/toggle-group                    7.09 kB         207 kB
-├ ○ /documentation/components/tooltip                         7.7 kB          218 kB
+├ ○ /documentation/components/toast                           5.15 kB         205 kB
+├ ○ /documentation/components/toggle                          3.74 kB         204 kB
+├ ○ /documentation/components/toggle-group                    7.1 kB          207 kB
+├ ○ /documentation/components/tooltip                         7.71 kB         217 kB
 ├ ○ /documentation/content                                    956 B           201 kB
 ├ ○ /documentation/content/brand-vocabulary                   636 B           201 kB
 ├ ○ /documentation/content/content-accessibility              7.08 kB         207 kB
@@ -79,7 +79,7 @@ Route (pages)                                                 Size     First Loa
 ├ ○ /documentation/foundations/scale                          1.28 kB         208 kB
 ├ ○ /documentation/foundations/typography                     2.17 kB         202 kB
 ├ ○ /documentation/get-started                                701 B           201 kB
-├ ○ /documentation/get-started/content                        1.6 kB          202 kB
+├ ○ /documentation/get-started/content                        1.6 kB          201 kB
 ├ ○ /documentation/get-started/design                         1.73 kB         202 kB
 ├ ○ /documentation/get-started/develop                        1.72 kB         202 kB
 ├ ○ /documentation/resources                                  700 B           201 kB
@@ -95,9 +95,9 @@ Route (pages)                                                 Size     First Loa
 + First Load JS shared by all                                 737 kB
   ├ chunks/framework-729922d678744751.js                      45.2 kB
   ├ chunks/main-52c20b02eb7db31d.js                           36.4 kB
-  ├ chunks/pages/_app-716e5028afb42c00.js                     114 kB
+  ├ chunks/pages/_app-badbb2e903f17fbb.js                     113 kB
   ├ chunks/webpack-1ade288b913f8614.js                        1.05 kB
-  └ css/d49e81eac545a6d0.css                                  541 kB
+  └ css/ee131fbc1788ca71.css                                  541 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 

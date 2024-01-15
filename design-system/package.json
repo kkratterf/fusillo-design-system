@@ -3,11 +3,6 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
-    "test": "next test",
-    "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
     "build-storybook": "storybook build"
