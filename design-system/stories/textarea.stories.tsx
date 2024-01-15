@@ -100,12 +100,12 @@ const meta: Meta<typeof Textarea> = {
   argTypes: {
     placeholder: {
       description:
-        'Set the `placeholder` property to guide users in filling the textarea',
+        'Guide users in filling the textarea',
     },
     disabled: {
       control: 'boolean',
       description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met.',
+        'Prevent user actions when certain conditions are not met.',
       table: {
         defaultValue: { summary: 'false' },
         type: { summary: null },

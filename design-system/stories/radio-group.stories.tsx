@@ -105,7 +105,15 @@ const meta: Meta<typeof RadioGroup> = {
         type: { summary: null },
       },
     },
-    asChild: { table: { disable: true } },
+    asChild: {
+      control: 'boolean',
+      description:
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
   },
   parameters: {
     layout: 'centered',

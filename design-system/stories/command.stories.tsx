@@ -99,7 +99,7 @@ const CommandDialogDemo = () => {
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
-      if (e.key === 'j' && (e.metaKey || e.ctrlKey)) {
+      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();
         setOpen((open) => !open);
       }
@@ -113,14 +113,11 @@ const CommandDialogDemo = () => {
     <>
       <p className="text-sm text-description">
         Press{' '}
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border px-1.5 font-mono text-[10px] font-medium text-description opacity-visible">
-          <span className="text-xs">⌘</span>J
+        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1 font-mono text-[10px] font-medium text-description opacity-visible">
+          <span className="text-sm">⌘</span>K
         </kbd>
       </p>
-      <CommandDialog
-        open={open}
-        onOpenChange={setOpen}
-      >
+      <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>

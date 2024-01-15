@@ -16,6 +16,17 @@ const meta: Meta<typeof Table> = {
   component: Table,
   tags: ['autodocs'],
   argTypes: {},
+  parameters: {
+    docs: {
+      description: {
+        component: 'A responsive table component.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%A4%8C-Al-dente--%3E-Fusillo-Design-System?type=design&node-id=540%3A8881&mode=design&t=tRuDbCO0tu1RLI41-1',
+    },
+  },
 };
 export default meta;
 

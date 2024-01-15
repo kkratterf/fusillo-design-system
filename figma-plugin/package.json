@@ -1,14 +1,13 @@
 {
   "name": "figma-plugin",
   "version": "1.0.1",
-  "license": "MIT",
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"
   },
   "scripts": {
-    "build plugin": "webpack --mode=production",
-    "plugin": "webpack --mode=development --watch"
+    "build figma-plugin": "webpack --mode=production",
+    "figma-plugin": "webpack --mode=development --watch"
   },
   "dependencies": {
     "@octokit/core": "^5.0.0",

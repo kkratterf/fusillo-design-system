@@ -21,7 +21,7 @@ export const CollapsiblePreview = () => {
         className="w-[340px] space-y-2"
       >
         <div className="flex items-center justify-between space-x-4 px-4">
-          <p className="text-md-semibold">@kkratter starred 3 repositories</p>
+          <p className="text-md-semibold">@kkratterf starred 3 repositories</p>
           <CollapsibleTrigger asChild>
             <Button variant="text" icon={true}>
               <ChevronsUpDown />
@@ -40,7 +40,7 @@ export const CollapsiblePreview = () => {
             @design-system/components
           </div>
           <div className="rounded border px-4 py-3 font-mono text-md">
-            @design-system/data-visualization
+            @design-system/visualizations
           </div>
         </CollapsibleContent>
       </Collapsible>

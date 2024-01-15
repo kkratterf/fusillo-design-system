@@ -13,7 +13,7 @@ const meta: Meta<typeof ToggleGroup> = {
       control: 'radio',
       options: ['single', 'multiple'],
       description:
-        'Determines whether a `single` or `multiple` items can be pressed at a time',
+        'Define whether a `single` or `multiple` items can be pressed at a time',
       table: {
         defaultValue: { summary: 'multiple' },
         type: { summary: null },
@@ -22,7 +22,7 @@ const meta: Meta<typeof ToggleGroup> = {
     variant: {
       control: 'radio',
       options: ['default', 'outline'],
-      description: 'Determines the look of the of the toggle',
+      description: 'Define the look of the of the toggle',
       table: {
         defaultValue: { summary: 'default' },
         type: { summary: null },
@@ -31,7 +31,7 @@ const meta: Meta<typeof ToggleGroup> = {
     disabled: {
       control: 'boolean',
       description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met',
+        'Prevent user actions when certain conditions are not met',
       table: {
         defaultValue: { summary: 'false' },
         type: { summary: null },

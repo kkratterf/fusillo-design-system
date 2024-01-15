@@ -15,12 +15,8 @@ const meta: Meta<typeof Progress> = {
         'brand',
         'danger',
         'warning',
-        'success',
-        'info',
-        'discovery',
       ],
-      description:
-        'Use the `status` prop to define the type of message communicated by the badge.',
+      description: 'Define the type of message communicated by the badge.',
       table: {
         defaultValue: { summary: 'default' },
         type: { summary: null },
@@ -32,7 +28,15 @@ const meta: Meta<typeof Progress> = {
         type: { summary: null },
       },
     },
-    asChild: { table: { disable: true } },
+    asChild: {
+      control: 'boolean',
+      description:
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
   },
   args: {
     status: 'default',

@@ -20,7 +20,7 @@ const DatePickerDemo = () => {
         <Button
           variant={'secondary'}
           className={cn(
-            'w-[320px] justify-start text-left font-normal',
+            'w-72 justify-start text-left font-normal',
             !date && 'text-description'
           )}
         >

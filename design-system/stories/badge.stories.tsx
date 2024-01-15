@@ -19,9 +19,9 @@ const meta: Meta<typeof Badge> = {
   argTypes: {
     status: {
       control: 'select',
-      options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
+      options: ['default', 'brand', 'danger', 'warning'],
       description:
-        'Use the `status` prop to define the type of message communicated by the badge',
+        'Define the type of message communicated by the badge',
       table: {
         defaultValue: { summary: 'default' },
         type: { summary: null },
@@ -56,6 +56,7 @@ export const Default: Story = {
       <Badge {...args}>Active</Badge>
       <Badge {...args}>
         <Activity />
+        <span className='sr-only'>Active</span>
       </Badge>
       <Badge {...args}>7</Badge>
     </div>
@@ -75,6 +76,7 @@ export const Brand: Story = {
       <Badge {...args}>Information</Badge>
       <Badge {...args}>
         <Info />
+        <span className="sr-only">Information</span>
       </Badge>
       <Badge {...args}>7</Badge>
     </div>
@@ -94,6 +96,7 @@ export const Danger: Story = {
       <Badge {...args}>Error</Badge>
       <Badge {...args}>
         <XCircle />
+        <span className="sr-only">Error</span>
       </Badge>
       <Badge {...args}>7</Badge>
     </div>
@@ -113,6 +116,7 @@ export const Warning: Story = {
       <Badge {...args}>Caution</Badge>
       <Badge {...args}>
         <AlertTriangle />
+        <span className="sr-only">Caution</span>
       </Badge>
       <Badge {...args}>7</Badge>
     </div>

@@ -13,7 +13,7 @@ const meta: Meta<typeof Separator> = {
       control: 'radio',
       options: ['horizontal', 'vertical'],
       description:
-        'use the `orientation` prop to define the axis that will divide the separator',
+        'Define the axis that will divide the separator',
       table: {
         defaultValue: { summary: 'horizontal' },
         type: { summary: null },

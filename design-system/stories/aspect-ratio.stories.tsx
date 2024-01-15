@@ -11,12 +11,20 @@ const meta: Meta<typeof AspectRatio> = {
   argTypes: {
     ratio: {
       description:
-        'Use the `ratio` prop to set the ratio between the width and the height of the component.',
+        'Set the ratio between the width and the height of the component.',
       control: {
         type: 'number',
       },
     },
-    asChild: { table: { disable: true } },
+    asChild: {
+      control: 'boolean',
+      description:
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
   },
   parameters: {
     docs: {
@@ -42,7 +50,7 @@ export const Ratio16x9: Story = {
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
         fill
-        className="rounded object-cover"
+        className="rounded object-cover bg-subtle"
       />
     </AspectRatio>
   ),
@@ -58,7 +66,7 @@ export const Ratio4x3: Story = {
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
         fill
-        className="rounded object-cover"
+        className="rounded object-cover bg-subtle"
       />
     </AspectRatio>
   ),
@@ -74,7 +82,7 @@ export const Ratio3x2: Story = {
         src="https://images.unsplash.com/photo-1576075796033-848c2a5f3696?w=800&dpr=2&q=80"
         alt="Photo by Alvaro Pinot"
         fill
-        className="rounded object-cover"
+        className="rounded object-cover bg-subtle"
       />
     </AspectRatio>
   ),

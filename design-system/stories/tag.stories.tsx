@@ -24,7 +24,7 @@ const meta: Meta<typeof Tag> = {
         'warning',
       ],
       description:
-        'Use the `status` prop to define the type of message communicated by the badge',
+        'Define the type of message communicated by the badge',
       table: {
         defaultValue: { summary: 'default' },
         type: { summary: null },

@@ -23,8 +23,7 @@ const meta: Meta<typeof Slider> = {
     },
     max: {
       control: { type: 'number', min: 1, max: 10000, step: 1 },
-      description:
-        'Use the `max` prop to change the maximum value for the range.',
+      description: 'Define the maximum value for the range.',
       table: {
         defaultValue: { summary: 100 },
         type: { summary: null },
@@ -32,8 +31,7 @@ const meta: Meta<typeof Slider> = {
     },
     min: {
       control: { type: 'number', min: 0, max: 10000, step: 1 },
-      description:
-        'Use the `min` prop to change the minimum value for the range.',
+      description: 'Define the minimum value for the range.',
       table: {
         defaultValue: { summary: 0 },
         type: { summary: null },
@@ -41,7 +39,7 @@ const meta: Meta<typeof Slider> = {
     },
     step: {
       control: { type: 'number', min: 1, max: 10, step: 1 },
-      description: 'Use the `step` prop to change the stepping interval.',
+      description: 'Define the stepping interval.',
       table: {
         defaultValue: { summary: 1 },
         type: { summary: null },
@@ -49,8 +47,7 @@ const meta: Meta<typeof Slider> = {
     },
     minStepsBetweenThumbs: {
       control: { type: 'number', min: 1, max: 10, step: 1 },
-      description:
-        'Use `minStepsBetweenThumbs` to avoid thumbs with equal values.',
+      description: 'Avoid thumbs with equal values.',
       table: {
         defaultValue: { summary: 0 },
         type: { summary: null },
@@ -58,14 +55,21 @@ const meta: Meta<typeof Slider> = {
     },
     disabled: {
       control: 'boolean',
-      description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met.',
+      description: 'Prevent user actions when certain conditions are not met.',
       table: {
         defaultValue: { summary: 'false' },
         type: { summary: null },
       },
     },
-    asChild: { table: { disable: true } },
+    asChild: {
+      control: 'boolean',
+      description:
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
   },
   parameters: {
     docs: {

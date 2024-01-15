@@ -11,7 +11,15 @@ const meta: Meta<typeof Label> = {
   component: Label,
   tags: ['autodocs'],
   argTypes: {
-    asChild: { table: { disable: true } },
+    asChild: {
+      control: 'boolean',
+      description:
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
   },
   parameters: {
     layout: 'centered',
@@ -29,6 +37,7 @@ const meta: Meta<typeof Label> = {
 export default meta;
 
 type LabelCustomProps = {
+  htmlFor?: string;
   label?: string;
 };
 
@@ -37,23 +46,30 @@ type Story = StoryObj<LabelCustomProps>;
 export const WithCheckbox: Story = {
   render: (args) => (
     <div className="flex items-center space-x-2">
-      <Checkbox id="terms" />
-      <Label htmlFor="terms">{args.label}</Label>
+      <Checkbox id={args.htmlFor} />
+      <Label htmlFor={args.htmlFor}>{args.label}</Label>
     </div>
   ),
   args: {
+    htmlFor: 'terms',
     label: 'Accept terms and conditions',
+  },
+  argTypes: {
+    htmlFor: {
+      description: 'The id of the element the label is associated with.',
+    },
   },
 };
 
 export const WithInput: Story = {
   render: (args) => (
     <div className="grid w-[320px] max-w-sm items-center gap-3">
-      <Label htmlFor="email">{args.label}</Label>
-      <Input type="email" id="email" placeholder="Email" />
+      <Label htmlFor={args.htmlFor}>{args.label}</Label>
+      <Input type="email" id={args.htmlFor} placeholder="Email" />
     </div>
   ),
   args: {
+    htmlFor: 'email',
     label: 'Email',
   },
 };
@@ -61,11 +77,12 @@ export const WithInput: Story = {
 export const WithTextarea: Story = {
   render: (args) => (
     <div className="grid w-[320px] gap-3">
-      <Label htmlFor="message">{args.label}</Label>
-      <Textarea placeholder="Once upon a time..." id="message" />
+      <Label htmlFor={args.htmlFor}>{args.label}</Label>
+      <Textarea placeholder="Once upon a time..." id={args.htmlFor} />
     </div>
   ),
   args: {
+    htmlFor: 'message',
     label: 'Your story',
   },
 };

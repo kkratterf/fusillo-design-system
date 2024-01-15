@@ -53,6 +53,14 @@ const FormSchema = z.object({
 });
 
 export const Default: Story = {
+  args: {
+    mode: 'single',
+    className: 'rounded border border-border w-fit',
+  },
+  argTypes: {
+    mode: { table: { disable: true } },
+    className: { table: { disable: true } },
+  },
 };
 
 export const CalendarForm: Story = {
@@ -103,7 +111,7 @@ const ExampleCalendarForm = (args: Story['args']) => {
                         ) : (
                           <span>Pick a date</span>
                         )}
-                        <CalendarIcon className="ml-auto h-4 w-4 opacity-disabled" />
+                        <CalendarIcon className="ml-auto opacity-disabled" />
                       </Button>
                     </FormControl>
                   </PopoverTrigger>

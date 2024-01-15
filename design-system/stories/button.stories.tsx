@@ -10,7 +10,7 @@ const meta: Meta<typeof Button> = {
   tags: ['autodocs'],
   argTypes: {
     title: {
-      description: 'Use the `title`prop to specify the text label displayed on the button.',
+      description: 'Define the text label displayed on the button.',
       table: {
         type: { summary: null },
       },
@@ -18,15 +18,29 @@ const meta: Meta<typeof Button> = {
     variant: {
       control: 'select',
       options: ['primary', 'secondary', 'text', 'link', 'danger'],
-      description:
-        'Use the `variant` prop to define the priority of the button',
+      description: 'Define the priority of the button',
       table: {
         defaultValue: { summary: 'primary' },
         type: { summary: null },
       },
     },
-    icon: { table: { disable: true } },
-    asChild: { table: { disable: true } },
+    icon: {
+      control: 'boolean',
+      description: 'Display an icon button',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
+    asChild: {
+      control: 'boolean',
+      description:
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
+    },
   },
   args: {
     title: 'Button',
@@ -58,26 +72,12 @@ export const Primary: Story = {
     title: 'Primary',
     variant: 'primary',
   },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
-  },
 };
 
 export const Secondary: Story = {
   args: {
     title: 'Secondary',
     variant: 'secondary',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
   },
 };
 
@@ -86,13 +86,6 @@ export const Text: Story = {
     title: 'Text',
     variant: 'text',
   },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
-  },
 };
 
 export const Link: Story = {
@@ -100,26 +93,12 @@ export const Link: Story = {
     title: 'Link',
     variant: 'link',
   },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
-  },
 };
 
 export const Danger: Story = {
   args: {
     title: 'Danger',
     variant: 'danger',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Cool description bro',
-      },
-    },
   },
 };
 
@@ -135,6 +114,8 @@ export const WithIcon: Story = {
   },
   argTypes: {
     title: { table: { disable: true } },
+    icon: { table: { disable: true } },
+    asChild: { table: { disable: true } },
   },
 };
 
@@ -142,20 +123,16 @@ export const Icon: Story = {
   render: (args) => (
     <Button {...args} icon={true}>
       <Search />
+      <span className="sr-only">search</span>
     </Button>
   ),
   args: {
     title: undefined,
     variant: 'secondary',
+    icon: true,
   },
   argTypes: {
     title: { table: { disable: true } },
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Set the `icon` prop to `true` to display an icon button',
-      },
-    },
+    asChild: { table: { disable: true } }
   },
 };

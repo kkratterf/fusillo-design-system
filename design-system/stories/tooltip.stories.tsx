@@ -45,6 +45,7 @@ export const Outline: Story = {
           <div className="my-6">
             <Button variant="secondary" icon={true}>
               <FilePlus />
+              <span className="sr-only">Add to library</span>
             </Button>
           </div>
         </TooltipTrigger>
@@ -62,8 +63,7 @@ export const Outline: Story = {
     type: {
       control: 'radio',
       options: ['outline', 'fill'],
-      description:
-        'Use the `type` prop to define the look and feel of the tooltip',
+      description: 'Define the look and feel of the tooltip',
       table: {
         defaultValue: { summary: 'outline' },
         type: { summary: null },
@@ -72,8 +72,7 @@ export const Outline: Story = {
     side: {
       control: 'select',
       options: ['top', 'bottom', 'left', 'right'],
-      description:
-        'Use the `side` prop to define the direction in which the tooltip will open',
+      description: 'Define the direction in which the tooltip will open',
       table: {
         defaultValue: { summary: 'top' },
         type: { summary: null },
@@ -90,6 +89,7 @@ export const Fill: Story = {
           <div className="my-6">
             <Button variant="secondary" icon={true}>
               <FilePlus />
+              <span className="sr-only">Add to library</span>
             </Button>
           </div>
         </TooltipTrigger>
@@ -132,6 +132,7 @@ export const Side: Story = {
           <TooltipTrigger asChild>
             <Button variant="secondary" icon={true}>
               <FilePlus />
+              <span className="sr-only">Add to library</span>
             </Button>
           </TooltipTrigger>
           <TooltipContent side="top">
@@ -144,6 +145,7 @@ export const Side: Story = {
           <TooltipTrigger asChild>
             <Button variant="secondary" icon={true}>
               <FilePlus />
+              <span className="sr-only">Add to library</span>
             </Button>
           </TooltipTrigger>
           <TooltipContent side="bottom">
@@ -156,6 +158,7 @@ export const Side: Story = {
           <TooltipTrigger asChild>
             <Button variant="secondary" icon={true}>
               <FilePlus />
+              <span className="sr-only">Add to library</span>
             </Button>
           </TooltipTrigger>
           <TooltipContent side="left">
@@ -168,6 +171,7 @@ export const Side: Story = {
           <TooltipTrigger asChild>
             <Button variant="secondary" icon={true}>
               <FilePlus />
+              <span className="sr-only">Add to library</span>
             </Button>
           </TooltipTrigger>
           <TooltipContent side="right">

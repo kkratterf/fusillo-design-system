@@ -85,7 +85,7 @@ export const Default: Story = {
       control: 'select',
       options: ['top', 'bottom', 'left', 'right'],
       description:
-        'Use the `side` prop to define the direction in which the sheet will open',
+        'Define the direction in which the sheet will open',
       table: {
         defaultValue: { summary: 'right' },
         type: { summary: null },

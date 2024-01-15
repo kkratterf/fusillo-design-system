@@ -29,12 +29,19 @@ const meta: Meta<typeof Accordion> = {
         defaultValue: { summary: 'false' },
       },
     },
-    asChild: { table: { disable: true } },
     defaultValue: {
       options: ['item-1', 'item-2', 'item-3'],
       control: { type: 'select' },
+      description: 'The value of the item to expand when initially rendered',
+    },
+    asChild: {
+      control: 'boolean',
       description:
-        'Use the `defaultValue` prop to define the open item or items by default',
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
+      table: {
+        defaultValue: { summary: false },
+        type: { summary: null },
+      },
     },
   },
   parameters: {
@@ -83,15 +90,7 @@ export const Single: Story = {
     type: 'single',
     collapsible: false,
     defaultValue: undefined,
-  },
-  parameters: {
-    docs: {
-      description: {
-        story:
-          'Set the `type` property to `single` to enable only one item to open at a time.',
-      },
-    },
-  },
+  }
 };
 
 export const Multiple: Story = {
@@ -121,14 +120,6 @@ export const Multiple: Story = {
   args: {
     type: 'multiple',
   },
-  parameters: {
-    docs: {
-      description: {
-        story:
-          'Set the `type` prop to `multiple` to enable opening multiple items at once.',
-      },
-    },
-  },
 };
 
 export const Collapsible: Story = {
@@ -156,13 +147,6 @@ export const Collapsible: Story = {
   args: {
     type: 'single',
     collapsible: true,
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Use the `collapsible` prop to allow all items to close.',
-      },
-    },
   },
 };
 
@@ -194,12 +178,5 @@ export const DefaultValue: Story = {
     type: 'single',
     collapsible: false,
     defaultValue: 'item-2',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story: 'Use the `defaultValue` prop to define the open item by default.',
-      },
-    },
   },
 };

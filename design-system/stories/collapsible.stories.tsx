@@ -42,7 +42,7 @@ const CollapsibleDemo = ({
       {...restArgs}
     >
       <div className="flex items-center justify-between space-x-4 px-4">
-        <p className="text-md-semibold">@kkratter starred 3 repositories</p>
+        <p className="text-md-semibold">@kkratterf starred 3 repositories</p>
         <CollapsibleTrigger asChild>
           <Button variant="text" icon={true}>
             <ChevronsUpDown />
@@ -61,7 +61,7 @@ const CollapsibleDemo = ({
           @design-system/components
         </div>
         <div className="rounded border px-4 py-3 font-mono text-md">
-          @design-system/data-visualization
+          @design-system/visualizations
         </div>
       </CollapsibleContent>
     </Collapsible>
@@ -77,10 +77,6 @@ const meta: Meta<typeof Collapsible> = {
       control: 'boolean',
       description: 'The controlled open state of the collapsible.',
     },
-    onOpenChange: {
-      description:
-        'Event handler called when the open state of the collapsible changes.',
-    },
     defaultOpen: {
       control: 'boolean',
       description:
@@ -91,14 +87,18 @@ const meta: Meta<typeof Collapsible> = {
     },
     disabled: {
       control: 'boolean',
+      description: 'Prevent user actions when certain conditions are not met.',
+    },
+    asChild: {
+      control: 'boolean',
       description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met.',
+        'Change the default rendered element for the one passed as a child, merging their props and behavior.',
       table: {
-        defaultValue: { summary: 'false' },
+        defaultValue: { summary: false },
         type: { summary: null },
       },
     },
-    asChild: { table: { disable: true } },
+    onOpenChange: { table: { disable: true } },
   },
   parameters: {
     layout: 'centered',

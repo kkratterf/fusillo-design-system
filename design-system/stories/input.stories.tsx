@@ -96,7 +96,7 @@ const meta: Meta<typeof Input> = {
         'file',
       ],
       description:
-        'The `type` prop is fundamental in defining how the input element behaves and appears in the form.',
+        'Define how the input element behaves and appears in the form.',
       table: {
         defaultValue: { summary: 'text' },
         type: { summary: null },
@@ -104,12 +104,12 @@ const meta: Meta<typeof Input> = {
     },
     placeholder: {
       description:
-        'Set the `placeholder` property to guide users in filling the input field',
+        'Guide users in filling the input field',
     },
     disabled: {
       control: 'boolean',
       description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met.',
+        'Prevent user actions when certain conditions are not met.',
       table: {
         defaultValue: { summary: 'false' },
         type: { summary: null },

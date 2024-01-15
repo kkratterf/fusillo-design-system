@@ -13,7 +13,7 @@ const meta: Meta<typeof Skeleton> = {
       control: 'radio',
       options: ['circle', 'line'],
       description:
-        'use the `shape` prop to represent the element that the skeleton is replacing',
+        'Represent the element that the skeleton is replacing',
       table: {
         type: { summary: null },
       },

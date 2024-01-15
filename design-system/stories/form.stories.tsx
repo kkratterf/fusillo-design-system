@@ -17,11 +17,22 @@ import {
 } from '@/components/form';
 import { Input } from '@/components/input';
 
-
 const meta: Meta<typeof Form> = {
   title: 'Components/Form',
   component: Form,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+    docs: {
+      description: {
+        component: 'Allows users to input information.',
+      },
+    },
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/acdO58jx9zgGfkKu6htrx2/%F0%9F%A4%8C-Al-dente--%3E-Fusillo-Design-System?type=design&node-id=540%3A8865&mode=design&t=tRuDbCO0tu1RLI41-1',
+    },
+  },
   argTypes: {},
 };
 export default meta;
@@ -46,7 +57,7 @@ const ProfileForm = (args: Story['args']) => {
   }
   return (
     <Form {...args} {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 w-80">
         <FormField
           control={form.control}
           name="username"

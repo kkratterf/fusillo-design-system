@@ -13,7 +13,7 @@ const meta: Meta<typeof Alert> = {
       control: 'select',
       options: ['default', 'brand', 'danger', 'warning'],
       description:
-        'Use the `status` prop to define the type of message communicated by the alert',
+        'Define the type of message communicated by the alert',
       table: {
         defaultValue: { summary: 'default' },
         type: { summary: null },

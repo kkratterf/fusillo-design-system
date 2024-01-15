@@ -14,7 +14,7 @@ const meta: Meta<typeof Segmented> = {
       control: 'radio',
       options: ['grid', 'list'],
       description:
-        'Use the `defaultValue` prop to define the segmented opened by default',
+        'Define the segmented opened by default',
       table: {
         type: { summary: null },
       },
@@ -51,8 +51,12 @@ export const Default: Story = {
         <SegmentedTrigger value="grid">Grid</SegmentedTrigger>
         <SegmentedTrigger value="list" disabled={args.disabled}>List</SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   ),
   args: {
@@ -63,7 +67,7 @@ export const Default: Story = {
     disabled: {
       control: 'boolean',
       description:
-        'Use the `disabled` prop to prevent user actions when certain conditions are not met.',
+        'Prevent user actions when certain conditions are not met.',
       table: {
         defaultValue: { summary: 'false' },
         type: { summary: null },
@@ -81,8 +85,12 @@ export const DefaultValue: Story = {
           List
         </SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   ),
   args: {
@@ -100,8 +108,12 @@ export const Disabled: Story = {
           List
         </SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   ),
   args: {
@@ -115,12 +127,14 @@ export const WithIcon: Story = {
     <Segmented defaultValue={args.defaultValue}>
       <SegmentedList>
         <SegmentedTrigger value="grid"><Grid /></SegmentedTrigger>
-        <SegmentedTrigger value="list" disabled={args.disabled}>
-          <List />
-        </SegmentedTrigger>
+        <SegmentedTrigger value="list" disabled={args.disabled}><List /></SegmentedTrigger>
       </SegmentedList>
-      <SegmentedContent value="grid">Grid view.</SegmentedContent>
-      <SegmentedContent value="list">List view.</SegmentedContent>
+      <SegmentedContent value="grid" className="text-center">
+        Grid view
+      </SegmentedContent>
+      <SegmentedContent value="list" className="text-center">
+        List view
+      </SegmentedContent>
     </Segmented>
   ),
   args: {

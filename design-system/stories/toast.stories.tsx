@@ -13,9 +13,8 @@ const meta: Meta<typeof Toast> = {
   argTypes: {
     status: {
       control: 'select',
-      options: ['default', 'danger', 'warning', 'success', 'info', 'discovery'],
-      description:
-        'Determines whether a `single` or `multiple` items can be pressed at a time',
+      options: ['default', 'brand', 'danger', 'warning'],
+      description: 'Define the type of message communicated by the alert',
       table: {
         defaultValue: { summary: 'default' },
         type: { summary: null },
