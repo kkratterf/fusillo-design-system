@@ -6,7 +6,7 @@
     "design-system",
     "design-tokens",
     "documentation",
-    "apps/next-example",
+    "apps/*",
     "figma-plugin"
   ],
   "scripts": {

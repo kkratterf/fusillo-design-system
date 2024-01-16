@@ -1,26 +1,14 @@
-import { Cards, Card } from 'nextra/components';
 import Link from 'next/link';
 import * as ds from '@/docs/tokens/config.js';
-import { HomepageCard } from '@/docs/components/homepage-card';
 import { Button } from 'design-system/components/button';
 
-<section className='mx-auto px-6 mt-10 max-w-screen-xl'>
-    <div className=''>
-        # <p className='text-8xl font-bold text-center'>Cooking design system</p>
-        <p>Welcome to **{ds.ConfigName}**, where creativity and consistency come together to craft exceptional user experiences.</p>
-
-        <Button className="mt-10">
-        <Link href="/documentation/welcome">Get started</Link>
-        </Button>
-    </div>
-
-    ---
-
-    <Cards className="mt-10 grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
-    <Card  title={<HomepageCard title="🏠 Foundations" description="Foundations provide the essential elements required to build captivating and complete user experiences." link="Explore our foundations" />} href="/documentation/foundations" />
-    <Card  title={<HomepageCard title="🔗 Tokens" description="Design tokens are the single source of truth for naming, managing and preserving design decisions." link="Explore our tokens" />} href="/documentation/tokens" />
-    <Card  title={<HomepageCard title="💠 Components" description="Components are the modular core of our design system, each serving a unique role in the user interface." link="Explore our components" />} href="/documentation/components" />
-    <Card  title={<HomepageCard title="✍️ Content" description="Our content guidelines emphasize our unique style and manner of expression, along with the details of our grammatical and stylistic choices." link="Explore our content" />} href="/documentation/content" />
-    </Cards>
-
+<section className="flex justify-center mx-auto px-6 my-40 max-w-screen-xl h-full">
+  <div className="text-center relative z-10">
+    # <p className="text-4xl sm:text-6xl font-extrabold"> A well-cooked design system </p>
+    <p className="mt-6 text-lg sm:text-xl">👋 Hey you, welcome to **{ds.ConfigName}**! We cook creativity and consistency in a recipe of exceptional user experiences.</p>
+      <Button className="mt-10 h-10 px-4 text-lg-medium">
+        <Link href="/documentation/welcome">Let's start</Link>
+      </Button>
+  </div>
+  <div class="bg-cover bg-center bg-dots top-0 left-0 fixed w-[100vw] h-[100vh] z-0 opacity-40"></div>
 </section>

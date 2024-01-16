@@ -24,6 +24,9 @@ module.exports = {
         sans: ['var(--geist-sans)', ...fontFamily.sans],
         mono: ['var(--geist-mono)', ...fontFamily.mono],
       },
+      backgroundImage: {
+        'dots': "url('/dots.svg')",
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
