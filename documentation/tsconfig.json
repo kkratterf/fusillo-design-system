@@ -18,6 +18,7 @@
     "paths": {
       "@/docs/*": ["./*"],
       "@/*": ["../design-system/*"],
+      "design-system/*": ["fusillo/*"]
     }
   },
   "include": [

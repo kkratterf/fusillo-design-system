@@ -7,7 +7,7 @@ const withNextra = require('nextra')({
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  transpilePackages: ['design-system'],
+  transpilePackages: ['fusillo'],
   images: {
     domains: ['images.unsplash.com'],
   },

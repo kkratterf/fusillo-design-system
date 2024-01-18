@@ -3,125 +3,19 @@
 > next build
 
    Linting and checking validity of types ...
-   ▲ Next.js 14.0.4
+Failed to compile.
 
-   Creating an optimized production build ...
-<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/plugin.mjs for build dependencies failed at 'import(importPath)'.
-<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
-<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './__temp__' in '/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist'
-<w> while resolving './__temp__' in /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist as file
-<w>  at resolve esm file ./__temp__
-<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
-<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
-<w>  at resolve esm file ./compile.mjs
-<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
-<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
-<w>  at resolve esm file ./dist/loader.mjs
-<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
-<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
-<w>  at resolve commonjs /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
-<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/plugin.mjs for build dependencies failed at 'import(importPath)'.
-<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
-<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Can't resolve './__temp__' in '/Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist'
-<w> while resolving './__temp__' in /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist as file
-<w>  at resolve esm file ./__temp__
-<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
-<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/compile.mjs
-<w>  at resolve esm file ./compile.mjs
-<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
-<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/dist/loader.mjs
-<w>  at resolve esm file ./dist/loader.mjs
-<w>  at file dependencies /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
-<w>  at file /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
-<w>  at resolve commonjs /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/node_modules/nextra/loader.js
- ✓ Compiled successfully
-   Collecting page data ...
-   Generating static pages (0/71) ...
-   Generating static pages (17/71) 
-   Generating static pages (35/71) 
-   Generating static pages (53/71) 
- ✓ Generating static pages (71/71) 
-   Finalizing page optimization ...
-   Collecting build traces ...
+../design-system/components/button/index.tsx:5:22
+Type error: Cannot find module '@radix-ui/react-slot' or its corresponding type declarations.
 
-Route (pages)                                     Size     First Load JS
-┌ ○ /                                             1.19 kB         197 kB
-├   /_app                                         0 B             192 kB
-├ ○ /404                                          184 B           192 kB
-├ ○ /documentation/components                     1.11 kB         197 kB
-├ ○ /documentation/components/accordion           7.38 kB         203 kB
-├ ○ /documentation/components/alert               4.07 kB         200 kB
-├ ○ /documentation/components/alert-dialog        4.62 kB         208 kB
-├ ○ /documentation/components/aspect-ratio        3.24 kB         199 kB
-├ ○ /documentation/components/avatar              3.86 kB         200 kB
-├ ○ /documentation/components/badge               3.7 kB          200 kB
-├ ○ /documentation/components/button              3.73 kB         200 kB
-├ ○ /documentation/components/calendar (759 ms)   6.61 kB         246 kB
-├ ○ /documentation/components/card                7.49 kB         226 kB
-├ ○ /documentation/components/checkbox            9.46 kB         215 kB
-├ ○ /documentation/components/collapsible         5.38 kB         201 kB
-├ ○ /documentation/components/combobox            6.59 kB         232 kB
-├ ○ /documentation/components/command             6.78 kB         221 kB
-├ ○ /documentation/components/context-menu        6.38 kB         224 kB
-├ ○ /documentation/components/data-table          35.5 kB         254 kB
-├ ○ /documentation/components/date-picker         5.3 kB          236 kB
-├ ○ /documentation/components/dialog              5.79 kB         209 kB
-├ ○ /documentation/components/dropdown-menu       9.21 kB         228 kB
-├ ○ /documentation/components/form                7.26 kB         212 kB
-├ ○ /documentation/components/hover-card          6.19 kB         212 kB
-├ ○ /documentation/components/icon (701 ms)       143 kB          338 kB
-├ ○ /documentation/components/input               5.74 kB         211 kB
-├ ○ /documentation/components/label               5.24 kB         201 kB
-├ ○ /documentation/components/menubar             8.59 kB         226 kB
-├ ○ /documentation/components/popover             4.79 kB         218 kB
-├ ○ /documentation/components/progress            3.73 kB         200 kB
-├ ○ /documentation/components/radio-group         9.9 kB          215 kB
-├ ○ /documentation/components/scroll-area         9.24 kB         205 kB
-├ ○ /documentation/components/segmented           4.1 kB          202 kB
-├ ○ /documentation/components/select              8.85 kB         236 kB
-├ ○ /documentation/components/separator           3.61 kB         199 kB
-├ ○ /documentation/components/sheet               6.19 kB         210 kB
-├ ○ /documentation/components/skeleton            3.42 kB         199 kB
-├ ○ /documentation/components/slider              7.05 kB         203 kB
-├ ○ /documentation/components/switch              7.31 kB         212 kB
-├ ○ /documentation/components/table               4.75 kB         201 kB
-├ ○ /documentation/components/tabs                6.57 kB         205 kB
-├ ○ /documentation/components/tag                 3.49 kB         199 kB
-├ ○ /documentation/components/textarea            5.68 kB         211 kB
-├ ○ /documentation/components/toast               5.16 kB         201 kB
-├ ○ /documentation/components/toggle              3.75 kB         200 kB
-├ ○ /documentation/components/toggle-group        7.1 kB          203 kB
-├ ○ /documentation/components/tooltip             7.71 kB         213 kB
-├ ○ /documentation/content                        849 B           197 kB
-├ ○ /documentation/content/content-accessibility  7.03 kB         203 kB
-├ ○ /documentation/content/inclusive-language     839 B           197 kB
-├ ○ /documentation/foundations                    812 B           197 kB
-├ ○ /documentation/foundations/accessibility      4.17 kB         200 kB
-├ ○ /documentation/foundations/color              2.31 kB         205 kB
-├ ○ /documentation/foundations/design-tokens      1.65 kB         198 kB
-├ ○ /documentation/foundations/iconography        3.35 kB         199 kB
-├ ○ /documentation/foundations/scale              1.28 kB         204 kB
-├ ○ /documentation/foundations/typography         2.17 kB         198 kB
-├ ○ /documentation/get-started                    703 B           197 kB
-├ ○ /documentation/get-started/content            1.6 kB          197 kB
-├ ○ /documentation/get-started/design             1.63 kB         197 kB
-├ ○ /documentation/get-started/develop            1.16 kB         197 kB
-├ ○ /documentation/resources                      701 B           197 kB
-├ ○ /documentation/resources/fonts                617 B           196 kB
-├ ○ /documentation/tokens                         761 B           197 kB
-├ ○ /documentation/tokens/border                  1.03 kB         211 kB
-├ ○ /documentation/tokens/breakpoints             1 kB            211 kB
-├ ○ /documentation/tokens/color                   1.42 kB         212 kB
-├ ○ /documentation/tokens/opacity                 985 B           211 kB
-├ ○ /documentation/tokens/size                    1 kB            211 kB
-├ ○ /documentation/tokens/space                   948 B           211 kB
-└ ○ /documentation/welcome                        1.83 kB         198 kB
-+ First Load JS shared by all                     733 kB
-  ├ chunks/framework-c5aaf663751111c6.js          45.2 kB
-  ├ chunks/main-12cfbabf60529dd4.js               36.5 kB
-  ├ chunks/pages/_app-c9e41a9a77bade82.js         109 kB
-  ├ chunks/webpack-4cf3a1b70f9bcafa.js            1.02 kB
-  └ css/00f14d85aaa9158a.css                      541 kB
-
-○  (Static)  prerendered as static content
-
+[0m [90m 3 |[39m [90m// Import core[39m[0m
+[0m [90m 4 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mSlot[39m } [36mfrom[39m [32m'@radix-ui/react-slot'[39m[33m;[39m[0m
+[0m [90m   |[39m                      [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m [36mimport[39m { cva[33m,[39m type [33mVariantProps[39m } [36mfrom[39m [32m'class-variance-authority'[39m[33m;[39m[0m
+[0m [90m 7 |[39m [90m// Import customs[39m[0m
+[0m [90m 8 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/twMerge"[39m[33m;[39m[0m
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: documentation@1.0.5 
+npm ERR!   at location: /Users/kkratter/Desktop/kkratter/Al dente/fusillo-design-system/documentation 
