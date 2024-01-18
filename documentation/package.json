@@ -1,6 +1,6 @@
 {
   "name": "documentation",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Documentation website for Fusillo Design System",
   "author": {
     "name": "Federico Kratter Thaler",
@@ -21,7 +21,7 @@
     "design-system": "*",
     "geist": "^1.1.0",
     "lucide-react": "^0.303.0",
-    "next": "^13.0.6",
+    "next": "14.0.4",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "postcss": "^8.4.31",

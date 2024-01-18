@@ -1,19 +1,19 @@
 {
-  "name": "fusillo",
+  "name": "fusillo-design-system",
   "description": "A well-cooked design system.",
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"
   },
-  "version": "1.0.1",
+  "version": "1.0.5",
   "repository": "https://github.com/kkratterf/fusillo-design-system",
   "homepage": "https://www.fusillo.aldente.design/",
   "workspaces": [
-    "design-system",
+    "fusillo",
     "design-tokens",
     "documentation",
     "figma-plugin",
-    "apps/*"
+    "test"
   ],
   "scripts": {
     "dev": "turbo run dev",
@@ -21,10 +21,7 @@
     "link": "turbo run lint",
     "test": "turbo run test"
   },
-  "dependencies": {
-    "design-system":"*"
-  },
-  "devDependencies": {},
+  "dependencies": {},
   "keywords": [
     "design",
     "design-system",

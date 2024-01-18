@@ -1,7 +1,7 @@
 {
   "name": "figma-plugin",
   "description": "Export your figma variables in JSON format directly from Figma to Github",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"

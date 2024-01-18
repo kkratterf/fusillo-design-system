@@ -6,7 +6,7 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
-    '../../design-system/components/**/*.{js,ts,jsx,tsx,mdx}',
+    '../design-system/components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     ...DesignSystem.theme,
