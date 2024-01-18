@@ -1,23 +1,11 @@
-# Nextra Docs Template 
+# Fusillo Documentation
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Description coming soon...
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Copyright
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+Copyright (c) 2024 Federico Kratter Thaler
 
-## Quick Start
+All rights reserved.
 
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+This software and related documentation are the property of Federico Kratter Thaler. No part of this software may be used, copied, modified or distributed in any way without the express consent of the owner.

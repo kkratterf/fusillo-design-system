@@ -2,6 +2,11 @@
   "name": "design-tokens",
   "version": "1.0.1",
   "description": "Design tokens converter",
+  "author": {
+    "name": "Federico Kratter Thaler",
+    "url": "https://www.kkratter.com/"
+  },
+  "repository": "https://github.com/kkratterf/fusillo-design-system",
   "main": "build.js",
   "scripts": {
     "test": "style-dictionary build",
@@ -11,9 +16,12 @@
     "build-transform": "npm run build-transform-global && npm run build-transform-light && npm run build-transform-dark",
     "build": "node build.js"
   },
-  "author": "Federico Kratter Thaler",
-  "license": "ISC",
   "devDependencies": {
     "style-dictionary": "^3.8.0"
-  }
+  },
+  "keywords": [
+    "design",
+    "design-tokens",
+    "design converter"
+  ]
 }

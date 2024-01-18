@@ -1,23 +1,19 @@
 {
   "name": "documentation",
   "version": "1.0.1",
-  "description": "Nextra docs template",
+  "description": "Documentation website for Fusillo Design System",
+  "author": {
+    "name": "Federico Kratter Thaler",
+    "url": "https://www.kkratter.com/"
+  },
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
-  },
-  "author": "Shu Ding <g@shud.in>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
-  },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "repository": "https://github.com/kkratterf/fusillo-design-system",
+  "homepage": "https://www.fusillo.aldente.design/",
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.0",
@@ -44,5 +40,12 @@
     "tsconfig": "*",
     "typescript": "^4.9.5",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "keywords": [
+    "design",
+    "design-system",
+    "design-tokens",
+    "documentation",
+    "design-docs"
+  ]
 }

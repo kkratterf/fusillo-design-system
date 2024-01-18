@@ -1,4 +1,4 @@
-# Fusillo - Figma Plugin
+# A well-cooked design system
 
 Description coming soon...
 
