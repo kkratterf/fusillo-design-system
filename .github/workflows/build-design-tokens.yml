@@ -3,7 +3,7 @@ name: Build Design Tokens
 on:
   push:
     paths:
-      - 'design-tokens/**'
+      - 'packages/design-tokens/**'
 
 jobs:
   build_tokens:
@@ -17,10 +17,10 @@ jobs:
       uses: actions/setup-node@v2.4.0
 
     - run: npm install
-      working-directory: ./design-tokens
+      working-directory: ./packages/design-tokens
 
     - run: npm run build
-      working-directory: ./design-tokens
+      working-directory: ./packages/design-tokens
 
     - name: Configure Git Identity
       run: |

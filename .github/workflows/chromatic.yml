@@ -3,7 +3,7 @@ name: Chromatic Publish
 on:
   push:
     paths:
-      - 'design-system/**'
+      - 'packages/design-system/**'
 
 jobs:
   build:
@@ -19,10 +19,10 @@ jobs:
         uses: actions/setup-node@v3
 
       - run: npm install
-        working-directory: ./design-system
+        working-directory: ./packages/design-system
 
       - uses: chromaui/action@v1
         with:
-          workingDir: ./design-system
+          workingDir: ./packages/design-system
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}

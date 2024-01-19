@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "declaration": false,
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@design-system/*": [
+        "../../packages/design-system/*"
+      ],
+      "@docs/*": [
+        "./*"
+      ],
+      "@/*": [
+        "../../packages/design-system/*"
+      ]
+    },
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mdx",
+    "pages/_app.mdx",
+    "middleware.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,3 +1,0 @@
-# Test app for components
-
-Description coming soon...

@@ -1,3 +1,0 @@
-# A well-cooked design system
-
-Description coming soon...
