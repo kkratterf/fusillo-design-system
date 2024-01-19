@@ -112,6 +112,9 @@
     "react-dom": "18.2.0",
     "esbuild": "^0.17.3"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
+  },
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"
