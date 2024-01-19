@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "target": "es5",
     "allowJs": true,
@@ -15,33 +16,16 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@design-system/*": [
-        "../../packages/design-system/*"
-      ],
-      "@web/*": [
-        "./*"
-      ],
-      "@/*": [
-        "../../packages/design-system/*"
-      ]
+      "@design-system/*": ["../../packages/design-system/*"],
+      "@web/*": ["./*"],
+      "@/*": ["../../packages/design-system/*"]
     },
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "strict": false,
     "esModuleInterop": true,
     "isolatedModules": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

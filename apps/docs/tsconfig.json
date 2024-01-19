@@ -1,7 +1,7 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "target": "es2016",
-    "declaration": false,
     "allowJs": true,
     "noEmit": true,
     "incremental": true,
@@ -10,15 +10,9 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@design-system/*": [
-        "../../packages/design-system/*"
-      ],
-      "@docs/*": [
-        "./*"
-      ],
-      "@/*": [
-        "../../packages/design-system/*"
-      ]
+      "@design-system/*": ["../../packages/design-system/*"],
+      "@docs/*": ["./*"],
+      "@/*": ["../../packages/design-system/*"]
     },
     "skipLibCheck": true,
     "strict": false,
@@ -26,11 +20,7 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "isolatedModules": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ]
+    "lib": ["dom", "dom.iterable", "esnext"]
   },
   "include": [
     "next-env.d.ts",
@@ -39,8 +29,5 @@
     "**/*.mdx",
     "pages/_app.mdx",
     "middleware.ts"
-  ],
-  "exclude": [
-    "node_modules"
   ]
 }
