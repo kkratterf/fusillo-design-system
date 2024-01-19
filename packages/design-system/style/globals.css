@@ -1,9 +1,9 @@
 /* Import css files */
-@import '@/style/foundations.css';
-@import '@/style/tokens.css';
-@import '@/style/components.css';
-@import '@/fonts/GeistSans.css';
-@import '@/fonts/GeistMono.css';
+@import './foundations.css';
+@import './tokens.css';
+@import './components.css';
+@import './GeistSans.css';
+@import './GeistMono.css';
 
 
 /* Import tailwind */
