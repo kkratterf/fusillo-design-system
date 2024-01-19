@@ -19,7 +19,9 @@
     "link": "turbo run lint",
     "test": "turbo run test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "turbo": "^1.9.9"
+  },
   "keywords": [
     "design",
     "design-system",
