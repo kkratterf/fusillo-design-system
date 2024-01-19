@@ -56,7 +56,6 @@
     "@types/react-dom": "^18.2.4",
     "@vercel/analytics": "^1.0.1",
     "@vercel/og": "^0.0.21",
-    "autoprefixer": "^10.4.16",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "cmdk": "^0.2.0",
@@ -87,6 +86,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
     "@storybook/addon-a11y": "^7.6.6",
     "@storybook/addon-actions": "^7.6.7",
     "@storybook/addon-designs": "^7.0.5",
