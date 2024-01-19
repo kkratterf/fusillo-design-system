@@ -68,7 +68,6 @@
     "eslint": "^8.41.0",
     "geist": "^1.1.0",
     "lucide-react": "^0.303.0",
-    "postcss": "^8.4.24",
     "postcss-nesting": "^12.0.1",
     "react": "18.2.0",
     "react-day-picker": "^8.7.1",
@@ -86,7 +85,6 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
     "@storybook/addon-a11y": "^7.6.6",
     "@storybook/addon-actions": "^7.6.7",
     "@storybook/addon-designs": "^7.0.5",
@@ -101,8 +99,11 @@
     "@storybook/react": "^7.6.6",
     "@storybook/test-runner": "^0.13.0",
     "@storybook/testing-library": "^0.2.2",
+    "autoprefixer": "^10.4.16",
     "chromatic": "^7.5.4",
     "eslint-plugin-storybook": "^0.6.15",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^8.0.0",
     "storybook": "^7.6.6",
     "storybook-tailwind-dark-mode": "^1.0.22",
     "tsup": "^8.0.1"

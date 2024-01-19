@@ -2,8 +2,8 @@
 @import './foundations.css';
 @import './tokens.css';
 @import './components.css';
-@import './GeistSans.css';
-@import './GeistMono.css';
+@import '../fonts/GeistSans.css';
+@import '../fonts/GeistMono.css';
 
 
 /* Import tailwind */
