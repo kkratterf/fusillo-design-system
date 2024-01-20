@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 19 Jan 2024 16:03:13 GMT
+ * Generated on Sat, 20 Jan 2024 09:17:40 GMT
  */
 
 module.exports = {
@@ -353,7 +353,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "The background color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -387,7 +387,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The hover state color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -977,7 +977,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -1011,7 +1011,7 @@ module.exports = {
             },
             "border-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -1669,7 +1669,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "Use for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -1703,7 +1703,7 @@ module.exports = {
             },
             "text-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The hover state color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:35"
@@ -2361,7 +2361,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "Use for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:53"
@@ -2395,7 +2395,7 @@ module.exports = {
             },
             "icon-brand-hover": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The hover color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:54"
@@ -6794,7 +6794,7 @@ module.exports = {
           "Brand": {
             "bg-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "The background color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -6828,7 +6828,7 @@ module.exports = {
             },
             "bg-brand-hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "The hover state color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -7418,7 +7418,7 @@ module.exports = {
           "Brand": {
             "border-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -7452,7 +7452,7 @@ module.exports = {
             },
             "border-brand-hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -8110,7 +8110,7 @@ module.exports = {
           "Brand": {
             "text-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "Use for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:34"
@@ -8144,7 +8144,7 @@ module.exports = {
             },
             "text-brand-hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "The hover state color for text links.",
               "$extensions": {
                 "variableId": "VariableID:75:35"
@@ -8802,7 +8802,7 @@ module.exports = {
           "Brand": {
             "icon-brand": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#84cc16",
               "description": "Use for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:53"
@@ -8836,7 +8836,7 @@ module.exports = {
             },
             "icon-brand-hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#65a30d",
               "description": "The hover color for icons that need to pull more focus.",
               "$extensions": {
                 "variableId": "VariableID:75:54"
