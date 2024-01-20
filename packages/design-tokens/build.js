@@ -298,7 +298,7 @@ const styleBrand = StyleDictionary.extend({
   platforms: {
     css_brand_tokens: {
       transformGroup: 'css', // CSS transformations
-      buildPath: '.../../apps/docs/style/', // Output directory for brand CSS
+      buildPath: '../../apps/docs/style/', // Output directory for brand CSS
       files: [
         {
           destination: 'brand.css', // Brand CSS output file name
