@@ -4,6 +4,7 @@
 import * as React from 'react';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './textarea.css';
 
 export interface TextareaProps
   extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {}

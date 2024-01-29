@@ -8,6 +8,7 @@ import { Search } from 'lucide-react';
 // Import customs
 import { cn } from '@/lib/twMerge';
 import { Dialog, DialogContent } from '@/components/dialog';
+import './command.css';
 
 const Command = React.forwardRef<
   React.ElementRef<typeof CommandPrimitive>,

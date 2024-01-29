@@ -40,5 +40,8 @@ next-env.d.ts
 # vscode
 .vscode
 
-# tsup
 dist
+
+storybook-static
+
+package-lock.json

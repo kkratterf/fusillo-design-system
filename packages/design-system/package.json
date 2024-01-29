@@ -1,6 +1,6 @@
 {
   "name": "fusillo",
-  "version": "1.0.6",
+  "version": "1.0.12",
   "description": "A well-cooked design system.",
   "author": {
     "name": "Federico Kratter Thaler",
@@ -8,12 +8,7 @@
   },
   "repository": "https://github.com/kkratterf/fusillo-design-system",
   "homepage": "https://www.fusillo.aldente.design/",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
-    "dev": "npm run build -- --watch",
     "storybook": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
     "build-storybook": "storybook build"
@@ -105,16 +100,12 @@
     "chromatic": "^7.5.4",
     "eslint-plugin-storybook": "^0.6.15",
     "storybook": "^7.6.6",
-    "storybook-tailwind-dark-mode": "^1.0.22",
-    "tsup": "^8.0.1"
+    "storybook-tailwind-dark-mode": "^1.0.22"
   },
   "peerDependencies": {
     "esbuild": "^0.17.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   },
   "eslintConfig": {
     "extends": [

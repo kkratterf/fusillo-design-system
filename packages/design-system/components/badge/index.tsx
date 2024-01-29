@@ -3,6 +3,7 @@ import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
 import { cn } from "@/lib/twMerge"
+import './badge.css';
 
 const badgeVariants = cva('badge-component', {
   variants: {

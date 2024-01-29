@@ -1,9 +1,10 @@
 // Import core
+import React from 'react';
 import { GripVertical } from 'lucide-react';
 import * as ResizablePrimitive from 'react-resizable-panels';
 // Import customs
 import { cn } from '@/lib/twMerge';
-
+import './resizable.css';
 
 const ResizablePanelGroup = ({
   className,

@@ -13,7 +13,7 @@ import {
 // Import customs
 import { cn } from '@/lib/twMerge';
 import { Label } from '@/components/label';
-
+import './form.css';
 
 const Form = FormProvider;
 

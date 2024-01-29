@@ -5,6 +5,7 @@ import * as React from 'react';
 import * as SeparatorPrimitive from '@radix-ui/react-separator';
 // Import customs
 import { cn } from "@/lib/twMerge"
+import './separator.css';
 
 const Separator = React.forwardRef<
   React.ElementRef<typeof SeparatorPrimitive.Root>,

@@ -4,7 +4,8 @@
 import * as React from 'react';
 import * as SwitchPrimitives from '@radix-ui/react-switch';
 // Import customs
-import { cn } from "@/lib/twMerge"
+import { cn } from "@/lib/twMerge";
+import './switch.css';
 
 const Switch = React.forwardRef<
   React.ElementRef<typeof SwitchPrimitives.Root>,

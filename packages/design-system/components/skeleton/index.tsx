@@ -1,7 +1,9 @@
 // Import core
+import React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './skeleton.css';
 
 const skeletonVariants = cva('skeleton-component', {
   variants: {

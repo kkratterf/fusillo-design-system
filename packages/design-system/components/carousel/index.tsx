@@ -9,7 +9,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 // Import customs
 import { cn } from '@/lib/twMerge';
 import { Button } from '@/components/button';
-
+import './carousel.css';
 
 type CarouselProps = {
   opts?: CarouselOptions;

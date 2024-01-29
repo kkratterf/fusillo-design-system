@@ -4,7 +4,8 @@
 import * as React from 'react';
 import * as ScrollAreaPrimitive from '@radix-ui/react-scroll-area';
 // Import customs
-import { cn } from "@/lib/twMerge"
+import { cn } from "@/lib/twMerge";
+import './scroll-area.css';
 
 const ScrollArea = React.forwardRef<
   React.ElementRef<typeof ScrollAreaPrimitive.Root>,

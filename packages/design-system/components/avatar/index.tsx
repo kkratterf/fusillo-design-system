@@ -6,6 +6,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import * as AvatarPrimitive from '@radix-ui/react-avatar';
 // Import customs
 import { cn } from "@/lib/twMerge"
+import './avatar.css';
 
 const avatarVariants = cva('avatar-component', {
   variants: {

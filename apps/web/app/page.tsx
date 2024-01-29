@@ -1,25 +1,38 @@
-import { Button } from '@design-system/components/button'
-import { Alert, AlertIcon, AlertDescription, AlertTitle } from "@design-system/components/alert"
-import { Megaphone } from "lucide-react" 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@design-system/components/accordion';
+import {
+  Button
+} from '@design-system/components/button';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Button variant="primary">Hello</Button>
-      <Button variant="secondary">Hello</Button>
-      <Button variant="danger">Danger</Button>
-      <Alert>
-        <AlertIcon>
-          <Megaphone />
-        </AlertIcon>
-        <AlertTitle> Notice </AlertTitle>
-        <AlertDescription>
-          This is a general notification for your attention. It provides neutral
-          information or basic reminders for everyday tasks.
-        </AlertDescription>
-      </Alert>
-      <div className="h-10 w-10 bg-brand"></div>
-      <p className='text-md'>Vamos pedro</p>
+    <main className="">
+      <Accordion type="single" collapsible className="w-[400px] m-40">
+        <AccordionItem value="item-1">
+          <AccordionTrigger>Is it accessible?</AccordionTrigger>
+          <AccordionContent>
+            Yes. It adheres to the WAI-ARIA design pattern.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger>Is it styled?</AccordionTrigger>
+          <AccordionContent>
+            Yes. It comes with default styles that matches the other
+            components&apos; aesthetic.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+          <AccordionTrigger>Is it animated?</AccordionTrigger>
+          <AccordionContent>
+            Yes. It&apos;s animated by default.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      <Button variant='danger'>Danger</Button>
     </main>
   );
 }

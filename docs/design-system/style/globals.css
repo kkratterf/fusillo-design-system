@@ -4,11 +4,24 @@
 @import '../../../packages/design-system/fonts/GeistSans.css';
 @import '../../../packages/design-system/fonts/GeistMono.css';
 
+* {
+  @apply border-border;
+}
+
 body {
-  @apply font-sans bg-background text;
+  @apply font-sans bg-background text antialiased;
   font-family: 'GeistSans';
   font-synthesis-weight: none;
   text-rendering: optimizeLegibility;
+}
+
+.link {
+  @apply underline-offset-1 text-brand;
+}
+
+.code {
+  @apply font-mono;
+  font-family: 'GeistMono';
 }
 
 /* Fix Nextra */
@@ -33,12 +46,12 @@ body {
   @apply w-full grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-0;
 }
 
-tr:is(html[class~=dark] .even\:dark\:nx-bg-gray-600\/20):nth-child(2n) {
+tr:is(html[class~='dark'] .even\:dark\:nx-bg-gray-600\/20):nth-child(2n) {
   background-color: transparent !important;
 }
 
 input:focus-visible {
-  @apply ring-offset-background !important
+  @apply ring-offset-background !important;
 }
 
 /* Tables css */
@@ -63,7 +76,7 @@ input:focus-visible {
 }
 
 .docs td {
-  @apply  border-t-0 border-x-0 p-1.5 !important;
+  @apply border-t-0 border-x-0 p-1.5 !important;
 }
 
 .cell-title {

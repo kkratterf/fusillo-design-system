@@ -4,7 +4,8 @@
 import * as React from 'react';
 import * as TabsPrimitive from '@radix-ui/react-tabs';
 // Import customs
-import { cn } from "@/lib/twMerge"
+import { cn } from "@/lib/twMerge";
+import './tabs.css';
 
 const Tabs = TabsPrimitive.Root
 

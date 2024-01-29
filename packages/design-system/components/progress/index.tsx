@@ -6,6 +6,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import * as ProgressPrimitive from '@radix-ui/react-progress';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './progress.css';
 
 const progressVariants = cva(['progress-component'], {
   variants: {

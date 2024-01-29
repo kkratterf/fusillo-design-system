@@ -5,6 +5,7 @@ import { cva } from 'class-variance-authority';
 import { ChevronDown } from 'lucide-react';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './navigation-menu.css';
 
 const NavigationMenu = React.forwardRef<
   React.ElementRef<typeof NavigationMenuPrimitive.Root>,

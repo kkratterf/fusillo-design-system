@@ -87,7 +87,7 @@ const styleFoundationsJs = StyleDictionary.extend({
     },
     js_foundations_documentation: {
       transformGroup: 'js', // Apply JavaScript-specific transformations
-      buildPath: '../../apps/docs/tokens/', // Directory for the generated JS file
+      buildPath: '../../docs/design-system/tokens/', // Directory for the generated JS file
       files: [
         {
           format: 'javascript/module', // Output format as a JavaScript module
@@ -223,7 +223,7 @@ const styleTokensJs = StyleDictionary.extend({
     },
     js_tokens_documentation: {
       transformGroup: 'js', // JavaScript transformations
-      buildPath: '../../apps/docs/tokens/', // Output directory for JS tokens
+      buildPath: '../../docs/design-system/tokens/', // Output directory for JS tokens
       files: [
         {
           format: 'javascript/module', // Output format as JavaScript module
@@ -266,7 +266,7 @@ const styleConfig = StyleDictionary.extend({
     },
     js_config_documentation: {
       transformGroup: 'js', // JavaScript transformations
-      buildPath: '../../apps/docs/tokens/', // Output directory for configuration tokens
+      buildPath: '../../docs/design-system/tokens/', // Output directory for configuration tokens
       files: [
         {
           destination: 'config.js', // Configuration JS output file name
@@ -298,7 +298,7 @@ const styleBrand = StyleDictionary.extend({
   platforms: {
     css_brand_tokens: {
       transformGroup: 'css', // CSS transformations
-      buildPath: '../../apps/docs/style/', // Output directory for brand CSS
+      buildPath: '../../docs/design-system/style/', // Output directory for brand CSS
       files: [
         {
           destination: 'brand.css', // Brand CSS output file name

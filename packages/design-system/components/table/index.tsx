@@ -2,6 +2,7 @@
 import * as React from 'react';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './table.css';
 
 const Table = React.forwardRef<
   HTMLTableElement,

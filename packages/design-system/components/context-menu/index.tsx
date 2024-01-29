@@ -6,6 +6,7 @@ import * as ContextMenuPrimitive from '@radix-ui/react-context-menu';
 import { Check, ChevronRight, Circle } from 'lucide-react';
 // Import customs
 import { cn } from "@/lib/twMerge"
+import './context-menu.css';
 
 const ContextMenu = ContextMenuPrimitive.Root
 

@@ -1,5 +1,4 @@
 {
-  "include": ["packages", "apps", "plugin"],
   "compilerOptions": {
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],

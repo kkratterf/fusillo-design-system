@@ -6,6 +6,7 @@ import * as CheckboxPrimitive from '@radix-ui/react-checkbox';
 import { Check } from 'lucide-react';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './checkbox.css';
 
 const Checkbox = React.forwardRef<
   React.ElementRef<typeof CheckboxPrimitive.Root>,

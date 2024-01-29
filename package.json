@@ -10,6 +10,7 @@
   "homepage": "https://www.fusillo.aldente.design/",
   "workspaces": [
     "apps/*",
+    "docs/*",
     "packages/*",
     "plugins/*"
   ],

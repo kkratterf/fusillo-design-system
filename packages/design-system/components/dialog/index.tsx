@@ -6,6 +6,7 @@ import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { X } from 'lucide-react';
 // Import customs
 import { cn } from "@/lib/twMerge";
+import './dialog.css';
 
 const Dialog = DialogPrimitive.Root
 

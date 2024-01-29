@@ -6,6 +6,7 @@ import * as SelectPrimitive from '@radix-ui/react-select';
 import { Check, ChevronDown, ChevronUp } from 'lucide-react';
 // Import customs
 import { cn } from '@/lib/twMerge';
+import './select.css';
 
 const Select = SelectPrimitive.Root;
 

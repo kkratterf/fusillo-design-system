@@ -4,7 +4,8 @@
 import * as React from 'react';
 import * as SliderPrimitive from '@radix-ui/react-slider';
 // Import customs
-import { cn } from "@/lib/twMerge"
+import { cn } from "@/lib/twMerge";
+import './slider.css';
 
 const Slider = React.forwardRef<
   React.ElementRef<typeof SliderPrimitive.Root>,

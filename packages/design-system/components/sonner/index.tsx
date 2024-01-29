@@ -1,8 +1,10 @@
 'use client';
 // Import core
+import React from 'react';
 import { useTheme } from 'next-themes';
 import { Toaster } from 'sonner';
 // Import customs
+import './sonner.css';
 
 type ToasterProps = React.ComponentProps<typeof Toaster>;
 

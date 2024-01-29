@@ -2,7 +2,6 @@
 import type { Metadata } from 'next';
 // Import customs
 import '../style/globals.css';
-import { fontSans, fontMono } from '@design-system/lib/fonts';
 import { Toaster } from '@design-system/components/toast';
 import { Sonner } from '@design-system/components/sonner';
 
@@ -17,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${fontSans.variable} ${fontMono.variable}`}>
+    <html lang="en">
       <body className="dark">
         {children}
         <Toaster />

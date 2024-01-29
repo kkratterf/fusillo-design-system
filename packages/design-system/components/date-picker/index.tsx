@@ -14,6 +14,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '../popover';
+import './date-picker.css';
 
 export function DatePicker() {
   const [date, setDate] = React.useState<Date>();

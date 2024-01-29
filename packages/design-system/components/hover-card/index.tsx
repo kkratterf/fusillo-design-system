@@ -5,6 +5,7 @@ import * as React from 'react';
 import * as HoverCardPrimitive from '@radix-ui/react-hover-card';
 // Import customs
 import { cn } from "@/lib/twMerge"
+import './hover-card.css';
 
 const HoverCard = HoverCardPrimitive.Root
 

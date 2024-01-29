@@ -6,7 +6,8 @@ import * as SheetPrimitive from '@radix-ui/react-dialog';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { X } from 'lucide-react';
 // Import customs
-import { cn } from "@/lib/twMerge"
+import { cn } from "@/lib/twMerge";
+import './sheet.css';
 
 const Sheet = SheetPrimitive.Root
 

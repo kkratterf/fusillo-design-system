@@ -5,6 +5,7 @@ import * as React from 'react';
 import * as PopoverPrimitive from '@radix-ui/react-popover';
 // Import customs
 import { cn } from "@/lib/twMerge"
+import './popover.css';
 
 const Popover = PopoverPrimitive.Root
 

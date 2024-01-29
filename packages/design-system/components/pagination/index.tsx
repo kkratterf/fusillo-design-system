@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, MoreHorizontal } from 'lucide-react';
 // Import customs
 import { cn } from '@/lib/twMerge';
 import { ButtonProps, buttonVariants } from '@/components/button';
-
+import './pagination.css';
 
 const Pagination = ({ className, ...props }: React.ComponentProps<'nav'>) => (
   <nav

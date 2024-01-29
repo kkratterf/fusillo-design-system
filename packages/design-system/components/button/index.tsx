@@ -6,6 +6,7 @@ import { Slot } from '@radix-ui/react-slot';
 import { cva, type VariantProps } from 'class-variance-authority';
 // Import customs
 import { cn } from "@/lib/twMerge";
+import './button.css'
 
 const buttonVariants = cva('button-component', {
   variants: {

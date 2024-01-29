@@ -5,7 +5,7 @@ import * as React from 'react';
 import { Drawer as DrawerPrimitive } from 'vaul';
 // Import customs
 import { cn } from '@/lib/twMerge';
-
+import './drawer.css';
 
 const Drawer = ({
   shouldScaleBackground = true,

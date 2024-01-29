@@ -1,38 +1,10 @@
 /* Import css files */
 @import './foundations.css';
 @import './tokens.css';
-@import './components.css';
 @import '../fonts/GeistSans.css';
 @import '../fonts/GeistMono.css';
-
 
 /* Import tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-/* Tailwind layer */
-@layer base {
-
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply font-sans bg-background text antialiased;
-    font-family: 'GeistSans';
-    font-synthesis-weight: none;
-    text-rendering: optimizeLegibility;
-  }
-
-  .link {
-    @apply underline-offset-1 text-brand;
-  }
-
-  .code {
-    @apply font-mono;
-    font-family: 'GeistMono';
-  }
-  
-}
