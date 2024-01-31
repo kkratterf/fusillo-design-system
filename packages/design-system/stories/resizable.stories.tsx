@@ -15,14 +15,16 @@ const meta: Meta<typeof ResizablePanelGroup> = {
   component: ResizablePanelGroup,
   tags: ['autodocs'],
   argTypes: {
-    direction: {
-      control: 'radio',
-      options: ['horizontal', 'vertical'],
-      description: '`ResizableGroup` orientation',
-      table: {
-        type: { summary: null },
-      },
-    },
+    direction: { table: { disable: true } },
+    autoSaveId: { table: { disable: true } },
+    className: { table: { disable: true } },
+    id: { table: { disable: true } },
+    onLayout: { table: { disable: true } },
+    disablePointerEventsDuringResize: { table: { disable: true } },
+    storage: { table: { disable: true } },
+    style: { table: { disable: true } },
+    tagName: { table: { disable: true } },
+    units: { table: { disable: true } },
   },
   parameters: {
     docs: {
