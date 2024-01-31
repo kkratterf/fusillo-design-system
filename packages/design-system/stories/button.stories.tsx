@@ -1,4 +1,5 @@
 // Import core
+import * as React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Download, Search } from 'lucide-react';
 // Import customs
