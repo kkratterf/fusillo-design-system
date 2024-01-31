@@ -1,4 +1,5 @@
 // Import core
+import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 import { CommandSeparator } from 'cmdk';

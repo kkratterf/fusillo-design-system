@@ -1,6 +1,7 @@
 'use client';
 
 // Import core
+import * as React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';

@@ -1,4 +1,5 @@
 // Import core
+import * as React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 // Import customs
 import {
