@@ -1,10 +1,10 @@
+// Import core
 import { ComponentProps } from 'react';
 import formatDistanceToNow from 'date-fns/formatDistanceToNow';
-
+// Import customs
 import { cn } from '@design-system/lib/twMerge';
-import { Badge } from '@design-system/components/badge';
+import { Tag } from '@design-system/components/tag';
 import { ScrollArea } from '@design-system/components/scroll-area';
-import { Separator } from '@design-system/components/separator';
 import { Mail } from '@next-example/app/data';
 import { useMail } from '@next-example/app/use-mail';
 
@@ -22,8 +22,8 @@ export function MailList({ items }: MailListProps) {
           <button
             key={item.id}
             className={cn(
-              'flex flex-col items-start gap-2 rounded-lg border p-3 text-left text-sm transition-all hover:bg-accent',
-              mail.selected === item.id && 'bg-muted'
+              'flex flex-col items-start gap-2 rounded-lg border border-border p-3 text-left text-base transition-all hover:bg-item-hover',
+              mail.selected === item.id && 'bg-item-selected'
             )}
             onClick={() =>
               setMail({
@@ -33,19 +33,17 @@ export function MailList({ items }: MailListProps) {
             }
           >
             <div className="flex w-full flex-col gap-1">
-              <div className="flex items-center">
+              <div className="flex items-center gap-1">
                 <div className="flex items-center gap-2">
                   <div className="font-semibold">{item.name}</div>
                   {!item.read && (
-                    <span className="flex h-2 w-2 rounded-full bg-blue-600" />
+                    <span className="flex h-2 w-2 rounded-full bg-brand" />
                   )}
                 </div>
                 <div
                   className={cn(
-                    'ml-auto text-xs',
-                    mail.selected === item.id
-                      ? 'text-foreground'
-                      : 'text-muted-foreground'
+                    'ml-auto text-sm',
+                    mail.selected === item.id ? 'text' : 'text-description'
                   )}
                 >
                   {formatDistanceToNow(new Date(item.date), {
@@ -53,17 +51,17 @@ export function MailList({ items }: MailListProps) {
                   })}
                 </div>
               </div>
-              <div className="text-xs font-medium">{item.subject}</div>
+              <div className="text-sm font-medium">{item.subject}</div>
             </div>
-            <div className="line-clamp-2 text-xs text-muted-foreground">
+            <div className="line-clamp-2 text-sm text-description">
               {item.text.substring(0, 300)}
             </div>
             {item.labels.length ? (
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
                 {item.labels.map((label) => (
-                  <Badge key={label} status={getBadgeVariantFromLabel(label)}>
+                  <Tag key={label} status={getTagVariantFromLabel(label)}>
                     {label}
-                  </Badge>
+                  </Tag>
                 ))}
               </div>
             ) : null}
@@ -74,11 +72,15 @@ export function MailList({ items }: MailListProps) {
   );
 }
 
-function getBadgeVariantFromLabel(
+function getTagVariantFromLabel(
   label: string
-): ComponentProps<typeof Badge>['status'] {
+): ComponentProps<typeof Tag>['status'] {
   if (['work'].includes(label.toLowerCase())) {
-    return 'default';
+    return 'warning';
+  }
+
+  if (['important'].includes(label.toLowerCase())) {
+    return 'danger';
   }
 
   if (['personal'].includes(label.toLowerCase())) {

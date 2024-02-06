@@ -1,3 +1,4 @@
+// Import core
 import addDays from 'date-fns/addDays';
 import addHours from 'date-fns/addHours';
 import format from 'date-fns/format';
@@ -12,7 +13,7 @@ import {
   ReplyAll,
   Trash2,
 } from 'lucide-react';
-
+// Import customs
 import {
   DropdownMenuContent,
   DropdownMenuItem,
@@ -58,7 +59,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="text" icon={true} disabled={!mail}>
-                <Archive className="h-4 w-4" />
+                <Archive />
                 <span className="sr-only">Archive</span>
               </Button>
             </TooltipTrigger>
@@ -67,7 +68,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="text" icon={true} disabled={!mail}>
-                <ArchiveX className="h-4 w-4" />
+                <ArchiveX />
                 <span className="sr-only">Move to junk</span>
               </Button>
             </TooltipTrigger>
@@ -76,7 +77,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="text" icon={true} disabled={!mail}>
-                <Trash2 className="h-4 w-4" />
+                <Trash2 />
                 <span className="sr-only">Move to trash</span>
               </Button>
             </TooltipTrigger>
@@ -84,62 +85,12 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           </Tooltip>
           <Separator orientation="vertical" className="mx-1 h-6" />
           <Tooltip>
-            <Popover>
-              <PopoverTrigger asChild>
-                <TooltipTrigger asChild>
-                  <Button variant="text" icon={true} disabled={!mail}>
-                    <Clock className="h-4 w-4" />
-                    <span className="sr-only">Snooze</span>
-                  </Button>
-                </TooltipTrigger>
-              </PopoverTrigger>
-              <PopoverContent className="flex w-[535px] p-0">
-                <div className="flex flex-col gap-2 border-r px-2 py-4">
-                  <div className="px-4 text-sm font-medium">Snooze until</div>
-                  <div className="grid min-w-[250px] gap-1">
-                    <Button
-                      variant="text"
-                      className="justify-start font-normal"
-                    >
-                      Later today{' '}
-                      <span className="ml-auto text-muted-foreground">
-                        {format(addHours(today, 4), 'E, h:m b')}
-                      </span>
-                    </Button>
-                    <Button
-                      variant="text"
-                      className="justify-start font-normal"
-                    >
-                      Tomorrow
-                      <span className="ml-auto text-muted-foreground">
-                        {format(addDays(today, 1), 'E, h:m b')}
-                      </span>
-                    </Button>
-                    <Button
-                      variant="text"
-                      className="justify-start font-normal"
-                    >
-                      This weekend
-                      <span className="ml-auto text-muted-foreground">
-                        {format(nextSaturday(today), 'E, h:m b')}
-                      </span>
-                    </Button>
-                    <Button
-                      variant="text"
-                      className="justify-start font-normal"
-                    >
-                      Next week
-                      <span className="ml-auto text-muted-foreground">
-                        {format(addDays(today, 7), 'E, h:m b')}
-                      </span>
-                    </Button>
-                  </div>
-                </div>
-                <div className="p-2">
-                  <Calendar />
-                </div>
-              </PopoverContent>
-            </Popover>
+            <TooltipTrigger asChild>
+              <Button variant="text" icon={true} disabled={!mail}>
+                <Clock />
+                <span className="sr-only">Snooze</span>
+              </Button>
+            </TooltipTrigger>
             <TooltipContent>Snooze</TooltipContent>
           </Tooltip>
         </div>
@@ -147,7 +98,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="text" icon={true} disabled={!mail}>
-                <Reply className="h-4 w-4" />
+                <Reply />
                 <span className="sr-only">Reply</span>
               </Button>
             </TooltipTrigger>
@@ -156,7 +107,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="text" icon={true} disabled={!mail}>
-                <ReplyAll className="h-4 w-4" />
+                <ReplyAll />
                 <span className="sr-only">Reply all</span>
               </Button>
             </TooltipTrigger>
@@ -165,7 +116,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
           <Tooltip>
             <TooltipTrigger asChild>
               <Button variant="text" icon={true} disabled={!mail}>
-                <Forward className="h-4 w-4" />
+                <Forward />
                 <span className="sr-only">Forward</span>
               </Button>
             </TooltipTrigger>
@@ -176,7 +127,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="text" icon={true} disabled={!mail}>
-              <MoreVertical className="h-4 w-4" />
+              <MoreVertical />
               <span className="sr-only">More</span>
             </Button>
           </DropdownMenuTrigger>
@@ -192,7 +143,7 @@ export function MailDisplay({ mail }: MailDisplayProps) {
       {mail ? (
         <div className="flex flex-1 flex-col">
           <div className="flex items-start p-4">
-            <div className="flex items-start gap-4 text-sm">
+            <div className="flex items-start gap-4 text-base">
               <Avatar>
                 <AvatarImage alt={mail.name} />
                 <AvatarFallback>
@@ -204,20 +155,20 @@ export function MailDisplay({ mail }: MailDisplayProps) {
               </Avatar>
               <div className="grid gap-1">
                 <div className="font-semibold">{mail.name}</div>
-                <div className="line-clamp-1 text-xs">{mail.subject}</div>
-                <div className="line-clamp-1 text-xs">
+                <div className="line-clamp-1 text-sm">{mail.subject}</div>
+                <div className="line-clamp-1 text-sm">
                   <span className="font-medium">Reply-To:</span> {mail.email}
                 </div>
               </div>
             </div>
             {mail.date && (
-              <div className="ml-auto text-xs text-muted-foreground">
+              <div className="ml-auto text-sm text-description">
                 {format(new Date(mail.date), 'PPpp')}
               </div>
             )}
           </div>
           <Separator />
-          <div className="flex-1 whitespace-pre-wrap p-4 text-sm">
+          <div className="flex-1 whitespace-pre-wrap p-4 text-base">
             {mail.text}
           </div>
           <Separator className="mt-auto" />
@@ -225,13 +176,12 @@ export function MailDisplay({ mail }: MailDisplayProps) {
             <form>
               <div className="grid gap-4">
                 <Textarea
-                  className="p-4"
                   placeholder={`Reply ${mail.name}...`}
                 />
                 <div className="flex items-center">
                   <Label
                     htmlFor="mute"
-                    className="flex items-center gap-2 text-xs font-normal"
+                    className="flex items-center gap-2 text-sm"
                   >
                     <Switch id="mute" aria-label="Mute thread" /> Mute this
                     thread
@@ -243,12 +193,12 @@ export function MailDisplay({ mail }: MailDisplayProps) {
                     Send
                   </Button>
                 </div>
-              </div>
+              </div> 
             </form>
           </div>
         </div>
       ) : (
-        <div className="p-8 text-center text-muted-foreground">
+        <div className="p-8 text-center text-description">
           No message selected
         </div>
       )}

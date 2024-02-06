@@ -1,7 +1,8 @@
 'use client';
 
+// Import core
 import * as React from 'react';
-
+// Import customs
 import { cn } from '@design-system/lib/twMerge';
 import {
   Select,
@@ -51,7 +52,7 @@ export function AccountSwitcher({
       <SelectContent>
         {accounts.map((account) => (
           <SelectItem key={account.email} value={account.email}>
-            <div className="flex items-center gap-3 [&_svg]:h-4 [&_svg]:w-4 [&_svg]:shrink-0 [&_svg]:text-foreground">
+            <div className="flex items-center gap-3 [&_svg]:h-4 [&_svg]:w-4 [&_svg]:shrink-0 [&_svg]:text">
               {account.icon}
               {account.email}
             </div>

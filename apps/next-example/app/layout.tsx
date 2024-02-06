@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 // Import customs
 import '../style/globals.css';
+import { ThemeProvider } from '@next-example/components/theme-provider';
 import { Toaster } from '@design-system/components/toast';
 import { Sonner } from '@design-system/components/sonner';
 
@@ -17,10 +18,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="dark">
-        {children}
-        <Toaster />
-        <Sonner />
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+          <Toaster />
+          <Sonner />
+        </ThemeProvider>
       </body>
     </html>
   );

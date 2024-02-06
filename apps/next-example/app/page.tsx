@@ -1,4 +1,6 @@
+// Import core
 import { cookies } from 'next/headers';
+// Import customs
 import { Mail } from '@next-example/components/mail';
 import { accounts, mails } from '@next-example/app/data';
 
@@ -9,7 +11,7 @@ export default function Home() {
   const defaultLayout = layout ? JSON.parse(layout.value) : undefined;
   const defaultCollapsed = collapsed ? JSON.parse(collapsed.value) : undefined;
   return (
-    <main className="hidden flex-col md:flex">
+    <main className="flex flex-col">
       <Mail
         accounts={accounts}
         mails={mails}

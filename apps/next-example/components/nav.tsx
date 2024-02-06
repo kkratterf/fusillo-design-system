@@ -1,8 +1,9 @@
 'use client';
 
+// Import core
 import Link from 'next/link';
 import { LucideIcon } from 'lucide-react';
-
+// Import customs
 import { cn } from '@design-system/lib/twMerge';
 import { buttonVariants } from '@design-system/components/button';
 import {
@@ -17,7 +18,7 @@ interface NavProps {
     title: string;
     label?: string;
     icon: LucideIcon;
-    variant: 'default' | 'ghost';
+    variant: 'default' | 'text';
   }[];
 }
 
@@ -36,6 +37,7 @@ export function Nav({ links, isCollapsed }: NavProps) {
                   href="#"
                   className={cn(
                     buttonVariants({ variant: "text", icon: true }),
+                    link.variant === 'default' && 'bg-item-selected'
                   )}
                 >
                   <link.icon className="h-4 w-4" />
@@ -45,9 +47,7 @@ export function Nav({ links, isCollapsed }: NavProps) {
               <TooltipContent side="right" className="flex items-center gap-4">
                 {link.title}
                 {link.label && (
-                  <span className="ml-auto text-muted-foreground">
-                    {link.label}
-                  </span>
+                  <span className="ml-auto text-description">{link.label}</span>
                 )}
               </TooltipContent>
             </Tooltip>
@@ -57,6 +57,7 @@ export function Nav({ links, isCollapsed }: NavProps) {
               href="#"
               className={cn(
                 buttonVariants({ variant: "text" }),
+                link.variant === 'default' && 'bg-item-selected',
                 'justify-start'
               )}
             >
@@ -65,9 +66,8 @@ export function Nav({ links, isCollapsed }: NavProps) {
               {link.label && (
                 <span
                   className={cn(
-                    'ml-auto',
-                    link.variant === 'default' &&
-                      'text-background dark:text-white'
+                    'ml-auto text-description',
+                    link.variant === 'default' && 'text'
                   )}
                 >
                   {link.label}
