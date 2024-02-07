@@ -1,8 +1,5 @@
 // Import core
-import addDays from 'date-fns/addDays';
-import addHours from 'date-fns/addHours';
 import format from 'date-fns/format';
-import nextSaturday from 'date-fns/nextSaturday';
 import {
   Archive,
   ArchiveX,
@@ -24,17 +21,11 @@ import {
   AvatarImage,
 } from '@design-system/components/avatar';
 import { Button } from '@design-system/components/button';
-import { Calendar } from '@design-system/components/calendar';
 import {
   DropdownMenu,
   DropdownMenuTrigger,
 } from '@design-system/components/dropdown-menu';
 import { Label } from '@design-system/components/label';
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@design-system/components/popover';
 import { Separator } from '@design-system/components/separator';
 import { Switch } from '@design-system/components/switch';
 import { Textarea } from '@design-system/components/textarea';
@@ -50,7 +41,6 @@ interface MailDisplayProps {
 }
 
 export function MailDisplay({ mail }: MailDisplayProps) {
-  const today = new Date();
 
   return (
     <div className="flex h-full flex-col">
