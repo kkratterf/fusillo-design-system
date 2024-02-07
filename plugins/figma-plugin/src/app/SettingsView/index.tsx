@@ -4,10 +4,8 @@ import styles from "./styles.module.scss";
 import {
   Panel,
   PanelHeader,
-  Dropdown,
   Stack,
   Button,
-  Input,
   Icon,
   IconButton,
   Text,
@@ -28,12 +26,6 @@ import { pushToCustomURL } from "../../utils/servers/pushToCustomURL";
 
 import { downloadTokensFile } from "../../utils/downloadTokensFile";
 
-type StyleListItemType = {
-  id: stylesType;
-  label: string;
-  icon: JSX.Element;
-};
-
 interface ViewProps {
   JSONsettingsConfig: JSONSettingsConfigI;
   setJSONsettingsConfig: React.Dispatch<
@@ -45,24 +37,6 @@ interface ViewProps {
   setGeneratedTokens: React.Dispatch<React.SetStateAction<object>>;
   currentView: string;
 }
-
-const stylesList = [
-  {
-    id: "text",
-    label: "Typography",
-    icon: <Icon name="text" size="32" />,
-  },
-  {
-    id: "grids",
-    label: "Grids",
-    icon: <Icon name="grid-styles" size="32" />,
-  },
-  {
-    id: "effects",
-    label: "Effects",
-    icon: <Icon name="effects" size="32" />,
-  },
-] as StyleListItemType[];
 
 const serverList = [
   {
@@ -118,24 +92,6 @@ export const SettingsView = (props: ViewProps) => {
     setJSONsettingsConfig({
       ...JSONsettingsConfig,
       includeScopes: checked,
-    });
-  };
-
-  const handleDTCGKeys = (checked: boolean) => {
-    // console.log("handleSplitFilesChange", checked);
-
-    setJSONsettingsConfig({
-      ...JSONsettingsConfig,
-      useDTCGKeys: checked,
-    });
-  };
-
-  const handleIncludeValueAliasString = (checked: boolean) => {
-    // console.log("handleSplitFilesChange", checked);
-
-    setJSONsettingsConfig({
-      ...JSONsettingsConfig,
-      includeValueAliasString: checked,
     });
   };
 
@@ -333,148 +289,6 @@ export const SettingsView = (props: ViewProps) => {
       </Panel>
 
       <Panel>
-        <Stack hasLeftRightPadding>
-          <Dropdown
-            label="Color mode"
-            value={JSONsettingsConfig.colorMode}
-            onChange={(value: colorModeType) => {
-              setJSONsettingsConfig({
-                ...JSONsettingsConfig,
-                colorMode: value,
-              });
-            }}
-            optionsSections={[
-              {
-                options: [
-                  {
-                    id: "hex",
-                    label: "HEX",
-                  },
-                ],
-              },
-              {
-                options: [
-                  {
-                    id: "rgba-css",
-                    label: "RGBA CSS",
-                  },
-                  {
-                    id: "rgba-object",
-                    label: "RGBA Object",
-                  },
-                ],
-              },
-              {
-                options: [
-                  {
-                    id: "hsla-css",
-                    label: "HSLA CSS",
-                  },
-                  {
-                    id: "hsla-object",
-                    label: "HSLA Object",
-                  },
-                ],
-              },
-            ]}
-          />
-        </Stack>
-      </Panel>
-
-      <Panel>
-        <PanelHeader title="Include styles" isActive />
-
-        <Stack hasLeftRightPadding={false} hasTopBottomPadding gap={2}>
-          {stylesList.map((item, index) => {
-            const configStylesList = JSONsettingsConfig.includedStyles;
-            const styleItem = configStylesList[item.id];
-
-            // check if style item is included
-            const isIncluded = styleItem.isIncluded;
-
-            return (
-              <Stack key={index} direction="row" gap="var(--space-extra-small)">
-                <Input
-                  className={styles.styleNameInput}
-                  id={`style-${item.id}`}
-                  hasOutline={false}
-                  value={styleItem.customName}
-                  leftIcon={item.icon}
-                  onChange={(value: string) => {
-                    setJSONsettingsConfig({
-                      ...JSONsettingsConfig,
-                      includedStyles: {
-                        ...configStylesList,
-                        [item.id]: {
-                          ...styleItem,
-                          customName: value,
-                        },
-                      },
-                    });
-                  }}
-                />
-                <Toggle
-                  id={`toggle-${item.id}`}
-                  checked={isIncluded}
-                  onChange={(checked: boolean) => {
-                    setJSONsettingsConfig({
-                      ...JSONsettingsConfig,
-                      includedStyles: {
-                        ...configStylesList,
-                        [item.id]: {
-                          ...styleItem,
-                          isIncluded: checked,
-                        },
-                      },
-                    });
-                  }}
-                />
-              </Stack>
-            );
-          })}
-        </Stack>
-      </Panel>
-
-      {Object.keys(JSONsettingsConfig.includedStyles).some((styleId) => {
-        return JSONsettingsConfig.includedStyles[styleId].isIncluded;
-      }) && (
-        <Panel>
-          <Stack hasLeftRightPadding>
-            <Dropdown
-              label="Add styles to"
-              value={JSONsettingsConfig.selectedCollection}
-              onChange={(value: string) => {
-                setJSONsettingsConfig({
-                  ...JSONsettingsConfig,
-                  selectedCollection: value,
-                });
-              }}
-              optionsSections={[
-                {
-                  options: [
-                    {
-                      id: "none",
-                      label: "Keep separate",
-                    },
-                  ],
-                },
-                {
-                  options: JSONsettingsConfig.variableCollections.map(
-                    (collection) => {
-                      return {
-                        id: collection,
-                        label: collection,
-                      };
-                    }
-                  ),
-                },
-              ]}
-            />
-          </Stack>
-        </Panel>
-      )}
-
-      <Panel>
         <Stack>
           <Toggle
             id="scope-feature"
@@ -486,34 +300,6 @@ export const SettingsView = (props: ViewProps) => {
           </Toggle>
         </Stack>
       </Panel>
-
-      <Panel>
-        <Stack hasLeftRightPadding>
-          <Toggle
-            id="use-dtcg-key"
-            checked={JSONsettingsConfig.useDTCGKeys}
-            onChange={handleDTCGKeys}
-          >
-            <Text>Use DTCG keys format</Text>
-          </Toggle>
-        </Stack>
-      </Panel>
-
-      <Panel>
-        <Stack hasLeftRightPadding>
-          <Toggle
-            id="include-value-alias-string"
-            checked={JSONsettingsConfig.includeValueAliasString}
-            onChange={handleIncludeValueAliasString}
-          >
-            <Text>
-              Include <span className={styles.codeLine}>.value</span> string for
-              aliases
-            </Text>
-          </Toggle>
-        </Stack>
-      </Panel>
-
       <Panel>
         <PanelHeader
           ref={serversHeaderRef}
@@ -544,7 +330,6 @@ export const SettingsView = (props: ViewProps) => {
             },
           ]}
         />
-
         {isAnyServerEnabled && (
           <Stack
             hasLeftRightPadding
@@ -594,15 +379,7 @@ export const SettingsView = (props: ViewProps) => {
           </Stack>
         )}
       </Panel>
-
-      {/* <Button
-        label="Push to Gitlab"
-        onClick={() => {
-          pushToGitlab();
-        }}
-      /> */}
-
-      <Panel hasLeftRightPadding bottomBorder={false}>
+      <Panel hasLeftRightPadding bottomBorder={false} >
         <Stack hasLeftRightPadding hasTopBottomPadding>
           <Button
             label="Download JSON"
@@ -672,7 +449,7 @@ export const SettingsView = (props: ViewProps) => {
               <Text>Documentation</Text>
             </a>
             <a href={config.changelogLink} target="_blank">
-              <Text>v.1.6.1</Text>
+              <Text>v.1.0.0</Text>
             </a>
           </Stack>
         </Panel>

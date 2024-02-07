@@ -10,19 +10,18 @@
   "homepage": "https://www.figma.com/community/plugin/1321214106417472674/fusillo-figma-plugin",
   "scripts": {
     "build-plugin": "webpack --mode=production",
-    "plugin": "webpack --mode=development --watch"
+    "dev-plugin": "webpack --mode=development --watch"
   },
   "dependencies": {
     "@octokit/core": "^5.0.0",
     "clipboard-copy": "^4.0.1",
+     "react-figma-ui": "git+https://git@github.com/kkratterf/react-figma-ui",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-figma-ui": "git+https://git@github.com/kkratterf/react-figma-ui"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@kkratterf/token-types": "git+https://github.com/kkratterf/token-types.git#main",
-    "@figma/plugin-typings": "^1.84.0",
-    "@types/node": "^20.11.2",
+    "@figma/plugin-typings": "^1.70.0",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "buffer": "^6.0.3",
@@ -50,8 +49,3 @@
     "variants"
   ]
 }
-
-
-
-
-  

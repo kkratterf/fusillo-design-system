@@ -1,15 +1,19 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "lib": ["es2016", "dom"],
+    "target": "es6",
     "outDir": "dist",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "experimentalDecorators": true,
     "removeComments": true,
     "noImplicitAny": false,
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
-    "types": ["@figma/plugin-typings", "node", "@kkratterf/token-types"]
+    "typeRoots": [
+      "../../node_modules/@types",
+      "../../node_modules/@figma",
+      "../../node_modules/@kkratterf"
+    ]
   }
 }
