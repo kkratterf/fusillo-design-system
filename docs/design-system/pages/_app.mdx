@@ -1,15 +1,16 @@
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/react';
 import { Toaster } from '@design-system/components/toast';
+import Main from '@docs/components/main'
 import '@docs/style/globals.css';
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className="font-sans">
+    <Main>
       <Component {...pageProps} />
       <Toaster />
       <SpeedInsights/>
       <Analytics />
-    </main>
+    </Main>
   );
 }

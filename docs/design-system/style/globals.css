@@ -1,8 +1,6 @@
 /* Import css files */
 @import './brand.css';
 @import '../../../packages/design-system/style/globals.css';
-@import '../../../packages/design-system/fonts/GeistSans.css';
-@import '../../../packages/design-system/fonts/GeistMono.css';
 
 * {
   @apply border-border;
@@ -10,7 +8,6 @@
 
 body {
   @apply font-sans bg-background text antialiased;
-  font-family: 'GeistSans';
   font-synthesis-weight: none;
   text-rendering: optimizeLegibility;
 }
@@ -21,7 +18,6 @@ body {
 
 .code {
   @apply font-mono;
-  font-family: 'GeistMono';
 }
 
 /* Fix Nextra */

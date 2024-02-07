@@ -21,11 +21,8 @@ module.exports = {
         3.5: '14px',
       },
       fontFamily: {
-        sans: ['var(--geist-sans)', ...fontFamily.sans],
-        mono: ['var(--geist-mono)', ...fontFamily.mono],
-      },
-      backgroundImage: {
-        'dots': "url('/dots.svg')",
+        sans: ['var(--font-geist-sans)', ...fontFamily.sans],
+        mono: ['var(--font-geist-mono)', ...fontFamily.mono],
       },
     },
   },

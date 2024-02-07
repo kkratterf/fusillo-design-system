@@ -4,7 +4,7 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 module.exports = {
   darkMode: ['class'],
   content: [
-    './storybook/**/*.{ts,tsx}',
+    './.storybook/**/*.{ts,tsx}',
     './stories/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
   ],
@@ -429,8 +429,8 @@ module.exports = {
         'icon-warning-inverse': 'var(--icon-warning-inverse)',
       },
       fontFamily: {
-        sans: ['var(--geist-sans)', ...fontFamily.sans],
-        mono: ['var(--geist-mono)', ...fontFamily.mono],
+        sans: ['var(--font-geist-sans)', ...fontFamily.sans],
+        mono: ['var(--font-geist-mono)', ...fontFamily.mono],
       },
       fontSize: {
         'title-screen': [

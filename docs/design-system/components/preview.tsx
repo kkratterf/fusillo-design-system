@@ -1,6 +1,5 @@
 // Import core
 import React, { ReactNode } from 'react';
-// Import third parts
 // Import customs
 
 type PreviewProps = {

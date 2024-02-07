@@ -1,10 +1,12 @@
 // Import core
 import type { Metadata } from 'next';
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 // Import customs
-import '../style/globals.css';
 import { ThemeProvider } from '@next-example/components/theme-provider';
 import { Toaster } from '@design-system/components/toast';
 import { Sonner } from '@design-system/components/sonner';
+import '../style/globals.css';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body>
         <ThemeProvider
           attribute="class"

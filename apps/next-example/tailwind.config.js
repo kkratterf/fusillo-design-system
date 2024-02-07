@@ -1,3 +1,5 @@
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 const DesignSystem = require('../../packages/design-system/tailwind.config');
 module.exports = {
@@ -12,6 +14,10 @@ module.exports = {
     ...DesignSystem.theme,
     extend: {
       ...DesignSystem.theme.extend,
+      fontFamily: {
+        sans: ['var(--font-geist-sans)', ...fontFamily.sans],
+        mono: ['var(--font-geist-mono)', ...fontFamily.mono],
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
