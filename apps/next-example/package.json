@@ -1,5 +1,5 @@
 {
-  "name": "apps-web",
+  "name": "apps-next-example",
   "version": "1.0.6",
   "description": "Web app for testing components",
   "author": {
@@ -15,9 +15,12 @@
   "repository": "https://github.com/kkratterf/fusillo-design-system",
   "homepage": "https://www.fusillo.aldente.design/",
   "dependencies": {
+    "date-fns": "^2.30.0",
     "fusillo": "*",
+    "jotai": "^2.1.0",
     "lucide-react": "^0.303.0",
     "next": "14.0.4",
+    "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18"
   },

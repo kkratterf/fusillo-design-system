@@ -16,8 +16,8 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@next-example/*": ["./*"],
       "@design-system/*": ["../../packages/design-system/*"],
-      "@web/*": ["./*"],
       "@/*": ["../../packages/design-system/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],
