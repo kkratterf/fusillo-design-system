@@ -1,3 +1,3 @@
-# Web app for testing components
+# Apps - Next Example
 
 Description coming soon...

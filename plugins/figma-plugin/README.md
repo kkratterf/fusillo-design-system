@@ -1,3 +1,3 @@
-# Fusillo - Figma Plugin
+# Plugins - Figma Plugin
 
 Description coming soon...

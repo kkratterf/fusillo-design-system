@@ -1,3 +1,3 @@
-# Fusillo - Design Tokens
+# Design Tokens
 
 Description coming soon...
