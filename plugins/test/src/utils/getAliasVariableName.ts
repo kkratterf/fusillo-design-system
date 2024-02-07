@@ -23,7 +23,8 @@ export const getAliasVariableName = (
   const valueKey = getTokenKeyName(isDTCGForamt).value;
   const isValueKeyIncluded = includeValueAliasString ? `.${valueKey}` : "";
 
-  const parentPath = modesAmount === 1 ? collectionName : collectionName;
+  const parentPath =
+    modesAmount === 1 ? collectionName : collectionName;
   const variableParts = variableName.split("/");
   const aliasName = `{${parentPath}.${variableParts.join(
     "."

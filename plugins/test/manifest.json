@@ -1,5 +1,5 @@
 {
-  "name": "Figma Plugin Example",
+  "name": "Old plugin",
   "id": "1321214106417472674",
   "api": "1.0.0",
   "main": "dist/code.js",
