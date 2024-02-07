@@ -23,6 +23,7 @@
     "autoprefixer": "^10.4.16",
     "date-fns": "^3.2.0",
     "fusillo": "*",
+    "geist": "^1.2.2",
     "lucide-react": "^0.303.0",
     "react-day-picker": "^8.10.0",
     "react-hook-form": "^7.48.2",

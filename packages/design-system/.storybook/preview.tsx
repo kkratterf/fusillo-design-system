@@ -1,11 +1,28 @@
 // Import core
+import * as React from 'react'
+import localFont from 'next/font/local';
 import type { Preview, Renderer } from '@storybook/react';
 import { withThemeByClassName } from '@storybook/addon-themes';
 // Import customs
 import '../style/globals.css';
 
+const GeistSans = localFont({
+  src: '../fonts/geist-sans/Geist-Variable.woff2',
+  variable: '--font-geist-sans',
+});
+
+const GeistMono = localFont({
+  src: '../fonts/geist-mono/GeistMono-Variable.woff2',
+  variable: '--font-geist-mono',
+});
+
 const preview: Preview = {
   decorators: [
+    (Story) => (
+      <div className={`font-sans ${GeistMono.variable} ${GeistSans.variable}`}>
+        <Story />
+      </div>
+    ),
     withThemeByClassName<Renderer>({
       themes: {
         Light: '',

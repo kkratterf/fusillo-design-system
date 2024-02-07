@@ -61,7 +61,7 @@
     "embla-carousel-react": "8.0.0-rc15",
     "esbuild": "^0.17.3",
     "eslint": "^8.41.0",
-    "geist": "^1.1.0",
+    "geist": "^1.2.2",
     "lucide-react": "^0.303.0",
     "postcss": "^8.4.33",
     "postcss-loader": "^8.0.0",

@@ -12,7 +12,7 @@ function getAbsolutePath(value: string): any {
 const config: StorybookConfig = {
   stories: [
     '../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)',
-    '../stories/**/*.mdx'
+    '../stories/**/*.mdx',
   ],
   addons: [
     getAbsolutePath('@storybook/addon-links'),
@@ -31,5 +31,15 @@ const config: StorybookConfig = {
     autodocs: 'tag',
     defaultName: 'Documentation',
   },
+  staticDirs: [
+    {
+      from: '../../../node_modules/geist/dist/fonts/geist-sans',
+      to: '/fonts/geist-sans',
+    },
+    {
+      from: '../../../node_modules/geist/dist/fonts/geist-mono',
+      to: '/fonts/geist-mono',
+    },
+  ],
 };
 export default config;
