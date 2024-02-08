@@ -5,6 +5,7 @@ import type { Preview, Renderer } from '@storybook/react';
 import { withThemeByClassName } from '@storybook/addon-themes';
 // Import customs
 import '../style/globals.css';
+import '../style/storybook.css';
 
 const GeistSans = localFont({
   src: '../fonts/geist-sans/Geist-Variable.woff2',
