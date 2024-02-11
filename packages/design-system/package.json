@@ -9,9 +9,9 @@
   "repository": "https://github.com/kkratterf/fusillo-design-system",
   "homepage": "https://www.fusillo.aldente.design/",
   "scripts": {
-    "storybook": "storybook dev -p 6006",
+    "dev": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
-    "build-storybook": "storybook build"
+    "build": "storybook build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.0",
