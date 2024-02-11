@@ -4,11 +4,11 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 // Import customs
 
-type PreviewProps = {
+type MainProps = {
   children: ReactNode;
 };
 
-const Preview: React.FC<PreviewProps> = ({ children }) => {
+const Main: React.FC<MainProps> = ({ children }) => {
   return (
     <main className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
       {children}
@@ -16,4 +16,4 @@ const Preview: React.FC<PreviewProps> = ({ children }) => {
   );
 };
 
-export default Preview;
+export default Main;
