@@ -78,7 +78,7 @@ const ExampleCalendarForm = (args: Story['args']) => {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
           <code className="text">
             {JSON.stringify(data, null, 2)}
           </code>

@@ -6,10 +6,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  * {
-    @apply border-border;
-  }
+* {
+  @apply border-border;
 }
 
 body {

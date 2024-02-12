@@ -8,6 +8,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    @apply border-border;
+  }
   body {
     @apply font-sans bg-background text antialiased;
     font-synthesis-weight: none;
