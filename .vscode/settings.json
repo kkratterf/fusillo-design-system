@@ -1,6 +1,7 @@
 {
   "eslint.workingDirectories": [
     { "pattern": "apps/*/" },
+    { "pattern": "docs/*/" },
     { "pattern": "packages/*/" }
   ],
   "css.lint.unknownAtRules": "ignore",
