@@ -1,13 +1,11 @@
 {
-  "name": "plugins-figma-plugin",
+  "name": "figma-plugin",
   "description": "Export your figma variables in JSON format directly from Figma to Github",
   "version": "1.0.0",
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"
   },
-  "repository": "https://github.com/kkratterf/fusillo-design-system",
-  "homepage": "https://www.figma.com/community/plugin/1321214106417472674/fusillo-figma-plugin",
   "scripts": {
     "build-plugin": "webpack --mode=production",
     "dev-plugin": "webpack --mode=development --watch"
@@ -46,6 +44,6 @@
     "figma-plugin",
     "design-tokens",
     "export",
-    "variants"
+    "variables"
   ]
 }

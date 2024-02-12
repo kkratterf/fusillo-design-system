@@ -1,13 +1,13 @@
 {
   "name": "fusillo-design-system",
-  "description": "A well-cooked design system",
+  "description": "A well-cooked design system 🤌",
   "version": "1.0.0",
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"
   },
   "repository": "https://github.com/kkratterf/fusillo-design-system",
-  "homepage": "https://www.fusillo.aldente.design/",
+  "homepage": "https://www.fusillo.design/",
   "workspaces": [
     "apps/*",
     "docs/*",

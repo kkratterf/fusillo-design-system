@@ -49,7 +49,7 @@ const CardDemo = ({ className, ...props }: CardProps) => {
         <CardDescription>You have 3 unread messages.</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">
-        <div className=" flex items-center space-x-4 rounded border p-4">
+        <div className=" flex items-center space-x-4 rounded border border-border p-4">
           <BellRing />
           <div className="flex-1 space-y-1">
             <p className="text-md-medium leading-none">Push Notifications</p>

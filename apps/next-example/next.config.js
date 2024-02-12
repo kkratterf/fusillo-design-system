@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['fusillo'],
+  transpilePackages: ['design-system'],
   images: {
     domains: ['images.unsplash.com'],
   },

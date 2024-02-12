@@ -1,3 +1,3 @@
-# Apps - Next Example
+# Next Example
 
 Description coming soon...

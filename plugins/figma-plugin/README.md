@@ -1,3 +1,3 @@
-# Plugins - Figma Plugin
+# Figma Plugin
 
 Description coming soon...

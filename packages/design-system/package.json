@@ -1,13 +1,11 @@
 {
-  "name": "fusillo",
+  "name": "design-system",
   "version": "1.0.0",
-  "description": "A well-cooked design system.",
+  "description": "Design system's components and stories",
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"
   },
-  "repository": "https://github.com/kkratterf/fusillo-design-system",
-  "homepage": "https://www.fusillo.aldente.design/",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "test-storybook": "test-storybook",

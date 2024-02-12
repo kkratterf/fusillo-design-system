@@ -1,3 +1,3 @@
-# Docs - Design System
+# Design System Docs
 
 Description coming soon...

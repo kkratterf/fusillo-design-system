@@ -11,7 +11,7 @@ export default {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: `%s – ${ds.ConfigName}`,
+      titleTemplate: `${ds.ConfigName} – %s`,
     };
   },
   footer: {

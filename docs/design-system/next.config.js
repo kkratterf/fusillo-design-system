@@ -6,7 +6,7 @@ const withNextra = require('nextra')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ['geist', 'fusillo'],
+  transpilePackages: ['geist', 'design-system'],
   images: {
     domains: ['images.unsplash.com'],
   },

@@ -112,7 +112,7 @@ export const CalendarPreview = () => {
       mode="single"
       selected={date}
       onSelect={setDate}
-      className="rounded border calendar-fix"
+      className="rounded border border-border calendar-fix"
     />
   </Preview>
   );

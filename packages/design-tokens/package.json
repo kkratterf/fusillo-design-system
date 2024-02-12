@@ -6,7 +6,6 @@
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"
   },
-  "repository": "https://github.com/kkratterf/fusillo-design-system",
   "main": "build.js",
   "scripts": {
     "test": "style-dictionary build",
