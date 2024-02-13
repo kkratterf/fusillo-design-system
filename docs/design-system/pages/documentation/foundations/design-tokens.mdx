@@ -10,7 +10,7 @@ Design tokens are the single source of truth for naming, managing and preserving
 
 Design tokens are essentially pairs of names and values that capture discrete design elements. These elements could range from colors and typography to spacing and animation timing.
 
-For instance, a token might standardize a color used across multiple products, like `bg-brand`.
+For instance, a token might standardize a color used across multiple screens or products, like `bg-card`.
 
 ## Why use design tokens?
 
@@ -22,15 +22,23 @@ Implementing our latest visual guidelines through tokens ensures consistency acr
 
 ## Design token names
 
-Understanding token names is crucial for efficient use of the design system. Each part of a token's name provides insight into its application.  
-Let's take as examples: 
+The token names are derived from [Tailwind](https://tailwindcss.com/) syntax. Tailwind is a css framework that has been used for styling components and will be used by developers to implement frontend screens. For this reason, aligning the naming of design tokens with that used by developers during their workflow is crucial to optimize everyone's work and limit errors.
 
-`bg(1)-brand(2)`  
-`bg(1)-brand(2)-hover(3)`
+Understanding token names is crucial for efficient use of the design system. Each part of a token's name provides insight into its application.
 
-- **1 - Property**: The specific UI element it applies to, such as text, background, border, ecc.
-- **2 - Modifier**: Information about the color roles. Not all tokens have modifiers, for example, `text` and `icon` for the default text and icon color.
+Let's take as examples:
+
+`bg-brand` - `<div className="bg-brand ..."></div>`  
+`bg-brand-hover` - `<div className="bg-brand-hover ..."></div>`  
+`rounded-full` - `<div className="rounded-full ..."></div>`  
+`text-danger` - `<p className="text-danger ..."></p>`  
+`4*` - `<div className="space-x-4 ..."></div>`  
+
+- **1 - Property**: The specific UI element it applies to, such as background, text, border, ecc.
+- **2 - Modifier**: Information about the roles. Not all tokens have modifiers, for example, `text` and `icon` for the default text and icon color.
 - **3 - State**: Additional information about interaction states.
+
+\*The only exceptions to this rule are tokens related to spacing. Tailwind CSS features a comprehensive spacing scale that applies to various properties, including margin, padding, gap, and space-between. To prevent unnecessary duplication in Figma, we utilize a singular spacing scale. Developers are then responsible for assigning the appropriate format to these values, such as 'm-4' for margin, 'p-4' for padding, 'gap-4' for gap, and so on.
 
 ## Use design tokens
 
