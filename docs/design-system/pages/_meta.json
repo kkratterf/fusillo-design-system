@@ -16,10 +16,10 @@
     "title": "Documentation",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact",
+  "help": {
+    "title": "Help",
     "type": "page",
-    "href": "https://www.kkratter.com",
+    "href": "/",
     "newWindow": true
   }
 }
