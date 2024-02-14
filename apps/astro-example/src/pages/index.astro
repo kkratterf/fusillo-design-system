@@ -1,8 +1,7 @@
 ---
 import Layout from '@astro-example/layouts/Layout.astro';
-import { ModeToggle } from '@astro-example/components/ModeToggle';
+import { Button } from '@design-system/components/button';
 import '@astro-example/styles/globals.css';
-import { Button } from "@design-system/components/button";
 ---
 
 <script is:inline>
@@ -25,8 +24,7 @@ import { Button } from "@design-system/components/button";
 </script>
 
 <Layout title="Welcome to Astro.">
-	<main class="bg-background">
-		<Button>Hello world</Button>
-		<ModeToggle client:load />
+	<main class="flex min-h-screen flex-col items-center justify-between p-40">
+		<Button variant="secondary">Hello world</Button>
 	</main>
 </Layout>

@@ -13,8 +13,8 @@ module.exports = {
     extend: {
       ...DesignSystem.theme.extend,
       fontFamily: {
-        sans: ['var(--font-geist-sans)', ...fontFamily.sans],
-        mono: ['var(--font-geist-mono)', ...fontFamily.mono],
+        sans: ['GeistSans', ...fontFamily.sans],
+        mono: ['GeistMono', ...fontFamily.mono],
       },
     },
   },
