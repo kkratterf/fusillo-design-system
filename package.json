@@ -2,6 +2,7 @@
   "name": "fusillo-design-system",
   "description": "A well-cooked design system 🤌",
   "version": "1.0.0",
+  "private": true,
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"

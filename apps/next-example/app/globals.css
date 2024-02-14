@@ -1,0 +1,16 @@
+@import '../../../packages/design-system/style/globals.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-background text antialiased;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+  * {
+    @apply border-border;
+  }
+}

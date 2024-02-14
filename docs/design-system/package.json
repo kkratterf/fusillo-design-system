@@ -1,7 +1,8 @@
 {
   "name": "design-system-docs",
-  "version": "1.0.0",
   "description": "Design system's documentation website",
+  "version": "1.0.0",
+  "private": true,
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"

@@ -1,7 +1,8 @@
 {
   "name": "design-tokens",
-  "version": "1.0.0",
   "description": "Design tokens converter",
+  "version": "1.0.0",
+  "private": true,
   "author": {
     "name": "Federico Kratter Thaler",
     "url": "https://www.kkratter.com/"

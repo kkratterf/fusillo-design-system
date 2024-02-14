@@ -5,8 +5,8 @@ import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 import { cn } from '@design-system/lib/twMerge';
 import { Tag } from '@design-system/components/tag';
 import { ScrollArea } from '@design-system/components/scroll-area';
-import { Mail } from '@next-example/app/data';
-import { useMail } from '@next-example/app/use-mail';
+import { Mail } from '@app-example/app/data';
+import { useMail } from '@app-example/app/use-mail';
 
 interface MailListProps {
   items: Mail[];

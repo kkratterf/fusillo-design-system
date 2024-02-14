@@ -1,24 +1,24 @@
-// Import core
-import { cookies } from 'next/headers';
-// Import customs
-import { Mail } from '@next-example/components/mail';
-import { accounts, mails } from '@next-example/app/data';
+'use client'
+
+import { Button } from '@design-system/components/button'
+import { useToast } from '@design-system/components/toast/use-toast';
 
 export default function Home() {
-  const layout = cookies().get('react-resizable-panels:layout');
-  const collapsed = cookies().get('react-resizable-panels:collapsed');
-
-  const defaultLayout = layout ? JSON.parse(layout.value) : undefined;
-  const defaultCollapsed = collapsed ? JSON.parse(collapsed.value) : undefined;
+  const { toast } = useToast();
   return (
-    <main className="flex flex-col">
-      <Mail
-        accounts={accounts}
-        mails={mails}
-        defaultLayout={defaultLayout}
-        defaultCollapsed={defaultCollapsed}
-        navCollapsedSize={4}
-      />
+    <main className="flex min-h-screen flex-col items-center justify-between p-40">
+      <Button
+        variant="secondary"
+        onClick={() => {
+          toast({
+            title: "Let's start",
+            description: 'Build your fantastic webapp',
+            status:"brand"
+          });
+        }}
+      >
+        Hello world
+      </Button>
     </main>
   );
 }

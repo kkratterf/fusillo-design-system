@@ -17,12 +17,12 @@ import {
   Users2,
 } from 'lucide-react';
 // Import customs
-import { AccountSwitcher } from '@next-example/components/account-switcher';
-import { MailDisplay } from '@next-example/components/mail-display';
-import { MailList } from '@next-example/components/mail-list';
-import { Nav } from '@next-example/components/nav';
-import { Mail } from '@next-example/app/data';
-import { useMail } from '@next-example/app/use-mail';
+import { AccountSwitcher } from '@app-example/components/account-switcher';
+import { MailDisplay } from '@app-example/components/mail-display';
+import { MailList } from '@app-example/components/mail-list';
+import { Nav } from '@app-example/components/nav';
+import { Mail } from '@app-example/app/data';
+import { useMail } from '@app-example/app/use-mail';
 import { cn } from '@design-system/lib/twMerge';
 import { Separator } from '@design-system/components/separator';
 import { Input } from '@design-system/components/input';
