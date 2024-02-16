@@ -4,7 +4,7 @@ import Logo from '@docs/components/config/logo';
 
 export default {
   logo: (
-    <span className="docs_logo flex items-center gap-2 bg-danger">
+    <span className="docs_logo flex items-center gap-2">
       <Logo />
       {ds.ConfigName}
     </span>
