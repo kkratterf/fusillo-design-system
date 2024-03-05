@@ -16,10 +16,26 @@
     "title": "Documentation",
     "type": "page"
   },
-  "help": {
-    "title": "Help",
+  "showcase": {
+    "title": "Showcase",
     "type": "page",
-    "href": "/",
-    "newWindow": true
+    "theme": {
+      "typesetting": "article",
+      "layout": "full"
+    }
+  },
+  "about": {
+    "title": "About",
+    "type": "page",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "404": {
+    "type": "page",
+    "theme": {
+      "timestamp": false,
+      "typesetting": "article"
+    }
   }
 }

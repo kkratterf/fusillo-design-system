@@ -1,0 +1,35 @@
+---
+title: Showcase
+---
+
+import { Cards } from 'nextra/components'
+
+{<h1 className="mt-10 mb-4 text-center text-[2.5rem] font-bold tracking-tight">Showcase</h1>}
+
+{<p className="mb-16 text-center text-lg text-description">Open
+source projects powered by Nextra</p>}
+
+<Cards>
+  <ShowcaseCard title="The Graph" href="https://thegraph.com/docs/en">
+    <>![The Graph preview](./showcase/thegraph.jpeg)</>
+  </ShowcaseCard>
+</Cards>
+
+export const ShowcaseCard = Object.assign(
+  Cards.Card.bind(),
+  {
+    displayName: 'ShowcaseCard',
+    defaultProps: {
+      image: true,
+      arrow: true,
+      target: '_blank'
+    }
+  }
+)
+
+<style global jsx>{`
+  img {
+    aspect-ratio: 12/6.3;
+    object-fit: cover;
+  }
+`}</style>

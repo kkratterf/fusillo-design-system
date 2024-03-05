@@ -12,15 +12,29 @@ export const TokensColor = ({ type, color }) => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tokens.Tokens.Light.Color[type][color]).map(
+          {Object.entries(tokens.Tokens.Light.color[type][color]).map(
             ([tokenName, tokenLightInfo]) => {
               const tokenDarkInfo =
-                tokens.Tokens.Dark.Color[type][color][tokenName];
+                tokens.Tokens.Dark.color[type][color][tokenName];
+              const tokenLightValue =
+                tokenLightInfo.original?.value
+                  ?.split('.')
+                  .slice(-2)
+                  .join('-')
+                  .slice(0, -1) || 'N/A';
+              const tokenDarkValue =
+                tokenDarkInfo.original?.value
+                  ?.split('.')
+                  .slice(-2)
+                  .join('-')
+                  .slice(0, -1) || 'N/A';
               return (
                 <tr key={tokenName}>
                   <td className="w-full">
                     <div className="cell-tokens-name">
-                      <code className="font-medium">{tokenName}</code>
+                      <code className="font-medium">
+                        color-{type}-{color}-{tokenName}
+                      </code>
                       <div className="cell-description-tokens">
                         {tokenLightInfo.description}
                       </div>
@@ -33,10 +47,7 @@ export const TokensColor = ({ type, color }) => (
                         style={{ backgroundColor: tokenLightInfo.value }}
                       ></div>
                       <div className="cell-token-tokens">
-                        <code>{`${tokenLightInfo.original.value
-                          .split('.')
-                          .pop()
-                          .slice(0, -1)}`}</code>
+                        <code>color-{tokenLightValue}</code>
                       </div>
                     </div>
                   </td>
@@ -47,10 +58,7 @@ export const TokensColor = ({ type, color }) => (
                         style={{ backgroundColor: tokenDarkInfo.value }}
                       ></div>
                       <div className="cell-token-tokens">
-                        <code>{`${tokenDarkInfo.original.value
-                          .split('.')
-                          .pop()
-                          .slice(0, -1)}`}</code>
+                        <code>color-{tokenDarkValue}</code>
                       </div>
                     </div>
                   </td>
@@ -63,3 +71,81 @@ export const TokensColor = ({ type, color }) => (
     }
   </>
 );
+
+export const TokensColorNeutral = ({ type }) => (
+  <>
+    {
+      <table className="docs my-6">
+        <thead>
+          <tr>
+            <th align="left">Token and description</th>
+            <th align="left">Light</th>
+            <th align="left">Dark</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.entries(tokens.Tokens.Light.color[type])
+            .filter(
+              ([tokenName]) =>
+                !['brand', 'danger', 'warning', 'chart', 'utility'].includes(
+                  tokenName
+                )
+            )
+            .map(([tokenName, tokenLightInfo]) => {
+              const tokenDarkInfo = tokens.Tokens.Dark.color[type][tokenName];
+              const tokenLightValue =
+                tokenLightInfo.original?.value
+                  ?.split('.')
+                  .slice(-2)
+                  .join('-')
+                  .slice(0, -1) || 'N/A';
+              const tokenDarkValue =
+                tokenDarkInfo.original?.value
+                  ?.split('.')
+                  .slice(-2)
+                  .join('-')
+                  .slice(0, -1) || 'N/A';
+              return (
+                <tr key={tokenName}>
+                  <td className="w-full">
+                    <div className="cell-tokens-name">
+                      <code className="font-medium">
+                        color-{type}-{tokenName}
+                      </code>
+                      <div className="cell-description-tokens">
+                        {tokenLightInfo.description}
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell-tokens">
+                      <div
+                        className="cell-preview-tokens nx-border nx-border-gray-300 dark:nx-border-gray-600"
+                        style={{ backgroundColor: tokenLightInfo.value }}
+                      ></div>
+                      <div className="cell-token-tokens">
+                        <code>color-{tokenLightValue}</code>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell-tokens">
+                      <div
+                        className="cell-preview-tokens nx-border nx-border-gray-300 dark:nx-border-gray-600"
+                        style={{ backgroundColor: tokenDarkInfo.value }}
+                      ></div>
+                      <div className="cell-token-tokens">
+                        <code>color-{tokenDarkValue}</code>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              );
+            })}
+        </tbody>
+      </table>
+    }
+  </>
+);
+
+;

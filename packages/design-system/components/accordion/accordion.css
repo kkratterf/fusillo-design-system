@@ -10,7 +10,7 @@
   }
 
   .accordion-item {
-    @apply border-b border-b-border last:border-none;
+    @apply border-b border-b-default last:border-none;
   }
   
   .accordion-trigger {
@@ -18,7 +18,7 @@
   }
 
   .accordion-content {
-    @apply overflow-hidden bg-subtle border-t border-t-border transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
+    @apply overflow-hidden bg-subtle border-t border-t-default transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
   }
 
   .accordion-content-children {

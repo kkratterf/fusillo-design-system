@@ -20,7 +20,7 @@ import {
 export const ContextMenuPreview = () => (
   <Preview>
     <ContextMenu>
-      <ContextMenuTrigger className="flex h-40 w-80 items-center justify-center rounded border border-dashed border-border text-md">
+      <ContextMenuTrigger className="flex h-40 w-80 items-center justify-center rounded border border-dashed border-default text-md">
         Right click here
       </ContextMenuTrigger>
       <ContextMenuContent className="w-64">

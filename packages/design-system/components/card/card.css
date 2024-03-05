@@ -6,7 +6,7 @@
 @layer components {
 
   .card-component {
-    @apply rounded-lg border border-border bg-card text shadow-sm;
+    @apply rounded-lg border border-default bg-card text shadow-sm;
   }
 
   .card-header {

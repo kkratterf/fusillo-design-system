@@ -36,7 +36,7 @@ export const Default: Story = {
   render: (args) => (
     <ScrollArea
       {...args}
-      className="h-40 w-48 rounded border border-border"
+      className="h-40 w-48 rounded border border-default"
     >
       <div className="p-4">
         <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
@@ -78,7 +78,7 @@ const works: Artwork[] = [
 
 export const Horizontal: Story = {
   render: (args) => (
-    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded border border-border">
+    <ScrollArea {...args} className="w-96 whitespace-nowrap rounded border border-default">
       <div className="flex w-max space-x-4 p-4">
         {works.map((artwork) => (
           <figure key={artwork.artist} className="shrink-0">

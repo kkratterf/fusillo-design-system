@@ -16,12 +16,12 @@ export const TokensSpace = () => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tokens.Tokens.Light.Space).map(
+          {Object.entries(tokens.Tokens.Light.space).map(
             ([tokenName, tokenInfo]) => (
               <tr key={tokenName}>
                 <td className="w-full">
                   <div className="cell-tokens-name">
-                    <code className="font-medium">{tokenName}</code>
+                    <code className="font-medium">space-{tokenName}</code>
                     <div className="cell-description-tokens">
                       {tokenInfo.description}
                     </div>

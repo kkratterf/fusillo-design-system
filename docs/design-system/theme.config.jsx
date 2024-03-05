@@ -1,16 +1,12 @@
 import * as ds from '@docs/tokens/config.js';
-import EmptyComponent from '@docs/components/config/empty-component'
-import Logo from '@docs/components/config/logo';
+import EmptyComponent from '@docs/components/config/empty-component';
 
 export default {
   logo: (
-    <span className="docs_logo flex items-center gap-2">
-      <Logo />
-      {ds.ConfigName}
-    </span>
+    <span className="docs_logo flex items-center gap-2">{ds.ConfigName}</span>
   ),
   project: {
-    link: 'https://github.com/kkratterf/fusillo',
+    link: 'https://github.com/kkratterf/fusillo-design-system',
   },
   useNextSeoProps() {
     return {
@@ -96,7 +92,14 @@ export default {
     </>
   ),
   footer: {
-    component: null,
+    text: (
+      <span>
+        © {new Date().getFullYear()} —{' '}
+        <a href="https://www.fusillo.design" target="_blank">
+          {ds.ConfigName}
+        </a>
+      </span>
+    ),
   },
   search: {
     loading: 'Loading...',

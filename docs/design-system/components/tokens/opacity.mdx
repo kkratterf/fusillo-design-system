@@ -16,14 +16,14 @@ export const TokensOpacity = () => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tokens.Tokens.Light.Opacity).map(
+          {Object.entries(tokens.Tokens.Light.opacity).map(
             ([tokenName, tokenInfo]) => {
               const opacityValue = parseInt(tokenInfo.value.replace('px', ''), 10) / 100;
               return (
               <tr key={tokenName}>
                 <td className="w-full">
                   <div className="cell-tokens-name">
-                    <code className="font-medium">{tokenName}</code>
+                    <code className="font-medium">opacity-{tokenName}</code>
                     <div className="cell-description-tokens">
                       {tokenInfo.description}
                     </div>

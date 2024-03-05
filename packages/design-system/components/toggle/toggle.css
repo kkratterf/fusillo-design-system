@@ -10,7 +10,7 @@
   }
 
   .toggle-component-outline {
-    @apply border border-border bg-item hover:bg-item-hover data-[state=on]:border-brand;
+    @apply border border-default bg-item hover:bg-item-hover data-[state=on]:border-brand;
   }
 
 }

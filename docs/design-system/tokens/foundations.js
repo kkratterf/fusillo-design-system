@@ -1,16 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Wed, 14 Feb 2024 11:42:26 GMT
+ * Generated on Tue, 05 Mar 2024 09:15:48 GMT
  */
 
 module.exports = {
   "Foundations": {
-    "Color": {
-      "Brand": {
-        "brand-50": {
+    "color": {
+      "brand": {
+        "50": {
           "type": "color",
           "value": "#eff6ff",
-          "description": "",
+          "description": "Foundations color brand of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:22"
           },
@@ -18,30 +18,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-50}",
-            "description": "",
+            "value": "{Foundations.color.blue.50}",
+            "description": "Foundations color brand of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:22"
             }
           },
-          "name": "FoundationsColorBrandBrand50",
+          "name": "FoundationsColorBrand50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-50"
+            "type": "color",
+            "item": "brand",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-50"
+            "color",
+            "brand",
+            "50"
           ]
         },
-        "brand-100": {
+        "100": {
           "type": "color",
           "value": "#dbeafe",
-          "description": "",
+          "description": "Foundations color brand of weight 100.",
           "$extensions": {
             "variableId": "VariableID:2:44"
           },
@@ -49,30 +49,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-100}",
-            "description": "",
+            "value": "{Foundations.color.blue.100}",
+            "description": "Foundations color brand of weight 100.",
             "$extensions": {
               "variableId": "VariableID:2:44"
             }
           },
-          "name": "FoundationsColorBrandBrand100",
+          "name": "FoundationsColorBrand100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-100"
+            "type": "color",
+            "item": "brand",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-100"
+            "color",
+            "brand",
+            "100"
           ]
         },
-        "brand-200": {
+        "200": {
           "type": "color",
           "value": "#bfdbfe",
-          "description": "",
+          "description": "Foundations color brand of weight 200.",
           "$extensions": {
             "variableId": "VariableID:2:45"
           },
@@ -80,30 +80,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-200}",
-            "description": "",
+            "value": "{Foundations.color.blue.200}",
+            "description": "Foundations color brand of weight 200.",
             "$extensions": {
               "variableId": "VariableID:2:45"
             }
           },
-          "name": "FoundationsColorBrandBrand200",
+          "name": "FoundationsColorBrand200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-200"
+            "type": "color",
+            "item": "brand",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-200"
+            "color",
+            "brand",
+            "200"
           ]
         },
-        "brand-300": {
+        "300": {
           "type": "color",
           "value": "#93c5fd",
-          "description": "",
+          "description": "Foundations color brand of weight 300.",
           "$extensions": {
             "variableId": "VariableID:2:46"
           },
@@ -111,30 +111,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-300}",
-            "description": "",
+            "value": "{Foundations.color.blue.300}",
+            "description": "Foundations color brand of weight 300.",
             "$extensions": {
               "variableId": "VariableID:2:46"
             }
           },
-          "name": "FoundationsColorBrandBrand300",
+          "name": "FoundationsColorBrand300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-300"
+            "type": "color",
+            "item": "brand",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-300"
+            "color",
+            "brand",
+            "300"
           ]
         },
-        "brand-400": {
+        "400": {
           "type": "color",
           "value": "#60a5fa",
-          "description": "",
+          "description": "Foundations color brand of weight 400.",
           "$extensions": {
             "variableId": "VariableID:2:47"
           },
@@ -142,30 +142,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-400}",
-            "description": "",
+            "value": "{Foundations.color.blue.400}",
+            "description": "Foundations color brand of weight 400.",
             "$extensions": {
               "variableId": "VariableID:2:47"
             }
           },
-          "name": "FoundationsColorBrandBrand400",
+          "name": "FoundationsColorBrand400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-400"
+            "type": "color",
+            "item": "brand",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-400"
+            "color",
+            "brand",
+            "400"
           ]
         },
-        "brand-500": {
+        "500": {
           "type": "color",
           "value": "#3b82f6",
-          "description": "",
+          "description": "Foundations color brand of weight 500.",
           "$extensions": {
             "variableId": "VariableID:2:48"
           },
@@ -173,30 +173,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-500}",
-            "description": "",
+            "value": "{Foundations.color.blue.500}",
+            "description": "Foundations color brand of weight 500.",
             "$extensions": {
               "variableId": "VariableID:2:48"
             }
           },
-          "name": "FoundationsColorBrandBrand500",
+          "name": "FoundationsColorBrand500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-500"
+            "type": "color",
+            "item": "brand",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-500"
+            "color",
+            "brand",
+            "500"
           ]
         },
-        "brand-600": {
+        "600": {
           "type": "color",
           "value": "#2563eb",
-          "description": "",
+          "description": "Foundations color brand of weight 600.",
           "$extensions": {
             "variableId": "VariableID:2:49"
           },
@@ -204,30 +204,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-600}",
-            "description": "",
+            "value": "{Foundations.color.blue.600}",
+            "description": "Foundations color brand of weight 600.",
             "$extensions": {
               "variableId": "VariableID:2:49"
             }
           },
-          "name": "FoundationsColorBrandBrand600",
+          "name": "FoundationsColorBrand600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-600"
+            "type": "color",
+            "item": "brand",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-600"
+            "color",
+            "brand",
+            "600"
           ]
         },
-        "brand-700": {
+        "700": {
           "type": "color",
           "value": "#1d4ed8",
-          "description": "",
+          "description": "Foundations color brand of weight 700.",
           "$extensions": {
             "variableId": "VariableID:2:50"
           },
@@ -235,30 +235,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-700}",
-            "description": "",
+            "value": "{Foundations.color.blue.700}",
+            "description": "Foundations color brand of weight 700.",
             "$extensions": {
               "variableId": "VariableID:2:50"
             }
           },
-          "name": "FoundationsColorBrandBrand700",
+          "name": "FoundationsColorBrand700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-700"
+            "type": "color",
+            "item": "brand",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-700"
+            "color",
+            "brand",
+            "700"
           ]
         },
-        "brand-800": {
+        "800": {
           "type": "color",
           "value": "#1e40af",
-          "description": "",
+          "description": "Foundations color brand of weight 800.",
           "$extensions": {
             "variableId": "VariableID:2:51"
           },
@@ -266,30 +266,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-800}",
-            "description": "",
+            "value": "{Foundations.color.blue.800}",
+            "description": "Foundations color brand of weight 800.",
             "$extensions": {
               "variableId": "VariableID:2:51"
             }
           },
-          "name": "FoundationsColorBrandBrand800",
+          "name": "FoundationsColorBrand800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-800"
+            "type": "color",
+            "item": "brand",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-800"
+            "color",
+            "brand",
+            "800"
           ]
         },
-        "brand-900": {
+        "900": {
           "type": "color",
           "value": "#1e3a8a",
-          "description": "",
+          "description": "Foundations color brand of weight 900.",
           "$extensions": {
             "variableId": "VariableID:2:52"
           },
@@ -297,30 +297,30 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-900}",
-            "description": "",
+            "value": "{Foundations.color.blue.900}",
+            "description": "Foundations color brand of weight 900.",
             "$extensions": {
               "variableId": "VariableID:2:52"
             }
           },
-          "name": "FoundationsColorBrandBrand900",
+          "name": "FoundationsColorBrand900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-900"
+            "type": "color",
+            "item": "brand",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-900"
+            "color",
+            "brand",
+            "900"
           ]
         },
-        "brand-950": {
+        "950": {
           "type": "color",
           "value": "#172554",
-          "description": "",
+          "description": "Foundations color brand of weight 950.",
           "$extensions": {
             "variableId": "VariableID:2:53"
           },
@@ -328,32 +328,32 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "{Foundations.Color.Blue.blue-950}",
-            "description": "",
+            "value": "{Foundations.color.blue.950}",
+            "description": "Foundations color brand of weight 950.",
             "$extensions": {
               "variableId": "VariableID:2:53"
             }
           },
-          "name": "FoundationsColorBrandBrand950",
+          "name": "FoundationsColorBrand950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Brand",
-            "subitem": "brand-950"
+            "type": "color",
+            "item": "brand",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Brand",
-            "brand-950"
+            "color",
+            "brand",
+            "950"
           ]
         }
       },
-      "Red": {
-        "red-50": {
+      "red": {
+        "50": {
           "type": "color",
           "value": "#fef2f2",
-          "description": "",
+          "description": "Foundations color red of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:26"
           },
@@ -362,29 +362,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fef2f2",
-            "description": "",
+            "description": "Foundations color red of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:26"
             }
           },
-          "name": "FoundationsColorRedRed50",
+          "name": "FoundationsColorRed50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-50"
+            "type": "color",
+            "item": "red",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-50"
+            "color",
+            "red",
+            "50"
           ]
         },
-        "red-100": {
+        "100": {
           "type": "color",
           "value": "#fee2e2",
-          "description": "",
+          "description": "Foundations color red of weight 100.",
           "$extensions": {
             "variableId": "VariableID:3:94"
           },
@@ -393,29 +393,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fee2e2",
-            "description": "",
+            "description": "Foundations color red of weight 100.",
             "$extensions": {
               "variableId": "VariableID:3:94"
             }
           },
-          "name": "FoundationsColorRedRed100",
+          "name": "FoundationsColorRed100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-100"
+            "type": "color",
+            "item": "red",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-100"
+            "color",
+            "red",
+            "100"
           ]
         },
-        "red-200": {
+        "200": {
           "type": "color",
           "value": "#fecaca",
-          "description": "",
+          "description": "Foundations color red of weight 200.",
           "$extensions": {
             "variableId": "VariableID:3:95"
           },
@@ -424,29 +424,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fecaca",
-            "description": "",
+            "description": "Foundations color red of weight 200.",
             "$extensions": {
               "variableId": "VariableID:3:95"
             }
           },
-          "name": "FoundationsColorRedRed200",
+          "name": "FoundationsColorRed200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-200"
+            "type": "color",
+            "item": "red",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-200"
+            "color",
+            "red",
+            "200"
           ]
         },
-        "red-300": {
+        "300": {
           "type": "color",
           "value": "#fca5a5",
-          "description": "",
+          "description": "Foundations color red of weight 300.",
           "$extensions": {
             "variableId": "VariableID:3:96"
           },
@@ -455,29 +455,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fca5a5",
-            "description": "",
+            "description": "Foundations color red of weight 300.",
             "$extensions": {
               "variableId": "VariableID:3:96"
             }
           },
-          "name": "FoundationsColorRedRed300",
+          "name": "FoundationsColorRed300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-300"
+            "type": "color",
+            "item": "red",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-300"
+            "color",
+            "red",
+            "300"
           ]
         },
-        "red-400": {
+        "400": {
           "type": "color",
           "value": "#f87171",
-          "description": "",
+          "description": "Foundations color red of weight 400.",
           "$extensions": {
             "variableId": "VariableID:3:97"
           },
@@ -486,29 +486,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f87171",
-            "description": "",
+            "description": "Foundations color red of weight 400.",
             "$extensions": {
               "variableId": "VariableID:3:97"
             }
           },
-          "name": "FoundationsColorRedRed400",
+          "name": "FoundationsColorRed400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-400"
+            "type": "color",
+            "item": "red",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-400"
+            "color",
+            "red",
+            "400"
           ]
         },
-        "red-500": {
+        "500": {
           "type": "color",
           "value": "#ef4444",
-          "description": "",
+          "description": "Foundations color red of weight 500.",
           "$extensions": {
             "variableId": "VariableID:3:98"
           },
@@ -517,29 +517,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ef4444",
-            "description": "",
+            "description": "Foundations color red of weight 500.",
             "$extensions": {
               "variableId": "VariableID:3:98"
             }
           },
-          "name": "FoundationsColorRedRed500",
+          "name": "FoundationsColorRed500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-500"
+            "type": "color",
+            "item": "red",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-500"
+            "color",
+            "red",
+            "500"
           ]
         },
-        "red-600": {
+        "600": {
           "type": "color",
           "value": "#dc2626",
-          "description": "",
+          "description": "Foundations color red of weight 600.",
           "$extensions": {
             "variableId": "VariableID:3:99"
           },
@@ -548,29 +548,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#dc2626",
-            "description": "",
+            "description": "Foundations color red of weight 600.",
             "$extensions": {
               "variableId": "VariableID:3:99"
             }
           },
-          "name": "FoundationsColorRedRed600",
+          "name": "FoundationsColorRed600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-600"
+            "type": "color",
+            "item": "red",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-600"
+            "color",
+            "red",
+            "600"
           ]
         },
-        "red-700": {
+        "700": {
           "type": "color",
           "value": "#b91c1c",
-          "description": "",
+          "description": "Foundations color red of weight 700.",
           "$extensions": {
             "variableId": "VariableID:3:100"
           },
@@ -579,29 +579,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#b91c1c",
-            "description": "",
+            "description": "Foundations color red of weight 700.",
             "$extensions": {
               "variableId": "VariableID:3:100"
             }
           },
-          "name": "FoundationsColorRedRed700",
+          "name": "FoundationsColorRed700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-700"
+            "type": "color",
+            "item": "red",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-700"
+            "color",
+            "red",
+            "700"
           ]
         },
-        "red-800": {
+        "800": {
           "type": "color",
           "value": "#991b1b",
-          "description": "",
+          "description": "Foundations color red of weight 800.",
           "$extensions": {
             "variableId": "VariableID:3:101"
           },
@@ -610,29 +610,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#991b1b",
-            "description": "",
+            "description": "Foundations color red of weight 800.",
             "$extensions": {
               "variableId": "VariableID:3:101"
             }
           },
-          "name": "FoundationsColorRedRed800",
+          "name": "FoundationsColorRed800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-800"
+            "type": "color",
+            "item": "red",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-800"
+            "color",
+            "red",
+            "800"
           ]
         },
-        "red-900": {
+        "900": {
           "type": "color",
           "value": "#7f1d1d",
-          "description": "",
+          "description": "Foundations color red of weight 900.",
           "$extensions": {
             "variableId": "VariableID:3:102"
           },
@@ -641,29 +641,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#7f1d1d",
-            "description": "",
+            "description": "Foundations color red of weight 900.",
             "$extensions": {
               "variableId": "VariableID:3:102"
             }
           },
-          "name": "FoundationsColorRedRed900",
+          "name": "FoundationsColorRed900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-900"
+            "type": "color",
+            "item": "red",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-900"
+            "color",
+            "red",
+            "900"
           ]
         },
-        "red-950": {
+        "950": {
           "type": "color",
           "value": "#450a0a",
-          "description": "",
+          "description": "Foundations color red of weight 950.",
           "$extensions": {
             "variableId": "VariableID:3:103"
           },
@@ -672,31 +672,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#450a0a",
-            "description": "",
+            "description": "Foundations color red of weight 950.",
             "$extensions": {
               "variableId": "VariableID:3:103"
             }
           },
-          "name": "FoundationsColorRedRed950",
+          "name": "FoundationsColorRed950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Red",
-            "subitem": "red-950"
+            "type": "color",
+            "item": "red",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Red",
-            "red-950"
+            "color",
+            "red",
+            "950"
           ]
         }
       },
-      "Orange": {
-        "orange-50": {
+      "orange": {
+        "50": {
           "type": "color",
           "value": "#fff7ed",
-          "description": "",
+          "description": "Foundations color orange of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:27"
           },
@@ -705,29 +705,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fff7ed",
-            "description": "",
+            "description": "Foundations color orange of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:27"
             }
           },
-          "name": "FoundationsColorOrangeOrange50",
+          "name": "FoundationsColorOrange50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-50"
+            "type": "color",
+            "item": "orange",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-50"
+            "color",
+            "orange",
+            "50"
           ]
         },
-        "orange-100": {
+        "100": {
           "type": "color",
           "value": "#ffedd5",
-          "description": "",
+          "description": "Foundations color orange of weight 100.",
           "$extensions": {
             "variableId": "VariableID:3:104"
           },
@@ -736,29 +736,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ffedd5",
-            "description": "",
+            "description": "Foundations color orange of weight 100.",
             "$extensions": {
               "variableId": "VariableID:3:104"
             }
           },
-          "name": "FoundationsColorOrangeOrange100",
+          "name": "FoundationsColorOrange100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-100"
+            "type": "color",
+            "item": "orange",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-100"
+            "color",
+            "orange",
+            "100"
           ]
         },
-        "orange-200": {
+        "200": {
           "type": "color",
           "value": "#fed7aa",
-          "description": "",
+          "description": "Foundations color orange of weight 200.",
           "$extensions": {
             "variableId": "VariableID:3:105"
           },
@@ -767,29 +767,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fed7aa",
-            "description": "",
+            "description": "Foundations color orange of weight 200.",
             "$extensions": {
               "variableId": "VariableID:3:105"
             }
           },
-          "name": "FoundationsColorOrangeOrange200",
+          "name": "FoundationsColorOrange200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-200"
+            "type": "color",
+            "item": "orange",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-200"
+            "color",
+            "orange",
+            "200"
           ]
         },
-        "orange-300": {
+        "300": {
           "type": "color",
           "value": "#fdba74",
-          "description": "",
+          "description": "Foundations color orange of weight 300.",
           "$extensions": {
             "variableId": "VariableID:3:106"
           },
@@ -798,29 +798,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fdba74",
-            "description": "",
+            "description": "Foundations color orange of weight 300.",
             "$extensions": {
               "variableId": "VariableID:3:106"
             }
           },
-          "name": "FoundationsColorOrangeOrange300",
+          "name": "FoundationsColorOrange300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-300"
+            "type": "color",
+            "item": "orange",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-300"
+            "color",
+            "orange",
+            "300"
           ]
         },
-        "orange-400": {
+        "400": {
           "type": "color",
           "value": "#fb923c",
-          "description": "",
+          "description": "Foundations color orange of weight 400.",
           "$extensions": {
             "variableId": "VariableID:3:107"
           },
@@ -829,29 +829,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fb923c",
-            "description": "",
+            "description": "Foundations color orange of weight 400.",
             "$extensions": {
               "variableId": "VariableID:3:107"
             }
           },
-          "name": "FoundationsColorOrangeOrange400",
+          "name": "FoundationsColorOrange400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-400"
+            "type": "color",
+            "item": "orange",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-400"
+            "color",
+            "orange",
+            "400"
           ]
         },
-        "orange-500": {
+        "500": {
           "type": "color",
           "value": "#f97316",
-          "description": "",
+          "description": "Foundations color orange of weight 500.",
           "$extensions": {
             "variableId": "VariableID:3:108"
           },
@@ -860,29 +860,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f97316",
-            "description": "",
+            "description": "Foundations color orange of weight 500.",
             "$extensions": {
               "variableId": "VariableID:3:108"
             }
           },
-          "name": "FoundationsColorOrangeOrange500",
+          "name": "FoundationsColorOrange500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-500"
+            "type": "color",
+            "item": "orange",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-500"
+            "color",
+            "orange",
+            "500"
           ]
         },
-        "orange-600": {
+        "600": {
           "type": "color",
           "value": "#ea580c",
-          "description": "",
+          "description": "Foundations color orange of weight 600.",
           "$extensions": {
             "variableId": "VariableID:3:109"
           },
@@ -891,29 +891,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ea580c",
-            "description": "",
+            "description": "Foundations color orange of weight 600.",
             "$extensions": {
               "variableId": "VariableID:3:109"
             }
           },
-          "name": "FoundationsColorOrangeOrange600",
+          "name": "FoundationsColorOrange600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-600"
+            "type": "color",
+            "item": "orange",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-600"
+            "color",
+            "orange",
+            "600"
           ]
         },
-        "orange-700": {
+        "700": {
           "type": "color",
           "value": "#c2410c",
-          "description": "",
+          "description": "Foundations color orange of weight 700.",
           "$extensions": {
             "variableId": "VariableID:3:110"
           },
@@ -922,29 +922,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#c2410c",
-            "description": "",
+            "description": "Foundations color orange of weight 700.",
             "$extensions": {
               "variableId": "VariableID:3:110"
             }
           },
-          "name": "FoundationsColorOrangeOrange700",
+          "name": "FoundationsColorOrange700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-700"
+            "type": "color",
+            "item": "orange",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-700"
+            "color",
+            "orange",
+            "700"
           ]
         },
-        "orange-800": {
+        "800": {
           "type": "color",
           "value": "#9a3412",
-          "description": "",
+          "description": "Foundations color orange of weight 800.",
           "$extensions": {
             "variableId": "VariableID:3:111"
           },
@@ -953,29 +953,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#9a3412",
-            "description": "",
+            "description": "Foundations color orange of weight 800.",
             "$extensions": {
               "variableId": "VariableID:3:111"
             }
           },
-          "name": "FoundationsColorOrangeOrange800",
+          "name": "FoundationsColorOrange800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-800"
+            "type": "color",
+            "item": "orange",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-800"
+            "color",
+            "orange",
+            "800"
           ]
         },
-        "orange-900": {
+        "900": {
           "type": "color",
           "value": "#7c2d12",
-          "description": "",
+          "description": "Foundations color orange of weight 900.",
           "$extensions": {
             "variableId": "VariableID:3:112"
           },
@@ -984,29 +984,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#7c2d12",
-            "description": "",
+            "description": "Foundations color orange of weight 900.",
             "$extensions": {
               "variableId": "VariableID:3:112"
             }
           },
-          "name": "FoundationsColorOrangeOrange900",
+          "name": "FoundationsColorOrange900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-900"
+            "type": "color",
+            "item": "orange",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-900"
+            "color",
+            "orange",
+            "900"
           ]
         },
-        "orange-950": {
+        "950": {
           "type": "color",
           "value": "#431407",
-          "description": "",
+          "description": "Foundations color orange of weight 950.",
           "$extensions": {
             "variableId": "VariableID:3:113"
           },
@@ -1015,31 +1015,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#431407",
-            "description": "",
+            "description": "Foundations color orange of weight 950.",
             "$extensions": {
               "variableId": "VariableID:3:113"
             }
           },
-          "name": "FoundationsColorOrangeOrange950",
+          "name": "FoundationsColorOrange950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Orange",
-            "subitem": "orange-950"
+            "type": "color",
+            "item": "orange",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Orange",
-            "orange-950"
+            "color",
+            "orange",
+            "950"
           ]
         }
       },
-      "Amber": {
-        "amber-50": {
+      "amber": {
+        "50": {
           "type": "color",
           "value": "#fffbeb",
-          "description": "",
+          "description": "Foundations color amber of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:28"
           },
@@ -1048,29 +1048,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fffbeb",
-            "description": "",
+            "description": "Foundations color amber of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:28"
             }
           },
-          "name": "FoundationsColorAmberAmber50",
+          "name": "FoundationsColorAmber50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-50"
+            "type": "color",
+            "item": "amber",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-50"
+            "color",
+            "amber",
+            "50"
           ]
         },
-        "amber-100": {
+        "100": {
           "type": "color",
           "value": "#fef3c7",
-          "description": "",
+          "description": "Foundations color amber of weight 100.",
           "$extensions": {
             "variableId": "VariableID:4:114"
           },
@@ -1079,29 +1079,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fef3c7",
-            "description": "",
+            "description": "Foundations color amber of weight 100.",
             "$extensions": {
               "variableId": "VariableID:4:114"
             }
           },
-          "name": "FoundationsColorAmberAmber100",
+          "name": "FoundationsColorAmber100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-100"
+            "type": "color",
+            "item": "amber",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-100"
+            "color",
+            "amber",
+            "100"
           ]
         },
-        "amber-200": {
+        "200": {
           "type": "color",
           "value": "#fde68a",
-          "description": "",
+          "description": "Foundations color amber of weight 200.",
           "$extensions": {
             "variableId": "VariableID:4:115"
           },
@@ -1110,29 +1110,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fde68a",
-            "description": "",
+            "description": "Foundations color amber of weight 200.",
             "$extensions": {
               "variableId": "VariableID:4:115"
             }
           },
-          "name": "FoundationsColorAmberAmber200",
+          "name": "FoundationsColorAmber200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-200"
+            "type": "color",
+            "item": "amber",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-200"
+            "color",
+            "amber",
+            "200"
           ]
         },
-        "amber-300": {
+        "300": {
           "type": "color",
           "value": "#fcd34d",
-          "description": "",
+          "description": "Foundations color amber of weight 300.",
           "$extensions": {
             "variableId": "VariableID:4:116"
           },
@@ -1141,29 +1141,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fcd34d",
-            "description": "",
+            "description": "Foundations color amber of weight 300.",
             "$extensions": {
               "variableId": "VariableID:4:116"
             }
           },
-          "name": "FoundationsColorAmberAmber300",
+          "name": "FoundationsColorAmber300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-300"
+            "type": "color",
+            "item": "amber",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-300"
+            "color",
+            "amber",
+            "300"
           ]
         },
-        "amber-400": {
+        "400": {
           "type": "color",
           "value": "#fbbf24",
-          "description": "",
+          "description": "Foundations color amber of weight 400.",
           "$extensions": {
             "variableId": "VariableID:4:117"
           },
@@ -1172,29 +1172,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fbbf24",
-            "description": "",
+            "description": "Foundations color amber of weight 400.",
             "$extensions": {
               "variableId": "VariableID:4:117"
             }
           },
-          "name": "FoundationsColorAmberAmber400",
+          "name": "FoundationsColorAmber400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-400"
+            "type": "color",
+            "item": "amber",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-400"
+            "color",
+            "amber",
+            "400"
           ]
         },
-        "amber-500": {
+        "500": {
           "type": "color",
           "value": "#f59e0b",
-          "description": "",
+          "description": "Foundations color amber of weight 500.",
           "$extensions": {
             "variableId": "VariableID:4:118"
           },
@@ -1203,29 +1203,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f59e0b",
-            "description": "",
+            "description": "Foundations color amber of weight 500.",
             "$extensions": {
               "variableId": "VariableID:4:118"
             }
           },
-          "name": "FoundationsColorAmberAmber500",
+          "name": "FoundationsColorAmber500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-500"
+            "type": "color",
+            "item": "amber",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-500"
+            "color",
+            "amber",
+            "500"
           ]
         },
-        "amber-600": {
+        "600": {
           "type": "color",
           "value": "#d97706",
-          "description": "",
+          "description": "Foundations color amber of weight 600.",
           "$extensions": {
             "variableId": "VariableID:4:119"
           },
@@ -1234,29 +1234,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#d97706",
-            "description": "",
+            "description": "Foundations color amber of weight 600.",
             "$extensions": {
               "variableId": "VariableID:4:119"
             }
           },
-          "name": "FoundationsColorAmberAmber600",
+          "name": "FoundationsColorAmber600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-600"
+            "type": "color",
+            "item": "amber",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-600"
+            "color",
+            "amber",
+            "600"
           ]
         },
-        "amber-700": {
+        "700": {
           "type": "color",
           "value": "#b45309",
-          "description": "",
+          "description": "Foundations color amber of weight 700.",
           "$extensions": {
             "variableId": "VariableID:4:120"
           },
@@ -1265,29 +1265,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#b45309",
-            "description": "",
+            "description": "Foundations color amber of weight 700.",
             "$extensions": {
               "variableId": "VariableID:4:120"
             }
           },
-          "name": "FoundationsColorAmberAmber700",
+          "name": "FoundationsColorAmber700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-700"
+            "type": "color",
+            "item": "amber",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-700"
+            "color",
+            "amber",
+            "700"
           ]
         },
-        "amber-800": {
+        "800": {
           "type": "color",
           "value": "#92400e",
-          "description": "",
+          "description": "Foundations color amber of weight 800.",
           "$extensions": {
             "variableId": "VariableID:4:123"
           },
@@ -1296,29 +1296,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#92400e",
-            "description": "",
+            "description": "Foundations color amber of weight 800.",
             "$extensions": {
               "variableId": "VariableID:4:123"
             }
           },
-          "name": "FoundationsColorAmberAmber800",
+          "name": "FoundationsColorAmber800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-800"
+            "type": "color",
+            "item": "amber",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-800"
+            "color",
+            "amber",
+            "800"
           ]
         },
-        "amber-900": {
+        "900": {
           "type": "color",
           "value": "#78350f",
-          "description": "",
+          "description": "Foundations color amber of weight 900.",
           "$extensions": {
             "variableId": "VariableID:4:124"
           },
@@ -1327,29 +1327,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#78350f",
-            "description": "",
+            "description": "Foundations color amber of weight 900.",
             "$extensions": {
               "variableId": "VariableID:4:124"
             }
           },
-          "name": "FoundationsColorAmberAmber900",
+          "name": "FoundationsColorAmber900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-900"
+            "type": "color",
+            "item": "amber",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-900"
+            "color",
+            "amber",
+            "900"
           ]
         },
-        "amber-950": {
+        "950": {
           "type": "color",
           "value": "#451a03",
-          "description": "",
+          "description": "Foundations color amber of weight 950.",
           "$extensions": {
             "variableId": "VariableID:4:125"
           },
@@ -1358,31 +1358,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#451a03",
-            "description": "",
+            "description": "Foundations color amber of weight 950.",
             "$extensions": {
               "variableId": "VariableID:4:125"
             }
           },
-          "name": "FoundationsColorAmberAmber950",
+          "name": "FoundationsColorAmber950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Amber",
-            "subitem": "amber-950"
+            "type": "color",
+            "item": "amber",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Amber",
-            "amber-950"
+            "color",
+            "amber",
+            "950"
           ]
         }
       },
-      "Yellow": {
-        "yellow-50": {
+      "yellow": {
+        "50": {
           "type": "color",
           "value": "#fefce8",
-          "description": "",
+          "description": "Foundations color yellow of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:29"
           },
@@ -1391,29 +1391,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fefce8",
-            "description": "",
+            "description": "Foundations color yellow of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:29"
             }
           },
-          "name": "FoundationsColorYellowYellow50",
+          "name": "FoundationsColorYellow50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-50"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-50"
+            "color",
+            "yellow",
+            "50"
           ]
         },
-        "yellow-100": {
+        "100": {
           "type": "color",
           "value": "#fef9c3",
-          "description": "",
+          "description": "Foundations color yellow of weight 100.",
           "$extensions": {
             "variableId": "VariableID:4:127"
           },
@@ -1422,29 +1422,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fef9c3",
-            "description": "",
+            "description": "Foundations color yellow of weight 100.",
             "$extensions": {
               "variableId": "VariableID:4:127"
             }
           },
-          "name": "FoundationsColorYellowYellow100",
+          "name": "FoundationsColorYellow100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-100"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-100"
+            "color",
+            "yellow",
+            "100"
           ]
         },
-        "yellow-200": {
+        "200": {
           "type": "color",
           "value": "#fef08a",
-          "description": "",
+          "description": "Foundations color yellow of weight 200.",
           "$extensions": {
             "variableId": "VariableID:4:128"
           },
@@ -1453,29 +1453,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fef08a",
-            "description": "",
+            "description": "Foundations color yellow of weight 200.",
             "$extensions": {
               "variableId": "VariableID:4:128"
             }
           },
-          "name": "FoundationsColorYellowYellow200",
+          "name": "FoundationsColorYellow200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-200"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-200"
+            "color",
+            "yellow",
+            "200"
           ]
         },
-        "yellow-300": {
+        "300": {
           "type": "color",
           "value": "#fde047",
-          "description": "",
+          "description": "Foundations color yellow of weight 300.",
           "$extensions": {
             "variableId": "VariableID:4:129"
           },
@@ -1484,29 +1484,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fde047",
-            "description": "",
+            "description": "Foundations color yellow of weight 300.",
             "$extensions": {
               "variableId": "VariableID:4:129"
             }
           },
-          "name": "FoundationsColorYellowYellow300",
+          "name": "FoundationsColorYellow300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-300"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-300"
+            "color",
+            "yellow",
+            "300"
           ]
         },
-        "yellow-400": {
+        "400": {
           "type": "color",
           "value": "#facc15",
-          "description": "",
+          "description": "Foundations color yellow of weight 400.",
           "$extensions": {
             "variableId": "VariableID:4:130"
           },
@@ -1515,29 +1515,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#facc15",
-            "description": "",
+            "description": "Foundations color yellow of weight 400.",
             "$extensions": {
               "variableId": "VariableID:4:130"
             }
           },
-          "name": "FoundationsColorYellowYellow400",
+          "name": "FoundationsColorYellow400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-400"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-400"
+            "color",
+            "yellow",
+            "400"
           ]
         },
-        "yellow-500": {
+        "500": {
           "type": "color",
           "value": "#eab308",
-          "description": "",
+          "description": "Foundations color yellow of weight 500.",
           "$extensions": {
             "variableId": "VariableID:4:131"
           },
@@ -1546,29 +1546,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#eab308",
-            "description": "",
+            "description": "Foundations color yellow of weight 500.",
             "$extensions": {
               "variableId": "VariableID:4:131"
             }
           },
-          "name": "FoundationsColorYellowYellow500",
+          "name": "FoundationsColorYellow500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-500"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-500"
+            "color",
+            "yellow",
+            "500"
           ]
         },
-        "yellow-600": {
+        "600": {
           "type": "color",
           "value": "#ca8a04",
-          "description": "",
+          "description": "Foundations color yellow of weight 600.",
           "$extensions": {
             "variableId": "VariableID:4:132"
           },
@@ -1577,29 +1577,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ca8a04",
-            "description": "",
+            "description": "Foundations color yellow of weight 600.",
             "$extensions": {
               "variableId": "VariableID:4:132"
             }
           },
-          "name": "FoundationsColorYellowYellow600",
+          "name": "FoundationsColorYellow600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-600"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-600"
+            "color",
+            "yellow",
+            "600"
           ]
         },
-        "yellow-700": {
+        "700": {
           "type": "color",
           "value": "#a16207",
-          "description": "",
+          "description": "Foundations color yellow of weight 700.",
           "$extensions": {
             "variableId": "VariableID:4:133"
           },
@@ -1608,29 +1608,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a16207",
-            "description": "",
+            "description": "Foundations color yellow of weight 700.",
             "$extensions": {
               "variableId": "VariableID:4:133"
             }
           },
-          "name": "FoundationsColorYellowYellow700",
+          "name": "FoundationsColorYellow700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-700"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-700"
+            "color",
+            "yellow",
+            "700"
           ]
         },
-        "yellow-800": {
+        "800": {
           "type": "color",
           "value": "#854d0e",
-          "description": "",
+          "description": "Foundations color yellow of weight 800.",
           "$extensions": {
             "variableId": "VariableID:4:134"
           },
@@ -1639,29 +1639,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#854d0e",
-            "description": "",
+            "description": "Foundations color yellow of weight 800.",
             "$extensions": {
               "variableId": "VariableID:4:134"
             }
           },
-          "name": "FoundationsColorYellowYellow800",
+          "name": "FoundationsColorYellow800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-800"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-800"
+            "color",
+            "yellow",
+            "800"
           ]
         },
-        "yellow-900": {
+        "900": {
           "type": "color",
           "value": "#713f12",
-          "description": "",
+          "description": "Foundations color yellow of weight 900.",
           "$extensions": {
             "variableId": "VariableID:4:135"
           },
@@ -1670,29 +1670,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#713f12",
-            "description": "",
+            "description": "Foundations color yellow of weight 900.",
             "$extensions": {
               "variableId": "VariableID:4:135"
             }
           },
-          "name": "FoundationsColorYellowYellow900",
+          "name": "FoundationsColorYellow900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-900"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-900"
+            "color",
+            "yellow",
+            "900"
           ]
         },
-        "yellow-950": {
+        "950": {
           "type": "color",
           "value": "#422006",
-          "description": "",
+          "description": "Foundations color yellow of weight 950.",
           "$extensions": {
             "variableId": "VariableID:4:136"
           },
@@ -1701,31 +1701,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#422006",
-            "description": "",
+            "description": "Foundations color yellow of weight 950.",
             "$extensions": {
               "variableId": "VariableID:4:136"
             }
           },
-          "name": "FoundationsColorYellowYellow950",
+          "name": "FoundationsColorYellow950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Yellow",
-            "subitem": "yellow-950"
+            "type": "color",
+            "item": "yellow",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Yellow",
-            "yellow-950"
+            "color",
+            "yellow",
+            "950"
           ]
         }
       },
-      "Lime": {
-        "lime-50": {
+      "lime": {
+        "50": {
           "type": "color",
           "value": "#f7fee7",
-          "description": "",
+          "description": "Foundations color lime of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:30"
           },
@@ -1734,29 +1734,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f7fee7",
-            "description": "",
+            "description": "Foundations color lime of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:30"
             }
           },
-          "name": "FoundationsColorLimeLime50",
+          "name": "FoundationsColorLime50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-50"
+            "type": "color",
+            "item": "lime",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-50"
+            "color",
+            "lime",
+            "50"
           ]
         },
-        "lime-100": {
+        "100": {
           "type": "color",
           "value": "#ecfccb",
-          "description": "",
+          "description": "Foundations color lime of weight 100.",
           "$extensions": {
             "variableId": "VariableID:4:138"
           },
@@ -1765,29 +1765,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ecfccb",
-            "description": "",
+            "description": "Foundations color lime of weight 100.",
             "$extensions": {
               "variableId": "VariableID:4:138"
             }
           },
-          "name": "FoundationsColorLimeLime100",
+          "name": "FoundationsColorLime100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-100"
+            "type": "color",
+            "item": "lime",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-100"
+            "color",
+            "lime",
+            "100"
           ]
         },
-        "lime-200": {
+        "200": {
           "type": "color",
           "value": "#d9f99d",
-          "description": "",
+          "description": "Foundations color lime of weight 200.",
           "$extensions": {
             "variableId": "VariableID:4:139"
           },
@@ -1796,29 +1796,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#d9f99d",
-            "description": "",
+            "description": "Foundations color lime of weight 200.",
             "$extensions": {
               "variableId": "VariableID:4:139"
             }
           },
-          "name": "FoundationsColorLimeLime200",
+          "name": "FoundationsColorLime200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-200"
+            "type": "color",
+            "item": "lime",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-200"
+            "color",
+            "lime",
+            "200"
           ]
         },
-        "lime-300": {
+        "300": {
           "type": "color",
           "value": "#bef264",
-          "description": "",
+          "description": "Foundations color lime of weight 300.",
           "$extensions": {
             "variableId": "VariableID:4:140"
           },
@@ -1827,29 +1827,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#bef264",
-            "description": "",
+            "description": "Foundations color lime of weight 300.",
             "$extensions": {
               "variableId": "VariableID:4:140"
             }
           },
-          "name": "FoundationsColorLimeLime300",
+          "name": "FoundationsColorLime300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-300"
+            "type": "color",
+            "item": "lime",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-300"
+            "color",
+            "lime",
+            "300"
           ]
         },
-        "lime-400": {
+        "400": {
           "type": "color",
           "value": "#a3e635",
-          "description": "",
+          "description": "Foundations color lime of weight 400.",
           "$extensions": {
             "variableId": "VariableID:4:141"
           },
@@ -1858,29 +1858,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a3e635",
-            "description": "",
+            "description": "Foundations color lime of weight 400.",
             "$extensions": {
               "variableId": "VariableID:4:141"
             }
           },
-          "name": "FoundationsColorLimeLime400",
+          "name": "FoundationsColorLime400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-400"
+            "type": "color",
+            "item": "lime",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-400"
+            "color",
+            "lime",
+            "400"
           ]
         },
-        "lime-500": {
+        "500": {
           "type": "color",
           "value": "#84cc16",
-          "description": "",
+          "description": "Foundations color lime of weight 500.",
           "$extensions": {
             "variableId": "VariableID:4:142"
           },
@@ -1889,29 +1889,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#84cc16",
-            "description": "",
+            "description": "Foundations color lime of weight 500.",
             "$extensions": {
               "variableId": "VariableID:4:142"
             }
           },
-          "name": "FoundationsColorLimeLime500",
+          "name": "FoundationsColorLime500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-500"
+            "type": "color",
+            "item": "lime",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-500"
+            "color",
+            "lime",
+            "500"
           ]
         },
-        "lime-600": {
+        "600": {
           "type": "color",
           "value": "#65a30d",
-          "description": "",
+          "description": "Foundations color lime of weight 600.",
           "$extensions": {
             "variableId": "VariableID:4:143"
           },
@@ -1920,29 +1920,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#65a30d",
-            "description": "",
+            "description": "Foundations color lime of weight 600.",
             "$extensions": {
               "variableId": "VariableID:4:143"
             }
           },
-          "name": "FoundationsColorLimeLime600",
+          "name": "FoundationsColorLime600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-600"
+            "type": "color",
+            "item": "lime",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-600"
+            "color",
+            "lime",
+            "600"
           ]
         },
-        "lime-700": {
+        "700": {
           "type": "color",
           "value": "#4d7c0f",
-          "description": "",
+          "description": "Foundations color lime of weight 700.",
           "$extensions": {
             "variableId": "VariableID:4:144"
           },
@@ -1951,29 +1951,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4d7c0f",
-            "description": "",
+            "description": "Foundations color lime of weight 700.",
             "$extensions": {
               "variableId": "VariableID:4:144"
             }
           },
-          "name": "FoundationsColorLimeLime700",
+          "name": "FoundationsColorLime700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-700"
+            "type": "color",
+            "item": "lime",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-700"
+            "color",
+            "lime",
+            "700"
           ]
         },
-        "lime-800": {
+        "800": {
           "type": "color",
           "value": "#3f6212",
-          "description": "",
+          "description": "Foundations color lime of weight 800.",
           "$extensions": {
             "variableId": "VariableID:4:145"
           },
@@ -1982,29 +1982,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#3f6212",
-            "description": "",
+            "description": "Foundations color lime of weight 800.",
             "$extensions": {
               "variableId": "VariableID:4:145"
             }
           },
-          "name": "FoundationsColorLimeLime800",
+          "name": "FoundationsColorLime800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-800"
+            "type": "color",
+            "item": "lime",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-800"
+            "color",
+            "lime",
+            "800"
           ]
         },
-        "lime-900": {
+        "900": {
           "type": "color",
           "value": "#365314",
-          "description": "",
+          "description": "Foundations color lime of weight 900.",
           "$extensions": {
             "variableId": "VariableID:4:146"
           },
@@ -2013,29 +2013,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#365314",
-            "description": "",
+            "description": "Foundations color lime of weight 900.",
             "$extensions": {
               "variableId": "VariableID:4:146"
             }
           },
-          "name": "FoundationsColorLimeLime900",
+          "name": "FoundationsColorLime900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-900"
+            "type": "color",
+            "item": "lime",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-900"
+            "color",
+            "lime",
+            "900"
           ]
         },
-        "lime-950": {
+        "950": {
           "type": "color",
           "value": "#1a2e05",
-          "description": "",
+          "description": "Foundations color lime of weight 950.",
           "$extensions": {
             "variableId": "VariableID:4:147"
           },
@@ -2044,31 +2044,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#1a2e05",
-            "description": "",
+            "description": "Foundations color lime of weight 950.",
             "$extensions": {
               "variableId": "VariableID:4:147"
             }
           },
-          "name": "FoundationsColorLimeLime950",
+          "name": "FoundationsColorLime950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Lime",
-            "subitem": "lime-950"
+            "type": "color",
+            "item": "lime",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Lime",
-            "lime-950"
+            "color",
+            "lime",
+            "950"
           ]
         }
       },
-      "Green": {
-        "green-50": {
+      "green": {
+        "50": {
           "type": "color",
           "value": "#f0fdf4",
-          "description": "",
+          "description": "Foundations color green of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:31"
           },
@@ -2077,29 +2077,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f0fdf4",
-            "description": "",
+            "description": "Foundations color green of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:31"
             }
           },
-          "name": "FoundationsColorGreenGreen50",
+          "name": "FoundationsColorGreen50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-50"
+            "type": "color",
+            "item": "green",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-50"
+            "color",
+            "green",
+            "50"
           ]
         },
-        "green-100": {
+        "100": {
           "type": "color",
           "value": "#dcfce7",
-          "description": "",
+          "description": "Foundations color green of weight 100.",
           "$extensions": {
             "variableId": "VariableID:6:148"
           },
@@ -2108,29 +2108,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#dcfce7",
-            "description": "",
+            "description": "Foundations color green of weight 100.",
             "$extensions": {
               "variableId": "VariableID:6:148"
             }
           },
-          "name": "FoundationsColorGreenGreen100",
+          "name": "FoundationsColorGreen100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-100"
+            "type": "color",
+            "item": "green",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-100"
+            "color",
+            "green",
+            "100"
           ]
         },
-        "green-200": {
+        "200": {
           "type": "color",
           "value": "#bbf7d0",
-          "description": "",
+          "description": "Foundations color green of weight 200.",
           "$extensions": {
             "variableId": "VariableID:6:149"
           },
@@ -2139,29 +2139,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#bbf7d0",
-            "description": "",
+            "description": "Foundations color green of weight 200.",
             "$extensions": {
               "variableId": "VariableID:6:149"
             }
           },
-          "name": "FoundationsColorGreenGreen200",
+          "name": "FoundationsColorGreen200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-200"
+            "type": "color",
+            "item": "green",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-200"
+            "color",
+            "green",
+            "200"
           ]
         },
-        "green-300": {
+        "300": {
           "type": "color",
           "value": "#86efac",
-          "description": "",
+          "description": "Foundations color green of weight 300.",
           "$extensions": {
             "variableId": "VariableID:6:150"
           },
@@ -2170,29 +2170,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#86efac",
-            "description": "",
+            "description": "Foundations color green of weight 300.",
             "$extensions": {
               "variableId": "VariableID:6:150"
             }
           },
-          "name": "FoundationsColorGreenGreen300",
+          "name": "FoundationsColorGreen300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-300"
+            "type": "color",
+            "item": "green",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-300"
+            "color",
+            "green",
+            "300"
           ]
         },
-        "green-400": {
+        "400": {
           "type": "color",
           "value": "#4ade80",
-          "description": "",
+          "description": "Foundations color green of weight 400.",
           "$extensions": {
             "variableId": "VariableID:6:151"
           },
@@ -2201,29 +2201,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4ade80",
-            "description": "",
+            "description": "Foundations color green of weight 400.",
             "$extensions": {
               "variableId": "VariableID:6:151"
             }
           },
-          "name": "FoundationsColorGreenGreen400",
+          "name": "FoundationsColorGreen400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-400"
+            "type": "color",
+            "item": "green",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-400"
+            "color",
+            "green",
+            "400"
           ]
         },
-        "green-500": {
+        "500": {
           "type": "color",
           "value": "#22c55e",
-          "description": "",
+          "description": "Foundations color green of weight 500.",
           "$extensions": {
             "variableId": "VariableID:6:152"
           },
@@ -2232,29 +2232,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#22c55e",
-            "description": "",
+            "description": "Foundations color green of weight 500.",
             "$extensions": {
               "variableId": "VariableID:6:152"
             }
           },
-          "name": "FoundationsColorGreenGreen500",
+          "name": "FoundationsColorGreen500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-500"
+            "type": "color",
+            "item": "green",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-500"
+            "color",
+            "green",
+            "500"
           ]
         },
-        "green-600": {
+        "600": {
           "type": "color",
           "value": "#16a34a",
-          "description": "",
+          "description": "Foundations color green of weight 600.",
           "$extensions": {
             "variableId": "VariableID:6:153"
           },
@@ -2263,29 +2263,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#16a34a",
-            "description": "",
+            "description": "Foundations color green of weight 600.",
             "$extensions": {
               "variableId": "VariableID:6:153"
             }
           },
-          "name": "FoundationsColorGreenGreen600",
+          "name": "FoundationsColorGreen600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-600"
+            "type": "color",
+            "item": "green",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-600"
+            "color",
+            "green",
+            "600"
           ]
         },
-        "green-700": {
+        "700": {
           "type": "color",
           "value": "#15803d",
-          "description": "",
+          "description": "Foundations color green of weight 700.",
           "$extensions": {
             "variableId": "VariableID:6:154"
           },
@@ -2294,29 +2294,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#15803d",
-            "description": "",
+            "description": "Foundations color green of weight 700.",
             "$extensions": {
               "variableId": "VariableID:6:154"
             }
           },
-          "name": "FoundationsColorGreenGreen700",
+          "name": "FoundationsColorGreen700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-700"
+            "type": "color",
+            "item": "green",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-700"
+            "color",
+            "green",
+            "700"
           ]
         },
-        "green-800": {
+        "800": {
           "type": "color",
           "value": "#166534",
-          "description": "",
+          "description": "Foundations color green of weight 800.",
           "$extensions": {
             "variableId": "VariableID:6:155"
           },
@@ -2325,29 +2325,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#166534",
-            "description": "",
+            "description": "Foundations color green of weight 800.",
             "$extensions": {
               "variableId": "VariableID:6:155"
             }
           },
-          "name": "FoundationsColorGreenGreen800",
+          "name": "FoundationsColorGreen800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-800"
+            "type": "color",
+            "item": "green",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-800"
+            "color",
+            "green",
+            "800"
           ]
         },
-        "green-900": {
+        "900": {
           "type": "color",
           "value": "#14532d",
-          "description": "",
+          "description": "Foundations color green of weight 900.",
           "$extensions": {
             "variableId": "VariableID:6:156"
           },
@@ -2356,29 +2356,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#14532d",
-            "description": "",
+            "description": "Foundations color green of weight 900.",
             "$extensions": {
               "variableId": "VariableID:6:156"
             }
           },
-          "name": "FoundationsColorGreenGreen900",
+          "name": "FoundationsColorGreen900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-900"
+            "type": "color",
+            "item": "green",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-900"
+            "color",
+            "green",
+            "900"
           ]
         },
-        "green-950": {
+        "950": {
           "type": "color",
           "value": "#052e16",
-          "description": "",
+          "description": "Foundations color green of weight 950.",
           "$extensions": {
             "variableId": "VariableID:6:157"
           },
@@ -2387,31 +2387,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#052e16",
-            "description": "",
+            "description": "Foundations color green of weight 950.",
             "$extensions": {
               "variableId": "VariableID:6:157"
             }
           },
-          "name": "FoundationsColorGreenGreen950",
+          "name": "FoundationsColorGreen950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Green",
-            "subitem": "green-950"
+            "type": "color",
+            "item": "green",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Green",
-            "green-950"
+            "color",
+            "green",
+            "950"
           ]
         }
       },
-      "Emerald": {
-        "emerald-50": {
+      "emerald": {
+        "50": {
           "type": "color",
           "value": "#ecfdf5",
-          "description": "",
+          "description": "Foundations color emerald of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:32"
           },
@@ -2420,29 +2420,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ecfdf5",
-            "description": "",
+            "description": "Foundations color emerald of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:32"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald50",
+          "name": "FoundationsColorEmerald50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-50"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-50"
+            "color",
+            "emerald",
+            "50"
           ]
         },
-        "emerald-100": {
+        "100": {
           "type": "color",
           "value": "#d1fae5",
-          "description": "",
+          "description": "Foundations color emerald of weight 100.",
           "$extensions": {
             "variableId": "VariableID:6:158"
           },
@@ -2451,29 +2451,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#d1fae5",
-            "description": "",
+            "description": "Foundations color emerald of weight 100.",
             "$extensions": {
               "variableId": "VariableID:6:158"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald100",
+          "name": "FoundationsColorEmerald100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-100"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-100"
+            "color",
+            "emerald",
+            "100"
           ]
         },
-        "emerald-200": {
+        "200": {
           "type": "color",
           "value": "#a7f3d0",
-          "description": "",
+          "description": "Foundations color emerald of weight 200.",
           "$extensions": {
             "variableId": "VariableID:6:159"
           },
@@ -2482,29 +2482,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a7f3d0",
-            "description": "",
+            "description": "Foundations color emerald of weight 200.",
             "$extensions": {
               "variableId": "VariableID:6:159"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald200",
+          "name": "FoundationsColorEmerald200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-200"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-200"
+            "color",
+            "emerald",
+            "200"
           ]
         },
-        "emerald-300": {
+        "300": {
           "type": "color",
           "value": "#6ee7b7",
-          "description": "",
+          "description": "Foundations color emerald of weight 300.",
           "$extensions": {
             "variableId": "VariableID:6:160"
           },
@@ -2513,29 +2513,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#6ee7b7",
-            "description": "",
+            "description": "Foundations color emerald of weight 300.",
             "$extensions": {
               "variableId": "VariableID:6:160"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald300",
+          "name": "FoundationsColorEmerald300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-300"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-300"
+            "color",
+            "emerald",
+            "300"
           ]
         },
-        "emerald-400": {
+        "400": {
           "type": "color",
           "value": "#34d399",
-          "description": "",
+          "description": "Foundations color emerald of weight 400.",
           "$extensions": {
             "variableId": "VariableID:6:161"
           },
@@ -2544,29 +2544,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#34d399",
-            "description": "",
+            "description": "Foundations color emerald of weight 400.",
             "$extensions": {
               "variableId": "VariableID:6:161"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald400",
+          "name": "FoundationsColorEmerald400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-400"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-400"
+            "color",
+            "emerald",
+            "400"
           ]
         },
-        "emerald-500": {
+        "500": {
           "type": "color",
           "value": "#10b981",
-          "description": "",
+          "description": "Foundations color emerald of weight 500.",
           "$extensions": {
             "variableId": "VariableID:6:162"
           },
@@ -2575,29 +2575,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#10b981",
-            "description": "",
+            "description": "Foundations color emerald of weight 500.",
             "$extensions": {
               "variableId": "VariableID:6:162"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald500",
+          "name": "FoundationsColorEmerald500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-500"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-500"
+            "color",
+            "emerald",
+            "500"
           ]
         },
-        "emerald-600": {
+        "600": {
           "type": "color",
           "value": "#059669",
-          "description": "",
+          "description": "Foundations color emerald of weight 600.",
           "$extensions": {
             "variableId": "VariableID:6:163"
           },
@@ -2606,29 +2606,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#059669",
-            "description": "",
+            "description": "Foundations color emerald of weight 600.",
             "$extensions": {
               "variableId": "VariableID:6:163"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald600",
+          "name": "FoundationsColorEmerald600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-600"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-600"
+            "color",
+            "emerald",
+            "600"
           ]
         },
-        "emerald-700": {
+        "700": {
           "type": "color",
           "value": "#047857",
-          "description": "",
+          "description": "Foundations color emerald of weight 700.",
           "$extensions": {
             "variableId": "VariableID:6:164"
           },
@@ -2637,29 +2637,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#047857",
-            "description": "",
+            "description": "Foundations color emerald of weight 700.",
             "$extensions": {
               "variableId": "VariableID:6:164"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald700",
+          "name": "FoundationsColorEmerald700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-700"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-700"
+            "color",
+            "emerald",
+            "700"
           ]
         },
-        "emerald-800": {
+        "800": {
           "type": "color",
           "value": "#065f46",
-          "description": "",
+          "description": "Foundations color emerald of weight 800.",
           "$extensions": {
             "variableId": "VariableID:6:165"
           },
@@ -2668,29 +2668,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#065f46",
-            "description": "",
+            "description": "Foundations color emerald of weight 800.",
             "$extensions": {
               "variableId": "VariableID:6:165"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald800",
+          "name": "FoundationsColorEmerald800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-800"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-800"
+            "color",
+            "emerald",
+            "800"
           ]
         },
-        "emerald-900": {
+        "900": {
           "type": "color",
           "value": "#064e3b",
-          "description": "",
+          "description": "Foundations color emerald of weight 900.",
           "$extensions": {
             "variableId": "VariableID:6:166"
           },
@@ -2699,29 +2699,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#064e3b",
-            "description": "",
+            "description": "Foundations color emerald of weight 900.",
             "$extensions": {
               "variableId": "VariableID:6:166"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald900",
+          "name": "FoundationsColorEmerald900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-900"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-900"
+            "color",
+            "emerald",
+            "900"
           ]
         },
-        "emerald-950": {
+        "950": {
           "type": "color",
           "value": "#022c22",
-          "description": "",
+          "description": "Foundations color emerald of weight 950.",
           "$extensions": {
             "variableId": "VariableID:6:167"
           },
@@ -2730,31 +2730,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#022c22",
-            "description": "",
+            "description": "Foundations color emerald of weight 950.",
             "$extensions": {
               "variableId": "VariableID:6:167"
             }
           },
-          "name": "FoundationsColorEmeraldEmerald950",
+          "name": "FoundationsColorEmerald950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Emerald",
-            "subitem": "emerald-950"
+            "type": "color",
+            "item": "emerald",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Emerald",
-            "emerald-950"
+            "color",
+            "emerald",
+            "950"
           ]
         }
       },
-      "Teal": {
-        "teal-50": {
+      "teal": {
+        "50": {
           "type": "color",
           "value": "#f0fdfa",
-          "description": "",
+          "description": "Foundations color teal of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:33"
           },
@@ -2763,29 +2763,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f0fdfa",
-            "description": "",
+            "description": "Foundations color teal of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:33"
             }
           },
-          "name": "FoundationsColorTealTeal50",
+          "name": "FoundationsColorTeal50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-50"
+            "type": "color",
+            "item": "teal",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-50"
+            "color",
+            "teal",
+            "50"
           ]
         },
-        "teal-100": {
+        "100": {
           "type": "color",
           "value": "#ccfbf1",
-          "description": "",
+          "description": "Foundations color teal of weight 100.",
           "$extensions": {
             "variableId": "VariableID:6:168"
           },
@@ -2794,29 +2794,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ccfbf1",
-            "description": "",
+            "description": "Foundations color teal of weight 100.",
             "$extensions": {
               "variableId": "VariableID:6:168"
             }
           },
-          "name": "FoundationsColorTealTeal100",
+          "name": "FoundationsColorTeal100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-100"
+            "type": "color",
+            "item": "teal",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-100"
+            "color",
+            "teal",
+            "100"
           ]
         },
-        "teal-200": {
+        "200": {
           "type": "color",
           "value": "#99f6e4",
-          "description": "",
+          "description": "Foundations color teal of weight 200.",
           "$extensions": {
             "variableId": "VariableID:6:169"
           },
@@ -2825,29 +2825,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#99f6e4",
-            "description": "",
+            "description": "Foundations color teal of weight 200.",
             "$extensions": {
               "variableId": "VariableID:6:169"
             }
           },
-          "name": "FoundationsColorTealTeal200",
+          "name": "FoundationsColorTeal200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-200"
+            "type": "color",
+            "item": "teal",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-200"
+            "color",
+            "teal",
+            "200"
           ]
         },
-        "teal-300": {
+        "300": {
           "type": "color",
           "value": "#5eead4",
-          "description": "",
+          "description": "Foundations color teal of weight 300.",
           "$extensions": {
             "variableId": "VariableID:6:170"
           },
@@ -2856,29 +2856,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#5eead4",
-            "description": "",
+            "description": "Foundations color teal of weight 300.",
             "$extensions": {
               "variableId": "VariableID:6:170"
             }
           },
-          "name": "FoundationsColorTealTeal300",
+          "name": "FoundationsColorTeal300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-300"
+            "type": "color",
+            "item": "teal",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-300"
+            "color",
+            "teal",
+            "300"
           ]
         },
-        "teal-400": {
+        "400": {
           "type": "color",
           "value": "#2dd4bf",
-          "description": "",
+          "description": "Foundations color teal of weight 400.",
           "$extensions": {
             "variableId": "VariableID:6:171"
           },
@@ -2887,29 +2887,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#2dd4bf",
-            "description": "",
+            "description": "Foundations color teal of weight 400.",
             "$extensions": {
               "variableId": "VariableID:6:171"
             }
           },
-          "name": "FoundationsColorTealTeal400",
+          "name": "FoundationsColorTeal400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-400"
+            "type": "color",
+            "item": "teal",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-400"
+            "color",
+            "teal",
+            "400"
           ]
         },
-        "teal-500": {
+        "500": {
           "type": "color",
           "value": "#14b8a6",
-          "description": "",
+          "description": "Foundations color teal of weight 500.",
           "$extensions": {
             "variableId": "VariableID:6:172"
           },
@@ -2918,29 +2918,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#14b8a6",
-            "description": "",
+            "description": "Foundations color teal of weight 500.",
             "$extensions": {
               "variableId": "VariableID:6:172"
             }
           },
-          "name": "FoundationsColorTealTeal500",
+          "name": "FoundationsColorTeal500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-500"
+            "type": "color",
+            "item": "teal",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-500"
+            "color",
+            "teal",
+            "500"
           ]
         },
-        "teal-600": {
+        "600": {
           "type": "color",
           "value": "#0d9488",
-          "description": "",
+          "description": "Foundations color teal of weight 600.",
           "$extensions": {
             "variableId": "VariableID:6:173"
           },
@@ -2949,29 +2949,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0d9488",
-            "description": "",
+            "description": "Foundations color teal of weight 600.",
             "$extensions": {
               "variableId": "VariableID:6:173"
             }
           },
-          "name": "FoundationsColorTealTeal600",
+          "name": "FoundationsColorTeal600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-600"
+            "type": "color",
+            "item": "teal",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-600"
+            "color",
+            "teal",
+            "600"
           ]
         },
-        "teal-700": {
+        "700": {
           "type": "color",
           "value": "#0f766e",
-          "description": "",
+          "description": "Foundations color teal of weight 700.",
           "$extensions": {
             "variableId": "VariableID:6:174"
           },
@@ -2980,29 +2980,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0f766e",
-            "description": "",
+            "description": "Foundations color teal of weight 700.",
             "$extensions": {
               "variableId": "VariableID:6:174"
             }
           },
-          "name": "FoundationsColorTealTeal700",
+          "name": "FoundationsColorTeal700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-700"
+            "type": "color",
+            "item": "teal",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-700"
+            "color",
+            "teal",
+            "700"
           ]
         },
-        "teal-800": {
+        "800": {
           "type": "color",
           "value": "#115e59",
-          "description": "",
+          "description": "Foundations color teal of weight 800.",
           "$extensions": {
             "variableId": "VariableID:6:175"
           },
@@ -3011,29 +3011,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#115e59",
-            "description": "",
+            "description": "Foundations color teal of weight 800.",
             "$extensions": {
               "variableId": "VariableID:6:175"
             }
           },
-          "name": "FoundationsColorTealTeal800",
+          "name": "FoundationsColorTeal800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-800"
+            "type": "color",
+            "item": "teal",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-800"
+            "color",
+            "teal",
+            "800"
           ]
         },
-        "teal-900": {
+        "900": {
           "type": "color",
           "value": "#134e4a",
-          "description": "",
+          "description": "Foundations color teal of weight 900.",
           "$extensions": {
             "variableId": "VariableID:6:177"
           },
@@ -3042,29 +3042,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#134e4a",
-            "description": "",
+            "description": "Foundations color teal of weight 900.",
             "$extensions": {
               "variableId": "VariableID:6:177"
             }
           },
-          "name": "FoundationsColorTealTeal900",
+          "name": "FoundationsColorTeal900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-900"
+            "type": "color",
+            "item": "teal",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-900"
+            "color",
+            "teal",
+            "900"
           ]
         },
-        "teal-950": {
+        "950": {
           "type": "color",
           "value": "#042f2e",
-          "description": "",
+          "description": "Foundations color teal of weight 950.",
           "$extensions": {
             "variableId": "VariableID:6:178"
           },
@@ -3073,31 +3073,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#042f2e",
-            "description": "",
+            "description": "Foundations color teal of weight 950.",
             "$extensions": {
               "variableId": "VariableID:6:178"
             }
           },
-          "name": "FoundationsColorTealTeal950",
+          "name": "FoundationsColorTeal950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Teal",
-            "subitem": "teal-950"
+            "type": "color",
+            "item": "teal",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Teal",
-            "teal-950"
+            "color",
+            "teal",
+            "950"
           ]
         }
       },
-      "Cyan": {
-        "cyan-50": {
+      "cyan": {
+        "50": {
           "type": "color",
           "value": "#ecfeff",
-          "description": "",
+          "description": "Foundations color cyan of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:34"
           },
@@ -3106,29 +3106,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ecfeff",
-            "description": "",
+            "description": "Foundations color cyan of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:34"
             }
           },
-          "name": "FoundationsColorCyanCyan50",
+          "name": "FoundationsColorCyan50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-50"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-50"
+            "color",
+            "cyan",
+            "50"
           ]
         },
-        "cyan-100": {
+        "100": {
           "type": "color",
           "value": "#cffafe",
-          "description": "",
+          "description": "Foundations color cyan of weight 100.",
           "$extensions": {
             "variableId": "VariableID:6:179"
           },
@@ -3137,29 +3137,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#cffafe",
-            "description": "",
+            "description": "Foundations color cyan of weight 100.",
             "$extensions": {
               "variableId": "VariableID:6:179"
             }
           },
-          "name": "FoundationsColorCyanCyan100",
+          "name": "FoundationsColorCyan100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-100"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-100"
+            "color",
+            "cyan",
+            "100"
           ]
         },
-        "cyan-200": {
+        "200": {
           "type": "color",
           "value": "#a5f3fc",
-          "description": "",
+          "description": "Foundations color cyan of weight 200.",
           "$extensions": {
             "variableId": "VariableID:6:180"
           },
@@ -3168,29 +3168,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a5f3fc",
-            "description": "",
+            "description": "Foundations color cyan of weight 200.",
             "$extensions": {
               "variableId": "VariableID:6:180"
             }
           },
-          "name": "FoundationsColorCyanCyan200",
+          "name": "FoundationsColorCyan200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-200"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-200"
+            "color",
+            "cyan",
+            "200"
           ]
         },
-        "cyan-300": {
+        "300": {
           "type": "color",
           "value": "#67e8f9",
-          "description": "",
+          "description": "Foundations color cyan of weight 300.",
           "$extensions": {
             "variableId": "VariableID:6:181"
           },
@@ -3199,29 +3199,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#67e8f9",
-            "description": "",
+            "description": "Foundations color cyan of weight 300.",
             "$extensions": {
               "variableId": "VariableID:6:181"
             }
           },
-          "name": "FoundationsColorCyanCyan300",
+          "name": "FoundationsColorCyan300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-300"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-300"
+            "color",
+            "cyan",
+            "300"
           ]
         },
-        "cyan-400": {
+        "400": {
           "type": "color",
           "value": "#22d3ee",
-          "description": "",
+          "description": "Foundations color cyan of weight 400.",
           "$extensions": {
             "variableId": "VariableID:6:182"
           },
@@ -3230,29 +3230,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#22d3ee",
-            "description": "",
+            "description": "Foundations color cyan of weight 400.",
             "$extensions": {
               "variableId": "VariableID:6:182"
             }
           },
-          "name": "FoundationsColorCyanCyan400",
+          "name": "FoundationsColorCyan400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-400"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-400"
+            "color",
+            "cyan",
+            "400"
           ]
         },
-        "cyan-500": {
+        "500": {
           "type": "color",
           "value": "#06b6d4",
-          "description": "",
+          "description": "Foundations color cyan of weight 500.",
           "$extensions": {
             "variableId": "VariableID:6:183"
           },
@@ -3261,29 +3261,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#06b6d4",
-            "description": "",
+            "description": "Foundations color cyan of weight 500.",
             "$extensions": {
               "variableId": "VariableID:6:183"
             }
           },
-          "name": "FoundationsColorCyanCyan500",
+          "name": "FoundationsColorCyan500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-500"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-500"
+            "color",
+            "cyan",
+            "500"
           ]
         },
-        "cyan-600": {
+        "600": {
           "type": "color",
           "value": "#0891b2",
-          "description": "",
+          "description": "Foundations color cyan of weight 600.",
           "$extensions": {
             "variableId": "VariableID:6:184"
           },
@@ -3292,29 +3292,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0891b2",
-            "description": "",
+            "description": "Foundations color cyan of weight 600.",
             "$extensions": {
               "variableId": "VariableID:6:184"
             }
           },
-          "name": "FoundationsColorCyanCyan600",
+          "name": "FoundationsColorCyan600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-600"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-600"
+            "color",
+            "cyan",
+            "600"
           ]
         },
-        "cyan-700": {
+        "700": {
           "type": "color",
           "value": "#0e7490",
-          "description": "",
+          "description": "Foundations color cyan of weight 700.",
           "$extensions": {
             "variableId": "VariableID:6:185"
           },
@@ -3323,29 +3323,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0e7490",
-            "description": "",
+            "description": "Foundations color cyan of weight 700.",
             "$extensions": {
               "variableId": "VariableID:6:185"
             }
           },
-          "name": "FoundationsColorCyanCyan700",
+          "name": "FoundationsColorCyan700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-700"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-700"
+            "color",
+            "cyan",
+            "700"
           ]
         },
-        "cyan-800": {
+        "800": {
           "type": "color",
           "value": "#155e75",
-          "description": "",
+          "description": "Foundations color cyan of weight 800.",
           "$extensions": {
             "variableId": "VariableID:6:186"
           },
@@ -3354,29 +3354,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#155e75",
-            "description": "",
+            "description": "Foundations color cyan of weight 800.",
             "$extensions": {
               "variableId": "VariableID:6:186"
             }
           },
-          "name": "FoundationsColorCyanCyan800",
+          "name": "FoundationsColorCyan800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-800"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-800"
+            "color",
+            "cyan",
+            "800"
           ]
         },
-        "cyan-900": {
+        "900": {
           "type": "color",
           "value": "#164e63",
-          "description": "",
+          "description": "Foundations color cyan of weight 900.",
           "$extensions": {
             "variableId": "VariableID:6:187"
           },
@@ -3385,29 +3385,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#164e63",
-            "description": "",
+            "description": "Foundations color cyan of weight 900.",
             "$extensions": {
               "variableId": "VariableID:6:187"
             }
           },
-          "name": "FoundationsColorCyanCyan900",
+          "name": "FoundationsColorCyan900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-900"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-900"
+            "color",
+            "cyan",
+            "900"
           ]
         },
-        "cyan-950": {
+        "950": {
           "type": "color",
           "value": "#083344",
-          "description": "",
+          "description": "Foundations color cyan of weight 950.",
           "$extensions": {
             "variableId": "VariableID:6:188"
           },
@@ -3416,31 +3416,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#083344",
-            "description": "",
+            "description": "Foundations color cyan of weight 950.",
             "$extensions": {
               "variableId": "VariableID:6:188"
             }
           },
-          "name": "FoundationsColorCyanCyan950",
+          "name": "FoundationsColorCyan950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Cyan",
-            "subitem": "cyan-950"
+            "type": "color",
+            "item": "cyan",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Cyan",
-            "cyan-950"
+            "color",
+            "cyan",
+            "950"
           ]
         }
       },
-      "Sky": {
-        "sky-50": {
+      "sky": {
+        "50": {
           "type": "color",
           "value": "#f0f9ff",
-          "description": "",
+          "description": "Foundations color sky of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:35"
           },
@@ -3449,29 +3449,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f0f9ff",
-            "description": "",
+            "description": "Foundations color sky of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:35"
             }
           },
-          "name": "FoundationsColorSkySky50",
+          "name": "FoundationsColorSky50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-50"
+            "type": "color",
+            "item": "sky",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-50"
+            "color",
+            "sky",
+            "50"
           ]
         },
-        "sky-100": {
+        "100": {
           "type": "color",
           "value": "#e0f2fe",
-          "description": "",
+          "description": "Foundations color sky of weight 100.",
           "$extensions": {
             "variableId": "VariableID:6:189"
           },
@@ -3480,29 +3480,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#e0f2fe",
-            "description": "",
+            "description": "Foundations color sky of weight 100.",
             "$extensions": {
               "variableId": "VariableID:6:189"
             }
           },
-          "name": "FoundationsColorSkySky100",
+          "name": "FoundationsColorSky100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-100"
+            "type": "color",
+            "item": "sky",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-100"
+            "color",
+            "sky",
+            "100"
           ]
         },
-        "sky-200": {
+        "200": {
           "type": "color",
           "value": "#bae6fd",
-          "description": "",
+          "description": "Foundations color sky of weight 200.",
           "$extensions": {
             "variableId": "VariableID:6:190"
           },
@@ -3511,29 +3511,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#bae6fd",
-            "description": "",
+            "description": "Foundations color sky of weight 200.",
             "$extensions": {
               "variableId": "VariableID:6:190"
             }
           },
-          "name": "FoundationsColorSkySky200",
+          "name": "FoundationsColorSky200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-200"
+            "type": "color",
+            "item": "sky",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-200"
+            "color",
+            "sky",
+            "200"
           ]
         },
-        "sky-300": {
+        "300": {
           "type": "color",
           "value": "#7dd3fc",
-          "description": "",
+          "description": "Foundations color sky of weight 300.",
           "$extensions": {
             "variableId": "VariableID:6:191"
           },
@@ -3542,29 +3542,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#7dd3fc",
-            "description": "",
+            "description": "Foundations color sky of weight 300.",
             "$extensions": {
               "variableId": "VariableID:6:191"
             }
           },
-          "name": "FoundationsColorSkySky300",
+          "name": "FoundationsColorSky300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-300"
+            "type": "color",
+            "item": "sky",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-300"
+            "color",
+            "sky",
+            "300"
           ]
         },
-        "sky-400": {
+        "400": {
           "type": "color",
           "value": "#38bdf8",
-          "description": "",
+          "description": "Foundations color sky of weight 400.",
           "$extensions": {
             "variableId": "VariableID:6:192"
           },
@@ -3573,29 +3573,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#38bdf8",
-            "description": "",
+            "description": "Foundations color sky of weight 400.",
             "$extensions": {
               "variableId": "VariableID:6:192"
             }
           },
-          "name": "FoundationsColorSkySky400",
+          "name": "FoundationsColorSky400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-400"
+            "type": "color",
+            "item": "sky",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-400"
+            "color",
+            "sky",
+            "400"
           ]
         },
-        "sky-500": {
+        "500": {
           "type": "color",
           "value": "#0ea5e9",
-          "description": "",
+          "description": "Foundations color sky of weight 500.",
           "$extensions": {
             "variableId": "VariableID:6:193"
           },
@@ -3604,29 +3604,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0ea5e9",
-            "description": "",
+            "description": "Foundations color sky of weight 500.",
             "$extensions": {
               "variableId": "VariableID:6:193"
             }
           },
-          "name": "FoundationsColorSkySky500",
+          "name": "FoundationsColorSky500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-500"
+            "type": "color",
+            "item": "sky",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-500"
+            "color",
+            "sky",
+            "500"
           ]
         },
-        "sky-600": {
+        "600": {
           "type": "color",
           "value": "#0284c7",
-          "description": "",
+          "description": "Foundations color sky of weight 600.",
           "$extensions": {
             "variableId": "VariableID:6:194"
           },
@@ -3635,29 +3635,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0284c7",
-            "description": "",
+            "description": "Foundations color sky of weight 600.",
             "$extensions": {
               "variableId": "VariableID:6:194"
             }
           },
-          "name": "FoundationsColorSkySky600",
+          "name": "FoundationsColorSky600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-600"
+            "type": "color",
+            "item": "sky",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-600"
+            "color",
+            "sky",
+            "600"
           ]
         },
-        "sky-700": {
+        "700": {
           "type": "color",
           "value": "#0369a1",
-          "description": "",
+          "description": "Foundations color sky of weight 700.",
           "$extensions": {
             "variableId": "VariableID:6:195"
           },
@@ -3666,29 +3666,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0369a1",
-            "description": "",
+            "description": "Foundations color sky of weight 700.",
             "$extensions": {
               "variableId": "VariableID:6:195"
             }
           },
-          "name": "FoundationsColorSkySky700",
+          "name": "FoundationsColorSky700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-700"
+            "type": "color",
+            "item": "sky",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-700"
+            "color",
+            "sky",
+            "700"
           ]
         },
-        "sky-800": {
+        "800": {
           "type": "color",
           "value": "#075985",
-          "description": "",
+          "description": "Foundations color sky of weight 800.",
           "$extensions": {
             "variableId": "VariableID:6:196"
           },
@@ -3697,29 +3697,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#075985",
-            "description": "",
+            "description": "Foundations color sky of weight 800.",
             "$extensions": {
               "variableId": "VariableID:6:196"
             }
           },
-          "name": "FoundationsColorSkySky800",
+          "name": "FoundationsColorSky800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-800"
+            "type": "color",
+            "item": "sky",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-800"
+            "color",
+            "sky",
+            "800"
           ]
         },
-        "sky-900": {
+        "900": {
           "type": "color",
           "value": "#0c4a6e",
-          "description": "",
+          "description": "Foundations color sky of weight 900.",
           "$extensions": {
             "variableId": "VariableID:6:197"
           },
@@ -3728,29 +3728,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#0c4a6e",
-            "description": "",
+            "description": "Foundations color sky of weight 900.",
             "$extensions": {
               "variableId": "VariableID:6:197"
             }
           },
-          "name": "FoundationsColorSkySky900",
+          "name": "FoundationsColorSky900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-900"
+            "type": "color",
+            "item": "sky",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-900"
+            "color",
+            "sky",
+            "900"
           ]
         },
-        "sky-950": {
+        "950": {
           "type": "color",
           "value": "#082f49",
-          "description": "",
+          "description": "Foundations color sky of weight 950.",
           "$extensions": {
             "variableId": "VariableID:6:198"
           },
@@ -3759,31 +3759,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#082f49",
-            "description": "",
+            "description": "Foundations color sky of weight 950.",
             "$extensions": {
               "variableId": "VariableID:6:198"
             }
           },
-          "name": "FoundationsColorSkySky950",
+          "name": "FoundationsColorSky950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Sky",
-            "subitem": "sky-950"
+            "type": "color",
+            "item": "sky",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Sky",
-            "sky-950"
+            "color",
+            "sky",
+            "950"
           ]
         }
       },
-      "Blue": {
-        "blue-50": {
+      "blue": {
+        "50": {
           "type": "color",
           "value": "#eff6ff",
-          "description": "",
+          "description": "Foundations color blue of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:36"
           },
@@ -3792,29 +3792,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#eff6ff",
-            "description": "",
+            "description": "Foundations color blue of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:36"
             }
           },
-          "name": "FoundationsColorBlueBlue50",
+          "name": "FoundationsColorBlue50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-50"
+            "type": "color",
+            "item": "blue",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-50"
+            "color",
+            "blue",
+            "50"
           ]
         },
-        "blue-100": {
+        "100": {
           "type": "color",
           "value": "#dbeafe",
-          "description": "",
+          "description": "Foundations color blue of weight 100.",
           "$extensions": {
             "variableId": "VariableID:10:199"
           },
@@ -3823,29 +3823,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#dbeafe",
-            "description": "",
+            "description": "Foundations color blue of weight 100.",
             "$extensions": {
               "variableId": "VariableID:10:199"
             }
           },
-          "name": "FoundationsColorBlueBlue100",
+          "name": "FoundationsColorBlue100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-100"
+            "type": "color",
+            "item": "blue",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-100"
+            "color",
+            "blue",
+            "100"
           ]
         },
-        "blue-200": {
+        "200": {
           "type": "color",
           "value": "#bfdbfe",
-          "description": "",
+          "description": "Foundations color blue of weight 200.",
           "$extensions": {
             "variableId": "VariableID:10:200"
           },
@@ -3854,29 +3854,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#bfdbfe",
-            "description": "",
+            "description": "Foundations color blue of weight 200.",
             "$extensions": {
               "variableId": "VariableID:10:200"
             }
           },
-          "name": "FoundationsColorBlueBlue200",
+          "name": "FoundationsColorBlue200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-200"
+            "type": "color",
+            "item": "blue",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-200"
+            "color",
+            "blue",
+            "200"
           ]
         },
-        "blue-300": {
+        "300": {
           "type": "color",
           "value": "#93c5fd",
-          "description": "",
+          "description": "Foundations color blue of weight 300.",
           "$extensions": {
             "variableId": "VariableID:10:201"
           },
@@ -3885,29 +3885,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#93c5fd",
-            "description": "",
+            "description": "Foundations color blue of weight 300.",
             "$extensions": {
               "variableId": "VariableID:10:201"
             }
           },
-          "name": "FoundationsColorBlueBlue300",
+          "name": "FoundationsColorBlue300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-300"
+            "type": "color",
+            "item": "blue",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-300"
+            "color",
+            "blue",
+            "300"
           ]
         },
-        "blue-400": {
+        "400": {
           "type": "color",
           "value": "#60a5fa",
-          "description": "",
+          "description": "Foundations color blue of weight 400.",
           "$extensions": {
             "variableId": "VariableID:10:202"
           },
@@ -3916,29 +3916,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#60a5fa",
-            "description": "",
+            "description": "Foundations color blue of weight 400.",
             "$extensions": {
               "variableId": "VariableID:10:202"
             }
           },
-          "name": "FoundationsColorBlueBlue400",
+          "name": "FoundationsColorBlue400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-400"
+            "type": "color",
+            "item": "blue",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-400"
+            "color",
+            "blue",
+            "400"
           ]
         },
-        "blue-500": {
+        "500": {
           "type": "color",
           "value": "#3b82f6",
-          "description": "",
+          "description": "Foundations color blue of weight 500.",
           "$extensions": {
             "variableId": "VariableID:10:203"
           },
@@ -3947,29 +3947,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#3b82f6",
-            "description": "",
+            "description": "Foundations color blue of weight 500.",
             "$extensions": {
               "variableId": "VariableID:10:203"
             }
           },
-          "name": "FoundationsColorBlueBlue500",
+          "name": "FoundationsColorBlue500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-500"
+            "type": "color",
+            "item": "blue",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-500"
+            "color",
+            "blue",
+            "500"
           ]
         },
-        "blue-600": {
+        "600": {
           "type": "color",
           "value": "#2563eb",
-          "description": "",
+          "description": "Foundations color blue of weight 600.",
           "$extensions": {
             "variableId": "VariableID:10:204"
           },
@@ -3978,29 +3978,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#2563eb",
-            "description": "",
+            "description": "Foundations color blue of weight 600.",
             "$extensions": {
               "variableId": "VariableID:10:204"
             }
           },
-          "name": "FoundationsColorBlueBlue600",
+          "name": "FoundationsColorBlue600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-600"
+            "type": "color",
+            "item": "blue",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-600"
+            "color",
+            "blue",
+            "600"
           ]
         },
-        "blue-700": {
+        "700": {
           "type": "color",
           "value": "#1d4ed8",
-          "description": "",
+          "description": "Foundations color blue of weight 700.",
           "$extensions": {
             "variableId": "VariableID:10:205"
           },
@@ -4009,29 +4009,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#1d4ed8",
-            "description": "",
+            "description": "Foundations color blue of weight 700.",
             "$extensions": {
               "variableId": "VariableID:10:205"
             }
           },
-          "name": "FoundationsColorBlueBlue700",
+          "name": "FoundationsColorBlue700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-700"
+            "type": "color",
+            "item": "blue",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-700"
+            "color",
+            "blue",
+            "700"
           ]
         },
-        "blue-800": {
+        "800": {
           "type": "color",
           "value": "#1e40af",
-          "description": "",
+          "description": "Foundations color blue of weight 800.",
           "$extensions": {
             "variableId": "VariableID:10:206"
           },
@@ -4040,29 +4040,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#1e40af",
-            "description": "",
+            "description": "Foundations color blue of weight 800.",
             "$extensions": {
               "variableId": "VariableID:10:206"
             }
           },
-          "name": "FoundationsColorBlueBlue800",
+          "name": "FoundationsColorBlue800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-800"
+            "type": "color",
+            "item": "blue",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-800"
+            "color",
+            "blue",
+            "800"
           ]
         },
-        "blue-900": {
+        "900": {
           "type": "color",
           "value": "#1e3a8a",
-          "description": "",
+          "description": "Foundations color blue of weight 900.",
           "$extensions": {
             "variableId": "VariableID:10:207"
           },
@@ -4071,29 +4071,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#1e3a8a",
-            "description": "",
+            "description": "Foundations color blue of weight 900.",
             "$extensions": {
               "variableId": "VariableID:10:207"
             }
           },
-          "name": "FoundationsColorBlueBlue900",
+          "name": "FoundationsColorBlue900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-900"
+            "type": "color",
+            "item": "blue",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-900"
+            "color",
+            "blue",
+            "900"
           ]
         },
-        "blue-950": {
+        "950": {
           "type": "color",
           "value": "#172554",
-          "description": "",
+          "description": "Foundations color blue of weight 950.",
           "$extensions": {
             "variableId": "VariableID:10:208"
           },
@@ -4102,31 +4102,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#172554",
-            "description": "",
+            "description": "Foundations color blue of weight 950.",
             "$extensions": {
               "variableId": "VariableID:10:208"
             }
           },
-          "name": "FoundationsColorBlueBlue950",
+          "name": "FoundationsColorBlue950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Blue",
-            "subitem": "blue-950"
+            "type": "color",
+            "item": "blue",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Blue",
-            "blue-950"
+            "color",
+            "blue",
+            "950"
           ]
         }
       },
-      "Indigo": {
-        "indigo-50": {
+      "indigo": {
+        "50": {
           "type": "color",
           "value": "#eef2ff",
-          "description": "",
+          "description": "Foundations color indigo of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:37"
           },
@@ -4135,29 +4135,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#eef2ff",
-            "description": "",
+            "description": "Foundations color indigo of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:37"
             }
           },
-          "name": "FoundationsColorIndigoIndigo50",
+          "name": "FoundationsColorIndigo50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-50"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-50"
+            "color",
+            "indigo",
+            "50"
           ]
         },
-        "indigo-100": {
+        "100": {
           "type": "color",
           "value": "#e0e7ff",
-          "description": "",
+          "description": "Foundations color indigo of weight 100.",
           "$extensions": {
             "variableId": "VariableID:10:209"
           },
@@ -4166,29 +4166,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#e0e7ff",
-            "description": "",
+            "description": "Foundations color indigo of weight 100.",
             "$extensions": {
               "variableId": "VariableID:10:209"
             }
           },
-          "name": "FoundationsColorIndigoIndigo100",
+          "name": "FoundationsColorIndigo100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-100"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-100"
+            "color",
+            "indigo",
+            "100"
           ]
         },
-        "indigo-200": {
+        "200": {
           "type": "color",
           "value": "#c7d2fe",
-          "description": "",
+          "description": "Foundations color indigo of weight 200.",
           "$extensions": {
             "variableId": "VariableID:10:210"
           },
@@ -4197,29 +4197,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#c7d2fe",
-            "description": "",
+            "description": "Foundations color indigo of weight 200.",
             "$extensions": {
               "variableId": "VariableID:10:210"
             }
           },
-          "name": "FoundationsColorIndigoIndigo200",
+          "name": "FoundationsColorIndigo200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-200"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-200"
+            "color",
+            "indigo",
+            "200"
           ]
         },
-        "indigo-300": {
+        "300": {
           "type": "color",
           "value": "#a5b4fc",
-          "description": "",
+          "description": "Foundations color indigo of weight 300.",
           "$extensions": {
             "variableId": "VariableID:10:211"
           },
@@ -4228,29 +4228,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a5b4fc",
-            "description": "",
+            "description": "Foundations color indigo of weight 300.",
             "$extensions": {
               "variableId": "VariableID:10:211"
             }
           },
-          "name": "FoundationsColorIndigoIndigo300",
+          "name": "FoundationsColorIndigo300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-300"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-300"
+            "color",
+            "indigo",
+            "300"
           ]
         },
-        "indigo-400": {
+        "400": {
           "type": "color",
           "value": "#818cf8",
-          "description": "",
+          "description": "Foundations color indigo of weight 400.",
           "$extensions": {
             "variableId": "VariableID:10:212"
           },
@@ -4259,29 +4259,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#818cf8",
-            "description": "",
+            "description": "Foundations color indigo of weight 400.",
             "$extensions": {
               "variableId": "VariableID:10:212"
             }
           },
-          "name": "FoundationsColorIndigoIndigo400",
+          "name": "FoundationsColorIndigo400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-400"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-400"
+            "color",
+            "indigo",
+            "400"
           ]
         },
-        "indigo-500": {
+        "500": {
           "type": "color",
           "value": "#6366f1",
-          "description": "",
+          "description": "Foundations color indigo of weight 500.",
           "$extensions": {
             "variableId": "VariableID:10:213"
           },
@@ -4290,29 +4290,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#6366f1",
-            "description": "",
+            "description": "Foundations color indigo of weight 500.",
             "$extensions": {
               "variableId": "VariableID:10:213"
             }
           },
-          "name": "FoundationsColorIndigoIndigo500",
+          "name": "FoundationsColorIndigo500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-500"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-500"
+            "color",
+            "indigo",
+            "500"
           ]
         },
-        "indigo-600": {
+        "600": {
           "type": "color",
           "value": "#4f46e5",
-          "description": "",
+          "description": "Foundations color indigo of weight 600.",
           "$extensions": {
             "variableId": "VariableID:10:214"
           },
@@ -4321,29 +4321,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4f46e5",
-            "description": "",
+            "description": "Foundations color indigo of weight 600.",
             "$extensions": {
               "variableId": "VariableID:10:214"
             }
           },
-          "name": "FoundationsColorIndigoIndigo600",
+          "name": "FoundationsColorIndigo600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-600"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-600"
+            "color",
+            "indigo",
+            "600"
           ]
         },
-        "indigo-700": {
+        "700": {
           "type": "color",
           "value": "#4338ca",
-          "description": "",
+          "description": "Foundations color indigo of weight 700.",
           "$extensions": {
             "variableId": "VariableID:10:215"
           },
@@ -4352,29 +4352,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4338ca",
-            "description": "",
+            "description": "Foundations color indigo of weight 700.",
             "$extensions": {
               "variableId": "VariableID:10:215"
             }
           },
-          "name": "FoundationsColorIndigoIndigo700",
+          "name": "FoundationsColorIndigo700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-700"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-700"
+            "color",
+            "indigo",
+            "700"
           ]
         },
-        "indigo-800": {
+        "800": {
           "type": "color",
           "value": "#3730a3",
-          "description": "",
+          "description": "Foundations color indigo of weight 800.",
           "$extensions": {
             "variableId": "VariableID:10:216"
           },
@@ -4383,29 +4383,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#3730a3",
-            "description": "",
+            "description": "Foundations color indigo of weight 800.",
             "$extensions": {
               "variableId": "VariableID:10:216"
             }
           },
-          "name": "FoundationsColorIndigoIndigo800",
+          "name": "FoundationsColorIndigo800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-800"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-800"
+            "color",
+            "indigo",
+            "800"
           ]
         },
-        "indigo-900": {
+        "900": {
           "type": "color",
           "value": "#312e81",
-          "description": "",
+          "description": "Foundations color indigo of weight 900.",
           "$extensions": {
             "variableId": "VariableID:10:217"
           },
@@ -4414,29 +4414,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#312e81",
-            "description": "",
+            "description": "Foundations color indigo of weight 900.",
             "$extensions": {
               "variableId": "VariableID:10:217"
             }
           },
-          "name": "FoundationsColorIndigoIndigo900",
+          "name": "FoundationsColorIndigo900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-900"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-900"
+            "color",
+            "indigo",
+            "900"
           ]
         },
-        "indigo-950": {
+        "950": {
           "type": "color",
           "value": "#1e1b4b",
-          "description": "",
+          "description": "Foundations color indigo of weight 950.",
           "$extensions": {
             "variableId": "VariableID:10:218"
           },
@@ -4445,31 +4445,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#1e1b4b",
-            "description": "",
+            "description": "Foundations color indigo of weight 950.",
             "$extensions": {
               "variableId": "VariableID:10:218"
             }
           },
-          "name": "FoundationsColorIndigoIndigo950",
+          "name": "FoundationsColorIndigo950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Indigo",
-            "subitem": "indigo-950"
+            "type": "color",
+            "item": "indigo",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Indigo",
-            "indigo-950"
+            "color",
+            "indigo",
+            "950"
           ]
         }
       },
-      "Violet": {
-        "violet-50": {
+      "violet": {
+        "50": {
           "type": "color",
           "value": "#f5f3ff",
-          "description": "",
+          "description": "Foundations color violet of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:38"
           },
@@ -4478,29 +4478,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f5f3ff",
-            "description": "",
+            "description": "Foundations color violet of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:38"
             }
           },
-          "name": "FoundationsColorVioletViolet50",
+          "name": "FoundationsColorViolet50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-50"
+            "type": "color",
+            "item": "violet",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-50"
+            "color",
+            "violet",
+            "50"
           ]
         },
-        "violet-100": {
+        "100": {
           "type": "color",
           "value": "#ede9fe",
-          "description": "",
+          "description": "Foundations color violet of weight 100.",
           "$extensions": {
             "variableId": "VariableID:10:219"
           },
@@ -4509,29 +4509,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ede9fe",
-            "description": "",
+            "description": "Foundations color violet of weight 100.",
             "$extensions": {
               "variableId": "VariableID:10:219"
             }
           },
-          "name": "FoundationsColorVioletViolet100",
+          "name": "FoundationsColorViolet100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-100"
+            "type": "color",
+            "item": "violet",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-100"
+            "color",
+            "violet",
+            "100"
           ]
         },
-        "violet-200": {
+        "200": {
           "type": "color",
           "value": "#ddd6fe",
-          "description": "",
+          "description": "Foundations color violet of weight 200.",
           "$extensions": {
             "variableId": "VariableID:10:220"
           },
@@ -4540,29 +4540,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ddd6fe",
-            "description": "",
+            "description": "Foundations color violet of weight 200.",
             "$extensions": {
               "variableId": "VariableID:10:220"
             }
           },
-          "name": "FoundationsColorVioletViolet200",
+          "name": "FoundationsColorViolet200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-200"
+            "type": "color",
+            "item": "violet",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-200"
+            "color",
+            "violet",
+            "200"
           ]
         },
-        "violet-300": {
+        "300": {
           "type": "color",
           "value": "#c4b5fd",
-          "description": "",
+          "description": "Foundations color violet of weight 300.",
           "$extensions": {
             "variableId": "VariableID:10:221"
           },
@@ -4571,29 +4571,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#c4b5fd",
-            "description": "",
+            "description": "Foundations color violet of weight 300.",
             "$extensions": {
               "variableId": "VariableID:10:221"
             }
           },
-          "name": "FoundationsColorVioletViolet300",
+          "name": "FoundationsColorViolet300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-300"
+            "type": "color",
+            "item": "violet",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-300"
+            "color",
+            "violet",
+            "300"
           ]
         },
-        "violet-400": {
+        "400": {
           "type": "color",
           "value": "#a78bfa",
-          "description": "",
+          "description": "Foundations color violet of weight 400.",
           "$extensions": {
             "variableId": "VariableID:10:222"
           },
@@ -4602,29 +4602,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a78bfa",
-            "description": "",
+            "description": "Foundations color violet of weight 400.",
             "$extensions": {
               "variableId": "VariableID:10:222"
             }
           },
-          "name": "FoundationsColorVioletViolet400",
+          "name": "FoundationsColorViolet400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-400"
+            "type": "color",
+            "item": "violet",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-400"
+            "color",
+            "violet",
+            "400"
           ]
         },
-        "violet-500": {
+        "500": {
           "type": "color",
           "value": "#8b5cf6",
-          "description": "",
+          "description": "Foundations color violet of weight 500.",
           "$extensions": {
             "variableId": "VariableID:10:223"
           },
@@ -4633,29 +4633,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#8b5cf6",
-            "description": "",
+            "description": "Foundations color violet of weight 500.",
             "$extensions": {
               "variableId": "VariableID:10:223"
             }
           },
-          "name": "FoundationsColorVioletViolet500",
+          "name": "FoundationsColorViolet500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-500"
+            "type": "color",
+            "item": "violet",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-500"
+            "color",
+            "violet",
+            "500"
           ]
         },
-        "violet-600": {
+        "600": {
           "type": "color",
           "value": "#7c3aed",
-          "description": "",
+          "description": "Foundations color violet of weight 600.",
           "$extensions": {
             "variableId": "VariableID:10:224"
           },
@@ -4664,29 +4664,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#7c3aed",
-            "description": "",
+            "description": "Foundations color violet of weight 600.",
             "$extensions": {
               "variableId": "VariableID:10:224"
             }
           },
-          "name": "FoundationsColorVioletViolet600",
+          "name": "FoundationsColorViolet600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-600"
+            "type": "color",
+            "item": "violet",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-600"
+            "color",
+            "violet",
+            "600"
           ]
         },
-        "violet-700": {
+        "700": {
           "type": "color",
           "value": "#6d28d9",
-          "description": "",
+          "description": "Foundations color violet of weight 700.",
           "$extensions": {
             "variableId": "VariableID:10:225"
           },
@@ -4695,29 +4695,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#6d28d9",
-            "description": "",
+            "description": "Foundations color violet of weight 700.",
             "$extensions": {
               "variableId": "VariableID:10:225"
             }
           },
-          "name": "FoundationsColorVioletViolet700",
+          "name": "FoundationsColorViolet700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-700"
+            "type": "color",
+            "item": "violet",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-700"
+            "color",
+            "violet",
+            "700"
           ]
         },
-        "violet-800": {
+        "800": {
           "type": "color",
           "value": "#5b21b6",
-          "description": "",
+          "description": "Foundations color violet of weight 800.",
           "$extensions": {
             "variableId": "VariableID:10:226"
           },
@@ -4726,29 +4726,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#5b21b6",
-            "description": "",
+            "description": "Foundations color violet of weight 800.",
             "$extensions": {
               "variableId": "VariableID:10:226"
             }
           },
-          "name": "FoundationsColorVioletViolet800",
+          "name": "FoundationsColorViolet800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-800"
+            "type": "color",
+            "item": "violet",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-800"
+            "color",
+            "violet",
+            "800"
           ]
         },
-        "violet-900": {
+        "900": {
           "type": "color",
           "value": "#4c1d95",
-          "description": "",
+          "description": "Foundations color violet of weight 900.",
           "$extensions": {
             "variableId": "VariableID:10:227"
           },
@@ -4757,29 +4757,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4c1d95",
-            "description": "",
+            "description": "Foundations color violet of weight 900.",
             "$extensions": {
               "variableId": "VariableID:10:227"
             }
           },
-          "name": "FoundationsColorVioletViolet900",
+          "name": "FoundationsColorViolet900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-900"
+            "type": "color",
+            "item": "violet",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-900"
+            "color",
+            "violet",
+            "900"
           ]
         },
-        "violet-950": {
+        "950": {
           "type": "color",
           "value": "#2e1065",
-          "description": "",
+          "description": "Foundations color violet of weight 950.",
           "$extensions": {
             "variableId": "VariableID:10:228"
           },
@@ -4788,31 +4788,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#2e1065",
-            "description": "",
+            "description": "Foundations color violet of weight 950.",
             "$extensions": {
               "variableId": "VariableID:10:228"
             }
           },
-          "name": "FoundationsColorVioletViolet950",
+          "name": "FoundationsColorViolet950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Violet",
-            "subitem": "violet-950"
+            "type": "color",
+            "item": "violet",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Violet",
-            "violet-950"
+            "color",
+            "violet",
+            "950"
           ]
         }
       },
-      "Purple": {
-        "purple-50": {
+      "purple": {
+        "50": {
           "type": "color",
           "value": "#faf5ff",
-          "description": "",
+          "description": "Foundations color purple of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:39"
           },
@@ -4821,29 +4821,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#faf5ff",
-            "description": "",
+            "description": "Foundations color purple of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:39"
             }
           },
-          "name": "FoundationsColorPurplePurple50",
+          "name": "FoundationsColorPurple50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-50"
+            "type": "color",
+            "item": "purple",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-50"
+            "color",
+            "purple",
+            "50"
           ]
         },
-        "purple-100": {
+        "100": {
           "type": "color",
           "value": "#f3e8ff",
-          "description": "",
+          "description": "Foundations color purple of weight 100.",
           "$extensions": {
             "variableId": "VariableID:11:230"
           },
@@ -4852,29 +4852,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f3e8ff",
-            "description": "",
+            "description": "Foundations color purple of weight 100.",
             "$extensions": {
               "variableId": "VariableID:11:230"
             }
           },
-          "name": "FoundationsColorPurplePurple100",
+          "name": "FoundationsColorPurple100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-100"
+            "type": "color",
+            "item": "purple",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-100"
+            "color",
+            "purple",
+            "100"
           ]
         },
-        "purple-200": {
+        "200": {
           "type": "color",
           "value": "#e9d5ff",
-          "description": "",
+          "description": "Foundations color purple of weight 200.",
           "$extensions": {
             "variableId": "VariableID:11:231"
           },
@@ -4883,29 +4883,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#e9d5ff",
-            "description": "",
+            "description": "Foundations color purple of weight 200.",
             "$extensions": {
               "variableId": "VariableID:11:231"
             }
           },
-          "name": "FoundationsColorPurplePurple200",
+          "name": "FoundationsColorPurple200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-200"
+            "type": "color",
+            "item": "purple",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-200"
+            "color",
+            "purple",
+            "200"
           ]
         },
-        "purple-300": {
+        "300": {
           "type": "color",
           "value": "#d8b4fe",
-          "description": "",
+          "description": "Foundations color purple of weight 300.",
           "$extensions": {
             "variableId": "VariableID:11:232"
           },
@@ -4914,29 +4914,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#d8b4fe",
-            "description": "",
+            "description": "Foundations color purple of weight 300.",
             "$extensions": {
               "variableId": "VariableID:11:232"
             }
           },
-          "name": "FoundationsColorPurplePurple300",
+          "name": "FoundationsColorPurple300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-300"
+            "type": "color",
+            "item": "purple",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-300"
+            "color",
+            "purple",
+            "300"
           ]
         },
-        "purple-400": {
+        "400": {
           "type": "color",
           "value": "#c084fc",
-          "description": "",
+          "description": "Foundations color purple of weight 400.",
           "$extensions": {
             "variableId": "VariableID:11:233"
           },
@@ -4945,29 +4945,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#c084fc",
-            "description": "",
+            "description": "Foundations color purple of weight 400.",
             "$extensions": {
               "variableId": "VariableID:11:233"
             }
           },
-          "name": "FoundationsColorPurplePurple400",
+          "name": "FoundationsColorPurple400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-400"
+            "type": "color",
+            "item": "purple",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-400"
+            "color",
+            "purple",
+            "400"
           ]
         },
-        "purple-500": {
+        "500": {
           "type": "color",
           "value": "#a855f7",
-          "description": "",
+          "description": "Foundations color purple of weight 500.",
           "$extensions": {
             "variableId": "VariableID:11:234"
           },
@@ -4976,29 +4976,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a855f7",
-            "description": "",
+            "description": "Foundations color purple of weight 500.",
             "$extensions": {
               "variableId": "VariableID:11:234"
             }
           },
-          "name": "FoundationsColorPurplePurple500",
+          "name": "FoundationsColorPurple500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-500"
+            "type": "color",
+            "item": "purple",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-500"
+            "color",
+            "purple",
+            "500"
           ]
         },
-        "purple-600": {
+        "600": {
           "type": "color",
           "value": "#9333ea",
-          "description": "",
+          "description": "Foundations color purple of weight 600.",
           "$extensions": {
             "variableId": "VariableID:11:235"
           },
@@ -5007,29 +5007,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#9333ea",
-            "description": "",
+            "description": "Foundations color purple of weight 600.",
             "$extensions": {
               "variableId": "VariableID:11:235"
             }
           },
-          "name": "FoundationsColorPurplePurple600",
+          "name": "FoundationsColorPurple600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-600"
+            "type": "color",
+            "item": "purple",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-600"
+            "color",
+            "purple",
+            "600"
           ]
         },
-        "purple-700": {
+        "700": {
           "type": "color",
           "value": "#7e22ce",
-          "description": "",
+          "description": "Foundations color purple of weight 700.",
           "$extensions": {
             "variableId": "VariableID:11:236"
           },
@@ -5038,29 +5038,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#7e22ce",
-            "description": "",
+            "description": "Foundations color purple of weight 700.",
             "$extensions": {
               "variableId": "VariableID:11:236"
             }
           },
-          "name": "FoundationsColorPurplePurple700",
+          "name": "FoundationsColorPurple700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-700"
+            "type": "color",
+            "item": "purple",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-700"
+            "color",
+            "purple",
+            "700"
           ]
         },
-        "purple-800": {
+        "800": {
           "type": "color",
           "value": "#6b21a8",
-          "description": "",
+          "description": "Foundations color purple of weight 800.",
           "$extensions": {
             "variableId": "VariableID:11:237"
           },
@@ -5069,29 +5069,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#6b21a8",
-            "description": "",
+            "description": "Foundations color purple of weight 800.",
             "$extensions": {
               "variableId": "VariableID:11:237"
             }
           },
-          "name": "FoundationsColorPurplePurple800",
+          "name": "FoundationsColorPurple800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-800"
+            "type": "color",
+            "item": "purple",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-800"
+            "color",
+            "purple",
+            "800"
           ]
         },
-        "purple-900": {
+        "900": {
           "type": "color",
           "value": "#581c87",
-          "description": "",
+          "description": "Foundations color purple of weight 900.",
           "$extensions": {
             "variableId": "VariableID:11:238"
           },
@@ -5100,29 +5100,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#581c87",
-            "description": "",
+            "description": "Foundations color purple of weight 900.",
             "$extensions": {
               "variableId": "VariableID:11:238"
             }
           },
-          "name": "FoundationsColorPurplePurple900",
+          "name": "FoundationsColorPurple900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-900"
+            "type": "color",
+            "item": "purple",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-900"
+            "color",
+            "purple",
+            "900"
           ]
         },
-        "purple-950": {
+        "950": {
           "type": "color",
           "value": "#3b0764",
-          "description": "",
+          "description": "Foundations color purple of weight 950.",
           "$extensions": {
             "variableId": "VariableID:11:239"
           },
@@ -5131,31 +5131,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#3b0764",
-            "description": "",
+            "description": "Foundations color purple of weight 950.",
             "$extensions": {
               "variableId": "VariableID:11:239"
             }
           },
-          "name": "FoundationsColorPurplePurple950",
+          "name": "FoundationsColorPurple950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Purple",
-            "subitem": "purple-950"
+            "type": "color",
+            "item": "purple",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Purple",
-            "purple-950"
+            "color",
+            "purple",
+            "950"
           ]
         }
       },
-      "Fuchsia": {
-        "fuchsia-50": {
+      "fuchsia": {
+        "50": {
           "type": "color",
           "value": "#fdf4ff",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:40"
           },
@@ -5164,29 +5164,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fdf4ff",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:40"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia50",
+          "name": "FoundationsColorFuchsia50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-50"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-50"
+            "color",
+            "fuchsia",
+            "50"
           ]
         },
-        "fuchsia-100": {
+        "100": {
           "type": "color",
           "value": "#fae8ff",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 100.",
           "$extensions": {
             "variableId": "VariableID:11:240"
           },
@@ -5195,29 +5195,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fae8ff",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 100.",
             "$extensions": {
               "variableId": "VariableID:11:240"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia100",
+          "name": "FoundationsColorFuchsia100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-100"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-100"
+            "color",
+            "fuchsia",
+            "100"
           ]
         },
-        "fuchsia-200": {
+        "200": {
           "type": "color",
           "value": "#f5d0fe",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 200.",
           "$extensions": {
             "variableId": "VariableID:11:241"
           },
@@ -5226,29 +5226,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f5d0fe",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 200.",
             "$extensions": {
               "variableId": "VariableID:11:241"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia200",
+          "name": "FoundationsColorFuchsia200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-200"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-200"
+            "color",
+            "fuchsia",
+            "200"
           ]
         },
-        "fuchsia-300": {
+        "300": {
           "type": "color",
           "value": "#f0abfc",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 300.",
           "$extensions": {
             "variableId": "VariableID:11:242"
           },
@@ -5257,29 +5257,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f0abfc",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 300.",
             "$extensions": {
               "variableId": "VariableID:11:242"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia300",
+          "name": "FoundationsColorFuchsia300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-300"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-300"
+            "color",
+            "fuchsia",
+            "300"
           ]
         },
-        "fuchsia-400": {
+        "400": {
           "type": "color",
           "value": "#e879f9",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 400.",
           "$extensions": {
             "variableId": "VariableID:11:243"
           },
@@ -5288,29 +5288,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#e879f9",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 400.",
             "$extensions": {
               "variableId": "VariableID:11:243"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia400",
+          "name": "FoundationsColorFuchsia400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-400"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-400"
+            "color",
+            "fuchsia",
+            "400"
           ]
         },
-        "fuchsia-500": {
+        "500": {
           "type": "color",
           "value": "#d946ef",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 500.",
           "$extensions": {
             "variableId": "VariableID:11:244"
           },
@@ -5319,29 +5319,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#d946ef",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 500.",
             "$extensions": {
               "variableId": "VariableID:11:244"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia500",
+          "name": "FoundationsColorFuchsia500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-500"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-500"
+            "color",
+            "fuchsia",
+            "500"
           ]
         },
-        "fuchsia-600": {
+        "600": {
           "type": "color",
           "value": "#c026d3",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 600.",
           "$extensions": {
             "variableId": "VariableID:11:245"
           },
@@ -5350,29 +5350,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#c026d3",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 600.",
             "$extensions": {
               "variableId": "VariableID:11:245"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia600",
+          "name": "FoundationsColorFuchsia600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-600"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-600"
+            "color",
+            "fuchsia",
+            "600"
           ]
         },
-        "fuchsia-700": {
+        "700": {
           "type": "color",
           "value": "#a21caf",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 700.",
           "$extensions": {
             "variableId": "VariableID:11:246"
           },
@@ -5381,29 +5381,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a21caf",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 700.",
             "$extensions": {
               "variableId": "VariableID:11:246"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia700",
+          "name": "FoundationsColorFuchsia700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-700"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-700"
+            "color",
+            "fuchsia",
+            "700"
           ]
         },
-        "fuchsia-800": {
+        "800": {
           "type": "color",
           "value": "#86198f",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 800.",
           "$extensions": {
             "variableId": "VariableID:11:247"
           },
@@ -5412,29 +5412,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#86198f",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 800.",
             "$extensions": {
               "variableId": "VariableID:11:247"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia800",
+          "name": "FoundationsColorFuchsia800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-800"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-800"
+            "color",
+            "fuchsia",
+            "800"
           ]
         },
-        "fuchsia-900": {
+        "900": {
           "type": "color",
           "value": "#701a75",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 900.",
           "$extensions": {
             "variableId": "VariableID:11:248"
           },
@@ -5443,29 +5443,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#701a75",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 900.",
             "$extensions": {
               "variableId": "VariableID:11:248"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia900",
+          "name": "FoundationsColorFuchsia900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-900"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-900"
+            "color",
+            "fuchsia",
+            "900"
           ]
         },
-        "fuchsia-950": {
+        "950": {
           "type": "color",
           "value": "#4a044e",
-          "description": "",
+          "description": "Foundations color fuchsia of weight 950.",
           "$extensions": {
             "variableId": "VariableID:11:249"
           },
@@ -5474,31 +5474,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4a044e",
-            "description": "",
+            "description": "Foundations color fuchsia of weight 950.",
             "$extensions": {
               "variableId": "VariableID:11:249"
             }
           },
-          "name": "FoundationsColorFuchsiaFuchsia950",
+          "name": "FoundationsColorFuchsia950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Fuchsia",
-            "subitem": "fuchsia-950"
+            "type": "color",
+            "item": "fuchsia",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Fuchsia",
-            "fuchsia-950"
+            "color",
+            "fuchsia",
+            "950"
           ]
         }
       },
-      "Pink": {
-        "pink-50": {
+      "pink": {
+        "50": {
           "type": "color",
           "value": "#fdf2f8",
-          "description": "",
+          "description": "Foundations color pink of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:41"
           },
@@ -5507,29 +5507,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fdf2f8",
-            "description": "",
+            "description": "Foundations color pink of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:41"
             }
           },
-          "name": "FoundationsColorPinkPink50",
+          "name": "FoundationsColorPink50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-50"
+            "type": "color",
+            "item": "pink",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-50"
+            "color",
+            "pink",
+            "50"
           ]
         },
-        "pink-100": {
+        "100": {
           "type": "color",
           "value": "#fce7f3",
-          "description": "",
+          "description": "Foundations color pink of weight 100.",
           "$extensions": {
             "variableId": "VariableID:11:250"
           },
@@ -5538,29 +5538,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fce7f3",
-            "description": "",
+            "description": "Foundations color pink of weight 100.",
             "$extensions": {
               "variableId": "VariableID:11:250"
             }
           },
-          "name": "FoundationsColorPinkPink100",
+          "name": "FoundationsColorPink100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-100"
+            "type": "color",
+            "item": "pink",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-100"
+            "color",
+            "pink",
+            "100"
           ]
         },
-        "pink-200": {
+        "200": {
           "type": "color",
           "value": "#fbcfe8",
-          "description": "",
+          "description": "Foundations color pink of weight 200.",
           "$extensions": {
             "variableId": "VariableID:11:251"
           },
@@ -5569,29 +5569,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fbcfe8",
-            "description": "",
+            "description": "Foundations color pink of weight 200.",
             "$extensions": {
               "variableId": "VariableID:11:251"
             }
           },
-          "name": "FoundationsColorPinkPink200",
+          "name": "FoundationsColorPink200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-200"
+            "type": "color",
+            "item": "pink",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-200"
+            "color",
+            "pink",
+            "200"
           ]
         },
-        "pink-300": {
+        "300": {
           "type": "color",
           "value": "#f9a8d4",
-          "description": "",
+          "description": "Foundations color pink of weight 300.",
           "$extensions": {
             "variableId": "VariableID:11:252"
           },
@@ -5600,29 +5600,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f9a8d4",
-            "description": "",
+            "description": "Foundations color pink of weight 300.",
             "$extensions": {
               "variableId": "VariableID:11:252"
             }
           },
-          "name": "FoundationsColorPinkPink300",
+          "name": "FoundationsColorPink300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-300"
+            "type": "color",
+            "item": "pink",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-300"
+            "color",
+            "pink",
+            "300"
           ]
         },
-        "pink-400": {
+        "400": {
           "type": "color",
           "value": "#f472b6",
-          "description": "",
+          "description": "Foundations color pink of weight 400.",
           "$extensions": {
             "variableId": "VariableID:11:253"
           },
@@ -5631,29 +5631,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f472b6",
-            "description": "",
+            "description": "Foundations color pink of weight 400.",
             "$extensions": {
               "variableId": "VariableID:11:253"
             }
           },
-          "name": "FoundationsColorPinkPink400",
+          "name": "FoundationsColorPink400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-400"
+            "type": "color",
+            "item": "pink",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-400"
+            "color",
+            "pink",
+            "400"
           ]
         },
-        "pink-500": {
+        "500": {
           "type": "color",
           "value": "#ec4899",
-          "description": "",
+          "description": "Foundations color pink of weight 500.",
           "$extensions": {
             "variableId": "VariableID:11:254"
           },
@@ -5662,29 +5662,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ec4899",
-            "description": "",
+            "description": "Foundations color pink of weight 500.",
             "$extensions": {
               "variableId": "VariableID:11:254"
             }
           },
-          "name": "FoundationsColorPinkPink500",
+          "name": "FoundationsColorPink500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-500"
+            "type": "color",
+            "item": "pink",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-500"
+            "color",
+            "pink",
+            "500"
           ]
         },
-        "pink-600": {
+        "600": {
           "type": "color",
           "value": "#db2777",
-          "description": "",
+          "description": "Foundations color pink of weight 600.",
           "$extensions": {
             "variableId": "VariableID:11:256"
           },
@@ -5693,29 +5693,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#db2777",
-            "description": "",
+            "description": "Foundations color pink of weight 600.",
             "$extensions": {
               "variableId": "VariableID:11:256"
             }
           },
-          "name": "FoundationsColorPinkPink600",
+          "name": "FoundationsColorPink600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-600"
+            "type": "color",
+            "item": "pink",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-600"
+            "color",
+            "pink",
+            "600"
           ]
         },
-        "pink-700": {
+        "700": {
           "type": "color",
           "value": "#be185d",
-          "description": "",
+          "description": "Foundations color pink of weight 700.",
           "$extensions": {
             "variableId": "VariableID:11:257"
           },
@@ -5724,29 +5724,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#be185d",
-            "description": "",
+            "description": "Foundations color pink of weight 700.",
             "$extensions": {
               "variableId": "VariableID:11:257"
             }
           },
-          "name": "FoundationsColorPinkPink700",
+          "name": "FoundationsColorPink700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-700"
+            "type": "color",
+            "item": "pink",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-700"
+            "color",
+            "pink",
+            "700"
           ]
         },
-        "pink-800": {
+        "800": {
           "type": "color",
           "value": "#9d174d",
-          "description": "",
+          "description": "Foundations color pink of weight 800.",
           "$extensions": {
             "variableId": "VariableID:11:259"
           },
@@ -5755,29 +5755,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#9d174d",
-            "description": "",
+            "description": "Foundations color pink of weight 800.",
             "$extensions": {
               "variableId": "VariableID:11:259"
             }
           },
-          "name": "FoundationsColorPinkPink800",
+          "name": "FoundationsColorPink800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-800"
+            "type": "color",
+            "item": "pink",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-800"
+            "color",
+            "pink",
+            "800"
           ]
         },
-        "pink-900": {
+        "900": {
           "type": "color",
           "value": "#831843",
-          "description": "",
+          "description": "Foundations color pink of weight 900.",
           "$extensions": {
             "variableId": "VariableID:11:260"
           },
@@ -5786,29 +5786,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#831843",
-            "description": "",
+            "description": "Foundations color pink of weight 900.",
             "$extensions": {
               "variableId": "VariableID:11:260"
             }
           },
-          "name": "FoundationsColorPinkPink900",
+          "name": "FoundationsColorPink900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-900"
+            "type": "color",
+            "item": "pink",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-900"
+            "color",
+            "pink",
+            "900"
           ]
         },
-        "pink-950": {
+        "950": {
           "type": "color",
           "value": "#500724",
-          "description": "",
+          "description": "Foundations color pink of weight 950.",
           "$extensions": {
             "variableId": "VariableID:11:261"
           },
@@ -5817,31 +5817,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#500724",
-            "description": "",
+            "description": "Foundations color pink of weight 950.",
             "$extensions": {
               "variableId": "VariableID:11:261"
             }
           },
-          "name": "FoundationsColorPinkPink950",
+          "name": "FoundationsColorPink950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Pink",
-            "subitem": "pink-950"
+            "type": "color",
+            "item": "pink",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Pink",
-            "pink-950"
+            "color",
+            "pink",
+            "950"
           ]
         }
       },
-      "Rose": {
-        "rose-50": {
+      "rose": {
+        "50": {
           "type": "color",
           "value": "#fff1f2",
-          "description": "",
+          "description": "Foundations color rose of weight 50.",
           "$extensions": {
             "variableId": "VariableID:2:43"
           },
@@ -5850,29 +5850,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fff1f2",
-            "description": "",
+            "description": "Foundations color rose of weight 50.",
             "$extensions": {
               "variableId": "VariableID:2:43"
             }
           },
-          "name": "FoundationsColorRoseRose50",
+          "name": "FoundationsColorRose50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-50"
+            "type": "color",
+            "item": "rose",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-50"
+            "color",
+            "rose",
+            "50"
           ]
         },
-        "rose-100": {
+        "100": {
           "type": "color",
           "value": "#ffe4e6",
-          "description": "",
+          "description": "Foundations color rose of weight 100.",
           "$extensions": {
             "variableId": "VariableID:11:262"
           },
@@ -5881,29 +5881,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ffe4e6",
-            "description": "",
+            "description": "Foundations color rose of weight 100.",
             "$extensions": {
               "variableId": "VariableID:11:262"
             }
           },
-          "name": "FoundationsColorRoseRose100",
+          "name": "FoundationsColorRose100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-100"
+            "type": "color",
+            "item": "rose",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-100"
+            "color",
+            "rose",
+            "100"
           ]
         },
-        "rose-200": {
+        "200": {
           "type": "color",
           "value": "#fecdd3",
-          "description": "",
+          "description": "Foundations color rose of weight 200.",
           "$extensions": {
             "variableId": "VariableID:11:263"
           },
@@ -5912,29 +5912,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fecdd3",
-            "description": "",
+            "description": "Foundations color rose of weight 200.",
             "$extensions": {
               "variableId": "VariableID:11:263"
             }
           },
-          "name": "FoundationsColorRoseRose200",
+          "name": "FoundationsColorRose200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-200"
+            "type": "color",
+            "item": "rose",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-200"
+            "color",
+            "rose",
+            "200"
           ]
         },
-        "rose-300": {
+        "300": {
           "type": "color",
           "value": "#fda4af",
-          "description": "",
+          "description": "Foundations color rose of weight 300.",
           "$extensions": {
             "variableId": "VariableID:11:264"
           },
@@ -5943,29 +5943,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fda4af",
-            "description": "",
+            "description": "Foundations color rose of weight 300.",
             "$extensions": {
               "variableId": "VariableID:11:264"
             }
           },
-          "name": "FoundationsColorRoseRose300",
+          "name": "FoundationsColorRose300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-300"
+            "type": "color",
+            "item": "rose",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-300"
+            "color",
+            "rose",
+            "300"
           ]
         },
-        "rose-400": {
+        "400": {
           "type": "color",
           "value": "#fb7185",
-          "description": "",
+          "description": "Foundations color rose of weight 400.",
           "$extensions": {
             "variableId": "VariableID:11:265"
           },
@@ -5974,29 +5974,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fb7185",
-            "description": "",
+            "description": "Foundations color rose of weight 400.",
             "$extensions": {
               "variableId": "VariableID:11:265"
             }
           },
-          "name": "FoundationsColorRoseRose400",
+          "name": "FoundationsColorRose400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-400"
+            "type": "color",
+            "item": "rose",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-400"
+            "color",
+            "rose",
+            "400"
           ]
         },
-        "rose-500": {
+        "500": {
           "type": "color",
           "value": "#f43f5e",
-          "description": "",
+          "description": "Foundations color rose of weight 500.",
           "$extensions": {
             "variableId": "VariableID:11:266"
           },
@@ -6005,29 +6005,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f43f5e",
-            "description": "",
+            "description": "Foundations color rose of weight 500.",
             "$extensions": {
               "variableId": "VariableID:11:266"
             }
           },
-          "name": "FoundationsColorRoseRose500",
+          "name": "FoundationsColorRose500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-500"
+            "type": "color",
+            "item": "rose",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-500"
+            "color",
+            "rose",
+            "500"
           ]
         },
-        "rose-600": {
+        "600": {
           "type": "color",
           "value": "#e11d48",
-          "description": "",
+          "description": "Foundations color rose of weight 600.",
           "$extensions": {
             "variableId": "VariableID:11:267"
           },
@@ -6036,29 +6036,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#e11d48",
-            "description": "",
+            "description": "Foundations color rose of weight 600.",
             "$extensions": {
               "variableId": "VariableID:11:267"
             }
           },
-          "name": "FoundationsColorRoseRose600",
+          "name": "FoundationsColorRose600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-600"
+            "type": "color",
+            "item": "rose",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-600"
+            "color",
+            "rose",
+            "600"
           ]
         },
-        "rose-700": {
+        "700": {
           "type": "color",
           "value": "#be123c",
-          "description": "",
+          "description": "Foundations color rose of weight 700.",
           "$extensions": {
             "variableId": "VariableID:11:268"
           },
@@ -6067,29 +6067,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#be123c",
-            "description": "",
+            "description": "Foundations color rose of weight 700.",
             "$extensions": {
               "variableId": "VariableID:11:268"
             }
           },
-          "name": "FoundationsColorRoseRose700",
+          "name": "FoundationsColorRose700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-700"
+            "type": "color",
+            "item": "rose",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-700"
+            "color",
+            "rose",
+            "700"
           ]
         },
-        "rose-800": {
+        "800": {
           "type": "color",
           "value": "#9f1239",
-          "description": "",
+          "description": "Foundations color rose of weight 800.",
           "$extensions": {
             "variableId": "VariableID:11:269"
           },
@@ -6098,29 +6098,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#9f1239",
-            "description": "",
+            "description": "Foundations color rose of weight 800.",
             "$extensions": {
               "variableId": "VariableID:11:269"
             }
           },
-          "name": "FoundationsColorRoseRose800",
+          "name": "FoundationsColorRose800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-800"
+            "type": "color",
+            "item": "rose",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-800"
+            "color",
+            "rose",
+            "800"
           ]
         },
-        "rose-900": {
+        "900": {
           "type": "color",
           "value": "#881337",
-          "description": "",
+          "description": "Foundations color rose of weight 900.",
           "$extensions": {
             "variableId": "VariableID:11:270"
           },
@@ -6129,29 +6129,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#881337",
-            "description": "",
+            "description": "Foundations color rose of weight 900.",
             "$extensions": {
               "variableId": "VariableID:11:270"
             }
           },
-          "name": "FoundationsColorRoseRose900",
+          "name": "FoundationsColorRose900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-900"
+            "type": "color",
+            "item": "rose",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-900"
+            "color",
+            "rose",
+            "900"
           ]
         },
-        "rose-950": {
+        "950": {
           "type": "color",
           "value": "#4c0519",
-          "description": "",
+          "description": "Foundations color rose of weight 950.",
           "$extensions": {
             "variableId": "VariableID:11:271"
           },
@@ -6160,31 +6160,31 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#4c0519",
-            "description": "",
+            "description": "Foundations color rose of weight 950.",
             "$extensions": {
               "variableId": "VariableID:11:271"
             }
           },
-          "name": "FoundationsColorRoseRose950",
+          "name": "FoundationsColorRose950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Rose",
-            "subitem": "rose-950"
+            "type": "color",
+            "item": "rose",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Rose",
-            "rose-950"
+            "color",
+            "rose",
+            "950"
           ]
         }
       },
-      "Neutral": {
-        "neutral-0": {
+      "neutral": {
+        "0": {
           "type": "color",
           "value": "#ffffff",
-          "description": "",
+          "description": "Foundations color neutral of weight 0.",
           "$extensions": {
             "variableId": "VariableID:693:2200"
           },
@@ -6193,29 +6193,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#ffffff",
-            "description": "",
+            "description": "Foundations color neutral of weight 0.",
             "$extensions": {
               "variableId": "VariableID:693:2200"
             }
           },
-          "name": "FoundationsColorNeutralNeutral0",
+          "name": "FoundationsColorNeutral0",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-0"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "0"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-0"
+            "color",
+            "neutral",
+            "0"
           ]
         },
-        "neutral-50": {
+        "50": {
           "type": "color",
           "value": "#fafafa",
-          "description": "",
+          "description": "Foundations color neutral of weight 50.",
           "$extensions": {
             "variableId": "VariableID:693:2201"
           },
@@ -6224,29 +6224,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#fafafa",
-            "description": "",
+            "description": "Foundations color neutral of weight 50.",
             "$extensions": {
               "variableId": "VariableID:693:2201"
             }
           },
-          "name": "FoundationsColorNeutralNeutral50",
+          "name": "FoundationsColorNeutral50",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-50"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "50"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-50"
+            "color",
+            "neutral",
+            "50"
           ]
         },
-        "neutral-100": {
+        "100": {
           "type": "color",
           "value": "#f4f4f5",
-          "description": "",
+          "description": "Foundations color neutral of weight 100.",
           "$extensions": {
             "variableId": "VariableID:693:2202"
           },
@@ -6255,29 +6255,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#f4f4f5",
-            "description": "",
+            "description": "Foundations color neutral of weight 100.",
             "$extensions": {
               "variableId": "VariableID:693:2202"
             }
           },
-          "name": "FoundationsColorNeutralNeutral100",
+          "name": "FoundationsColorNeutral100",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-100"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "100"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-100"
+            "color",
+            "neutral",
+            "100"
           ]
         },
-        "neutral-200": {
+        "200": {
           "type": "color",
           "value": "#e4e4e7",
-          "description": "",
+          "description": "Foundations color neutral of weight 200.",
           "$extensions": {
             "variableId": "VariableID:693:2203"
           },
@@ -6286,29 +6286,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#e4e4e7",
-            "description": "",
+            "description": "Foundations color neutral of weight 200.",
             "$extensions": {
               "variableId": "VariableID:693:2203"
             }
           },
-          "name": "FoundationsColorNeutralNeutral200",
+          "name": "FoundationsColorNeutral200",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-200"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "200"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-200"
+            "color",
+            "neutral",
+            "200"
           ]
         },
-        "neutral-300": {
+        "300": {
           "type": "color",
           "value": "#d4d4d8",
-          "description": "",
+          "description": "Foundations color neutral of weight 300.",
           "$extensions": {
             "variableId": "VariableID:693:2204"
           },
@@ -6317,29 +6317,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#d4d4d8",
-            "description": "",
+            "description": "Foundations color neutral of weight 300.",
             "$extensions": {
               "variableId": "VariableID:693:2204"
             }
           },
-          "name": "FoundationsColorNeutralNeutral300",
+          "name": "FoundationsColorNeutral300",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-300"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "300"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-300"
+            "color",
+            "neutral",
+            "300"
           ]
         },
-        "neutral-400": {
+        "400": {
           "type": "color",
           "value": "#a1a1aa",
-          "description": "",
+          "description": "Foundations color neutral of weight 400.",
           "$extensions": {
             "variableId": "VariableID:693:2205"
           },
@@ -6348,29 +6348,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#a1a1aa",
-            "description": "",
+            "description": "Foundations color neutral of weight 400.",
             "$extensions": {
               "variableId": "VariableID:693:2205"
             }
           },
-          "name": "FoundationsColorNeutralNeutral400",
+          "name": "FoundationsColorNeutral400",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-400"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "400"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-400"
+            "color",
+            "neutral",
+            "400"
           ]
         },
-        "neutral-500": {
+        "500": {
           "type": "color",
           "value": "#71717a",
-          "description": "",
+          "description": "Foundations color neutral of weight 500.",
           "$extensions": {
             "variableId": "VariableID:693:2206"
           },
@@ -6379,29 +6379,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#71717a",
-            "description": "",
+            "description": "Foundations color neutral of weight 500.",
             "$extensions": {
               "variableId": "VariableID:693:2206"
             }
           },
-          "name": "FoundationsColorNeutralNeutral500",
+          "name": "FoundationsColorNeutral500",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-500"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "500"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-500"
+            "color",
+            "neutral",
+            "500"
           ]
         },
-        "neutral-600": {
+        "600": {
           "type": "color",
           "value": "#52525b",
-          "description": "",
+          "description": "Foundations color neutral of weight 600.",
           "$extensions": {
             "variableId": "VariableID:693:2207"
           },
@@ -6410,29 +6410,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#52525b",
-            "description": "",
+            "description": "Foundations color neutral of weight 600.",
             "$extensions": {
               "variableId": "VariableID:693:2207"
             }
           },
-          "name": "FoundationsColorNeutralNeutral600",
+          "name": "FoundationsColorNeutral600",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-600"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "600"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-600"
+            "color",
+            "neutral",
+            "600"
           ]
         },
-        "neutral-700": {
+        "700": {
           "type": "color",
           "value": "#3f3f46",
-          "description": "",
+          "description": "Foundations color neutral of weight 700.",
           "$extensions": {
             "variableId": "VariableID:693:2208"
           },
@@ -6441,29 +6441,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#3f3f46",
-            "description": "",
+            "description": "Foundations color neutral of weight 700.",
             "$extensions": {
               "variableId": "VariableID:693:2208"
             }
           },
-          "name": "FoundationsColorNeutralNeutral700",
+          "name": "FoundationsColorNeutral700",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-700"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "700"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-700"
+            "color",
+            "neutral",
+            "700"
           ]
         },
-        "neutral-800": {
+        "800": {
           "type": "color",
           "value": "#27272a",
-          "description": "",
+          "description": "Foundations color neutral of weight 800.",
           "$extensions": {
             "variableId": "VariableID:693:2209"
           },
@@ -6472,29 +6472,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#27272a",
-            "description": "",
+            "description": "Foundations color neutral of weight 800.",
             "$extensions": {
               "variableId": "VariableID:693:2209"
             }
           },
-          "name": "FoundationsColorNeutralNeutral800",
+          "name": "FoundationsColorNeutral800",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-800"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "800"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-800"
+            "color",
+            "neutral",
+            "800"
           ]
         },
-        "neutral-900": {
+        "900": {
           "type": "color",
           "value": "#18181b",
-          "description": "",
+          "description": "Foundations color neutral of weight 900.",
           "$extensions": {
             "variableId": "VariableID:693:2210"
           },
@@ -6503,29 +6503,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#18181b",
-            "description": "",
+            "description": "Foundations color neutral of weight 900.",
             "$extensions": {
               "variableId": "VariableID:693:2210"
             }
           },
-          "name": "FoundationsColorNeutralNeutral900",
+          "name": "FoundationsColorNeutral900",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-900"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "900"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-900"
+            "color",
+            "neutral",
+            "900"
           ]
         },
-        "neutral-950": {
+        "950": {
           "type": "color",
           "value": "#09090b",
-          "description": "",
+          "description": "Foundations color neutral of weight 950.",
           "$extensions": {
             "variableId": "VariableID:693:2211"
           },
@@ -6534,29 +6534,29 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#09090b",
-            "description": "",
+            "description": "Foundations color neutral of weight 950.",
             "$extensions": {
               "variableId": "VariableID:693:2211"
             }
           },
-          "name": "FoundationsColorNeutralNeutral950",
+          "name": "FoundationsColorNeutral950",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-950"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "950"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-950"
+            "color",
+            "neutral",
+            "950"
           ]
         },
-        "neutral-1000": {
+        "1000": {
           "type": "color",
           "value": "#000000",
-          "description": "",
+          "description": "Foundations color neutral of weight 1000.",
           "$extensions": {
             "variableId": "VariableID:693:2212"
           },
@@ -6565,873 +6565,32 @@ module.exports = {
           "original": {
             "type": "color",
             "value": "#000000",
-            "description": "",
+            "description": "Foundations color neutral of weight 1000.",
             "$extensions": {
               "variableId": "VariableID:693:2212"
             }
           },
-          "name": "FoundationsColorNeutralNeutral1000",
+          "name": "FoundationsColorNeutral1000",
           "attributes": {
             "category": "Foundations",
-            "type": "Color",
-            "item": "Neutral",
-            "subitem": "neutral-1000"
+            "type": "color",
+            "item": "neutral",
+            "subitem": "1000"
           },
           "path": [
             "Foundations",
-            "Color",
-            "Neutral",
-            "neutral-1000"
+            "color",
+            "neutral",
+            "1000"
           ]
         }
       }
     },
-    "Scale": {
-      "scale-1": {
-        "type": "dimension",
-        "value": "4px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:278"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "4px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:278"
-          }
-        },
-        "name": "FoundationsScaleScale1",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-1"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-1"
-        ]
-      },
-      "scale-2": {
-        "type": "dimension",
-        "value": "8px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:280"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "8px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:280"
-          }
-        },
-        "name": "FoundationsScaleScale2",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-2"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-2"
-        ]
-      },
-      "scale-3": {
-        "type": "dimension",
-        "value": "12px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:282"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "12px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:282"
-          }
-        },
-        "name": "FoundationsScaleScale3",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-3"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-3"
-        ]
-      },
-      "scale-4": {
-        "type": "dimension",
-        "value": "16px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:284"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "16px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:284"
-          }
-        },
-        "name": "FoundationsScaleScale4",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-4"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-4"
-        ]
-      },
-      "scale-5": {
-        "type": "dimension",
-        "value": "20px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:285"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "20px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:285"
-          }
-        },
-        "name": "FoundationsScaleScale5",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-5"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-5"
-        ]
-      },
-      "scale-6": {
-        "type": "dimension",
-        "value": "24px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:286"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "24px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:286"
-          }
-        },
-        "name": "FoundationsScaleScale6",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-6"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-6"
-        ]
-      },
-      "scale-7": {
-        "type": "dimension",
-        "value": "28px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:287"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "28px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:287"
-          }
-        },
-        "name": "FoundationsScaleScale7",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-7"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-7"
-        ]
-      },
-      "scale-8": {
-        "type": "dimension",
-        "value": "32px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:288"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "32px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:288"
-          }
-        },
-        "name": "FoundationsScaleScale8",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-8"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-8"
-        ]
-      },
-      "scale-9": {
-        "type": "dimension",
-        "value": "36px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:289"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "36px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:289"
-          }
-        },
-        "name": "FoundationsScaleScale9",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-9"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-9"
-        ]
-      },
-      "scale-10": {
-        "type": "dimension",
-        "value": "40px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:290"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "40px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:290"
-          }
-        },
-        "name": "FoundationsScaleScale10",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-10"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-10"
-        ]
-      },
-      "scale-11": {
-        "type": "dimension",
-        "value": "44px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:291"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "44px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:291"
-          }
-        },
-        "name": "FoundationsScaleScale11",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-11"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-11"
-        ]
-      },
-      "scale-12": {
-        "type": "dimension",
-        "value": "48px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:292"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "48px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:292"
-          }
-        },
-        "name": "FoundationsScaleScale12",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-12"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-12"
-        ]
-      },
-      "scale-14": {
-        "type": "dimension",
-        "value": "56px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:293"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "56px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:293"
-          }
-        },
-        "name": "FoundationsScaleScale14",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-14"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-14"
-        ]
-      },
-      "scale-16": {
-        "type": "dimension",
-        "value": "64px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:294"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "64px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:294"
-          }
-        },
-        "name": "FoundationsScaleScale16",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-16"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-16"
-        ]
-      },
-      "scale-20": {
-        "type": "dimension",
-        "value": "80px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:295"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "80px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:295"
-          }
-        },
-        "name": "FoundationsScaleScale20",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-20"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-20"
-        ]
-      },
-      "scale-24": {
-        "type": "dimension",
-        "value": "96px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:296"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "96px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:296"
-          }
-        },
-        "name": "FoundationsScaleScale24",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-24"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-24"
-        ]
-      },
-      "scale-28": {
-        "type": "dimension",
-        "value": "112px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:297"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "112px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:297"
-          }
-        },
-        "name": "FoundationsScaleScale28",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-28"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-28"
-        ]
-      },
-      "scale-32": {
-        "type": "dimension",
-        "value": "128px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:298"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "128px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:298"
-          }
-        },
-        "name": "FoundationsScaleScale32",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-32"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-32"
-        ]
-      },
-      "scale-36": {
-        "type": "dimension",
-        "value": "144px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:299"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "144px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:299"
-          }
-        },
-        "name": "FoundationsScaleScale36",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-36"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-36"
-        ]
-      },
-      "scale-40": {
-        "type": "dimension",
-        "value": "160px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:300"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "160px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:300"
-          }
-        },
-        "name": "FoundationsScaleScale40",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-40"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-40"
-        ]
-      },
-      "scale-44": {
-        "type": "dimension",
-        "value": "176px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:11:301"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "176px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:11:301"
-          }
-        },
-        "name": "FoundationsScaleScale44",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-44"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-44"
-        ]
-      },
-      "scale-48": {
-        "type": "dimension",
-        "value": "192px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:305"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "192px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:305"
-          }
-        },
-        "name": "FoundationsScaleScale48",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-48"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-48"
-        ]
-      },
-      "scale-52": {
-        "type": "dimension",
-        "value": "208px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:306"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "208px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:306"
-          }
-        },
-        "name": "FoundationsScaleScale52",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-52"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-52"
-        ]
-      },
-      "scale-56": {
-        "type": "dimension",
-        "value": "224px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:307"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "224px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:307"
-          }
-        },
-        "name": "FoundationsScaleScale56",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-56"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-56"
-        ]
-      },
-      "scale-60": {
-        "type": "dimension",
-        "value": "240px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:308"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "240px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:308"
-          }
-        },
-        "name": "FoundationsScaleScale60",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-60"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-60"
-        ]
-      },
-      "scale-64": {
-        "type": "dimension",
-        "value": "256px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:309"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "256px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:309"
-          }
-        },
-        "name": "FoundationsScaleScale64",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-64"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-64"
-        ]
-      },
-      "scale-72": {
-        "type": "dimension",
-        "value": "288px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:310"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "288px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:310"
-          }
-        },
-        "name": "FoundationsScaleScale72",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-72"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-72"
-        ]
-      },
-      "scale-80": {
-        "type": "dimension",
-        "value": "320px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:311"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "320px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:311"
-          }
-        },
-        "name": "FoundationsScaleScale80",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-80"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-80"
-        ]
-      },
-      "scale-96": {
-        "type": "dimension",
-        "value": "384px",
-        "description": "",
-        "$extensions": {
-          "variableId": "VariableID:12:312"
-        },
-        "filePath": "tokens/tokens.json",
-        "isSource": true,
-        "original": {
-          "type": "dimension",
-          "value": "384px",
-          "description": "",
-          "$extensions": {
-            "variableId": "VariableID:12:312"
-          }
-        },
-        "name": "FoundationsScaleScale96",
-        "attributes": {
-          "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-96"
-        },
-        "path": [
-          "Foundations",
-          "Scale",
-          "scale-96"
-        ]
-      },
-      "scale-0": {
+    "scale": {
+      "0": {
         "type": "dimension",
         "value": "0px",
-        "description": "",
+        "description": "Use for resetting default space.",
         "$extensions": {
           "variableId": "VariableID:12:348"
         },
@@ -7440,21 +6599,862 @@ module.exports = {
         "original": {
           "type": "dimension",
           "value": "0px",
-          "description": "",
+          "description": "Use for resetting default space.",
           "$extensions": {
             "variableId": "VariableID:12:348"
           }
         },
-        "name": "FoundationsScaleScale0",
+        "name": "FoundationsScale0",
         "attributes": {
           "category": "Foundations",
-          "type": "Scale",
-          "item": "scale-0"
+          "type": "scale",
+          "item": "0"
         },
         "path": [
           "Foundations",
-          "Scale",
-          "scale-0"
+          "scale",
+          "0"
+        ]
+      },
+      "1": {
+        "type": "dimension",
+        "value": "4px",
+        "description": "1st step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:278"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "4px",
+          "description": "1st step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:278"
+          }
+        },
+        "name": "FoundationsScale1",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "1"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "1"
+        ]
+      },
+      "2": {
+        "type": "dimension",
+        "value": "8px",
+        "description": "2nd step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:280"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "8px",
+          "description": "2nd step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:280"
+          }
+        },
+        "name": "FoundationsScale2",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "2"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "2"
+        ]
+      },
+      "3": {
+        "type": "dimension",
+        "value": "12px",
+        "description": "3rd step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:282"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "12px",
+          "description": "3rd step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:282"
+          }
+        },
+        "name": "FoundationsScale3",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "3"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "3"
+        ]
+      },
+      "4": {
+        "type": "dimension",
+        "value": "16px",
+        "description": "4th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:284"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "16px",
+          "description": "4th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:284"
+          }
+        },
+        "name": "FoundationsScale4",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "4"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "4"
+        ]
+      },
+      "5": {
+        "type": "dimension",
+        "value": "20px",
+        "description": "5th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:285"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "20px",
+          "description": "5th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:285"
+          }
+        },
+        "name": "FoundationsScale5",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "5"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "5"
+        ]
+      },
+      "6": {
+        "type": "dimension",
+        "value": "24px",
+        "description": "6th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:286"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "24px",
+          "description": "6th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:286"
+          }
+        },
+        "name": "FoundationsScale6",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "6"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "6"
+        ]
+      },
+      "7": {
+        "type": "dimension",
+        "value": "28px",
+        "description": "7th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:287"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "28px",
+          "description": "7th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:287"
+          }
+        },
+        "name": "FoundationsScale7",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "7"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "7"
+        ]
+      },
+      "8": {
+        "type": "dimension",
+        "value": "32px",
+        "description": "8th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:288"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "32px",
+          "description": "8th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:288"
+          }
+        },
+        "name": "FoundationsScale8",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "8"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "8"
+        ]
+      },
+      "9": {
+        "type": "dimension",
+        "value": "36px",
+        "description": "9th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:289"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "36px",
+          "description": "9th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:289"
+          }
+        },
+        "name": "FoundationsScale9",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "9"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "9"
+        ]
+      },
+      "10": {
+        "type": "dimension",
+        "value": "40px",
+        "description": "10th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:290"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "40px",
+          "description": "10th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:290"
+          }
+        },
+        "name": "FoundationsScale10",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "10"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "10"
+        ]
+      },
+      "11": {
+        "type": "dimension",
+        "value": "44px",
+        "description": "11th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:291"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "44px",
+          "description": "11th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:291"
+          }
+        },
+        "name": "FoundationsScale11",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "11"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "11"
+        ]
+      },
+      "12": {
+        "type": "dimension",
+        "value": "48px",
+        "description": "12th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:292"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "48px",
+          "description": "12th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:292"
+          }
+        },
+        "name": "FoundationsScale12",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "12"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "12"
+        ]
+      },
+      "14": {
+        "type": "dimension",
+        "value": "56px",
+        "description": "14th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:293"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "56px",
+          "description": "14th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:293"
+          }
+        },
+        "name": "FoundationsScale14",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "14"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "14"
+        ]
+      },
+      "16": {
+        "type": "dimension",
+        "value": "64px",
+        "description": "16th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:294"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "64px",
+          "description": "16th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:294"
+          }
+        },
+        "name": "FoundationsScale16",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "16"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "16"
+        ]
+      },
+      "20": {
+        "type": "dimension",
+        "value": "80px",
+        "description": "20th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:295"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "80px",
+          "description": "20th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:295"
+          }
+        },
+        "name": "FoundationsScale20",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "20"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "20"
+        ]
+      },
+      "24": {
+        "type": "dimension",
+        "value": "96px",
+        "description": "24th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:296"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "96px",
+          "description": "24th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:296"
+          }
+        },
+        "name": "FoundationsScale24",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "24"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "24"
+        ]
+      },
+      "28": {
+        "type": "dimension",
+        "value": "112px",
+        "description": "28th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:297"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "112px",
+          "description": "28th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:297"
+          }
+        },
+        "name": "FoundationsScale28",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "28"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "28"
+        ]
+      },
+      "32": {
+        "type": "dimension",
+        "value": "128px",
+        "description": "32th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:298"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "128px",
+          "description": "32th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:298"
+          }
+        },
+        "name": "FoundationsScale32",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "32"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "32"
+        ]
+      },
+      "36": {
+        "type": "dimension",
+        "value": "144px",
+        "description": "36th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:299"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "144px",
+          "description": "36th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:299"
+          }
+        },
+        "name": "FoundationsScale36",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "36"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "36"
+        ]
+      },
+      "40": {
+        "type": "dimension",
+        "value": "160px",
+        "description": "40th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:300"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "160px",
+          "description": "40th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:300"
+          }
+        },
+        "name": "FoundationsScale40",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "40"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "40"
+        ]
+      },
+      "44": {
+        "type": "dimension",
+        "value": "176px",
+        "description": "44th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:11:301"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "176px",
+          "description": "44th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:11:301"
+          }
+        },
+        "name": "FoundationsScale44",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "44"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "44"
+        ]
+      },
+      "48": {
+        "type": "dimension",
+        "value": "192px",
+        "description": "48th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:305"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "192px",
+          "description": "48th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:305"
+          }
+        },
+        "name": "FoundationsScale48",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "48"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "48"
+        ]
+      },
+      "52": {
+        "type": "dimension",
+        "value": "208px",
+        "description": "52th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:306"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "208px",
+          "description": "52th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:306"
+          }
+        },
+        "name": "FoundationsScale52",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "52"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "52"
+        ]
+      },
+      "56": {
+        "type": "dimension",
+        "value": "224px",
+        "description": "56th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:307"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "224px",
+          "description": "56th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:307"
+          }
+        },
+        "name": "FoundationsScale56",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "56"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "56"
+        ]
+      },
+      "60": {
+        "type": "dimension",
+        "value": "240px",
+        "description": "60th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:308"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "240px",
+          "description": "60th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:308"
+          }
+        },
+        "name": "FoundationsScale60",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "60"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "60"
+        ]
+      },
+      "64": {
+        "type": "dimension",
+        "value": "256px",
+        "description": "64th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:309"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "256px",
+          "description": "64th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:309"
+          }
+        },
+        "name": "FoundationsScale64",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "64"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "64"
+        ]
+      },
+      "72": {
+        "type": "dimension",
+        "value": "288px",
+        "description": "72th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:310"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "288px",
+          "description": "72th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:310"
+          }
+        },
+        "name": "FoundationsScale72",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "72"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "72"
+        ]
+      },
+      "80": {
+        "type": "dimension",
+        "value": "320px",
+        "description": "80th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:311"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "320px",
+          "description": "80th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:311"
+          }
+        },
+        "name": "FoundationsScale80",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "80"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "80"
+        ]
+      },
+      "96": {
+        "type": "dimension",
+        "value": "384px",
+        "description": "96th step of Foundations scale sequence.",
+        "$extensions": {
+          "variableId": "VariableID:12:312"
+        },
+        "filePath": "tokens/tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": "384px",
+          "description": "96th step of Foundations scale sequence.",
+          "$extensions": {
+            "variableId": "VariableID:12:312"
+          }
+        },
+        "name": "FoundationsScale96",
+        "attributes": {
+          "category": "Foundations",
+          "type": "scale",
+          "item": "96"
+        },
+        "path": [
+          "Foundations",
+          "scale",
+          "96"
         ]
       }
     }

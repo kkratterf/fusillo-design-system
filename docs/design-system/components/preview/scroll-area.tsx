@@ -32,7 +32,7 @@ export const works: Artwork[] = [
 
 export const ScrollAreaPreview = () => (
   <Preview>
-    <ScrollArea className="h-72 w-48 rounded border border-border">
+    <ScrollArea className="h-72 w-48 rounded border border-default">
       <div className="p-4">
         <h4 className="mb-4 text-md-medium leading-none">Tags</h4>
         {tags.map((tag) => (
@@ -50,7 +50,7 @@ export const ScrollAreaPreview = () => (
 
 export const ScrollAreaHorizontal = () => (
   <Preview>
-    <ScrollArea className="w-96 whitespace-nowrap rounded border border-border">
+    <ScrollArea className="w-96 whitespace-nowrap rounded border border-default">
       <div className="flex w-max space-x-4 p-4">
         {works.map((artwork) => (
           <figure key={artwork.artist} className="shrink-0">

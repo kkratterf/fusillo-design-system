@@ -6,7 +6,7 @@
 @layer components {
 
     .alert-default {
-    @apply bg-card border border-border text stroke-icon-active;
+    @apply bg-card border border-default text stroke-icon-active;
     }
 
     .alert-brand {

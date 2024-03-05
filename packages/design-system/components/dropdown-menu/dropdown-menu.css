@@ -14,11 +14,11 @@
   }
 
   .dropdown-menu-subcontent {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded border border-border bg-elevated p-1 text shadow-lg;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded border border-default bg-elevated p-1 text shadow-lg;
   }
 
   .dropdown-menu-content {
-    @apply z-50 min-w-[8rem] overflow-hidden rounded border border-border bg-elevated p-1 text shadow-md;
+    @apply z-50 min-w-[8rem] overflow-hidden rounded border border-default bg-elevated p-1 text shadow-md;
   }
 
   .dropdown-menu-item {
