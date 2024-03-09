@@ -1,4 +1,4 @@
-# A well-cooked design system 🤌
+# A well-cooked design system boilerplate
 
 Welcome to Fusillo Design System, the place where we cook creativity and consistency in a recipe of exceptional user experiences.
 

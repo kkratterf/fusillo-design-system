@@ -3,7 +3,7 @@ title: Tag
 ---
 
 import { Tabs, Cards, Card } from 'nextra/components';
-import { TagPreview, TagDefault, TagBrand, TagDanger, TagWarning  } from '@docs/components/preview/tag.tsx'
+import { TagPreview, TagRed, TagOrange, TagAmber, TagYellow, TagLime, TagGreen, TagEmerald, TagTeal, TagCyan, TagSky, TagBlue, TagIndigo, TagViolet, TagPurple, TagFuchsia, TagPink, TagRose } from '@docs/components/preview/tag.tsx'
 
 # 💠 Tag
 
@@ -16,12 +16,12 @@ Displays an element for categorizing or markup.
   <Tabs.Tab>
     ```js copy filename="tag.tsx"
     import { Tag } from "@/components/tag";
-    import { Umbrella } from 'lucide-react';
+    import { TagIcon } from 'lucide-react';
  
     export function TagDemo() {
         return (
             <Tag>
-                <Umbrella /> Umbrella
+                <TagIcon /> Markup
             </Tag>
         );
     }
@@ -45,21 +45,21 @@ Avoid using Tags for long or complex information that would be better served by 
 
 ## Examples
 
-### Default
+### Red
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <TagDefault />
+    <TagRed />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /status="default"/ filename="tag.tsx"
+    ```js copy {6} /colors="red"/ filename="tag.tsx"
     import { Tag } from "@/components/tag";
-    import { Umbrella } from 'lucide-react';
+    import { TagIcon } from 'lucide-react';
  
     export function TagDemo() {
         return (
-            <Tag status="default">
-                <Umbrella /> Umbrella
+            <Tag colors="red">
+                <TagIcon /> Markup
             </Tag>
         );
     }
@@ -67,21 +67,21 @@ Avoid using Tags for long or complex information that would be better served by 
   </Tabs.Tab>
 </Tabs>
 
-### Brand
+### Orange
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <TagBrand />
+    <TagOrange />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /status="brand"/ filename="tag.tsx"
+    ```js copy {6} /colors="orange"/ filename="tag.tsx"
     import { Tag } from "@/components/tag";
-    import { Heart } from 'lucide-react';
+    import { TagIcon } from 'lucide-react';
  
     export function TagDemo() {
         return (
-            <Tag status="brand">
-                <Heart /> Favourite
+            <Tag colors="orange">
+                <TagIcon /> Markup
             </Tag>
         );
     }
@@ -89,21 +89,21 @@ Avoid using Tags for long or complex information that would be better served by 
   </Tabs.Tab>
 </Tabs>
 
-### Danger
+### Amber
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <TagDanger />
+    <TagAmber />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /status="danger"/ filename="tag.tsx"
+    ```js copy {6} /colors="amber"/ filename="tag.tsx"
     import { Tag } from "@/components/tag";
-    import { XCircle } from 'lucide-react';
+    import { TagIcon } from 'lucide-react';
  
     export function TagDemo() {
         return (
-            <Tag status="danger">
-                <XCircle /> Failer
+            <Tag colors="amber">
+                <TagIcon /> Markup
             </Tag>
         );
     }
@@ -111,21 +111,307 @@ Avoid using Tags for long or complex information that would be better served by 
   </Tabs.Tab>
 </Tabs>
 
-### Warning
+### Yellow
 
 <Tabs items={['Preview', 'Code']}>
   <Tabs.Tab>
-    <TagWarning />
+    <TagYellow />
   </Tabs.Tab>
   <Tabs.Tab>
-    ```js copy {6} /status="warning"/ filename="tag.tsx"
+    ```js copy {6} /colors="yellow"/ filename="tag.tsx"
     import { Tag } from "@/components/tag";
-    import { AlertTriangle } from 'lucide-react';
+    import { TagIcon } from 'lucide-react';
  
     export function TagDemo() {
         return (
-            <Tag status="warning">
-                <AlertTriangle /> Caution
+            <Tag colors="yellow">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Lime
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagLime />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="lime"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="lime">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Green
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagGreen />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="green"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="green">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Emerald
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagEmerald />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="emerald"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="emerald">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Teal
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagTeal />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="teal"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="teal">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Cyan
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagCyan />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="cyan"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="cyan">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Sky
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagSky />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="sky"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="sky">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Blue
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagBlue />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="blue"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="blue">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Indigo
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagIndigo />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="indigo"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="indigo">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Violet
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagViolet />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="violet"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="violet">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Purple
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagPurple />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="purple"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="purple">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Fuchsia
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagFuchsia />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="fuchsia"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="fuchsia">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Pink
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagPink />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="pink"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="pink">
+                <TagIcon /> Markup
+            </Tag>
+        );
+    }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+### Rose
+
+<Tabs items={['Preview', 'Code']}>
+  <Tabs.Tab>
+    <TagRose />
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```js copy {6} /colors="rose"/ filename="tag.tsx"
+    import { Tag } from "@/components/tag";
+    import { TagIcon } from 'lucide-react';
+ 
+    export function TagDemo() {
+        return (
+            <Tag colors="rose">
+                <TagIcon /> Markup
             </Tag>
         );
     }
