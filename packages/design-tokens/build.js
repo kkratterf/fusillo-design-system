@@ -30,7 +30,7 @@ styleFoundations.registerFilter({
     // Filter tokens that include 'Foundations' and 'Color' in their path
     return (
       token.path.includes('Foundations') &&
-      (token.path.includes('Color'))
+      (token.path.includes('color'))
     );
   },
 });
@@ -54,12 +54,7 @@ styleFoundations.registerFormat({
 
     // Additional custom processing of tokens
     const modifiedTokens = formattedTokens
-      .replace(/foundations-color-/g, '') // Remove 'foundations-' and 'color-' prefix
-      .replace(
-        /(brand|neutral|red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose)-\1/g,
-        '$1'
-      ); // Simplify repeated color names
-
+      .replace(/foundations-/g, '') // Remove 'foundations-' prefix
     return modifiedTokens;
   },
 });
@@ -174,23 +169,7 @@ styleTokens.registerFormat({
 
     // Additional custom processing of tokens
     const modifiedTokens = result
-      .replace(/tokens-|light-|dark-|color-/g, '') // Remove prefixes
-      // Simplify naming for various token types
-      .replace(/background-(neutral|brand|danger|warning|utility)-/g, '')
-      .replace(/border-(neutral|utility)-/g, '')
-      .replace(/-border-(brand|danger|warning)-border-\1/g, '-border-$1')
-      .replace(/text-(neutral|utility)-/g, '')
-      .replace(/-text-(brand|danger|warning)-text-\1/g, '-text-$1')
-      .replace(/-icon-(neutral|utility)-icon/g, '-icon')
-      .replace(
-        /-icon-(brand|danger|warning|success|info|discovery|utility)-icon-\1/g,
-        '-icon-$1'
-      )
-      .replace(/(border-radius-|-border-width)/g, '')
-      .replace(/size-(height|width)-/g, '')
-      .replace(/(space|breakpoints)-/g, '')
-      .replace(/opacity-opacity/g, 'opacity')
-      //.replace(/(width|height|radius|breakpoints|opacity)-(?:\1|border)/g, '$1')
+      .replace(/tokens-|light-|dark-/g, '') // Remove prefixes
       .replace(/(opacity-[^:]+:\s*)(\d+)px/g, function (match, p1, p2) {
         // Convert pixel values to opacity percentage
         var opacityValue = parseInt(p2, 10) / 100;
@@ -315,7 +294,11 @@ styleBrand.registerFilter({
   name: 'brandFilter',
   matcher: function (token) {
     // Filter to include tokens specific to 'brand-500'
-    return token.path.includes('brand-500');
+    return (
+      token.path.includes('Foundations') &&
+      token.path.includes('brand') &&
+      token.path.includes('500')
+    );
   },
 });
 
@@ -330,7 +313,7 @@ styleBrand.registerFormat({
     brandTokens.forEach((token) => {
       const hslValue = hexToHSL(token.value);
       const brandName = token.name.replace(
-        /foundations-color-brand-brand-500/g,
+        /foundations-color-brand-500/g,
         'nextra-primary'
       );
       cssVariables += `--${brandName}-hue: ${hslValue.h}deg;\n`;

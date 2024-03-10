@@ -7,13 +7,17 @@
 @tailwind utilities;
 
 * {
-  @apply border-border;
+  @apply border-default;
 }
 
 body {
   @apply font-sans bg-background text antialiased;
   font-synthesis-weight: none;
   text-rendering: optimizeLegibility;
+}
+
+.grid-background {
+  height: calc(100vh - 64px);
 }
 
 .link {
@@ -89,6 +93,10 @@ input:focus-visible {
 
 .cell-token {
   @apply w-44;
+}
+
+.cell-token-scale {
+  @apply w-32;
 }
 
 .cell-preview {

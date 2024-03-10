@@ -15,16 +15,16 @@ export const FoundationsColor = ({ color }) => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(colors.Foundations.Color[color]).map(
+          {Object.entries(colors.Foundations.color[color]).map(
             ([colorName, colorInfo]) => (
               <tr key={colorName}>
-                <td className="cell-title">{colorName}</td>
+                <td className="cell-title">{color}-{colorName}</td>
                 <td>
                   <div className="cell-value">{colorInfo.value}</div>
                 </td>
                 <td className="hidden lg:table-cell">
                   <div className="cell-token">
-                    <code>{colorName}</code>
+                    <code>color-{color}-{colorName}</code>
                   </div>
                 </td>
                 <td>
@@ -61,7 +61,7 @@ export const ColorRoles = ({ colorRoles }) => (
               <td className="cell-title">{role.name}</td>
               <td>
                 <div className="cell-token">
-                  <code>{role.token}</code>
+                  <code>color-{role.token}</code>
                 </div>
               </td>
               <td className="hidden sm:table-cell">

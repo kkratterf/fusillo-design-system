@@ -2,15 +2,11 @@
 title: A well-cooked design system
 ---
 
-import Link from 'next/link';
-import { Button } from '@design-system/components/button';
+import { Spotlight } from '@docs/components/spotlight';
+import { Background } from "@docs/components/background";
 
-<section className="flex justify-center mx-auto px-6 my-40 max-w-screen-xl h-full">
-  <div className="text-center relative z-10">
-    <p className="text-4xl sm:text-6xl font-extrabold">A well-cooked design system 🤌</p>
-    <p className="mt-6 text-lg sm:text-xl">Cook creativity and consistency in a recipe of exceptional user experiences!</p>
-      <Button className="mt-10 h-10 px-4 text-lg-medium">
-        <Link href="/documentation/welcome">Let's start</Link>
-      </Button>
-  </div>
+<section className='h-full'>
+  <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" />
+  <Background />
 </section>
+

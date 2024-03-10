@@ -14,19 +14,19 @@
     }
 
     .sheet-top {
-        @apply inset-x-0 top-0 border-b border-b-border;
+        @apply inset-x-0 top-0 border-b border-b-default;
     }
 
     .sheet-bottom {
-        @apply inset-x-0 bottom-0 border-t border-t-border;
+        @apply inset-x-0 bottom-0 border-t border-t-default;
     }
 
     .sheet-left {
-        @apply inset-y-0 left-0 h-full border-r border-r-border;
+        @apply inset-y-0 left-0 h-full border-r border-r-default;
     }
 
     .sheet-right {
-        @apply inset-y-0 right-0 h-full  border-l border-l-border;
+        @apply inset-y-0 right-0 h-full  border-l border-l-default;
     }
 
     .sheet-close {

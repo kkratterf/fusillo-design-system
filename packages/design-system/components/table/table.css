@@ -14,7 +14,7 @@
     }
 
     .table-header {
-        @apply [&_tr]:border-b border-b-border;
+        @apply [&_tr]:border-b border-b-default;
     }
 
     .table-body {
@@ -26,7 +26,7 @@
     }
 
     .table-row {
-        @apply border-b border-b-border transition-colors hover:bg-item-hover data-[state=selected]:bg-item-selected;
+        @apply border-b border-b-default transition-colors hover:bg-item-hover data-[state=selected]:bg-item-selected;
     }
 
     .table-head {

@@ -11,6 +11,6 @@
     text-rendering: optimizeLegibility;
   }
   * {
-    @apply border-border;
+    @apply border-default;
   }
 }

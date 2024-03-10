@@ -46,7 +46,7 @@ type Story = StoryObj<typeof ResizablePanelGroup>;
 export const Default: Story = {
   render: (args) => (
     <ResizablePanelGroup
-      className="w-full rounded-lg border border-border"
+      className="w-full rounded-lg border border-default"
       {...args}
     >
       <ResizablePanel defaultSize={50}>
@@ -80,7 +80,7 @@ export const Default: Story = {
 export const Vertical: Story = {
   render: (args) => (
     <ResizablePanelGroup
-      className="min-h-[200px] w-full rounded-lg border border-border"
+      className="min-h-[200px] w-full rounded-lg border border-default"
       {...args}
     >
       <ResizablePanel defaultSize={25}>
@@ -102,7 +102,7 @@ export const Vertical: Story = {
 export const Handle: Story = {
   render: (args) => (
     <ResizablePanelGroup
-      className="min-h-[200px] w-full rounded-lg border border-border"
+      className="min-h-[200px] w-full rounded-lg border border-default"
       {...args}
     >
       <ResizablePanel defaultSize={25}>

@@ -50,17 +50,17 @@ const CollapsibleDemo = ({
           </Button>
         </CollapsibleTrigger>
       </div>
-      <div className="rounded border border-border px-4 py-3 font-mono text-md">
+      <div className="rounded border border-default px-4 py-3 font-mono text-md">
         @design-system/foundations
       </div>
       <CollapsibleContent className="space-y-2">
-        <div className="rounded border border-border px-4 py-3 font-mono text-md">
+        <div className="rounded border border-default px-4 py-3 font-mono text-md">
           @design-system/tokens
         </div>
-        <div className="rounded border border-border px-4 py-3 font-mono text-md">
+        <div className="rounded border border-default px-4 py-3 font-mono text-md">
           @design-system/components
         </div>
-        <div className="rounded border border-border px-4 py-3 font-mono text-md">
+        <div className="rounded border border-default px-4 py-3 font-mono text-md">
           @design-system/visualizations
         </div>
       </CollapsibleContent>

@@ -7,15 +7,28 @@ import './tag.css';
 
 const tagVariants = cva('tag-component', {
   variants: {
-    status: {
-      default: 'tag-default',
-      brand: 'tag-brand',
-      danger: 'tag-danger',
-      warning: 'tag-warning',
+    colors: {
+      red: 'tag-red',
+      orange: 'tag-orange',
+      amber: 'tag-amber',
+      yellow: 'tag-yellow',
+      lime: 'tag-lime',
+      green: 'tag-green',
+      emerald: 'tag-emerald',
+      teal: 'tag-teal',
+      cyan: 'tag-cyan',
+      sky: 'tag-sky',
+      blue: 'tag-blue',
+      indigo: 'tag-indigo',
+      violet: 'tag-violet',
+      purple: 'tag-purple',
+      fuchsia: 'tag-fuchsia',
+      pink: 'tag-pink',
+      rose: 'tag-rose',
     },
   },
   defaultVariants: {
-    status: 'default',
+    colors: 'blue',
   },
 });
 
@@ -23,9 +36,9 @@ export interface TagProps
   extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof tagVariants> {}
 
-function Tag({ className, status, ...props }: TagProps) {
+function Tag({ className, colors, ...props }: TagProps) {
   return (
-    <div className={cn(tagVariants({ status }), className)} {...props} />
+    <div className={cn(tagVariants({ colors }), className)} {...props} />
   );
 }
 

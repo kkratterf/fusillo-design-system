@@ -18,7 +18,7 @@
   }
 
   .button-secondary {
-    @apply bg-item text border border-border hover:bg-item-hover active:bg-item-selected;
+    @apply bg-item text border border-default hover:bg-item-hover active:bg-item-selected;
   }
 
   .button-text {

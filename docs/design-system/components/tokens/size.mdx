@@ -1,6 +1,6 @@
 import tokens from '@docs/tokens/tokens.js';
 
-export const TokensSize = ({ size }) => (
+export const TokensSize = () => (
   <>
     {
       <table className="docs my-6">
@@ -16,12 +16,12 @@ export const TokensSize = ({ size }) => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(tokens.Tokens.Light.Size[size]).map(
+          {Object.entries(tokens.Tokens.Light.size).map(
             ([tokenName, tokenInfo]) => (
               <tr key={tokenName}>
                 <td className="w-full">
                   <div className="cell-tokens-name">
-                    <code className="font-medium">{tokenName}</code>
+                    <code className="font-medium">size-{tokenName}</code>
                     <div className="cell-description-tokens">
                       {tokenInfo.description}
                     </div>
@@ -35,7 +35,7 @@ export const TokensSize = ({ size }) => (
                 <td className="hidden sm:table-cell">
                     <div
                       className="cell-preview-size"
-                      style={{ [size.toLowerCase()]: tokenInfo.value }}
+                      style={{ width: tokenInfo.value, height: tokenInfo.value, }}
                     ></div>
                 </td>
               </tr>

@@ -43,7 +43,7 @@ const CalendarForm = () => {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] rounded bg-subtle border border-border p-4">
+        <pre className="mt-2 w-[340px] rounded bg-subtle border border-default p-4">
           <code className="text">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),
@@ -112,7 +112,7 @@ export const CalendarPreview = () => {
       mode="single"
       selected={date}
       onSelect={setDate}
-      className="rounded border border-border calendar-fix"
+      className="rounded border border-default calendar-fix"
     />
   </Preview>
   );

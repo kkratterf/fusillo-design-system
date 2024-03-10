@@ -46,7 +46,7 @@ const SelectForm = () => {
     toast({
       title: 'You submitted the following values:',
       description: (
-        <pre className="mt-2 w-[340px] bg-subtle rounded p-4 border border-border">
+        <pre className="mt-2 w-[340px] bg-subtle rounded p-4 border border-default">
           <code className="text-white">{JSON.stringify(data, null, 2)}</code>
         </pre>
       ),

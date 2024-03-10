@@ -10,7 +10,7 @@
   }
 
   .tooltip-content-outline {
-    @apply border border-border bg-elevated text;
+    @apply border border-default bg-elevated text;
   }
 
   .tooltip-content-fill {

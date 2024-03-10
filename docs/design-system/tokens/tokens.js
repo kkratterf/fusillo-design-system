@@ -1,357 +1,48 @@
 /**
  * Do not edit directly
- * Generated on Wed, 14 Feb 2024 11:42:26 GMT
+ * Generated on Tue, 05 Mar 2024 09:15:48 GMT
  */
 
 module.exports = {
   "Tokens": {
     "Light": {
-      "Color": {
-        "Background": {
-          "Neutral": {
-            "bg-background": {
+      "color": {
+        "bg": {
+          "background": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "The default background color of the interface.",
+            "$extensions": {
+              "variableId": "VariableID:72:35"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#ffffff",
+              "value": "{Foundations.color.neutral.0}",
               "description": "The default background color of the interface.",
               "$extensions": {
                 "variableId": "VariableID:72:35"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "The default background color of the interface.",
-                "$extensions": {
-                  "variableId": "VariableID:72:35"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgBackground",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-background"
-              ]
+              }
             },
-            "bg-elevated": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
-              "$extensions": {
-                "variableId": "VariableID:72:39"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
-                "$extensions": {
-                  "variableId": "VariableID:72:39"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgElevated",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-elevated"
-              ]
+            "name": "TokensLightColorBgBackground",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "background"
             },
-            "bg-card": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "The background color for elements with the highest level of prominence, like a card.",
-              "$extensions": {
-                "variableId": "VariableID:91:117"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "The background color for elements with the highest level of prominence, like a card.",
-                "$extensions": {
-                  "variableId": "VariableID:91:117"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgCard",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-card"
-              ]
-            },
-            "bg-mask": {
-              "type": "color",
-              "value": "#ffffffe6",
-              "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
-              "$extensions": {
-                "variableId": "VariableID:91:119"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#ffffffe6",
-                "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
-                "$extensions": {
-                  "variableId": "VariableID:91:119"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgMask",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-mask"
-              ]
-            },
-            "bg-item": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-              "$extensions": {
-                "variableId": "VariableID:91:121"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-                "$extensions": {
-                  "variableId": "VariableID:91:121"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgItem",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-item"
-              ]
-            },
-            "bg-subtle": {
-              "type": "color",
-              "value": "#fafafa",
-              "description": "The background color for elements with a secondary level of prominence.",
-              "$extensions": {
-                "variableId": "VariableID:91:122"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "The background color for elements with a secondary level of prominence.",
-                "$extensions": {
-                  "variableId": "VariableID:91:122"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgSubtle",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-subtle"
-              ]
-            },
-            "bg-item-hover": {
-              "type": "color",
-              "value": "#f4f4f5",
-              "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-              "$extensions": {
-                "variableId": "VariableID:91:123"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
-                "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-                "$extensions": {
-                  "variableId": "VariableID:91:123"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgItemHover",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-item-hover"
-              ]
-            },
-            "bg-item-selected": {
-              "type": "color",
-              "value": "#e4e4e7",
-              "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
-              "$extensions": {
-                "variableId": "VariableID:91:124"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-200}",
-                "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
-                "$extensions": {
-                  "variableId": "VariableID:91:124"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgItemSelected",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-item-selected"
-              ]
-            },
-            "bg-inverse": {
-              "type": "color",
-              "value": "#09090b",
-              "description": "The background color for elements that should stand out in the interface.",
-              "$extensions": {
-                "variableId": "VariableID:634:2406"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "The background color for elements that should stand out in the interface.",
-                "$extensions": {
-                  "variableId": "VariableID:634:2406"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgInverse",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-inverse"
-              ]
-            },
-            "bg-muted": {
-              "type": "color",
-              "value": "#e4e4e7",
-              "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
-              "$extensions": {
-                "variableId": "VariableID:651:265"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-200}",
-                "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
-                "$extensions": {
-                  "variableId": "VariableID:651:265"
-                }
-              },
-              "name": "TokensLightColorBackgroundNeutralBgMuted",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-muted"
-              ]
-            }
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "background"
+            ]
           },
-          "Brand": {
-            "bg-brand": {
+          "brand": {
+            "default": {
               "type": "color",
               "value": "#2563eb",
               "description": "The background color of main actions such as primary Buttons.",
@@ -362,30 +53,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "The background color of main actions such as primary Buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrand",
+              "name": "TokensLightColorBgBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand"
+                "color",
+                "bg",
+                "brand",
+                "default"
               ]
             },
-            "bg-brand-hover": {
+            "hover": {
               "type": "color",
               "value": "#3b82f6",
               "description": "The hover state color of main actions such as primary Buttons.",
@@ -396,30 +87,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "The hover state color of main actions such as primary Buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:37"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandHover",
+              "name": "TokensLightColorBgBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-hover"
+                "color",
+                "bg",
+                "brand",
+                "hover"
               ]
             },
-            "bg-brand-active": {
+            "active": {
               "type": "color",
               "value": "#1d4ed8",
               "description": "The active state (on press) color of main actions such as primary Buttons.",
@@ -430,30 +121,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.color.brand.700}",
                 "description": "The active state (on press) color of main actions such as primary Buttons.",
                 "$extensions": {
                   "variableId": "VariableID:91:126"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandActive",
+              "name": "TokensLightColorBgBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-active"
+                "color",
+                "bg",
+                "brand",
+                "active"
               ]
             },
-            "bg-brand-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#eff6ff",
               "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
@@ -464,30 +155,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-50}",
+                "value": "{Foundations.color.brand.50}",
                 "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:127"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandSubtlest",
+              "name": "TokensLightColorBgBrandSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-subtlest"
+                "color",
+                "bg",
+                "brand",
+                "subtlest"
               ]
             },
-            "bg-brand-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#dbeafe",
               "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
@@ -498,32 +189,65 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-100}",
+                "value": "{Foundations.color.brand.100}",
                 "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:128"
                 }
               },
-              "name": "TokensLightColorBackgroundBrandBgBrandSubtle",
+              "name": "TokensLightColorBgBrandSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-subtle"
+                "color",
+                "bg",
+                "brand",
+                "subtle"
               ]
             }
           },
-          "Danger": {
-            "bg-danger": {
+          "elevated": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
+            "$extensions": {
+              "variableId": "VariableID:72:39"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.0}",
+              "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
+              "$extensions": {
+                "variableId": "VariableID:72:39"
+              }
+            },
+            "name": "TokensLightColorBgElevated",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "elevated"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "elevated"
+            ]
+          },
+          "danger": {
+            "default": {
               "type": "color",
               "value": "#dc2626",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner.",
@@ -534,30 +258,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.600}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:113"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDanger",
+              "name": "TokensLightColorBgDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger"
+                "color",
+                "bg",
+                "danger",
+                "default"
               ]
             },
-            "bg-danger-hover": {
+            "hover": {
               "type": "color",
               "value": "#ef4444",
               "description": "The hover state color for communicating critical information on elements with a smaller surface area.",
@@ -568,30 +292,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.500}",
                 "description": "The hover state color for communicating critical information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:129"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerHover",
+              "name": "TokensLightColorBgDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-hover"
+                "color",
+                "bg",
+                "danger",
+                "hover"
               ]
             },
-            "bg-danger-active": {
+            "active": {
               "type": "color",
               "value": "#b91c1c",
               "description": "The active state (on press) color for communicating critical information on elements with a smaller surface area.",
@@ -602,30 +326,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.color.red.700}",
                 "description": "The active state (on press) color for communicating critical information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:130"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerActive",
+              "name": "TokensLightColorBgDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-active"
+                "color",
+                "bg",
+                "danger",
+                "active"
               ]
             },
-            "bg-danger-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#fef2f2",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
@@ -636,30 +360,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-50}",
+                "value": "{Foundations.color.red.50}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:131"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerSubtlest",
+              "name": "TokensLightColorBgDangerSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-subtlest"
+                "color",
+                "bg",
+                "danger",
+                "subtlest"
               ]
             },
-            "bg-danger-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#fee2e2",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
@@ -670,32 +394,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-100}",
+                "value": "{Foundations.color.red.100}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
                 }
               },
-              "name": "TokensLightColorBackgroundDangerBgDangerSubtle",
+              "name": "TokensLightColorBgDangerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-subtle"
+                "color",
+                "bg",
+                "danger",
+                "subtle"
               ]
             }
           },
-          "Warning": {
-            "bg-warning": {
+          "warning": {
+            "default": {
               "type": "color",
               "value": "#d97706",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner.",
@@ -706,30 +430,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:114"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarning",
+              "name": "TokensLightColorBgWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning"
+                "color",
+                "bg",
+                "warning",
+                "default"
               ]
             },
-            "bg-warning-hover": {
+            "hover": {
               "type": "color",
               "value": "#f59e0b",
               "description": "The hover state color for communicating warning on elements with a smaller surface area.",
@@ -740,30 +464,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "The hover state color for communicating warning on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:133"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningHover",
+              "name": "TokensLightColorBgWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-hover"
+                "color",
+                "bg",
+                "warning",
+                "hover"
               ]
             },
-            "bg-warning-active": {
+            "active": {
               "type": "color",
               "value": "#b45309",
               "description": "The active state (on press) color for communicating warning on elements with a smaller surface area.",
@@ -774,30 +498,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.color.amber.700}",
                 "description": "The active state (on press) color for communicating warning on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:134"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningActive",
+              "name": "TokensLightColorBgWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-active"
+                "color",
+                "bg",
+                "warning",
+                "active"
               ]
             },
-            "bg-warning-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#fffbeb",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
@@ -808,30 +532,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-50}",
+                "value": "{Foundations.color.amber.50}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:135"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningSubtlest",
+              "name": "TokensLightColorBgWarningSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-subtlest"
+                "color",
+                "bg",
+                "warning",
+                "subtlest"
               ]
             },
-            "bg-warning-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#fef3c7",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
@@ -842,32 +566,296 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-100}",
+                "value": "{Foundations.color.amber.100}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
                 }
               },
-              "name": "TokensLightColorBackgroundWarningBgWarningSubtle",
+              "name": "TokensLightColorBgWarningSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-subtle"
+                "color",
+                "bg",
+                "warning",
+                "subtle"
               ]
             }
           },
-          "Utility": {
-            "bg-slot": {
+          "card": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "The background color for elements with the highest level of prominence, like a card.",
+            "$extensions": {
+              "variableId": "VariableID:91:117"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.0}",
+              "description": "The background color for elements with the highest level of prominence, like a card.",
+              "$extensions": {
+                "variableId": "VariableID:91:117"
+              }
+            },
+            "name": "TokensLightColorBgCard",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "card"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "card"
+            ]
+          },
+          "mask": {
+            "type": "color",
+            "value": "#ffffffe6",
+            "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
+            "$extensions": {
+              "variableId": "VariableID:91:119"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#ffffffe6",
+              "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
+              "$extensions": {
+                "variableId": "VariableID:91:119"
+              }
+            },
+            "name": "TokensLightColorBgMask",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "mask"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "mask"
+            ]
+          },
+          "item": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+            "$extensions": {
+              "variableId": "VariableID:91:121"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.0}",
+              "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+              "$extensions": {
+                "variableId": "VariableID:91:121"
+              }
+            },
+            "name": "TokensLightColorBgItem",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "item"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "item"
+            ]
+          },
+          "subtle": {
+            "type": "color",
+            "value": "#fafafa",
+            "description": "The background color for elements with a secondary level of prominence.",
+            "$extensions": {
+              "variableId": "VariableID:91:122"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.50}",
+              "description": "The background color for elements with a secondary level of prominence.",
+              "$extensions": {
+                "variableId": "VariableID:91:122"
+              }
+            },
+            "name": "TokensLightColorBgSubtle",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "subtle"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "subtle"
+            ]
+          },
+          "item-hover": {
+            "type": "color",
+            "value": "#f4f4f5",
+            "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+            "$extensions": {
+              "variableId": "VariableID:91:123"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.100}",
+              "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+              "$extensions": {
+                "variableId": "VariableID:91:123"
+              }
+            },
+            "name": "TokensLightColorBgItemHover",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "item-hover"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "item-hover"
+            ]
+          },
+          "item-selected": {
+            "type": "color",
+            "value": "#e4e4e7",
+            "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
+            "$extensions": {
+              "variableId": "VariableID:91:124"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.200}",
+              "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
+              "$extensions": {
+                "variableId": "VariableID:91:124"
+              }
+            },
+            "name": "TokensLightColorBgItemSelected",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "item-selected"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "item-selected"
+            ]
+          },
+          "inverse": {
+            "type": "color",
+            "value": "#09090b",
+            "description": "The background color for elements that should stand out in the interface.",
+            "$extensions": {
+              "variableId": "VariableID:634:2406"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.950}",
+              "description": "The background color for elements that should stand out in the interface.",
+              "$extensions": {
+                "variableId": "VariableID:634:2406"
+              }
+            },
+            "name": "TokensLightColorBgInverse",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "inverse"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "inverse"
+            ]
+          },
+          "muted": {
+            "type": "color",
+            "value": "#e4e4e7",
+            "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
+            "$extensions": {
+              "variableId": "VariableID:651:265"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.200}",
+              "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
+              "$extensions": {
+                "variableId": "VariableID:651:265"
+              }
+            },
+            "name": "TokensLightColorBgMuted",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "bg",
+              "state": "muted"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "bg",
+              "muted"
+            ]
+          },
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#ede9fe",
               "description": "Use for background of the Slot component.",
@@ -878,104 +866,647 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-100}",
+                "value": "{Foundations.color.violet.100}",
                 "description": "Use for background of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7046"
                 }
               },
-              "name": "TokensLightColorBackgroundUtilityBgSlot",
+              "name": "TokensLightColorBgUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "bg",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Background",
-                "Utility",
-                "bg-slot"
+                "color",
+                "bg",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#fee2e2",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16038"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16038"
+                }
+              },
+              "name": "TokensLightColorBgChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#ffedd5",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16039"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16039"
+                }
+              },
+              "name": "TokensLightColorBgChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#fef3c7",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16040"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16040"
+                }
+              },
+              "name": "TokensLightColorBgChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#fef9c3",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16041"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16041"
+                }
+              },
+              "name": "TokensLightColorBgChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#ecfccb",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16042"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16042"
+                }
+              },
+              "name": "TokensLightColorBgChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#dcfce7",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16043"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16043"
+                }
+              },
+              "name": "TokensLightColorBgChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#d1fae5",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16044"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16044"
+                }
+              },
+              "name": "TokensLightColorBgChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#ccfbf1",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16045"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16045"
+                }
+              },
+              "name": "TokensLightColorBgChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#cffafe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16046"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16046"
+                }
+              },
+              "name": "TokensLightColorBgChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#e0f2fe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16047"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16047"
+                }
+              },
+              "name": "TokensLightColorBgChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#dbeafe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16048"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16048"
+                }
+              },
+              "name": "TokensLightColorBgChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#e0e7ff",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16049"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16049"
+                }
+              },
+              "name": "TokensLightColorBgChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#ede9fe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16050"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16050"
+                }
+              },
+              "name": "TokensLightColorBgChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#f3e8ff",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16051"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16051"
+                }
+              },
+              "name": "TokensLightColorBgChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#fae8ff",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16052"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16052"
+                }
+              },
+              "name": "TokensLightColorBgChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#fce7f3",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16053"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16053"
+                }
+              },
+              "name": "TokensLightColorBgChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#ffe4e6",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16054"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.100}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16054"
+                }
+              },
+              "name": "TokensLightColorBgChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "bg",
+                "chart",
+                "rose"
               ]
             }
           }
         },
-        "Border": {
-          "Neutral": {
-            "border-border": {
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "#e4e4e7",
+            "description": "The default color for borders on any element.",
+            "$extensions": {
+              "variableId": "VariableID:72:47"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#e4e4e7",
+              "value": "{Foundations.color.neutral.200}",
               "description": "The default color for borders on any element.",
               "$extensions": {
                 "variableId": "VariableID:72:47"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-200}",
-                "description": "The default color for borders on any element.",
-                "$extensions": {
-                  "variableId": "VariableID:72:47"
-                }
-              },
-              "name": "TokensLightColorBorderNeutralBorderBorder",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Border",
-                "Neutral",
-                "border-border"
-              ]
+              }
             },
-            "border-hover": {
-              "type": "color",
-              "value": "#a1a1aa",
-              "description": "The hover color for borders on any element.",
-              "$extensions": {
-                "variableId": "VariableID:497:1525"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-400}",
-                "description": "The hover color for borders on any element.",
-                "$extensions": {
-                  "variableId": "VariableID:497:1525"
-                }
-              },
-              "name": "TokensLightColorBorderNeutralBorderHover",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Border",
-                "Neutral",
-                "border-hover"
-              ]
-            }
+            "name": "TokensLightColorBorderDefault",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "border",
+              "state": "default"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "border",
+              "default"
+            ]
           },
-          "Brand": {
-            "border-brand": {
+          "brand": {
+            "default": {
               "type": "color",
               "value": "#2563eb",
               "description": "Use for borders paired with brand colors.",
@@ -986,30 +1517,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "Use for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:75:3"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrand",
+              "name": "TokensLightColorBorderBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand"
+                "color",
+                "border",
+                "brand",
+                "default"
               ]
             },
-            "border-brand-hover": {
+            "hover": {
               "type": "color",
               "value": "#3b82f6",
               "description": "The hover color for borders paired with brand colors.",
@@ -1020,30 +1551,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "The hover color for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:75:13"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandHover",
+              "name": "TokensLightColorBorderBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-hover"
+                "color",
+                "border",
+                "brand",
+                "hover"
               ]
             },
-            "border-brand-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#bfdbfe",
               "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
@@ -1054,30 +1585,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-200}",
+                "value": "{Foundations.color.brand.200}",
                 "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:89:78"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandSubtlest",
+              "name": "TokensLightColorBorderBrandSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-subtlest"
+                "color",
+                "border",
+                "brand",
+                "subtlest"
               ]
             },
-            "border-brand-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#93c5fd",
               "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
@@ -1088,30 +1619,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.color.brand.300}",
                 "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:89:79"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandSubtle",
+              "name": "TokensLightColorBorderBrandSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-subtle"
+                "color",
+                "border",
+                "brand",
+                "subtle"
               ]
             },
-            "border-brand-active": {
+            "active": {
               "type": "color",
               "value": "#1d4ed8",
               "description": "The active state (on press) color for borders paired with brand colors.",
@@ -1122,32 +1653,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.color.brand.700}",
                 "description": "The active state (on press) color for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:91:87"
                 }
               },
-              "name": "TokensLightColorBorderBrandBorderBrandActive",
+              "name": "TokensLightColorBorderBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-active"
+                "color",
+                "border",
+                "brand",
+                "active"
               ]
             }
           },
-          "Danger": {
-            "border-danger": {
+          "danger": {
+            "default": {
               "type": "color",
               "value": "#dc2626",
               "description": "Use for borders communicating critical information.",
@@ -1158,30 +1689,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.600}",
                 "description": "Use for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:4"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDanger",
+              "name": "TokensLightColorBorderDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger"
+                "color",
+                "border",
+                "danger",
+                "default"
               ]
             },
-            "border-danger-hover": {
+            "hover": {
               "type": "color",
               "value": "#ef4444",
               "description": "The hover color for borders communicating critical information.",
@@ -1192,30 +1723,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.500}",
                 "description": "The hover color for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:12"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerHover",
+              "name": "TokensLightColorBorderDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-hover"
+                "color",
+                "border",
+                "danger",
+                "hover"
               ]
             },
-            "border-danger-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#fecaca",
               "description": "Use for the border of elements communicating critical information, but with less emphasis.",
@@ -1226,30 +1757,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-200}",
+                "value": "{Foundations.color.red.200}",
                 "description": "Use for the border of elements communicating critical information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:90:80"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerSubtlest",
+              "name": "TokensLightColorBorderDangerSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-subtlest"
+                "color",
+                "border",
+                "danger",
+                "subtlest"
               ]
             },
-            "border-danger-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#fca5a5",
               "description": "Use for the border of elements communicating critical information, but with less emphasis.",
@@ -1260,30 +1791,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.color.red.300}",
                 "description": "Use for the border of elements communicating critical information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:90:81"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerSubtle",
+              "name": "TokensLightColorBorderDangerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-subtle"
+                "color",
+                "border",
+                "danger",
+                "subtle"
               ]
             },
-            "border-danger-active": {
+            "active": {
               "type": "color",
               "value": "#b91c1c",
               "description": "The active state (on press) color for borders communicating critical information.",
@@ -1294,32 +1825,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.color.red.700}",
                 "description": "The active state (on press) color for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:91:89"
                 }
               },
-              "name": "TokensLightColorBorderDangerBorderDangerActive",
+              "name": "TokensLightColorBorderDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-active"
+                "color",
+                "border",
+                "danger",
+                "active"
               ]
             }
           },
-          "Warning": {
-            "border-warning": {
+          "warning": {
+            "default": {
               "type": "color",
               "value": "#d97706",
               "description": "Use for borders communicating warning information.",
@@ -1330,30 +1861,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "Use for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:6"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarning",
+              "name": "TokensLightColorBorderWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning"
+                "color",
+                "border",
+                "warning",
+                "default"
               ]
             },
-            "border-warning-hover": {
+            "hover": {
               "type": "color",
               "value": "#f59e0b",
               "description": "The hover color for borders communicating warning information.",
@@ -1364,30 +1895,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "The hover color for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:10"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningHover",
+              "name": "TokensLightColorBorderWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-hover"
+                "color",
+                "border",
+                "warning",
+                "hover"
               ]
             },
-            "border-warning-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#fde68a",
               "description": "Use for the border of elements communicating warning information, but with less emphasis.",
@@ -1398,30 +1929,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-200}",
+                "value": "{Foundations.color.amber.200}",
                 "description": "Use for the border of elements communicating warning information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:85"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningSubtlest",
+              "name": "TokensLightColorBorderWarningSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-subtlest"
+                "color",
+                "border",
+                "warning",
+                "subtlest"
               ]
             },
-            "border-warning-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#fcd34d",
               "description": "Use for the border of elements communicating warning information, but with less emphasis.",
@@ -1432,30 +1963,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.color.amber.300}",
                 "description": "Use for the border of elements communicating warning information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:86"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningSubtle",
+              "name": "TokensLightColorBorderWarningSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-subtle"
+                "color",
+                "border",
+                "warning",
+                "subtle"
               ]
             },
-            "border-warning-active": {
+            "active": {
               "type": "color",
               "value": "#b45309",
               "description": "The active state (on press) color for borders communicating warning information.",
@@ -1466,32 +1997,65 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.color.amber.700}",
                 "description": "The active state (on press) color for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:91:91"
                 }
               },
-              "name": "TokensLightColorBorderWarningBorderWarningActive",
+              "name": "TokensLightColorBorderWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-active"
+                "color",
+                "border",
+                "warning",
+                "active"
               ]
             }
           },
-          "Utility": {
-            "border-slot": {
+          "hover": {
+            "type": "color",
+            "value": "#a1a1aa",
+            "description": "The hover color for borders on any element.",
+            "$extensions": {
+              "variableId": "VariableID:497:1525"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.400}",
+              "description": "The hover color for borders on any element.",
+              "$extensions": {
+                "variableId": "VariableID:497:1525"
+              }
+            },
+            "name": "TokensLightColorBorderHover",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "border",
+              "state": "hover"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "border",
+              "hover"
+            ]
+          },
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#7c3aed",
               "description": "Use for border of the Slot component.",
@@ -1502,172 +2066,746 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.color.violet.600}",
                 "description": "Use for border of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7055"
                 }
               },
-              "name": "TokensLightColorBorderUtilityBorderSlot",
+              "name": "TokensLightColorBorderUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "border",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Border",
-                "Utility",
-                "border-slot"
+                "color",
+                "border",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#fca5a5",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16074"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16074"
+                }
+              },
+              "name": "TokensLightColorBorderChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#fdba74",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16079"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16079"
+                }
+              },
+              "name": "TokensLightColorBorderChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#fcd34d",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16080"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16080"
+                }
+              },
+              "name": "TokensLightColorBorderChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#fde047",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16081"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16081"
+                }
+              },
+              "name": "TokensLightColorBorderChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#bef264",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16082"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16082"
+                }
+              },
+              "name": "TokensLightColorBorderChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#86efac",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16083"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16083"
+                }
+              },
+              "name": "TokensLightColorBorderChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#6ee7b7",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16084"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16084"
+                }
+              },
+              "name": "TokensLightColorBorderChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#5eead4",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16085"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16085"
+                }
+              },
+              "name": "TokensLightColorBorderChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#67e8f9",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16086"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16086"
+                }
+              },
+              "name": "TokensLightColorBorderChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#7dd3fc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16087"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16087"
+                }
+              },
+              "name": "TokensLightColorBorderChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16088"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16088"
+                }
+              },
+              "name": "TokensLightColorBorderChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#a5b4fc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16089"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16089"
+                }
+              },
+              "name": "TokensLightColorBorderChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#c4b5fd",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16090"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16090"
+                }
+              },
+              "name": "TokensLightColorBorderChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#d8b4fe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16091"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16091"
+                }
+              },
+              "name": "TokensLightColorBorderChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#f0abfc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16092"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16092"
+                }
+              },
+              "name": "TokensLightColorBorderChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#f9a8d4",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16093"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16093"
+                }
+              },
+              "name": "TokensLightColorBorderChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#fda4af",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16094"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16094"
+                }
+              },
+              "name": "TokensLightColorBorderChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "border",
+                "chart",
+                "rose"
               ]
             }
           }
         },
-        "Text": {
-          "Neutral": {
-            "text-description": {
+        "text": {
+          "description": {
+            "type": "color",
+            "value": "#71717a",
+            "description": "Use for text with a secondary level of prominence.",
+            "$extensions": {
+              "variableId": "VariableID:75:28"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#71717a",
+              "value": "{Foundations.color.neutral.500}",
               "description": "Use for text with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:75:28"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-500}",
-                "description": "Use for text with a secondary level of prominence.",
-                "$extensions": {
-                  "variableId": "VariableID:75:28"
-                }
-              },
-              "name": "TokensLightColorTextNeutralTextDescription",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-description"
-              ]
+              }
             },
-            "text": {
+            "name": "TokensLightColorTextDescription",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "text",
+              "state": "description"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "text",
+              "description"
+            ]
+          },
+          "default": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "The default text color.",
+            "$extensions": {
+              "variableId": "VariableID:75:31"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#18181b",
+              "value": "{Foundations.color.neutral.900}",
               "description": "The default text color.",
               "$extensions": {
                 "variableId": "VariableID:75:31"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "The default text color.",
-                "$extensions": {
-                  "variableId": "VariableID:75:31"
-                }
-              },
-              "name": "TokensLightColorTextNeutralText",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Text",
-                "Neutral",
-                "text"
-              ]
+              }
             },
-            "text-placeholder": {
+            "name": "TokensLightColorTextDefault",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "text",
+              "state": "default"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "text",
+              "default"
+            ]
+          },
+          "placeholder": {
+            "type": "color",
+            "value": "#a1a1aa",
+            "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
+            "$extensions": {
+              "variableId": "VariableID:75:32"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#a1a1aa",
+              "value": "{Foundations.color.neutral.400}",
               "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
               "$extensions": {
                 "variableId": "VariableID:75:32"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-400}",
-                "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
-                "$extensions": {
-                  "variableId": "VariableID:75:32"
-                }
-              },
-              "name": "TokensLightColorTextNeutralTextPlaceholder",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-placeholder"
-              ]
+              }
             },
-            "text-inverse": {
+            "name": "TokensLightColorTextPlaceholder",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "text",
+              "state": "placeholder"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "text",
+              "placeholder"
+            ]
+          },
+          "inverse": {
+            "type": "color",
+            "value": "#fafafa",
+            "description": "Use for text on dark background.",
+            "$extensions": {
+              "variableId": "VariableID:75:33"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#fafafa",
+              "value": "{Foundations.color.neutral.50}",
               "description": "Use for text on dark background.",
               "$extensions": {
                 "variableId": "VariableID:75:33"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "Use for text on dark background.",
-                "$extensions": {
-                  "variableId": "VariableID:75:33"
-                }
-              },
-              "name": "TokensLightColorTextNeutralTextInverse",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-inverse"
-              ]
-            }
+              }
+            },
+            "name": "TokensLightColorTextInverse",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "text",
+              "state": "inverse"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "text",
+              "inverse"
+            ]
           },
-          "Brand": {
-            "text-brand": {
+          "brand": {
+            "default": {
               "type": "color",
               "value": "#2563eb",
               "description": "Use for text links.",
@@ -1678,30 +2816,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "Use for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:34"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrand",
+              "name": "TokensLightColorTextBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand"
+                "color",
+                "text",
+                "brand",
+                "default"
               ]
             },
-            "text-brand-hover": {
+            "hover": {
               "type": "color",
               "value": "#3b82f6",
               "description": "The hover state color for text links.",
@@ -1712,30 +2850,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "The hover state color for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:35"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandHover",
+              "name": "TokensLightColorTextBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-hover"
+                "color",
+                "text",
+                "brand",
+                "hover"
               ]
             },
-            "text-brand-active": {
+            "active": {
               "type": "color",
               "value": "#1d4ed8",
               "description": "The active state (on press) color for text links.",
@@ -1746,30 +2884,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.color.brand.700}",
                 "description": "The active state (on press) color for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:36"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandActive",
+              "name": "TokensLightColorTextBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-active"
+                "color",
+                "text",
+                "brand",
+                "active"
               ]
             },
-            "text-brand-inverse": {
+            "inverse": {
               "type": "color",
               "value": "#ffffff",
               "description": "Use for text on bg-brand, like primary buttons.",
@@ -1780,30 +2918,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for text on bg-brand, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:160:295"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandInverse",
+              "name": "TokensLightColorTextBrandInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-inverse"
+                "color",
+                "text",
+                "brand",
+                "inverse"
               ]
             },
-            "text-brand-strong": {
+            "strong": {
               "type": "color",
               "value": "#1e40af",
               "description": "Use for text on bg-brand-subtle and subtles, like badge and alert.",
@@ -1814,32 +2952,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-800}",
+                "value": "{Foundations.color.brand.800}",
                 "description": "Use for text on bg-brand-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11553"
                 }
               },
-              "name": "TokensLightColorTextBrandTextBrandStrong",
+              "name": "TokensLightColorTextBrandStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-strong"
+                "color",
+                "text",
+                "brand",
+                "strong"
               ]
             }
           },
-          "Danger": {
-            "text-danger": {
+          "danger": {
+            "default": {
               "type": "color",
               "value": "#dc2626",
               "description": "Use for text communicating critical information.",
@@ -1850,30 +2988,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.600}",
                 "description": "Use for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:37"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDanger",
+              "name": "TokensLightColorTextDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger"
+                "color",
+                "text",
+                "danger",
+                "default"
               ]
             },
-            "text-danger-hover": {
+            "hover": {
               "type": "color",
               "value": "#ef4444",
               "description": "The hover state color for text communicating critical information.",
@@ -1884,30 +3022,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.500}",
                 "description": "The hover state color for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:38"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerHover",
+              "name": "TokensLightColorTextDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-hover"
+                "color",
+                "text",
+                "danger",
+                "hover"
               ]
             },
-            "text-danger-active": {
+            "active": {
               "type": "color",
               "value": "#b91c1c",
               "description": "The active state (on press) color for text communicating critical information.",
@@ -1918,30 +3056,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.color.red.700}",
                 "description": "The active state (on press) color for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:39"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerActive",
+              "name": "TokensLightColorTextDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-active"
+                "color",
+                "text",
+                "danger",
+                "active"
               ]
             },
-            "text-danger-inverse": {
+            "inverse": {
               "type": "color",
               "value": "#ffffff",
               "description": "Use for text on bg-danger.",
@@ -1952,30 +3090,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for text on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:160:296"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerInverse",
+              "name": "TokensLightColorTextDangerInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-inverse"
+                "color",
+                "text",
+                "danger",
+                "inverse"
               ]
             },
-            "text-danger-strong": {
+            "strong": {
               "type": "color",
               "value": "#991b1b",
               "description": "Use for text on bg-danger-subtle and subtles, like badge and alert.",
@@ -1986,32 +3124,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-800}",
+                "value": "{Foundations.color.red.800}",
                 "description": "Use for text on bg-danger-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11554"
                 }
               },
-              "name": "TokensLightColorTextDangerTextDangerStrong",
+              "name": "TokensLightColorTextDangerStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-strong"
+                "color",
+                "text",
+                "danger",
+                "strong"
               ]
             }
           },
-          "Warning": {
-            "text-warning": {
+          "warning": {
+            "default": {
               "type": "color",
               "value": "#d97706",
               "description": "Use for text communicating warning.",
@@ -2022,30 +3160,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "Use for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:43"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarning",
+              "name": "TokensLightColorTextWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning"
+                "color",
+                "text",
+                "warning",
+                "default"
               ]
             },
-            "text-warning-hover": {
+            "hover": {
               "type": "color",
               "value": "#f59e0b",
               "description": "The hover state color for text communicating warning.",
@@ -2056,30 +3194,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "The hover state color for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:44"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningHover",
+              "name": "TokensLightColorTextWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-hover"
+                "color",
+                "text",
+                "warning",
+                "hover"
               ]
             },
-            "text-warning-active": {
+            "active": {
               "type": "color",
               "value": "#b45309",
               "description": "The active state (on press) color for text communicating warning.",
@@ -2090,30 +3228,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.color.amber.700}",
                 "description": "The active state (on press) color for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:45"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningActive",
+              "name": "TokensLightColorTextWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-active"
+                "color",
+                "text",
+                "warning",
+                "active"
               ]
             },
-            "text-warning-inverse": {
+            "inverse": {
               "type": "color",
               "value": "#ffffff",
               "description": "Use for text on bg-warning.",
@@ -2124,30 +3262,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for text on bg-warning.",
                 "$extensions": {
                   "variableId": "VariableID:160:297"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningInverse",
+              "name": "TokensLightColorTextWarningInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-inverse"
+                "color",
+                "text",
+                "warning",
+                "inverse"
               ]
             },
-            "text-warning-strong": {
+            "strong": {
               "type": "color",
               "value": "#92400e",
               "description": "Use for text on bg-warning-subtle and subtles, like badge and alert.",
@@ -2158,32 +3296,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-800}",
+                "value": "{Foundations.color.amber.800}",
                 "description": "Use for text on bg-warning-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11555"
                 }
               },
-              "name": "TokensLightColorTextWarningTextWarningStrong",
+              "name": "TokensLightColorTextWarningStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-strong"
+                "color",
+                "text",
+                "warning",
+                "strong"
               ]
             }
           },
-          "Utility": {
-            "text-slot": {
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#7c3aed",
               "description": "Use for text of the Slot component.",
@@ -2194,172 +3332,680 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.color.violet.600}",
                 "description": "Use for text of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7053"
                 }
               },
-              "name": "TokensLightColorTextUtilityTextSlot",
+              "name": "TokensLightColorTextUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "text",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Text",
-                "Utility",
-                "text-slot"
+                "color",
+                "text",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#991b1b",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16056"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16056"
+                }
+              },
+              "name": "TokensLightColorTextChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#9a3412",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16057"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16057"
+                }
+              },
+              "name": "TokensLightColorTextChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#92400e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16058"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16058"
+                }
+              },
+              "name": "TokensLightColorTextChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#854d0e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16059"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16059"
+                }
+              },
+              "name": "TokensLightColorTextChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#3f6212",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16060"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16060"
+                }
+              },
+              "name": "TokensLightColorTextChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#166534",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16061"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16061"
+                }
+              },
+              "name": "TokensLightColorTextChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#065f46",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16062"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16062"
+                }
+              },
+              "name": "TokensLightColorTextChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#115e59",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16063"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16063"
+                }
+              },
+              "name": "TokensLightColorTextChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#155e75",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16064"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16064"
+                }
+              },
+              "name": "TokensLightColorTextChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#075985",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16065"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16065"
+                }
+              },
+              "name": "TokensLightColorTextChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#1e40af",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16066"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16066"
+                }
+              },
+              "name": "TokensLightColorTextChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#3730a3",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16067"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16067"
+                }
+              },
+              "name": "TokensLightColorTextChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#5b21b6",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16068"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16068"
+                }
+              },
+              "name": "TokensLightColorTextChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#6b21a8",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16069"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16069"
+                }
+              },
+              "name": "TokensLightColorTextChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#86198f",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16070"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16070"
+                }
+              },
+              "name": "TokensLightColorTextChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#9d174d",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16071"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16071"
+                }
+              },
+              "name": "TokensLightColorTextChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#9f1239",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16072"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16072"
+                }
+              },
+              "name": "TokensLightColorTextChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "text",
+                "chart",
+                "rose"
               ]
             }
           }
         },
-        "Icon": {
-          "Neutral": {
-            "icon": {
+        "icon": {
+          "default": {
+            "type": "color",
+            "value": "#71717a",
+            "description": "The default color for icons.",
+            "$extensions": {
+              "variableId": "VariableID:75:51"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#71717a",
+              "value": "{Foundations.color.neutral.500}",
               "description": "The default color for icons.",
               "$extensions": {
                 "variableId": "VariableID:75:51"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-500}",
-                "description": "The default color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:75:51"
-                }
-              },
-              "name": "TokensLightColorIconNeutralIcon",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon"
-              ]
+              }
             },
-            "icon-hover": {
+            "name": "TokensLightColorIconDefault",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "icon",
+              "state": "default"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "icon",
+              "default"
+            ]
+          },
+          "hover": {
+            "type": "color",
+            "value": "#27272a",
+            "description": "The hover state color for icons.",
+            "$extensions": {
+              "variableId": "VariableID:75:52"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#27272a",
+              "value": "{Foundations.color.neutral.800}",
               "description": "The hover state color for icons.",
               "$extensions": {
                 "variableId": "VariableID:75:52"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "The hover state color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:75:52"
-                }
-              },
-              "name": "TokensLightColorIconNeutralIconHover",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-hover"
-              ]
+              }
             },
-            "icon-active": {
-              "type": "color",
-              "value": "#18181b",
-              "description": "The active state (on press) color for icons.",
-              "$extensions": {
-                "variableId": "VariableID:91:96"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "The active state (on press) color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:91:96"
-                }
-              },
-              "name": "TokensLightColorIconNeutralIconActive",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-active"
-              ]
+            "name": "TokensLightColorIconHover",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "icon",
+              "state": "hover"
             },
-            "icon-inverse": {
-              "type": "color",
-              "value": "#fafafa",
-              "description": "Use for icon on dark background.",
-              "$extensions": {
-                "variableId": "VariableID:634:2407"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "Use for icon on dark background.",
-                "$extensions": {
-                  "variableId": "VariableID:634:2407"
-                }
-              },
-              "name": "TokensLightColorIconNeutralIconInverse",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Light",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-inverse"
-              ]
-            }
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "icon",
+              "hover"
+            ]
           },
-          "Brand": {
-            "icon-brand": {
+          "brand": {
+            "default": {
               "type": "color",
               "value": "#2563eb",
               "description": "Use for icons that need to pull more focus.",
@@ -2370,30 +4016,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "Use for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:53"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrand",
+              "name": "TokensLightColorIconBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand"
+                "color",
+                "icon",
+                "brand",
+                "default"
               ]
             },
-            "icon-brand-hover": {
+            "hover": {
               "type": "color",
               "value": "#3b82f6",
               "description": "The hover color for icons that need to pull more focus.",
@@ -2404,30 +4050,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "The hover color for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:54"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandHover",
+              "name": "TokensLightColorIconBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-hover"
+                "color",
+                "icon",
+                "brand",
+                "hover"
               ]
             },
-            "icon-brand-active": {
+            "active": {
               "type": "color",
               "value": "#1d4ed8",
               "description": "The active state (on press) color for icons that need to pull more focus.",
@@ -2438,30 +4084,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-700}",
+                "value": "{Foundations.color.brand.700}",
                 "description": "The active state (on press) color for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:55"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandActive",
+              "name": "TokensLightColorIconBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-active"
+                "color",
+                "icon",
+                "brand",
+                "active"
               ]
             },
-            "icon-brand-strong": {
+            "strong": {
               "type": "color",
               "value": "#1e40af",
               "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
@@ -2472,30 +4118,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-800}",
+                "value": "{Foundations.color.brand.800}",
                 "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:632:1808"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandStrong",
+              "name": "TokensLightColorIconBrandStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-strong"
+                "color",
+                "icon",
+                "brand",
+                "strong"
               ]
             },
-            "icon-brand-inverse": {
+            "inverse": {
               "type": "color",
               "value": "#ffffff",
               "description": "Use for icon on bg-brand, like primary buttons.",
@@ -2506,32 +4152,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for icon on bg-brand, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:634:2408"
                 }
               },
-              "name": "TokensLightColorIconBrandIconBrandInverse",
+              "name": "TokensLightColorIconBrandInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-inverse"
+                "color",
+                "icon",
+                "brand",
+                "inverse"
               ]
             }
           },
-          "Danger": {
-            "icon-danger": {
+          "danger": {
+            "default": {
               "type": "color",
               "value": "#dc2626",
               "description": "Use for icons communicating critical information.",
@@ -2542,30 +4188,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.600}",
                 "description": "Use for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:56"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDanger",
+              "name": "TokensLightColorIconDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger"
+                "color",
+                "icon",
+                "danger",
+                "default"
               ]
             },
-            "icon-danger-hover": {
+            "hover": {
               "type": "color",
               "value": "#ef4444",
               "description": "The hover color for icons communicating critical information.",
@@ -2576,30 +4222,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.500}",
                 "description": "The hover color for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:57"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerHover",
+              "name": "TokensLightColorIconDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-hover"
+                "color",
+                "icon",
+                "danger",
+                "hover"
               ]
             },
-            "icon-danger-active": {
+            "active": {
               "type": "color",
               "value": "#b91c1c",
               "description": "The active state (on press) color for icons communicating critical information.",
@@ -2610,30 +4256,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-700}",
+                "value": "{Foundations.color.red.700}",
                 "description": "The active state (on press) color for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:58"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerActive",
+              "name": "TokensLightColorIconDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-active"
+                "color",
+                "icon",
+                "danger",
+                "active"
               ]
             },
-            "icon-danger-strong": {
+            "strong": {
               "type": "color",
               "value": "#991b1b",
               "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
@@ -2644,30 +4290,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-800}",
+                "value": "{Foundations.color.red.800}",
                 "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:632:1809"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerStrong",
+              "name": "TokensLightColorIconDangerStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-strong"
+                "color",
+                "icon",
+                "danger",
+                "strong"
               ]
             },
-            "icon-danger-inverse": {
+            "inverse": {
               "type": "color",
               "value": "#ffffff",
               "description": "Use for icons on bg-danger.",
@@ -2678,32 +4324,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for icons on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:634:2409"
                 }
               },
-              "name": "TokensLightColorIconDangerIconDangerInverse",
+              "name": "TokensLightColorIconDangerInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-inverse"
+                "color",
+                "icon",
+                "danger",
+                "inverse"
               ]
             }
           },
-          "Warning": {
-            "icon-warning": {
+          "warning": {
+            "default": {
               "type": "color",
               "value": "#d97706",
               "description": "Use for icons communicating warning information.",
@@ -2714,30 +4360,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "Use for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:62"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarning",
+              "name": "TokensLightColorIconWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning"
+                "color",
+                "icon",
+                "warning",
+                "default"
               ]
             },
-            "icon-warning-hover": {
+            "hover": {
               "type": "color",
               "value": "#f59e0b",
               "description": "The hover color for icons communicating warning information.",
@@ -2748,30 +4394,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "The hover color for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:63"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningHover",
+              "name": "TokensLightColorIconWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-hover"
+                "color",
+                "icon",
+                "warning",
+                "hover"
               ]
             },
-            "icon-warning-active": {
+            "active": {
               "type": "color",
               "value": "#b45309",
               "description": "The active state (on press) color for icons communicating warning information.",
@@ -2782,30 +4428,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-700}",
+                "value": "{Foundations.color.amber.700}",
                 "description": "The active state (on press) color for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:64"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningActive",
+              "name": "TokensLightColorIconWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-active"
+                "color",
+                "icon",
+                "warning",
+                "active"
               ]
             },
-            "icon-warning-strong": {
+            "strong": {
               "type": "color",
               "value": "#92400e",
               "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
@@ -2816,30 +4462,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-800}",
+                "value": "{Foundations.color.amber.800}",
                 "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:632:1810"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningStrong",
+              "name": "TokensLightColorIconWarningStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-strong"
+                "color",
+                "icon",
+                "warning",
+                "strong"
               ]
             },
-            "icon-warning-inverse": {
+            "inverse": {
               "type": "color",
               "value": "#ffffff",
               "description": "Use for icons on bg-warning.",
@@ -2850,32 +4496,98 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for icons on bg-warning.",
                 "$extensions": {
                   "variableId": "VariableID:634:2410"
                 }
               },
-              "name": "TokensLightColorIconWarningIconWarningInverse",
+              "name": "TokensLightColorIconWarningInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-inverse"
+                "color",
+                "icon",
+                "warning",
+                "inverse"
               ]
             }
           },
-          "Utility": {
-            "icon-slot": {
+          "active": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "The active state (on press) color for icons.",
+            "$extensions": {
+              "variableId": "VariableID:91:96"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.900}",
+              "description": "The active state (on press) color for icons.",
+              "$extensions": {
+                "variableId": "VariableID:91:96"
+              }
+            },
+            "name": "TokensLightColorIconActive",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "icon",
+              "state": "active"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "icon",
+              "active"
+            ]
+          },
+          "inverse": {
+            "type": "color",
+            "value": "#fafafa",
+            "description": "Use for icon on dark background.",
+            "$extensions": {
+              "variableId": "VariableID:634:2407"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.50}",
+              "description": "Use for icon on dark background.",
+              "$extensions": {
+                "variableId": "VariableID:634:2407"
+              }
+            },
+            "name": "TokensLightColorIconInverse",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Light",
+              "item": "color",
+              "subitem": "icon",
+              "state": "inverse"
+            },
+            "path": [
+              "Tokens",
+              "Light",
+              "color",
+              "icon",
+              "inverse"
+            ]
+          },
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#7c3aed",
               "description": "Use for icon of the Slot component.",
@@ -2886,35 +4598,615 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-600}",
+                "value": "{Foundations.color.violet.600}",
                 "description": "Use for icon of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7054"
                 }
               },
-              "name": "TokensLightColorIconUtilityIconSlot",
+              "name": "TokensLightColorIconUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Light",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "icon",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Light",
-                "Color",
-                "Icon",
-                "Utility",
-                "icon-slot"
+                "color",
+                "icon",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#991b1b",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16096"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16096"
+                }
+              },
+              "name": "TokensLightColorIconChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#9a3412",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16097"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16097"
+                }
+              },
+              "name": "TokensLightColorIconChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#92400e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16098"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16098"
+                }
+              },
+              "name": "TokensLightColorIconChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#854d0e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16099"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16099"
+                }
+              },
+              "name": "TokensLightColorIconChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#3f6212",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16100"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16100"
+                }
+              },
+              "name": "TokensLightColorIconChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#166534",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16101"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16101"
+                }
+              },
+              "name": "TokensLightColorIconChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#065f46",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16102"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16102"
+                }
+              },
+              "name": "TokensLightColorIconChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#115e59",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16103"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16103"
+                }
+              },
+              "name": "TokensLightColorIconChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#155e75",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16104"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16104"
+                }
+              },
+              "name": "TokensLightColorIconChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#075985",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16105"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16105"
+                }
+              },
+              "name": "TokensLightColorIconChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#1e40af",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16106"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16106"
+                }
+              },
+              "name": "TokensLightColorIconChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#3730a3",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16107"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16107"
+                }
+              },
+              "name": "TokensLightColorIconChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#5b21b6",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16108"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16108"
+                }
+              },
+              "name": "TokensLightColorIconChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#6b21a8",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16109"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16109"
+                }
+              },
+              "name": "TokensLightColorIconChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#86198f",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16110"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16110"
+                }
+              },
+              "name": "TokensLightColorIconChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#9d174d",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16111"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16111"
+                }
+              },
+              "name": "TokensLightColorIconChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#9f1239",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16112"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16112"
+                }
+              },
+              "name": "TokensLightColorIconChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Light",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Light",
+                "color",
+                "icon",
+                "chart",
+                "rose"
               ]
             }
           }
         }
       },
-      "Border": {
-        "Radius": {
-          "rounded-none": {
+      "border": {
+        "radius": {
+          "none": {
             "type": "dimension",
             "value": "0px",
             "description": "Use for resetting the default border radius.",
@@ -2931,23 +5223,23 @@ module.exports = {
                 "variableId": "VariableID:91:105"
               }
             },
-            "name": "TokensLightBorderRadiusRoundedNone",
+            "name": "TokensLightBorderRadiusNone",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-none"
+              "item": "border",
+              "subitem": "radius",
+              "state": "none"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Radius",
-              "rounded-none"
+              "border",
+              "radius",
+              "none"
             ]
           },
-          "rounded-sm": {
+          "sm": {
             "type": "dimension",
             "value": "4px",
             "description": "Use in small size components, such as Checkbox and Segmented.",
@@ -2964,23 +5256,23 @@ module.exports = {
                 "variableId": "VariableID:1830:17744"
               }
             },
-            "name": "TokensLightBorderRadiusRoundedSm",
+            "name": "TokensLightBorderRadiusSm",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-sm"
+              "item": "border",
+              "subitem": "radius",
+              "state": "sm"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Radius",
-              "rounded-sm"
+              "border",
+              "radius",
+              "sm"
             ]
           },
-          "rounded": {
+          "default": {
             "type": "dimension",
             "value": "6px",
             "description": "Use in default components, such as Buttons and Inputs.",
@@ -2997,23 +5289,23 @@ module.exports = {
                 "variableId": "VariableID:1830:17745"
               }
             },
-            "name": "TokensLightBorderRadiusRounded",
+            "name": "TokensLightBorderRadiusDefault",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded"
+              "item": "border",
+              "subitem": "radius",
+              "state": "default"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Radius",
-              "rounded"
+              "border",
+              "radius",
+              "default"
             ]
           },
-          "rounded-lg": {
+          "lg": {
             "type": "dimension",
             "value": "8px",
             "description": "Use in large components, such as Card and Dialog.",
@@ -3030,25 +5322,25 @@ module.exports = {
                 "variableId": "VariableID:1830:17746"
               }
             },
-            "name": "TokensLightBorderRadiusRoundedLg",
+            "name": "TokensLightBorderRadiusLg",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-lg"
+              "item": "border",
+              "subitem": "radius",
+              "state": "lg"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Radius",
-              "rounded-lg"
+              "border",
+              "radius",
+              "lg"
             ]
           },
-          "rounded-full": {
+          "full": {
             "type": "dimension",
-            "value": "9999px",
+            "value": "999px",
             "description": "Use for having the maximum possible border radius.",
             "$extensions": {
               "variableId": "VariableID:1830:17747"
@@ -3057,31 +5349,31 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "9999px",
+              "value": "999px",
               "description": "Use for having the maximum possible border radius.",
               "$extensions": {
                 "variableId": "VariableID:1830:17747"
               }
             },
-            "name": "TokensLightBorderRadiusRoundedFull",
+            "name": "TokensLightBorderRadiusFull",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-full"
+              "item": "border",
+              "subitem": "radius",
+              "state": "full"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Radius",
-              "rounded-full"
+              "border",
+              "radius",
+              "full"
             ]
           }
         },
-        "Width": {
-          "border-0": {
+        "width": {
+          "0": {
             "type": "dimension",
             "value": "0px",
             "description": "Use for resetting the default border width.",
@@ -3098,23 +5390,23 @@ module.exports = {
                 "variableId": "VariableID:1703:10647"
               }
             },
-            "name": "TokensLightBorderWidthBorder0",
+            "name": "TokensLightBorderWidth0",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Width",
-              "state": "border-0"
+              "item": "border",
+              "subitem": "width",
+              "state": "0"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Width",
-              "border-0"
+              "border",
+              "width",
+              "0"
             ]
           },
-          "border": {
+          "1": {
             "type": "dimension",
             "value": "1px",
             "description": "Use in default components, such as Buttons and Inputs.",
@@ -3131,23 +5423,23 @@ module.exports = {
                 "variableId": "VariableID:1703:13570"
               }
             },
-            "name": "TokensLightBorderWidthBorder",
+            "name": "TokensLightBorderWidth1",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Width",
-              "state": "border"
+              "item": "border",
+              "subitem": "width",
+              "state": "1"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Width",
-              "border"
+              "border",
+              "width",
+              "1"
             ]
           },
-          "border-2": {
+          "2": {
             "type": "dimension",
             "value": "2px",
             "description": "Use for focus rings and large borders, such as Slider and Switch.",
@@ -3164,25 +5456,25 @@ module.exports = {
                 "variableId": "VariableID:1703:13571"
               }
             },
-            "name": "TokensLightBorderWidthBorder2",
+            "name": "TokensLightBorderWidth2",
             "attributes": {
               "category": "Tokens",
               "type": "Light",
-              "item": "Border",
-              "subitem": "Width",
-              "state": "border-2"
+              "item": "border",
+              "subitem": "width",
+              "state": "2"
             },
             "path": [
               "Tokens",
               "Light",
-              "Border",
-              "Width",
-              "border-2"
+              "border",
+              "width",
+              "2"
             ]
           }
         }
       },
-      "Space": {
+      "space": {
         "0": {
           "type": "dimension",
           "value": "0px",
@@ -3194,7 +5486,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-0}",
+            "value": "{Foundations.scale.0}",
             "description": "Use for resetting default space.",
             "$extensions": {
               "variableId": "VariableID:125:289"
@@ -3204,13 +5496,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "0"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "0"
           ]
         },
@@ -3225,7 +5517,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-1}",
+            "value": "{Foundations.scale.1}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:292"
@@ -3235,13 +5527,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "1"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "1"
           ]
         },
@@ -3256,7 +5548,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-2}",
+            "value": "{Foundations.scale.2}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:295"
@@ -3266,13 +5558,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "2"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "2"
           ]
         },
@@ -3287,7 +5579,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-3}",
+            "value": "{Foundations.scale.3}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:297"
@@ -3297,13 +5589,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "3"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "3"
           ]
         },
@@ -3318,7 +5610,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-4}",
+            "value": "{Foundations.scale.4}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:299"
@@ -3328,13 +5620,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "4"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "4"
           ]
         },
@@ -3349,7 +5641,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-5}",
+            "value": "{Foundations.scale.5}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:300"
@@ -3359,13 +5651,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "5"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "5"
           ]
         },
@@ -3380,7 +5672,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-6}",
+            "value": "{Foundations.scale.6}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:301"
@@ -3390,13 +5682,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "6"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "6"
           ]
         },
@@ -3411,7 +5703,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-7}",
+            "value": "{Foundations.scale.7}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6641"
@@ -3421,13 +5713,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "7"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "7"
           ]
         },
@@ -3442,7 +5734,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-8}",
+            "value": "{Foundations.scale.8}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6642"
@@ -3452,13 +5744,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "8"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "8"
           ]
         },
@@ -3473,7 +5765,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-9}",
+            "value": "{Foundations.scale.9}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6643"
@@ -3483,13 +5775,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "9"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "9"
           ]
         },
@@ -3504,7 +5796,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-10}",
+            "value": "{Foundations.scale.10}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6644"
@@ -3514,13 +5806,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "10"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "10"
           ]
         },
@@ -3535,7 +5827,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-11}",
+            "value": "{Foundations.scale.11}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6645"
@@ -3545,13 +5837,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "11"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "11"
           ]
         },
@@ -3566,7 +5858,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-12}",
+            "value": "{Foundations.scale.12}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6647"
@@ -3576,13 +5868,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "12"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "12"
           ]
         },
@@ -3597,7 +5889,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-14}",
+            "value": "{Foundations.scale.14}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6648"
@@ -3607,13 +5899,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "14"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "14"
           ]
         },
@@ -3628,7 +5920,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-16}",
+            "value": "{Foundations.scale.16}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6649"
@@ -3638,13 +5930,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "16"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "16"
           ]
         },
@@ -3659,7 +5951,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-20}",
+            "value": "{Foundations.scale.20}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6650"
@@ -3669,13 +5961,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "20"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "20"
           ]
         },
@@ -3690,7 +5982,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-24}",
+            "value": "{Foundations.scale.24}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6651"
@@ -3700,13 +5992,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "24"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "24"
           ]
         },
@@ -3721,7 +6013,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-28}",
+            "value": "{Foundations.scale.28}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6652"
@@ -3731,13 +6023,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "28"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "28"
           ]
         },
@@ -3752,7 +6044,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-32}",
+            "value": "{Foundations.scale.32}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6653"
@@ -3762,13 +6054,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "32"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "32"
           ]
         },
@@ -3783,7 +6075,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-36}",
+            "value": "{Foundations.scale.36}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6654"
@@ -3793,13 +6085,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "36"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "36"
           ]
         },
@@ -3814,7 +6106,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-40}",
+            "value": "{Foundations.scale.40}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6655"
@@ -3824,13 +6116,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "40"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "40"
           ]
         },
@@ -3845,7 +6137,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-44}",
+            "value": "{Foundations.scale.44}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6656"
@@ -3855,13 +6147,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "44"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "44"
           ]
         },
@@ -3876,7 +6168,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-48}",
+            "value": "{Foundations.scale.48}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6657"
@@ -3886,13 +6178,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "48"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "48"
           ]
         },
@@ -3907,7 +6199,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-52}",
+            "value": "{Foundations.scale.52}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6658"
@@ -3917,13 +6209,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "52"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "52"
           ]
         },
@@ -3938,7 +6230,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-56}",
+            "value": "{Foundations.scale.56}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6659"
@@ -3948,13 +6240,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "56"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "56"
           ]
         },
@@ -3969,7 +6261,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-60}",
+            "value": "{Foundations.scale.60}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6660"
@@ -3979,13 +6271,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "60"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "60"
           ]
         },
@@ -4000,7 +6292,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-64}",
+            "value": "{Foundations.scale.64}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6661"
@@ -4010,13 +6302,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "64"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "64"
           ]
         },
@@ -4031,7 +6323,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-72}",
+            "value": "{Foundations.scale.72}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6662"
@@ -4041,13 +6333,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "72"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "72"
           ]
         },
@@ -4062,7 +6354,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-80}",
+            "value": "{Foundations.scale.80}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6663"
@@ -4072,13 +6364,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "80"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "80"
           ]
         },
@@ -4093,7 +6385,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-96}",
+            "value": "{Foundations.scale.96}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6664"
@@ -4103,18 +6395,18 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Space",
+            "item": "space",
             "subitem": "96"
           },
           "path": [
             "Tokens",
             "Light",
-            "Space",
+            "space",
             "96"
           ]
         }
       },
-      "Breakpoints": {
+      "breakpoint": {
         "xs": {
           "type": "dimension",
           "value": "390px",
@@ -4132,17 +6424,17 @@ module.exports = {
               "variableId": "VariableID:233:721"
             }
           },
-          "name": "TokensLightBreakpointsXs",
+          "name": "TokensLightBreakpointXs",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "xs"
           },
           "path": [
             "Tokens",
             "Light",
-            "Breakpoints",
+            "breakpoint",
             "xs"
           ]
         },
@@ -4163,17 +6455,17 @@ module.exports = {
               "variableId": "VariableID:233:730"
             }
           },
-          "name": "TokensLightBreakpointsSm",
+          "name": "TokensLightBreakpointSm",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "sm"
           },
           "path": [
             "Tokens",
             "Light",
-            "Breakpoints",
+            "breakpoint",
             "sm"
           ]
         },
@@ -4194,17 +6486,17 @@ module.exports = {
               "variableId": "VariableID:233:731"
             }
           },
-          "name": "TokensLightBreakpointsMd",
+          "name": "TokensLightBreakpointMd",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "md"
           },
           "path": [
             "Tokens",
             "Light",
-            "Breakpoints",
+            "breakpoint",
             "md"
           ]
         },
@@ -4225,17 +6517,17 @@ module.exports = {
               "variableId": "VariableID:233:732"
             }
           },
-          "name": "TokensLightBreakpointsLg",
+          "name": "TokensLightBreakpointLg",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "lg"
           },
           "path": [
             "Tokens",
             "Light",
-            "Breakpoints",
+            "breakpoint",
             "lg"
           ]
         },
@@ -4256,17 +6548,17 @@ module.exports = {
               "variableId": "VariableID:233:733"
             }
           },
-          "name": "TokensLightBreakpointsXl",
+          "name": "TokensLightBreakpointXl",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "xl"
           },
           "path": [
             "Tokens",
             "Light",
-            "Breakpoints",
+            "breakpoint",
             "xl"
           ]
         },
@@ -4287,2009 +6579,955 @@ module.exports = {
               "variableId": "VariableID:233:735"
             }
           },
-          "name": "TokensLightBreakpoints2xl",
+          "name": "TokensLightBreakpoint2xl",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "2xl"
           },
           "path": [
             "Tokens",
             "Light",
-            "Breakpoints",
+            "breakpoint",
             "2xl"
           ]
         }
       },
-      "Size": {
-        "Width": {
-          "w-0": {
+      "size": {
+        "0": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "Use for resetting default size.",
+          "$extensions": {
+            "variableId": "VariableID:621:1420"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "0px",
-            "description": "Use for resetting default width.",
+            "value": "{Foundations.scale.0}",
+            "description": "Use for resetting default size.",
             "$extensions": {
               "variableId": "VariableID:621:1420"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-0}",
-              "description": "Use for resetting default width.",
-              "$extensions": {
-                "variableId": "VariableID:621:1420"
-              }
-            },
-            "name": "TokensLightSizeWidthW0",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-0"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-0"
-            ]
+            }
           },
-          "w-1": {
+          "name": "TokensLightSize0",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "0"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "0"
+          ]
+        },
+        "1": {
+          "type": "dimension",
+          "value": "4px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17685"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "4px",
+            "value": "{Foundations.scale.1}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17685"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-1}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17685"
-              }
-            },
-            "name": "TokensLightSizeWidthW1",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-1"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-1"
-            ]
+            }
           },
-          "w-2": {
+          "name": "TokensLightSize1",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "1"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "1"
+          ]
+        },
+        "2": {
+          "type": "dimension",
+          "value": "8px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17686"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "8px",
+            "value": "{Foundations.scale.2}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17686"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-2}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17686"
-              }
-            },
-            "name": "TokensLightSizeWidthW2",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-2"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-2"
-            ]
+            }
           },
-          "w-3": {
+          "name": "TokensLightSize2",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "2"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "2"
+          ]
+        },
+        "3": {
+          "type": "dimension",
+          "value": "12px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17687"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "12px",
+            "value": "{Foundations.scale.3}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17687"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-3}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17687"
-              }
-            },
-            "name": "TokensLightSizeWidthW3",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-3"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-3"
-            ]
+            }
           },
-          "w-4": {
+          "name": "TokensLightSize3",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "3"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "3"
+          ]
+        },
+        "4": {
+          "type": "dimension",
+          "value": "16px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17688"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "16px",
+            "value": "{Foundations.scale.4}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17688"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-4}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17688"
-              }
-            },
-            "name": "TokensLightSizeWidthW4",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-4"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-4"
-            ]
+            }
           },
-          "w-5": {
+          "name": "TokensLightSize4",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "4"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "4"
+          ]
+        },
+        "5": {
+          "type": "dimension",
+          "value": "20px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17689"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "20px",
+            "value": "{Foundations.scale.5}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17689"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-5}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17689"
-              }
-            },
-            "name": "TokensLightSizeWidthW5",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-5"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-5"
-            ]
+            }
           },
-          "w-6": {
+          "name": "TokensLightSize5",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "5"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "5"
+          ]
+        },
+        "6": {
+          "type": "dimension",
+          "value": "24px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17690"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "24px",
+            "value": "{Foundations.scale.6}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17690"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-6}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17690"
-              }
-            },
-            "name": "TokensLightSizeWidthW6",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-6"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-6"
-            ]
+            }
           },
-          "w-7": {
+          "name": "TokensLightSize6",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "6"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "6"
+          ]
+        },
+        "7": {
+          "type": "dimension",
+          "value": "28px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17691"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "28px",
+            "value": "{Foundations.scale.7}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17691"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-7}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17691"
-              }
-            },
-            "name": "TokensLightSizeWidthW7",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-7"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-7"
-            ]
+            }
           },
-          "w-8": {
+          "name": "TokensLightSize7",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "7"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "7"
+          ]
+        },
+        "8": {
+          "type": "dimension",
+          "value": "32px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17692"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "32px",
+            "value": "{Foundations.scale.8}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17692"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-8}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17692"
-              }
-            },
-            "name": "TokensLightSizeWidthW8",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-8"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-8"
-            ]
+            }
           },
-          "w-9": {
+          "name": "TokensLightSize8",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "8"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "8"
+          ]
+        },
+        "9": {
+          "type": "dimension",
+          "value": "36px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17693"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "36px",
+            "value": "{Foundations.scale.9}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17693"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-9}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17693"
-              }
-            },
-            "name": "TokensLightSizeWidthW9",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-9"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-9"
-            ]
+            }
           },
-          "w-10": {
+          "name": "TokensLightSize9",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "9"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "9"
+          ]
+        },
+        "10": {
+          "type": "dimension",
+          "value": "40px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17694"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "40px",
+            "value": "{Foundations.scale.10}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17694"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-10}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17694"
-              }
-            },
-            "name": "TokensLightSizeWidthW10",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-10"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-10"
-            ]
+            }
           },
-          "w-11": {
+          "name": "TokensLightSize10",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "10"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "10"
+          ]
+        },
+        "11": {
+          "type": "dimension",
+          "value": "44px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17695"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "44px",
+            "value": "{Foundations.scale.11}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17695"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-11}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17695"
-              }
-            },
-            "name": "TokensLightSizeWidthW11",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-11"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-11"
-            ]
+            }
           },
-          "w-12": {
+          "name": "TokensLightSize11",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "11"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "11"
+          ]
+        },
+        "12": {
+          "type": "dimension",
+          "value": "48px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17696"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "48px",
+            "value": "{Foundations.scale.12}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17696"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-12}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17696"
-              }
-            },
-            "name": "TokensLightSizeWidthW12",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-12"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-12"
-            ]
+            }
           },
-          "w-14": {
+          "name": "TokensLightSize12",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "12"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "12"
+          ]
+        },
+        "14": {
+          "type": "dimension",
+          "value": "56px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17697"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "56px",
+            "value": "{Foundations.scale.14}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17697"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-14}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17697"
-              }
-            },
-            "name": "TokensLightSizeWidthW14",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-14"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-14"
-            ]
+            }
           },
-          "w-16": {
+          "name": "TokensLightSize14",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "14"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "14"
+          ]
+        },
+        "16": {
+          "type": "dimension",
+          "value": "64px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17698"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "64px",
+            "value": "{Foundations.scale.16}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17698"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-16}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17698"
-              }
-            },
-            "name": "TokensLightSizeWidthW16",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-16"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-16"
-            ]
+            }
           },
-          "w-20": {
+          "name": "TokensLightSize16",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "16"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "16"
+          ]
+        },
+        "20": {
+          "type": "dimension",
+          "value": "80px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17699"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "80px",
+            "value": "{Foundations.scale.20}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17699"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-20}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17699"
-              }
-            },
-            "name": "TokensLightSizeWidthW20",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-20"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-20"
-            ]
+            }
           },
-          "w-24": {
+          "name": "TokensLightSize20",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "20"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "20"
+          ]
+        },
+        "24": {
+          "type": "dimension",
+          "value": "96px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17700"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "96px",
+            "value": "{Foundations.scale.24}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17700"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-24}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17700"
-              }
-            },
-            "name": "TokensLightSizeWidthW24",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-24"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-24"
-            ]
+            }
           },
-          "w-28": {
+          "name": "TokensLightSize24",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "24"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "24"
+          ]
+        },
+        "28": {
+          "type": "dimension",
+          "value": "112px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17701"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "112px",
+            "value": "{Foundations.scale.28}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17701"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-28}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17701"
-              }
-            },
-            "name": "TokensLightSizeWidthW28",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-28"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-28"
-            ]
+            }
           },
-          "w-32": {
+          "name": "TokensLightSize28",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "28"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "28"
+          ]
+        },
+        "32": {
+          "type": "dimension",
+          "value": "128px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17702"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "128px",
+            "value": "{Foundations.scale.32}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17702"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-32}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17702"
-              }
-            },
-            "name": "TokensLightSizeWidthW32",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-32"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-32"
-            ]
+            }
           },
-          "w-36": {
+          "name": "TokensLightSize32",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "32"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "32"
+          ]
+        },
+        "36": {
+          "type": "dimension",
+          "value": "144px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17703"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "144px",
+            "value": "{Foundations.scale.36}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17703"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-36}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17703"
-              }
-            },
-            "name": "TokensLightSizeWidthW36",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-36"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-36"
-            ]
+            }
           },
-          "w-40": {
+          "name": "TokensLightSize36",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "36"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "36"
+          ]
+        },
+        "40": {
+          "type": "dimension",
+          "value": "160px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17704"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "160px",
+            "value": "{Foundations.scale.40}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17704"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-40}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17704"
-              }
-            },
-            "name": "TokensLightSizeWidthW40",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-40"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-40"
-            ]
+            }
           },
-          "w-44": {
+          "name": "TokensLightSize40",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "40"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "40"
+          ]
+        },
+        "44": {
+          "type": "dimension",
+          "value": "176px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17705"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "176px",
+            "value": "{Foundations.scale.44}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17705"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-44}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17705"
-              }
-            },
-            "name": "TokensLightSizeWidthW44",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-44"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-44"
-            ]
+            }
           },
-          "w-48": {
+          "name": "TokensLightSize44",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "44"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "44"
+          ]
+        },
+        "48": {
+          "type": "dimension",
+          "value": "192px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17706"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "192px",
+            "value": "{Foundations.scale.48}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17706"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-48}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17706"
-              }
-            },
-            "name": "TokensLightSizeWidthW48",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-48"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-48"
-            ]
+            }
           },
-          "w-52": {
+          "name": "TokensLightSize48",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "48"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "48"
+          ]
+        },
+        "52": {
+          "type": "dimension",
+          "value": "208px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17707"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "208px",
+            "value": "{Foundations.scale.52}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17707"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-52}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17707"
-              }
-            },
-            "name": "TokensLightSizeWidthW52",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-52"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-52"
-            ]
+            }
           },
-          "w-56": {
+          "name": "TokensLightSize52",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "52"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "52"
+          ]
+        },
+        "56": {
+          "type": "dimension",
+          "value": "224px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17708"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "224px",
+            "value": "{Foundations.scale.56}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17708"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-56}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17708"
-              }
-            },
-            "name": "TokensLightSizeWidthW56",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-56"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-56"
-            ]
+            }
           },
-          "w-60": {
+          "name": "TokensLightSize56",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "56"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "56"
+          ]
+        },
+        "60": {
+          "type": "dimension",
+          "value": "240px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17709"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "240px",
+            "value": "{Foundations.scale.60}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17709"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-60}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17709"
-              }
-            },
-            "name": "TokensLightSizeWidthW60",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-60"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-60"
-            ]
+            }
           },
-          "w-64": {
+          "name": "TokensLightSize60",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "60"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "60"
+          ]
+        },
+        "64": {
+          "type": "dimension",
+          "value": "256px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17710"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "256px",
+            "value": "{Foundations.scale.64}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17710"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-64}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17710"
-              }
-            },
-            "name": "TokensLightSizeWidthW64",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-64"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-64"
-            ]
+            }
           },
-          "w-72": {
+          "name": "TokensLightSize64",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "64"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "64"
+          ]
+        },
+        "72": {
+          "type": "dimension",
+          "value": "288px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17711"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "288px",
+            "value": "{Foundations.scale.72}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17711"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-72}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17711"
-              }
-            },
-            "name": "TokensLightSizeWidthW72",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-72"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-72"
-            ]
+            }
           },
-          "w-80": {
+          "name": "TokensLightSize72",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "72"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "72"
+          ]
+        },
+        "80": {
+          "type": "dimension",
+          "value": "320px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17712"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "320px",
+            "value": "{Foundations.scale.80}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17712"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-80}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17712"
-              }
-            },
-            "name": "TokensLightSizeWidthW80",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-80"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-80"
-            ]
+            }
           },
-          "w-96": {
+          "name": "TokensLightSize80",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "80"
+          },
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "80"
+          ]
+        },
+        "96": {
+          "type": "dimension",
+          "value": "384px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17713"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "384px",
+            "value": "{Foundations.scale.96}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17713"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-96}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17713"
-              }
-            },
-            "name": "TokensLightSizeWidthW96",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-96"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Width",
-              "w-96"
-            ]
-          }
-        },
-        "Height": {
-          "h-0": {
-            "type": "dimension",
-            "value": "0px",
-            "description": "Use for resetting default height.",
-            "$extensions": {
-              "variableId": "VariableID:621:1421"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-0}",
-              "description": "Use for resetting default height.",
-              "$extensions": {
-                "variableId": "VariableID:621:1421"
-              }
-            },
-            "name": "TokensLightSizeHeightH0",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-0"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-0"
-            ]
+            }
           },
-          "h-1": {
-            "type": "dimension",
-            "value": "4px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17714"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-1}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17714"
-              }
-            },
-            "name": "TokensLightSizeHeightH1",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-1"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-1"
-            ]
+          "name": "TokensLightSize96",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Light",
+            "item": "size",
+            "subitem": "96"
           },
-          "h-2": {
-            "type": "dimension",
-            "value": "8px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17715"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-2}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17715"
-              }
-            },
-            "name": "TokensLightSizeHeightH2",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-2"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-2"
-            ]
-          },
-          "h-3": {
-            "type": "dimension",
-            "value": "12px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17716"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-3}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17716"
-              }
-            },
-            "name": "TokensLightSizeHeightH3",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-3"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-3"
-            ]
-          },
-          "h-4": {
-            "type": "dimension",
-            "value": "16px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17717"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-4}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17717"
-              }
-            },
-            "name": "TokensLightSizeHeightH4",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-4"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-4"
-            ]
-          },
-          "h-5": {
-            "type": "dimension",
-            "value": "20px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17718"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-5}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17718"
-              }
-            },
-            "name": "TokensLightSizeHeightH5",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-5"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-5"
-            ]
-          },
-          "h-6": {
-            "type": "dimension",
-            "value": "24px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17719"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-6}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17719"
-              }
-            },
-            "name": "TokensLightSizeHeightH6",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-6"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-6"
-            ]
-          },
-          "h-7": {
-            "type": "dimension",
-            "value": "28px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17720"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-7}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17720"
-              }
-            },
-            "name": "TokensLightSizeHeightH7",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-7"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-7"
-            ]
-          },
-          "h-8": {
-            "type": "dimension",
-            "value": "32px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17721"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-8}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17721"
-              }
-            },
-            "name": "TokensLightSizeHeightH8",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-8"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-8"
-            ]
-          },
-          "h-9": {
-            "type": "dimension",
-            "value": "36px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17722"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-9}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17722"
-              }
-            },
-            "name": "TokensLightSizeHeightH9",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-9"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-9"
-            ]
-          },
-          "h-10": {
-            "type": "dimension",
-            "value": "40px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17723"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-10}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17723"
-              }
-            },
-            "name": "TokensLightSizeHeightH10",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-10"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-10"
-            ]
-          },
-          "h-11": {
-            "type": "dimension",
-            "value": "44px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17724"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-11}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17724"
-              }
-            },
-            "name": "TokensLightSizeHeightH11",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-11"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-11"
-            ]
-          },
-          "h-12": {
-            "type": "dimension",
-            "value": "48px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17725"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-12}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17725"
-              }
-            },
-            "name": "TokensLightSizeHeightH12",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-12"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-12"
-            ]
-          },
-          "h-14": {
-            "type": "dimension",
-            "value": "56px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17726"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-14}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17726"
-              }
-            },
-            "name": "TokensLightSizeHeightH14",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-14"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-14"
-            ]
-          },
-          "h-16": {
-            "type": "dimension",
-            "value": "64px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17727"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-16}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17727"
-              }
-            },
-            "name": "TokensLightSizeHeightH16",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-16"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-16"
-            ]
-          },
-          "h-20": {
-            "type": "dimension",
-            "value": "80px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17728"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-20}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17728"
-              }
-            },
-            "name": "TokensLightSizeHeightH20",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-20"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-20"
-            ]
-          },
-          "h-24": {
-            "type": "dimension",
-            "value": "96px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17729"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-24}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17729"
-              }
-            },
-            "name": "TokensLightSizeHeightH24",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-24"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-24"
-            ]
-          },
-          "h-28": {
-            "type": "dimension",
-            "value": "112px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17730"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-28}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17730"
-              }
-            },
-            "name": "TokensLightSizeHeightH28",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-28"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-28"
-            ]
-          },
-          "h-32": {
-            "type": "dimension",
-            "value": "128px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17731"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-32}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17731"
-              }
-            },
-            "name": "TokensLightSizeHeightH32",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-32"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-32"
-            ]
-          },
-          "h-36": {
-            "type": "dimension",
-            "value": "144px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17732"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-36}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17732"
-              }
-            },
-            "name": "TokensLightSizeHeightH36",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-36"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-36"
-            ]
-          },
-          "h-40": {
-            "type": "dimension",
-            "value": "160px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17733"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-40}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17733"
-              }
-            },
-            "name": "TokensLightSizeHeightH40",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-40"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-40"
-            ]
-          },
-          "h-44": {
-            "type": "dimension",
-            "value": "176px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17734"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-44}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17734"
-              }
-            },
-            "name": "TokensLightSizeHeightH44",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-44"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-44"
-            ]
-          },
-          "h-48": {
-            "type": "dimension",
-            "value": "192px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17735"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-48}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17735"
-              }
-            },
-            "name": "TokensLightSizeHeightH48",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-48"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-48"
-            ]
-          },
-          "h-52": {
-            "type": "dimension",
-            "value": "208px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17736"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-52}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17736"
-              }
-            },
-            "name": "TokensLightSizeHeightH52",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-52"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-52"
-            ]
-          },
-          "h-56": {
-            "type": "dimension",
-            "value": "224px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17737"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-56}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17737"
-              }
-            },
-            "name": "TokensLightSizeHeightH56",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-56"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-56"
-            ]
-          },
-          "h-60": {
-            "type": "dimension",
-            "value": "240px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17738"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-60}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17738"
-              }
-            },
-            "name": "TokensLightSizeHeightH60",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-60"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-60"
-            ]
-          },
-          "h-64": {
-            "type": "dimension",
-            "value": "256px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17739"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-64}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17739"
-              }
-            },
-            "name": "TokensLightSizeHeightH64",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-64"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-64"
-            ]
-          },
-          "h-72": {
-            "type": "dimension",
-            "value": "288px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17740"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-72}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17740"
-              }
-            },
-            "name": "TokensLightSizeHeightH72",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-72"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-72"
-            ]
-          },
-          "h-80": {
-            "type": "dimension",
-            "value": "320px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17741"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-80}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17741"
-              }
-            },
-            "name": "TokensLightSizeHeightH80",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-80"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-80"
-            ]
-          },
-          "h-96": {
-            "type": "dimension",
-            "value": "384px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17742"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-96}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17742"
-              }
-            },
-            "name": "TokensLightSizeHeightH96",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Light",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-96"
-            },
-            "path": [
-              "Tokens",
-              "Light",
-              "Size",
-              "Height",
-              "h-96"
-            ]
-          }
+          "path": [
+            "Tokens",
+            "Light",
+            "size",
+            "96"
+          ]
         }
       },
-      "Opacity": {
-        "opacity-visible": {
+      "opacity": {
+        "visible": {
           "type": "dimension",
           "value": "100px",
           "description": "Apply to content that is completely visible.",
@@ -6306,21 +7544,21 @@ module.exports = {
               "variableId": "VariableID:1708:14183"
             }
           },
-          "name": "TokensLightOpacityOpacityVisible",
+          "name": "TokensLightOpacityVisible",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Opacity",
-            "subitem": "opacity-visible"
+            "item": "opacity",
+            "subitem": "visible"
           },
           "path": [
             "Tokens",
             "Light",
-            "Opacity",
-            "opacity-visible"
+            "opacity",
+            "visible"
           ]
         },
-        "opacity-hover": {
+        "hover": {
           "type": "dimension",
           "value": "80px",
           "description": "Apply to content when in an hover state.",
@@ -6337,21 +7575,21 @@ module.exports = {
               "variableId": "VariableID:1708:14184"
             }
           },
-          "name": "TokensLightOpacityOpacityHover",
+          "name": "TokensLightOpacityHover",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Opacity",
-            "subitem": "opacity-hover"
+            "item": "opacity",
+            "subitem": "hover"
           },
           "path": [
             "Tokens",
             "Light",
-            "Opacity",
-            "opacity-hover"
+            "opacity",
+            "hover"
           ]
         },
-        "opacity-disabled": {
+        "disabled": {
           "type": "dimension",
           "value": "50px",
           "description": "Apply to content when in a disabled state.",
@@ -6368,21 +7606,21 @@ module.exports = {
               "variableId": "VariableID:1708:14185"
             }
           },
-          "name": "TokensLightOpacityOpacityDisabled",
+          "name": "TokensLightOpacityDisabled",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Opacity",
-            "subitem": "opacity-disabled"
+            "item": "opacity",
+            "subitem": "disabled"
           },
           "path": [
             "Tokens",
             "Light",
-            "Opacity",
-            "opacity-disabled"
+            "opacity",
+            "disabled"
           ]
         },
-        "opacity-loading": {
+        "loading": {
           "type": "dimension",
           "value": "30px",
           "description": "Apply to content when in a loading state.",
@@ -6399,21 +7637,21 @@ module.exports = {
               "variableId": "VariableID:1846:18012"
             }
           },
-          "name": "TokensLightOpacityOpacityLoading",
+          "name": "TokensLightOpacityLoading",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Opacity",
-            "subitem": "opacity-loading"
+            "item": "opacity",
+            "subitem": "loading"
           },
           "path": [
             "Tokens",
             "Light",
-            "Opacity",
-            "opacity-loading"
+            "opacity",
+            "loading"
           ]
         },
-        "opacity-invisible": {
+        "invisible": {
           "type": "dimension",
           "value": "0px",
           "description": "Apply to content that is completely invisible.",
@@ -6430,371 +7668,62 @@ module.exports = {
               "variableId": "VariableID:1846:18013"
             }
           },
-          "name": "TokensLightOpacityOpacityInvisible",
+          "name": "TokensLightOpacityInvisible",
           "attributes": {
             "category": "Tokens",
             "type": "Light",
-            "item": "Opacity",
-            "subitem": "opacity-invisible"
+            "item": "opacity",
+            "subitem": "invisible"
           },
           "path": [
             "Tokens",
             "Light",
-            "Opacity",
-            "opacity-invisible"
+            "opacity",
+            "invisible"
           ]
         }
       }
     },
     "Dark": {
-      "Color": {
-        "Background": {
-          "Neutral": {
-            "bg-background": {
+      "color": {
+        "bg": {
+          "background": {
+            "type": "color",
+            "value": "#09090b",
+            "description": "The default background color of the interface.",
+            "$extensions": {
+              "variableId": "VariableID:72:35"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#09090b",
+              "value": "{Foundations.color.neutral.950}",
               "description": "The default background color of the interface.",
               "$extensions": {
                 "variableId": "VariableID:72:35"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "The default background color of the interface.",
-                "$extensions": {
-                  "variableId": "VariableID:72:35"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgBackground",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-background"
-              ]
+              }
             },
-            "bg-elevated": {
-              "type": "color",
-              "value": "#09090b",
-              "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
-              "$extensions": {
-                "variableId": "VariableID:72:39"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
-                "$extensions": {
-                  "variableId": "VariableID:72:39"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgElevated",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-elevated"
-              ]
+            "name": "TokensDarkColorBgBackground",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "background"
             },
-            "bg-card": {
-              "type": "color",
-              "value": "#09090b",
-              "description": "The background color for elements with the highest level of prominence, like a card.",
-              "$extensions": {
-                "variableId": "VariableID:91:117"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "The background color for elements with the highest level of prominence, like a card.",
-                "$extensions": {
-                  "variableId": "VariableID:91:117"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgCard",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-card"
-              ]
-            },
-            "bg-mask": {
-              "type": "color",
-              "value": "#09090be6",
-              "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
-              "$extensions": {
-                "variableId": "VariableID:91:119"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "#09090be6",
-                "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
-                "$extensions": {
-                  "variableId": "VariableID:91:119"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgMask",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-mask"
-              ]
-            },
-            "bg-item": {
-              "type": "color",
-              "value": "#09090b",
-              "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-              "$extensions": {
-                "variableId": "VariableID:91:121"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-950}",
-                "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-                "$extensions": {
-                  "variableId": "VariableID:91:121"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgItem",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-item"
-              ]
-            },
-            "bg-subtle": {
-              "type": "color",
-              "value": "#18181b",
-              "description": "The background color for elements with a secondary level of prominence.",
-              "$extensions": {
-                "variableId": "VariableID:91:122"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "The background color for elements with a secondary level of prominence.",
-                "$extensions": {
-                  "variableId": "VariableID:91:122"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgSubtle",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-subtle"
-              ]
-            },
-            "bg-item-hover": {
-              "type": "color",
-              "value": "#18181b",
-              "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-              "$extensions": {
-                "variableId": "VariableID:91:123"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
-                "$extensions": {
-                  "variableId": "VariableID:91:123"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgItemHover",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-item-hover"
-              ]
-            },
-            "bg-item-selected": {
-              "type": "color",
-              "value": "#27272a",
-              "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
-              "$extensions": {
-                "variableId": "VariableID:91:124"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
-                "$extensions": {
-                  "variableId": "VariableID:91:124"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgItemSelected",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-item-selected"
-              ]
-            },
-            "bg-inverse": {
-              "type": "color",
-              "value": "#ffffff",
-              "description": "The background color for elements that should stand out in the interface.",
-              "$extensions": {
-                "variableId": "VariableID:634:2406"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-0}",
-                "description": "The background color for elements that should stand out in the interface.",
-                "$extensions": {
-                  "variableId": "VariableID:634:2406"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgInverse",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-inverse"
-              ]
-            },
-            "bg-muted": {
-              "type": "color",
-              "value": "#27272a",
-              "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
-              "$extensions": {
-                "variableId": "VariableID:651:265"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
-                "$extensions": {
-                  "variableId": "VariableID:651:265"
-                }
-              },
-              "name": "TokensDarkColorBackgroundNeutralBgMuted",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Background",
-                "Neutral",
-                "bg-muted"
-              ]
-            }
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "background"
+            ]
           },
-          "Brand": {
-            "bg-brand": {
+          "brand": {
+            "default": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "The background color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:36"
@@ -6803,32 +7732,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "The background color of main actions such as primary Buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:36"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrand",
+              "name": "TokensDarkColorBgBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand"
+                "color",
+                "bg",
+                "brand",
+                "default"
               ]
             },
-            "bg-brand-hover": {
+            "hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#1d4ed8",
               "description": "The hover state color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:72:37"
@@ -6837,32 +7766,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.700}",
                 "description": "The hover state color of main actions such as primary Buttons.",
                 "$extensions": {
                   "variableId": "VariableID:72:37"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrandHover",
+              "name": "TokensDarkColorBgBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-hover"
+                "color",
+                "bg",
+                "brand",
+                "hover"
               ]
             },
-            "bg-brand-active": {
+            "active": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "The active state (on press) color of main actions such as primary Buttons.",
               "$extensions": {
                 "variableId": "VariableID:91:126"
@@ -6871,30 +7800,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "The active state (on press) color of main actions such as primary Buttons.",
                 "$extensions": {
                   "variableId": "VariableID:91:126"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrandActive",
+              "name": "TokensDarkColorBgBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-active"
+                "color",
+                "bg",
+                "brand",
+                "active"
               ]
             },
-            "bg-brand-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#172554",
               "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
@@ -6905,30 +7834,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-950}",
+                "value": "{Foundations.color.brand.950}",
                 "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:127"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrandSubtlest",
+              "name": "TokensDarkColorBgBrandSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-subtlest"
+                "color",
+                "bg",
+                "brand",
+                "subtlest"
               ]
             },
-            "bg-brand-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#172554",
               "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
@@ -6939,34 +7868,67 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-950}",
+                "value": "{Foundations.color.brand.950}",
                 "description": "Use for the background of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:128"
                 }
               },
-              "name": "TokensDarkColorBackgroundBrandBgBrandSubtle",
+              "name": "TokensDarkColorBgBrandSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "bg",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Brand",
-                "bg-brand-subtle"
+                "color",
+                "bg",
+                "brand",
+                "subtle"
               ]
             }
           },
-          "Danger": {
-            "bg-danger": {
+          "elevated": {
+            "type": "color",
+            "value": "#09090b",
+            "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
+            "$extensions": {
+              "variableId": "VariableID:72:39"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "{Foundations.color.neutral.950}",
+              "description": "The background color for elements with a different height than the interface, such as a Dialog box, Tooltip, or Dropdown Menu.",
+              "$extensions": {
+                "variableId": "VariableID:72:39"
+              }
+            },
+            "name": "TokensDarkColorBgElevated",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "elevated"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "elevated"
+            ]
+          },
+          "danger": {
+            "default": {
+              "type": "color",
+              "value": "#dc2626",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner.",
               "$extensions": {
                 "variableId": "VariableID:91:113"
@@ -6975,32 +7937,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.600}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:113"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDanger",
+              "name": "TokensDarkColorBgDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger"
+                "color",
+                "bg",
+                "danger",
+                "default"
               ]
             },
-            "bg-danger-hover": {
+            "hover": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#b91c1c",
               "description": "The hover state color for communicating critical information on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:129"
@@ -7009,32 +7971,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.700}",
                 "description": "The hover state color for communicating critical information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:129"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDangerHover",
+              "name": "TokensDarkColorBgDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-hover"
+                "color",
+                "bg",
+                "danger",
+                "hover"
               ]
             },
-            "bg-danger-active": {
+            "active": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#ef4444",
               "description": "The active state (on press) color for communicating critical information on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:130"
@@ -7043,30 +8005,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.color.red.500}",
                 "description": "The active state (on press) color for communicating critical information on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:130"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDangerActive",
+              "name": "TokensDarkColorBgDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-active"
+                "color",
+                "bg",
+                "danger",
+                "active"
               ]
             },
-            "bg-danger-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#450a0a",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
@@ -7077,30 +8039,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-950}",
+                "value": "{Foundations.color.red.950}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:131"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDangerSubtlest",
+              "name": "TokensDarkColorBgDangerSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-subtlest"
+                "color",
+                "bg",
+                "danger",
+                "subtlest"
               ]
             },
-            "bg-danger-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#450a0a",
               "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
@@ -7111,34 +8073,34 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-950}",
+                "value": "{Foundations.color.red.950}",
                 "description": "Use for backgrounds communicating critical information on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:132"
                 }
               },
-              "name": "TokensDarkColorBackgroundDangerBgDangerSubtle",
+              "name": "TokensDarkColorBgDangerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "bg",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Danger",
-                "bg-danger-subtle"
+                "color",
+                "bg",
+                "danger",
+                "subtle"
               ]
             }
           },
-          "Warning": {
-            "bg-warning": {
+          "warning": {
+            "default": {
               "type": "color",
-              "value": "#f59e0b",
+              "value": "#d97706",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner.",
               "$extensions": {
                 "variableId": "VariableID:91:114"
@@ -7147,32 +8109,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner.",
                 "$extensions": {
                   "variableId": "VariableID:91:114"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarning",
+              "name": "TokensDarkColorBgWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning"
+                "color",
+                "bg",
+                "warning",
+                "default"
               ]
             },
-            "bg-warning-hover": {
+            "hover": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#b45309",
               "description": "The hover state color for communicating warning on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:133"
@@ -7181,32 +8143,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.700}",
                 "description": "The hover state color for communicating warning on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:133"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarningHover",
+              "name": "TokensDarkColorBgWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-hover"
+                "color",
+                "bg",
+                "warning",
+                "hover"
               ]
             },
-            "bg-warning-active": {
+            "active": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#f59e0b",
               "description": "The active state (on press) color for communicating warning on elements with a smaller surface area.",
               "$extensions": {
                 "variableId": "VariableID:91:134"
@@ -7215,30 +8177,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "The active state (on press) color for communicating warning on elements with a smaller surface area.",
                 "$extensions": {
                   "variableId": "VariableID:91:134"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarningActive",
+              "name": "TokensDarkColorBgWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-active"
+                "color",
+                "bg",
+                "warning",
+                "active"
               ]
             },
-            "bg-warning-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#451a03",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
@@ -7249,30 +8211,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-950}",
+                "value": "{Foundations.color.amber.950}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a tertiary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:135"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarningSubtlest",
+              "name": "TokensDarkColorBgWarningSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-subtlest"
+                "color",
+                "bg",
+                "warning",
+                "subtlest"
               ]
             },
-            "bg-warning-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#451a03",
               "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
@@ -7283,32 +8245,296 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-950}",
+                "value": "{Foundations.color.amber.950}",
                 "description": "Use for backgrounds communicating warning on elements with a smaller surface area, with a secondary level of prominence.",
                 "$extensions": {
                   "variableId": "VariableID:91:136"
                 }
               },
-              "name": "TokensDarkColorBackgroundWarningBgWarningSubtle",
+              "name": "TokensDarkColorBgWarningSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "bg",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Warning",
-                "bg-warning-subtle"
+                "color",
+                "bg",
+                "warning",
+                "subtle"
               ]
             }
           },
-          "Utility": {
-            "bg-slot": {
+          "card": {
+            "type": "color",
+            "value": "#09090b",
+            "description": "The background color for elements with the highest level of prominence, like a card.",
+            "$extensions": {
+              "variableId": "VariableID:91:117"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.950}",
+              "description": "The background color for elements with the highest level of prominence, like a card.",
+              "$extensions": {
+                "variableId": "VariableID:91:117"
+              }
+            },
+            "name": "TokensDarkColorBgCard",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "card"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "card"
+            ]
+          },
+          "mask": {
+            "type": "color",
+            "value": "#09090be6",
+            "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
+            "$extensions": {
+              "variableId": "VariableID:91:119"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#09090be6",
+              "description": "The background color of the mask, used to cover the content below the mask. Dialog, Alert Dialog and other components use this token.",
+              "$extensions": {
+                "variableId": "VariableID:91:119"
+              }
+            },
+            "name": "TokensDarkColorBgMask",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "mask"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "mask"
+            ]
+          },
+          "item": {
+            "type": "color",
+            "value": "#09090b",
+            "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+            "$extensions": {
+              "variableId": "VariableID:91:121"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.950}",
+              "description": "The background color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+              "$extensions": {
+                "variableId": "VariableID:91:121"
+              }
+            },
+            "name": "TokensDarkColorBgItem",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "item"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "item"
+            ]
+          },
+          "subtle": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "The background color for elements with a secondary level of prominence.",
+            "$extensions": {
+              "variableId": "VariableID:91:122"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.900}",
+              "description": "The background color for elements with a secondary level of prominence.",
+              "$extensions": {
+                "variableId": "VariableID:91:122"
+              }
+            },
+            "name": "TokensDarkColorBgSubtle",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "subtle"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "subtle"
+            ]
+          },
+          "item-hover": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+            "$extensions": {
+              "variableId": "VariableID:91:123"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.900}",
+              "description": "The hover state color of contained elements with a smaller surface area such as secondary Button and Dropdown Menu Item.",
+              "$extensions": {
+                "variableId": "VariableID:91:123"
+              }
+            },
+            "name": "TokensDarkColorBgItemHover",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "item-hover"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "item-hover"
+            ]
+          },
+          "item-selected": {
+            "type": "color",
+            "value": "#27272a",
+            "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
+            "$extensions": {
+              "variableId": "VariableID:91:124"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.800}",
+              "description": "The selected state color of contained elements with a smaller surface area such as Dropdown Menu Item.",
+              "$extensions": {
+                "variableId": "VariableID:91:124"
+              }
+            },
+            "name": "TokensDarkColorBgItemSelected",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "item-selected"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "item-selected"
+            ]
+          },
+          "inverse": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "The background color for elements that should stand out in the interface.",
+            "$extensions": {
+              "variableId": "VariableID:634:2406"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.0}",
+              "description": "The background color for elements that should stand out in the interface.",
+              "$extensions": {
+                "variableId": "VariableID:634:2406"
+              }
+            },
+            "name": "TokensDarkColorBgInverse",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "inverse"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "inverse"
+            ]
+          },
+          "muted": {
+            "type": "color",
+            "value": "#27272a",
+            "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
+            "$extensions": {
+              "variableId": "VariableID:651:265"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.800}",
+              "description": "The background color for muted elements such as TabsList, Skeleton and Switch.",
+              "$extensions": {
+                "variableId": "VariableID:651:265"
+              }
+            },
+            "name": "TokensDarkColorBgMuted",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "bg",
+              "state": "muted"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "bg",
+              "muted"
+            ]
+          },
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#2e1065",
               "description": "Use for background of the Slot component.",
@@ -7319,106 +8545,649 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-950}",
+                "value": "{Foundations.color.violet.950}",
                 "description": "Use for background of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7046"
                 }
               },
-              "name": "TokensDarkColorBackgroundUtilityBgSlot",
+              "name": "TokensDarkColorBgUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Background",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "bg",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Background",
-                "Utility",
-                "bg-slot"
+                "color",
+                "bg",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#450a0a",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16038"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16038"
+                }
+              },
+              "name": "TokensDarkColorBgChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#431407",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16039"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16039"
+                }
+              },
+              "name": "TokensDarkColorBgChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#451a03",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16040"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16040"
+                }
+              },
+              "name": "TokensDarkColorBgChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#422006",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16041"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16041"
+                }
+              },
+              "name": "TokensDarkColorBgChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#1a2e05",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16042"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16042"
+                }
+              },
+              "name": "TokensDarkColorBgChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#052e16",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16043"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16043"
+                }
+              },
+              "name": "TokensDarkColorBgChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#022c22",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16044"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16044"
+                }
+              },
+              "name": "TokensDarkColorBgChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#042f2e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16045"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16045"
+                }
+              },
+              "name": "TokensDarkColorBgChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#083344",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16046"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16046"
+                }
+              },
+              "name": "TokensDarkColorBgChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#082f49",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16047"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16047"
+                }
+              },
+              "name": "TokensDarkColorBgChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#172554",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16048"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16048"
+                }
+              },
+              "name": "TokensDarkColorBgChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#1e1b4b",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16049"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16049"
+                }
+              },
+              "name": "TokensDarkColorBgChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#2e1065",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16050"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16050"
+                }
+              },
+              "name": "TokensDarkColorBgChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#3b0764",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16051"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16051"
+                }
+              },
+              "name": "TokensDarkColorBgChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#4a044e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16052"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16052"
+                }
+              },
+              "name": "TokensDarkColorBgChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#500724",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16053"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16053"
+                }
+              },
+              "name": "TokensDarkColorBgChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#4c0519",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16054"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.950}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16054"
+                }
+              },
+              "name": "TokensDarkColorBgChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "bg",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "bg",
+                "chart",
+                "rose"
               ]
             }
           }
         },
-        "Border": {
-          "Neutral": {
-            "border-border": {
+        "border": {
+          "default": {
+            "type": "color",
+            "value": "#27272a",
+            "description": "The default color for borders on any element.",
+            "$extensions": {
+              "variableId": "VariableID:72:47"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#27272a",
+              "value": "{Foundations.color.neutral.800}",
               "description": "The default color for borders on any element.",
               "$extensions": {
                 "variableId": "VariableID:72:47"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-800}",
-                "description": "The default color for borders on any element.",
-                "$extensions": {
-                  "variableId": "VariableID:72:47"
-                }
-              },
-              "name": "TokensDarkColorBorderNeutralBorderBorder",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Border",
-                "Neutral",
-                "border-border"
-              ]
+              }
             },
-            "border-hover": {
-              "type": "color",
-              "value": "#52525b",
-              "description": "The hover color for borders on any element.",
-              "$extensions": {
-                "variableId": "VariableID:497:1525"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-600}",
-                "description": "The hover color for borders on any element.",
-                "$extensions": {
-                  "variableId": "VariableID:497:1525"
-                }
-              },
-              "name": "TokensDarkColorBorderNeutralBorderHover",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Border",
-                "Neutral",
-                "border-hover"
-              ]
-            }
+            "name": "TokensDarkColorBorderDefault",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "border",
+              "state": "default"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "border",
+              "default"
+            ]
           },
-          "Brand": {
-            "border-brand": {
+          "brand": {
+            "default": {
               "type": "color",
-              "value": "#3b82f6",
+              "value": "#2563eb",
               "description": "Use for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:3"
@@ -7427,32 +9196,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "Use for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:75:3"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrand",
+              "name": "TokensDarkColorBorderBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand"
+                "color",
+                "border",
+                "brand",
+                "default"
               ]
             },
-            "border-brand-hover": {
+            "hover": {
               "type": "color",
-              "value": "#2563eb",
+              "value": "#1d4ed8",
               "description": "The hover color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:75:13"
@@ -7461,30 +9230,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.700}",
                 "description": "The hover color for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:75:13"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrandHover",
+              "name": "TokensDarkColorBorderBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-hover"
+                "color",
+                "border",
+                "brand",
+                "hover"
               ]
             },
-            "border-brand-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#1e40af",
               "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
@@ -7495,30 +9264,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-800}",
+                "value": "{Foundations.color.brand.800}",
                 "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:89:78"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrandSubtlest",
+              "name": "TokensDarkColorBorderBrandSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-subtlest"
+                "color",
+                "border",
+                "brand",
+                "subtlest"
               ]
             },
-            "border-brand-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#1e40af",
               "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
@@ -7529,32 +9298,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-800}",
+                "value": "{Foundations.color.brand.800}",
                 "description": "Use for the border of elements used to reinforce our brand, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:89:79"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrandSubtle",
+              "name": "TokensDarkColorBorderBrandSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-subtle"
+                "color",
+                "border",
+                "brand",
+                "subtle"
               ]
             },
-            "border-brand-active": {
+            "active": {
               "type": "color",
-              "value": "#60a5fa",
+              "value": "#3b82f6",
               "description": "The active state (on press) color for borders paired with brand colors.",
               "$extensions": {
                 "variableId": "VariableID:91:87"
@@ -7563,34 +9332,34 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "The active state (on press) color for borders paired with brand colors.",
                 "$extensions": {
                   "variableId": "VariableID:91:87"
                 }
               },
-              "name": "TokensDarkColorBorderBrandBorderBrandActive",
+              "name": "TokensDarkColorBorderBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "border",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Brand",
-                "border-brand-active"
+                "color",
+                "border",
+                "brand",
+                "active"
               ]
             }
           },
-          "Danger": {
-            "border-danger": {
+          "danger": {
+            "default": {
               "type": "color",
-              "value": "#ef4444",
+              "value": "#dc2626",
               "description": "Use for borders communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:4"
@@ -7599,32 +9368,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.600}",
                 "description": "Use for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:4"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDanger",
+              "name": "TokensDarkColorBorderDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger"
+                "color",
+                "border",
+                "danger",
+                "default"
               ]
             },
-            "border-danger-hover": {
+            "hover": {
               "type": "color",
-              "value": "#dc2626",
+              "value": "#b91c1c",
               "description": "The hover color for borders communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:75:12"
@@ -7633,30 +9402,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.700}",
                 "description": "The hover color for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:12"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDangerHover",
+              "name": "TokensDarkColorBorderDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-hover"
+                "color",
+                "border",
+                "danger",
+                "hover"
               ]
             },
-            "border-danger-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#991b1b",
               "description": "Use for the border of elements communicating critical information, but with less emphasis.",
@@ -7667,30 +9436,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-800}",
+                "value": "{Foundations.color.red.800}",
                 "description": "Use for the border of elements communicating critical information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:90:80"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDangerSubtlest",
+              "name": "TokensDarkColorBorderDangerSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-subtlest"
+                "color",
+                "border",
+                "danger",
+                "subtlest"
               ]
             },
-            "border-danger-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#991b1b",
               "description": "Use for the border of elements communicating critical information, but with less emphasis.",
@@ -7701,32 +9470,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-800}",
+                "value": "{Foundations.color.red.800}",
                 "description": "Use for the border of elements communicating critical information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:90:81"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDangerSubtle",
+              "name": "TokensDarkColorBorderDangerSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-subtle"
+                "color",
+                "border",
+                "danger",
+                "subtle"
               ]
             },
-            "border-danger-active": {
+            "active": {
               "type": "color",
-              "value": "#f87171",
+              "value": "#ef4444",
               "description": "The active state (on press) color for borders communicating critical information.",
               "$extensions": {
                 "variableId": "VariableID:91:89"
@@ -7735,34 +9504,34 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.color.red.500}",
                 "description": "The active state (on press) color for borders communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:91:89"
                 }
               },
-              "name": "TokensDarkColorBorderDangerBorderDangerActive",
+              "name": "TokensDarkColorBorderDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "border",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Danger",
-                "border-danger-active"
+                "color",
+                "border",
+                "danger",
+                "active"
               ]
             }
           },
-          "Warning": {
-            "border-warning": {
+          "warning": {
+            "default": {
               "type": "color",
-              "value": "#f59e0b",
+              "value": "#d97706",
               "description": "Use for borders communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:6"
@@ -7771,32 +9540,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "Use for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:6"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarning",
+              "name": "TokensDarkColorBorderWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning"
+                "color",
+                "border",
+                "warning",
+                "default"
               ]
             },
-            "border-warning-hover": {
+            "hover": {
               "type": "color",
-              "value": "#d97706",
+              "value": "#b45309",
               "description": "The hover color for borders communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:75:10"
@@ -7805,30 +9574,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.700}",
                 "description": "The hover color for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:10"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarningHover",
+              "name": "TokensDarkColorBorderWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-hover"
+                "color",
+                "border",
+                "warning",
+                "hover"
               ]
             },
-            "border-warning-subtlest": {
+            "subtlest": {
               "type": "color",
               "value": "#92400e",
               "description": "Use for the border of elements communicating warning information, but with less emphasis.",
@@ -7839,30 +9608,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-800}",
+                "value": "{Foundations.color.amber.800}",
                 "description": "Use for the border of elements communicating warning information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:85"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarningSubtlest",
+              "name": "TokensDarkColorBorderWarningSubtlest",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-subtlest"
+                "color",
+                "border",
+                "warning",
+                "subtlest"
               ]
             },
-            "border-warning-subtle": {
+            "subtle": {
               "type": "color",
               "value": "#92400e",
               "description": "Use for the border of elements communicating warning information, but with less emphasis.",
@@ -7873,32 +9642,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-800}",
+                "value": "{Foundations.color.amber.800}",
                 "description": "Use for the border of elements communicating warning information, but with less emphasis.",
                 "$extensions": {
                   "variableId": "VariableID:91:86"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarningSubtle",
+              "name": "TokensDarkColorBorderWarningSubtle",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-subtle"
+                "color",
+                "border",
+                "warning",
+                "subtle"
               ]
             },
-            "border-warning-active": {
+            "active": {
               "type": "color",
-              "value": "#fbbf24",
+              "value": "#f59e0b",
               "description": "The active state (on press) color for borders communicating warning information.",
               "$extensions": {
                 "variableId": "VariableID:91:91"
@@ -7907,32 +9676,65 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "The active state (on press) color for borders communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:91:91"
                 }
               },
-              "name": "TokensDarkColorBorderWarningBorderWarningActive",
+              "name": "TokensDarkColorBorderWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "border",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Warning",
-                "border-warning-active"
+                "color",
+                "border",
+                "warning",
+                "active"
               ]
             }
           },
-          "Utility": {
-            "border-slot": {
+          "hover": {
+            "type": "color",
+            "value": "#52525b",
+            "description": "The hover color for borders on any element.",
+            "$extensions": {
+              "variableId": "VariableID:497:1525"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.600}",
+              "description": "The hover color for borders on any element.",
+              "$extensions": {
+                "variableId": "VariableID:497:1525"
+              }
+            },
+            "name": "TokensDarkColorBorderHover",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "border",
+              "state": "hover"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "border",
+              "hover"
+            ]
+          },
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#8b5cf6",
               "description": "Use for border of the Slot component.",
@@ -7943,172 +9745,746 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.color.violet.500}",
                 "description": "Use for border of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7055"
                 }
               },
-              "name": "TokensDarkColorBorderUtilityBorderSlot",
+              "name": "TokensDarkColorBorderUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Border",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "border",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Border",
-                "Utility",
-                "border-slot"
+                "color",
+                "border",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#991b1b",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16074"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16074"
+                }
+              },
+              "name": "TokensDarkColorBorderChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#9a3412",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16079"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16079"
+                }
+              },
+              "name": "TokensDarkColorBorderChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#92400e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16080"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16080"
+                }
+              },
+              "name": "TokensDarkColorBorderChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#854d0e",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16081"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16081"
+                }
+              },
+              "name": "TokensDarkColorBorderChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#3f6212",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16082"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16082"
+                }
+              },
+              "name": "TokensDarkColorBorderChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#166534",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16083"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16083"
+                }
+              },
+              "name": "TokensDarkColorBorderChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#065f46",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16084"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16084"
+                }
+              },
+              "name": "TokensDarkColorBorderChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#115e59",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16085"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16085"
+                }
+              },
+              "name": "TokensDarkColorBorderChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#155e75",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16086"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16086"
+                }
+              },
+              "name": "TokensDarkColorBorderChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#075985",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16087"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16087"
+                }
+              },
+              "name": "TokensDarkColorBorderChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#1e40af",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16088"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16088"
+                }
+              },
+              "name": "TokensDarkColorBorderChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#3730a3",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16089"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16089"
+                }
+              },
+              "name": "TokensDarkColorBorderChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#5b21b6",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16090"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16090"
+                }
+              },
+              "name": "TokensDarkColorBorderChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#6b21a8",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16091"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16091"
+                }
+              },
+              "name": "TokensDarkColorBorderChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#86198f",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16092"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16092"
+                }
+              },
+              "name": "TokensDarkColorBorderChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#9d174d",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16093"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16093"
+                }
+              },
+              "name": "TokensDarkColorBorderChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#9f1239",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16094"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.800}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16094"
+                }
+              },
+              "name": "TokensDarkColorBorderChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "border",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "border",
+                "chart",
+                "rose"
               ]
             }
           }
         },
-        "Text": {
-          "Neutral": {
-            "text-description": {
+        "text": {
+          "description": {
+            "type": "color",
+            "value": "#a1a1aa",
+            "description": "Use for text with a secondary level of prominence.",
+            "$extensions": {
+              "variableId": "VariableID:75:28"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#a1a1aa",
+              "value": "{Foundations.color.neutral.400}",
               "description": "Use for text with a secondary level of prominence.",
               "$extensions": {
                 "variableId": "VariableID:75:28"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-400}",
-                "description": "Use for text with a secondary level of prominence.",
-                "$extensions": {
-                  "variableId": "VariableID:75:28"
-                }
-              },
-              "name": "TokensDarkColorTextNeutralTextDescription",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-description"
-              ]
+              }
             },
-            "text": {
+            "name": "TokensDarkColorTextDescription",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "text",
+              "state": "description"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "text",
+              "description"
+            ]
+          },
+          "default": {
+            "type": "color",
+            "value": "#fafafa",
+            "description": "The default text color.",
+            "$extensions": {
+              "variableId": "VariableID:75:31"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#fafafa",
+              "value": "{Foundations.color.neutral.50}",
               "description": "The default text color.",
               "$extensions": {
                 "variableId": "VariableID:75:31"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "The default text color.",
-                "$extensions": {
-                  "variableId": "VariableID:75:31"
-                }
-              },
-              "name": "TokensDarkColorTextNeutralText",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Text",
-                "Neutral",
-                "text"
-              ]
+              }
             },
-            "text-placeholder": {
+            "name": "TokensDarkColorTextDefault",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "text",
+              "state": "default"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "text",
+              "default"
+            ]
+          },
+          "placeholder": {
+            "type": "color",
+            "value": "#71717a",
+            "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
+            "$extensions": {
+              "variableId": "VariableID:75:32"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#71717a",
+              "value": "{Foundations.color.neutral.500}",
               "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
               "$extensions": {
                 "variableId": "VariableID:75:32"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-500}",
-                "description": "Use for text indicating placeholder on elements with a smaller surface area, like an input.",
-                "$extensions": {
-                  "variableId": "VariableID:75:32"
-                }
-              },
-              "name": "TokensDarkColorTextNeutralTextPlaceholder",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-placeholder"
-              ]
+              }
             },
-            "text-inverse": {
+            "name": "TokensDarkColorTextPlaceholder",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "text",
+              "state": "placeholder"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "text",
+              "placeholder"
+            ]
+          },
+          "inverse": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "Use for text on dark background.",
+            "$extensions": {
+              "variableId": "VariableID:75:33"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#18181b",
+              "value": "{Foundations.color.neutral.900}",
               "description": "Use for text on dark background.",
               "$extensions": {
                 "variableId": "VariableID:75:33"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "Use for text on dark background.",
-                "$extensions": {
-                  "variableId": "VariableID:75:33"
-                }
-              },
-              "name": "TokensDarkColorTextNeutralTextInverse",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Text",
-                "Neutral",
-                "text-inverse"
-              ]
-            }
+              }
+            },
+            "name": "TokensDarkColorTextInverse",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "text",
+              "state": "inverse"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "text",
+              "inverse"
+            ]
           },
-          "Brand": {
-            "text-brand": {
+          "brand": {
+            "default": {
               "type": "color",
               "value": "#3b82f6",
               "description": "Use for text links.",
@@ -8119,30 +10495,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "Use for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:34"
                 }
               },
-              "name": "TokensDarkColorTextBrandTextBrand",
+              "name": "TokensDarkColorTextBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand"
+                "color",
+                "text",
+                "brand",
+                "default"
               ]
             },
-            "text-brand-hover": {
+            "hover": {
               "type": "color",
               "value": "#2563eb",
               "description": "The hover state color for text links.",
@@ -8153,30 +10529,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "The hover state color for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:35"
                 }
               },
-              "name": "TokensDarkColorTextBrandTextBrandHover",
+              "name": "TokensDarkColorTextBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-hover"
+                "color",
+                "text",
+                "brand",
+                "hover"
               ]
             },
-            "text-brand-active": {
+            "active": {
               "type": "color",
               "value": "#60a5fa",
               "description": "The active state (on press) color for text links.",
@@ -8187,32 +10563,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.color.brand.400}",
                 "description": "The active state (on press) color for text links.",
                 "$extensions": {
                   "variableId": "VariableID:75:36"
                 }
               },
-              "name": "TokensDarkColorTextBrandTextBrandActive",
+              "name": "TokensDarkColorTextBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-active"
+                "color",
+                "text",
+                "brand",
+                "active"
               ]
             },
-            "text-brand-inverse": {
+            "inverse": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#ffffff",
               "description": "Use for text on bg-brand, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:160:295"
@@ -8221,30 +10597,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for text on bg-brand, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:160:295"
                 }
               },
-              "name": "TokensDarkColorTextBrandTextBrandInverse",
+              "name": "TokensDarkColorTextBrandInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-inverse"
+                "color",
+                "text",
+                "brand",
+                "inverse"
               ]
             },
-            "text-brand-strong": {
+            "strong": {
               "type": "color",
               "value": "#93c5fd",
               "description": "Use for text on bg-brand-subtle and subtles, like badge and alert.",
@@ -8255,32 +10631,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.color.brand.300}",
                 "description": "Use for text on bg-brand-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11553"
                 }
               },
-              "name": "TokensDarkColorTextBrandTextBrandStrong",
+              "name": "TokensDarkColorTextBrandStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "text",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Brand",
-                "text-brand-strong"
+                "color",
+                "text",
+                "brand",
+                "strong"
               ]
             }
           },
-          "Danger": {
-            "text-danger": {
+          "danger": {
+            "default": {
               "type": "color",
               "value": "#ef4444",
               "description": "Use for text communicating critical information.",
@@ -8291,30 +10667,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.500}",
                 "description": "Use for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:37"
                 }
               },
-              "name": "TokensDarkColorTextDangerTextDanger",
+              "name": "TokensDarkColorTextDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger"
+                "color",
+                "text",
+                "danger",
+                "default"
               ]
             },
-            "text-danger-hover": {
+            "hover": {
               "type": "color",
               "value": "#dc2626",
               "description": "The hover state color for text communicating critical information.",
@@ -8325,30 +10701,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.600}",
                 "description": "The hover state color for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:38"
                 }
               },
-              "name": "TokensDarkColorTextDangerTextDangerHover",
+              "name": "TokensDarkColorTextDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-hover"
+                "color",
+                "text",
+                "danger",
+                "hover"
               ]
             },
-            "text-danger-active": {
+            "active": {
               "type": "color",
               "value": "#f87171",
               "description": "The active state (on press) color for text communicating critical information.",
@@ -8359,32 +10735,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.color.red.400}",
                 "description": "The active state (on press) color for text communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:39"
                 }
               },
-              "name": "TokensDarkColorTextDangerTextDangerActive",
+              "name": "TokensDarkColorTextDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-active"
+                "color",
+                "text",
+                "danger",
+                "active"
               ]
             },
-            "text-danger-inverse": {
+            "inverse": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#ffffff",
               "description": "Use for text on bg-danger.",
               "$extensions": {
                 "variableId": "VariableID:160:296"
@@ -8393,30 +10769,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for text on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:160:296"
                 }
               },
-              "name": "TokensDarkColorTextDangerTextDangerInverse",
+              "name": "TokensDarkColorTextDangerInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-inverse"
+                "color",
+                "text",
+                "danger",
+                "inverse"
               ]
             },
-            "text-danger-strong": {
+            "strong": {
               "type": "color",
               "value": "#fca5a5",
               "description": "Use for text on bg-danger-subtle and subtles, like badge and alert.",
@@ -8427,32 +10803,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.color.red.300}",
                 "description": "Use for text on bg-danger-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11554"
                 }
               },
-              "name": "TokensDarkColorTextDangerTextDangerStrong",
+              "name": "TokensDarkColorTextDangerStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "text",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Danger",
-                "text-danger-strong"
+                "color",
+                "text",
+                "danger",
+                "strong"
               ]
             }
           },
-          "Warning": {
-            "text-warning": {
+          "warning": {
+            "default": {
               "type": "color",
               "value": "#f59e0b",
               "description": "Use for text communicating warning.",
@@ -8463,30 +10839,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "Use for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:43"
                 }
               },
-              "name": "TokensDarkColorTextWarningTextWarning",
+              "name": "TokensDarkColorTextWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning"
+                "color",
+                "text",
+                "warning",
+                "default"
               ]
             },
-            "text-warning-hover": {
+            "hover": {
               "type": "color",
               "value": "#d97706",
               "description": "The hover state color for text communicating warning.",
@@ -8497,30 +10873,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "The hover state color for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:44"
                 }
               },
-              "name": "TokensDarkColorTextWarningTextWarningHover",
+              "name": "TokensDarkColorTextWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-hover"
+                "color",
+                "text",
+                "warning",
+                "hover"
               ]
             },
-            "text-warning-active": {
+            "active": {
               "type": "color",
               "value": "#fbbf24",
               "description": "The active state (on press) color for text communicating warning.",
@@ -8531,32 +10907,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.color.amber.400}",
                 "description": "The active state (on press) color for text communicating warning.",
                 "$extensions": {
                   "variableId": "VariableID:75:45"
                 }
               },
-              "name": "TokensDarkColorTextWarningTextWarningActive",
+              "name": "TokensDarkColorTextWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-active"
+                "color",
+                "text",
+                "warning",
+                "active"
               ]
             },
-            "text-warning-inverse": {
+            "inverse": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#ffffff",
               "description": "Use for text on bg-warning.",
               "$extensions": {
                 "variableId": "VariableID:160:297"
@@ -8565,30 +10941,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for text on bg-warning.",
                 "$extensions": {
                   "variableId": "VariableID:160:297"
                 }
               },
-              "name": "TokensDarkColorTextWarningTextWarningInverse",
+              "name": "TokensDarkColorTextWarningInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-inverse"
+                "color",
+                "text",
+                "warning",
+                "inverse"
               ]
             },
-            "text-warning-strong": {
+            "strong": {
               "type": "color",
               "value": "#fcd34d",
               "description": "Use for text on bg-warning-subtle and subtles, like badge and alert.",
@@ -8599,32 +10975,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.color.amber.300}",
                 "description": "Use for text on bg-warning-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:487:11555"
                 }
               },
-              "name": "TokensDarkColorTextWarningTextWarningStrong",
+              "name": "TokensDarkColorTextWarningStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "text",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Warning",
-                "text-warning-strong"
+                "color",
+                "text",
+                "warning",
+                "strong"
               ]
             }
           },
-          "Utility": {
-            "text-slot": {
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#8b5cf6",
               "description": "Use for text of the Slot component.",
@@ -8635,172 +11011,680 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.color.violet.500}",
                 "description": "Use for text of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7053"
                 }
               },
-              "name": "TokensDarkColorTextUtilityTextSlot",
+              "name": "TokensDarkColorTextUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Text",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "text",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Text",
-                "Utility",
-                "text-slot"
+                "color",
+                "text",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#fca5a5",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16056"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16056"
+                }
+              },
+              "name": "TokensDarkColorTextChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#fdba74",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16057"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16057"
+                }
+              },
+              "name": "TokensDarkColorTextChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#fcd34d",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16058"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16058"
+                }
+              },
+              "name": "TokensDarkColorTextChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#fde047",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16059"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16059"
+                }
+              },
+              "name": "TokensDarkColorTextChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#bef264",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16060"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16060"
+                }
+              },
+              "name": "TokensDarkColorTextChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#86efac",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16061"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16061"
+                }
+              },
+              "name": "TokensDarkColorTextChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#6ee7b7",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16062"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16062"
+                }
+              },
+              "name": "TokensDarkColorTextChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#5eead4",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16063"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16063"
+                }
+              },
+              "name": "TokensDarkColorTextChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#67e8f9",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16064"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16064"
+                }
+              },
+              "name": "TokensDarkColorTextChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#7dd3fc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16065"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16065"
+                }
+              },
+              "name": "TokensDarkColorTextChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16066"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16066"
+                }
+              },
+              "name": "TokensDarkColorTextChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#a5b4fc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16067"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16067"
+                }
+              },
+              "name": "TokensDarkColorTextChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#c4b5fd",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16068"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16068"
+                }
+              },
+              "name": "TokensDarkColorTextChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#d8b4fe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16069"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16069"
+                }
+              },
+              "name": "TokensDarkColorTextChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#f0abfc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16070"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16070"
+                }
+              },
+              "name": "TokensDarkColorTextChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#f9a8d4",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16071"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16071"
+                }
+              },
+              "name": "TokensDarkColorTextChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#fda4af",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2754:16072"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2754:16072"
+                }
+              },
+              "name": "TokensDarkColorTextChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "text",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "text",
+                "chart",
+                "rose"
               ]
             }
           }
         },
-        "Icon": {
-          "Neutral": {
-            "icon": {
+        "icon": {
+          "default": {
+            "type": "color",
+            "value": "#a1a1aa",
+            "description": "The default color for icons.",
+            "$extensions": {
+              "variableId": "VariableID:75:51"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#a1a1aa",
+              "value": "{Foundations.color.neutral.400}",
               "description": "The default color for icons.",
               "$extensions": {
                 "variableId": "VariableID:75:51"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-400}",
-                "description": "The default color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:75:51"
-                }
-              },
-              "name": "TokensDarkColorIconNeutralIcon",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon"
-              ]
+              }
             },
-            "icon-hover": {
+            "name": "TokensDarkColorIconDefault",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "icon",
+              "state": "default"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "icon",
+              "default"
+            ]
+          },
+          "hover": {
+            "type": "color",
+            "value": "#f4f4f5",
+            "description": "The hover state color for icons.",
+            "$extensions": {
+              "variableId": "VariableID:75:52"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
               "type": "color",
-              "value": "#f4f4f5",
+              "value": "{Foundations.color.neutral.100}",
               "description": "The hover state color for icons.",
               "$extensions": {
                 "variableId": "VariableID:75:52"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-100}",
-                "description": "The hover state color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:75:52"
-                }
-              },
-              "name": "TokensDarkColorIconNeutralIconHover",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-hover"
-              ]
+              }
             },
-            "icon-active": {
-              "type": "color",
-              "value": "#fafafa",
-              "description": "The active state (on press) color for icons.",
-              "$extensions": {
-                "variableId": "VariableID:91:96"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-50}",
-                "description": "The active state (on press) color for icons.",
-                "$extensions": {
-                  "variableId": "VariableID:91:96"
-                }
-              },
-              "name": "TokensDarkColorIconNeutralIconActive",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-active"
-              ]
+            "name": "TokensDarkColorIconHover",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "icon",
+              "state": "hover"
             },
-            "icon-inverse": {
-              "type": "color",
-              "value": "#18181b",
-              "description": "Use for icon on dark background.",
-              "$extensions": {
-                "variableId": "VariableID:634:2407"
-              },
-              "filePath": "tokens/tokens.json",
-              "isSource": true,
-              "original": {
-                "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
-                "description": "Use for icon on dark background.",
-                "$extensions": {
-                  "variableId": "VariableID:634:2407"
-                }
-              },
-              "name": "TokensDarkColorIconNeutralIconInverse",
-              "attributes": {
-                "category": "Tokens",
-                "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Neutral"
-              },
-              "path": [
-                "Tokens",
-                "Dark",
-                "Color",
-                "Icon",
-                "Neutral",
-                "icon-inverse"
-              ]
-            }
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "icon",
+              "hover"
+            ]
           },
-          "Brand": {
-            "icon-brand": {
+          "brand": {
+            "default": {
               "type": "color",
               "value": "#3b82f6",
               "description": "Use for icons that need to pull more focus.",
@@ -8811,30 +11695,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-500}",
+                "value": "{Foundations.color.brand.500}",
                 "description": "Use for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:53"
                 }
               },
-              "name": "TokensDarkColorIconBrandIconBrand",
+              "name": "TokensDarkColorIconBrandDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand"
+                "color",
+                "icon",
+                "brand",
+                "default"
               ]
             },
-            "icon-brand-hover": {
+            "hover": {
               "type": "color",
               "value": "#2563eb",
               "description": "The hover color for icons that need to pull more focus.",
@@ -8845,30 +11729,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-600}",
+                "value": "{Foundations.color.brand.600}",
                 "description": "The hover color for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:54"
                 }
               },
-              "name": "TokensDarkColorIconBrandIconBrandHover",
+              "name": "TokensDarkColorIconBrandHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-hover"
+                "color",
+                "icon",
+                "brand",
+                "hover"
               ]
             },
-            "icon-brand-active": {
+            "active": {
               "type": "color",
               "value": "#60a5fa",
               "description": "The active state (on press) color for icons that need to pull more focus.",
@@ -8879,30 +11763,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-400}",
+                "value": "{Foundations.color.brand.400}",
                 "description": "The active state (on press) color for icons that need to pull more focus.",
                 "$extensions": {
                   "variableId": "VariableID:75:55"
                 }
               },
-              "name": "TokensDarkColorIconBrandIconBrandActive",
+              "name": "TokensDarkColorIconBrandActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-active"
+                "color",
+                "icon",
+                "brand",
+                "active"
               ]
             },
-            "icon-brand-strong": {
+            "strong": {
               "type": "color",
               "value": "#93c5fd",
               "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
@@ -8913,32 +11797,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Brand.brand-300}",
+                "value": "{Foundations.color.brand.300}",
                 "description": "Use for icon on bg-brand-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:632:1808"
                 }
               },
-              "name": "TokensDarkColorIconBrandIconBrandStrong",
+              "name": "TokensDarkColorIconBrandStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-strong"
+                "color",
+                "icon",
+                "brand",
+                "strong"
               ]
             },
-            "icon-brand-inverse": {
+            "inverse": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#ffffff",
               "description": "Use for icon on bg-brand, like primary buttons.",
               "$extensions": {
                 "variableId": "VariableID:634:2408"
@@ -8947,32 +11831,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for icon on bg-brand, like primary buttons.",
                 "$extensions": {
                   "variableId": "VariableID:634:2408"
                 }
               },
-              "name": "TokensDarkColorIconBrandIconBrandInverse",
+              "name": "TokensDarkColorIconBrandInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Brand"
+                "item": "color",
+                "subitem": "icon",
+                "state": "brand"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Brand",
-                "icon-brand-inverse"
+                "color",
+                "icon",
+                "brand",
+                "inverse"
               ]
             }
           },
-          "Danger": {
-            "icon-danger": {
+          "danger": {
+            "default": {
               "type": "color",
               "value": "#ef4444",
               "description": "Use for icons communicating critical information.",
@@ -8983,30 +11867,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-500}",
+                "value": "{Foundations.color.red.500}",
                 "description": "Use for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:56"
                 }
               },
-              "name": "TokensDarkColorIconDangerIconDanger",
+              "name": "TokensDarkColorIconDangerDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger"
+                "color",
+                "icon",
+                "danger",
+                "default"
               ]
             },
-            "icon-danger-hover": {
+            "hover": {
               "type": "color",
               "value": "#dc2626",
               "description": "The hover color for icons communicating critical information.",
@@ -9017,30 +11901,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-600}",
+                "value": "{Foundations.color.red.600}",
                 "description": "The hover color for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:57"
                 }
               },
-              "name": "TokensDarkColorIconDangerIconDangerHover",
+              "name": "TokensDarkColorIconDangerHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-hover"
+                "color",
+                "icon",
+                "danger",
+                "hover"
               ]
             },
-            "icon-danger-active": {
+            "active": {
               "type": "color",
               "value": "#f87171",
               "description": "The active state (on press) color for icons communicating critical information.",
@@ -9051,30 +11935,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-400}",
+                "value": "{Foundations.color.red.400}",
                 "description": "The active state (on press) color for icons communicating critical information.",
                 "$extensions": {
                   "variableId": "VariableID:75:58"
                 }
               },
-              "name": "TokensDarkColorIconDangerIconDangerActive",
+              "name": "TokensDarkColorIconDangerActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-active"
+                "color",
+                "icon",
+                "danger",
+                "active"
               ]
             },
-            "icon-danger-strong": {
+            "strong": {
               "type": "color",
               "value": "#fca5a5",
               "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
@@ -9085,32 +11969,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Red.red-300}",
+                "value": "{Foundations.color.red.300}",
                 "description": "Use for icon on bg-danger-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:632:1809"
                 }
               },
-              "name": "TokensDarkColorIconDangerIconDangerStrong",
+              "name": "TokensDarkColorIconDangerStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-strong"
+                "color",
+                "icon",
+                "danger",
+                "strong"
               ]
             },
-            "icon-danger-inverse": {
+            "inverse": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#ffffff",
               "description": "Use for icons on bg-danger.",
               "$extensions": {
                 "variableId": "VariableID:634:2409"
@@ -9119,32 +12003,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for icons on bg-danger.",
                 "$extensions": {
                   "variableId": "VariableID:634:2409"
                 }
               },
-              "name": "TokensDarkColorIconDangerIconDangerInverse",
+              "name": "TokensDarkColorIconDangerInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Danger"
+                "item": "color",
+                "subitem": "icon",
+                "state": "danger"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Danger",
-                "icon-danger-inverse"
+                "color",
+                "icon",
+                "danger",
+                "inverse"
               ]
             }
           },
-          "Warning": {
-            "icon-warning": {
+          "warning": {
+            "default": {
               "type": "color",
               "value": "#f59e0b",
               "description": "Use for icons communicating warning information.",
@@ -9155,30 +12039,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-500}",
+                "value": "{Foundations.color.amber.500}",
                 "description": "Use for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:62"
                 }
               },
-              "name": "TokensDarkColorIconWarningIconWarning",
+              "name": "TokensDarkColorIconWarningDefault",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning"
+                "color",
+                "icon",
+                "warning",
+                "default"
               ]
             },
-            "icon-warning-hover": {
+            "hover": {
               "type": "color",
               "value": "#d97706",
               "description": "The hover color for icons communicating warning information.",
@@ -9189,30 +12073,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-600}",
+                "value": "{Foundations.color.amber.600}",
                 "description": "The hover color for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:63"
                 }
               },
-              "name": "TokensDarkColorIconWarningIconWarningHover",
+              "name": "TokensDarkColorIconWarningHover",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-hover"
+                "color",
+                "icon",
+                "warning",
+                "hover"
               ]
             },
-            "icon-warning-active": {
+            "active": {
               "type": "color",
               "value": "#fbbf24",
               "description": "The active state (on press) color for icons communicating warning information.",
@@ -9223,30 +12107,30 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-400}",
+                "value": "{Foundations.color.amber.400}",
                 "description": "The active state (on press) color for icons communicating warning information.",
                 "$extensions": {
                   "variableId": "VariableID:75:64"
                 }
               },
-              "name": "TokensDarkColorIconWarningIconWarningActive",
+              "name": "TokensDarkColorIconWarningActive",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-active"
+                "color",
+                "icon",
+                "warning",
+                "active"
               ]
             },
-            "icon-warning-strong": {
+            "strong": {
               "type": "color",
               "value": "#fcd34d",
               "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
@@ -9257,32 +12141,32 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Amber.amber-300}",
+                "value": "{Foundations.color.amber.300}",
                 "description": "Use for icon on bg-warning-subtle and subtles, like badge and alert.",
                 "$extensions": {
                   "variableId": "VariableID:632:1810"
                 }
               },
-              "name": "TokensDarkColorIconWarningIconWarningStrong",
+              "name": "TokensDarkColorIconWarningStrong",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-strong"
+                "color",
+                "icon",
+                "warning",
+                "strong"
               ]
             },
-            "icon-warning-inverse": {
+            "inverse": {
               "type": "color",
-              "value": "#18181b",
+              "value": "#ffffff",
               "description": "Use for icons on bg-warning.",
               "$extensions": {
                 "variableId": "VariableID:634:2410"
@@ -9291,32 +12175,98 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Neutral.neutral-900}",
+                "value": "{Foundations.color.neutral.0}",
                 "description": "Use for icons on bg-warning.",
                 "$extensions": {
                   "variableId": "VariableID:634:2410"
                 }
               },
-              "name": "TokensDarkColorIconWarningIconWarningInverse",
+              "name": "TokensDarkColorIconWarningInverse",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Warning"
+                "item": "color",
+                "subitem": "icon",
+                "state": "warning"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Warning",
-                "icon-warning-inverse"
+                "color",
+                "icon",
+                "warning",
+                "inverse"
               ]
             }
           },
-          "Utility": {
-            "icon-slot": {
+          "active": {
+            "type": "color",
+            "value": "#fafafa",
+            "description": "The active state (on press) color for icons.",
+            "$extensions": {
+              "variableId": "VariableID:91:96"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.50}",
+              "description": "The active state (on press) color for icons.",
+              "$extensions": {
+                "variableId": "VariableID:91:96"
+              }
+            },
+            "name": "TokensDarkColorIconActive",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "icon",
+              "state": "active"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "icon",
+              "active"
+            ]
+          },
+          "inverse": {
+            "type": "color",
+            "value": "#18181b",
+            "description": "Use for icon on dark background.",
+            "$extensions": {
+              "variableId": "VariableID:634:2407"
+            },
+            "filePath": "tokens/tokens.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{Foundations.color.neutral.900}",
+              "description": "Use for icon on dark background.",
+              "$extensions": {
+                "variableId": "VariableID:634:2407"
+              }
+            },
+            "name": "TokensDarkColorIconInverse",
+            "attributes": {
+              "category": "Tokens",
+              "type": "Dark",
+              "item": "color",
+              "subitem": "icon",
+              "state": "inverse"
+            },
+            "path": [
+              "Tokens",
+              "Dark",
+              "color",
+              "icon",
+              "inverse"
+            ]
+          },
+          "utility": {
+            "slot": {
               "type": "color",
               "value": "#8b5cf6",
               "description": "Use for icon of the Slot component.",
@@ -9327,35 +12277,615 @@ module.exports = {
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "{Foundations.Color.Violet.violet-500}",
+                "value": "{Foundations.color.violet.500}",
                 "description": "Use for icon of the Slot component.",
                 "$extensions": {
                   "variableId": "VariableID:1851:7054"
                 }
               },
-              "name": "TokensDarkColorIconUtilityIconSlot",
+              "name": "TokensDarkColorIconUtilitySlot",
               "attributes": {
                 "category": "Tokens",
                 "type": "Dark",
-                "item": "Color",
-                "subitem": "Icon",
-                "state": "Utility"
+                "item": "color",
+                "subitem": "icon",
+                "state": "utility"
               },
               "path": [
                 "Tokens",
                 "Dark",
-                "Color",
-                "Icon",
-                "Utility",
-                "icon-slot"
+                "color",
+                "icon",
+                "utility",
+                "slot"
+              ]
+            }
+          },
+          "chart": {
+            "red": {
+              "type": "color",
+              "value": "#fca5a5",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16096"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.red.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16096"
+                }
+              },
+              "name": "TokensDarkColorIconChartRed",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "red"
+              ]
+            },
+            "orange": {
+              "type": "color",
+              "value": "#fdba74",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16097"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.orange.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16097"
+                }
+              },
+              "name": "TokensDarkColorIconChartOrange",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "orange"
+              ]
+            },
+            "amber": {
+              "type": "color",
+              "value": "#fcd34d",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16098"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.amber.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16098"
+                }
+              },
+              "name": "TokensDarkColorIconChartAmber",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "amber"
+              ]
+            },
+            "yellow": {
+              "type": "color",
+              "value": "#fde047",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16099"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.yellow.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16099"
+                }
+              },
+              "name": "TokensDarkColorIconChartYellow",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "yellow"
+              ]
+            },
+            "lime": {
+              "type": "color",
+              "value": "#bef264",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16100"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.lime.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16100"
+                }
+              },
+              "name": "TokensDarkColorIconChartLime",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "lime"
+              ]
+            },
+            "green": {
+              "type": "color",
+              "value": "#86efac",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16101"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.green.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16101"
+                }
+              },
+              "name": "TokensDarkColorIconChartGreen",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "green"
+              ]
+            },
+            "emerald": {
+              "type": "color",
+              "value": "#6ee7b7",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16102"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.emerald.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16102"
+                }
+              },
+              "name": "TokensDarkColorIconChartEmerald",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "emerald"
+              ]
+            },
+            "teal": {
+              "type": "color",
+              "value": "#5eead4",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16103"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.teal.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16103"
+                }
+              },
+              "name": "TokensDarkColorIconChartTeal",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "teal"
+              ]
+            },
+            "cyan": {
+              "type": "color",
+              "value": "#67e8f9",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16104"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.cyan.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16104"
+                }
+              },
+              "name": "TokensDarkColorIconChartCyan",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "cyan"
+              ]
+            },
+            "sky": {
+              "type": "color",
+              "value": "#7dd3fc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16105"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.sky.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16105"
+                }
+              },
+              "name": "TokensDarkColorIconChartSky",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "sky"
+              ]
+            },
+            "blue": {
+              "type": "color",
+              "value": "#93c5fd",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16106"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.blue.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16106"
+                }
+              },
+              "name": "TokensDarkColorIconChartBlue",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "blue"
+              ]
+            },
+            "indigo": {
+              "type": "color",
+              "value": "#a5b4fc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16107"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.indigo.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16107"
+                }
+              },
+              "name": "TokensDarkColorIconChartIndigo",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "indigo"
+              ]
+            },
+            "violet": {
+              "type": "color",
+              "value": "#c4b5fd",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16108"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.violet.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16108"
+                }
+              },
+              "name": "TokensDarkColorIconChartViolet",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "violet"
+              ]
+            },
+            "purple": {
+              "type": "color",
+              "value": "#d8b4fe",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16109"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.purple.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16109"
+                }
+              },
+              "name": "TokensDarkColorIconChartPurple",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "purple"
+              ]
+            },
+            "fuchsia": {
+              "type": "color",
+              "value": "#f0abfc",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16110"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.fuchsia.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16110"
+                }
+              },
+              "name": "TokensDarkColorIconChartFuchsia",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "fuchsia"
+              ]
+            },
+            "pink": {
+              "type": "color",
+              "value": "#f9a8d4",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16111"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.pink.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16111"
+                }
+              },
+              "name": "TokensDarkColorIconChartPink",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "pink"
+              ]
+            },
+            "rose": {
+              "type": "color",
+              "value": "#fda4af",
+              "description": "For data visualisation only.",
+              "$extensions": {
+                "variableId": "VariableID:2756:16112"
+              },
+              "filePath": "tokens/tokens.json",
+              "isSource": true,
+              "original": {
+                "type": "color",
+                "value": "{Foundations.color.rose.300}",
+                "description": "For data visualisation only.",
+                "$extensions": {
+                  "variableId": "VariableID:2756:16112"
+                }
+              },
+              "name": "TokensDarkColorIconChartRose",
+              "attributes": {
+                "category": "Tokens",
+                "type": "Dark",
+                "item": "color",
+                "subitem": "icon",
+                "state": "chart"
+              },
+              "path": [
+                "Tokens",
+                "Dark",
+                "color",
+                "icon",
+                "chart",
+                "rose"
               ]
             }
           }
         }
       },
-      "Border": {
-        "Radius": {
-          "rounded-none": {
+      "border": {
+        "radius": {
+          "none": {
             "type": "dimension",
             "value": "0px",
             "description": "Use for resetting the default border radius.",
@@ -9372,23 +12902,23 @@ module.exports = {
                 "variableId": "VariableID:91:105"
               }
             },
-            "name": "TokensDarkBorderRadiusRoundedNone",
+            "name": "TokensDarkBorderRadiusNone",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-none"
+              "item": "border",
+              "subitem": "radius",
+              "state": "none"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Radius",
-              "rounded-none"
+              "border",
+              "radius",
+              "none"
             ]
           },
-          "rounded-sm": {
+          "sm": {
             "type": "dimension",
             "value": "4px",
             "description": "Use in small size components, such as Checkbox and Segmented.",
@@ -9405,23 +12935,23 @@ module.exports = {
                 "variableId": "VariableID:1830:17744"
               }
             },
-            "name": "TokensDarkBorderRadiusRoundedSm",
+            "name": "TokensDarkBorderRadiusSm",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-sm"
+              "item": "border",
+              "subitem": "radius",
+              "state": "sm"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Radius",
-              "rounded-sm"
+              "border",
+              "radius",
+              "sm"
             ]
           },
-          "rounded": {
+          "default": {
             "type": "dimension",
             "value": "6px",
             "description": "Use in default components, such as Buttons and Inputs.",
@@ -9438,23 +12968,23 @@ module.exports = {
                 "variableId": "VariableID:1830:17745"
               }
             },
-            "name": "TokensDarkBorderRadiusRounded",
+            "name": "TokensDarkBorderRadiusDefault",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded"
+              "item": "border",
+              "subitem": "radius",
+              "state": "default"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Radius",
-              "rounded"
+              "border",
+              "radius",
+              "default"
             ]
           },
-          "rounded-lg": {
+          "lg": {
             "type": "dimension",
             "value": "8px",
             "description": "Use in large components, such as Card and Dialog.",
@@ -9471,25 +13001,25 @@ module.exports = {
                 "variableId": "VariableID:1830:17746"
               }
             },
-            "name": "TokensDarkBorderRadiusRoundedLg",
+            "name": "TokensDarkBorderRadiusLg",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-lg"
+              "item": "border",
+              "subitem": "radius",
+              "state": "lg"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Radius",
-              "rounded-lg"
+              "border",
+              "radius",
+              "lg"
             ]
           },
-          "rounded-full": {
+          "full": {
             "type": "dimension",
-            "value": "9999px",
+            "value": "999px",
             "description": "Use for having the maximum possible border radius.",
             "$extensions": {
               "variableId": "VariableID:1830:17747"
@@ -9498,31 +13028,31 @@ module.exports = {
             "isSource": true,
             "original": {
               "type": "dimension",
-              "value": "9999px",
+              "value": "999px",
               "description": "Use for having the maximum possible border radius.",
               "$extensions": {
                 "variableId": "VariableID:1830:17747"
               }
             },
-            "name": "TokensDarkBorderRadiusRoundedFull",
+            "name": "TokensDarkBorderRadiusFull",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Radius",
-              "state": "rounded-full"
+              "item": "border",
+              "subitem": "radius",
+              "state": "full"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Radius",
-              "rounded-full"
+              "border",
+              "radius",
+              "full"
             ]
           }
         },
-        "Width": {
-          "border-0": {
+        "width": {
+          "0": {
             "type": "dimension",
             "value": "0px",
             "description": "Use for resetting the default border width.",
@@ -9539,23 +13069,23 @@ module.exports = {
                 "variableId": "VariableID:1703:10647"
               }
             },
-            "name": "TokensDarkBorderWidthBorder0",
+            "name": "TokensDarkBorderWidth0",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Width",
-              "state": "border-0"
+              "item": "border",
+              "subitem": "width",
+              "state": "0"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Width",
-              "border-0"
+              "border",
+              "width",
+              "0"
             ]
           },
-          "border": {
+          "1": {
             "type": "dimension",
             "value": "1px",
             "description": "Use in default components, such as Buttons and Inputs.",
@@ -9572,23 +13102,23 @@ module.exports = {
                 "variableId": "VariableID:1703:13570"
               }
             },
-            "name": "TokensDarkBorderWidthBorder",
+            "name": "TokensDarkBorderWidth1",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Width",
-              "state": "border"
+              "item": "border",
+              "subitem": "width",
+              "state": "1"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Width",
-              "border"
+              "border",
+              "width",
+              "1"
             ]
           },
-          "border-2": {
+          "2": {
             "type": "dimension",
             "value": "2px",
             "description": "Use for focus rings and large borders, such as Slider and Switch.",
@@ -9605,25 +13135,25 @@ module.exports = {
                 "variableId": "VariableID:1703:13571"
               }
             },
-            "name": "TokensDarkBorderWidthBorder2",
+            "name": "TokensDarkBorderWidth2",
             "attributes": {
               "category": "Tokens",
               "type": "Dark",
-              "item": "Border",
-              "subitem": "Width",
-              "state": "border-2"
+              "item": "border",
+              "subitem": "width",
+              "state": "2"
             },
             "path": [
               "Tokens",
               "Dark",
-              "Border",
-              "Width",
-              "border-2"
+              "border",
+              "width",
+              "2"
             ]
           }
         }
       },
-      "Space": {
+      "space": {
         "0": {
           "type": "dimension",
           "value": "0px",
@@ -9635,7 +13165,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-0}",
+            "value": "{Foundations.scale.0}",
             "description": "Use for resetting default space.",
             "$extensions": {
               "variableId": "VariableID:125:289"
@@ -9645,13 +13175,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "0"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "0"
           ]
         },
@@ -9666,7 +13196,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-1}",
+            "value": "{Foundations.scale.1}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:292"
@@ -9676,13 +13206,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "1"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "1"
           ]
         },
@@ -9697,7 +13227,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-2}",
+            "value": "{Foundations.scale.2}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:295"
@@ -9707,13 +13237,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "2"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "2"
           ]
         },
@@ -9728,7 +13258,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-3}",
+            "value": "{Foundations.scale.3}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:297"
@@ -9738,13 +13268,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "3"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "3"
           ]
         },
@@ -9759,7 +13289,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-4}",
+            "value": "{Foundations.scale.4}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:299"
@@ -9769,13 +13299,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "4"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "4"
           ]
         },
@@ -9790,7 +13320,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-5}",
+            "value": "{Foundations.scale.5}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:300"
@@ -9800,13 +13330,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "5"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "5"
           ]
         },
@@ -9821,7 +13351,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-6}",
+            "value": "{Foundations.scale.6}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:125:301"
@@ -9831,13 +13361,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "6"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "6"
           ]
         },
@@ -9852,7 +13382,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-7}",
+            "value": "{Foundations.scale.7}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6641"
@@ -9862,13 +13392,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "7"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "7"
           ]
         },
@@ -9883,7 +13413,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-8}",
+            "value": "{Foundations.scale.8}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6642"
@@ -9893,13 +13423,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "8"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "8"
           ]
         },
@@ -9914,7 +13444,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-9}",
+            "value": "{Foundations.scale.9}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6643"
@@ -9924,13 +13454,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "9"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "9"
           ]
         },
@@ -9945,7 +13475,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-10}",
+            "value": "{Foundations.scale.10}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6644"
@@ -9955,13 +13485,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "10"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "10"
           ]
         },
@@ -9976,7 +13506,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-11}",
+            "value": "{Foundations.scale.11}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6645"
@@ -9986,13 +13516,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "11"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "11"
           ]
         },
@@ -10007,7 +13537,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-12}",
+            "value": "{Foundations.scale.12}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6647"
@@ -10017,13 +13547,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "12"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "12"
           ]
         },
@@ -10038,7 +13568,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-14}",
+            "value": "{Foundations.scale.14}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6648"
@@ -10048,13 +13578,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "14"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "14"
           ]
         },
@@ -10069,7 +13599,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-16}",
+            "value": "{Foundations.scale.16}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6649"
@@ -10079,13 +13609,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "16"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "16"
           ]
         },
@@ -10100,7 +13630,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-20}",
+            "value": "{Foundations.scale.20}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:6650"
@@ -10110,13 +13640,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "20"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "20"
           ]
         },
@@ -10131,7 +13661,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-24}",
+            "value": "{Foundations.scale.24}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6651"
@@ -10141,13 +13671,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "24"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "24"
           ]
         },
@@ -10162,7 +13692,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-28}",
+            "value": "{Foundations.scale.28}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6652"
@@ -10172,13 +13702,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "28"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "28"
           ]
         },
@@ -10193,7 +13723,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-32}",
+            "value": "{Foundations.scale.32}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6653"
@@ -10203,13 +13733,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "32"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "32"
           ]
         },
@@ -10224,7 +13754,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-36}",
+            "value": "{Foundations.scale.36}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6654"
@@ -10234,13 +13764,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "36"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "36"
           ]
         },
@@ -10255,7 +13785,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-40}",
+            "value": "{Foundations.scale.40}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6655"
@@ -10265,13 +13795,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "40"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "40"
           ]
         },
@@ -10286,7 +13816,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-44}",
+            "value": "{Foundations.scale.44}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6656"
@@ -10296,13 +13826,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "44"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "44"
           ]
         },
@@ -10317,7 +13847,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-48}",
+            "value": "{Foundations.scale.48}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6657"
@@ -10327,13 +13857,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "48"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "48"
           ]
         },
@@ -10348,7 +13878,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-52}",
+            "value": "{Foundations.scale.52}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6658"
@@ -10358,13 +13888,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "52"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "52"
           ]
         },
@@ -10379,7 +13909,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-56}",
+            "value": "{Foundations.scale.56}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6659"
@@ -10389,13 +13919,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "56"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "56"
           ]
         },
@@ -10410,7 +13940,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-60}",
+            "value": "{Foundations.scale.60}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6660"
@@ -10420,13 +13950,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "60"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "60"
           ]
         },
@@ -10441,7 +13971,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-64}",
+            "value": "{Foundations.scale.64}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6661"
@@ -10451,13 +13981,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "64"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "64"
           ]
         },
@@ -10472,7 +14002,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-72}",
+            "value": "{Foundations.scale.72}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6662"
@@ -10482,13 +14012,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "72"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "72"
           ]
         },
@@ -10503,7 +14033,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-80}",
+            "value": "{Foundations.scale.80}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6663"
@@ -10513,13 +14043,13 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "80"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "80"
           ]
         },
@@ -10534,7 +14064,7 @@ module.exports = {
           "isSource": true,
           "original": {
             "type": "dimension",
-            "value": "{Foundations.Scale.scale-96}",
+            "value": "{Foundations.scale.96}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:6664"
@@ -10544,18 +14074,18 @@ module.exports = {
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Space",
+            "item": "space",
             "subitem": "96"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Space",
+            "space",
             "96"
           ]
         }
       },
-      "Breakpoints": {
+      "breakpoint": {
         "xs": {
           "type": "dimension",
           "value": "390px",
@@ -10573,17 +14103,17 @@ module.exports = {
               "variableId": "VariableID:233:721"
             }
           },
-          "name": "TokensDarkBreakpointsXs",
+          "name": "TokensDarkBreakpointXs",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "xs"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Breakpoints",
+            "breakpoint",
             "xs"
           ]
         },
@@ -10604,17 +14134,17 @@ module.exports = {
               "variableId": "VariableID:233:730"
             }
           },
-          "name": "TokensDarkBreakpointsSm",
+          "name": "TokensDarkBreakpointSm",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "sm"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Breakpoints",
+            "breakpoint",
             "sm"
           ]
         },
@@ -10635,17 +14165,17 @@ module.exports = {
               "variableId": "VariableID:233:731"
             }
           },
-          "name": "TokensDarkBreakpointsMd",
+          "name": "TokensDarkBreakpointMd",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "md"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Breakpoints",
+            "breakpoint",
             "md"
           ]
         },
@@ -10666,17 +14196,17 @@ module.exports = {
               "variableId": "VariableID:233:732"
             }
           },
-          "name": "TokensDarkBreakpointsLg",
+          "name": "TokensDarkBreakpointLg",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "lg"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Breakpoints",
+            "breakpoint",
             "lg"
           ]
         },
@@ -10697,17 +14227,17 @@ module.exports = {
               "variableId": "VariableID:233:733"
             }
           },
-          "name": "TokensDarkBreakpointsXl",
+          "name": "TokensDarkBreakpointXl",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "xl"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Breakpoints",
+            "breakpoint",
             "xl"
           ]
         },
@@ -10728,2009 +14258,955 @@ module.exports = {
               "variableId": "VariableID:233:735"
             }
           },
-          "name": "TokensDarkBreakpoints2xl",
+          "name": "TokensDarkBreakpoint2xl",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Breakpoints",
+            "item": "breakpoint",
             "subitem": "2xl"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Breakpoints",
+            "breakpoint",
             "2xl"
           ]
         }
       },
-      "Size": {
-        "Width": {
-          "w-0": {
+      "size": {
+        "0": {
+          "type": "dimension",
+          "value": "0px",
+          "description": "Use for resetting default size.",
+          "$extensions": {
+            "variableId": "VariableID:621:1420"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "0px",
-            "description": "Use for resetting default width.",
+            "value": "{Foundations.scale.0}",
+            "description": "Use for resetting default size.",
             "$extensions": {
               "variableId": "VariableID:621:1420"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-0}",
-              "description": "Use for resetting default width.",
-              "$extensions": {
-                "variableId": "VariableID:621:1420"
-              }
-            },
-            "name": "TokensDarkSizeWidthW0",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-0"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-0"
-            ]
+            }
           },
-          "w-1": {
+          "name": "TokensDarkSize0",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "0"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "0"
+          ]
+        },
+        "1": {
+          "type": "dimension",
+          "value": "4px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17685"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "4px",
+            "value": "{Foundations.scale.1}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17685"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-1}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17685"
-              }
-            },
-            "name": "TokensDarkSizeWidthW1",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-1"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-1"
-            ]
+            }
           },
-          "w-2": {
+          "name": "TokensDarkSize1",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "1"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "1"
+          ]
+        },
+        "2": {
+          "type": "dimension",
+          "value": "8px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17686"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "8px",
+            "value": "{Foundations.scale.2}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17686"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-2}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17686"
-              }
-            },
-            "name": "TokensDarkSizeWidthW2",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-2"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-2"
-            ]
+            }
           },
-          "w-3": {
+          "name": "TokensDarkSize2",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "2"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "2"
+          ]
+        },
+        "3": {
+          "type": "dimension",
+          "value": "12px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17687"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "12px",
+            "value": "{Foundations.scale.3}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17687"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-3}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17687"
-              }
-            },
-            "name": "TokensDarkSizeWidthW3",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-3"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-3"
-            ]
+            }
           },
-          "w-4": {
+          "name": "TokensDarkSize3",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "3"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "3"
+          ]
+        },
+        "4": {
+          "type": "dimension",
+          "value": "16px",
+          "description": "Use for small and compact pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17688"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "16px",
+            "value": "{Foundations.scale.4}",
             "description": "Use for small and compact pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17688"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-4}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17688"
-              }
-            },
-            "name": "TokensDarkSizeWidthW4",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-4"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-4"
-            ]
+            }
           },
-          "w-5": {
+          "name": "TokensDarkSize4",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "4"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "4"
+          ]
+        },
+        "5": {
+          "type": "dimension",
+          "value": "20px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17689"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "20px",
+            "value": "{Foundations.scale.5}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17689"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-5}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17689"
-              }
-            },
-            "name": "TokensDarkSizeWidthW5",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-5"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-5"
-            ]
+            }
           },
-          "w-6": {
+          "name": "TokensDarkSize5",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "5"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "5"
+          ]
+        },
+        "6": {
+          "type": "dimension",
+          "value": "24px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17690"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "24px",
+            "value": "{Foundations.scale.6}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17690"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-6}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17690"
-              }
-            },
-            "name": "TokensDarkSizeWidthW6",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-6"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-6"
-            ]
+            }
           },
-          "w-7": {
+          "name": "TokensDarkSize6",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "6"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "6"
+          ]
+        },
+        "7": {
+          "type": "dimension",
+          "value": "28px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17691"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "28px",
+            "value": "{Foundations.scale.7}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17691"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-7}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17691"
-              }
-            },
-            "name": "TokensDarkSizeWidthW7",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-7"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-7"
-            ]
+            }
           },
-          "w-8": {
+          "name": "TokensDarkSize7",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "7"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "7"
+          ]
+        },
+        "8": {
+          "type": "dimension",
+          "value": "32px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17692"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "32px",
+            "value": "{Foundations.scale.8}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17692"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-8}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17692"
-              }
-            },
-            "name": "TokensDarkSizeWidthW8",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-8"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-8"
-            ]
+            }
           },
-          "w-9": {
+          "name": "TokensDarkSize8",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "8"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "8"
+          ]
+        },
+        "9": {
+          "type": "dimension",
+          "value": "36px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17693"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "36px",
+            "value": "{Foundations.scale.9}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17693"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-9}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17693"
-              }
-            },
-            "name": "TokensDarkSizeWidthW9",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-9"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-9"
-            ]
+            }
           },
-          "w-10": {
+          "name": "TokensDarkSize9",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "9"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "9"
+          ]
+        },
+        "10": {
+          "type": "dimension",
+          "value": "40px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17694"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "40px",
+            "value": "{Foundations.scale.10}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17694"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-10}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17694"
-              }
-            },
-            "name": "TokensDarkSizeWidthW10",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-10"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-10"
-            ]
+            }
           },
-          "w-11": {
+          "name": "TokensDarkSize10",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "10"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "10"
+          ]
+        },
+        "11": {
+          "type": "dimension",
+          "value": "44px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17695"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "44px",
+            "value": "{Foundations.scale.11}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17695"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-11}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17695"
-              }
-            },
-            "name": "TokensDarkSizeWidthW11",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-11"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-11"
-            ]
+            }
           },
-          "w-12": {
+          "name": "TokensDarkSize11",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "11"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "11"
+          ]
+        },
+        "12": {
+          "type": "dimension",
+          "value": "48px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17696"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "48px",
+            "value": "{Foundations.scale.12}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17696"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-12}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17696"
-              }
-            },
-            "name": "TokensDarkSizeWidthW12",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-12"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-12"
-            ]
+            }
           },
-          "w-14": {
+          "name": "TokensDarkSize12",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "12"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "12"
+          ]
+        },
+        "14": {
+          "type": "dimension",
+          "value": "56px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17697"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "56px",
+            "value": "{Foundations.scale.14}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17697"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-14}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17697"
-              }
-            },
-            "name": "TokensDarkSizeWidthW14",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-14"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-14"
-            ]
+            }
           },
-          "w-16": {
+          "name": "TokensDarkSize14",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "14"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "14"
+          ]
+        },
+        "16": {
+          "type": "dimension",
+          "value": "64px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17698"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "64px",
+            "value": "{Foundations.scale.16}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17698"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-16}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17698"
-              }
-            },
-            "name": "TokensDarkSizeWidthW16",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-16"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-16"
-            ]
+            }
           },
-          "w-20": {
+          "name": "TokensDarkSize16",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "16"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "16"
+          ]
+        },
+        "20": {
+          "type": "dimension",
+          "value": "80px",
+          "description": "Use for larger and less dense pieces of UI.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17699"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "80px",
+            "value": "{Foundations.scale.20}",
             "description": "Use for larger and less dense pieces of UI.",
             "$extensions": {
               "variableId": "VariableID:1829:17699"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-20}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17699"
-              }
-            },
-            "name": "TokensDarkSizeWidthW20",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-20"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-20"
-            ]
+            }
           },
-          "w-24": {
+          "name": "TokensDarkSize20",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "20"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "20"
+          ]
+        },
+        "24": {
+          "type": "dimension",
+          "value": "96px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17700"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "96px",
+            "value": "{Foundations.scale.24}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17700"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-24}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17700"
-              }
-            },
-            "name": "TokensDarkSizeWidthW24",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-24"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-24"
-            ]
+            }
           },
-          "w-28": {
+          "name": "TokensDarkSize24",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "24"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "24"
+          ]
+        },
+        "28": {
+          "type": "dimension",
+          "value": "112px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17701"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "112px",
+            "value": "{Foundations.scale.28}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17701"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-28}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17701"
-              }
-            },
-            "name": "TokensDarkSizeWidthW28",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-28"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-28"
-            ]
+            }
           },
-          "w-32": {
+          "name": "TokensDarkSize28",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "28"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "28"
+          ]
+        },
+        "32": {
+          "type": "dimension",
+          "value": "128px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17702"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "128px",
+            "value": "{Foundations.scale.32}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17702"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-32}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17702"
-              }
-            },
-            "name": "TokensDarkSizeWidthW32",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-32"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-32"
-            ]
+            }
           },
-          "w-36": {
+          "name": "TokensDarkSize32",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "32"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "32"
+          ]
+        },
+        "36": {
+          "type": "dimension",
+          "value": "144px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17703"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "144px",
+            "value": "{Foundations.scale.36}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17703"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-36}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17703"
-              }
-            },
-            "name": "TokensDarkSizeWidthW36",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-36"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-36"
-            ]
+            }
           },
-          "w-40": {
+          "name": "TokensDarkSize36",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "36"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "36"
+          ]
+        },
+        "40": {
+          "type": "dimension",
+          "value": "160px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17704"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "160px",
+            "value": "{Foundations.scale.40}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17704"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-40}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17704"
-              }
-            },
-            "name": "TokensDarkSizeWidthW40",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-40"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-40"
-            ]
+            }
           },
-          "w-44": {
+          "name": "TokensDarkSize40",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "40"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "40"
+          ]
+        },
+        "44": {
+          "type": "dimension",
+          "value": "176px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17705"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "176px",
+            "value": "{Foundations.scale.44}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17705"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-44}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17705"
-              }
-            },
-            "name": "TokensDarkSizeWidthW44",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-44"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-44"
-            ]
+            }
           },
-          "w-48": {
+          "name": "TokensDarkSize44",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "44"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "44"
+          ]
+        },
+        "48": {
+          "type": "dimension",
+          "value": "192px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17706"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "192px",
+            "value": "{Foundations.scale.48}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17706"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-48}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17706"
-              }
-            },
-            "name": "TokensDarkSizeWidthW48",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-48"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-48"
-            ]
+            }
           },
-          "w-52": {
+          "name": "TokensDarkSize48",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "48"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "48"
+          ]
+        },
+        "52": {
+          "type": "dimension",
+          "value": "208px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17707"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "208px",
+            "value": "{Foundations.scale.52}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17707"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-52}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17707"
-              }
-            },
-            "name": "TokensDarkSizeWidthW52",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-52"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-52"
-            ]
+            }
           },
-          "w-56": {
+          "name": "TokensDarkSize52",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "52"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "52"
+          ]
+        },
+        "56": {
+          "type": "dimension",
+          "value": "224px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17708"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "224px",
+            "value": "{Foundations.scale.56}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17708"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-56}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17708"
-              }
-            },
-            "name": "TokensDarkSizeWidthW56",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-56"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-56"
-            ]
+            }
           },
-          "w-60": {
+          "name": "TokensDarkSize56",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "56"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "56"
+          ]
+        },
+        "60": {
+          "type": "dimension",
+          "value": "240px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17709"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "240px",
+            "value": "{Foundations.scale.60}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17709"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-60}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17709"
-              }
-            },
-            "name": "TokensDarkSizeWidthW60",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-60"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-60"
-            ]
+            }
           },
-          "w-64": {
+          "name": "TokensDarkSize60",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "60"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "60"
+          ]
+        },
+        "64": {
+          "type": "dimension",
+          "value": "256px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17710"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "256px",
+            "value": "{Foundations.scale.64}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17710"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-64}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17710"
-              }
-            },
-            "name": "TokensDarkSizeWidthW64",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-64"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-64"
-            ]
+            }
           },
-          "w-72": {
+          "name": "TokensDarkSize64",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "64"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "64"
+          ]
+        },
+        "72": {
+          "type": "dimension",
+          "value": "288px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17711"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "288px",
+            "value": "{Foundations.scale.72}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17711"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-72}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17711"
-              }
-            },
-            "name": "TokensDarkSizeWidthW72",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-72"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-72"
-            ]
+            }
           },
-          "w-80": {
+          "name": "TokensDarkSize72",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "72"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "72"
+          ]
+        },
+        "80": {
+          "type": "dimension",
+          "value": "320px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17712"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "320px",
+            "value": "{Foundations.scale.80}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17712"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-80}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17712"
-              }
-            },
-            "name": "TokensDarkSizeWidthW80",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-80"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-80"
-            ]
+            }
           },
-          "w-96": {
+          "name": "TokensDarkSize80",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "80"
+          },
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "80"
+          ]
+        },
+        "96": {
+          "type": "dimension",
+          "value": "384px",
+          "description": "Use for the largest pieces of UI and for layout elements.",
+          "$extensions": {
+            "variableId": "VariableID:1829:17713"
+          },
+          "filePath": "tokens/tokens.json",
+          "isSource": true,
+          "original": {
             "type": "dimension",
-            "value": "384px",
+            "value": "{Foundations.scale.96}",
             "description": "Use for the largest pieces of UI and for layout elements.",
             "$extensions": {
               "variableId": "VariableID:1829:17713"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-96}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1829:17713"
-              }
-            },
-            "name": "TokensDarkSizeWidthW96",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Width",
-              "state": "w-96"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Width",
-              "w-96"
-            ]
-          }
-        },
-        "Height": {
-          "h-0": {
-            "type": "dimension",
-            "value": "0px",
-            "description": "Use for resetting default height.",
-            "$extensions": {
-              "variableId": "VariableID:621:1421"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-0}",
-              "description": "Use for resetting default height.",
-              "$extensions": {
-                "variableId": "VariableID:621:1421"
-              }
-            },
-            "name": "TokensDarkSizeHeightH0",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-0"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-0"
-            ]
+            }
           },
-          "h-1": {
-            "type": "dimension",
-            "value": "4px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17714"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-1}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17714"
-              }
-            },
-            "name": "TokensDarkSizeHeightH1",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-1"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-1"
-            ]
+          "name": "TokensDarkSize96",
+          "attributes": {
+            "category": "Tokens",
+            "type": "Dark",
+            "item": "size",
+            "subitem": "96"
           },
-          "h-2": {
-            "type": "dimension",
-            "value": "8px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17715"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-2}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17715"
-              }
-            },
-            "name": "TokensDarkSizeHeightH2",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-2"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-2"
-            ]
-          },
-          "h-3": {
-            "type": "dimension",
-            "value": "12px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17716"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-3}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17716"
-              }
-            },
-            "name": "TokensDarkSizeHeightH3",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-3"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-3"
-            ]
-          },
-          "h-4": {
-            "type": "dimension",
-            "value": "16px",
-            "description": "Use for small and compact pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17717"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-4}",
-              "description": "Use for small and compact pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17717"
-              }
-            },
-            "name": "TokensDarkSizeHeightH4",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-4"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-4"
-            ]
-          },
-          "h-5": {
-            "type": "dimension",
-            "value": "20px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17718"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-5}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17718"
-              }
-            },
-            "name": "TokensDarkSizeHeightH5",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-5"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-5"
-            ]
-          },
-          "h-6": {
-            "type": "dimension",
-            "value": "24px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17719"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-6}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17719"
-              }
-            },
-            "name": "TokensDarkSizeHeightH6",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-6"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-6"
-            ]
-          },
-          "h-7": {
-            "type": "dimension",
-            "value": "28px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17720"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-7}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17720"
-              }
-            },
-            "name": "TokensDarkSizeHeightH7",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-7"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-7"
-            ]
-          },
-          "h-8": {
-            "type": "dimension",
-            "value": "32px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17721"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-8}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17721"
-              }
-            },
-            "name": "TokensDarkSizeHeightH8",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-8"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-8"
-            ]
-          },
-          "h-9": {
-            "type": "dimension",
-            "value": "36px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17722"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-9}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17722"
-              }
-            },
-            "name": "TokensDarkSizeHeightH9",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-9"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-9"
-            ]
-          },
-          "h-10": {
-            "type": "dimension",
-            "value": "40px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17723"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-10}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17723"
-              }
-            },
-            "name": "TokensDarkSizeHeightH10",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-10"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-10"
-            ]
-          },
-          "h-11": {
-            "type": "dimension",
-            "value": "44px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17724"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-11}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17724"
-              }
-            },
-            "name": "TokensDarkSizeHeightH11",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-11"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-11"
-            ]
-          },
-          "h-12": {
-            "type": "dimension",
-            "value": "48px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17725"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-12}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17725"
-              }
-            },
-            "name": "TokensDarkSizeHeightH12",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-12"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-12"
-            ]
-          },
-          "h-14": {
-            "type": "dimension",
-            "value": "56px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17726"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-14}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17726"
-              }
-            },
-            "name": "TokensDarkSizeHeightH14",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-14"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-14"
-            ]
-          },
-          "h-16": {
-            "type": "dimension",
-            "value": "64px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17727"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-16}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17727"
-              }
-            },
-            "name": "TokensDarkSizeHeightH16",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-16"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-16"
-            ]
-          },
-          "h-20": {
-            "type": "dimension",
-            "value": "80px",
-            "description": "Use for larger and less dense pieces of UI.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17728"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-20}",
-              "description": "Use for larger and less dense pieces of UI.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17728"
-              }
-            },
-            "name": "TokensDarkSizeHeightH20",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-20"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-20"
-            ]
-          },
-          "h-24": {
-            "type": "dimension",
-            "value": "96px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17729"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-24}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17729"
-              }
-            },
-            "name": "TokensDarkSizeHeightH24",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-24"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-24"
-            ]
-          },
-          "h-28": {
-            "type": "dimension",
-            "value": "112px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17730"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-28}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17730"
-              }
-            },
-            "name": "TokensDarkSizeHeightH28",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-28"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-28"
-            ]
-          },
-          "h-32": {
-            "type": "dimension",
-            "value": "128px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17731"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-32}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17731"
-              }
-            },
-            "name": "TokensDarkSizeHeightH32",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-32"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-32"
-            ]
-          },
-          "h-36": {
-            "type": "dimension",
-            "value": "144px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17732"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-36}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17732"
-              }
-            },
-            "name": "TokensDarkSizeHeightH36",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-36"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-36"
-            ]
-          },
-          "h-40": {
-            "type": "dimension",
-            "value": "160px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17733"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-40}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17733"
-              }
-            },
-            "name": "TokensDarkSizeHeightH40",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-40"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-40"
-            ]
-          },
-          "h-44": {
-            "type": "dimension",
-            "value": "176px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17734"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-44}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17734"
-              }
-            },
-            "name": "TokensDarkSizeHeightH44",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-44"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-44"
-            ]
-          },
-          "h-48": {
-            "type": "dimension",
-            "value": "192px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17735"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-48}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17735"
-              }
-            },
-            "name": "TokensDarkSizeHeightH48",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-48"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-48"
-            ]
-          },
-          "h-52": {
-            "type": "dimension",
-            "value": "208px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17736"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-52}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17736"
-              }
-            },
-            "name": "TokensDarkSizeHeightH52",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-52"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-52"
-            ]
-          },
-          "h-56": {
-            "type": "dimension",
-            "value": "224px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17737"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-56}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17737"
-              }
-            },
-            "name": "TokensDarkSizeHeightH56",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-56"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-56"
-            ]
-          },
-          "h-60": {
-            "type": "dimension",
-            "value": "240px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17738"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-60}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17738"
-              }
-            },
-            "name": "TokensDarkSizeHeightH60",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-60"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-60"
-            ]
-          },
-          "h-64": {
-            "type": "dimension",
-            "value": "256px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17739"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-64}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17739"
-              }
-            },
-            "name": "TokensDarkSizeHeightH64",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-64"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-64"
-            ]
-          },
-          "h-72": {
-            "type": "dimension",
-            "value": "288px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17740"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-72}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17740"
-              }
-            },
-            "name": "TokensDarkSizeHeightH72",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-72"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-72"
-            ]
-          },
-          "h-80": {
-            "type": "dimension",
-            "value": "320px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17741"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-80}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17741"
-              }
-            },
-            "name": "TokensDarkSizeHeightH80",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-80"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-80"
-            ]
-          },
-          "h-96": {
-            "type": "dimension",
-            "value": "384px",
-            "description": "Use for the largest pieces of UI and for layout elements.",
-            "$extensions": {
-              "variableId": "VariableID:1830:17742"
-            },
-            "filePath": "tokens/tokens.json",
-            "isSource": true,
-            "original": {
-              "type": "dimension",
-              "value": "{Foundations.Scale.scale-96}",
-              "description": "Use for the largest pieces of UI and for layout elements.",
-              "$extensions": {
-                "variableId": "VariableID:1830:17742"
-              }
-            },
-            "name": "TokensDarkSizeHeightH96",
-            "attributes": {
-              "category": "Tokens",
-              "type": "Dark",
-              "item": "Size",
-              "subitem": "Height",
-              "state": "h-96"
-            },
-            "path": [
-              "Tokens",
-              "Dark",
-              "Size",
-              "Height",
-              "h-96"
-            ]
-          }
+          "path": [
+            "Tokens",
+            "Dark",
+            "size",
+            "96"
+          ]
         }
       },
-      "Opacity": {
-        "opacity-visible": {
+      "opacity": {
+        "visible": {
           "type": "dimension",
           "value": "100px",
           "description": "Apply to content that is completely visible.",
@@ -12747,21 +15223,21 @@ module.exports = {
               "variableId": "VariableID:1708:14183"
             }
           },
-          "name": "TokensDarkOpacityOpacityVisible",
+          "name": "TokensDarkOpacityVisible",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Opacity",
-            "subitem": "opacity-visible"
+            "item": "opacity",
+            "subitem": "visible"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Opacity",
-            "opacity-visible"
+            "opacity",
+            "visible"
           ]
         },
-        "opacity-hover": {
+        "hover": {
           "type": "dimension",
           "value": "80px",
           "description": "Apply to content when in an hover state.",
@@ -12778,21 +15254,21 @@ module.exports = {
               "variableId": "VariableID:1708:14184"
             }
           },
-          "name": "TokensDarkOpacityOpacityHover",
+          "name": "TokensDarkOpacityHover",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Opacity",
-            "subitem": "opacity-hover"
+            "item": "opacity",
+            "subitem": "hover"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Opacity",
-            "opacity-hover"
+            "opacity",
+            "hover"
           ]
         },
-        "opacity-disabled": {
+        "disabled": {
           "type": "dimension",
           "value": "50px",
           "description": "Apply to content when in a disabled state.",
@@ -12809,21 +15285,21 @@ module.exports = {
               "variableId": "VariableID:1708:14185"
             }
           },
-          "name": "TokensDarkOpacityOpacityDisabled",
+          "name": "TokensDarkOpacityDisabled",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Opacity",
-            "subitem": "opacity-disabled"
+            "item": "opacity",
+            "subitem": "disabled"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Opacity",
-            "opacity-disabled"
+            "opacity",
+            "disabled"
           ]
         },
-        "opacity-loading": {
+        "loading": {
           "type": "dimension",
           "value": "30px",
           "description": "Apply to content when in a loading state.",
@@ -12840,21 +15316,21 @@ module.exports = {
               "variableId": "VariableID:1846:18012"
             }
           },
-          "name": "TokensDarkOpacityOpacityLoading",
+          "name": "TokensDarkOpacityLoading",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Opacity",
-            "subitem": "opacity-loading"
+            "item": "opacity",
+            "subitem": "loading"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Opacity",
-            "opacity-loading"
+            "opacity",
+            "loading"
           ]
         },
-        "opacity-invisible": {
+        "invisible": {
           "type": "dimension",
           "value": "0px",
           "description": "Apply to content that is completely invisible.",
@@ -12871,18 +15347,18 @@ module.exports = {
               "variableId": "VariableID:1846:18013"
             }
           },
-          "name": "TokensDarkOpacityOpacityInvisible",
+          "name": "TokensDarkOpacityInvisible",
           "attributes": {
             "category": "Tokens",
             "type": "Dark",
-            "item": "Opacity",
-            "subitem": "opacity-invisible"
+            "item": "opacity",
+            "subitem": "invisible"
           },
           "path": [
             "Tokens",
             "Dark",
-            "Opacity",
-            "opacity-invisible"
+            "opacity",
+            "invisible"
           ]
         }
       }

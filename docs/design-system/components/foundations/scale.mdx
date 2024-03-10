@@ -10,6 +10,9 @@ export const FoundationsScale = () => (
             <th align="right">
               <span className="pr-4">Value</span>
             </th>
+            <th className="hidden lg:table-cell" align="left">
+              Token
+            </th>
             <th
               className="hidden sm:table-cell md:hidden lg:table-cell"
               align="left"
@@ -19,13 +22,18 @@ export const FoundationsScale = () => (
           </tr>
         </thead>
         <tbody>
-          {Object.entries(scale.Foundations.Scale).map(
+          {Object.entries(scale.Foundations.scale).map(
             ([tokenName, tokenInfo]) => (
               <tr key={tokenName}>
-                <td className="cell-title">{tokenName}</td>
+                <td className="cell-title">Scale-{tokenName}</td>
                 <td>
                   <div className="cell-value-scale" align="right">
                     {tokenInfo.value}
+                  </div>
+                </td>
+                <td className="hidden lg:table-cell">
+                  <div className="cell-token-scale">
+                    <code>scale-{tokenName}</code>
                   </div>
                 </td>
                 <td className="hidden sm:table-cell md:hidden lg:table-cell">
