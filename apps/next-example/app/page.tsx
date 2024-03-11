@@ -13,7 +13,7 @@ export default function Home() {
           toast({
             title: "Let's start",
             description: 'Build your fantastic webapp',
-            status:"brand"
+            status: 'brand',
           });
         }}
       >

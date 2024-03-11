@@ -13,8 +13,6 @@ import {
   OverlayList,
 } from "react-figma-ui/ui";
 
-import { config } from "../../utils/config";
-
 import { Toast } from "../../components/Toast";
 import { ServerSettingsView } from "../ServerSettingsView";
 
@@ -367,27 +365,8 @@ export const SettingsView = (props: ViewProps) => {
                 }
               )}
             </Stack>
-
-            <Stack>
-              <Button
-                loading={isPushing}
-                label="Push to server"
-                onClick={getTokensForPush}
-                fullWidth
-              />
-            </Stack>
           </Stack>
         )}
-      </Panel>
-      <Panel hasLeftRightPadding bottomBorder={false} >
-        <Stack hasLeftRightPadding hasTopBottomPadding>
-          <Button
-            label="Download JSON"
-            onClick={getTokensForDownload}
-            fullWidth
-            secondary
-          />
-        </Stack>
       </Panel>
     </>
   );
@@ -427,6 +406,36 @@ export const SettingsView = (props: ViewProps) => {
     }
   };
 
+  const BottomBar = () => {
+    if (currentView === "main") {
+      return (
+        <Panel hasLeftRightPadding topBorder bottomBorder={false}>
+          {isAnyServerEnabled && (
+            <Stack>
+              <Button
+                loading={isPushing}
+                label="Push to server"
+                onClick={getTokensForPush}
+                fullWidth
+              />
+            </Stack>
+          )}
+          <Stack hasLeftRightPadding hasTopBottomPadding>
+            <Button
+              label="Download JSON"
+              onClick={getTokensForDownload}
+              fullWidth
+              secondary
+            />
+          </Stack>
+        </Panel>
+      );
+    }
+    else {
+      return (<></>);
+    }
+  }
+
   return (
     <>
       <Toast ref={toastRef} />
@@ -437,22 +446,7 @@ export const SettingsView = (props: ViewProps) => {
         hasLeftRightPadding={false}
       >
         <div className={styles.dynamicContent}>{selectRender()}</div>
-
-        <Panel
-          hasTopBottomPadding
-          hasLeftRightPadding
-          topBorder
-          bottomBorder={false}
-        >
-          <Stack hasTopBottomPadding direction="row" className={styles.about}>
-            <a href={config.docsLink} target="_blank">
-              <Text>Documentation</Text>
-            </a>
-            <a href={config.changelogLink} target="_blank">
-              <Text>v.1.0.0</Text>
-            </a>
-          </Stack>
-        </Panel>
+        <BottomBar />
       </Stack>
     </>
   );

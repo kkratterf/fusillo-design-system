@@ -11,6 +11,7 @@
   * {
     @apply border-default;
   }
+
   body {
     @apply font-sans bg-background text antialiased;
     font-synthesis-weight: none;

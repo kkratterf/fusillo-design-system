@@ -16,14 +16,6 @@
     "title": "Documentation",
     "type": "page"
   },
-  "showcase": {
-    "title": "Showcase",
-    "type": "page",
-    "theme": {
-      "typesetting": "article",
-      "layout": "full"
-    }
-  },
   "about": {
     "title": "About",
     "type": "page",

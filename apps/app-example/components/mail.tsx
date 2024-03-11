@@ -86,7 +86,7 @@ export function Mail({
           }}
           className={cn(
             isCollapsed &&
-              'min-w-[50px] transition-all duration-300 ease-in-out'
+              'max-w-[50px] transition-all duration-300 ease-in-out'
           )}
         >
           <div

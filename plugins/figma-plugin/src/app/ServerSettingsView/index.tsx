@@ -113,7 +113,7 @@ const viewsConfig = {
         id: "fileName",
         placeholder: "File name",
         type: "input",
-        value: "design.tokens.json",
+        value: "",
         required: true,
       },
       {
@@ -181,7 +181,7 @@ const viewsConfig = {
         id: "fileName",
         placeholder: "File name",
         type: "input",
-        value: "design.tokens.json",
+        value: "",
         required: true,
       },
       {
@@ -256,7 +256,7 @@ const viewsConfig = {
         id: "fileName",
         placeholder: "File name",
         type: "input",
-        value: "design.tokens.json",
+        value: "",
         required: true,
       },
       {
