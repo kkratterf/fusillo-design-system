@@ -32,9 +32,6 @@ First of all, duplicate a copy of the design system figma file from [figma commu
 
 Move the file to a team, and then under `assets` and `libraries` publish the design system.
 
-<img width="100%" alt="Screenshot 2024-03-12 alle 14 24 29" src="https://github.com/kkratterf/fusillo-design-system/assets/70836137/80bdeece-6ba6-4538-8a1b-d5a370498d79">
-<img width="100%" alt="Screenshot 2024-03-12 alle 14 24 52" src="https://github.com/kkratterf/fusillo-design-system/assets/70836137/8d46866d-3b1a-44bc-bd4d-d3d1c469f086">
-
 ## Figma Plugin 
 Description coming soon...
 
